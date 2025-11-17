@@ -1,0 +1,126 @@
+{
+  "@context": "https://schema.org",
+  "@type": "MedicalWebPage",
+  "@id": "https://www.physioactif.com/diagnostic-et-traitement/douleurs/reliee-au-cancer/#webpage",
+  "author": {
+    "@type": "Person",
+    "@id": "https://www.physioactif.com/equipe/alexis-gougeon/#person"
+  },
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      ".header_heading",
+      ".header_content .max-width-medium",
+      ".perks_content-right h2",
+      ".perks_content-right .w-richtext"
+    ]
+  },
+  "datePublished": "2025-09-26",
+  "url": "https://www.physioactif.com/diagnostic-et-traitement/douleurs/reliee-au-cancer/",
+  "name": "Soulagez vos douleurs liées au cancer",
+  "description": "Soulagez vos douleurs liées au cancer",
+  "inLanguage": [
+    "fr-CA"
+  ],
+  "isPartOf": {
+    "@id": "https://www.physioactif.com/#website"
+  },
+  "about": [
+    {
+      "@type": "DefinedTerm",
+      "name": "Douleur reliée au cancer",
+      "description": "Douleur physique causée ou augmentée par un cancer, pouvant être soulagée ou bien contrôlée dans 80 à 90% des cas avec un traitement approprié",
+      "sameAs": [
+        "https://fr.wikipedia.org/wiki/Cancer",
+        "https://en.wikipedia.org/wiki/Cancer_pain",
+        "https://www.wikidata.org/wiki/Q12078"
+      ]
+    },
+    {
+      "@type": "MedicalTherapy",
+      "name": "Physiothérapie",
+      "alternateName": [
+        "Physical therapy",
+        "Kinésithérapie",
+        "Fisioterapia"
+      ],
+      "sameAs": [
+        "https://www.physioactif.com/guide-complet/physiotherapie",
+        "https://www.wikidata.org/wiki/Q186005",
+        "https://en.wikipedia.org/wiki/Physical_therapy",
+        "https://fr.wikipedia.org/wiki/Kinésithérapie",
+        "https://meshb.nlm.nih.gov/record/ui?ui=D026761",
+        "https://www.merriam-webster.com/dictionary/physiotherapy",
+        "https://www.britannica.com/topic/physical-therapy"
+      ]
+    }
+  ],
+  "specialty": [
+    "Physiotherapy",
+    "Oncology Rehabilitation",
+    "Pain Management"
+  ],
+  "provider": {
+    "@id": "https://www.physioactif.com/#org"
+  },
+  "potentialAction": {
+    "@type": "ReserveAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://physioactif.clinicmaster.com/clinic-selection?lang=fr-CA",
+      "inLanguage": [
+        "fr-CA"
+      ]
+    },
+    "result": {
+      "@type": "Reservation",
+      "name": "Prendre rendez-vous"
+    }
+  },
+  "breadcrumb": {
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Accueil",
+        "item": "https://www.physioactif.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Diagnostic et traitement",
+        "item": "https://www.physioactif.com/diagnostic-et-traitement/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Douleurs",
+        "item": "https://www.physioactif.com/diagnostic-et-traitement/douleurs/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "Douleur liées au cancer",
+        "item": "https://www.physioactif.com/diagnostic-et-traitement/douleurs/reliee-au-cancer/"
+      }
+    ]
+  },
+  "mentions": [
+    {
+      "@id": "https://www.physioactif.com/services/deuxieme-avis-sur-diagnostic-et-traitement/#therapy"
+    },
+    {
+      "@id": "https://www.physioactif.com/services/programme-douleurs-persistantes/#therapy"
+    },
+    {
+      "@id": "https://www.physioactif.com/services/traitement-pour-engourdissement-et-nevralgies/#therapy"
+    },
+    {
+      "@id": "https://www.physioactif.com/services/traitement-pour-douleur-et-raideur-7-97-ans/#therapy"
+    },
+    {
+      "@id": "https://www.physioactif.com/services/pre-operatoire-et-post-operatoire/#therapy"
+    }
+  ]
+}

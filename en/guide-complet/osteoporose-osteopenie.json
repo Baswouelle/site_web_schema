@@ -1,0 +1,204 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "MedicalCondition",
+      "@id": "https://www.physioactif.com/en/guide-complet/osteoporose-osteopenie#condition",
+      "name": "Ostéoporose",
+      "alternateName": [
+        "Osteoporosis",
+        "low bone density",
+        "porous bones",
+        "bone loss"
+      ],
+      "description": "Condition médicale affectant le système musculosquelettique nécessitant une prise en charge en physiothérapie.",
+      "sameAs": [
+        "https://fr.wikipedia.org/wiki/Ostéoæporose",
+        "https://en.wikipedia.org/wiki/Osteoporosis",
+        "https://www.wikidata.org/wiki/Q165328",
+        "https://meshb.nlm.nih.gov/record/ui?ui=D010024",
+        "http://snomed.info/id/64859006"
+      ],
+      "code": [
+        {
+          "@type": "MedicalCode",
+          "code": "M80",
+          "codingSystem": "ICD-10"
+        },
+        {
+          "@type": "MedicalCode",
+          "code": "FB83",
+          "codingSystem": "ICD-11"
+        },
+        {
+          "@type": "MedicalCode",
+          "code": "C3298",
+          "codingSystem": "NCIt"
+        }
+      ]
+    },
+    {
+      "@type": "MedicalWebPage",
+      "@id": "https://www.physioactif.com/en/guide-complet/osteoporose-osteopenie#article",
+      "author": {
+        "@type": "Person",
+        "@id": "https://www.physioactif.com/en/equipe/ariel-desjardins-charbonneau/#person"
+      },
+      "datePublished": "2025-09-26",
+      "name": "Osteoporose Osteopenie - Guide Complet",
+      "headline": "Osteoporose Osteopenie: Symptômes, Causes, Diagnostic et Traitement en Physiothérapie",
+      "about": [
+        {
+          "@id": "https://www.physioactif.com/en/guide-complet/osteoporose-osteopenie#condition"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Physiothérapie",
+          "alternateName": [
+            "Physical therapy",
+            "Kinésithérapie",
+            "Fisioterapia"
+          ],
+          "sameAs": [
+            "https://www.physioactif.com/en/guide-complet/physiotherapie",
+            "https://www.wikidata.org/wiki/Q186005",
+            "https://en.wikipedia.org/wiki/Physical_therapy",
+            "https://fr.wikipedia.org/wiki/Kinésithérapie",
+            "https://meshb.nlm.nih.gov/record/ui?ui=D026761",
+            "https://www.merriam-webster.com/dictionary/physiotherapy",
+            "https://www.britannica.com/topic/physical-therapy"
+          ]
+        }
+      ],
+      "mainEntity": {
+        "@id": "https://www.physioactif.com/en/guide-complet/osteoporose-osteopenie#condition"
+      },
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [
+          ".header_heading",
+          ".header_content .text-style-muted.w-richtext",
+          ".section_article .text-rich-text h2"
+        ]
+      },
+      "specialty": [
+        "Physiotherapy",
+        "Musculoskeletal",
+        "SportsMedicine"
+      ],
+      "medicalAudience": [
+        {
+          "@type": "Patient"
+        },
+        {
+          "@type": "MedicalAudience",
+          "audienceType": "General Public"
+        }
+      ],
+      "reviewedBy": {
+        "@id": "https://www.physioactif.com/en/#org"
+      },
+      "provider": {
+        "@id": "https://www.physioactif.com/en/#org"
+      },
+      "inLanguage": [
+        "en-CA"
+      ],
+      "isPartOf": {
+        "@id": "https://www.physioactif.com/en/#website"
+      },
+      "mentions": [
+        {
+          "@type": "MedicalTherapy",
+          "name": "Physiothérapie",
+          "alternateName": [
+            "Physical therapy",
+            "Kinésithérapie",
+            "Fisioterapia"
+          ],
+          "sameAs": [
+            "https://www.physioactif.com/en/guide-complet/physiotherapie",
+            "https://www.wikidata.org/wiki/Q186005",
+            "https://en.wikipedia.org/wiki/Physical_therapy",
+            "https://fr.wikipedia.org/wiki/Kinésithérapie",
+            "https://meshb.nlm.nih.gov/record/ui?ui=D026761",
+            "https://www.merriam-webster.com/dictionary/physiotherapy",
+            "https://www.britannica.com/topic/physical-therapy"
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "name": "Arthrose de la hanche (Coxarthrose)",
+          "description": "Usure progressive du cartilage articulaire",
+          "sameAs": [
+            "https://fr.wikipedia.org/wiki/Arthrose_de_hanche",
+            "https://en.wikipedia.org/wiki/Hip_osteoarthritis",
+            "https://www.wikidata.org/wiki/Q452368",
+            "https://meshb.nlm.nih.gov/record/ui?ui=D015207"
+          ]
+        }
+      ]
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://www.physioactif.com/en/guide-complet/osteoporose-osteopenie#webpage",
+      "datePublished": "2025-09-26",
+      "url": "https://www.physioactif.com/en/guide-complet/osteoporose-osteopenie",
+      "name": "Osteoporose Osteopenie - Guide Complet | Physioactif",
+      "description": "Guide complet sur osteoporose osteopenie: causes, symptômes, diagnostic et traitements en physiothérapie par les experts de Physioactif.",
+      "mainEntity": {
+        "@id": "https://www.physioactif.com/en/guide-complet/osteoporose-osteopenie#condition"
+      },
+      "about": {
+        "@id": "https://www.physioactif.com/en/guide-complet/osteoporose-osteopenie#condition"
+      },
+      "breadcrumb": {
+        "@type": "BreadcrumbList",
+        "@id": "https://www.physioactif.com/en/guide-complet/osteoporose-osteopenie#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Accueil",
+            "item": "https://www.physioactif.com/en/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Guide Complet",
+            "item": "https://www.physioactif.com/en/guide-complet"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Osteoporose Osteopenie",
+            "item": "https://www.physioactif.com/en/guide-complet/osteoporose-osteopenie"
+          }
+        ]
+      },
+      "isPartOf": {
+        "@id": "https://www.physioactif.com/en/#website"
+      },
+      "inLanguage": [
+        "en-CA"
+      ],
+      "potentialAction": {
+        "@type": "ReadAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://www.physioactif.com/en/guide-complet/osteoporose-osteopenie",
+          "actionPlatform": [
+            "http://schema.org/DesktopWebPlatform",
+            "http://schema.org/MobileWebPlatform"
+          ]
+        }
+      },
+      "relatedLink": [
+        "https://physioactif.clinicmaster.com/clinic-selection?lang=fr-CA"
+      ],
+      "publisher": {
+        "@id": "https://www.physioactif.com/en/#org"
+      }
+    }
+  ]
+}

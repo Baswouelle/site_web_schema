@@ -1,0 +1,193 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "VideoObject",
+      "@id": "https://www.physioactif.com/videos-dexercise/stabilisation-cervicale-assis#video",
+      "name": "Stabilisation Cervicale Assis - Vidéo Physiothérapie",
+      "description": "Vidéo démonstration professionnelle de l'exercice stabilisation cervicale assis par les physiothérapeutes de Physioactif.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/vjqggwD3ZYg/maxresdefault.jpg",
+      "uploadDate": "2024-01-15",
+      "duration": "PT1M",
+      "publisher": {
+        "@id": "https://www.physioactif.com/#org"
+      },
+      "about": [
+        {
+          "@id": "https://www.physioactif.com/videos-dexercise/stabilisation-cervicale-assis#exercise"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Physiothérapie",
+          "alternateName": [
+            "Physical therapy",
+            "Kinésithérapie",
+            "Fisioterapia"
+          ],
+          "sameAs": [
+            "https://www.physioactif.com/guide-complet/physiotherapie",
+            "https://www.wikidata.org/wiki/Q186005",
+            "https://en.wikipedia.org/wiki/Physical_therapy",
+            "https://fr.wikipedia.org/wiki/Kinésithérapie",
+            "https://meshb.nlm.nih.gov/record/ui?ui=D026761",
+            "https://www.merriam-webster.com/dictionary/physiotherapy",
+            "https://www.britannica.com/topic/physical-therapy"
+          ]
+        }
+      ],
+      "embedUrl": "https://www.youtube.com/embed/vjqggwD3ZYg",
+      "contentUrl": "https://www.youtube.com/watch?v=vjqggwD3ZYg"
+    },
+    {
+      "@type": "ExercisePlan",
+      "@id": "https://www.physioactif.com/videos-dexercise/stabilisation-cervicale-assis#exercise",
+      "name": "Stabilisation Cervicale Assis",
+      "description": "Exercice thérapeutique pour la région ciblée visant à améliorer la mobilité et la fonction. Particulièrement efficace pour traiter Cervicalgie, Cervico-brachialgie ou radiculopathie cervicale, Torticolis. Cet exercice aide à corriger les déséquilibres musculaires, améliorer la posture et réduire la douleur. Recommandé dans le cadre d'un programme de réadaptation en physiothérapie.",
+      "category": "Tête, mâchoire, visage",
+      "activityDuration": "PT1M",
+      "exerciseType": "PhysicalActivity",
+      "associatedAnatomicalStructure": {
+        "@type": "AnatomicalStructure",
+        "name": "Tête, mâchoire, visage"
+      },
+      "isPartOf": {
+        "@id": "https://www.physioactif.com/#org"
+      },
+      "provider": {
+        "@id": "https://www.physioactif.com/#org"
+      },
+      "inLanguage": [
+        "fr-CA"
+      ],
+      "url": "https://www.physioactif.com/videos-dexercise/stabilisation-cervicale-assis",
+      "exerciseRelatedCondition": [
+        {
+          "@id": "https://www.physioactif.com/guide-complet/cervicalgie#condition"
+        },
+        {
+          "@id": "https://www.physioactif.com/guide-complet/cervico-brachialgie-ou-radiculopathie-cervicale#condition"
+        },
+        {
+          "@id": "https://www.physioactif.com/guide-complet/torticolis#condition"
+        }
+      ],
+      "targetArea": [
+        {
+          "@type": "AnatomicalStructure",
+          "name": "Musculoskeletal system"
+        }
+      ],
+      "intensity": {
+        "@type": "QuantitativeValue",
+        "value": "Moderate",
+        "description": "Modéré - Convient aux personnes avec mobilité de base"
+      },
+      "repetitions": {
+        "@type": "QuantitativeValue",
+        "value": "3-5",
+        "unitText": "répétitions par côté"
+      },
+      "restPeriods": "PT30S",
+      "workload": {
+        "@type": "Energy",
+        "value": "Light to moderate"
+      }
+    },
+    {
+      "@type": "MedicalWebPage",
+      "@id": "https://www.physioactif.com/videos-dexercise/stabilisation-cervicale-assis#webpage",
+      "datePublished": "2025-09-26",
+      "name": "Stabilisation Cervicale Assis - Vidéo d'exercice",
+      "headline": "Stabilisation Cervicale Assis - Exercice de physiothérapie en vidéo | Physioactif",
+      "description": "Exercice thérapeutique pour la région ciblée visant à améliorer la mobilité et la fonction. Particulièrement efficace pour traiter Cervicalgie, Cervico-brachialgie ou radiculopathie cervicale, Torticolis. Cet exercice aide à corriger les déséquilibres musculaires, améliorer la posture et réduire la douleur. Recommandé dans le cadre d'un programme de réadaptation en physiothérapie.",
+      "about": [
+        {
+          "@id": "https://www.physioactif.com/videos-dexercise/stabilisation-cervicale-assis#exercise"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Physiothérapie",
+          "alternateName": [
+            "Physical therapy",
+            "Kinésithérapie",
+            "Fisioterapia"
+          ],
+          "sameAs": [
+            "https://www.physioactif.com/guide-complet/physiotherapie",
+            "https://www.wikidata.org/wiki/Q186005",
+            "https://en.wikipedia.org/wiki/Physical_therapy",
+            "https://fr.wikipedia.org/wiki/Kinésithérapie",
+            "https://meshb.nlm.nih.gov/record/ui?ui=D026761",
+            "https://www.merriam-webster.com/dictionary/physiotherapy",
+            "https://www.britannica.com/topic/physical-therapy"
+          ]
+        }
+      ],
+      "mainEntity": {
+        "@id": "https://www.physioactif.com/videos-dexercise/stabilisation-cervicale-assis#exercise"
+      },
+      "isPartOf": {
+        "@id": "https://www.physioactif.com/#website"
+      },
+      "specialty": [
+        "Physiotherapy",
+        "Musculoskeletal",
+        "SportsMedicine"
+      ],
+      "inLanguage": [
+        "fr-CA"
+      ],
+      "url": "https://www.physioactif.com/videos-dexercise/stabilisation-cervicale-assis",
+      "breadcrumb": {
+        "@id": "https://www.physioactif.com/videos-dexercise/stabilisation-cervicale-assis#breadcrumb"
+      },
+      "video": {
+        "@id": "https://www.physioactif.com/videos-dexercise/stabilisation-cervicale-assis#video"
+      },
+      "mentions": [
+        {
+          "@type": "DefinedTerm",
+          "name": "Système musculo-squelettique",
+          "description": "Système d'organes qui donne aux humains la capacité de bouger en utilisant leurs systèmes musculaire et squelettique",
+          "sameAs": [
+            "https://fr.wikipedia.org/wiki/Appareil_locomoteur",
+            "https://en.wikipedia.org/wiki/Human_musculoskeletal_system",
+            "https://www.wikidata.org/wiki/Q726543",
+            "https://meshb.nlm.nih.gov/record/ui?ui=D009141"
+          ]
+        }
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [
+          ".header_heading",
+          ".header_content .text-style-muted",
+          ".section_article .text-rich-text h2"
+        ]
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.physioactif.com/videos-dexercise/stabilisation-cervicale-assis#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Accueil",
+          "item": "https://www.physioactif.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Vidéos d'exercices",
+          "item": "https://www.physioactif.com/videos-exercices"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Stabilisation Cervicale Assis"
+        }
+      ]
+    }
+  ]
+}

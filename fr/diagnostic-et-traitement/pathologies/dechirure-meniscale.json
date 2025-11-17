@@ -1,0 +1,138 @@
+{
+  "@context": "https://schema.org",
+  "@type": "MedicalWebPage",
+  "@id": "https://www.physioactif.com/diagnostic-et-traitement/pathologies/dechirure-meniscale/#webpage",
+  "author": {
+    "@type": "Person",
+    "@id": "https://www.physioactif.com/equipe/alexis-gougeon/#person"
+  },
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      ".header_heading",
+      ".header_content .max-width-medium",
+      ".perks_content-right h2",
+      ".perks_content-right .w-richtext"
+    ]
+  },
+  "datePublished": "2025-09-26",
+  "url": "https://www.physioactif.com/diagnostic-et-traitement/pathologies/dechirure-meniscale/",
+  "name": "Retrouvez votre stabilité et votre confiance au genou",
+  "description": "Retrouvez votre stabilité et votre confiance au genou",
+  "inLanguage": [
+    "fr-CA"
+  ],
+  "isPartOf": {
+    "@id": "https://www.physioactif.com/#website"
+  },
+  "about": [
+    {
+      "@type": "DefinedTerm",
+      "name": "Lésion méniscale",
+      "description": "Déchirure du cartilage méniscal du genou causée par traumatisme ou dégénérescence",
+      "sameAs": [
+        "https://fr.wikipedia.org/wiki/Lésion_méniscale",
+        "https://en.wikipedia.org/wiki/Meniscus_tear",
+        "https://www.wikidata.org/wiki/Q2066853",
+        "https://meshb.nlm.nih.gov/record/ui?ui=D000070600"
+      ]
+    },
+    {
+      "@type": "MedicalCondition",
+      "name": "Dechirure Meniscale"
+    },
+    {
+      "@type": "MedicalTherapy",
+      "name": "Physiothérapie",
+      "alternateName": [
+        "Physical therapy",
+        "Kinésithérapie",
+        "Fisioterapia"
+      ],
+      "sameAs": [
+        "https://www.physioactif.com/guide-complet/physiotherapie",
+        "https://www.wikidata.org/wiki/Q186005",
+        "https://en.wikipedia.org/wiki/Physical_therapy",
+        "https://fr.wikipedia.org/wiki/Kinésithérapie",
+        "https://meshb.nlm.nih.gov/record/ui?ui=D026761",
+        "https://www.merriam-webster.com/dictionary/physiotherapy",
+        "https://www.britannica.com/topic/physical-therapy"
+      ]
+    }
+  ],
+  "specialty": [
+    "Physiotherapy",
+    "Sports Medicine",
+    "Musculoskeletal"
+  ],
+  "provider": {
+    "@id": "https://www.physioactif.com/#org"
+  },
+  "potentialAction": {
+    "@type": "ReserveAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://physioactif.clinicmaster.com/clinic-selection?lang=fr-CA",
+      "inLanguage": [
+        "fr-CA"
+      ]
+    },
+    "result": {
+      "@type": "Reservation",
+      "name": "Prendre rendez-vous"
+    }
+  },
+  "breadcrumb": {
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Accueil",
+        "item": "https://www.physioactif.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Diagnostic et traitement",
+        "item": "https://www.physioactif.com/diagnostic-et-traitement/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Pathologies",
+        "item": "https://www.physioactif.com/diagnostic-et-traitement/pathologies/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "Dechirure Meniscale",
+        "item": "https://www.physioactif.com/diagnostic-et-traitement/pathologies/dechirure-meniscale/"
+      }
+    ]
+  },
+  "mentions": [
+    {
+      "@id": "https://www.physioactif.com/services/analyse-biomecanique-de-la-course-a-pied/#therapy"
+    },
+    {
+      "@id": "https://www.physioactif.com/services/deuxieme-avis-sur-diagnostic-et-traitement/#therapy"
+    },
+    {
+      "@id": "https://www.physioactif.com/services/physiotherapie-sportive/#therapy"
+    },
+    {
+      "@id": "https://www.physioactif.com/services/pre-operatoire-et-post-operatoire/#therapy"
+    },
+    {
+      "@id": "https://www.physioactif.com/services/programme-douleurs-persistantes/#therapy"
+    },
+    {
+      "@id": "https://www.physioactif.com/services/traitement-pour-douleur-et-raideur-7-97-ans/#therapy"
+    },
+    {
+      "@id": "https://www.physioactif.com/services/traitement-pour-engourdissement-et-nevralgies/#therapy"
+    }
+  ],
+  "relatedLink": "https://www.physioactif.com/guide-complet/dechirure-meniscale"
+}

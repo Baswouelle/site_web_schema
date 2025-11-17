@@ -1,0 +1,369 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "@id": "https://www.physioactif.com/en/clinique/physioactif-vaudreuil-dorion/#webpage",
+      "datePublished": "2025-09-26",
+      "url": "https://www.physioactif.com/en/clinique/physioactif-vaudreuil-dorion",
+      "name": "Physioactif Vaudreuil-Dorion – Physiothérapie",
+      "about": {
+        "@id": "https://www.physioactif.com/en/clinique/physioactif-vaudreuil-dorion/#clinic"
+      },
+      "isPartOf": {
+        "@id": "https://www.physioactif.com/en/#website"
+      },
+      "inLanguage": [
+        "en-CA"
+      ],
+      "publisher": {
+        "@id": "https://www.physioactif.com/en/#org"
+      },
+      "breadcrumb": {
+        "@id": "https://www.physioactif.com/en/clinique/physioactif-vaudreuil-dorion/#breadcrumb"
+      }
+    },
+    {
+      "@type": "MedicalClinic",
+      "@id": "https://www.physioactif.com/en/clinique/physioactif-vaudreuil-dorion/#clinic",
+      "url": "https://www.physioactif.com/en/clinique/physioactif-vaudreuil-dorion",
+      "name": "Physioactif Vaudreuil-Dorion",
+      "alternateName": [
+        "Physioactif Vaudreuil",
+        "Clinique Physioactif Vaudreuil"
+      ],
+      "branchOf": {
+        "@id": "https://www.physioactif.com/en/#org"
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "21 Bd de la Cité-des-Jeunes, Bureau 240",
+        "addressLocality": "Vaudreuil-Dorion",
+        "addressRegion": "QC",
+        "postalCode": "J7V 0N3",
+        "addressCountry": "CA"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": "45.41421246861083",
+        "longitude": "-74.02574797116513"
+      },
+      "telephone": "+14503190157",
+      "faxNumber": "+14503190161",
+      "email": "vaudreuil@physioactif.com",
+      "areaServed": {
+        "@type": "City",
+        "name": "Vaudreuil-Dorion"
+      },
+      "medicalSpecialty": [
+        "Physiotherapy",
+        "SportsMedicine",
+        "Musculoskeletal"
+      ],
+      "healthPlanNetworkId": [
+        "Beneva",
+        "Canada Vie",
+        "Desjardins Assurances",
+        "Green Shield Canada",
+        "Manuvie",
+        "Sun Life",
+        "CNESST",
+        "SAAQ",
+        "MÉDIC Construction"
+      ],
+      "priceRange": "$$",
+      "paymentAccepted": [
+        "Cash",
+        "Credit Card",
+        "Debit Card"
+      ],
+      "currenciesAccepted": "CAD",
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "Monday",
+          "opens": "07:00",
+          "closes": "20:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "Tuesday",
+          "opens": "07:00",
+          "closes": "20:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "Wednesday",
+          "opens": "07:00",
+          "closes": "20:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "Thursday",
+          "opens": "07:00",
+          "closes": "20:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "Friday",
+          "opens": "07:00",
+          "closes": "18:00"
+        }
+      ],
+      "amenityFeature": [
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Accès en fauteuil roulant",
+          "value": true
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Salle de bain accessible",
+          "value": true
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Stationnement disponible",
+          "value": true
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Ascenseur",
+          "value": true
+        }
+      ],
+      "isAcceptingNewPatients": true,
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "worstRating": 1,
+        "bestRating": 5,
+        "ratingValue": "4.9",
+        "reviewCount": "185"
+      },
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://cdn.prod.website-files.com/670e84ccd653d18590687563/686e75beb7bba56788ef9e8e_3a1bb8f47a53784d9a4e821a7b003a6c_Physiothe%CC%81rapie%20pour%20douleurs.avif",
+        "width": 1200,
+        "height": 800,
+        "caption": "Clinique Physioactif Vaudreuil-Dorion - Physiothérapie"
+      },
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Services de physiothérapie",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "@id": "https://www.physioactif.com/en/services/traitement-pour-douleur-et-raideur-7-97-ans/#offer"
+          },
+          {
+            "@type": "Offer",
+            "@id": "https://www.physioactif.com/en/services/traitement-pour-engourdissement-et-nevralgies/#offer"
+          },
+          {
+            "@type": "Offer",
+            "@id": "https://www.physioactif.com/en/services/programme-douleurs-persistantes/#offer"
+          },
+          {
+            "@type": "Offer",
+            "@id": "https://www.physioactif.com/en/services/deuxieme-avis-sur-diagnostic-et-traitement/#offer"
+          },
+          {
+            "@type": "Offer",
+            "@id": "https://www.physioactif.com/en/services/pre-operatoire-et-post-operatoire/#offer"
+          },
+          {
+            "@type": "Offer",
+            "@id": "https://www.physioactif.com/en/services/incontinence-et-douleurs-genitales-homme-et-femme/#offer"
+          },
+          {
+            "@type": "Offer",
+            "@id": "https://www.physioactif.com/en/services/femmes-enceintes-et-post-partum/#offer"
+          },
+          {
+            "@type": "Offer",
+            "@id": "https://www.physioactif.com/en/services/reeducation-vestibulaire-pour-vertiges-et-etourdissements/#offer"
+          },
+          {
+            "@type": "Offer",
+            "@id": "https://www.physioactif.com/en/services/physiotherapie-pediatrique-0-7-ans-kuu3c/#offer"
+          },
+          {
+            "@type": "Offer",
+            "@id": "https://www.physioactif.com/en/services/physiotherapie-sportive/#offer"
+          },
+          {
+            "@type": "Offer",
+            "@id": "https://www.physioactif.com/en/services/analyse-biomecanique-de-la-course-a-pied/#offer"
+          },
+          {
+            "@type": "Offer",
+            "@id": "https://www.physioactif.com/en/services/accident-de-la-route-saaq/#offer"
+          },
+          {
+            "@type": "Offer",
+            "@id": "https://www.physioactif.com/en/services/accident-du-travail-cnesst/#offer"
+          },
+          {
+            "@type": "Offer",
+            "@id": "https://www.physioactif.com/en/services/victime-acte-criminel-ivac/#offer"
+          },
+          {
+            "@type": "Offer",
+            "@id": "https://www.physioactif.com/en/services/ancien-combattant/#offer"
+          }
+        ]
+      },
+      "potentialAction": {
+        "@type": "ReserveAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://physioactif.clinicmaster.com/landing?clinicId=2281"
+        },
+        "result": {
+          "@type": "Reservation",
+          "name": "Rendez-vous en physiothérapie"
+        }
+      },
+      "contactPoint": [
+        {
+          "@type": "ContactPoint",
+          "telephone": "+14503190157",
+          "contactType": "Reception",
+          "areaServed": "CA",
+          "availableLanguage": [
+            "French",
+            "English"
+          ]
+        }
+      ],
+      "sameAs": [
+        "https://maps.app.goo.gl/H8o8Dver5yxsN4rc6",
+        "https://www.yelp.ca/biz/physioactif-clinique-de-physioth%C3%A9rapie-vaudreuil-dorion-vaudreuil-dorion",
+        "https://www.pagesjaunes.ca/bus/Quebec/Vaudreuil-Dorion/Physioactif-Vaudreuil-physiotherapie-Vaudreuil-Dorion/102936340.html"
+      ],
+      "employee": [
+        {
+          "@id": "https://www.physioactif.com/en/equipe/amelie-elliott/#person"
+        },
+        {
+          "@id": "https://www.physioactif.com/en/equipe/annick-de-buhan/#person"
+        },
+        {
+          "@id": "https://www.physioactif.com/en/equipe/philippe-paradis/#person"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Est-ce que la physiothérapie peut m'aider?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Oui. La physiothérapie traite les douleurs et blessures touchant les structures qui permettent le mouvement. Nous aidons, entre autres, pour les douleurs au dos, maux de tête, commotions cérébrales, vertiges, incontinence, douleurs sexuelles, entorses, tendinites, sciatalgie, hernies discales, fasciite plantaire, arthrose et blessures sportives."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Comment fonctionne la physiothérapie?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Elle combine exercices thérapeutiques, conseils personnalisés, changements d'habitudes de vie et thérapies manuelles. Lors de la première rencontre, un physiothérapeute fait une évaluation complète, établit un diagnostic et élabore avec vous un plan pour atteindre vos objectifs."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Est-ce que j'ai besoin d'une prescription?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Non. Aucune prescription médicale n'est requise pour consulter, mais certaines assurances l'exigent pour le remboursement. Vérifiez auprès de votre assureur (Beneva, Canada Vie, Desjardins, GSC, Manuvie, Sun Life, MÉDIC Construction, etc.)."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Prenez-vous les assurances et acceptez-vous les cas d'accidents de travail ou de la route?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Oui. Nous facturons directement la plupart des assurances privées et acceptons les dossiers CNESST (accident de travail) et SAAQ (accident de la route) — ceux-ci nécessitent une prescription médicale."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Quelle est la différence entre les divers professionnels de santé?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Le physiothérapeute (formation universitaire) combine exercices et thérapie manuelle; l'ostéopathe s'appuie sur la capacité du corps à se guérir; le chiropraticien fait des ajustements vertébraux; le massothérapeute agit sur les muscles; le kinésiologue optimise la performance; l'acupuncteur stimule l'énergie vitale « Qi »."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "J'ai mal depuis longtemps, est-ce qu'il est trop tard?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Il n'est jamais trop tard. Nous aidons régulièrement des patients souffrant depuis plusieurs années à retrouver du confort et de la mobilité."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "La physiothérapie ne m'a pas aidé par le passé, y a-t-il encore de l'espoir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Oui. Chez Physioactif, notre approche personnalisée permet souvent d'obtenir des résultats là où d'autres interventions ont échoué."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Comment savoir si je suis pris en charge par de la bonne physiothérapie?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Une bonne physiothérapie implique l'implication du thérapeute à chaque séance, un plan clair, des exercices actifs, et une approche globale de votre condition (sommeil, stress, etc.)."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Comment se déroule une évaluation chez Physioactif?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Un questionnaire santé, une discussion de vos symptômes, un examen physique, un diagnostic, puis un plan personnalisé avec exercices à faire à la maison."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Comment se déroule un traitement de physiothérapie chez Physioactif?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Chaque traitement comprend un suivi de vos progrès, l'ajustement des exercices, une réévaluation, et des techniques manuelles adaptées — toujours dans une approche active centrée sur votre autonomie."
+          }
+        }
+      ],
+      "inLanguage": [
+        "en-CA"
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.physioactif.com/en/clinique/physioactif-vaudreuil-dorion/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Accueil",
+          "item": "https://www.physioactif.com/en/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Nos cliniques",
+          "item": "https://www.physioactif.com/en/clinique/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Physioactif Vaudreuil-Dorion – Physiothérapie",
+          "item": "https://www.physioactif.com/en/clinique/physioactif-vaudreuil-dorion"
+        }
+      ]
+    }
+  ]
+}

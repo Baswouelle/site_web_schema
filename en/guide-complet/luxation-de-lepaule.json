@@ -1,0 +1,201 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "MedicalCondition",
+      "@id": "https://www.physioactif.com/en/guide-complet/luxation-de-lepaule#condition",
+      "name": "Luxation de l'épaule",
+      "alternateName": [
+        "Shoulder dislocation",
+        "dislocated shoulder",
+        "épaule luxée",
+        "instabilité de l'épaule",
+        "glenohumeral dislocation"
+      ],
+      "description": "Condition médicale affectant le système musculosquelettique nécessitant une prise en charge en physiothérapie.",
+      "sameAs": [
+        "https://fr.wikipedia.org/wiki/Luxation_de_l'épaule",
+        "https://en.wikipedia.org/wiki/Dislocated_shoulder",
+        "https://www.wikidata.org/wiki/Q1073252",
+        "https://meshb.nlm.nih.gov/record/ui?ui=D012783",
+        "http://snomed.info/id/16356006"
+      ],
+      "code": [
+        {
+          "@type": "MedicalCode",
+          "code": "S43.0",
+          "codingSystem": "ICD-10"
+        },
+        {
+          "@type": "MedicalCode",
+          "code": "NE40.0",
+          "codingSystem": "ICD-11"
+        }
+      ]
+    },
+    {
+      "@type": "MedicalWebPage",
+      "@id": "https://www.physioactif.com/en/guide-complet/luxation-de-lepaule#article",
+      "author": {
+        "@type": "Person",
+        "@id": "https://www.physioactif.com/en/equipe/ariel-desjardins-charbonneau/#person"
+      },
+      "datePublished": "2025-09-26",
+      "name": "Luxation De Lepaule - Guide Complet",
+      "headline": "Luxation De Lepaule: Symptômes, Causes, Diagnostic et Traitement en Physiothérapie",
+      "about": [
+        {
+          "@id": "https://www.physioactif.com/en/guide-complet/luxation-de-lepaule#condition"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Physiothérapie",
+          "alternateName": [
+            "Physical therapy",
+            "Kinésithérapie",
+            "Fisioterapia"
+          ],
+          "sameAs": [
+            "https://www.physioactif.com/en/guide-complet/physiotherapie",
+            "https://www.wikidata.org/wiki/Q186005",
+            "https://en.wikipedia.org/wiki/Physical_therapy",
+            "https://fr.wikipedia.org/wiki/Kinésithérapie",
+            "https://meshb.nlm.nih.gov/record/ui?ui=D026761",
+            "https://www.merriam-webster.com/dictionary/physiotherapy",
+            "https://www.britannica.com/topic/physical-therapy"
+          ]
+        }
+      ],
+      "mainEntity": {
+        "@id": "https://www.physioactif.com/en/guide-complet/luxation-de-lepaule#condition"
+      },
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [
+          ".header_heading",
+          ".header_content .text-style-muted.w-richtext",
+          ".section_article .text-rich-text h2"
+        ]
+      },
+      "specialty": [
+        "Physiotherapy",
+        "Musculoskeletal",
+        "SportsMedicine"
+      ],
+      "medicalAudience": [
+        {
+          "@type": "Patient"
+        },
+        {
+          "@type": "MedicalAudience",
+          "audienceType": "General Public"
+        }
+      ],
+      "reviewedBy": {
+        "@id": "https://www.physioactif.com/en/#org"
+      },
+      "provider": {
+        "@id": "https://www.physioactif.com/en/#org"
+      },
+      "inLanguage": [
+        "en-CA"
+      ],
+      "isPartOf": {
+        "@id": "https://www.physioactif.com/en/#website"
+      },
+      "mentions": [
+        {
+          "@type": "MedicalTherapy",
+          "name": "Physiothérapie",
+          "alternateName": [
+            "Physical therapy",
+            "Kinésithérapie",
+            "Fisioterapia"
+          ],
+          "sameAs": [
+            "https://www.physioactif.com/en/guide-complet/physiotherapie",
+            "https://www.wikidata.org/wiki/Q186005",
+            "https://en.wikipedia.org/wiki/Physical_therapy",
+            "https://fr.wikipedia.org/wiki/Kinésithérapie",
+            "https://meshb.nlm.nih.gov/record/ui?ui=D026761",
+            "https://www.merriam-webster.com/dictionary/physiotherapy",
+            "https://www.britannica.com/topic/physical-therapy"
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "name": "Luxation de l'épaule",
+          "description": "Une luxation de l'épaule est un déplacement complet de la tête humérale hors de la cavité glénoïde, généralement causé par un traumatisme violent, créant une instabilité articulaire.",
+          "sameAs": [
+            "https://fr.wikipedia.org/wiki/Luxation_de_l'épaule",
+            "https://en.wikipedia.org/wiki/Dislocated_shoulder",
+            "https://www.wikidata.org/wiki/Q1073252",
+            "https://meshb.nlm.nih.gov/record/ui?ui=D012783",
+            "https://www.merriam-webster.com/medical/dislocation"
+          ]
+        }
+      ]
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://www.physioactif.com/en/guide-complet/luxation-de-lepaule#webpage",
+      "datePublished": "2025-09-26",
+      "url": "https://www.physioactif.com/en/guide-complet/luxation-de-lepaule",
+      "name": "Luxation De Lepaule - Guide Complet | Physioactif",
+      "description": "Guide complet sur luxation de lepaule: causes, symptômes, diagnostic et traitements en physiothérapie par les experts de Physioactif.",
+      "mainEntity": {
+        "@id": "https://www.physioactif.com/en/guide-complet/luxation-de-lepaule#condition"
+      },
+      "about": {
+        "@id": "https://www.physioactif.com/en/guide-complet/luxation-de-lepaule#condition"
+      },
+      "breadcrumb": {
+        "@type": "BreadcrumbList",
+        "@id": "https://www.physioactif.com/en/guide-complet/luxation-de-lepaule#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Accueil",
+            "item": "https://www.physioactif.com/en/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Guide Complet",
+            "item": "https://www.physioactif.com/en/guide-complet"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Luxation De Lepaule",
+            "item": "https://www.physioactif.com/en/guide-complet/luxation-de-lepaule"
+          }
+        ]
+      },
+      "isPartOf": {
+        "@id": "https://www.physioactif.com/en/#website"
+      },
+      "inLanguage": [
+        "en-CA"
+      ],
+      "potentialAction": {
+        "@type": "ReadAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://www.physioactif.com/en/guide-complet/luxation-de-lepaule",
+          "actionPlatform": [
+            "http://schema.org/DesktopWebPlatform",
+            "http://schema.org/MobileWebPlatform"
+          ]
+        }
+      },
+      "relatedLink": [
+        "https://physioactif.clinicmaster.com/clinic-selection?lang=fr-CA"
+      ],
+      "publisher": {
+        "@id": "https://www.physioactif.com/en/#org"
+      }
+    }
+  ]
+}

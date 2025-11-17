@@ -1,0 +1,218 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "MedicalCondition",
+      "@id": "https://www.physioactif.com/en/guide-complet/nevrome-de-morton#condition",
+      "name": "Névrome de Morton",
+      "alternateName": [
+        "Morton's neuroma",
+        "Intermetatarsal neuroma",
+        "Morton metatarsalgia",
+        "Interdigital neuroma"
+      ],
+      "description": "Le névrome de Morton est un névrome bénin d'un nerf plantaire intermétatarsien, le plus souvent des deuxième et troisième espaces intermétatarsiens, affectant le pied. Bien que la condition soit étiquetée comme névrome, de nombreuses sources ne la considèrent pas comme une véritable tumeur, mais plutôt comme un fibrome périneural. Il s'agit d'une neuropathie dégénérative non néoplasique avec une forte prédilection pour le troisième nerf interdigital du pied. L'échographie démontre avec précision un épaississement du nerf interdigital dans l'espace interdigital supérieur à 3 mm, diagnostic d'un névrome de Morton. Le code ICD-10-CM pour le névrome de Morton est G57.6-, applicable à la métatarsalgie de Morton et au névrome interdigital du membre inférieur.",
+      "code": [
+        {
+          "@type": "MedicalCode",
+          "code": "G57.6",
+          "codingSystem": "ICD-10"
+        },
+        {
+          "@type": "MedicalCode",
+          "code": "D000070607",
+          "codingSystem": "MeSH"
+        }
+      ],
+      "sameAs": [
+        "https://fr.wikipedia.org/wiki/Névrome_de_Morton",
+        "https://en.wikipedia.org/wiki/Morton's_neuroma",
+        "https://www.wikidata.org/wiki/Q1948740",
+        "https://meshb.nlm.nih.gov/record/ui?ui=D000070607",
+        "https://www.mayoclinic.org/diseases-conditions/mortons-neuroma/symptoms-causes/syc-20351935",
+        "http://snomed.info/id/88996001"
+      ],
+      "possibleTreatment": {
+        "@type": "MedicalTherapy",
+        "name": "Physiothérapie",
+        "alternateName": [
+          "Physical therapy",
+          "Kinésithérapie",
+          "Fisioterapia"
+        ],
+        "sameAs": [
+          "https://www.physioactif.com/en/guide-complet/physiotherapie",
+          "https://www.wikidata.org/wiki/Q186005",
+          "https://en.wikipedia.org/wiki/Physical_therapy",
+          "https://fr.wikipedia.org/wiki/Kinésithérapie",
+          "https://meshb.nlm.nih.gov/record/ui?ui=D026761",
+          "https://www.merriam-webster.com/dictionary/physiotherapy",
+          "https://www.britannica.com/topic/physical-therapy"
+        ]
+      }
+    },
+    {
+      "@type": "MedicalWebPage",
+      "@id": "https://www.physioactif.com/en/guide-complet/nevrome-de-morton#article",
+      "author": {
+        "@type": "Person",
+        "@id": "https://www.physioactif.com/en/equipe/ariel-desjardins-charbonneau/#person"
+      },
+      "datePublished": "2025-09-26",
+      "name": "Nevrome De Morton - Guide Complet",
+      "headline": "Nevrome De Morton: Symptômes, Causes, Diagnostic et Traitement en Physiothérapie",
+      "about": [
+        {
+          "@id": "https://www.physioactif.com/en/guide-complet/nevrome-de-morton#condition"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Physiothérapie",
+          "alternateName": [
+            "Physical therapy",
+            "Kinésithérapie",
+            "Fisioterapia"
+          ],
+          "sameAs": [
+            "https://www.physioactif.com/en/guide-complet/physiotherapie",
+            "https://www.wikidata.org/wiki/Q186005",
+            "https://en.wikipedia.org/wiki/Physical_therapy",
+            "https://fr.wikipedia.org/wiki/Kinésithérapie",
+            "https://meshb.nlm.nih.gov/record/ui?ui=D026761",
+            "https://www.merriam-webster.com/dictionary/physiotherapy",
+            "https://www.britannica.com/topic/physical-therapy"
+          ]
+        }
+      ],
+      "mainEntity": {
+        "@id": "https://www.physioactif.com/en/guide-complet/nevrome-de-morton#condition"
+      },
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [
+          ".header_heading",
+          ".header_content .text-style-muted.w-richtext",
+          ".section_article .text-rich-text h2"
+        ]
+      },
+      "specialty": [
+        "Physiotherapy",
+        "Musculoskeletal",
+        "SportsMedicine"
+      ],
+      "medicalAudience": [
+        {
+          "@type": "Patient"
+        },
+        {
+          "@type": "MedicalAudience",
+          "audienceType": "General Public"
+        }
+      ],
+      "reviewedBy": {
+        "@id": "https://www.physioactif.com/en/#org"
+      },
+      "provider": {
+        "@id": "https://www.physioactif.com/en/#org"
+      },
+      "inLanguage": [
+        "en-CA"
+      ],
+      "isPartOf": {
+        "@id": "https://www.physioactif.com/en/#website"
+      },
+      "mentions": [
+        {
+          "@type": "MedicalTherapy",
+          "name": "Physiothérapie",
+          "alternateName": [
+            "Physical therapy",
+            "Kinésithérapie",
+            "Fisioterapia"
+          ],
+          "sameAs": [
+            "https://www.physioactif.com/en/guide-complet/physiotherapie",
+            "https://www.wikidata.org/wiki/Q186005",
+            "https://en.wikipedia.org/wiki/Physical_therapy",
+            "https://fr.wikipedia.org/wiki/Kinésithérapie",
+            "https://meshb.nlm.nih.gov/record/ui?ui=D026761",
+            "https://www.merriam-webster.com/dictionary/physiotherapy",
+            "https://www.britannica.com/topic/physical-therapy"
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "name": "Fasciite plantaire",
+          "description": "Inflammation du fascia plantaire sous le pied",
+          "sameAs": [
+            "https://fr.wikipedia.org/wiki/Aponévrosite_plantaire",
+            "https://en.wikipedia.org/wiki/Plantar_fasciitis",
+            "https://www.wikidata.org/wiki/Q52851",
+            "https://meshb.nlm.nih.gov/record/ui?ui=D036981"
+          ]
+        }
+      ]
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://www.physioactif.com/en/guide-complet/nevrome-de-morton#webpage",
+      "datePublished": "2025-09-26",
+      "url": "https://www.physioactif.com/en/guide-complet/nevrome-de-morton",
+      "name": "Nevrome De Morton - Guide Complet | Physioactif",
+      "description": "Guide complet sur nevrome de morton: causes, symptômes, diagnostic et traitements en physiothérapie par les experts de Physioactif.",
+      "mainEntity": {
+        "@id": "https://www.physioactif.com/en/guide-complet/nevrome-de-morton#condition"
+      },
+      "about": {
+        "@id": "https://www.physioactif.com/en/guide-complet/nevrome-de-morton#condition"
+      },
+      "breadcrumb": {
+        "@type": "BreadcrumbList",
+        "@id": "https://www.physioactif.com/en/guide-complet/nevrome-de-morton#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Accueil",
+            "item": "https://www.physioactif.com/en/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Guide Complet",
+            "item": "https://www.physioactif.com/en/guide-complet"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Nevrome De Morton",
+            "item": "https://www.physioactif.com/en/guide-complet/nevrome-de-morton"
+          }
+        ]
+      },
+      "isPartOf": {
+        "@id": "https://www.physioactif.com/en/#website"
+      },
+      "inLanguage": [
+        "en-CA"
+      ],
+      "potentialAction": {
+        "@type": "ReadAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://www.physioactif.com/en/guide-complet/nevrome-de-morton",
+          "actionPlatform": [
+            "http://schema.org/DesktopWebPlatform",
+            "http://schema.org/MobileWebPlatform"
+          ]
+        }
+      },
+      "relatedLink": [
+        "https://physioactif.clinicmaster.com/clinic-selection?lang=fr-CA"
+      ],
+      "publisher": {
+        "@id": "https://www.physioactif.com/en/#org"
+      }
+    }
+  ]
+}

@@ -1,0 +1,381 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "@id": "https://www.physioactif.com/clinique/physioactif-ahuntsic-et-villeray/#webpage",
+      "datePublished": "2025-09-26",
+      "url": "https://www.physioactif.com/clinique/physioactif-ahuntsic-et-villeray",
+      "name": "Physioactif Ahuntsic et Villeray – Physiothérapie",
+      "about": {
+        "@id": "https://www.physioactif.com/clinique/physioactif-ahuntsic-et-villeray/#clinic"
+      },
+      "isPartOf": {
+        "@id": "https://www.physioactif.com/#website"
+      },
+      "inLanguage": [
+        "fr-CA"
+      ],
+      "publisher": {
+        "@id": "https://www.physioactif.com/#org"
+      },
+      "breadcrumb": {
+        "@id": "https://www.physioactif.com/clinique/physioactif-ahuntsic-et-villeray/#breadcrumb"
+      }
+    },
+    {
+      "@type": "MedicalClinic",
+      "@id": "https://www.physioactif.com/clinique/physioactif-ahuntsic-et-villeray/#clinic",
+      "url": "https://www.physioactif.com/clinique/physioactif-ahuntsic-et-villeray",
+      "name": "Physioactif Ahuntsic et Villeray",
+      "alternateName": [
+        "Physioactif Ahuntsic",
+        "Clinique Physioactif Ahuntsic"
+      ],
+      "branchOf": {
+        "@id": "https://www.physioactif.com/#org"
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "8801 Rue Lajeunesse",
+        "addressLocality": "Montréal",
+        "addressRegion": "QC",
+        "postalCode": "H2M 1R8",
+        "addressCountry": "CA"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": "45.54714173441509",
+        "longitude": "-73.63978644870882"
+      },
+      "telephone": "+15143855682",
+      "faxNumber": "+15143859504",
+      "email": "ahuntsic@physioactif.com",
+      "areaServed": {
+        "@type": "City",
+        "name": "Montréal"
+      },
+      "medicalSpecialty": [
+        "Physiotherapy",
+        "SportsMedicine",
+        "Musculoskeletal",
+        "MassageTherapy",
+        "Osteopathy"
+      ],
+      "healthPlanNetworkId": [
+        "Beneva",
+        "Canada Vie",
+        "Desjardins Assurances",
+        "Green Shield Canada",
+        "Manuvie",
+        "Sun Life",
+        "CNESST",
+        "SAAQ",
+        "MÉDIC Construction"
+      ],
+      "priceRange": "$$",
+      "paymentAccepted": [
+        "Cash",
+        "Credit Card",
+        "Debit Card"
+      ],
+      "currenciesAccepted": "CAD",
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "Monday",
+          "opens": "07:00",
+          "closes": "20:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "Tuesday",
+          "opens": "07:00",
+          "closes": "20:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "Wednesday",
+          "opens": "07:00",
+          "closes": "20:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "Thursday",
+          "opens": "07:00",
+          "closes": "20:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "Friday",
+          "opens": "07:00",
+          "closes": "18:00"
+        }
+      ],
+      "amenityFeature": [
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Accès en fauteuil roulant",
+          "value": true
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Salle de bain accessible",
+          "value": true
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Stationnement disponible",
+          "value": true
+        }
+      ],
+      "isAcceptingNewPatients": true,
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "worstRating": 1,
+        "bestRating": 5,
+        "ratingValue": "4.9",
+        "reviewCount": "450"
+      },
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://cdn.prod.website-files.com/670e84ccd653d18590687563/686e75beb7bba56788ef9e8e_3a1bb8f47a53784d9a4e821a7b003a6c_Physiothe%CC%81rapie%20pour%20douleurs.avif",
+        "width": 1200,
+        "height": 800,
+        "caption": "Clinique Physioactif Ahuntsic et Villeray - Physiothérapie à Montréal"
+      },
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Services de physiothérapie",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "@id": "https://www.physioactif.com/services/traitement-pour-douleur-et-raideur-7-97-ans/#offer"
+          },
+          {
+            "@type": "Offer",
+            "@id": "https://www.physioactif.com/services/traitement-pour-engourdissement-et-nevralgies/#offer"
+          },
+          {
+            "@type": "Offer",
+            "@id": "https://www.physioactif.com/services/programme-douleurs-persistantes/#offer"
+          },
+          {
+            "@type": "Offer",
+            "@id": "https://www.physioactif.com/services/deuxieme-avis-sur-diagnostic-et-traitement/#offer"
+          },
+          {
+            "@type": "Offer",
+            "@id": "https://www.physioactif.com/services/pre-operatoire-et-post-operatoire/#offer"
+          },
+          {
+            "@type": "Offer",
+            "@id": "https://www.physioactif.com/services/incontinence-et-douleurs-genitales-homme-et-femme/#offer"
+          },
+          {
+            "@type": "Offer",
+            "@id": "https://www.physioactif.com/services/femmes-enceintes-et-post-partum/#offer"
+          },
+          {
+            "@type": "Offer",
+            "@id": "https://www.physioactif.com/services/reeducation-vestibulaire-pour-vertiges-et-etourdissements/#offer"
+          },
+          {
+            "@type": "Offer",
+            "@id": "https://www.physioactif.com/services/physiotherapie-pediatrique-0-7-ans-kuu3c/#offer"
+          },
+          {
+            "@type": "Offer",
+            "@id": "https://www.physioactif.com/services/physiotherapie-sportive/#offer"
+          },
+          {
+            "@type": "Offer",
+            "@id": "https://www.physioactif.com/services/analyse-biomecanique-de-la-course-a-pied/#offer"
+          },
+          {
+            "@type": "Offer",
+            "@id": "https://www.physioactif.com/services/accident-de-la-route-saaq/#offer"
+          },
+          {
+            "@type": "Offer",
+            "@id": "https://www.physioactif.com/services/accident-du-travail-cnesst/#offer"
+          },
+          {
+            "@type": "Offer",
+            "@id": "https://www.physioactif.com/services/victime-acte-criminel-ivac/#offer"
+          },
+          {
+            "@type": "Offer",
+            "@id": "https://www.physioactif.com/services/ancien-combattant/#offer"
+          }
+        ]
+      },
+      "potentialAction": {
+        "@type": "ReserveAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://physioactif.clinicmaster.com/landing?clinicId=1256"
+        },
+        "result": {
+          "@type": "Reservation",
+          "name": "Rendez-vous en physiothérapie"
+        }
+      },
+      "contactPoint": [
+        {
+          "@type": "ContactPoint",
+          "telephone": "+15143855682",
+          "contactType": "Reception",
+          "areaServed": "CA",
+          "availableLanguage": [
+            "French",
+            "English"
+          ]
+        }
+      ],
+      "sameAs": [
+        "https://maps.app.goo.gl/4coCHUSh7Pc1zxDSA",
+        "https://www.yelp.ca/biz/physioactif-ahuntsic-montr%C3%A9al-2",
+        "https://www.pagesjaunes.ca/bus/Quebec/Montreal/Physioactif-Ahuntsic-physiotherapie-Ahuntsic-et-Villeray/102936342.html"
+      ],
+      "employee": [
+        {
+          "@id": "https://www.physioactif.com/equipe/ariel-desjardins-charbonneau/#person"
+        },
+        {
+          "@id": "https://www.physioactif.com/equipe/genevieve-bernatchez-lavallee/#person"
+        },
+        {
+          "@id": "https://www.physioactif.com/equipe/isabelle-ranger/#person"
+        },
+        {
+          "@id": "https://www.physioactif.com/equipe/jiali-mai/#person"
+        },
+        {
+          "@id": "https://www.physioactif.com/equipe/lorianne-gonzalez-bayard/#person"
+        },
+        {
+          "@id": "https://www.physioactif.com/equipe/natalie-tremblay/#person"
+        },
+        {
+          "@id": "https://www.physioactif.com/equipe/pascal-boisseau/#person"
+        },
+        {
+          "@id": "https://www.physioactif.com/equipe/tat-hieu-nguyen/#person"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "inLanguage": [
+        "fr-CA"
+      ],
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Est-ce que la physiothérapie peut m'aider?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Oui. La physiothérapie traite les douleurs et blessures des structures du corps responsables du mouvement. Nous prenons en charge les douleurs lombaires, maux de tête, commotions, vertiges, incontinence, douleurs sexuelles, entorses, tendinites, hernies discales, arthrose, fasciite plantaire et plus."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Comment fonctionne la physiothérapie?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Votre physiothérapeute vous guide avec des exercices ciblés, des conseils, des ajustements d'habitudes de vie et des traitements manuels. L'évaluation comprend tests physiques et diagnostic, puis on construit ensemble un plan de traitement adapté."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Est-ce que j'ai besoin d'une prescription?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Non, mais certaines assurances l'exigent pour le remboursement. Informez-vous auprès de votre assureur. Nous travaillons avec Beneva, Canada Vie, Desjardins, GSC, Manuvie, Sun Life, CNESST, SAAQ, MÉDIC Construction, etc."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Acceptez-vous les assurances et les cas CNESST / SAAQ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Oui. Nous facturons directement les assurances et acceptons les cas CNESST (travail) et SAAQ (route), sous prescription médicale préalable."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Quelle est la différence entre les professionnels de santé?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Le physiothérapeute (universitaire) évalue et traite avec exercices, manipulation et éducation. L'ostéopathe agit par manipulations douces, le chiro par ajustements, le masso sur les muscles, le kinésiologue sur le mouvement, et l'acupuncteur sur l'énergie vitale."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "J'ai mal depuis longtemps, est-ce trop tard?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Jamais. Nous aidons souvent des patients qui souffrent depuis des années. Ce n'est pas la durée de la douleur qui détermine votre capacité à aller mieux."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Et si la physiothérapie n'a pas fonctionné pour moi auparavant?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Chez Physioactif, notre approche scientifique et personnalisée donne des résultats là où d'autres ont échoué. On voit souvent des cas complexes, même après plusieurs essais infructueux ailleurs."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Comment reconnaître une bonne prise en charge en physio?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Vous êtes écouté, suivi activement par votre physio tout au long, recevez un diagnostic clair, des exercices, des conseils et des traitements personnalisés. L'approche est active et globale, non passive."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Comment se passe l'évaluation chez Physioactif?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Un questionnaire santé, une discussion détaillée, un examen physique approfondi, un diagnostic clair, et un plan de traitement avec exercices vous sont remis dès le premier rendez-vous."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Et un traitement, ça ressemble à quoi?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Chaque séance combine réévaluation, ajustement des exercices et techniques manuelles ciblées. Vous êtes activement impliqué dans votre rétablissement."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.physioactif.com/clinique/physioactif-ahuntsic-et-villeray/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Accueil",
+          "item": "https://www.physioactif.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Nos cliniques",
+          "item": "https://www.physioactif.com/clinique/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Physioactif Ahuntsic et Villeray – Physiothérapie",
+          "item": "https://www.physioactif.com/clinique/physioactif-ahuntsic-et-villeray"
+        }
+      ]
+    }
+  ]
+}

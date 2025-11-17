@@ -1,0 +1,97 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "@id": "https://www.physioactif.com/en/ressources/est-ce-que-je-mets-du-chaud-ou-du-froid/#article",
+      "author": {
+        "@type": "Person",
+        "@id": "https://www.physioactif.com/en/equipe/philippe-paradis/#person"
+      },
+      "headline": "Chaud ou froid quand on a mal | Physioactif",
+      "description": "Fini les doutes sur votre blessure. Découvrez scientifiquement quand utiliser chaud ou froid pour optimiser votre guérison.",
+      "url": "https://www.physioactif.com/en/ressources/est-ce-que-je-mets-du-chaud-ou-du-froid/",
+      "inLanguage": [
+        "en-CA"
+      ],
+      "datePublished": "2025-09-26",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://cdn.prod.website-files.com/670e84ccd653d18590687563/physioactif-hero-default.jpg",
+        "width": 1200,
+        "height": 630
+      },
+      "publisher": {
+        "@id": "https://www.physioactif.com/en/#org"
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.physioactif.com/en/ressources/est-ce-que-je-mets-du-chaud-ou-du-froid/"
+      },
+      "about": {
+        "@type": "PhysicalTherapy",
+        "name": "Physiothérapie"
+      },
+      "articleSection": "Ressources",
+      "keywords": [
+        "glace chaleur",
+        "thermothérapie",
+        "cryothérapie",
+        "traitement douleur",
+        "inflammation"
+      ],
+      "mentions": [
+        {
+          "@id": "https://www.physioactif.com/en/services/traitement-pour-douleur-et-raideur-7-97-ans/#therapy"
+        }
+      ]
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://www.physioactif.com/en/ressources/est-ce-que-je-mets-du-chaud-ou-du-froid/#webpage",
+      "datePublished": "2025-09-26",
+      "url": "https://www.physioactif.com/en/ressources/est-ce-que-je-mets-du-chaud-ou-du-froid/",
+      "name": "Chaud ou froid quand on a mal | Physioactif",
+      "description": "Fini les doutes sur votre blessure. Découvrez scientifiquement quand utiliser chaud ou froid pour optimiser votre guérison.",
+      "inLanguage": [
+        "en-CA"
+      ],
+      "isPartOf": {
+        "@id": "https://www.physioactif.com/en/#website"
+      },
+      "mainEntity": {
+        "@id": "https://www.physioactif.com/en/ressources/est-ce-que-je-mets-du-chaud-ou-du-froid/#article"
+      },
+      "breadcrumb": {
+        "@id": "https://www.physioactif.com/en/ressources/est-ce-que-je-mets-du-chaud-ou-du-froid/#breadcrumb"
+      },
+      "publisher": {
+        "@id": "https://www.physioactif.com/en/#org"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.physioactif.com/en/ressources/est-ce-que-je-mets-du-chaud-ou-du-froid/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Accueil",
+          "item": "https://www.physioactif.com/en/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Ressources",
+          "item": "https://www.physioactif.com/en/ressources/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Chaud ou froid quand on a mal",
+          "item": "https://www.physioactif.com/en/ressources/est-ce-que-je-mets-du-chaud-ou-du-froid/"
+        }
+      ]
+    }
+  ]
+}

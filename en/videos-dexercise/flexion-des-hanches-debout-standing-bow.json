@@ -1,0 +1,229 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "VideoObject",
+      "@id": "https://www.physioactif.com/en/videos-dexercise/flexion-des-hanches-debout-standing-bow#video",
+      "name": "Flexion Des Hanches Debout Standing Bow - Vidéo Physiothérapie",
+      "description": "Vidéo démonstration professionnelle de l'exercice flexion des hanches debout standing bow par les physiothérapeutes de Physioactif.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/BOV0aRJw6CM/maxresdefault.jpg",
+      "uploadDate": "2024-01-15",
+      "duration": "PT1M",
+      "publisher": {
+        "@id": "https://www.physioactif.com/en/#org"
+      },
+      "about": [
+        {
+          "@id": "https://www.physioactif.com/en/videos-dexercise/flexion-des-hanches-debout-standing-bow#exercise"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Physiothérapie",
+          "alternateName": [
+            "Physical therapy",
+            "Kinésithérapie",
+            "Fisioterapia"
+          ],
+          "sameAs": [
+            "https://www.physioactif.com/en/guide-complet/physiotherapie",
+            "https://www.wikidata.org/wiki/Q186005",
+            "https://en.wikipedia.org/wiki/Physical_therapy",
+            "https://fr.wikipedia.org/wiki/Kinésithérapie",
+            "https://meshb.nlm.nih.gov/record/ui?ui=D026761",
+            "https://www.merriam-webster.com/dictionary/physiotherapy",
+            "https://www.britannica.com/topic/physical-therapy"
+          ]
+        }
+      ],
+      "embedUrl": "https://www.youtube.com/embed/BOV0aRJw6CM",
+      "contentUrl": "https://www.youtube.com/watch?v=BOV0aRJw6CM"
+    },
+    {
+      "@type": "ExercisePlan",
+      "@id": "https://www.physioactif.com/en/videos-dexercise/flexion-des-hanches-debout-standing-bow#exercise",
+      "name": "Flexion Des Hanches Debout Standing Bow",
+      "description": "Exercice thérapeutique pour la région ciblée visant à améliorer la mobilité et la fonction. Particulièrement efficace pour traiter Lombalgie, Arthrose de la hanche (coxarthrose), Bursite de la hanche. Cet exercice aide à corriger les déséquilibres musculaires, améliorer la posture et réduire la douleur. Recommandé dans le cadre d'un programme de réadaptation en physiothérapie.",
+      "category": "Hanche, bassin et cuisse",
+      "activityDuration": "PT1M",
+      "exerciseType": "PhysicalActivity",
+      "associatedAnatomicalStructure": {
+        "@type": "AnatomicalStructure",
+        "name": "Hanche, bassin et cuisse"
+      },
+      "isPartOf": {
+        "@id": "https://www.physioactif.com/en/#org"
+      },
+      "provider": {
+        "@id": "https://www.physioactif.com/en/#org"
+      },
+      "inLanguage": [
+        "en-CA"
+      ],
+      "url": "https://www.physioactif.com/en/videos-dexercise/flexion-des-hanches-debout-standing-bow",
+      "exerciseRelatedCondition": [
+        {
+          "@id": "https://www.physioactif.com/en/guide-complet/lombalgie#condition"
+        },
+        {
+          "@id": "https://www.physioactif.com/en/guide-complet/arthrose-de-la-hanche-coxarthrose#condition"
+        },
+        {
+          "@id": "https://www.physioactif.com/en/guide-complet/bursite-de-la-hanche#condition"
+        },
+        {
+          "@id": "https://www.physioactif.com/en/guide-complet/conflit-femoro-acetabulaire#condition"
+        },
+        {
+          "@id": "https://www.physioactif.com/en/guide-complet/tendinite-ou-tendinopathie-des-muscles-fessiers#condition"
+        }
+      ],
+      "targetArea": [
+        {
+          "@type": "AnatomicalStructure",
+          "name": "Hip"
+        },
+        {
+          "@type": "AnatomicalStructure",
+          "name": "Pelvis"
+        },
+        {
+          "@type": "AnatomicalStructure",
+          "name": "Lumbar spine"
+        }
+      ],
+      "intensity": {
+        "@type": "QuantitativeValue",
+        "value": "Moderate",
+        "description": "Modéré - Convient aux personnes avec mobilité de base"
+      },
+      "repetitions": {
+        "@type": "QuantitativeValue",
+        "value": "3-5",
+        "unitText": "répétitions par côté"
+      },
+      "restPeriods": "PT30S",
+      "workload": {
+        "@type": "Energy",
+        "value": "Light to moderate"
+      }
+    },
+    {
+      "@type": "MedicalWebPage",
+      "@id": "https://www.physioactif.com/en/videos-dexercise/flexion-des-hanches-debout-standing-bow#webpage",
+      "datePublished": "2025-09-26",
+      "name": "Flexion Des Hanches Debout Standing Bow - Vidéo d'exercice",
+      "headline": "Flexion Des Hanches Debout Standing Bow - Exercice de physiothérapie en vidéo | Physioactif",
+      "description": "Exercice thérapeutique pour la région ciblée visant à améliorer la mobilité et la fonction. Particulièrement efficace pour traiter Lombalgie, Arthrose de la hanche (coxarthrose), Bursite de la hanche. Cet exercice aide à corriger les déséquilibres musculaires, améliorer la posture et réduire la douleur. Recommandé dans le cadre d'un programme de réadaptation en physiothérapie.",
+      "about": [
+        {
+          "@id": "https://www.physioactif.com/en/videos-dexercise/flexion-des-hanches-debout-standing-bow#exercise"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Physiothérapie",
+          "alternateName": [
+            "Physical therapy",
+            "Kinésithérapie",
+            "Fisioterapia"
+          ],
+          "sameAs": [
+            "https://www.physioactif.com/en/guide-complet/physiotherapie",
+            "https://www.wikidata.org/wiki/Q186005",
+            "https://en.wikipedia.org/wiki/Physical_therapy",
+            "https://fr.wikipedia.org/wiki/Kinésithérapie",
+            "https://meshb.nlm.nih.gov/record/ui?ui=D026761",
+            "https://www.merriam-webster.com/dictionary/physiotherapy",
+            "https://www.britannica.com/topic/physical-therapy"
+          ]
+        }
+      ],
+      "mainEntity": {
+        "@id": "https://www.physioactif.com/en/videos-dexercise/flexion-des-hanches-debout-standing-bow#exercise"
+      },
+      "isPartOf": {
+        "@id": "https://www.physioactif.com/en/#website"
+      },
+      "specialty": [
+        "Physiotherapy",
+        "Musculoskeletal",
+        "SportsMedicine"
+      ],
+      "inLanguage": [
+        "en-CA"
+      ],
+      "url": "https://www.physioactif.com/en/videos-dexercise/flexion-des-hanches-debout-standing-bow",
+      "breadcrumb": {
+        "@id": "https://www.physioactif.com/en/videos-dexercise/flexion-des-hanches-debout-standing-bow#breadcrumb"
+      },
+      "video": {
+        "@id": "https://www.physioactif.com/en/videos-dexercise/flexion-des-hanches-debout-standing-bow#video"
+      },
+      "mentions": [
+        {
+          "@type": "DefinedTerm",
+          "name": "Hanche",
+          "description": "Région anatomique ou articulation située sur le côté externe du bassin, reliant le membre inférieur au tronc",
+          "sameAs": [
+            "https://fr.wikipedia.org/wiki/Hanche",
+            "https://en.wikipedia.org/wiki/Hip",
+            "https://www.wikidata.org/wiki/Q193818",
+            "https://meshb.nlm.nih.gov/record/ui?ui=D006615"
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "name": "Bassin",
+          "description": "Partie inférieure du tronc située entre l'abdomen et les cuisses, composée des os coxaux, du sacrum et du coccyx",
+          "sameAs": [
+            "https://fr.wikipedia.org/wiki/Bassin_osseux",
+            "https://en.wikipedia.org/wiki/Pelvis",
+            "https://www.wikidata.org/wiki/Q713102",
+            "https://meshb.nlm.nih.gov/record/ui?ui=D010388"
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "name": "Colonne vertébrale lombaire",
+          "description": "Région de la colonne vertébrale composée de cinq vertèbres lombaires (L1-L5) situées entre les vertèbres thoraciques et le sacrum, jouant un rôle important dans les mouvements de flexion-extension",
+          "sameAs": [
+            "https://fr.wikipedia.org/wiki/Vert%C3%A8bre_lombaire",
+            "https://en.wikipedia.org/wiki/Lumbar_vertebrae",
+            "https://www.wikidata.org/wiki/Q405478",
+            "https://meshb.nlm.nih.gov/record/ui?ui=D008159"
+          ]
+        }
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [
+          ".header_heading",
+          ".header_content .text-style-muted",
+          ".section_article .text-rich-text h2"
+        ]
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.physioactif.com/en/videos-dexercise/flexion-des-hanches-debout-standing-bow#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Accueil",
+          "item": "https://www.physioactif.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Vidéos d'exercices",
+          "item": "https://www.physioactif.com/en/videos-exercices"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Flexion Des Hanches Debout Standing Bow"
+        }
+      ]
+    }
+  ]
+}

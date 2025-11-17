@@ -1,0 +1,193 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "VideoObject",
+      "@id": "https://www.physioactif.com/videos-dexercise/flechisseurs-profonds-du-cou#video",
+      "name": "Flechisseurs Profonds du Cou - Vidéo Physiothérapie",
+      "description": "Vidéo démonstration professionnelle de l'exercice flechisseurs profonds du cou par les physiothérapeutes de Physioactif.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/pr9DNM-KokY/maxresdefault.jpg",
+      "uploadDate": "2024-01-15",
+      "duration": "PT1M",
+      "publisher": {
+        "@id": "https://www.physioactif.com/#org"
+      },
+      "about": [
+        {
+          "@id": "https://www.physioactif.com/videos-dexercise/flechisseurs-profonds-du-cou#exercise"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Physiothérapie",
+          "alternateName": [
+            "Physical therapy",
+            "Kinésithérapie",
+            "Fisioterapia"
+          ],
+          "sameAs": [
+            "https://www.physioactif.com/guide-complet/physiotherapie",
+            "https://www.wikidata.org/wiki/Q186005",
+            "https://en.wikipedia.org/wiki/Physical_therapy",
+            "https://fr.wikipedia.org/wiki/Kinésithérapie",
+            "https://meshb.nlm.nih.gov/record/ui?ui=D026761",
+            "https://www.merriam-webster.com/dictionary/physiotherapy",
+            "https://www.britannica.com/topic/physical-therapy"
+          ]
+        }
+      ],
+      "embedUrl": "https://www.youtube.com/embed/pr9DNM-KokY",
+      "contentUrl": "https://www.youtube.com/watch?v=pr9DNM-KokY"
+    },
+    {
+      "@type": "ExercisePlan",
+      "@id": "https://www.physioactif.com/videos-dexercise/flechisseurs-profonds-du-cou#exercise",
+      "name": "Flechisseurs Profonds du Cou",
+      "description": "Exercice thérapeutique pour la région ciblée visant à améliorer la mobilité et la fonction. Particulièrement efficace pour traiter Cervicalgie, Cervico-brachialgie ou radiculopathie cervicale, Torticolis. Cet exercice aide à corriger les déséquilibres musculaires, améliorer la posture et réduire la douleur. Recommandé dans le cadre d'un programme de réadaptation en physiothérapie.",
+      "category": "Cou",
+      "activityDuration": "PT1M",
+      "exerciseType": "PhysicalActivity",
+      "associatedAnatomicalStructure": {
+        "@type": "AnatomicalStructure",
+        "name": "Cou"
+      },
+      "isPartOf": {
+        "@id": "https://www.physioactif.com/#org"
+      },
+      "provider": {
+        "@id": "https://www.physioactif.com/#org"
+      },
+      "inLanguage": [
+        "fr-CA"
+      ],
+      "url": "https://www.physioactif.com/videos-dexercise/flechisseurs-profonds-du-cou",
+      "exerciseRelatedCondition": [
+        {
+          "@id": "https://www.physioactif.com/guide-complet/cervicalgie#condition"
+        },
+        {
+          "@id": "https://www.physioactif.com/guide-complet/cervico-brachialgie-ou-radiculopathie-cervicale#condition"
+        },
+        {
+          "@id": "https://www.physioactif.com/guide-complet/torticolis#condition"
+        }
+      ],
+      "targetArea": [
+        {
+          "@type": "AnatomicalStructure",
+          "name": "Cervical spine"
+        }
+      ],
+      "intensity": {
+        "@type": "QuantitativeValue",
+        "value": "Moderate",
+        "description": "Modéré - Convient aux personnes avec mobilité de base"
+      },
+      "repetitions": {
+        "@type": "QuantitativeValue",
+        "value": "3-5",
+        "unitText": "répétitions par côté"
+      },
+      "restPeriods": "PT30S",
+      "workload": {
+        "@type": "Energy",
+        "value": "Light to moderate"
+      }
+    },
+    {
+      "@type": "MedicalWebPage",
+      "@id": "https://www.physioactif.com/videos-dexercise/flechisseurs-profonds-du-cou#webpage",
+      "datePublished": "2025-09-26",
+      "name": "Flechisseurs Profonds du Cou - Vidéo d'exercice",
+      "headline": "Flechisseurs Profonds du Cou - Exercice de physiothérapie en vidéo | Physioactif",
+      "description": "Exercice thérapeutique pour la région ciblée visant à améliorer la mobilité et la fonction. Particulièrement efficace pour traiter Cervicalgie, Cervico-brachialgie ou radiculopathie cervicale, Torticolis. Cet exercice aide à corriger les déséquilibres musculaires, améliorer la posture et réduire la douleur. Recommandé dans le cadre d'un programme de réadaptation en physiothérapie.",
+      "about": [
+        {
+          "@id": "https://www.physioactif.com/videos-dexercise/flechisseurs-profonds-du-cou#exercise"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Physiothérapie",
+          "alternateName": [
+            "Physical therapy",
+            "Kinésithérapie",
+            "Fisioterapia"
+          ],
+          "sameAs": [
+            "https://www.physioactif.com/guide-complet/physiotherapie",
+            "https://www.wikidata.org/wiki/Q186005",
+            "https://en.wikipedia.org/wiki/Physical_therapy",
+            "https://fr.wikipedia.org/wiki/Kinésithérapie",
+            "https://meshb.nlm.nih.gov/record/ui?ui=D026761",
+            "https://www.merriam-webster.com/dictionary/physiotherapy",
+            "https://www.britannica.com/topic/physical-therapy"
+          ]
+        }
+      ],
+      "mainEntity": {
+        "@id": "https://www.physioactif.com/videos-dexercise/flechisseurs-profonds-du-cou#exercise"
+      },
+      "isPartOf": {
+        "@id": "https://www.physioactif.com/#website"
+      },
+      "specialty": [
+        "Physiotherapy",
+        "Musculoskeletal",
+        "SportsMedicine"
+      ],
+      "inLanguage": [
+        "fr-CA"
+      ],
+      "url": "https://www.physioactif.com/videos-dexercise/flechisseurs-profonds-du-cou",
+      "breadcrumb": {
+        "@id": "https://www.physioactif.com/videos-dexercise/flechisseurs-profonds-du-cou#breadcrumb"
+      },
+      "video": {
+        "@id": "https://www.physioactif.com/videos-dexercise/flechisseurs-profonds-du-cou#video"
+      },
+      "mentions": [
+        {
+          "@type": "DefinedTerm",
+          "name": "Colonne vertébrale cervicale",
+          "description": "Région de la colonne vertébrale composée des sept premières vertèbres (C1-C7) situées dans le cou, supportant le poids de la tête et permettant une grande amplitude de mouvements",
+          "sameAs": [
+            "https://fr.wikipedia.org/wiki/Vert%C3%A8bre_cervicale",
+            "https://en.wikipedia.org/wiki/Cervical_vertebrae",
+            "https://www.wikidata.org/wiki/Q900457",
+            "https://meshb.nlm.nih.gov/record/ui?ui=D002574"
+          ]
+        }
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [
+          ".header_heading",
+          ".header_content .text-style-muted",
+          ".section_article .text-rich-text h2"
+        ]
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.physioactif.com/videos-dexercise/flechisseurs-profonds-du-cou#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Accueil",
+          "item": "https://www.physioactif.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Vidéos d'exercices",
+          "item": "https://www.physioactif.com/videos-exercices"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Flechisseurs Profonds du Cou"
+        }
+      ]
+    }
+  ]
+}

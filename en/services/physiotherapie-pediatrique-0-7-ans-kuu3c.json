@@ -1,0 +1,90 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@id": "https://www.physioactif.com/en/services/physiotherapie-pediatrique-0-7-ans-kuu3c/#therapy"
+    },
+    {
+      "@id": "https://www.physioactif.com/en/services/physiotherapie-pediatrique-0-7-ans-kuu3c/#offer"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://www.physioactif.com/en/services/physiotherapie-pediatrique-0-7-ans-kuu3c/#webpage",
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [
+          ".header_heading",
+          ".max-width-medium .text-style-muted"
+        ]
+      },
+      "datePublished": "2025-09-26",
+      "url": "https://www.physioactif.com/en/services/physiotherapie-pediatrique-0-7-ans-kuu3c/",
+      "name": "Physio pédiatrique 0-7 ans : des exercices et des jeux",
+      "description": "Aidez votre enfant à grandir fort. Approche ludique qui transforme la rééducation en moments de plaisir.",
+      "author": {
+        "@type": "Person",
+        "@id": "https://www.physioactif.com/en/equipe/ariel-desjardins-charbonneau/#person"
+      },
+      "inLanguage": [
+        "en-CA"
+      ],
+      "isPartOf": {
+        "@id": "https://www.physioactif.com/en/#website"
+      },
+      "mainEntity": {
+        "@id": "https://www.physioactif.com/en/services/physiotherapie-pediatrique-0-7-ans-kuu3c/#therapy"
+      },
+      "breadcrumb": {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Accueil",
+            "item": "https://www.physioactif.com/en/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Services",
+            "item": "https://www.physioactif.com/en/services/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Physio pédiatrique 0-7 ans : des exercices et des jeux",
+            "item": "https://www.physioactif.com/en/services/physiotherapie-pediatrique-0-7-ans-kuu3c/"
+          }
+        ]
+      },
+      "about": [
+        {
+          "@type": "MedicalTherapy",
+          "name": "Physiothérapie pédiatrique",
+          "description": "Réadaptation spécialisée pour enfants de 0 à 7 ans, utilisant une approche ludique pour traiter les retards de développement moteur et conditions neuromusculaires."
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Physiothérapie",
+          "alternateName": [
+            "Physical therapy",
+            "Kinésithérapie",
+            "Fisioterapia"
+          ],
+          "sameAs": [
+            "https://www.physioactif.com/en/guide-complet/physiotherapie",
+            "https://www.wikidata.org/wiki/Q186005",
+            "https://en.wikipedia.org/wiki/Physical_therapy",
+            "https://fr.wikipedia.org/wiki/Kinésithérapie",
+            "https://meshb.nlm.nih.gov/record/ui?ui=D026761",
+            "https://www.merriam-webster.com/dictionary/physiotherapy",
+            "https://www.britannica.com/topic/physical-therapy"
+          ]
+        }
+      ],
+      "publisher": {
+        "@id": "https://www.physioactif.com/en/#org"
+      }
+    }
+  ]
+}

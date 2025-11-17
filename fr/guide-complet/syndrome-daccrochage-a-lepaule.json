@@ -1,0 +1,210 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "MedicalCondition",
+      "@id": "https://www.physioactif.com/guide-complet/syndrome-daccrochage-a-lepaule#condition",
+      "name": "Syndrome d'accrochage de l'épaule",
+      "alternateName": [
+        "Snapping scapula syndrome",
+        "Scapulocostal syndrome",
+        "Scapulothoracic syndrome",
+        "Scapulothoracic crepitus"
+      ],
+      "description": "Le syndrome d'accrochage de l'épaule, également connu sous le nom de syndrome scapulo-costal ou syndrome scapulo-thoracique, se décrit par une sensation de grincement, de broyage, de claquement ou de crépitement de la scapula sur la face arrière des côtes ou de la région thoracique de la colonne vertébrale. Le syndrome se définit par un cliquetis, un grincement ou une crépitation audible ou palpable de la scapula lors de mouvements impliquant l'articulation scapulo-thoracique. L'articulation scapulo-thoracique est une jonction glissante entre la face profonde de la scapula et la cage thoracique au niveau des côtes 2 à 7. Les signes et symptômes peuvent être purement moteurs, purement sensoriels ou mixtes selon la localisation de la lésion.",
+      "code": [
+        {
+          "@type": "MedicalCode",
+          "code": "M89.8X1",
+          "codingSystem": "ICD-10"
+        }
+      ],
+      "sameAs": [
+        "https://fr.wikipedia.org/wiki/Syndrome_de_l'omoplate_à_ressaut",
+        "https://en.wikipedia.org/wiki/Snapping_scapula_syndrome",
+        "https://www.physio-pedia.com/Snapping_Scapula_Syndrome",
+        "https://www.icd10data.com/ICD10CM/Codes/M00-M99/M86-M90/M89-/M89.8X1"
+      ],
+      "possibleTreatment": {
+        "@type": "MedicalTherapy",
+        "name": "Physiothérapie",
+        "alternateName": [
+          "Physical therapy",
+          "Kinésithérapie",
+          "Fisioterapia"
+        ],
+        "sameAs": [
+          "https://www.physioactif.com/guide-complet/physiotherapie",
+          "https://www.wikidata.org/wiki/Q186005",
+          "https://en.wikipedia.org/wiki/Physical_therapy",
+          "https://fr.wikipedia.org/wiki/Kinésithérapie",
+          "https://meshb.nlm.nih.gov/record/ui?ui=D026761",
+          "https://www.merriam-webster.com/dictionary/physiotherapy",
+          "https://www.britannica.com/topic/physical-therapy"
+        ]
+      }
+    },
+    {
+      "@type": "MedicalWebPage",
+      "@id": "https://www.physioactif.com/guide-complet/syndrome-daccrochage-a-lepaule#article",
+      "author": {
+        "@type": "Person",
+        "@id": "https://www.physioactif.com/equipe/ariel-desjardins-charbonneau/#person"
+      },
+      "datePublished": "2025-09-26",
+      "name": "Syndrome Daccrochage A Lepaule - Guide Complet",
+      "headline": "Syndrome Daccrochage A Lepaule: Symptômes, Causes, Diagnostic et Traitement en Physiothérapie",
+      "about": [
+        {
+          "@id": "https://www.physioactif.com/guide-complet/syndrome-daccrochage-a-lepaule#condition"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Physiothérapie",
+          "alternateName": [
+            "Physical therapy",
+            "Kinésithérapie",
+            "Fisioterapia"
+          ],
+          "sameAs": [
+            "https://www.physioactif.com/guide-complet/physiotherapie",
+            "https://www.wikidata.org/wiki/Q186005",
+            "https://en.wikipedia.org/wiki/Physical_therapy",
+            "https://fr.wikipedia.org/wiki/Kinésithérapie",
+            "https://meshb.nlm.nih.gov/record/ui?ui=D026761",
+            "https://www.merriam-webster.com/dictionary/physiotherapy",
+            "https://www.britannica.com/topic/physical-therapy"
+          ]
+        }
+      ],
+      "mainEntity": {
+        "@id": "https://www.physioactif.com/guide-complet/syndrome-daccrochage-a-lepaule#condition"
+      },
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [
+          ".header_heading",
+          ".header_content .text-style-muted.w-richtext",
+          ".section_article .text-rich-text h2"
+        ]
+      },
+      "specialty": [
+        "Physiotherapy",
+        "Musculoskeletal",
+        "SportsMedicine"
+      ],
+      "medicalAudience": [
+        {
+          "@type": "Patient"
+        },
+        {
+          "@type": "MedicalAudience",
+          "audienceType": "General Public"
+        }
+      ],
+      "reviewedBy": {
+        "@id": "https://www.physioactif.com/#org"
+      },
+      "provider": {
+        "@id": "https://www.physioactif.com/#org"
+      },
+      "inLanguage": [
+        "fr-CA"
+      ],
+      "isPartOf": {
+        "@id": "https://www.physioactif.com/#website"
+      },
+      "mentions": [
+        {
+          "@type": "MedicalTherapy",
+          "name": "Physiothérapie",
+          "alternateName": [
+            "Physical therapy",
+            "Kinésithérapie",
+            "Fisioterapia"
+          ],
+          "sameAs": [
+            "https://www.physioactif.com/guide-complet/physiotherapie",
+            "https://www.wikidata.org/wiki/Q186005",
+            "https://en.wikipedia.org/wiki/Physical_therapy",
+            "https://fr.wikipedia.org/wiki/Kinésithérapie",
+            "https://meshb.nlm.nih.gov/record/ui?ui=D026761",
+            "https://www.merriam-webster.com/dictionary/physiotherapy",
+            "https://www.britannica.com/topic/physical-therapy"
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "name": "Conflit sous-acromial",
+          "description": "Condition musculosquelettique affectant conflit sous-acromial",
+          "sameAs": [
+            "https://en.wikipedia.org/wiki/Shoulder_impingement_syndrome",
+            "https://www.wikidata.org/wiki/Q1758866",
+            "https://meshb.nlm.nih.gov/record/ui?ui=D019534"
+          ]
+        }
+      ]
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://www.physioactif.com/guide-complet/syndrome-daccrochage-a-lepaule#webpage",
+      "datePublished": "2025-09-26",
+      "url": "https://www.physioactif.com/guide-complet/syndrome-daccrochage-a-lepaule",
+      "name": "Syndrome Daccrochage A Lepaule - Guide Complet | Physioactif",
+      "description": "Guide complet sur syndrome daccrochage a lepaule: causes, symptômes, diagnostic et traitements en physiothérapie par les experts de Physioactif.",
+      "mainEntity": {
+        "@id": "https://www.physioactif.com/guide-complet/syndrome-daccrochage-a-lepaule#condition"
+      },
+      "about": {
+        "@id": "https://www.physioactif.com/guide-complet/syndrome-daccrochage-a-lepaule#condition"
+      },
+      "breadcrumb": {
+        "@type": "BreadcrumbList",
+        "@id": "https://www.physioactif.com/guide-complet/syndrome-daccrochage-a-lepaule#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Accueil",
+            "item": "https://www.physioactif.com/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Guide Complet",
+            "item": "https://www.physioactif.com/guide-complet"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Syndrome Daccrochage A Lepaule",
+            "item": "https://www.physioactif.com/guide-complet/syndrome-daccrochage-a-lepaule"
+          }
+        ]
+      },
+      "isPartOf": {
+        "@id": "https://www.physioactif.com/#website"
+      },
+      "inLanguage": [
+        "fr-CA"
+      ],
+      "potentialAction": {
+        "@type": "ReadAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://www.physioactif.com/guide-complet/syndrome-daccrochage-a-lepaule",
+          "actionPlatform": [
+            "http://schema.org/DesktopWebPlatform",
+            "http://schema.org/MobileWebPlatform"
+          ]
+        }
+      },
+      "relatedLink": [
+        "https://physioactif.clinicmaster.com/clinic-selection?lang=fr-CA"
+      ],
+      "publisher": {
+        "@id": "https://www.physioactif.com/#org"
+      }
+    }
+  ]
+}

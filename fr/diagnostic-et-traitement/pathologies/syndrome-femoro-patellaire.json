@@ -1,0 +1,133 @@
+{
+  "@context": "https://schema.org",
+  "@type": "MedicalWebPage",
+  "@id": "https://www.physioactif.com/diagnostic-et-traitement/pathologies/syndrome-femoro-patellaire/#webpage",
+  "author": {
+    "@type": "Person",
+    "@id": "https://www.physioactif.com/equipe/alexis-gougeon/#person"
+  },
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      ".header_heading",
+      ".header_content .max-width-medium",
+      ".perks_content-right h2",
+      ".perks_content-right .w-richtext"
+    ]
+  },
+  "datePublished": "2025-09-26",
+  "url": "https://www.physioactif.com/diagnostic-et-traitement/pathologies/syndrome-femoro-patellaire/",
+  "name": "Retrouvez votre équilibre et soulagez vos douleurs au genou",
+  "description": "Retrouvez votre équilibre et soulagez vos douleurs au genou",
+  "inLanguage": [
+    "fr-CA"
+  ],
+  "isPartOf": {
+    "@id": "https://www.physioactif.com/#website"
+  },
+  "about": [
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://www.physioactif.com/diagnostic-et-traitement/pathologies/syndrome-femoro-patellaire/#condition",
+      "name": "Syndrome fémoro-patellaire",
+      "description": "Douleur antérieure du genou causée par un mauvais alignement ou surcharge de la rotule",
+      "inDefinedTermSet": "https://schema.org/MedicalCondition",
+      "sameAs": [
+        "https://fr.wikipedia.org/wiki/Syndrome_fémoro-patellaire",
+        "https://en.wikipedia.org/wiki/Patellofemoral_pain_syndrome",
+        "https://www.wikidata.org/wiki/Q2276069",
+        "https://meshb.nlm.nih.gov/record/ui?ui=D046788"
+      ]
+    },
+    {
+      "@type": "MedicalCondition",
+      "name": "Douleur au genou"
+    },
+    {
+      "@type": "MedicalTherapy",
+      "name": "Physiothérapie",
+      "alternateName": [
+        "Physical therapy",
+        "Kinésithérapie",
+        "Fisioterapia"
+      ],
+      "sameAs": [
+        "https://www.physioactif.com/guide-complet/physiotherapie",
+        "https://www.wikidata.org/wiki/Q186005",
+        "https://en.wikipedia.org/wiki/Physical_therapy",
+        "https://fr.wikipedia.org/wiki/Kinésithérapie",
+        "https://meshb.nlm.nih.gov/record/ui?ui=D026761",
+        "https://www.merriam-webster.com/dictionary/physiotherapy",
+        "https://www.britannica.com/topic/physical-therapy"
+      ]
+    }
+  ],
+  "specialty": "Physiotherapy",
+  "provider": {
+    "@id": "https://www.physioactif.com/#org"
+  },
+  "potentialAction": {
+    "@type": "ReserveAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://physioactif.clinicmaster.com/clinic-selection?lang=fr-CA",
+      "inLanguage": [
+        "fr-CA"
+      ]
+    },
+    "result": {
+      "@type": "Reservation",
+      "name": "Prendre rendez-vous"
+    }
+  },
+  "breadcrumb": {
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Accueil",
+        "item": "https://www.physioactif.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Diagnostic et traitement",
+        "item": "https://www.physioactif.com/diagnostic-et-traitement/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Pathologies",
+        "item": "https://www.physioactif.com/diagnostic-et-traitement/pathologies/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "Douleur au genou",
+        "item": "https://www.physioactif.com/diagnostic-et-traitement/pathologies/syndrome-femoro-patellaire/"
+      }
+    ]
+  },
+  "mentions": [
+    {
+      "@id": "https://www.physioactif.com/services/analyse-biomecanique-de-la-course-a-pied/#therapy"
+    },
+    {
+      "@id": "https://www.physioactif.com/services/deuxieme-avis-sur-diagnostic-et-traitement/#therapy"
+    },
+    {
+      "@id": "https://www.physioactif.com/services/traitement-pour-engourdissement-et-nevralgies/#therapy"
+    },
+    {
+      "@id": "https://www.physioactif.com/services/traitement-pour-douleur-et-raideur-7-97-ans/#therapy"
+    },
+    {
+      "@id": "https://www.physioactif.com/services/programme-douleurs-persistantes/#therapy"
+    },
+    {
+      "@id": "https://www.physioactif.com/services/physiotherapie-sportive/#therapy"
+    }
+  ],
+  "relatedLink": "https://www.physioactif.com/guide-complet/syndrome-femoro-patellaire"
+}

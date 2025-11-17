@@ -1,0 +1,211 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "MedicalCondition",
+      "@id": "https://www.physioactif.com/guide-complet/tendinite-ou-tendinopathie-de-la-patte-doie#condition",
+      "name": "Tendinite de la patte d'oie",
+      "alternateName": [
+        "Pes anserinus tendinitis",
+        "Pes anserine bursitis",
+        "Pes anserinus syndrome",
+        "Goosefoot tendinitis"
+      ],
+      "description": "La patte d'oie (pes anserinus) se traduit par « pied d'oie » en latin et fait référence aux tendons conjoints sur la face médiale du genou qui s'insèrent sur la face antéro-médiale du tibia. Le syndrome de tendinite/bursite de la patte d'oie est une cause de douleur chronique et de faiblesse du genou. La patte d'oie comprend les tendons des muscles sartorius, gracilis et semi-tendineux, qui s'insèrent sur le tibia proximal antéro-médial environ 4 cm distalement au plateau tibial. Il peut être difficile de différencier la bursite de la patte d'oie de la tendinite, car les tendons et la bourse se trouvent près l'un de l'autre. Le terme syndrome de la patte d'oie est utilisé pour englober les deux conditions.",
+      "code": [
+        {
+          "@type": "MedicalCode",
+          "code": "M76.86",
+          "codingSystem": "ICD-10"
+        }
+      ],
+      "sameAs": [
+        "https://fr.wikipedia.org/wiki/Tendinite_de_la_patte_d'oie",
+        "https://en.wikipedia.org/wiki/Pes_anserinus_(leg)",
+        "https://www.wikidata.org/wiki/Q3518021",
+        "https://www.ncbi.nlm.nih.gov/books/NBK532941/"
+      ],
+      "possibleTreatment": {
+        "@type": "MedicalTherapy",
+        "name": "Physiothérapie",
+        "alternateName": [
+          "Physical therapy",
+          "Kinésithérapie",
+          "Fisioterapia"
+        ],
+        "sameAs": [
+          "https://www.physioactif.com/guide-complet/physiotherapie",
+          "https://www.wikidata.org/wiki/Q186005",
+          "https://en.wikipedia.org/wiki/Physical_therapy",
+          "https://fr.wikipedia.org/wiki/Kinésithérapie",
+          "https://meshb.nlm.nih.gov/record/ui?ui=D026761",
+          "https://www.merriam-webster.com/dictionary/physiotherapy",
+          "https://www.britannica.com/topic/physical-therapy"
+        ]
+      }
+    },
+    {
+      "@type": "MedicalWebPage",
+      "@id": "https://www.physioactif.com/guide-complet/tendinite-ou-tendinopathie-de-la-patte-doie#article",
+      "author": {
+        "@type": "Person",
+        "@id": "https://www.physioactif.com/equipe/ariel-desjardins-charbonneau/#person"
+      },
+      "datePublished": "2025-09-26",
+      "name": "Tendinite Ou Tendinopathie De La Patte Doie - Guide Complet",
+      "headline": "Tendinite Ou Tendinopathie De La Patte Doie: Symptômes, Causes, Diagnostic et Traitement en Physiothérapie",
+      "about": [
+        {
+          "@id": "https://www.physioactif.com/guide-complet/tendinite-ou-tendinopathie-de-la-patte-doie#condition"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Physiothérapie",
+          "alternateName": [
+            "Physical therapy",
+            "Kinésithérapie",
+            "Fisioterapia"
+          ],
+          "sameAs": [
+            "https://www.physioactif.com/guide-complet/physiotherapie",
+            "https://www.wikidata.org/wiki/Q186005",
+            "https://en.wikipedia.org/wiki/Physical_therapy",
+            "https://fr.wikipedia.org/wiki/Kinésithérapie",
+            "https://meshb.nlm.nih.gov/record/ui?ui=D026761",
+            "https://www.merriam-webster.com/dictionary/physiotherapy",
+            "https://www.britannica.com/topic/physical-therapy"
+          ]
+        }
+      ],
+      "mainEntity": {
+        "@id": "https://www.physioactif.com/guide-complet/tendinite-ou-tendinopathie-de-la-patte-doie#condition"
+      },
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [
+          ".header_heading",
+          ".header_content .text-style-muted.w-richtext",
+          ".section_article .text-rich-text h2"
+        ]
+      },
+      "specialty": [
+        "Physiotherapy",
+        "Musculoskeletal",
+        "SportsMedicine"
+      ],
+      "medicalAudience": [
+        {
+          "@type": "Patient"
+        },
+        {
+          "@type": "MedicalAudience",
+          "audienceType": "General Public"
+        }
+      ],
+      "reviewedBy": {
+        "@id": "https://www.physioactif.com/#org"
+      },
+      "provider": {
+        "@id": "https://www.physioactif.com/#org"
+      },
+      "inLanguage": [
+        "fr-CA"
+      ],
+      "isPartOf": {
+        "@id": "https://www.physioactif.com/#website"
+      },
+      "mentions": [
+        {
+          "@type": "MedicalTherapy",
+          "name": "Physiothérapie",
+          "alternateName": [
+            "Physical therapy",
+            "Kinésithérapie",
+            "Fisioterapia"
+          ],
+          "sameAs": [
+            "https://www.physioactif.com/guide-complet/physiotherapie",
+            "https://www.wikidata.org/wiki/Q186005",
+            "https://en.wikipedia.org/wiki/Physical_therapy",
+            "https://fr.wikipedia.org/wiki/Kinésithérapie",
+            "https://meshb.nlm.nih.gov/record/ui?ui=D026761",
+            "https://www.merriam-webster.com/dictionary/physiotherapy",
+            "https://www.britannica.com/topic/physical-therapy"
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "name": "Arthrose du genou (Gonarthrose)",
+          "description": "Usure progressive du cartilage articulaire",
+          "sameAs": [
+            "https://fr.wikipedia.org/wiki/Gonarthrose",
+            "https://en.wikipedia.org/wiki/Osteoarthritis#Knee",
+            "https://www.wikidata.org/wiki/Q1777118",
+            "https://meshb.nlm.nih.gov/record/ui?ui=D020370"
+          ]
+        }
+      ]
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://www.physioactif.com/guide-complet/tendinite-ou-tendinopathie-de-la-patte-doie#webpage",
+      "datePublished": "2025-09-26",
+      "url": "https://www.physioactif.com/guide-complet/tendinite-ou-tendinopathie-de-la-patte-doie",
+      "name": "Tendinite Ou Tendinopathie De La Patte Doie - Guide Complet | Physioactif",
+      "description": "Guide complet sur tendinite ou tendinopathie de la patte doie: causes, symptômes, diagnostic et traitements en physiothérapie par les experts de Physioactif.",
+      "mainEntity": {
+        "@id": "https://www.physioactif.com/guide-complet/tendinite-ou-tendinopathie-de-la-patte-doie#condition"
+      },
+      "about": {
+        "@id": "https://www.physioactif.com/guide-complet/tendinite-ou-tendinopathie-de-la-patte-doie#condition"
+      },
+      "breadcrumb": {
+        "@type": "BreadcrumbList",
+        "@id": "https://www.physioactif.com/guide-complet/tendinite-ou-tendinopathie-de-la-patte-doie#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Accueil",
+            "item": "https://www.physioactif.com/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Guide Complet",
+            "item": "https://www.physioactif.com/guide-complet"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Tendinite Ou Tendinopathie De La Patte Doie",
+            "item": "https://www.physioactif.com/guide-complet/tendinite-ou-tendinopathie-de-la-patte-doie"
+          }
+        ]
+      },
+      "isPartOf": {
+        "@id": "https://www.physioactif.com/#website"
+      },
+      "inLanguage": [
+        "fr-CA"
+      ],
+      "potentialAction": {
+        "@type": "ReadAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://www.physioactif.com/guide-complet/tendinite-ou-tendinopathie-de-la-patte-doie",
+          "actionPlatform": [
+            "http://schema.org/DesktopWebPlatform",
+            "http://schema.org/MobileWebPlatform"
+          ]
+        }
+      },
+      "relatedLink": [
+        "https://physioactif.clinicmaster.com/clinic-selection?lang=fr-CA"
+      ],
+      "publisher": {
+        "@id": "https://www.physioactif.com/#org"
+      }
+    }
+  ]
+}

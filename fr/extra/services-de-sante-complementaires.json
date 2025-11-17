@@ -1,0 +1,198 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "@id": "https://www.physioactif.com/extra/services-de-sante-complementaires/#webpage",
+      "url": "https://www.physioactif.com/extra/services-de-sante-complementaires/",
+      "name": "Services de santé complémentaires",
+      "description": "Découvrez nos services de santé complémentaires à Montréal et Vaudreuil : acupuncture, ostéopathie et massothérapie pour soutenir votre rééducation et votre bien-être global.",
+      "inLanguage": [
+        "fr-CA"
+      ],
+      "datePublished": "2025-09-26",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://cdn.prod.website-files.com/6710038d098190f16121f569/68daeb6123c501eede2b377c_clinique%20physioth%C3%A9rapie%C2%A0Physioactif%20Ahuntsic%20et%20villeray.jpeg",
+        "width": 1200,
+        "height": 675
+      },
+      "isPartOf": {
+        "@id": "https://www.physioactif.com/#website"
+      },
+      "about": {
+        "@type": "MedicalBusiness",
+        "name": "Services complémentaires Physioactif"
+      },
+      "mentions": [
+        {
+          "@type": "MedicalTherapy",
+          "name": "Physiothérapie",
+          "alternateName": [
+            "Physical therapy",
+            "Kinésithérapie",
+            "Fisioterapia"
+          ],
+          "sameAs": [
+            "https://www.physioactif.com/guide-complet/physiotherapie",
+            "https://www.wikidata.org/wiki/Q186005",
+            "https://en.wikipedia.org/wiki/Physical_therapy",
+            "https://fr.wikipedia.org/wiki/Kinésithérapie",
+            "https://meshb.nlm.nih.gov/record/ui?ui=D026761",
+            "https://www.merriam-webster.com/dictionary/physiotherapy",
+            "https://www.britannica.com/topic/physical-therapy"
+          ]
+        }
+      ],
+      "keywords": "acupuncture Montréal, ostéopathie Vaudreuil, massothérapie, services complémentaires physiothérapie, médecine alternative",
+      "breadcrumb": {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Accueil",
+            "item": "https://www.physioactif.com/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Services de santé complémentaires",
+            "item": "https://www.physioactif.com/extra/services-de-sante-complementaires/"
+          }
+        ]
+      },
+      "offers": [
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "MedicalTherapy",
+            "name": "Acupuncture",
+            "description": "L'acupuncture est un type de soin thérapeutique faisant partie de la médecine traditionnelle chinoise dont l'objectif est de traiter l'intérieur du corps en stimulant des points précis, situés à différents endroits du corps, à l'aide de petites aiguilles.",
+            "relevantSpecialty": "Acupuncture",
+            "image": {
+              "@type": "ImageObject",
+              "url": "https://cdn.prod.website-files.com/6710038d098190f16121f569/67100a2f0e2bc4c7ca02e87e_Acupuncture.webp",
+              "width": 800,
+              "height": 600
+            }
+          },
+          "priceRange": "$$",
+          "areaServed": [
+            {
+              "@type": "City",
+              "name": "Montréal",
+              "addressRegion": "QC"
+            },
+            {
+              "@type": "City",
+              "name": "Vaudreuil-Dorion",
+              "addressRegion": "QC"
+            }
+          ],
+          "availableAtOrFrom": [
+            {
+              "@id": "https://www.physioactif.com/clinique/physioactif-ahuntsic-et-villeray/#clinic"
+            },
+            {
+              "@id": "https://www.physioactif.com/clinique/physioactif-vaudreuil-dorion/#clinic"
+            }
+          ]
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "MedicalTherapy",
+            "name": "Ostéopathie",
+            "description": "L'ostéopathie est un type de médecine alternative qui met l'accent sur la manipulation physique des tissus musculaires et osseux du corps. Il s'agit d'une forme de thérapie manuelle consistant à manipuler doucement les parties douloureuses ou enflammées du corps pour rétablir l'équilibre de l'organisme.",
+            "relevantSpecialty": "Osteopathy",
+            "image": {
+              "@type": "ImageObject",
+              "url": "https://cdn.prod.website-files.com/6710038d098190f16121f569/67100a2f55b076c7df8126f9_Osth%C3%A9opathie.webp",
+              "width": 800,
+              "height": 600
+            }
+          },
+          "priceRange": "$$",
+          "areaServed": [
+            {
+              "@type": "City",
+              "name": "Montréal",
+              "addressRegion": "QC"
+            },
+            {
+              "@type": "City",
+              "name": "Vaudreuil-Dorion",
+              "addressRegion": "QC"
+            }
+          ],
+          "availableAtOrFrom": [
+            {
+              "@id": "https://www.physioactif.com/clinique/physioactif-ahuntsic-et-villeray/#clinic"
+            },
+            {
+              "@id": "https://www.physioactif.com/clinique/physioactif-vaudreuil-dorion/#clinic"
+            }
+          ]
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "MedicalTherapy",
+            "name": "Massothérapie",
+            "description": "La massothérapie est une des plus anciennes thérapies contre les douleurs physiques. Il s'agit d'un traitement thérapeutique qui utilise un ensemble de manoeuvres manuelles dont le but visé est la relaxation musculaire et le soulagement de la douleur physique.",
+            "relevantSpecialty": "MassageTherapy",
+            "image": {
+              "@type": "ImageObject",
+              "url": "https://cdn.prod.website-files.com/6710038d098190f16121f569/67100a2f28d02af64a1ab8cc_Massoth%C3%A9rapie.webp",
+              "width": 800,
+              "height": 600
+            }
+          },
+          "priceRange": "$$",
+          "areaServed": [
+            {
+              "@type": "City",
+              "name": "Montréal",
+              "addressRegion": "QC"
+            },
+            {
+              "@type": "City",
+              "name": "Vaudreuil-Dorion",
+              "addressRegion": "QC"
+            }
+          ],
+          "availableAtOrFrom": [
+            {
+              "@id": "https://www.physioactif.com/clinique/physioactif-ahuntsic-et-villeray/#clinic"
+            },
+            {
+              "@id": "https://www.physioactif.com/clinique/physioactif-vaudreuil-dorion/#clinic"
+            }
+          ]
+        }
+      ],
+      "provider": {
+        "@id": "https://www.physioactif.com/#org"
+      },
+      "potentialAction": {
+        "@type": "ReserveAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://www.physioactif.com/contact/",
+          "actionPlatform": [
+            "http://schema.org/DesktopWebPlatform",
+            "http://schema.org/MobileWebPlatform"
+          ]
+        },
+        "result": {
+          "@type": "Reservation",
+          "name": "Rendez-vous pour services complémentaires"
+        }
+      },
+      "publisher": {
+        "@id": "https://www.physioactif.com/#org"
+      }
+    }
+  ]
+}

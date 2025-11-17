@@ -1,0 +1,215 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "MedicalCondition",
+      "@id": "https://www.physioactif.com/en/guide-complet/douleur-reliee-a-la-scoliose#condition",
+      "name": "Scoliose",
+      "alternateName": [
+        "Scoliose",
+        "scoliosis",
+        "spinal curvature",
+        "lateral spinal curvature"
+      ],
+      "description": "Condition médicale affectant le système musculosquelettique nécessitant une prise en charge en physiothérapie.",
+      "sameAs": [
+        "https://fr.wikipedia.org/wiki/Scoliose",
+        "https://en.wikipedia.org/wiki/Scoliosis",
+        "https://www.wikidata.org/wiki/Q181528",
+        "https://meshb.nlm.nih.gov/record/ui?ui=D012600",
+        "http://snomed.info/id/298382003"
+      ],
+      "code": [
+        {
+          "@type": "MedicalCode",
+          "code": "M41",
+          "codingSystem": "ICD-10"
+        },
+        {
+          "@type": "MedicalCode",
+          "code": "FA60",
+          "codingSystem": "ICD-11"
+        },
+        {
+          "@type": "MedicalCode",
+          "code": "C78603",
+          "codingSystem": "NCIt"
+        }
+      ]
+    },
+    {
+      "@type": "MedicalWebPage",
+      "@id": "https://www.physioactif.com/en/guide-complet/douleur-reliee-a-la-scoliose#article",
+      "author": {
+        "@type": "Person",
+        "@id": "https://www.physioactif.com/en/equipe/ariel-desjardins-charbonneau/#person"
+      },
+      "datePublished": "2025-09-26",
+      "name": "Douleur Reliee A La Scoliose - Guide Complet",
+      "headline": "Douleur Reliee A La Scoliose: Symptômes, Causes, Diagnostic et Traitement en Physiothérapie",
+      "about": [
+        {
+          "@id": "https://www.physioactif.com/en/guide-complet/douleur-reliee-a-la-scoliose#condition"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Physiothérapie",
+          "alternateName": [
+            "Physical therapy",
+            "Kinésithérapie",
+            "Fisioterapia"
+          ],
+          "sameAs": [
+            "https://www.physioactif.com/en/guide-complet/physiotherapie",
+            "https://www.wikidata.org/wiki/Q186005",
+            "https://en.wikipedia.org/wiki/Physical_therapy",
+            "https://fr.wikipedia.org/wiki/Kinésithérapie",
+            "https://meshb.nlm.nih.gov/record/ui?ui=D026761",
+            "https://www.merriam-webster.com/dictionary/physiotherapy",
+            "https://www.britannica.com/topic/physical-therapy"
+          ]
+        }
+      ],
+      "mainEntity": {
+        "@id": "https://www.physioactif.com/en/guide-complet/douleur-reliee-a-la-scoliose#condition"
+      },
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [
+          ".header_heading",
+          ".header_content .text-style-muted.w-richtext",
+          ".section_article .text-rich-text h2"
+        ]
+      },
+      "specialty": [
+        "Physiotherapy",
+        "Musculoskeletal",
+        "SportsMedicine"
+      ],
+      "medicalAudience": [
+        {
+          "@type": "Patient"
+        },
+        {
+          "@type": "MedicalAudience",
+          "audienceType": "General Public"
+        }
+      ],
+      "reviewedBy": {
+        "@id": "https://www.physioactif.com/en/#org"
+      },
+      "provider": {
+        "@id": "https://www.physioactif.com/en/#org"
+      },
+      "inLanguage": [
+        "en-CA"
+      ],
+      "isPartOf": {
+        "@id": "https://www.physioactif.com/en/#website"
+      },
+      "mentions": [
+        {
+          "@type": "MedicalTherapy",
+          "name": "Physiothérapie",
+          "alternateName": [
+            "Physical therapy",
+            "Kinésithérapie",
+            "Fisioterapia"
+          ],
+          "sameAs": [
+            "https://www.physioactif.com/en/guide-complet/physiotherapie",
+            "https://www.wikidata.org/wiki/Q186005",
+            "https://en.wikipedia.org/wiki/Physical_therapy",
+            "https://fr.wikipedia.org/wiki/Kinésithérapie",
+            "https://meshb.nlm.nih.gov/record/ui?ui=D026761",
+            "https://www.merriam-webster.com/dictionary/physiotherapy",
+            "https://www.britannica.com/topic/physical-therapy"
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "name": "Lombalgie",
+          "description": "Douleur dans la région lombaire du bas du dos",
+          "sameAs": [
+            "https://fr.wikipedia.org/wiki/Lombalgie",
+            "https://en.wikipedia.org/wiki/Low_back_pain",
+            "https://www.wikidata.org/wiki/Q852163",
+            "https://meshb.nlm.nih.gov/record/ui?ui=D017116"
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "name": "Cervicalgie",
+          "description": "Douleur au niveau de la région cervicale du cou",
+          "sameAs": [
+            "https://fr.wikipedia.org/wiki/Cervicalgie",
+            "https://en.wikipedia.org/wiki/Neck_pain",
+            "https://www.wikidata.org/wiki/Q1758730",
+            "https://meshb.nlm.nih.gov/record/ui?ui=D019547"
+          ]
+        }
+      ]
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://www.physioactif.com/en/guide-complet/douleur-reliee-a-la-scoliose#webpage",
+      "datePublished": "2025-09-26",
+      "url": "https://www.physioactif.com/en/guide-complet/douleur-reliee-a-la-scoliose",
+      "name": "Douleur Reliee A La Scoliose - Guide Complet | Physioactif",
+      "description": "Guide complet sur douleur reliee a la scoliose: causes, symptômes, diagnostic et traitements en physiothérapie par les experts de Physioactif.",
+      "mainEntity": {
+        "@id": "https://www.physioactif.com/en/guide-complet/douleur-reliee-a-la-scoliose#condition"
+      },
+      "about": {
+        "@id": "https://www.physioactif.com/en/guide-complet/douleur-reliee-a-la-scoliose#condition"
+      },
+      "breadcrumb": {
+        "@type": "BreadcrumbList",
+        "@id": "https://www.physioactif.com/en/guide-complet/douleur-reliee-a-la-scoliose#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Accueil",
+            "item": "https://www.physioactif.com/en/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Guide Complet",
+            "item": "https://www.physioactif.com/en/guide-complet"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Douleur Reliee A La Scoliose",
+            "item": "https://www.physioactif.com/en/guide-complet/douleur-reliee-a-la-scoliose"
+          }
+        ]
+      },
+      "isPartOf": {
+        "@id": "https://www.physioactif.com/en/#website"
+      },
+      "inLanguage": [
+        "en-CA"
+      ],
+      "potentialAction": {
+        "@type": "ReadAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://www.physioactif.com/en/guide-complet/douleur-reliee-a-la-scoliose",
+          "actionPlatform": [
+            "http://schema.org/DesktopWebPlatform",
+            "http://schema.org/MobileWebPlatform"
+          ]
+        }
+      },
+      "relatedLink": [
+        "https://physioactif.clinicmaster.com/clinic-selection?lang=fr-CA"
+      ],
+      "publisher": {
+        "@id": "https://www.physioactif.com/en/#org"
+      }
+    }
+  ]
+}

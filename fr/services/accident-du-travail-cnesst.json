@@ -1,0 +1,95 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@id": "https://www.physioactif.com/services/accident-du-travail-cnesst/#therapy"
+    },
+    {
+      "@id": "https://www.physioactif.com/services/accident-du-travail-cnesst/#offer"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://www.physioactif.com/services/accident-du-travail-cnesst/#webpage",
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [
+          ".header_heading",
+          ".max-width-medium .text-style-muted"
+        ]
+      },
+      "datePublished": "2025-09-26",
+      "url": "https://www.physioactif.com/services/accident-du-travail-cnesst/",
+      "name": "Physiothérapie pour accident du travail (CNESST): 100% gratuit",
+      "description": "Retournez au travail en sécurité. Soins 100% gratuits CNESST avec expertise administrative pour accélérer votre dossier.",
+      "author": {
+        "@type": "Person",
+        "@id": "https://www.physioactif.com/equipe/ariel-desjardins-charbonneau/#person"
+      },
+      "inLanguage": [
+        "fr-CA"
+      ],
+      "isPartOf": {
+        "@id": "https://www.physioactif.com/#website"
+      },
+      "mainEntity": {
+        "@id": "https://www.physioactif.com/services/accident-du-travail-cnesst/#therapy"
+      },
+      "breadcrumb": {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Accueil",
+            "item": "https://www.physioactif.com/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Services",
+            "item": "https://www.physioactif.com/services/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Physiothérapie pour accident du travail (CNESST): 100% gratuit",
+            "item": "https://www.physioactif.com/services/accident-du-travail-cnesst/"
+          }
+        ]
+      },
+      "about": [
+        {
+          "@type": "MedicalTherapy",
+          "name": "Physiothérapie pour accident du travail (CNESST)",
+          "description": "Réadaptation occupationnelle spécialisée pour victimes d'accidents du travail couverts par la CNESST, visant un retour au travail sécuritaire et durable.",
+          "sameAs": [
+            "https://fr.wikipedia.org/wiki/Médecine_physique_et_de_réadaptation",
+            "https://en.wikipedia.org/wiki/Physical_medicine_and_rehabilitation",
+            "https://www.wikidata.org/wiki/Q2678675"
+          ]
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Physiothérapie",
+          "alternateName": [
+            "Physical therapy",
+            "Kinésithérapie",
+            "Fisioterapia"
+          ],
+          "sameAs": [
+            "https://www.physioactif.com/guide-complet/physiotherapie",
+            "https://www.wikidata.org/wiki/Q186005",
+            "https://en.wikipedia.org/wiki/Physical_therapy",
+            "https://fr.wikipedia.org/wiki/Kinésithérapie",
+            "https://meshb.nlm.nih.gov/record/ui?ui=D026761",
+            "https://www.merriam-webster.com/dictionary/physiotherapy",
+            "https://www.britannica.com/topic/physical-therapy"
+          ]
+        }
+      ],
+      "publisher": {
+        "@id": "https://www.physioactif.com/#org"
+      }
+    }
+  ]
+}

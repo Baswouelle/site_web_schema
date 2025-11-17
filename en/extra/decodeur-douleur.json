@@ -1,0 +1,159 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "MedicalRiskCalculator",
+      "@id": "https://www.physioactif.com/en/extra/decodeur-douleur/#calculator",
+      "name": "Le Décodeur de Douleur",
+      "alternateName": "Pain Decoder",
+      "description": "Évaluez en 5 minutes si votre sensation corporelle est normale ou préoccupante grâce à cet outil développé par nos physiothérapeutes.",
+      "url": "https://www.physioactif.com/en/extra/decodeur-douleur/",
+      "inLanguage": [
+        "en-CA"
+      ],
+      "datePublished": "2025-09-26",
+      "softwareVersion": "1.0",
+      "applicationCategory": "HealthApplication",
+      "medicalSpecialty": "Physiotherapy",
+      "operatingSystem": "Web browser",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://cdn.prod.website-files.com/6710038d098190f16121f569/671addf67ef4cd3efacdcd0f_D%C3%A9codeur%20de%20douleur.webp",
+        "width": 1200,
+        "height": 630
+      },
+      "screenshot": {
+        "@type": "ImageObject",
+        "url": "https://cdn.prod.website-files.com/6710038d098190f16121f569/671addf67ef4cd3efacdcd0f_D%C3%A9codeur%20de%20douleur.webp",
+        "width": 1200,
+        "height": 630,
+        "caption": "Interface du Décodeur de Douleur - Questionnaire d'évaluation en 8 étapes"
+      },
+      "featureList": [
+        "Évaluation de la localisation de la douleur",
+        "Mesure de l'intensité de la douleur (échelle 0-10)",
+        "Analyse de la durée des symptômes",
+        "Évaluation du mode d'apparition",
+        "Analyse de l'évolution de la douleur",
+        "Évaluation du comportement quotidien de la douleur",
+        "Mesure de l'impact sur la vie quotidienne",
+        "Détection des signaux d'alarme (red flags)",
+        "Recommandations personnalisées basées sur les réponses"
+      ],
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "CAD",
+        "availability": "https://schema.org/InStock"
+      },
+      "creator": {
+        "@id": "https://www.physioactif.com/en/#org"
+      },
+      "maintainer": {
+        "@id": "https://www.physioactif.com/en/#org"
+      },
+      "potentialAction": {
+        "@type": "AssessAction",
+        "name": "Évaluer votre douleur",
+        "description": "Complétez le questionnaire en 8 étapes pour obtenir une évaluation personnalisée",
+        "result": {
+          "@type": "MedicalRiskScore",
+          "name": "Résultat d'évaluation de la douleur",
+          "description": "Recommandations basées sur vos réponses: consultation médicale urgente, consultation professionnelle conseillée, ou auto-gestion avec surveillance"
+        }
+      },
+      "interactionStatistic": {
+        "@type": "InteractionCounter",
+        "interactionType": "https://schema.org/UseAction",
+        "userInteractionCount": 2847
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://www.physioactif.com/en/extra/decodeur-douleur/#webpage",
+      "url": "https://www.physioactif.com/en/extra/decodeur-douleur/",
+      "name": "Le Décodeur de Douleur",
+      "description": "Évaluez en 5 minutes si votre sensation corporelle est normale ou préoccupante grâce à cet outil développé par nos physiothérapeutes.",
+      "inLanguage": [
+        "en-CA"
+      ],
+      "datePublished": "2025-09-26",
+      "keywords": "évaluation douleur, décodeur de douleur, questionnaire douleur musculosquelettique, auto-évaluation physiothérapie, red flags douleur",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://cdn.prod.website-files.com/6710038d098190f16121f569/671addf67ef4cd3efacdcd0f_D%C3%A9codeur%20de%20douleur.webp",
+        "width": 1200,
+        "height": 630
+      },
+      "isPartOf": {
+        "@id": "https://www.physioactif.com/en/#website"
+      },
+      "mainEntity": {
+        "@id": "https://www.physioactif.com/en/extra/decodeur-douleur/#calculator"
+      },
+      "breadcrumb": {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Accueil",
+            "item": "https://www.physioactif.com/en/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Le Décodeur de Douleur",
+            "item": "https://www.physioactif.com/en/extra/decodeur-douleur/"
+          }
+        ]
+      },
+      "about": {
+        "@type": "MedicalProcedure",
+        "name": "Évaluation de la douleur musculosquelettique",
+        "description": "Processus d'évaluation standardisé pour déterminer la gravité et l'urgence des douleurs corporelles"
+      },
+      "mentions": [
+        {
+          "@type": "MedicalTherapy",
+          "name": "Physiothérapie",
+          "alternateName": [
+            "Physical therapy",
+            "Kinésithérapie",
+            "Fisioterapia"
+          ],
+          "sameAs": [
+            "https://www.physioactif.com/en/guide-complet/physiotherapie",
+            "https://www.wikidata.org/wiki/Q186005",
+            "https://en.wikipedia.org/wiki/Physical_therapy",
+            "https://fr.wikipedia.org/wiki/Kinésithérapie",
+            "https://meshb.nlm.nih.gov/record/ui?ui=D026761",
+            "https://www.merriam-webster.com/dictionary/physiotherapy",
+            "https://www.britannica.com/topic/physical-therapy"
+          ]
+        }
+      ],
+      "provider": {
+        "@id": "https://www.physioactif.com/en/#org"
+      },
+      "potentialAction": {
+        "@type": "ReserveAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://www.physioactif.com/en/contact/",
+          "actionPlatform": [
+            "http://schema.org/DesktopWebPlatform",
+            "http://schema.org/MobileWebPlatform"
+          ]
+        },
+        "result": {
+          "@type": "Reservation",
+          "name": "Prendre rendez-vous suite à l'évaluation"
+        }
+      },
+      "publisher": {
+        "@id": "https://www.physioactif.com/en/#org"
+      }
+    }
+  ]
+}

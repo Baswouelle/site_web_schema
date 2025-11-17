@@ -1,0 +1,96 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "@id": "https://www.physioactif.com/ressources/premiere-visite-comment-etre-le-patient-chouchou-de-votre-physio/#article",
+      "author": {
+        "@type": "Person",
+        "@id": "https://www.physioactif.com/equipe/philippe-paradis/#person"
+      },
+      "headline": "Première visite en physio : comment bien se préparer | Physioactif",
+      "description": "Maximisez votre première visite physio. Préparez-vous parfaitement pour obtenir le diagnostic et plan optimal dès le départ.",
+      "url": "https://www.physioactif.com/ressources/premiere-visite-comment-etre-le-patient-chouchou-de-votre-physio/",
+      "inLanguage": [
+        "fr-CA"
+      ],
+      "datePublished": "2025-09-26",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://cdn.prod.website-files.com/670e84ccd653d18590687563/physioactif-hero-default.jpg",
+        "width": 1200,
+        "height": 630
+      },
+      "publisher": {
+        "@id": "https://www.physioactif.com/#org"
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.physioactif.com/ressources/premiere-visite-comment-etre-le-patient-chouchou-de-votre-physio/"
+      },
+      "about": {
+        "@type": "PhysicalTherapy",
+        "name": "Physiothérapie"
+      },
+      "articleSection": "Ressources",
+      "keywords": [
+        "première visite",
+        "préparation consultation",
+        "patient physio",
+        "rendez-vous physiothérapie"
+      ],
+      "mentions": [
+        {
+          "@id": "https://www.physioactif.com/services/deuxieme-avis-sur-diagnostic-et-traitement/#therapy"
+        }
+      ]
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://www.physioactif.com/ressources/premiere-visite-comment-etre-le-patient-chouchou-de-votre-physio/#webpage",
+      "datePublished": "2025-09-26",
+      "url": "https://www.physioactif.com/ressources/premiere-visite-comment-etre-le-patient-chouchou-de-votre-physio/",
+      "name": "Première visite en physio : comment bien se préparer | Physioactif",
+      "description": "Maximisez votre première visite physio. Préparez-vous parfaitement pour obtenir le diagnostic et plan optimal dès le départ.",
+      "inLanguage": [
+        "fr-CA"
+      ],
+      "isPartOf": {
+        "@id": "https://www.physioactif.com/#website"
+      },
+      "mainEntity": {
+        "@id": "https://www.physioactif.com/ressources/premiere-visite-comment-etre-le-patient-chouchou-de-votre-physio/#article"
+      },
+      "breadcrumb": {
+        "@id": "https://www.physioactif.com/ressources/premiere-visite-comment-etre-le-patient-chouchou-de-votre-physio/#breadcrumb"
+      },
+      "publisher": {
+        "@id": "https://www.physioactif.com/#org"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.physioactif.com/ressources/premiere-visite-comment-etre-le-patient-chouchou-de-votre-physio/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Accueil",
+          "item": "https://www.physioactif.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Ressources",
+          "item": "https://www.physioactif.com/ressources/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Première visite en physio : comment bien se préparer",
+          "item": "https://www.physioactif.com/ressources/premiere-visite-comment-etre-le-patient-chouchou-de-votre-physio/"
+        }
+      ]
+    }
+  ]
+}

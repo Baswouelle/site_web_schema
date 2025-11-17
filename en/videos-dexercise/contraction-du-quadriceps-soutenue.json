@@ -1,0 +1,232 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "VideoObject",
+      "@id": "https://www.physioactif.com/en/videos-dexercise/contraction-du-quadriceps-soutenue#video",
+      "name": "Contraction du Quadriceps Soutenue - Vidéo Physiothérapie",
+      "description": "Vidéo démonstration professionnelle de l'exercice contraction du quadriceps soutenue par les physiothérapeutes de Physioactif.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/oH_Df8q3-OA/maxresdefault.jpg",
+      "uploadDate": "2024-01-15",
+      "duration": "PT1M",
+      "publisher": {
+        "@id": "https://www.physioactif.com/en/#org"
+      },
+      "about": [
+        {
+          "@id": "https://www.physioactif.com/en/videos-dexercise/contraction-du-quadriceps-soutenue#exercise"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Physiothérapie",
+          "alternateName": [
+            "Physical therapy",
+            "Kinésithérapie",
+            "Fisioterapia"
+          ],
+          "sameAs": [
+            "https://www.physioactif.com/en/guide-complet/physiotherapie",
+            "https://www.wikidata.org/wiki/Q186005",
+            "https://en.wikipedia.org/wiki/Physical_therapy",
+            "https://fr.wikipedia.org/wiki/Kinésithérapie",
+            "https://meshb.nlm.nih.gov/record/ui?ui=D026761",
+            "https://www.merriam-webster.com/dictionary/physiotherapy",
+            "https://www.britannica.com/topic/physical-therapy"
+          ]
+        }
+      ],
+      "embedUrl": "https://www.youtube.com/embed/oH_Df8q3-OA",
+      "contentUrl": "https://www.youtube.com/watch?v=oH_Df8q3-OA"
+    },
+    {
+      "@type": "ExercisePlan",
+      "@id": "https://www.physioactif.com/en/videos-dexercise/contraction-du-quadriceps-soutenue#exercise",
+      "name": "Contraction du Quadriceps Soutenue",
+      "description": "Exercice de renforcement musculaire pour le quadriceps visant à renforcer et stabiliser la région ciblée. Particulièrement efficace pour traiter Syndrome fémoro-patellaire, Arthrose du genou (gonarthrose), Entorse au genou et déchirure du ligament croisé antérieur (LCA). Cet exercice aide à corriger les déséquilibres musculaires, améliorer la posture et réduire la douleur. Recommandé dans le cadre d'un programme de réadaptation en physiothérapie.",
+      "category": "Hanche, bassin et cuisse",
+      "activityDuration": "PT1M",
+      "exerciseType": "PhysicalActivity",
+      "associatedAnatomicalStructure": [
+        {
+          "name": "Quadriceps",
+          "alternateName": [
+            "Quadriceps femoris",
+            "Musculus quadriceps femoris"
+          ],
+          "muscleAction": "Knee extension",
+          "bodyLocation": "Anterior thigh",
+          "@id": "https://www.physioactif.com/en/anatomie/muscles/quadriceps",
+          "@type": "Muscle"
+        }
+      ],
+      "isPartOf": {
+        "@id": "https://www.physioactif.com/en/#org"
+      },
+      "provider": {
+        "@id": "https://www.physioactif.com/en/#org"
+      },
+      "inLanguage": [
+        "en-CA"
+      ],
+      "url": "https://www.physioactif.com/en/videos-dexercise/contraction-du-quadriceps-soutenue",
+      "exerciseRelatedCondition": [
+        {
+          "@id": "https://www.physioactif.com/en/guide-complet/syndrome-femoro-patellaire#condition"
+        },
+        {
+          "@id": "https://www.physioactif.com/en/guide-complet/arthrose-du-genou-gonarthrose#condition"
+        },
+        {
+          "@id": "https://www.physioactif.com/en/guide-complet/entorse-au-genou-et-dechirure-du-ligament-croise-anterieur-lca#condition"
+        }
+      ],
+      "targetArea": [
+        {
+          "@type": "AnatomicalStructure",
+          "name": "Hip"
+        },
+        {
+          "@type": "AnatomicalStructure",
+          "name": "Pelvis"
+        },
+        {
+          "@type": "AnatomicalStructure",
+          "name": "Lumbar spine"
+        }
+      ],
+      "intensity": {
+        "@type": "QuantitativeValue",
+        "value": "Moderate",
+        "description": "Modéré - Convient aux personnes avec mobilité de base"
+      },
+      "repetitions": {
+        "@type": "QuantitativeValue",
+        "value": "3-5",
+        "unitText": "répétitions par côté"
+      },
+      "restPeriods": "PT30S",
+      "workload": {
+        "@type": "Energy",
+        "value": "Light to moderate"
+      }
+    },
+    {
+      "@type": "MedicalWebPage",
+      "@id": "https://www.physioactif.com/en/videos-dexercise/contraction-du-quadriceps-soutenue#webpage",
+      "datePublished": "2025-09-26",
+      "name": "Contraction du Quadriceps Soutenue - Vidéo d'exercice",
+      "headline": "Contraction du Quadriceps Soutenue - Exercice de physiothérapie en vidéo | Physioactif",
+      "description": "Exercice de renforcement musculaire pour le quadriceps visant à renforcer et stabiliser la région ciblée. Particulièrement efficace pour traiter Syndrome fémoro-patellaire, Arthrose du genou (gonarthrose), Entorse au genou et déchirure du ligament croisé antérieur (LCA). Cet exercice aide à corriger les déséquilibres musculaires, améliorer la posture et réduire la douleur. Recommandé dans le cadre d'un programme de réadaptation en physiothérapie.",
+      "about": [
+        {
+          "@id": "https://www.physioactif.com/en/videos-dexercise/contraction-du-quadriceps-soutenue#exercise"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Physiothérapie",
+          "alternateName": [
+            "Physical therapy",
+            "Kinésithérapie",
+            "Fisioterapia"
+          ],
+          "sameAs": [
+            "https://www.physioactif.com/en/guide-complet/physiotherapie",
+            "https://www.wikidata.org/wiki/Q186005",
+            "https://en.wikipedia.org/wiki/Physical_therapy",
+            "https://fr.wikipedia.org/wiki/Kinésithérapie",
+            "https://meshb.nlm.nih.gov/record/ui?ui=D026761",
+            "https://www.merriam-webster.com/dictionary/physiotherapy",
+            "https://www.britannica.com/topic/physical-therapy"
+          ]
+        }
+      ],
+      "mainEntity": {
+        "@id": "https://www.physioactif.com/en/videos-dexercise/contraction-du-quadriceps-soutenue#exercise"
+      },
+      "isPartOf": {
+        "@id": "https://www.physioactif.com/en/#website"
+      },
+      "specialty": [
+        "Physiotherapy",
+        "Musculoskeletal",
+        "SportsMedicine"
+      ],
+      "mentions": [
+        {
+          "@type": "DefinedTerm",
+          "name": "Hanche",
+          "description": "Région anatomique située à la jonction entre le membre inférieur et le tronc, centrée sur l'articulation coxo-fémorale entre l'os coxal et le fémur.",
+          "sameAs": [
+            "https://fr.wikipedia.org/wiki/Hanche",
+            "https://en.wikipedia.org/wiki/Hip",
+            "https://www.wikidata.org/wiki/Q193818",
+            "https://meshb.nlm.nih.gov/record/ui?ui=D006621"
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "name": "Bassin",
+          "description": "Partie inférieure du tronc située entre l'abdomen et les cuisses, composée de deux os coxaux latéraux, du sacrum et du coccyx en arrière.",
+          "sameAs": [
+            "https://fr.wikipedia.org/wiki/Bassin_(anatomie)",
+            "https://en.wikipedia.org/wiki/Pelvis",
+            "https://www.wikidata.org/wiki/Q713102",
+            "https://meshb.nlm.nih.gov/record/ui?ui=D010388"
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "name": "Colonne lombaire",
+          "description": "Les cinq vertèbres lombaires (L1-L5) situées entre les vertèbres thoraciques et le sacrum, formant la lordose lombaire de la colonne vertébrale.",
+          "sameAs": [
+            "https://fr.wikipedia.org/wiki/Vertèbre_lombaire",
+            "https://en.wikipedia.org/wiki/Lumbar_vertebrae",
+            "https://www.wikidata.org/wiki/Q405478",
+            "https://meshb.nlm.nih.gov/record/ui?ui=D008159"
+          ]
+        }
+      ],
+      "inLanguage": [
+        "en-CA"
+      ],
+      "url": "https://www.physioactif.com/en/videos-dexercise/contraction-du-quadriceps-soutenue",
+      "breadcrumb": {
+        "@id": "https://www.physioactif.com/en/videos-dexercise/contraction-du-quadriceps-soutenue#breadcrumb"
+      },
+      "video": {
+        "@id": "https://www.physioactif.com/en/videos-dexercise/contraction-du-quadriceps-soutenue#video"
+      },
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [
+          ".header_heading",
+          ".header_content .text-style-muted",
+          ".section_article .text-rich-text h2"
+        ]
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.physioactif.com/en/videos-dexercise/contraction-du-quadriceps-soutenue#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Accueil",
+          "item": "https://www.physioactif.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Vidéos d'exercices",
+          "item": "https://www.physioactif.com/en/videos-exercices"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Contraction du Quadriceps Soutenue"
+        }
+      ]
+    }
+  ]
+}

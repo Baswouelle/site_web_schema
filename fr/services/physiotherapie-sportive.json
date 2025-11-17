@@ -1,0 +1,95 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@id": "https://www.physioactif.com/services/physiotherapie-sportive/#therapy"
+    },
+    {
+      "@id": "https://www.physioactif.com/services/physiotherapie-sportive/#offer"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://www.physioactif.com/services/physiotherapie-sportive/#webpage",
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [
+          ".header_heading",
+          ".max-width-medium .text-style-muted"
+        ]
+      },
+      "datePublished": "2025-09-26",
+      "url": "https://www.physioactif.com/services/physiotherapie-sportive/",
+      "name": "Physiothérapie sportive : évaluation biomécanique et plan de retour",
+      "description": "Revenez au sport plus fort. Évaluation complète et plan personnalisé pour un retour sécuritaire à la performance.",
+      "author": {
+        "@type": "Person",
+        "@id": "https://www.physioactif.com/equipe/claudine-farah/#person"
+      },
+      "inLanguage": [
+        "fr-CA"
+      ],
+      "isPartOf": {
+        "@id": "https://www.physioactif.com/#website"
+      },
+      "mainEntity": {
+        "@id": "https://www.physioactif.com/services/physiotherapie-sportive/#therapy"
+      },
+      "breadcrumb": {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Accueil",
+            "item": "https://www.physioactif.com/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Services",
+            "item": "https://www.physioactif.com/services/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Physiothérapie sportive : évaluation biomécanique et plan de retour",
+            "item": "https://www.physioactif.com/services/physiotherapie-sportive/"
+          }
+        ]
+      },
+      "about": [
+        {
+          "@type": "MedicalTherapy",
+          "name": "Physiothérapie sportive",
+          "description": "Physiothérapie spécialisée dans l'évaluation, le traitement et la prévention des blessures sportives, visant un retour sécuritaire et optimal à la performance athlétique.",
+          "sameAs": [
+            "https://fr.wikipedia.org/wiki/Médecine_du_sport",
+            "https://en.wikipedia.org/wiki/Sports_medicine",
+            "https://www.wikidata.org/wiki/Q840545"
+          ]
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Physiothérapie",
+          "alternateName": [
+            "Physical therapy",
+            "Kinésithérapie",
+            "Fisioterapia"
+          ],
+          "sameAs": [
+            "https://www.physioactif.com/guide-complet/physiotherapie",
+            "https://www.wikidata.org/wiki/Q186005",
+            "https://en.wikipedia.org/wiki/Physical_therapy",
+            "https://fr.wikipedia.org/wiki/Kinésithérapie",
+            "https://meshb.nlm.nih.gov/record/ui?ui=D026761",
+            "https://www.merriam-webster.com/dictionary/physiotherapy",
+            "https://www.britannica.com/topic/physical-therapy"
+          ]
+        }
+      ],
+      "publisher": {
+        "@id": "https://www.physioactif.com/#org"
+      }
+    }
+  ]
+}

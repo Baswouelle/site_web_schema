@@ -1,0 +1,217 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "MedicalCondition",
+      "@id": "https://www.physioactif.com/guide-complet/plagiocephalie-ou-tete-plate#condition",
+      "name": "Plagiocéphalie",
+      "alternateName": [
+        "Plagiocephaly",
+        "flat head syndrome",
+        "positional plagiocephaly",
+        "syndrome de la tête plate"
+      ],
+      "description": "Condition médicale affectant le système musculosquelettique nécessitant une prise en charge en physiothérapie.",
+      "sameAs": [
+        "https://fr.wikipedia.org/wiki/Plagiocéphalie",
+        "https://en.wikipedia.org/wiki/Plagiocephaly",
+        "https://www.wikidata.org/wiki/Q1137554",
+        "https://meshb.nlm.nih.gov/record/ui?ui=D058748",
+        "http://snomed.info/id/18850009"
+      ],
+      "code": [
+        {
+          "@type": "MedicalCode",
+          "code": "Q67.3",
+          "codingSystem": "ICD-10"
+        },
+        {
+          "@type": "MedicalCode",
+          "code": "LD2D.10",
+          "codingSystem": "ICD-11"
+        },
+        {
+          "@type": "MedicalCode",
+          "code": "C205516",
+          "codingSystem": "NCIt"
+        }
+      ]
+    },
+    {
+      "@type": "MedicalWebPage",
+      "@id": "https://www.physioactif.com/guide-complet/plagiocephalie-ou-tete-plate#article",
+      "author": {
+        "@type": "Person",
+        "@id": "https://www.physioactif.com/equipe/ariel-desjardins-charbonneau/#person"
+      },
+      "datePublished": "2025-09-26",
+      "name": "Plagiocephalie Ou Tete Plate - Guide Complet",
+      "headline": "Plagiocephalie Ou Tete Plate: Symptômes, Causes, Diagnostic et Traitement en Physiothérapie",
+      "about": [
+        {
+          "@id": "https://www.physioactif.com/guide-complet/plagiocephalie-ou-tete-plate#condition"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Physiothérapie",
+          "alternateName": [
+            "Physical therapy",
+            "Kinésithérapie",
+            "Fisioterapia"
+          ],
+          "sameAs": [
+            "https://www.physioactif.com/guide-complet/physiotherapie",
+            "https://www.wikidata.org/wiki/Q186005",
+            "https://en.wikipedia.org/wiki/Physical_therapy",
+            "https://fr.wikipedia.org/wiki/Kinésithérapie",
+            "https://meshb.nlm.nih.gov/record/ui?ui=D026761",
+            "https://www.merriam-webster.com/dictionary/physiotherapy",
+            "https://www.britannica.com/topic/physical-therapy"
+          ]
+        }
+      ],
+      "mainEntity": {
+        "@id": "https://www.physioactif.com/guide-complet/plagiocephalie-ou-tete-plate#condition"
+      },
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [
+          ".header_heading",
+          ".header_content .text-style-muted.w-richtext",
+          ".section_article .text-rich-text h2"
+        ]
+      },
+      "specialty": [
+        "Physiotherapy",
+        "Musculoskeletal",
+        "SportsMedicine"
+      ],
+      "medicalAudience": [
+        {
+          "@type": "Patient"
+        },
+        {
+          "@type": "MedicalAudience",
+          "audienceType": "General Public"
+        }
+      ],
+      "reviewedBy": {
+        "@id": "https://www.physioactif.com/#org"
+      },
+      "provider": {
+        "@id": "https://www.physioactif.com/#org"
+      },
+      "inLanguage": [
+        "fr-CA"
+      ],
+      "isPartOf": {
+        "@id": "https://www.physioactif.com/#website"
+      },
+      "mentions": [
+        {
+          "@type": "MedicalTherapy",
+          "name": "Physiothérapie",
+          "alternateName": [
+            "Physical therapy",
+            "Kinésithérapie",
+            "Fisioterapia"
+          ],
+          "sameAs": [
+            "https://www.physioactif.com/guide-complet/physiotherapie",
+            "https://www.wikidata.org/wiki/Q186005",
+            "https://en.wikipedia.org/wiki/Physical_therapy",
+            "https://fr.wikipedia.org/wiki/Kinésithérapie",
+            "https://meshb.nlm.nih.gov/record/ui?ui=D026761",
+            "https://www.merriam-webster.com/dictionary/physiotherapy",
+            "https://www.britannica.com/topic/physical-therapy"
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "@id": "https://www.physioactif.com/guide-complet/plagiocephalie-ou-tete-plate#condition",
+          "name": "Plagiocéphalie",
+          "inDefinedTermSet": "https://schema.org/MedicalCondition",
+          "termCode": [
+            {
+              "@type": "MedicalCode",
+              "code": "Q67.3",
+              "codingSystem": "ICD-10"
+            },
+            {
+              "@type": "MedicalCode",
+              "code": "LD2D.10",
+              "codingSystem": "ICD-11"
+            }
+          ],
+          "sameAs": [
+            "https://fr.wikipedia.org/wiki/Plagiocéphalie",
+            "https://en.wikipedia.org/wiki/Plagiocephaly",
+            "https://www.wikidata.org/wiki/Q1137554",
+            "https://meshb.nlm.nih.gov/record/ui?ui=D058748"
+          ]
+        }
+      ]
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://www.physioactif.com/guide-complet/plagiocephalie-ou-tete-plate#webpage",
+      "datePublished": "2025-09-26",
+      "url": "https://www.physioactif.com/guide-complet/plagiocephalie-ou-tete-plate",
+      "name": "Plagiocephalie Ou Tete Plate - Guide Complet | Physioactif",
+      "description": "Guide complet sur plagiocephalie ou tete plate: causes, symptômes, diagnostic et traitements en physiothérapie par les experts de Physioactif.",
+      "mainEntity": {
+        "@id": "https://www.physioactif.com/guide-complet/plagiocephalie-ou-tete-plate#condition"
+      },
+      "about": {
+        "@id": "https://www.physioactif.com/guide-complet/plagiocephalie-ou-tete-plate#condition"
+      },
+      "breadcrumb": {
+        "@type": "BreadcrumbList",
+        "@id": "https://www.physioactif.com/guide-complet/plagiocephalie-ou-tete-plate#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Accueil",
+            "item": "https://www.physioactif.com/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Guide Complet",
+            "item": "https://www.physioactif.com/guide-complet"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Plagiocephalie Ou Tete Plate",
+            "item": "https://www.physioactif.com/guide-complet/plagiocephalie-ou-tete-plate"
+          }
+        ]
+      },
+      "isPartOf": {
+        "@id": "https://www.physioactif.com/#website"
+      },
+      "inLanguage": [
+        "fr-CA"
+      ],
+      "potentialAction": {
+        "@type": "ReadAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://www.physioactif.com/guide-complet/plagiocephalie-ou-tete-plate",
+          "actionPlatform": [
+            "http://schema.org/DesktopWebPlatform",
+            "http://schema.org/MobileWebPlatform"
+          ]
+        }
+      },
+      "relatedLink": [
+        "https://physioactif.clinicmaster.com/clinic-selection?lang=fr-CA"
+      ],
+      "publisher": {
+        "@id": "https://www.physioactif.com/#org"
+      }
+    }
+  ]
+}

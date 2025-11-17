@@ -1,0 +1,245 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "MedicalCondition",
+      "@id": "https://www.physioactif.com/en/guide-complet/lombo-sciatalgie#condition",
+      "name": "Lombo-sciatalgie",
+      "alternateName": [
+        "Sciatica",
+        "Sciatic neuralgia",
+        "Lombosciatique",
+        "Ischialgia"
+      ],
+      "description": "La lombosciatique (ou sciatique) est une douleur vive qui suit le trajet du nerf sciatique, s'étendant du bas du dos jusqu'aux orteils, généralement d'un seul côté du corps. Elle est principalement causée (90% des cas) par une hernie discale. Les symptômes incluent une douleur intense irradiant le long de la jambe, des picotements ou engourdissements, et parfois une perte de sensibilité ou du réflexe achilléen. La condition affecte 5-10% des patients souffrant de maux de dos, avec environ 55% des patients ne ressentant plus de douleur un an après les symptômes initiaux.",
+      "code": [
+        {
+          "@type": "MedicalCode",
+          "code": "M54.3",
+          "codingSystem": "ICD-10"
+        },
+        {
+          "@type": "MedicalCode",
+          "code": "D012585",
+          "codingSystem": "MeSH"
+        },
+        {
+          "@type": "MedicalCode",
+          "code": "C0036396",
+          "codingSystem": "NCIt"
+        }
+      ],
+      "sameAs": [
+        "https://fr.wikipedia.org/wiki/Lombosciatique",
+        "https://en.wikipedia.org/wiki/Sciatica",
+        "https://www.wikidata.org/wiki/Q565276",
+        "https://id.nlm.nih.gov/mesh/D012585.html",
+        "https://www.merriam-webster.com/dictionary/sciatica",
+        "http://snomed.info/id/23056005"
+      ],
+      "possibleTreatment": {
+        "@type": "MedicalTherapy",
+        "name": "Physiothérapie",
+        "alternateName": [
+          "Physical therapy",
+          "Kinésithérapie",
+          "Fisioterapia"
+        ],
+        "sameAs": [
+          "https://www.physioactif.com/en/guide-complet/physiotherapie",
+          "https://www.wikidata.org/wiki/Q186005",
+          "https://en.wikipedia.org/wiki/Physical_therapy",
+          "https://fr.wikipedia.org/wiki/Kinésithérapie",
+          "https://meshb.nlm.nih.gov/record/ui?ui=D026761",
+          "https://www.merriam-webster.com/dictionary/physiotherapy",
+          "https://www.britannica.com/topic/physical-therapy"
+        ]
+      }
+    },
+    {
+      "@type": "MedicalWebPage",
+      "@id": "https://www.physioactif.com/en/guide-complet/lombo-sciatalgie#article",
+      "author": {
+        "@type": "Person",
+        "@id": "https://www.physioactif.com/en/equipe/ariel-desjardins-charbonneau/#person"
+      },
+      "datePublished": "2025-09-26",
+      "name": "Lombo Sciatalgie - Guide Complet",
+      "headline": "Lombo Sciatalgie: Symptômes, Causes, Diagnostic et Traitement en Physiothérapie",
+      "about": [
+        {
+          "@id": "https://www.physioactif.com/en/guide-complet/lombo-sciatalgie#condition"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Physiothérapie",
+          "alternateName": [
+            "Physical therapy",
+            "Kinésithérapie",
+            "Fisioterapia"
+          ],
+          "sameAs": [
+            "https://www.physioactif.com/en/guide-complet/physiotherapie",
+            "https://www.wikidata.org/wiki/Q186005",
+            "https://en.wikipedia.org/wiki/Physical_therapy",
+            "https://fr.wikipedia.org/wiki/Kinésithérapie",
+            "https://meshb.nlm.nih.gov/record/ui?ui=D026761",
+            "https://www.merriam-webster.com/dictionary/physiotherapy",
+            "https://www.britannica.com/topic/physical-therapy"
+          ]
+        }
+      ],
+      "mainEntity": {
+        "@id": "https://www.physioactif.com/en/guide-complet/lombo-sciatalgie#condition"
+      },
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [
+          ".header_heading",
+          ".header_content .text-style-muted.w-richtext",
+          ".section_article .text-rich-text h2"
+        ]
+      },
+      "specialty": [
+        "Physiotherapy",
+        "Musculoskeletal",
+        "SportsMedicine"
+      ],
+      "medicalAudience": [
+        {
+          "@type": "Patient"
+        },
+        {
+          "@type": "MedicalAudience",
+          "audienceType": "General Public"
+        }
+      ],
+      "reviewedBy": {
+        "@id": "https://www.physioactif.com/en/#org"
+      },
+      "provider": {
+        "@id": "https://www.physioactif.com/en/#org"
+      },
+      "inLanguage": [
+        "en-CA"
+      ],
+      "isPartOf": {
+        "@id": "https://www.physioactif.com/en/#website"
+      },
+      "mentions": [
+        {
+          "@type": "MedicalTherapy",
+          "name": "Physiothérapie",
+          "alternateName": [
+            "Physical therapy",
+            "Kinésithérapie",
+            "Fisioterapia"
+          ],
+          "sameAs": [
+            "https://www.physioactif.com/en/guide-complet/physiotherapie",
+            "https://www.wikidata.org/wiki/Q186005",
+            "https://en.wikipedia.org/wiki/Physical_therapy",
+            "https://fr.wikipedia.org/wiki/Kinésithérapie",
+            "https://meshb.nlm.nih.gov/record/ui?ui=D026761",
+            "https://www.merriam-webster.com/dictionary/physiotherapy",
+            "https://www.britannica.com/topic/physical-therapy"
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "name": "Hernie discale",
+          "description": "Saillie du disque intervertébral causant une compression nerveuse",
+          "sameAs": [
+            "https://fr.wikipedia.org/wiki/Hernie_discale",
+            "https://en.wikipedia.org/wiki/Spinal_disc_herniation",
+            "https://www.wikidata.org/wiki/Q188874",
+            "https://meshb.nlm.nih.gov/record/ui?ui=D007405"
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "name": "Lombalgie",
+          "description": "Douleur dans la région lombaire du bas du dos",
+          "sameAs": [
+            "https://fr.wikipedia.org/wiki/Lombalgie",
+            "https://en.wikipedia.org/wiki/Low_back_pain",
+            "https://www.wikidata.org/wiki/Q852163",
+            "https://meshb.nlm.nih.gov/record/ui?ui=D017116"
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "name": "Syndrome du piriforme",
+          "description": "Condition musculosquelettique affectant syndrome du piriforme",
+          "sameAs": [
+            "https://fr.wikipedia.org/wiki/Syndrome_du_piriforme",
+            "https://en.wikipedia.org/wiki/Piriformis_syndrome",
+            "https://www.wikidata.org/wiki/Q1136742",
+            "https://meshb.nlm.nih.gov/record/ui?ui=D055958"
+          ]
+        }
+      ]
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://www.physioactif.com/en/guide-complet/lombo-sciatalgie#webpage",
+      "datePublished": "2025-09-26",
+      "url": "https://www.physioactif.com/en/guide-complet/lombo-sciatalgie",
+      "name": "Lombo Sciatalgie - Guide Complet | Physioactif",
+      "description": "Guide complet sur lombo sciatalgie: causes, symptômes, diagnostic et traitements en physiothérapie par les experts de Physioactif.",
+      "mainEntity": {
+        "@id": "https://www.physioactif.com/en/guide-complet/lombo-sciatalgie#condition"
+      },
+      "about": {
+        "@id": "https://www.physioactif.com/en/guide-complet/lombo-sciatalgie#condition"
+      },
+      "breadcrumb": {
+        "@type": "BreadcrumbList",
+        "@id": "https://www.physioactif.com/en/guide-complet/lombo-sciatalgie#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Accueil",
+            "item": "https://www.physioactif.com/en/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Guide Complet",
+            "item": "https://www.physioactif.com/en/guide-complet"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Lombo Sciatalgie",
+            "item": "https://www.physioactif.com/en/guide-complet/lombo-sciatalgie"
+          }
+        ]
+      },
+      "isPartOf": {
+        "@id": "https://www.physioactif.com/en/#website"
+      },
+      "inLanguage": [
+        "en-CA"
+      ],
+      "potentialAction": {
+        "@type": "ReadAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://www.physioactif.com/en/guide-complet/lombo-sciatalgie",
+          "actionPlatform": [
+            "http://schema.org/DesktopWebPlatform",
+            "http://schema.org/MobileWebPlatform"
+          ]
+        }
+      },
+      "relatedLink": [
+        "https://physioactif.clinicmaster.com/clinic-selection?lang=fr-CA"
+      ],
+      "publisher": {
+        "@id": "https://www.physioactif.com/en/#org"
+      }
+    }
+  ]
+}

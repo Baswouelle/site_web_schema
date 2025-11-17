@@ -1,0 +1,217 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "MedicalCondition",
+      "@id": "https://www.physioactif.com/guide-complet/nevralgie-de-la-jambe#condition",
+      "name": "Névralgie de la jambe",
+      "alternateName": [
+        "Leg neuralgia",
+        "Lower limb neuralgia",
+        "Neuralgia of lower leg"
+      ],
+      "description": "La névralgie de la jambe est une douleur dans la distribution d'un nerf ou de nerfs du membre inférieur. Le terme « névralgie » a été inventé par François Chaussier dans son Table Synoptique de la Névralgie de 1801 pour décrire une affection des nerfs causant une douleur intermittente mais intense. La névralgie de la jambe peut inclure diverses formes de douleurs neuropathiques affectant le membre inférieur, notamment la sciatique et d'autres radiculopathies. Le code ICD-10 pour la névralgie et névrite non spécifiée du membre inférieur est M79.26.",
+      "code": [
+        {
+          "@type": "MedicalCode",
+          "code": "M79.26",
+          "codingSystem": "ICD-10"
+        },
+        {
+          "@type": "MedicalCode",
+          "code": "D009437",
+          "codingSystem": "MeSH"
+        }
+      ],
+      "sameAs": [
+        "https://fr.wikipedia.org/wiki/Névralgie",
+        "https://en.wikipedia.org/wiki/Neuralgia",
+        "https://www.wikidata.org/wiki/Q192839",
+        "https://meshb.nlm.nih.gov/record/ui?ui=D009437",
+        "https://www.icd10data.com/ICD10CM/Codes/M00-M99/M70-M79/M79-/M79.26"
+      ],
+      "possibleTreatment": {
+        "@type": "MedicalTherapy",
+        "name": "Physiothérapie",
+        "alternateName": [
+          "Physical therapy",
+          "Kinésithérapie",
+          "Fisioterapia"
+        ],
+        "sameAs": [
+          "https://www.physioactif.com/guide-complet/physiotherapie",
+          "https://www.wikidata.org/wiki/Q186005",
+          "https://en.wikipedia.org/wiki/Physical_therapy",
+          "https://fr.wikipedia.org/wiki/Kinésithérapie",
+          "https://meshb.nlm.nih.gov/record/ui?ui=D026761",
+          "https://www.merriam-webster.com/dictionary/physiotherapy",
+          "https://www.britannica.com/topic/physical-therapy"
+        ]
+      }
+    },
+    {
+      "@type": "MedicalWebPage",
+      "@id": "https://www.physioactif.com/guide-complet/nevralgie-de-la-jambe#article",
+      "author": {
+        "@type": "Person",
+        "@id": "https://www.physioactif.com/equipe/ariel-desjardins-charbonneau/#person"
+      },
+      "datePublished": "2025-09-26",
+      "name": "Nevralgie De La Jambe - Guide Complet",
+      "headline": "Nevralgie De La Jambe: Symptômes, Causes, Diagnostic et Traitement en Physiothérapie",
+      "about": [
+        {
+          "@id": "https://www.physioactif.com/guide-complet/nevralgie-de-la-jambe#condition"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Physiothérapie",
+          "alternateName": [
+            "Physical therapy",
+            "Kinésithérapie",
+            "Fisioterapia"
+          ],
+          "sameAs": [
+            "https://www.physioactif.com/guide-complet/physiotherapie",
+            "https://www.wikidata.org/wiki/Q186005",
+            "https://en.wikipedia.org/wiki/Physical_therapy",
+            "https://fr.wikipedia.org/wiki/Kinésithérapie",
+            "https://meshb.nlm.nih.gov/record/ui?ui=D026761",
+            "https://www.merriam-webster.com/dictionary/physiotherapy",
+            "https://www.britannica.com/topic/physical-therapy"
+          ]
+        }
+      ],
+      "mainEntity": {
+        "@id": "https://www.physioactif.com/guide-complet/nevralgie-de-la-jambe#condition"
+      },
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [
+          ".header_heading",
+          ".header_content .text-style-muted.w-richtext",
+          ".section_article .text-rich-text h2"
+        ]
+      },
+      "specialty": [
+        "Physiotherapy",
+        "Musculoskeletal",
+        "SportsMedicine"
+      ],
+      "medicalAudience": [
+        {
+          "@type": "Patient"
+        },
+        {
+          "@type": "MedicalAudience",
+          "audienceType": "General Public"
+        }
+      ],
+      "reviewedBy": {
+        "@id": "https://www.physioactif.com/#org"
+      },
+      "provider": {
+        "@id": "https://www.physioactif.com/#org"
+      },
+      "inLanguage": [
+        "fr-CA"
+      ],
+      "isPartOf": {
+        "@id": "https://www.physioactif.com/#website"
+      },
+      "mentions": [
+        {
+          "@type": "MedicalTherapy",
+          "name": "Physiothérapie",
+          "alternateName": [
+            "Physical therapy",
+            "Kinésithérapie",
+            "Fisioterapia"
+          ],
+          "sameAs": [
+            "https://www.physioactif.com/guide-complet/physiotherapie",
+            "https://www.wikidata.org/wiki/Q186005",
+            "https://en.wikipedia.org/wiki/Physical_therapy",
+            "https://fr.wikipedia.org/wiki/Kinésithérapie",
+            "https://meshb.nlm.nih.gov/record/ui?ui=D026761",
+            "https://www.merriam-webster.com/dictionary/physiotherapy",
+            "https://www.britannica.com/topic/physical-therapy"
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "name": "Névralgie sciatique",
+          "description": "La névralgie sciatique est une douleur radiculaire le long du trajet du nerf sciatique, causée par une compression ou irritation des racines nerveuses L4, L5 ou S1 au niveau lombaire.",
+          "sameAs": [
+            "https://fr.wikipedia.org/wiki/Sciatique_(médecine)",
+            "https://en.wikipedia.org/wiki/Sciatica",
+            "https://www.wikidata.org/wiki/Q233992",
+            "https://meshb.nlm.nih.gov/record/ui?ui=D012585",
+            "https://www.merriam-webster.com/dictionary/sciatica"
+          ]
+        }
+      ]
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://www.physioactif.com/guide-complet/nevralgie-de-la-jambe#webpage",
+      "datePublished": "2025-09-26",
+      "url": "https://www.physioactif.com/guide-complet/nevralgie-de-la-jambe",
+      "name": "Nevralgie De La Jambe - Guide Complet | Physioactif",
+      "description": "Guide complet sur nevralgie de la jambe: causes, symptômes, diagnostic et traitements en physiothérapie par les experts de Physioactif.",
+      "mainEntity": {
+        "@id": "https://www.physioactif.com/guide-complet/nevralgie-de-la-jambe#condition"
+      },
+      "about": {
+        "@id": "https://www.physioactif.com/guide-complet/nevralgie-de-la-jambe#condition"
+      },
+      "breadcrumb": {
+        "@type": "BreadcrumbList",
+        "@id": "https://www.physioactif.com/guide-complet/nevralgie-de-la-jambe#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Accueil",
+            "item": "https://www.physioactif.com/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Guide Complet",
+            "item": "https://www.physioactif.com/guide-complet"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Nevralgie De La Jambe",
+            "item": "https://www.physioactif.com/guide-complet/nevralgie-de-la-jambe"
+          }
+        ]
+      },
+      "isPartOf": {
+        "@id": "https://www.physioactif.com/#website"
+      },
+      "inLanguage": [
+        "fr-CA"
+      ],
+      "potentialAction": {
+        "@type": "ReadAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://www.physioactif.com/guide-complet/nevralgie-de-la-jambe",
+          "actionPlatform": [
+            "http://schema.org/DesktopWebPlatform",
+            "http://schema.org/MobileWebPlatform"
+          ]
+        }
+      },
+      "relatedLink": [
+        "https://physioactif.clinicmaster.com/clinic-selection?lang=fr-CA"
+      ],
+      "publisher": {
+        "@id": "https://www.physioactif.com/#org"
+      }
+    }
+  ]
+}

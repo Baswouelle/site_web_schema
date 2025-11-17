@@ -1,0 +1,117 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "@id": "https://www.physioactif.com/en/approches-therapeutiques/des-nerfs/#article",
+      "author": {
+        "@type": "Person",
+        "@id": "https://www.physioactif.com/en/equipe/claudine-farah/#person"
+      },
+      "headline": "Traitement des nerfs : techniques de glissement et exercices de mobilité",
+      "description": "Libérez vos nerfs coincés. Techniques spécialisées qui éliminent engourdissements et douleurs nerveuses.",
+      "url": "https://www.physioactif.com/en/approches-therapeutiques/des-nerfs/",
+      "inLanguage": [
+        "en-CA"
+      ],
+      "datePublished": "2025-09-26",
+      "publisher": {
+        "@id": "https://www.physioactif.com/en/#org"
+      },
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://www.physioactif.com/en/wp-content/uploads/approches/des-nerfs-thumb.jpg",
+        "width": 1200,
+        "height": 675
+      },
+      "about": [
+        {
+          "@type": "PhysicalTherapy",
+          "name": "Traitement des nerfs : techniques de glissement et exercices de mobilité"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Physiothérapie",
+          "alternateName": [
+            "Physical therapy",
+            "Kinésithérapie",
+            "Fisioterapia"
+          ],
+          "sameAs": [
+            "https://www.physioactif.com/en/guide-complet/physiotherapie",
+            "https://www.wikidata.org/wiki/Q186005",
+            "https://en.wikipedia.org/wiki/Physical_therapy",
+            "https://fr.wikipedia.org/wiki/Kinésithérapie",
+            "https://meshb.nlm.nih.gov/record/ui?ui=D026761",
+            "https://www.merriam-webster.com/dictionary/physiotherapy",
+            "https://www.britannica.com/topic/physical-therapy"
+          ]
+        }
+      ],
+      "articleSection": "Approches thérapeutiques",
+      "keywords": [
+        "physiothérapie",
+        "traitement",
+        "approche thérapeutique"
+      ],
+      "mentions": [
+        {
+          "@type": "DefinedTerm",
+          "name": "Mobilisation neurale et glissement nerveux",
+          "description": "Exercices thérapeutiques de glissement neural (nerve gliding, nerve flossing) pour faciliter le mouvement des nerfs périphériques, traiter les compressions nerveuses, réduire l'irritation et améliorer la fonction nerveuse.",
+          "sameAs": [
+            "https://en.wikipedia.org/wiki/Nerve_glide",
+            "https://www.wikidata.org/wiki/Q112340032"
+          ]
+        }
+      ]
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://www.physioactif.com/en/approches-therapeutiques/des-nerfs/#webpage",
+      "datePublished": "2025-09-26",
+      "url": "https://www.physioactif.com/en/approches-therapeutiques/des-nerfs/",
+      "name": "Traitement des nerfs : techniques de glissement et exercices de mobilité",
+      "description": "Libérez vos nerfs coincés. Techniques spécialisées qui éliminent engourdissements et douleurs nerveuses.",
+      "inLanguage": [
+        "en-CA"
+      ],
+      "isPartOf": {
+        "@id": "https://www.physioactif.com/en/#website"
+      },
+      "mainEntity": {
+        "@id": "https://www.physioactif.com/en/approches-therapeutiques/des-nerfs/#article"
+      },
+      "breadcrumb": {
+        "@id": "https://www.physioactif.com/en/approches-therapeutiques/des-nerfs/#breadcrumb"
+      },
+      "publisher": {
+        "@id": "https://www.physioactif.com/en/#org"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.physioactif.com/en/approches-therapeutiques/des-nerfs/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Accueil",
+          "item": "https://www.physioactif.com/en/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Approches thérapeutiques",
+          "item": "https://www.physioactif.com/en/approches-therapeutiques/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Traitement des nerfs : techniques de glissement et exercices de mobilité",
+          "item": "https://www.physioactif.com/en/approches-therapeutiques/des-nerfs/"
+        }
+      ]
+    }
+  ]
+}

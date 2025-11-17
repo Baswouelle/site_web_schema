@@ -1,0 +1,94 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@id": "https://www.physioactif.com/en/services/analyse-biomecanique-de-la-course-a-pied/#therapy"
+    },
+    {
+      "@id": "https://www.physioactif.com/en/services/analyse-biomecanique-de-la-course-a-pied/#offer"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://www.physioactif.com/en/services/analyse-biomecanique-de-la-course-a-pied/#webpage",
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [
+          ".header_heading",
+          ".max-width-medium .text-style-muted"
+        ]
+      },
+      "datePublished": "2025-09-26",
+      "url": "https://www.physioactif.com/en/services/analyse-biomecanique-de-la-course-a-pied/",
+      "name": "Analyse biomécanique de la course par un·e physio expérimenté·e",
+      "description": "Courez plus vite, sans blessures. Analyse précise qui optimise votre foulée et prévient les douleurs futures.",
+      "author": {
+        "@type": "Person",
+        "@id": "https://www.physioactif.com/en/equipe/claudine-farah/#person"
+      },
+      "inLanguage": [
+        "en-CA"
+      ],
+      "isPartOf": {
+        "@id": "https://www.physioactif.com/en/#website"
+      },
+      "mainEntity": {
+        "@id": "https://www.physioactif.com/en/services/analyse-biomecanique-de-la-course-a-pied/#therapy"
+      },
+      "breadcrumb": {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Accueil",
+            "item": "https://www.physioactif.com/en/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Services",
+            "item": "https://www.physioactif.com/en/services/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Analyse biomécanique de la course par un·e physio expérimenté·e",
+            "item": "https://www.physioactif.com/en/services/analyse-biomecanique-de-la-course-a-pied/"
+          }
+        ]
+      },
+      "about": [
+        {
+          "@type": "MedicalTherapy",
+          "name": "Analyse biomécanique de la course à pied",
+          "description": "Évaluation détaillée de la biomécanique de course utilisant la technologie d'analyse de la marche pour optimiser la performance et prévenir les blessures chez les coureurs.",
+          "sameAs": [
+            "https://en.wikipedia.org/wiki/Gait_analysis",
+            "https://www.wikidata.org/wiki/Q1493441"
+          ]
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Physiothérapie",
+          "alternateName": [
+            "Physical therapy",
+            "Kinésithérapie",
+            "Fisioterapia"
+          ],
+          "sameAs": [
+            "https://www.physioactif.com/en/guide-complet/physiotherapie",
+            "https://www.wikidata.org/wiki/Q186005",
+            "https://en.wikipedia.org/wiki/Physical_therapy",
+            "https://fr.wikipedia.org/wiki/Kinésithérapie",
+            "https://meshb.nlm.nih.gov/record/ui?ui=D026761",
+            "https://www.merriam-webster.com/dictionary/physiotherapy",
+            "https://www.britannica.com/topic/physical-therapy"
+          ]
+        }
+      ],
+      "publisher": {
+        "@id": "https://www.physioactif.com/en/#org"
+      }
+    }
+  ]
+}

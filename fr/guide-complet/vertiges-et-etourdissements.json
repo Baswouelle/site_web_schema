@@ -1,0 +1,215 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "MedicalCondition",
+      "@id": "https://www.physioactif.com/guide-complet/vertiges-et-etourdissements#condition",
+      "name": "Vertige",
+      "alternateName": [
+        "Vertigo",
+        "dizziness",
+        "étourdissement",
+        "giddiness",
+        "vestibular vertigo"
+      ],
+      "description": "Condition médicale affectant le système musculosquelettique nécessitant une prise en charge en physiothérapie.",
+      "sameAs": [
+        "https://fr.wikipedia.org/wiki/Vertige",
+        "https://en.wikipedia.org/wiki/Vertigo",
+        "https://www.wikidata.org/wiki/Q193216",
+        "https://meshb.nlm.nih.gov/record/ui?ui=D014717"
+      ],
+      "code": [
+        {
+          "@type": "MedicalCode",
+          "code": "R42",
+          "codingSystem": "ICD-10"
+        },
+        {
+          "@type": "MedicalCode",
+          "code": "MB48.0",
+          "codingSystem": "ICD-11"
+        },
+        {
+          "@type": "MedicalCode",
+          "code": "C38057",
+          "codingSystem": "NCIt"
+        }
+      ]
+    },
+    {
+      "@type": "MedicalWebPage",
+      "@id": "https://www.physioactif.com/guide-complet/vertiges-et-etourdissements#article",
+      "author": {
+        "@type": "Person",
+        "@id": "https://www.physioactif.com/equipe/ariel-desjardins-charbonneau/#person"
+      },
+      "datePublished": "2025-09-26",
+      "name": "Vertiges Et Etourdissements - Guide Complet",
+      "headline": "Vertiges Et Etourdissements: Symptômes, Causes, Diagnostic et Traitement en Physiothérapie",
+      "about": [
+        {
+          "@id": "https://www.physioactif.com/guide-complet/vertiges-et-etourdissements#condition"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Physiothérapie",
+          "alternateName": [
+            "Physical therapy",
+            "Kinésithérapie",
+            "Fisioterapia"
+          ],
+          "sameAs": [
+            "https://www.physioactif.com/guide-complet/physiotherapie",
+            "https://www.wikidata.org/wiki/Q186005",
+            "https://en.wikipedia.org/wiki/Physical_therapy",
+            "https://fr.wikipedia.org/wiki/Kinésithérapie",
+            "https://meshb.nlm.nih.gov/record/ui?ui=D026761",
+            "https://www.merriam-webster.com/dictionary/physiotherapy",
+            "https://www.britannica.com/topic/physical-therapy"
+          ]
+        }
+      ],
+      "mainEntity": {
+        "@id": "https://www.physioactif.com/guide-complet/vertiges-et-etourdissements#condition"
+      },
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [
+          ".header_heading",
+          ".header_content .text-style-muted.w-richtext",
+          ".section_article .text-rich-text h2"
+        ]
+      },
+      "specialty": [
+        "Physiotherapy",
+        "Musculoskeletal",
+        "SportsMedicine"
+      ],
+      "medicalAudience": [
+        {
+          "@type": "Patient"
+        },
+        {
+          "@type": "MedicalAudience",
+          "audienceType": "General Public"
+        }
+      ],
+      "reviewedBy": {
+        "@id": "https://www.physioactif.com/#org"
+      },
+      "provider": {
+        "@id": "https://www.physioactif.com/#org"
+      },
+      "inLanguage": [
+        "fr-CA"
+      ],
+      "isPartOf": {
+        "@id": "https://www.physioactif.com/#website"
+      },
+      "mentions": [
+        {
+          "@type": "MedicalTherapy",
+          "name": "Physiothérapie",
+          "alternateName": [
+            "Physical therapy",
+            "Kinésithérapie",
+            "Fisioterapia"
+          ],
+          "sameAs": [
+            "https://www.physioactif.com/guide-complet/physiotherapie",
+            "https://www.wikidata.org/wiki/Q186005",
+            "https://en.wikipedia.org/wiki/Physical_therapy",
+            "https://fr.wikipedia.org/wiki/Kinésithérapie",
+            "https://meshb.nlm.nih.gov/record/ui?ui=D026761",
+            "https://www.merriam-webster.com/dictionary/physiotherapy",
+            "https://www.britannica.com/topic/physical-therapy"
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "name": "Vertige positionnel paroxystique bénin (VPPB)",
+          "description": "Sensation de rotation ou de déséquilibre spatial",
+          "sameAs": [
+            "https://fr.wikipedia.org/wiki/Vertige_paroxystique_positionnel_bénin",
+            "https://en.wikipedia.org/wiki/Benign_paroxysmal_positional_vertigo",
+            "https://www.wikidata.org/wiki/Q817310",
+            "https://meshb.nlm.nih.gov/record/ui?ui=D065635"
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "name": "Migraine",
+          "description": "Condition musculosquelettique affectant migraine",
+          "sameAs": [
+            "https://fr.wikipedia.org/wiki/Migraine",
+            "https://en.wikipedia.org/wiki/Migraine",
+            "https://www.wikidata.org/wiki/Q133823",
+            "https://meshb.nlm.nih.gov/record/ui?ui=D008881"
+          ]
+        }
+      ]
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://www.physioactif.com/guide-complet/vertiges-et-etourdissements#webpage",
+      "datePublished": "2025-09-26",
+      "url": "https://www.physioactif.com/guide-complet/vertiges-et-etourdissements",
+      "name": "Vertiges Et Etourdissements - Guide Complet | Physioactif",
+      "description": "Guide complet sur vertiges et etourdissements: causes, symptômes, diagnostic et traitements en physiothérapie par les experts de Physioactif.",
+      "mainEntity": {
+        "@id": "https://www.physioactif.com/guide-complet/vertiges-et-etourdissements#condition"
+      },
+      "about": {
+        "@id": "https://www.physioactif.com/guide-complet/vertiges-et-etourdissements#condition"
+      },
+      "breadcrumb": {
+        "@type": "BreadcrumbList",
+        "@id": "https://www.physioactif.com/guide-complet/vertiges-et-etourdissements#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Accueil",
+            "item": "https://www.physioactif.com/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Guide Complet",
+            "item": "https://www.physioactif.com/guide-complet"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Vertiges Et Etourdissements",
+            "item": "https://www.physioactif.com/guide-complet/vertiges-et-etourdissements"
+          }
+        ]
+      },
+      "isPartOf": {
+        "@id": "https://www.physioactif.com/#website"
+      },
+      "inLanguage": [
+        "fr-CA"
+      ],
+      "potentialAction": {
+        "@type": "ReadAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://www.physioactif.com/guide-complet/vertiges-et-etourdissements",
+          "actionPlatform": [
+            "http://schema.org/DesktopWebPlatform",
+            "http://schema.org/MobileWebPlatform"
+          ]
+        }
+      },
+      "relatedLink": [
+        "https://physioactif.clinicmaster.com/clinic-selection?lang=fr-CA"
+      ],
+      "publisher": {
+        "@id": "https://www.physioactif.com/#org"
+      }
+    }
+  ]
+}

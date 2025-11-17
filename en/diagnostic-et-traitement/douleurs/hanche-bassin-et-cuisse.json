@@ -1,0 +1,132 @@
+{
+  "@context": "https://schema.org",
+  "@type": "MedicalWebPage",
+  "@id": "https://www.physioactif.com/en/diagnostic-et-traitement/douleurs/hanche-bassin-et-cuisse/#webpage",
+  "author": {
+    "@type": "Person",
+    "@id": "https://www.physioactif.com/en/equipe/alexis-gougeon/#person"
+  },
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      ".header_heading",
+      ".header_content .max-width-medium",
+      ".perks_content-right h2",
+      ".perks_content-right .w-richtext"
+    ]
+  },
+  "datePublished": "2025-09-26",
+  "url": "https://www.physioactif.com/en/diagnostic-et-traitement/douleurs/hanche-bassin-et-cuisse/",
+  "name": "Soulagez vos douleurs de hanche, bassin et cuisse",
+  "description": "Soulagez vos douleurs de hanche, bassin et cuisse",
+  "inLanguage": [
+    "en-CA"
+  ],
+  "isPartOf": {
+    "@id": "https://www.physioactif.com/en/#website"
+  },
+  "about": [
+    {
+      "@type": "DefinedTerm",
+      "name": "Douleur à la hanche, au bassin et à la cuisse",
+      "description": "Douleur dans les muscles ou les articulations de la région hanche/bassin, les causes pouvant être intra-articulaires, extra-articulaires ou référées de structures voisines",
+      "sameAs": [
+        "https://fr.wikipedia.org/wiki/Hanche",
+        "https://en.wikipedia.org/wiki/Hip_pain",
+        "https://www.wikidata.org/wiki/Q22350468"
+      ]
+    },
+    {
+      "@type": "MedicalTherapy",
+      "name": "Physiothérapie",
+      "alternateName": [
+        "Physical therapy",
+        "Kinésithérapie",
+        "Fisioterapia"
+      ],
+      "sameAs": [
+        "https://www.physioactif.com/en/guide-complet/physiotherapie",
+        "https://www.wikidata.org/wiki/Q186005",
+        "https://en.wikipedia.org/wiki/Physical_therapy",
+        "https://fr.wikipedia.org/wiki/Kinésithérapie",
+        "https://meshb.nlm.nih.gov/record/ui?ui=D026761",
+        "https://www.merriam-webster.com/dictionary/physiotherapy",
+        "https://www.britannica.com/topic/physical-therapy"
+      ]
+    }
+  ],
+  "specialty": [
+    "Physiotherapy",
+    "Musculoskeletal",
+    "Pain Management"
+  ],
+  "provider": {
+    "@id": "https://www.physioactif.com/en/#org"
+  },
+  "potentialAction": {
+    "@type": "ReserveAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://physioactif.clinicmaster.com/clinic-selection?lang=fr-CA",
+      "inLanguage": [
+        "en-CA"
+      ]
+    },
+    "result": {
+      "@type": "Reservation",
+      "name": "Prendre rendez-vous"
+    }
+  },
+  "breadcrumb": {
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Accueil",
+        "item": "https://www.physioactif.com/en/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Diagnostic et traitement",
+        "item": "https://www.physioactif.com/en/diagnostic-et-traitement/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Douleurs",
+        "item": "https://www.physioactif.com/en/diagnostic-et-traitement/douleurs/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "Douleur de hanche, bassin",
+        "item": "https://www.physioactif.com/en/diagnostic-et-traitement/douleurs/hanche-bassin-et-cuisse/"
+      }
+    ]
+  },
+  "mentions": [
+    {
+      "@id": "https://www.physioactif.com/en/services/analyse-biomecanique-de-la-course-a-pied/#therapy"
+    },
+    {
+      "@id": "https://www.physioactif.com/en/services/deuxieme-avis-sur-diagnostic-et-traitement/#therapy"
+    },
+    {
+      "@id": "https://www.physioactif.com/en/services/physiotherapie-sportive/#therapy"
+    },
+    {
+      "@id": "https://www.physioactif.com/en/services/pre-operatoire-et-post-operatoire/#therapy"
+    },
+    {
+      "@id": "https://www.physioactif.com/en/services/programme-douleurs-persistantes/#therapy"
+    },
+    {
+      "@id": "https://www.physioactif.com/en/services/traitement-pour-douleur-et-raideur-7-97-ans/#therapy"
+    },
+    {
+      "@id": "https://www.physioactif.com/en/services/traitement-pour-engourdissement-et-nevralgies/#therapy"
+    }
+  ]
+}

@@ -1,0 +1,186 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "VideoObject",
+      "@id": "https://www.physioactif.com/videos-dexercise/reflexe-de-moro-en-extension#video",
+      "name": "Reflexe de Moro en Extension - Vidéo Physiothérapie",
+      "description": "Vidéo démonstration professionnelle de l'exercice reflexe de moro en extension par les physiothérapeutes de Physioactif.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/atu6FawTHUM/maxresdefault.jpg",
+      "uploadDate": "2024-01-15",
+      "duration": "PT1M",
+      "publisher": {
+        "@id": "https://www.physioactif.com/#org"
+      },
+      "about": [
+        {
+          "@id": "https://www.physioactif.com/videos-dexercise/reflexe-de-moro-en-extension#exercise"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Physiothérapie",
+          "alternateName": [
+            "Physical therapy",
+            "Kinésithérapie",
+            "Fisioterapia"
+          ],
+          "sameAs": [
+            "https://www.physioactif.com/guide-complet/physiotherapie",
+            "https://www.wikidata.org/wiki/Q186005",
+            "https://en.wikipedia.org/wiki/Physical_therapy",
+            "https://fr.wikipedia.org/wiki/Kinésithérapie",
+            "https://meshb.nlm.nih.gov/record/ui?ui=D026761",
+            "https://www.merriam-webster.com/dictionary/physiotherapy",
+            "https://www.britannica.com/topic/physical-therapy"
+          ]
+        }
+      ],
+      "embedUrl": "https://www.youtube.com/embed/atu6FawTHUM",
+      "contentUrl": "https://www.youtube.com/watch?v=atu6FawTHUM"
+    },
+    {
+      "@type": "ExercisePlan",
+      "@id": "https://www.physioactif.com/videos-dexercise/reflexe-de-moro-en-extension#exercise",
+      "name": "Reflexe de Moro en Extension",
+      "description": "Exercice thérapeutique pour la région ciblée visant à améliorer la mobilité et la fonction. Particulièrement efficace pour traiter Lombalgie. Cet exercice aide à corriger les déséquilibres musculaires, améliorer la posture et réduire la douleur. Recommandé dans le cadre d'un programme de réadaptation en physiothérapie.",
+      "category": "Conseils généraux et éducation",
+      "activityDuration": "PT1M",
+      "exerciseType": "PhysicalActivity",
+      "associatedAnatomicalStructure": {
+        "@type": "AnatomicalStructure",
+        "name": "Conseils généraux et éducation"
+      },
+      "isPartOf": {
+        "@id": "https://www.physioactif.com/#org"
+      },
+      "provider": {
+        "@id": "https://www.physioactif.com/#org"
+      },
+      "inLanguage": [
+        "fr-CA"
+      ],
+      "url": "https://www.physioactif.com/videos-dexercise/reflexe-de-moro-en-extension",
+      "exerciseRelatedCondition": [
+        {
+          "@id": "https://www.physioactif.com/guide-complet/lombalgie#condition"
+        }
+      ],
+      "targetArea": [
+        {
+          "@type": "AnatomicalStructure",
+          "name": "Musculoskeletal system"
+        }
+      ],
+      "intensity": {
+        "@type": "QuantitativeValue",
+        "value": "Moderate",
+        "description": "Modéré - Convient aux personnes avec mobilité de base"
+      },
+      "repetitions": {
+        "@type": "QuantitativeValue",
+        "value": "3-5",
+        "unitText": "répétitions par côté"
+      },
+      "restPeriods": "PT30S",
+      "workload": {
+        "@type": "Energy",
+        "value": "Light to moderate"
+      }
+    },
+    {
+      "@type": "MedicalWebPage",
+      "@id": "https://www.physioactif.com/videos-dexercise/reflexe-de-moro-en-extension#webpage",
+      "datePublished": "2025-09-26",
+      "name": "Reflexe de Moro en Extension - Vidéo d'exercice",
+      "headline": "Reflexe de Moro en Extension - Exercice de physiothérapie en vidéo | Physioactif",
+      "description": "Exercice thérapeutique pour la région ciblée visant à améliorer la mobilité et la fonction. Particulièrement efficace pour traiter Lombalgie. Cet exercice aide à corriger les déséquilibres musculaires, améliorer la posture et réduire la douleur. Recommandé dans le cadre d'un programme de réadaptation en physiothérapie.",
+      "about": [
+        {
+          "@id": "https://www.physioactif.com/videos-dexercise/reflexe-de-moro-en-extension#exercise"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Physiothérapie",
+          "alternateName": [
+            "Physical therapy",
+            "Kinésithérapie",
+            "Fisioterapia"
+          ],
+          "sameAs": [
+            "https://www.physioactif.com/guide-complet/physiotherapie",
+            "https://www.wikidata.org/wiki/Q186005",
+            "https://en.wikipedia.org/wiki/Physical_therapy",
+            "https://fr.wikipedia.org/wiki/Kinésithérapie",
+            "https://meshb.nlm.nih.gov/record/ui?ui=D026761",
+            "https://www.merriam-webster.com/dictionary/physiotherapy",
+            "https://www.britannica.com/topic/physical-therapy"
+          ]
+        }
+      ],
+      "mainEntity": {
+        "@id": "https://www.physioactif.com/videos-dexercise/reflexe-de-moro-en-extension#exercise"
+      },
+      "isPartOf": {
+        "@id": "https://www.physioactif.com/#website"
+      },
+      "specialty": [
+        "Physiotherapy",
+        "Musculoskeletal",
+        "SportsMedicine"
+      ],
+      "mentions": [
+        {
+          "@type": "DefinedTerm",
+          "name": "Réflexe archaïque",
+          "description": "Réflexe ou mouvement automatique involontaire caractéristique des nouveau-nés en réponse à certains stimuli, normalement supprimé par le développement des lobes frontaux lors du développement de l'enfant",
+          "sameAs": [
+            "https://fr.wikipedia.org/wiki/Réflexe_archaïque",
+            "https://en.wikipedia.org/wiki/Primitive_reflexes",
+            "https://www.wikidata.org/wiki/Q1472071"
+          ]
+        }
+      ],
+      "inLanguage": [
+        "fr-CA"
+      ],
+      "url": "https://www.physioactif.com/videos-dexercise/reflexe-de-moro-en-extension",
+      "breadcrumb": {
+        "@id": "https://www.physioactif.com/videos-dexercise/reflexe-de-moro-en-extension#breadcrumb"
+      },
+      "video": {
+        "@id": "https://www.physioactif.com/videos-dexercise/reflexe-de-moro-en-extension#video"
+      },
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [
+          ".header_heading",
+          ".header_content .text-style-muted",
+          ".section_article .text-rich-text h2"
+        ]
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.physioactif.com/videos-dexercise/reflexe-de-moro-en-extension#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Accueil",
+          "item": "https://www.physioactif.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Vidéos d'exercices",
+          "item": "https://www.physioactif.com/videos-exercices"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Reflexe de Moro en Extension"
+        }
+      ]
+    }
+  ]
+}

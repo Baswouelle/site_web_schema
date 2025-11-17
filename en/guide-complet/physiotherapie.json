@@ -1,0 +1,257 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "MedicalTherapy",
+      "@id": "https://www.physioactif.com/en/guide-complet/physiotherapie#therapy",
+      "name": "Physiothérapie",
+      "alternateName": [
+        "Physical therapy",
+        "Kinésithérapie",
+        "Fisioterapia",
+        "Physiotherapy",
+        "Physio"
+      ],
+      "description": "Science de la santé qui utilise les moyens physiques (exercices thérapeutiques, thérapie manuelle, conseils et modifications d'habitudes de vie) pour restaurer les capacités physiques, réduire la douleur et maintenir l'autonomie fonctionnelle.",
+      "sameAs": [
+        "https://www.wikidata.org/wiki/Q186005",
+        "https://en.wikipedia.org/wiki/Physical_therapy",
+        "https://fr.wikipedia.org/wiki/Kinésithérapie",
+        "https://meshb.nlm.nih.gov/record/ui?ui=D026761",
+        "https://www.merriam-webster.com/dictionary/physiotherapy",
+        "https://www.britannica.com/topic/physical-therapy"
+      ],
+      "relevantSpecialty": [
+        "Physiotherapy",
+        "Musculoskeletal",
+        "SportsMedicine",
+        "Neurology",
+        "Cardiology",
+        "Pediatrics"
+      ],
+      "availableService": {
+        "@id": "https://www.physioactif.com/en/#org"
+      },
+      "recognizingAuthority": {
+        "@type": "Organization",
+        "name": "Ordre professionnel de la physiothérapie du Québec (OPPQ)",
+        "sameAs": "https://oppq.qc.ca/"
+      },
+      "medicineSystem": "Evidence-based medicine",
+      "bodyLocation": [
+        {
+          "@type": "AnatomicalStructure",
+          "name": "Système musculosquelettique"
+        },
+        {
+          "@type": "AnatomicalStructure",
+          "name": "Système neurologique"
+        },
+        {
+          "@type": "AnatomicalStructure",
+          "name": "Système cardiorespiratoire"
+        }
+      ],
+      "procedureType": [
+        "Exercices thérapeutiques",
+        "Thérapie manuelle",
+        "Éducation et conseils",
+        "Modifications d'habitudes de vie",
+        "Mobilisations et manipulations articulaires",
+        "Renforcement musculaire",
+        "Étirements thérapeutiques",
+        "Rééducation fonctionnelle"
+      ],
+      "indication": [
+        "Douleurs musculosquelettiques",
+        "Blessures sportives",
+        "Conditions neurologiques",
+        "Réadaptation post-chirurgicale",
+        "Douleurs chroniques",
+        "Incontinence et dysfonctions périnéales",
+        "Troubles vestibulaires",
+        "Retards développementaux"
+      ],
+      "contraindication": "Aucune contre-indication absolue - adaptée selon la condition du patient",
+      "outcome": "Restauration du mouvement, réduction de la douleur, amélioration de la mobilité, maintien de l'autonomie fonctionnelle",
+      "inLanguage": [
+        "en-CA"
+      ]
+    },
+    {
+      "@type": "MedicalWebPage",
+      "@id": "https://www.physioactif.com/en/guide-complet/physiotherapie#article",
+      "author": {
+        "@type": "Person",
+        "@id": "https://www.physioactif.com/en/equipe/ariel-desjardins-charbonneau/#person"
+      },
+      "datePublished": "2025-09-26",
+      "name": "Qu'est-ce que la physiothérapie - Guide Complet",
+      "headline": "Qu'est-ce que la physiothérapie : Définition, traitements et quand consulter?",
+      "about": [
+        {
+          "@id": "https://www.physioactif.com/en/guide-complet/physiotherapie#therapy"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Physiothérapie",
+          "alternateName": [
+            "Physical therapy",
+            "Kinésithérapie",
+            "Fisioterapia"
+          ],
+          "sameAs": [
+            "https://www.physioactif.com/en/guide-complet/physiotherapie",
+            "https://www.wikidata.org/wiki/Q186005",
+            "https://en.wikipedia.org/wiki/Physical_therapy",
+            "https://fr.wikipedia.org/wiki/Kinésithérapie",
+            "https://meshb.nlm.nih.gov/record/ui?ui=D026761",
+            "https://www.merriam-webster.com/dictionary/physiotherapy",
+            "https://www.britannica.com/topic/physical-therapy"
+          ]
+        }
+      ],
+      "mainEntity": {
+        "@id": "https://www.physioactif.com/en/guide-complet/physiotherapie#therapy"
+      },
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [
+          ".header_heading",
+          ".header_content .text-style-muted.w-richtext",
+          ".section_article .text-rich-text h2"
+        ]
+      },
+      "specialty": [
+        "Physiotherapy",
+        "Musculoskeletal",
+        "SportsMedicine"
+      ],
+      "medicalAudience": [
+        {
+          "@type": "Patient"
+        },
+        {
+          "@type": "MedicalAudience",
+          "audienceType": "General Public"
+        }
+      ],
+      "reviewedBy": {
+        "@id": "https://www.physioactif.com/en/#org"
+      },
+      "provider": {
+        "@id": "https://www.physioactif.com/en/#org"
+      },
+      "inLanguage": [
+        "en-CA"
+      ],
+      "isPartOf": {
+        "@id": "https://www.physioactif.com/en/#website"
+      },
+      "mentions": [
+        {
+          "@type": "DefinedTerm",
+          "name": "Thérapie manuelle",
+          "description": "Techniques de mobilisation et manipulation articulaire pour restaurer l'amplitude de mouvement et réduire la douleur"
+        },
+        {
+          "@type": "DefinedTerm",
+          "name": "Exercices thérapeutiques",
+          "description": "Programme d'exercices personnalisés incluant renforcement musculaire, étirements et entraînement fonctionnel"
+        },
+        {
+          "@type": "DefinedTerm",
+          "name": "Ordre professionnel de la physiothérapie du Québec (OPPQ)",
+          "description": "Ordre professionnel régulant la pratique de la physiothérapie au Québec",
+          "sameAs": "https://oppq.qc.ca/"
+        },
+        {
+          "@type": "DefinedTerm",
+          "name": "Chiropratique",
+          "description": "Profession de santé axée sur les manipulations spinales et l'alignement vertébral",
+          "sameAs": [
+            "https://fr.wikipedia.org/wiki/Chiropratique",
+            "https://en.wikipedia.org/wiki/Chiropractic"
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "name": "Ostéopathie",
+          "description": "Approche holistique utilisant des techniques manuelles douces, non régulée au Québec"
+        },
+        {
+          "@type": "DefinedTerm",
+          "name": "Massothérapie",
+          "description": "Thérapie par le massage pour relaxation et soulagement temporaire"
+        },
+        {
+          "@type": "DefinedTerm",
+          "name": "Kinésiologie",
+          "description": "Science du mouvement axée sur prescription d'exercices pour prévention et maintenance"
+        }
+      ]
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://www.physioactif.com/en/guide-complet/physiotherapie#webpage",
+      "datePublished": "2025-09-26",
+      "url": "https://www.physioactif.com/en/guide-complet/physiotherapie",
+      "name": "Qu'est-ce que la physiothérapie - Guide Complet | Physioactif",
+      "description": "Découvrez ce qu'est la physiothérapie, comment elle fonctionne, quelles conditions elle traite et comment elle se distingue des autres professions de santé au Québec.",
+      "mainEntity": {
+        "@id": "https://www.physioactif.com/en/guide-complet/physiotherapie#therapy"
+      },
+      "about": {
+        "@id": "https://www.physioactif.com/en/guide-complet/physiotherapie#therapy"
+      },
+      "breadcrumb": {
+        "@type": "BreadcrumbList",
+        "@id": "https://www.physioactif.com/en/guide-complet/physiotherapie#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Accueil",
+            "item": "https://www.physioactif.com/en/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Guide Complet",
+            "item": "https://www.physioactif.com/en/guide-complet"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Physiothérapie",
+            "item": "https://www.physioactif.com/en/guide-complet/physiotherapie"
+          }
+        ]
+      },
+      "isPartOf": {
+        "@id": "https://www.physioactif.com/en/#website"
+      },
+      "inLanguage": [
+        "en-CA"
+      ],
+      "potentialAction": {
+        "@type": "ReadAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://www.physioactif.com/en/guide-complet/physiotherapie",
+          "actionPlatform": [
+            "http://schema.org/DesktopWebPlatform",
+            "http://schema.org/MobileWebPlatform"
+          ]
+        }
+      },
+      "relatedLink": [
+        "https://physioactif.clinicmaster.com/clinic-selection?lang=fr-CA",
+        "https://oppq.qc.ca/"
+      ],
+      "publisher": {
+        "@id": "https://www.physioactif.com/en/#org"
+      }
+    }
+  ]
+}

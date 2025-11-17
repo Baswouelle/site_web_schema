@@ -1,0 +1,118 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "@id": "https://www.physioactif.com/en/approches-therapeutiques/mulligan/#article",
+      "author": {
+        "@type": "Person",
+        "@id": "https://www.physioactif.com/en/equipe/alexis-gougeon/#person"
+      },
+      "headline": "Approche Mulligan : basés sur des mouvements sans douleur",
+      "description": "Bougez à nouveau sans crainte. Des mouvements qui soulagent instantanément et redonnent confiance en votre corps.",
+      "url": "https://www.physioactif.com/en/approches-therapeutiques/mulligan/",
+      "inLanguage": [
+        "en-CA"
+      ],
+      "datePublished": "2025-09-26",
+      "publisher": {
+        "@id": "https://www.physioactif.com/en/#org"
+      },
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://www.physioactif.com/en/wp-content/uploads/approches/mulligan-thumb.jpg",
+        "width": 1200,
+        "height": 675
+      },
+      "about": [
+        {
+          "@type": "PhysicalTherapy",
+          "name": "Approche Mulligan : basés sur des mouvements sans douleur"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Physiothérapie",
+          "alternateName": [
+            "Physical therapy",
+            "Kinésithérapie",
+            "Fisioterapia"
+          ],
+          "sameAs": [
+            "https://www.physioactif.com/en/guide-complet/physiotherapie",
+            "https://www.wikidata.org/wiki/Q186005",
+            "https://en.wikipedia.org/wiki/Physical_therapy",
+            "https://fr.wikipedia.org/wiki/Kinésithérapie",
+            "https://meshb.nlm.nih.gov/record/ui?ui=D026761",
+            "https://www.merriam-webster.com/dictionary/physiotherapy",
+            "https://www.britannica.com/topic/physical-therapy"
+          ]
+        }
+      ],
+      "articleSection": "Approches thérapeutiques",
+      "keywords": [
+        "physiothérapie",
+        "traitement",
+        "approche thérapeutique"
+      ],
+      "mentions": [
+        {
+          "@type": "DefinedTerm",
+          "name": "Concept Mulligan",
+          "description": "Technique de thérapie manuelle développée par Brian Mulligan utilisant les mobilisations avec mouvement (MWM) et les glissements apophysaires naturels (NAGS) pour améliorer la fonction articulaire et réduire la douleur.",
+          "sameAs": [
+            "https://en.wikipedia.org/wiki/Natural_apophyseal_glides",
+            "https://en.wikipedia.org/wiki/Manual_therapy",
+            "https://www.wikidata.org/wiki/Q1427967"
+          ]
+        }
+      ]
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://www.physioactif.com/en/approches-therapeutiques/mulligan/#webpage",
+      "datePublished": "2025-09-26",
+      "url": "https://www.physioactif.com/en/approches-therapeutiques/mulligan/",
+      "name": "Approche Mulligan : basés sur des mouvements sans douleur",
+      "description": "Bougez à nouveau sans crainte. Des mouvements qui soulagent instantanément et redonnent confiance en votre corps.",
+      "inLanguage": [
+        "en-CA"
+      ],
+      "isPartOf": {
+        "@id": "https://www.physioactif.com/en/#website"
+      },
+      "mainEntity": {
+        "@id": "https://www.physioactif.com/en/approches-therapeutiques/mulligan/#article"
+      },
+      "breadcrumb": {
+        "@id": "https://www.physioactif.com/en/approches-therapeutiques/mulligan/#breadcrumb"
+      },
+      "publisher": {
+        "@id": "https://www.physioactif.com/en/#org"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.physioactif.com/en/approches-therapeutiques/mulligan/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Accueil",
+          "item": "https://www.physioactif.com/en/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Approches thérapeutiques",
+          "item": "https://www.physioactif.com/en/approches-therapeutiques/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Approche Mulligan : basés sur des mouvements sans douleur",
+          "item": "https://www.physioactif.com/en/approches-therapeutiques/mulligan/"
+        }
+      ]
+    }
+  ]
+}

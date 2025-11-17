@@ -1,0 +1,212 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "MedicalCondition",
+      "@id": "https://www.physioactif.com/guide-complet/stenose-spinale-ou-centrale#condition",
+      "name": "Sténose spinale",
+      "alternateName": [
+        "Spinal stenosis",
+        "lumbar spinal stenosis",
+        "canal lombaire étroit",
+        "rétrécissement du canal rachidien"
+      ],
+      "description": "Condition médicale affectant le système musculosquelettique nécessitant une prise en charge en physiothérapie.",
+      "sameAs": [
+        "https://fr.wikipedia.org/wiki/Sténose_du_canal_rachidien",
+        "https://en.wikipedia.org/wiki/Spinal_stenosis",
+        "https://www.wikidata.org/wiki/Q1758860",
+        "https://meshb.nlm.nih.gov/record/ui?ui=D013130",
+        "http://snomed.info/id/18347007"
+      ],
+      "code": [
+        {
+          "@type": "MedicalCode",
+          "code": "M48.0",
+          "codingSystem": "ICD-10"
+        },
+        {
+          "@type": "MedicalCode",
+          "code": "FA12",
+          "codingSystem": "ICD-11"
+        }
+      ]
+    },
+    {
+      "@type": "MedicalWebPage",
+      "@id": "https://www.physioactif.com/guide-complet/stenose-spinale-ou-centrale#article",
+      "author": {
+        "@type": "Person",
+        "@id": "https://www.physioactif.com/equipe/ariel-desjardins-charbonneau/#person"
+      },
+      "datePublished": "2025-09-26",
+      "name": "Stenose Spinale Ou Centrale - Guide Complet",
+      "headline": "Stenose Spinale Ou Centrale: Symptômes, Causes, Diagnostic et Traitement en Physiothérapie",
+      "about": [
+        {
+          "@id": "https://www.physioactif.com/guide-complet/stenose-spinale-ou-centrale#condition"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Physiothérapie",
+          "alternateName": [
+            "Physical therapy",
+            "Kinésithérapie",
+            "Fisioterapia"
+          ],
+          "sameAs": [
+            "https://www.physioactif.com/guide-complet/physiotherapie",
+            "https://www.wikidata.org/wiki/Q186005",
+            "https://en.wikipedia.org/wiki/Physical_therapy",
+            "https://fr.wikipedia.org/wiki/Kinésithérapie",
+            "https://meshb.nlm.nih.gov/record/ui?ui=D026761",
+            "https://www.merriam-webster.com/dictionary/physiotherapy",
+            "https://www.britannica.com/topic/physical-therapy"
+          ]
+        }
+      ],
+      "mainEntity": {
+        "@id": "https://www.physioactif.com/guide-complet/stenose-spinale-ou-centrale#condition"
+      },
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [
+          ".header_heading",
+          ".header_content .text-style-muted.w-richtext",
+          ".section_article .text-rich-text h2"
+        ]
+      },
+      "specialty": [
+        "Physiotherapy",
+        "Musculoskeletal",
+        "SportsMedicine"
+      ],
+      "medicalAudience": [
+        {
+          "@type": "Patient"
+        },
+        {
+          "@type": "MedicalAudience",
+          "audienceType": "General Public"
+        }
+      ],
+      "reviewedBy": {
+        "@id": "https://www.physioactif.com/#org"
+      },
+      "provider": {
+        "@id": "https://www.physioactif.com/#org"
+      },
+      "inLanguage": [
+        "fr-CA"
+      ],
+      "isPartOf": {
+        "@id": "https://www.physioactif.com/#website"
+      },
+      "mentions": [
+        {
+          "@type": "MedicalTherapy",
+          "name": "Physiothérapie",
+          "alternateName": [
+            "Physical therapy",
+            "Kinésithérapie",
+            "Fisioterapia"
+          ],
+          "sameAs": [
+            "https://www.physioactif.com/guide-complet/physiotherapie",
+            "https://www.wikidata.org/wiki/Q186005",
+            "https://en.wikipedia.org/wiki/Physical_therapy",
+            "https://fr.wikipedia.org/wiki/Kinésithérapie",
+            "https://meshb.nlm.nih.gov/record/ui?ui=D026761",
+            "https://www.merriam-webster.com/dictionary/physiotherapy",
+            "https://www.britannica.com/topic/physical-therapy"
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "@id": "https://www.physioactif.com/guide-complet/stenose-spinale-ou-centrale#condition",
+          "name": "Sténose spinale",
+          "inDefinedTermSet": "https://schema.org/MedicalCondition",
+          "termCode": [
+            {
+              "@type": "MedicalCode",
+              "code": "M48.0",
+              "codingSystem": "ICD-10"
+            },
+            {
+              "@type": "MedicalCode",
+              "code": "FA12",
+              "codingSystem": "ICD-11"
+            }
+          ],
+          "sameAs": [
+            "https://fr.wikipedia.org/wiki/Sténose_du_canal_rachidien",
+            "https://en.wikipedia.org/wiki/Spinal_stenosis",
+            "https://www.wikidata.org/wiki/Q1758860",
+            "https://meshb.nlm.nih.gov/record/ui?ui=D013130"
+          ]
+        }
+      ]
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://www.physioactif.com/guide-complet/stenose-spinale-ou-centrale#webpage",
+      "datePublished": "2025-09-26",
+      "url": "https://www.physioactif.com/guide-complet/stenose-spinale-ou-centrale",
+      "name": "Stenose Spinale Ou Centrale - Guide Complet | Physioactif",
+      "description": "Guide complet sur stenose spinale ou centrale: causes, symptômes, diagnostic et traitements en physiothérapie par les experts de Physioactif.",
+      "mainEntity": {
+        "@id": "https://www.physioactif.com/guide-complet/stenose-spinale-ou-centrale#condition"
+      },
+      "about": {
+        "@id": "https://www.physioactif.com/guide-complet/stenose-spinale-ou-centrale#condition"
+      },
+      "breadcrumb": {
+        "@type": "BreadcrumbList",
+        "@id": "https://www.physioactif.com/guide-complet/stenose-spinale-ou-centrale#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Accueil",
+            "item": "https://www.physioactif.com/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Guide Complet",
+            "item": "https://www.physioactif.com/guide-complet"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Stenose Spinale Ou Centrale",
+            "item": "https://www.physioactif.com/guide-complet/stenose-spinale-ou-centrale"
+          }
+        ]
+      },
+      "isPartOf": {
+        "@id": "https://www.physioactif.com/#website"
+      },
+      "inLanguage": [
+        "fr-CA"
+      ],
+      "potentialAction": {
+        "@type": "ReadAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://www.physioactif.com/guide-complet/stenose-spinale-ou-centrale",
+          "actionPlatform": [
+            "http://schema.org/DesktopWebPlatform",
+            "http://schema.org/MobileWebPlatform"
+          ]
+        }
+      },
+      "relatedLink": [
+        "https://physioactif.clinicmaster.com/clinic-selection?lang=fr-CA"
+      ],
+      "publisher": {
+        "@id": "https://www.physioactif.com/#org"
+      }
+    }
+  ]
+}

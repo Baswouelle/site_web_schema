@@ -1,0 +1,120 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "@id": "https://www.physioactif.com/en/ressources/quoi-faire-avec-un-pied-plat-pour-la-course-a-pied/#article",
+      "author": {
+        "@type": "Person",
+        "@id": "https://www.physioactif.com/en/equipe/claudine-farah/#person"
+      },
+      "headline": "Pieds plats et course : que faire ? | Physioactif",
+      "description": "Pieds plats et course ? Aucun souci ! Découvrez pourquoi vous pouvez courir normalement sans support ni chaussure spéciale.",
+      "url": "https://www.physioactif.com/en/ressources/quoi-faire-avec-un-pied-plat-pour-la-course-a-pied/",
+      "inLanguage": [
+        "en-CA"
+      ],
+      "datePublished": "2025-09-26",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://cdn.prod.website-files.com/670e84ccd653d18590687563/physioactif-hero-default.jpg",
+        "width": 1200,
+        "height": 630
+      },
+      "publisher": {
+        "@id": "https://www.physioactif.com/en/#org"
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.physioactif.com/en/ressources/quoi-faire-avec-un-pied-plat-pour-la-course-a-pied/"
+      },
+      "about": [
+        {
+          "@type": "ExercisePlan",
+          "name": "Programme de course à pied"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Physiothérapie",
+          "alternateName": [
+            "Physical therapy",
+            "Kinésithérapie",
+            "Fisioterapia"
+          ],
+          "sameAs": [
+            "https://www.physioactif.com/en/guide-complet/physiotherapie",
+            "https://www.wikidata.org/wiki/Q186005",
+            "https://en.wikipedia.org/wiki/Physical_therapy",
+            "https://fr.wikipedia.org/wiki/Kinésithérapie",
+            "https://meshb.nlm.nih.gov/record/ui?ui=D026761",
+            "https://www.merriam-webster.com/dictionary/physiotherapy",
+            "https://www.britannica.com/topic/physical-therapy"
+          ]
+        }
+      ],
+      "articleSection": "Ressources",
+      "keywords": [
+        "pied plat",
+        "course pied plat",
+        "pronation",
+        "orthèses course",
+        "support plantaire"
+      ],
+      "mentions": [
+        {
+          "@id": "https://www.physioactif.com/en/services/physiotherapie-sportive/#therapy"
+        },
+        {
+          "@id": "https://www.physioactif.com/en/services/analyse-biomecanique-de-la-course-a-pied/#therapy"
+        }
+      ]
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://www.physioactif.com/en/ressources/quoi-faire-avec-un-pied-plat-pour-la-course-a-pied/#webpage",
+      "datePublished": "2025-09-26",
+      "url": "https://www.physioactif.com/en/ressources/quoi-faire-avec-un-pied-plat-pour-la-course-a-pied/",
+      "name": "Pieds plats et course : que faire ? | Physioactif",
+      "description": "Pieds plats et course ? Aucun souci ! Découvrez pourquoi vous pouvez courir normalement sans support ni chaussure spéciale.",
+      "inLanguage": [
+        "en-CA"
+      ],
+      "isPartOf": {
+        "@id": "https://www.physioactif.com/en/#website"
+      },
+      "mainEntity": {
+        "@id": "https://www.physioactif.com/en/ressources/quoi-faire-avec-un-pied-plat-pour-la-course-a-pied/#article"
+      },
+      "breadcrumb": {
+        "@id": "https://www.physioactif.com/en/ressources/quoi-faire-avec-un-pied-plat-pour-la-course-a-pied/#breadcrumb"
+      },
+      "publisher": {
+        "@id": "https://www.physioactif.com/en/#org"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.physioactif.com/en/ressources/quoi-faire-avec-un-pied-plat-pour-la-course-a-pied/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Accueil",
+          "item": "https://www.physioactif.com/en/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Ressources",
+          "item": "https://www.physioactif.com/en/ressources/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Pieds plats et course : que faire ?",
+          "item": "https://www.physioactif.com/en/ressources/quoi-faire-avec-un-pied-plat-pour-la-course-a-pied/"
+        }
+      ]
+    }
+  ]
+}

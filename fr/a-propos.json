@@ -1,0 +1,419 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "AboutPage",
+      "@id": "https://www.physioactif.com/a-propos/#aboutpage",
+      "datePublished": "2025-09-26",
+      "url": "https://www.physioactif.com/a-propos",
+      "name": "À propos de Physioactif - Leader en physiothérapie scientifique dans le Grand Montréal",
+      "description": "Devenez autonome face à vos douleurs. 25 ans d'expertise, 20 000+ patients soulagés. Découvrez notre histoire depuis 2000, notre approche propulsée par la science et notre mission de révolutionner la physiothérapie au Québec.",
+      "inLanguage": [
+        "fr-CA"
+      ],
+      "about": {
+        "@id": "https://www.physioactif.com/a-propos/#organization-enhanced"
+      },
+      "breadcrumb": {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Accueil",
+            "item": "https://www.physioactif.com"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "À propos",
+            "item": "https://www.physioactif.com/a-propos"
+          }
+        ]
+      },
+      "mainEntity": {
+        "@id": "https://www.physioactif.com/a-propos/#faq-about"
+      },
+      "hasPart": [
+        {
+          "@id": "https://www.physioactif.com/a-propos/#timeline"
+        },
+        {
+          "@id": "https://www.physioactif.com/a-propos/#values"
+        }
+      ],
+      "isPartOf": {
+        "@id": "https://www.physioactif.com/#website"
+      }
+    },
+    {
+      "@type": "MedicalOrganization",
+      "@id": "https://www.physioactif.com/a-propos/#organization-enhanced",
+      "name": "Physioactif",
+      "alternateName": "Cliniques Physioactif",
+      "description": "Réseau de 5 cliniques de physiothérapie dans le Grand Montréal, propulsé par la science et axé sur la résolution de problème. Fondé en 2000 par Sylvain St-Amour, Physioactif est le leader en physiothérapie musculo-squelettique avec certification FCAMPT. Plus de 20 000 patients soulagés avec notre approche unique qui vise l'autonomie complète face aux douleurs.",
+      "about": {
+        "@type": "MedicalTherapy",
+        "name": "Physiothérapie",
+        "alternateName": [
+          "Physical therapy",
+          "Kinésithérapie",
+          "Fisioterapia"
+        ],
+        "sameAs": [
+          "https://www.physioactif.com/guide-complet/physiotherapie",
+          "https://www.wikidata.org/wiki/Q186005",
+          "https://en.wikipedia.org/wiki/Physical_therapy",
+          "https://fr.wikipedia.org/wiki/Kinésithérapie",
+          "https://meshb.nlm.nih.gov/record/ui?ui=D026761",
+          "https://www.merriam-webster.com/dictionary/physiotherapy",
+          "https://www.britannica.com/topic/physical-therapy"
+        ]
+      },
+      "url": "https://www.physioactif.com",
+      "logo": "https://cdn.prod.website-files.com/670e84ccd653d18590687563/6785900b5369e1a21a9e11df_icon%20(1).png",
+      "foundingDate": "2000",
+      "foundingLocation": {
+        "@type": "Place",
+        "name": "Saint-Eustache, Québec",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Saint-Eustache",
+          "addressRegion": "QC",
+          "addressCountry": "CA"
+        }
+      },
+      "slogan": "Propulsée par la science et axée sur la résolution de problème",
+      "mission": "Offrir la meilleure physiothérapie possible en se détachant du modèle traditionnel de pratique et favorisant le bien-être à long terme plutôt que le soulagement à court terme",
+      "founder": [
+        {
+          "@type": "Person",
+          "@id": "https://www.physioactif.com/equipe/sylvain-st-amour/#person",
+          "name": "Sylvain St-Amour",
+          "jobTitle": "Fondateur, Physiothérapeute FCAMPT",
+          "description": "Fondateur de Physioactif et FCAMPT. Chargé de cours à l'Université de Montréal depuis 2009. Plus de 25 ans d'expérience en physiothérapie musculo-squelettique avancée.",
+          "url": "https://www.physioactif.com/equipe/sylvain-st-amour",
+          "worksFor": {
+            "@id": "https://www.physioactif.com/a-propos/#organization-enhanced"
+          },
+          "alumniOf": {
+            "@type": "EducationalOrganization",
+            "name": "Université de Montréal"
+          },
+          "knowsAbout": [
+            "Thérapie manuelle FCAMPT",
+            "Neurodynamique",
+            "Douleur chronique",
+            "Enseignement universitaire",
+            "Approche McKenzie",
+            "Approche Mulligan"
+          ]
+        }
+      ],
+      "employee": [
+        {
+          "@type": "Person",
+          "@id": "https://www.physioactif.com/equipe/ariel-desjardins-charbonneau/#person",
+          "name": "Ariel Desjardins-Charbonneau",
+          "jobTitle": "Associé Principal depuis 2017, Physiothérapeute FCAMPT",
+          "description": "Associé principal et FCAMPT. Enseignant principal du cours de douleur à l'Université de Montréal. Plus de 1000 heures de formation continue en thérapie manuelle avancée.",
+          "url": "https://www.physioactif.com/equipe/ariel-desjardins-charbonneau",
+          "worksFor": {
+            "@id": "https://www.physioactif.com/a-propos/#organization-enhanced"
+          },
+          "alumniOf": {
+            "@type": "EducationalOrganization",
+            "name": "Université de Montréal"
+          },
+          "knowsAbout": [
+            "Douleur chronique et complexe",
+            "FCAMPT",
+            "Enseignement de la douleur",
+            "Thérapie manuelle avancée",
+            "Neurodynamique"
+          ]
+        }
+      ],
+      "numberOfEmployees": {
+        "@type": "QuantitativeValue",
+        "minValue": 24,
+        "value": "24+",
+        "description": "Plus de 24 professionnels de la santé incluant physiothérapeutes, ostéopathes et coordonnateurs cliniques"
+      },
+      "knowsAbout": [
+        "Physiothérapie musculo-squelettique avancée",
+        "Thérapie manuelle FCAMPT (plus haut niveau au Canada)",
+        "Douleur chronique et persistante",
+        "Rééducation vestibulaire (vertiges)",
+        "Physiothérapie sportive haute performance",
+        "Physiothérapie pédiatrique (0-7 ans)",
+        "Rééducation périnéale et pelvi-périnéale",
+        "Neurodynamique et système neuro-méningé",
+        "Approche McKenzie",
+        "Approche Mulligan",
+        "Thérapie neuro-développementale",
+        "Réflexes primitifs"
+      ],
+      "award": [
+        "Première clinique privée de physiothérapie au Québec à ne voir qu'un patient à la fois (2000)",
+        "Première clinique privée au Québec à offrir du mentorat structuré et rémunéré (2012)",
+        "Plus de 5000 heures de formation avancée par année",
+        "Certification FCAMPT - Plus haut niveau de thérapie manuelle au Canada",
+        "Un des premiers centres de formation des professionnels de la santé (2005)",
+        "Plus de 20 000 patients soulagés en 25 ans"
+      ],
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": 4.9,
+        "bestRating": 5,
+        "worstRating": 1,
+        "ratingCount": 500,
+        "reviewCount": 250,
+        "description": "Note moyenne basée sur les avis Google de nos 5 cliniques - 4.7/5 soulagement rapide, 4.9/5 expertise, 5/5 écoute"
+      },
+      "department": [
+        {
+          "@id": "https://www.physioactif.com/clinique/physioactif-st-eustache-physiotherapie/#clinic"
+        },
+        {
+          "@id": "https://www.physioactif.com/clinique/physioactif-chomedey/#clinic"
+        },
+        {
+          "@id": "https://www.physioactif.com/clinique/physioactif-blainville-sud-et-rosemere/#clinic"
+        },
+        {
+          "@id": "https://www.physioactif.com/clinique/physioactif-vaudreuil-dorion/#clinic"
+        },
+        {
+          "@id": "https://www.physioactif.com/clinique/physioactif-ahuntsic-et-villeray/#clinic"
+        }
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Services de physiothérapie spécialisés Physioactif",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "name": "Rééducation musculo-squelettique",
+            "description": "Traitement expert pour douleurs et raideurs articulaires",
+            "url": "https://www.physioactif.com/services/traitement-pour-douleur-et-raideur-7-97-ans"
+          },
+          {
+            "@type": "Offer",
+            "name": "Programme douleurs persistantes",
+            "description": "Programme spécialisé pour douleurs chroniques",
+            "url": "https://www.physioactif.com/services/programme-douleurs-persistantes"
+          },
+          {
+            "@type": "Offer",
+            "name": "Deuxième avis sur diagnostic et traitement",
+            "description": "Expertise pour cas complexes non résolus",
+            "url": "https://www.physioactif.com/services/deuxieme-avis-sur-diagnostic-et-traitement"
+          },
+          {
+            "@type": "Offer",
+            "name": "Traitement pour engourdissement et névralgies",
+            "description": "Spécialistes du système nerveux périphérique",
+            "url": "https://www.physioactif.com/services/traitement-pour-engourdissement-et-nevralgies"
+          },
+          {
+            "@type": "Offer",
+            "name": "Physiothérapie sportive",
+            "description": "Traitement et prévention pour athlètes",
+            "url": "https://www.physioactif.com/services/physiotherapie-sportive"
+          }
+        ]
+      },
+      "areaServed": {
+        "@type": "GeoCircle",
+        "name": "Grand Montréal et environs",
+        "geoMidpoint": {
+          "@type": "GeoCoordinates",
+          "latitude": "45.5017",
+          "longitude": "-73.5673"
+        },
+        "geoRadius": "50 km"
+      },
+      "memberOf": [
+        {
+          "@type": "Organization",
+          "name": "Ordre professionnel de la physiothérapie du Québec (OPPQ)",
+          "url": "https://oppq.qc.ca/"
+        },
+        {
+          "@type": "Organization",
+          "name": "Association québécoise de physiothérapie musculosquelettique avancée (AQPMO)",
+          "description": "Formation FCAMPT"
+        }
+      ],
+      "sameAs": [
+        "https://www.facebook.com/physioactif",
+        "https://www.linkedin.com/company/physioactif",
+        "https://www.instagram.com/physioactif"
+      ],
+      "parentOrganization": {
+        "@id": "https://www.physioactif.com/#org"
+      }
+    },
+    {
+      "@type": "ItemList",
+      "@id": "https://www.physioactif.com/a-propos/#timeline",
+      "name": "Histoire de Physioactif - 25 ans d'innovation",
+      "description": "Les étapes clés de notre évolution depuis 2000, de la première clinique à Saint-Eustache au réseau de 5 cliniques d'aujourd'hui",
+      "numberOfItems": 5,
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "2000 - Fondation révolutionnaire",
+          "description": "Fondation par Sylvain St-Amour à Saint-Eustache avec une équipe de 3 personnes. Mission claire: offrir la meilleure physiothérapie possible en se détachant du modèle traditionnel. Physioactif devient une des premières cliniques privées à ne voir qu'un patient à la fois."
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "2005 - Expansion et centre de formation",
+          "description": "Diane Racette (physiothérapeute associée) se joint à l'équipe. Ouverture de la deuxième clinique à Laval. Développement d'un des premiers centres de formation des professionnels de la santé au Québec."
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "2012 - Croissance et innovation en mentorat",
+          "description": "Expansion à 3 cliniques avec l'ouverture de Boisbriand. Physioactif devient la première clinique de physiothérapie privée au Québec à offrir du mentorat structuré et rémunéré."
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "2017-2018 - Nouvelle génération de leadership",
+          "description": "Ariel Desjardins-Charbonneau (physiothérapeute et chargé de cours) devient associé principal. Ouverture des cliniques de Vaudreuil et Montréal, portant le réseau à 5 cliniques dans le Grand Montréal."
+        },
+        {
+          "@type": "ListItem",
+          "position": 5,
+          "name": "Aujourd'hui - Leader et game-changer",
+          "description": "25 ans après sa création, Physioactif continue d'être un game-changer dans le traitement des douleurs. 5 cliniques, 24+ professionnels, 20 000+ patients soulagés, 5000+ heures de formation annuelle. Vision: devenir LA référence en gestion de la douleur."
+        }
+      ]
+    },
+    {
+      "@type": "ItemList",
+      "@id": "https://www.physioactif.com/a-propos/#values",
+      "name": "Nos 4 valeurs fondamentales",
+      "description": "Les piliers qui guident notre pratique quotidienne et notre engagement envers nos patients",
+      "numberOfItems": 4,
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Rigueur scientifique",
+          "description": "La pensée critique et les données probantes guident chacune de nos décisions. Nous basons nos traitements sur les plus récentes recherches et évidences scientifiques."
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Progrès constant",
+          "description": "Nous nous engageons à obtenir des résultats mesurables à chaque rencontre. Chaque visite doit apporter une amélioration concrète dans votre condition."
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Accompagnement dévoué",
+          "description": "Nous développons des relations durables et significatives, comme votre physio de famille. Un suivi personnalisé qui s'adapte à vos besoins évolutifs."
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Solutions concrètes",
+          "description": "Nous offrons des réponses claires et des plans d'action réalisables. Pas d'affaires qui n'ont pas d'allure - des solutions pratiques et efficaces."
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.physioactif.com/a-propos/#faq-about",
+      "name": "Questions fréquentes sur Physioactif",
+      "description": "Découvrez ce qui fait de Physioactif le leader en physiothérapie scientifique dans le Grand Montréal depuis 25 ans",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Qu'est-ce qui différencie vraiment Physioactif des autres cliniques de physiothérapie?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Physioactif se distingue par plusieurs innovations majeures: nous sommes la première clinique privée au Québec à adopter le modèle un-patient-à-la-fois (depuis 2000), garantissant une attention complète. Nos physiothérapeutes détiennent la certification FCAMPT, le plus haut niveau de thérapie manuelle au Canada. Notre équipe cumule plus de 5000 heures de formation avancée annuellement. Nous avons été pionniers en créant le premier programme de mentorat structuré et rémunéré au Québec. Notre approche est 'propulsée par la science et axée sur la résolution de problème' - nous visons votre autonomie complète, pas votre dépendance aux traitements."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Quelle est l'approche de traitement unique de Physioactif?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Notre approche révolutionne le modèle traditionnel: nous favorisons le bien-être à long terme plutôt que le soulagement à court terme. Chaque traitement combine rigueur scientifique, pensée critique et données probantes. Notre objectif ultime? Que vous n'ayez plus besoin de nous. Nous vous donnons les outils pour devenir autonome face à vos douleurs. Avec des résultats mesurables à chaque rencontre et un accompagnement dévoué comme votre 'physio de famille', nous trouvons des solutions concrètes même pour les cas complexes que d'autres n'ont pas pu résoudre."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Qui sont les fondateurs et leaders de Physioactif?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Physioactif a été fondé en 2000 par Sylvain St-Amour, physiothérapeute FCAMPT et chargé de cours à l'Université de Montréal depuis 2009. Sa philosophie 'Keep it simple stupid' guide notre approche pragmatique. En 2017, Ariel Desjardins-Charbonneau, également FCAMPT avec plus de 1000 heures de formation post-graduée, est devenu associé principal. Il est l'enseignant principal du cours de douleur à l'Université de Montréal. Diane Racette a aussi joué un rôle clé comme associée de 2005 à 2017. Tous continuent de pratiquer, enseigner, faire de la recherche et former la prochaine génération."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Combien de cliniques Physioactif compte-t-on et où sont-elles situées?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Physioactif opère 5 cliniques stratégiquement réparties dans le Grand Montréal pour mieux vous servir: Saint-Eustache (notre première clinique, fondée en 2000), Laval-Chomedey (depuis 2005), Blainville (depuis 2012), Vaudreuil-Dorion (depuis 2018) et Montréal-Ahuntsic (depuis 2018). Chaque clinique maintient les mêmes standards d'excellence avec des équipes spécialisées, la certification FCAMPT et notre approche signature un-patient-à-la-fois."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Quelles sont les spécialisations et expertises uniques de Physioactif?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Nos spécialisations couvrent un spectre complet: thérapie manuelle FCAMPT (le plus haut niveau au Canada), gestion des douleurs chroniques et persistantes, rééducation vestibulaire pour vertiges, physiothérapie sportive de haute performance, physiothérapie pédiatrique (0-7 ans), rééducation périnéale et pelvi-périnéale, traitement des névralgies et du système neuro-méningé, approches McKenzie et Mulligan, thérapie neuro-développementale et réflexes primitifs. Nous sommes également accrédités SAAQ, CNESST, IVAC et anciens combattants."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Quelle formation et expertise possèdent vos physiothérapeutes?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "100% de nos physiothérapeutes détiennent une maîtrise en physiothérapie et sont membres de l'OPPQ. Plusieurs ont la prestigieuse certification FCAMPT (Fellowship Canadian Academy of Manipulative Physiotherapy), représentant 1000+ heures de formation post-graduée. Notre équipe investit collectivement plus de 5000 heures annuellement en formation continue. Plusieurs de nos thérapeutes sont chargés de cours universitaires, conférenciers internationaux et publient dans des revues scientifiques. Cette expertise exceptionnelle nous permet de traiter les cas les plus complexes."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Comment Physioactif contribue à l'avancement de la physiothérapie au Québec?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Physioactif est un véritable moteur d'innovation: nos physiothérapeutes enseignent à l'Université de Montréal et autres institutions, participent activement à la recherche et publient des articles scientifiques, présentent dans des congrès nationaux et internationaux. Nous avons créé un des premiers centres de formation pour professionnels de la santé (2005) et le premier programme de mentorat structuré rémunéré au Québec (2012). Notre vision: que les physiothérapeutes deviennent LA référence en gestion de la douleur et que la physiothérapie soit reconnue à sa juste valeur."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Quel est le niveau de satisfaction des patients chez Physioactif?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Avec plus de 20 000 patients soulagés en 25 ans, nos taux de satisfaction parlent d'eux-mêmes: 4.7/5 pour le soulagement rapide de la douleur, 4.9/5 pour notre expertise technique et clinique, et un parfait 5/5 pour notre capacité d'écoute. Les témoignages soulignent notre capacité unique à résoudre des problèmes chroniques après des années de traitements inefficaces ailleurs, redonner confiance aux patients en leur corps, et créer des transformations durables. Comme le dit une patiente: 'Tu m'as redonné confiance en mon corps, quelque chose disparu depuis des années.'"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Quelles assurances sont acceptées chez Physioactif?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Nous acceptons toutes les assurances privées majeures: Beneva, Canada Vie, Desjardins Assurances, Green Shield Canada, Manuvie, Sun Life, et plus. Nous sommes également accrédités pour tous les programmes publics: SAAQ pour accidents de la route, CNESST pour accidents du travail, IVAC pour victimes d'actes criminels, et Anciens Combattants Canada. Notre équipe administrative expérimentée s'occupe de toute la paperasse pour vous permettre de vous concentrer sur votre rétablissement."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Quelle est la mission et vision à long terme de Physioactif?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Notre mission depuis 2000: offrir la meilleure physiothérapie possible en nous détachant du modèle traditionnel, favorisant le bien-être à long terme plutôt que le soulagement temporaire. Notre vision ambitieuse: qu'un jour les patients, professionnels de la santé et le grand public reconnaissent la physiothérapie à sa juste valeur, et que les physiothérapeutes deviennent LA référence incontournable en gestion de la douleur. Après 25 ans, nous continuons d'être un 'game-changer', remettant en question les pratiques établies pour améliorer constamment les soins."
+          }
+        }
+      ]
+    }
+  ]
+}

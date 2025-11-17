@@ -1,0 +1,187 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "VideoObject",
+      "@id": "https://www.physioactif.com/en/videos-dexercise/flexion-plantaire-en-mise-en-charge#video",
+      "name": "Flexion Plantaire en Mise en Charge - Vidéo Physiothérapie",
+      "description": "Vidéo démonstration professionnelle de l'exercice flexion plantaire en mise en charge par les physiothérapeutes de Physioactif.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Q5t0TGBARbQ/maxresdefault.jpg",
+      "uploadDate": "2024-01-15",
+      "duration": "PT1M",
+      "publisher": {
+        "@id": "https://www.physioactif.com/en/#org"
+      },
+      "about": [
+        {
+          "@id": "https://www.physioactif.com/en/videos-dexercise/flexion-plantaire-en-mise-en-charge#exercise"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Physiothérapie",
+          "alternateName": [
+            "Physical therapy",
+            "Kinésithérapie",
+            "Fisioterapia"
+          ],
+          "sameAs": [
+            "https://www.physioactif.com/en/guide-complet/physiotherapie",
+            "https://www.wikidata.org/wiki/Q186005",
+            "https://en.wikipedia.org/wiki/Physical_therapy",
+            "https://fr.wikipedia.org/wiki/Kinésithérapie",
+            "https://meshb.nlm.nih.gov/record/ui?ui=D026761",
+            "https://www.merriam-webster.com/dictionary/physiotherapy",
+            "https://www.britannica.com/topic/physical-therapy"
+          ]
+        }
+      ],
+      "embedUrl": "https://www.youtube.com/embed/Q5t0TGBARbQ",
+      "contentUrl": "https://www.youtube.com/watch?v=Q5t0TGBARbQ"
+    },
+    {
+      "@type": "ExercisePlan",
+      "@id": "https://www.physioactif.com/en/videos-dexercise/flexion-plantaire-en-mise-en-charge#exercise",
+      "name": "Flexion Plantaire en Mise en Charge",
+      "description": "Exercice thérapeutique pour la région ciblée visant à améliorer la mobilité et la fonction. Particulièrement efficace pour traiter Lombalgie. Cet exercice aide à corriger les déséquilibres musculaires, améliorer la posture et réduire la douleur. Recommandé dans le cadre d'un programme de réadaptation en physiothérapie.",
+      "category": "Mollet, cheville et pied",
+      "activityDuration": "PT1M",
+      "exerciseType": "PhysicalActivity",
+      "associatedAnatomicalStructure": {
+        "@type": "AnatomicalStructure",
+        "name": "Mollet, cheville et pied"
+      },
+      "isPartOf": {
+        "@id": "https://www.physioactif.com/en/#org"
+      },
+      "provider": {
+        "@id": "https://www.physioactif.com/en/#org"
+      },
+      "inLanguage": [
+        "en-CA"
+      ],
+      "url": "https://www.physioactif.com/en/videos-dexercise/flexion-plantaire-en-mise-en-charge",
+      "exerciseRelatedCondition": [
+        {
+          "@id": "https://www.physioactif.com/en/guide-complet/lombalgie#condition"
+        }
+      ],
+      "targetArea": [
+        {
+          "@type": "AnatomicalStructure",
+          "name": "Musculoskeletal system"
+        }
+      ],
+      "intensity": {
+        "@type": "QuantitativeValue",
+        "value": "Moderate",
+        "description": "Modéré - Convient aux personnes avec mobilité de base"
+      },
+      "repetitions": {
+        "@type": "QuantitativeValue",
+        "value": "3-5",
+        "unitText": "répétitions par côté"
+      },
+      "restPeriods": "PT30S",
+      "workload": {
+        "@type": "Energy",
+        "value": "Light to moderate"
+      }
+    },
+    {
+      "@type": "MedicalWebPage",
+      "@id": "https://www.physioactif.com/en/videos-dexercise/flexion-plantaire-en-mise-en-charge#webpage",
+      "datePublished": "2025-09-26",
+      "name": "Flexion Plantaire en Mise en Charge - Vidéo d'exercice",
+      "headline": "Flexion Plantaire en Mise en Charge - Exercice de physiothérapie en vidéo | Physioactif",
+      "description": "Exercice thérapeutique pour la région ciblée visant à améliorer la mobilité et la fonction. Particulièrement efficace pour traiter Lombalgie. Cet exercice aide à corriger les déséquilibres musculaires, améliorer la posture et réduire la douleur. Recommandé dans le cadre d'un programme de réadaptation en physiothérapie.",
+      "about": [
+        {
+          "@id": "https://www.physioactif.com/en/videos-dexercise/flexion-plantaire-en-mise-en-charge#exercise"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Physiothérapie",
+          "alternateName": [
+            "Physical therapy",
+            "Kinésithérapie",
+            "Fisioterapia"
+          ],
+          "sameAs": [
+            "https://www.physioactif.com/en/guide-complet/physiotherapie",
+            "https://www.wikidata.org/wiki/Q186005",
+            "https://en.wikipedia.org/wiki/Physical_therapy",
+            "https://fr.wikipedia.org/wiki/Kinésithérapie",
+            "https://meshb.nlm.nih.gov/record/ui?ui=D026761",
+            "https://www.merriam-webster.com/dictionary/physiotherapy",
+            "https://www.britannica.com/topic/physical-therapy"
+          ]
+        }
+      ],
+      "mainEntity": {
+        "@id": "https://www.physioactif.com/en/videos-dexercise/flexion-plantaire-en-mise-en-charge#exercise"
+      },
+      "isPartOf": {
+        "@id": "https://www.physioactif.com/en/#website"
+      },
+      "specialty": [
+        "Physiotherapy",
+        "Musculoskeletal",
+        "SportsMedicine"
+      ],
+      "inLanguage": [
+        "en-CA"
+      ],
+      "url": "https://www.physioactif.com/en/videos-dexercise/flexion-plantaire-en-mise-en-charge",
+      "breadcrumb": {
+        "@id": "https://www.physioactif.com/en/videos-dexercise/flexion-plantaire-en-mise-en-charge#breadcrumb"
+      },
+      "video": {
+        "@id": "https://www.physioactif.com/en/videos-dexercise/flexion-plantaire-en-mise-en-charge#video"
+      },
+      "mentions": [
+        {
+          "@type": "DefinedTerm",
+          "name": "Système musculosquelettique",
+          "description": "Système d'organes qui confère à l'humain l'aptitude à se mouvoir physiquement, composé du système musculaire, du squelette osseux et cartilagineux ainsi que les éléments rattachés (articulations, ligaments, tendons)",
+          "sameAs": [
+            "https://fr.wikipedia.org/wiki/Appareil_locomoteur_humain",
+            "https://en.wikipedia.org/wiki/Human_musculoskeletal_system",
+            "https://www.wikidata.org/wiki/Q726543",
+            "https://meshb.nlm.nih.gov/record/ui?ui=D009141"
+          ]
+        }
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [
+          ".header_heading",
+          ".header_content .text-style-muted",
+          ".section_article .text-rich-text h2"
+        ]
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.physioactif.com/en/videos-dexercise/flexion-plantaire-en-mise-en-charge#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Accueil",
+          "item": "https://www.physioactif.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Vidéos d'exercices",
+          "item": "https://www.physioactif.com/en/videos-exercices"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Flexion Plantaire en Mise en Charge"
+        }
+      ]
+    }
+  ]
+}

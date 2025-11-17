@@ -1,0 +1,117 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "@id": "https://www.physioactif.com/approches-therapeutiques/fcampt/#article",
+      "author": {
+        "@type": "Person",
+        "@id": "https://www.physioactif.com/equipe/claudine-farah/#person"
+      },
+      "headline": "FCAMPT : évaluation approfondie et techniques manuelles de haut niveau",
+      "description": "Accédez aux soins experts. Diagnostic précis et techniques avancées pour résoudre vos problèmes complexes.",
+      "url": "https://www.physioactif.com/approches-therapeutiques/fcampt/",
+      "inLanguage": [
+        "fr-CA"
+      ],
+      "datePublished": "2025-09-26",
+      "publisher": {
+        "@id": "https://www.physioactif.com/#org"
+      },
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://www.physioactif.com/wp-content/uploads/approches/fcampt-thumb.jpg",
+        "width": 1200,
+        "height": 675
+      },
+      "about": [
+        {
+          "@type": "PhysicalTherapy",
+          "name": "FCAMPT : évaluation approfondie et techniques manuelles de haut niveau"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Physiothérapie",
+          "alternateName": [
+            "Physical therapy",
+            "Kinésithérapie",
+            "Fisioterapia"
+          ],
+          "sameAs": [
+            "https://www.physioactif.com/guide-complet/physiotherapie",
+            "https://www.wikidata.org/wiki/Q186005",
+            "https://en.wikipedia.org/wiki/Physical_therapy",
+            "https://fr.wikipedia.org/wiki/Kinésithérapie",
+            "https://meshb.nlm.nih.gov/record/ui?ui=D026761",
+            "https://www.merriam-webster.com/dictionary/physiotherapy",
+            "https://www.britannica.com/topic/physical-therapy"
+          ]
+        }
+      ],
+      "articleSection": "Approches thérapeutiques",
+      "keywords": [
+        "physiothérapie",
+        "traitement",
+        "approche thérapeutique"
+      ],
+      "mentions": [
+        {
+          "@type": "DefinedTerm",
+          "name": "FCAMPT (Fellow of the Canadian Academy of Manipulative Physiotherapy)",
+          "description": "Titre professionnel avancé en thérapie manuelle orthopédique reconnu internationalement, attestant d'une formation approfondie en évaluation et techniques manuelles de haut niveau.",
+          "sameAs": [
+            "https://en.wikipedia.org/wiki/Manual_therapy",
+            "https://www.wikidata.org/wiki/Q1427967"
+          ]
+        }
+      ]
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://www.physioactif.com/approches-therapeutiques/fcampt/#webpage",
+      "datePublished": "2025-09-26",
+      "url": "https://www.physioactif.com/approches-therapeutiques/fcampt/",
+      "name": "FCAMPT : évaluation approfondie et techniques manuelles de haut niveau",
+      "description": "Accédez aux soins experts. Diagnostic précis et techniques avancées pour résoudre vos problèmes complexes.",
+      "inLanguage": [
+        "fr-CA"
+      ],
+      "isPartOf": {
+        "@id": "https://www.physioactif.com/#website"
+      },
+      "mainEntity": {
+        "@id": "https://www.physioactif.com/approches-therapeutiques/fcampt/#article"
+      },
+      "breadcrumb": {
+        "@id": "https://www.physioactif.com/approches-therapeutiques/fcampt/#breadcrumb"
+      },
+      "publisher": {
+        "@id": "https://www.physioactif.com/#org"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.physioactif.com/approches-therapeutiques/fcampt/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Accueil",
+          "item": "https://www.physioactif.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Approches thérapeutiques",
+          "item": "https://www.physioactif.com/approches-therapeutiques/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "FCAMPT : évaluation approfondie et techniques manuelles de haut niveau",
+          "item": "https://www.physioactif.com/approches-therapeutiques/fcampt/"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,228 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "MedicalCondition",
+      "@id": "https://www.physioactif.com/en/guide-complet/lombo-cruralgie#condition",
+      "name": "Lombo-cruralgie",
+      "alternateName": [
+        "Cruralgie",
+        "Femoral radiculopathy",
+        "Crural neuralgia",
+        "Lumbar-femoral pain"
+      ],
+      "description": "La cruralgie ou névralgie crurale est une douleur de la face antérieure du membre inférieur, causée par une irritation ou une compression du nerf fémoral (anciennement nerf crural) ou d'une de ses racines (L3 ou L4). La douleur part du bas du dos et descend devant la cuisse, jusqu'au genou, jusqu'à la face interne de la jambe (cruris en latin), voire jusqu'au creux plantaire. La douleur, de type névralgique, est due à des lésions axonales, tronculaires ou rachidiennes, l'irritation d'une des racines comprimant le nerf crural (maintenant appelé nerf fémoral), au niveau de L3 (entre L1, L2, L3, L4, voire S1 selon les auteurs d'anatomie).",
+      "code": [
+        {
+          "@type": "MedicalCode",
+          "code": "M54.16",
+          "codingSystem": "ICD-10"
+        },
+        {
+          "@type": "MedicalCode",
+          "code": "D011843",
+          "codingSystem": "MeSH"
+        }
+      ],
+      "sameAs": [
+        "https://fr.wikipedia.org/wiki/Cruralgie",
+        "https://en.wikipedia.org/wiki/Radiculopathy",
+        "https://www.wikidata.org/wiki/Q3005579",
+        "https://meshb.nlm.nih.gov/record/ui?ui=D011843",
+        "https://icd.who.int/browse10/2019/en#/M54.16"
+      ],
+      "possibleTreatment": {
+        "@type": "MedicalTherapy",
+        "name": "Physiothérapie",
+        "alternateName": [
+          "Physical therapy",
+          "Kinésithérapie",
+          "Fisioterapia"
+        ],
+        "sameAs": [
+          "https://www.physioactif.com/en/guide-complet/physiotherapie",
+          "https://www.wikidata.org/wiki/Q186005",
+          "https://en.wikipedia.org/wiki/Physical_therapy",
+          "https://fr.wikipedia.org/wiki/Kinésithérapie",
+          "https://meshb.nlm.nih.gov/record/ui?ui=D026761",
+          "https://www.merriam-webster.com/dictionary/physiotherapy",
+          "https://www.britannica.com/topic/physical-therapy"
+        ]
+      }
+    },
+    {
+      "@type": "MedicalWebPage",
+      "@id": "https://www.physioactif.com/en/guide-complet/lombo-cruralgie#article",
+      "author": {
+        "@type": "Person",
+        "@id": "https://www.physioactif.com/en/equipe/ariel-desjardins-charbonneau/#person"
+      },
+      "datePublished": "2025-09-26",
+      "name": "Lombo Cruralgie - Guide Complet",
+      "headline": "Lombo Cruralgie: Symptômes, Causes, Diagnostic et Traitement en Physiothérapie",
+      "about": [
+        {
+          "@id": "https://www.physioactif.com/en/guide-complet/lombo-cruralgie#condition"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Physiothérapie",
+          "alternateName": [
+            "Physical therapy",
+            "Kinésithérapie",
+            "Fisioterapia"
+          ],
+          "sameAs": [
+            "https://www.physioactif.com/en/guide-complet/physiotherapie",
+            "https://www.wikidata.org/wiki/Q186005",
+            "https://en.wikipedia.org/wiki/Physical_therapy",
+            "https://fr.wikipedia.org/wiki/Kinésithérapie",
+            "https://meshb.nlm.nih.gov/record/ui?ui=D026761",
+            "https://www.merriam-webster.com/dictionary/physiotherapy",
+            "https://www.britannica.com/topic/physical-therapy"
+          ]
+        }
+      ],
+      "mainEntity": {
+        "@id": "https://www.physioactif.com/en/guide-complet/lombo-cruralgie#condition"
+      },
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [
+          ".header_heading",
+          ".header_content .text-style-muted.w-richtext",
+          ".section_article .text-rich-text h2"
+        ]
+      },
+      "specialty": [
+        "Physiotherapy",
+        "Musculoskeletal",
+        "SportsMedicine"
+      ],
+      "medicalAudience": [
+        {
+          "@type": "Patient"
+        },
+        {
+          "@type": "MedicalAudience",
+          "audienceType": "General Public"
+        }
+      ],
+      "reviewedBy": {
+        "@id": "https://www.physioactif.com/en/#org"
+      },
+      "provider": {
+        "@id": "https://www.physioactif.com/en/#org"
+      },
+      "inLanguage": [
+        "en-CA"
+      ],
+      "isPartOf": {
+        "@id": "https://www.physioactif.com/en/#website"
+      },
+      "mentions": [
+        {
+          "@type": "MedicalTherapy",
+          "name": "Physiothérapie",
+          "alternateName": [
+            "Physical therapy",
+            "Kinésithérapie",
+            "Fisioterapia"
+          ],
+          "sameAs": [
+            "https://www.physioactif.com/en/guide-complet/physiotherapie",
+            "https://www.wikidata.org/wiki/Q186005",
+            "https://en.wikipedia.org/wiki/Physical_therapy",
+            "https://fr.wikipedia.org/wiki/Kinésithérapie",
+            "https://meshb.nlm.nih.gov/record/ui?ui=D026761",
+            "https://www.merriam-webster.com/dictionary/physiotherapy",
+            "https://www.britannica.com/topic/physical-therapy"
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "name": "Hernie discale",
+          "description": "Saillie du disque intervertébral causant une compression nerveuse",
+          "sameAs": [
+            "https://fr.wikipedia.org/wiki/Hernie_discale",
+            "https://en.wikipedia.org/wiki/Spinal_disc_herniation",
+            "https://www.wikidata.org/wiki/Q188874",
+            "https://meshb.nlm.nih.gov/record/ui?ui=D007405"
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "name": "Lombalgie",
+          "description": "Douleur dans la région lombaire du bas du dos",
+          "sameAs": [
+            "https://fr.wikipedia.org/wiki/Lombalgie",
+            "https://en.wikipedia.org/wiki/Low_back_pain",
+            "https://www.wikidata.org/wiki/Q852163",
+            "https://meshb.nlm.nih.gov/record/ui?ui=D017116"
+          ]
+        }
+      ]
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://www.physioactif.com/en/guide-complet/lombo-cruralgie#webpage",
+      "datePublished": "2025-09-26",
+      "url": "https://www.physioactif.com/en/guide-complet/lombo-cruralgie",
+      "name": "Lombo Cruralgie - Guide Complet | Physioactif",
+      "description": "Guide complet sur lombo cruralgie: causes, symptômes, diagnostic et traitements en physiothérapie par les experts de Physioactif.",
+      "mainEntity": {
+        "@id": "https://www.physioactif.com/en/guide-complet/lombo-cruralgie#condition"
+      },
+      "about": {
+        "@id": "https://www.physioactif.com/en/guide-complet/lombo-cruralgie#condition"
+      },
+      "breadcrumb": {
+        "@type": "BreadcrumbList",
+        "@id": "https://www.physioactif.com/en/guide-complet/lombo-cruralgie#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Accueil",
+            "item": "https://www.physioactif.com/en/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Guide Complet",
+            "item": "https://www.physioactif.com/en/guide-complet"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Lombo Cruralgie",
+            "item": "https://www.physioactif.com/en/guide-complet/lombo-cruralgie"
+          }
+        ]
+      },
+      "isPartOf": {
+        "@id": "https://www.physioactif.com/en/#website"
+      },
+      "inLanguage": [
+        "en-CA"
+      ],
+      "potentialAction": {
+        "@type": "ReadAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://www.physioactif.com/en/guide-complet/lombo-cruralgie",
+          "actionPlatform": [
+            "http://schema.org/DesktopWebPlatform",
+            "http://schema.org/MobileWebPlatform"
+          ]
+        }
+      },
+      "relatedLink": [
+        "https://physioactif.clinicmaster.com/clinic-selection?lang=fr-CA"
+      ],
+      "publisher": {
+        "@id": "https://www.physioactif.com/en/#org"
+      }
+    }
+  ]
+}

@@ -1,0 +1,375 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "@id": "https://www.physioactif.com/carriere/#webpage",
+      "datePublished": "2025-09-26",
+      "url": "https://www.physioactif.com/carriere/",
+      "name": "Emplois en physio: nous cherchons des humains, pas des CV",
+      "description": "On ne recrute pas des compétences, on sélectionne des humains vrais. Ici votre humanité compte plus que votre CV. On embauche maintenant",
+      "inLanguage": [
+        "fr-CA"
+      ],
+      "isPartOf": {
+        "@id": "https://www.physioactif.com/#website"
+      },
+      "breadcrumb": {
+        "@type": "BreadcrumbList",
+        "@id": "https://www.physioactif.com/carriere/#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Accueil",
+            "item": "https://www.physioactif.com/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Carrière",
+            "item": "https://www.physioactif.com/carriere/"
+          }
+        ]
+      },
+      "mainEntity": {
+        "@type": "ItemList",
+        "@id": "https://www.physioactif.com/carriere/#joblistings",
+        "name": "Postes disponibles chez Physioactif",
+        "description": "Opportunités de carrière en physiothérapie dans le Grand Montréal",
+        "numberOfItems": 4,
+        "itemListElement": [
+          {
+            "@type": "JobPosting",
+            "@id": "https://www.physioactif.com/carriere/#job-physiotherapeute",
+            "title": "Physiothérapeute",
+            "description": "C'est le plus beau métier du monde! Programme rémunéré de mentorat de 96h et intégration progressive avec 24h d'observation clinique. Plages horaires dédiées à la relation-patient et à vos projets personnels.",
+            "datePosted": "2024-01-01",
+            "employmentType": [
+              "FULL_TIME",
+              "PART_TIME"
+            ],
+            "hiringOrganization": {
+              "@id": "https://www.physioactif.com/#org"
+            },
+            "jobLocation": [
+              {
+                "@type": "Place",
+                "address": {
+                  "@type": "PostalAddress",
+                  "addressLocality": "Montréal",
+                  "addressRegion": "QC",
+                  "addressCountry": "CA"
+                }
+              },
+              {
+                "@type": "Place",
+                "address": {
+                  "@type": "PostalAddress",
+                  "addressLocality": "Blainville",
+                  "addressRegion": "QC",
+                  "addressCountry": "CA"
+                }
+              },
+              {
+                "@type": "Place",
+                "address": {
+                  "@type": "PostalAddress",
+                  "addressLocality": "Laval",
+                  "addressRegion": "QC",
+                  "addressCountry": "CA"
+                }
+              },
+              {
+                "@type": "Place",
+                "address": {
+                  "@type": "PostalAddress",
+                  "addressLocality": "Saint-Eustache",
+                  "addressRegion": "QC",
+                  "addressCountry": "CA"
+                }
+              },
+              {
+                "@type": "Place",
+                "address": {
+                  "@type": "PostalAddress",
+                  "addressLocality": "Vaudreuil-Dorion",
+                  "addressRegion": "QC",
+                  "addressCountry": "CA"
+                }
+              }
+            ],
+            "qualifications": "Membre de l'Ordre professionnel de la physiothérapie du Québec (OPPQ)",
+            "responsibilities": "Évaluation et traitement de patients, participation au programme de mentorat, développement professionnel continu",
+            "skills": [
+              "Physiothérapie musculo-squelettique",
+              "Thérapie manuelle",
+              "Relation patient"
+            ],
+            "educationRequirements": {
+              "@type": "EducationalOccupationalCredential",
+              "credentialCategory": "Diplôme universitaire en physiothérapie"
+            },
+            "jobBenefits": "Programme de mentorat rémunéré de 96h, équipe administrative solide, développement professionnel, flexibilité horaire",
+            "industry": "Healthcare",
+            "occupationalCategory": "3142",
+            "validThrough": "2025-12-31"
+          },
+          {
+            "@type": "JobPosting",
+            "@id": "https://www.physioactif.com/carriere/#job-coordonnateur",
+            "title": "Coordonnateur.trice de soins",
+            "description": "On cherche une personne qui a beaucoup d'hospitalité, qui aime les tâches variées et un environnement qui va vite. Expérience dans la restauration (service), la vente ou le secteur hôtelier est un atout.",
+            "datePosted": "2024-01-01",
+            "employmentType": [
+              "FULL_TIME",
+              "PART_TIME"
+            ],
+            "hiringOrganization": {
+              "@id": "https://www.physioactif.com/#org"
+            },
+            "jobLocation": [
+              {
+                "@type": "Place",
+                "address": {
+                  "@type": "PostalAddress",
+                  "addressLocality": "Montréal",
+                  "addressRegion": "QC",
+                  "addressCountry": "CA"
+                }
+              },
+              {
+                "@type": "Place",
+                "address": {
+                  "@type": "PostalAddress",
+                  "addressLocality": "Blainville",
+                  "addressRegion": "QC",
+                  "addressCountry": "CA"
+                }
+              },
+              {
+                "@type": "Place",
+                "address": {
+                  "@type": "PostalAddress",
+                  "addressLocality": "Laval",
+                  "addressRegion": "QC",
+                  "addressCountry": "CA"
+                }
+              },
+              {
+                "@type": "Place",
+                "address": {
+                  "@type": "PostalAddress",
+                  "addressLocality": "Saint-Eustache",
+                  "addressRegion": "QC",
+                  "addressCountry": "CA"
+                }
+              },
+              {
+                "@type": "Place",
+                "address": {
+                  "@type": "PostalAddress",
+                  "addressLocality": "Vaudreuil-Dorion",
+                  "addressRegion": "QC",
+                  "addressCountry": "CA"
+                }
+              }
+            ],
+            "experienceRequirements": "Aucun pré-requis. Expérience dans la restauration, la vente ou le secteur hôtelier est un atout",
+            "responsibilities": "Accueil des patients, coordination des soins, support administratif, gestion des rendez-vous",
+            "skills": [
+              "Hospitalité",
+              "Service client",
+              "Multitâche",
+              "Communication"
+            ],
+            "industry": "Healthcare",
+            "occupationalCategory": "1221",
+            "validThrough": "2025-12-31"
+          },
+          {
+            "@type": "JobPosting",
+            "@id": "https://www.physioactif.com/carriere/#job-technologue",
+            "title": "Technologue en physiothérapie",
+            "description": "Postulez si vous êtes actuellement étudiant.e en physio.",
+            "datePosted": "2024-01-01",
+            "employmentType": [
+              "FULL_TIME",
+              "PART_TIME"
+            ],
+            "hiringOrganization": {
+              "@id": "https://www.physioactif.com/#org"
+            },
+            "jobLocation": [
+              {
+                "@type": "Place",
+                "address": {
+                  "@type": "PostalAddress",
+                  "addressLocality": "Montréal",
+                  "addressRegion": "QC",
+                  "addressCountry": "CA"
+                }
+              },
+              {
+                "@type": "Place",
+                "address": {
+                  "@type": "PostalAddress",
+                  "addressLocality": "Blainville",
+                  "addressRegion": "QC",
+                  "addressCountry": "CA"
+                }
+              },
+              {
+                "@type": "Place",
+                "address": {
+                  "@type": "PostalAddress",
+                  "addressLocality": "Laval",
+                  "addressRegion": "QC",
+                  "addressCountry": "CA"
+                }
+              },
+              {
+                "@type": "Place",
+                "address": {
+                  "@type": "PostalAddress",
+                  "addressLocality": "Saint-Eustache",
+                  "addressRegion": "QC",
+                  "addressCountry": "CA"
+                }
+              },
+              {
+                "@type": "Place",
+                "address": {
+                  "@type": "PostalAddress",
+                  "addressLocality": "Vaudreuil-Dorion",
+                  "addressRegion": "QC",
+                  "addressCountry": "CA"
+                }
+              }
+            ],
+            "qualifications": "Étudiant en physiothérapie",
+            "educationRequirements": {
+              "@type": "EducationalOccupationalCredential",
+              "credentialCategory": "Étudiant en programme de physiothérapie"
+            },
+            "industry": "Healthcare",
+            "validThrough": "2025-12-31"
+          },
+          {
+            "@type": "JobPosting",
+            "@id": "https://www.physioactif.com/carriere/#job-massotherapeute",
+            "title": "Massothérapeute",
+            "description": "Nous cherchons massothérapeute qui souhaite être travailleur autonome seulement et développer son bassin de clientèle.",
+            "datePosted": "2024-01-01",
+            "employmentType": [
+              "CONTRACTOR",
+              "PART_TIME",
+              "FULL_TIME"
+            ],
+            "hiringOrganization": {
+              "@id": "https://www.physioactif.com/#org"
+            },
+            "jobLocation": [
+              {
+                "@type": "Place",
+                "address": {
+                  "@type": "PostalAddress",
+                  "addressLocality": "Montréal",
+                  "addressRegion": "QC",
+                  "addressCountry": "CA"
+                }
+              },
+              {
+                "@type": "Place",
+                "address": {
+                  "@type": "PostalAddress",
+                  "addressLocality": "Blainville",
+                  "addressRegion": "QC",
+                  "addressCountry": "CA"
+                }
+              },
+              {
+                "@type": "Place",
+                "address": {
+                  "@type": "PostalAddress",
+                  "addressLocality": "Laval",
+                  "addressRegion": "QC",
+                  "addressCountry": "CA"
+                }
+              },
+              {
+                "@type": "Place",
+                "address": {
+                  "@type": "PostalAddress",
+                  "addressLocality": "Saint-Eustache",
+                  "addressRegion": "QC",
+                  "addressCountry": "CA"
+                }
+              },
+              {
+                "@type": "Place",
+                "address": {
+                  "@type": "PostalAddress",
+                  "addressLocality": "Vaudreuil-Dorion",
+                  "addressRegion": "QC",
+                  "addressCountry": "CA"
+                }
+              }
+            ],
+            "qualifications": "Diplôme en massothérapie reconnu",
+            "responsibilities": "Développer et maintenir sa clientèle, offrir des services de massothérapie de qualité",
+            "skills": [
+              "Massothérapie",
+              "Relation client",
+              "Autonomie"
+            ],
+            "industry": "Healthcare",
+            "validThrough": "2025-12-31"
+          }
+        ]
+      },
+      "hasPart": {
+        "@type": "FAQPage",
+        "@id": "https://www.physioactif.com/carriere/#faq",
+        "name": "Questions sur les carrières chez Physioactif",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Quelles sont les voies de développement professionnel chez Physioactif?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Nous offrons différentes voies de développement: Mentorat et enseignement pour transmettre votre savoir, Spécialisation pour développer une expertise unique, Leadership pour évoluer vers des rôles de gestion/partenariat, et Flexibilité pour équilibrer travail et vie personnelle."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Qu'est-ce qui rend Physioactif différent comme employeur?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Programme rémunéré de mentorat de 96h et intégration progressive avec 24h d'observation clinique, plages horaires dédiées à la relation-patient et à vos projets personnels, équipe administrative solide qui gère les aspects non-cliniques de votre pratique."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Dans quelles cliniques puis-je travailler?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Nous avons 5 cliniques dans le Grand Montréal: Ahuntsic (Montréal), Blainville, Chomedey (Laval), Saint-Eustache et Vaudreuil-Dorion. Tous les postes sont disponibles dans toutes les cliniques."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Quels types de postes sont disponibles?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Nous recrutons pour: Physiothérapeute (temps plein et partiel), Coordonnateur.trice de soins, Technologue en physiothérapie (étudiants), et Massothérapeute (travailleur autonome)."
+            }
+          }
+        ]
+      },
+      "publisher": {
+        "@id": "https://www.physioactif.com/#org"
+      }
+    }
+  ]
+}

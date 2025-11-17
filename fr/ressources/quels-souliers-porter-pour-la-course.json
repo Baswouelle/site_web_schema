@@ -1,0 +1,120 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "@id": "https://www.physioactif.com/ressources/quels-souliers-porter-pour-la-course/#article",
+      "author": {
+        "@type": "Person",
+        "@id": "https://www.physioactif.com/equipe/claudine-farah/#person"
+      },
+      "headline": "Chaussures de course : lesquelles choisir ? | Physioactif",
+      "description": "Évitez les erreurs coûteuses en chaussures. Découvrez les vrais critères pour choisir et courir sans vous blesser.",
+      "url": "https://www.physioactif.com/ressources/quels-souliers-porter-pour-la-course/",
+      "inLanguage": [
+        "fr-CA"
+      ],
+      "datePublished": "2025-09-26",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://cdn.prod.website-files.com/670e84ccd653d18590687563/physioactif-hero-default.jpg",
+        "width": 1200,
+        "height": 630
+      },
+      "publisher": {
+        "@id": "https://www.physioactif.com/#org"
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.physioactif.com/ressources/quels-souliers-porter-pour-la-course/"
+      },
+      "about": [
+        {
+          "@type": "ExercisePlan",
+          "name": "Programme de course à pied"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Physiothérapie",
+          "alternateName": [
+            "Physical therapy",
+            "Kinésithérapie",
+            "Fisioterapia"
+          ],
+          "sameAs": [
+            "https://www.physioactif.com/guide-complet/physiotherapie",
+            "https://www.wikidata.org/wiki/Q186005",
+            "https://en.wikipedia.org/wiki/Physical_therapy",
+            "https://fr.wikipedia.org/wiki/Kinésithérapie",
+            "https://meshb.nlm.nih.gov/record/ui?ui=D026761",
+            "https://www.merriam-webster.com/dictionary/physiotherapy",
+            "https://www.britannica.com/topic/physical-therapy"
+          ]
+        }
+      ],
+      "articleSection": "Ressources",
+      "keywords": [
+        "chaussures course",
+        "souliers running",
+        "choisir chaussures",
+        "drop chaussure",
+        "amorti course"
+      ],
+      "mentions": [
+        {
+          "@id": "https://www.physioactif.com/services/physiotherapie-sportive/#therapy"
+        },
+        {
+          "@id": "https://www.physioactif.com/services/analyse-biomecanique-de-la-course-a-pied/#therapy"
+        }
+      ]
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://www.physioactif.com/ressources/quels-souliers-porter-pour-la-course/#webpage",
+      "datePublished": "2025-09-26",
+      "url": "https://www.physioactif.com/ressources/quels-souliers-porter-pour-la-course/",
+      "name": "Chaussures de course : lesquelles choisir ? | Physioactif",
+      "description": "Évitez les erreurs coûteuses en chaussures. Découvrez les vrais critères pour choisir et courir sans vous blesser.",
+      "inLanguage": [
+        "fr-CA"
+      ],
+      "isPartOf": {
+        "@id": "https://www.physioactif.com/#website"
+      },
+      "mainEntity": {
+        "@id": "https://www.physioactif.com/ressources/quels-souliers-porter-pour-la-course/#article"
+      },
+      "breadcrumb": {
+        "@id": "https://www.physioactif.com/ressources/quels-souliers-porter-pour-la-course/#breadcrumb"
+      },
+      "publisher": {
+        "@id": "https://www.physioactif.com/#org"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.physioactif.com/ressources/quels-souliers-porter-pour-la-course/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Accueil",
+          "item": "https://www.physioactif.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Ressources",
+          "item": "https://www.physioactif.com/ressources/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Chaussures de course : lesquelles choisir ?",
+          "item": "https://www.physioactif.com/ressources/quels-souliers-porter-pour-la-course/"
+        }
+      ]
+    }
+  ]
+}

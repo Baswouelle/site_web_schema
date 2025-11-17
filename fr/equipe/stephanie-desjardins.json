@@ -1,0 +1,149 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@id": "https://www.physioactif.com/equipe/stephanie-desjardins/#person",
+      "@type": "Person",
+      "name": "Stéphanie Desjardins",
+      "url": "https://www.physioactif.com/equipe/stephanie-desjardins/",
+      "description": "Stéphanie Desjardins is a physiothérapeute at Physioactif specializing in Manual Therapy, Sports Injuries, Musculoskeletal Pain.",
+      "jobTitle": "Physiothérapeute",
+      "image": {
+        "@type": "ImageObject",
+        "contentUrl": "https://www.physioactif.com/wp-content/uploads/placeholder-stephanie-desjardins.jpg",
+        "name": "Stéphanie Desjardins",
+        "description": "Professional portrait of Stéphanie Desjardins, physiothérapeute"
+      },
+      "alumniOf": {
+        "@type": "CollegeOrUniversity",
+        "name": "McGill University",
+        "sameAs": "https://www.mcgill.ca/"
+      },
+      "hasCredential": [
+        {
+          "@type": "EducationalOccupationalCredential",
+          "name": "Licensed Physiotherapist",
+          "credentialCategory": "Professional License",
+          "identifier": "P14383",
+          "url": "https://oppq.qc.ca/professionnels/52925/desjardins/stephanie/",
+          "dateCreated": "2014",
+          "recognizedBy": {
+            "@type": "Organization",
+            "name": "Ordre professionnel de la physiothérapie du Québec (OPPQ)",
+            "sameAs": "https://oppq.qc.ca/"
+          }
+        }
+      ],
+      "memberOf": [
+        {
+          "@type": "Organization",
+          "name": "Ordre professionnel de la physiothérapie du Québec (OPPQ)",
+          "sameAs": "https://oppq.qc.ca/"
+        },
+        {
+          "@type": "Organization",
+          "name": "Canadian Physiotherapy Association (ACP)",
+          "sameAs": "https://physiotherapy.ca/"
+        }
+      ],
+      "hasOccupation": {
+        "@type": "Occupation",
+        "name": "Physiotherapist",
+        "occupationLocation": {
+          "@type": "AdministrativeArea",
+          "name": "Blainville",
+          "sameAs": "https://en.wikipedia.org/wiki/Blainville,_Quebec"
+        },
+        "occupationalCategory": "3142",
+        "educationRequirements": "Master's degree in Physiotherapy",
+        "experienceRequirements": "Licensed by OPPQ since 2014",
+        "qualifications": "Licensed physiotherapist in Quebec (OPPQ #P14383)",
+        "skills": [
+          "Manual Therapy",
+          "Sports Injuries",
+          "Musculoskeletal Pain"
+        ]
+      },
+      "knowsAbout": [
+        "Physiotherapy",
+        "Manual Therapy",
+        "Sports Injuries",
+        "Musculoskeletal Pain"
+      ],
+      "knowsLanguage": [
+        {
+          "@type": "Language",
+          "name": "French"
+        },
+        {
+          "@type": "Language",
+          "name": "English"
+        }
+      ],
+      "worksFor": {
+        "@id": "https://www.physioactif.com/#org"
+      },
+      "isPartOf": "https://www.physioactif.com/#website",
+      "workLocation": {
+        "@type": "MedicalClinic",
+        "@id": "https://www.physioactif.com/clinique/physioactif-blainville-sud-et-rosemere/#clinic"
+      },
+      "sameAs": [
+        "http://g.co/kg/g/11stzxxcf5",
+        "https://www.linkedin.com/in/stephanie-desjardins",
+        "https://oppq.qc.ca/professionnels/52925/desjardins/stephanie/"
+      ],
+      "additionalType": [
+        "https://schema.org/Physician"
+      ],
+      "about": [
+        {
+          "@type": "Person",
+          "@id": "https://www.physioactif.com/equipe/stephanie-desjardins/#person"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Physiothérapie",
+          "alternateName": [
+            "Physical therapy",
+            "Kinésithérapie",
+            "Fisioterapia"
+          ],
+          "sameAs": [
+            "https://www.physioactif.com/guide-complet/physiotherapie",
+            "https://www.wikidata.org/wiki/Q186005",
+            "https://en.wikipedia.org/wiki/Physical_therapy",
+            "https://fr.wikipedia.org/wiki/Kinésithérapie",
+            "https://meshb.nlm.nih.gov/record/ui?ui=D026761",
+            "https://www.merriam-webster.com/dictionary/physiotherapy",
+            "https://www.britannica.com/topic/physical-therapy"
+          ]
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.physioactif.com/equipe/stephanie-desjardins/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Accueil",
+          "item": "https://www.physioactif.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Équipe",
+          "item": "https://www.physioactif.com/equipe/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Stéphanie Desjardins",
+          "item": "https://www.physioactif.com/equipe/stephanie-desjardins"
+        }
+      ]
+    }
+  ]
+}

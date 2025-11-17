@@ -1,0 +1,272 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@id": "https://www.physioactif.com/en/equipe/sylvain-st-amour/#person",
+      "@type": [
+        "Person",
+        "WebPage"
+      ],
+      "name": "Sylvain St-Amour",
+      "url": "https://www.physioactif.com/en/equipe/sylvain-st-amour/",
+      "description": "Sylvain St-Amour is the founder of Physioactif and a highly experienced physiotherapist with over 25 years of clinical practice. As a Fellow of the Canadian Academy of Manipulative Physiotherapy (FCAMPT) since 2005, he combines extensive clinical expertise with a passion for teaching, having lectured at Université de Montréal since 2009 and taught advanced manual therapy techniques across Quebec.",
+      "disambiguatingDescription": "Sylvain St-Amour founded Physio-Performance in 1999, which later became Physioactif, expanding to five clinic locations across the Greater Montreal area. His career spans clinical practice, university teaching, and professional education. He specializes in finding solutions for complex musculoskeletal cases and has trained hundreds of physiotherapists through his courses on manual therapy and neurodynamics at AQPMA since 2007.",
+      "jobTitle": "Physiotherapist, Founder, FCAMPT",
+      "image": {
+        "@type": "ImageObject",
+        "@id": "https://www.physioactif.com/en/equipe/sylvain-st-amour/#image",
+        "contentUrl": "https://www.physioactif.com/en/wp-content/uploads/placeholder-sylvain.jpg",
+        "name": "Sylvain St-Amour",
+        "alternateName": "Sylvain St-Amour",
+        "description": "Sylvain St-Amour is a professional physiotherapist and founder of Physioactif specializing in manual therapy and complex pain management.",
+        "representativeOfPage": "http://schema.org/True",
+        "creator": {
+          "@id": "https://www.physioactif.com/en/#org"
+        },
+        "author": {
+          "@id": "https://www.physioactif.com/en/#org"
+        },
+        "keywords": "physiotherapy, manual therapy, FCAMPT, founder, Sylvain St-Amour, complex pain, neurodynamics",
+        "genre": "Physiotherapy Services",
+        "caption": "Sylvain St-Amour - Founder of Physioactif",
+        "copyrightNotice": "See our license page.",
+        "license": "https://www.physioactif.com/en/license/",
+        "acquireLicensePage": "https://www.physioactif.com/en/license/",
+        "creditText": "See our license page."
+      },
+      "alumniOf": [
+        {
+          "@type": "CollegeOrUniversity",
+          "name": "Université de Montréal",
+          "description": "Université de Montréal is a public research university in Montreal, Quebec, Canada. Founded in 1878, it offers comprehensive physiotherapy programs recognized for excellence in healthcare education.",
+          "sameAs": "https://www.umontreal.ca/"
+        }
+      ],
+      "hasCredential": [
+        {
+          "@type": "EducationalOccupationalCredential",
+          "name": "Fellow of the Canadian Academy of Manipulative Physiotherapy (FCAMPT)",
+          "credentialCategory": "Professional Certification",
+          "recognizedBy": {
+            "@type": "Organization",
+            "name": "Canadian Academy of Manipulative Physiotherapy",
+            "sameAs": "https://manippt.org/"
+          },
+          "dateCreated": "2005"
+        },
+        {
+          "@type": "EducationalOccupationalCredential",
+          "name": "Licensed Physiotherapist",
+          "credentialCategory": "Professional License",
+          "identifier": "P99120",
+          "url": "https://oppq.qc.ca/professionnels/4646/st-amour/sylvain/",
+          "dateCreated": "1999",
+          "recognizedBy": {
+            "@type": "Organization",
+            "name": "Ordre professionnel de la physiothérapie du Québec (OPPQ)",
+            "sameAs": "https://oppq.qc.ca/"
+          }
+        }
+      ],
+      "memberOf": [
+        {
+          "@type": "Organization",
+          "name": "Ordre professionnel de la physiothérapie du Québec (OPPQ)",
+          "description": "The Ordre professionnel de la physiothérapie du Québec (OPPQ) is the regulatory body for physiotherapists in Quebec. Membership ensures high standards of professional practice and ethics.",
+          "sameAs": "https://oppq.qc.ca/"
+        },
+        {
+          "@type": "Organization",
+          "name": "Canadian Physiotherapy Association (ACP)",
+          "description": "The Canadian Physiotherapy Association represents physiotherapists across Canada, providing professional development and advocacy resources.",
+          "sameAs": "https://physiotherapy.ca/"
+        },
+        {
+          "@type": "Organization",
+          "name": "Canadian Academy of Manipulative Physiotherapy (CAMPT)",
+          "description": "The Canadian Academy of Manipulative Physiotherapy advances manual and manipulative therapy in Canada. As a Fellow since 2005, Sylvain St-Amour demonstrates the highest level of clinical expertise in manual therapy.",
+          "sameAs": "https://manippt.org/"
+        }
+      ],
+      "hasOccupation": [
+        {
+          "@type": "Occupation",
+          "name": "Physiotherapist",
+          "occupationLocation": {
+            "@type": "AdministrativeArea",
+            "name": "Montréal",
+            "sameAs": "https://en.wikipedia.org/wiki/Montreal"
+          },
+          "educationRequirements": "Master's degree in Physiotherapy",
+          "experienceRequirements": "25+ years of clinical practice with advanced specialization in manual therapy",
+          "occupationalCategory": "3142",
+          "qualifications": "Licensed physiotherapist in Quebec, FCAMPT certification since 2005",
+          "responsibilities": "Assess, diagnose, and treat complex musculoskeletal dysfunction, specializing in cases where previous treatments have failed. Provide advanced manual therapy and neurodynamic interventions.",
+          "skills": [
+            "Manual therapy",
+            "Complex pain management",
+            "Neurodynamics",
+            "Clinical reasoning",
+            "Movement analysis"
+          ]
+        },
+        {
+          "@type": "Occupation",
+          "name": "Lecturer at Université de Montréal",
+          "occupationLocation": {
+            "@type": "AdministrativeArea",
+            "name": "Montréal",
+            "sameAs": "https://en.wikipedia.org/wiki/Montreal"
+          },
+          "educationRequirements": "Master's degree in Physiotherapy, FCAMPT certification",
+          "experienceRequirements": "Extensive clinical practice and advanced manual therapy expertise",
+          "occupationalCategory": "4011",
+          "qualifications": "Licensed physiotherapist in Quebec, FCAMPT, 15+ years teaching experience",
+          "responsibilities": "Teach third-year physiotherapy students at Université de Montréal since 2009. Mentor students in clinical reasoning, manual therapy techniques, and evidence-based practice.",
+          "skills": [
+            "Teaching",
+            "Curriculum development",
+            "Clinical expertise",
+            "Student mentoring",
+            "Evidence-based practice"
+          ]
+        },
+        {
+          "@type": "Occupation",
+          "name": "Teacher at AQPMA (Association québécoise de physiothérapie musculosquelettique avancée)",
+          "occupationLocation": {
+            "@type": "AdministrativeArea",
+            "name": "Montréal",
+            "sameAs": "https://en.wikipedia.org/wiki/Montreal"
+          },
+          "educationRequirements": "FCAMPT certification, Master's degree in Physiotherapy",
+          "experienceRequirements": "Advanced clinical expertise in manual therapy and neurodynamics",
+          "occupationalCategory": "3142",
+          "qualifications": "FCAMPT since 2005, extensive continuing education in manual therapy",
+          "responsibilities": "Teach advanced manual therapy techniques to practicing physiotherapists across Quebec since 2007. Provide specialized training in neurodynamics, joint mobilization, and complex pain management.",
+          "skills": [
+            "Advanced manual therapy techniques",
+            "Neurodynamic assessment and treatment",
+            "Professional education",
+            "Complex case management",
+            "Evidence-based teaching"
+          ]
+        },
+        {
+          "@type": "Occupation",
+          "name": "Founder and Director",
+          "occupationLocation": {
+            "@type": "AdministrativeArea",
+            "name": "Montréal",
+            "sameAs": "https://en.wikipedia.org/wiki/Montreal"
+          },
+          "educationRequirements": "Clinical expertise and business acumen",
+          "experienceRequirements": "Founded Physio-Performance in 1999, expanded to 5 locations",
+          "occupationalCategory": "0311",
+          "qualifications": "Entrepreneur, physiotherapy practice owner, clinical leader",
+          "responsibilities": "Founded and developed Physioactif from single clinic (1999) to multi-location network. Establish clinical standards, mentor physiotherapists, drive evidence-based practice culture.",
+          "skills": [
+            "Business development",
+            "Clinical leadership",
+            "Team mentoring",
+            "Quality assurance",
+            "Strategic planning"
+          ]
+        }
+      ],
+      "knowsAbout": [
+        "Physiotherapy",
+        "Manual Therapy",
+        "Neurodynamics",
+        "Complex Pain Management",
+        "Musculoskeletal Disorders",
+        "FCAMPT Advanced Techniques",
+        "Movement Analysis",
+        "Neuromuscular Retraining",
+        "Vestibular Rehabilitation",
+        "TMJ Disorders",
+        "Primitive Reflexes",
+        "Concussion Management",
+        "Clinical Reasoning"
+      ],
+      "knowsLanguage": [
+        {
+          "@type": "Language",
+          "name": "French"
+        },
+        {
+          "@type": "Language",
+          "name": "English"
+        }
+      ],
+      "worksFor": {
+        "@id": "https://www.physioactif.com/en/#org"
+      },
+      "isPartOf": "https://www.physioactif.com/en/#website",
+      "workLocation": {
+        "@type": "MedicalClinic",
+        "@id": "https://www.physioactif.com/en/clinique/physioactif-blainville-sud-et-rosemere/#clinic"
+      },
+      "sameAs": [
+        "http://g.co/kg/g/11sqwpbjk9",
+        "https://www.linkedin.com/in/sylvain-st-amour",
+        "https://oppq.qc.ca/professionnels/4646/st-amour/sylvain/"
+      ],
+      "additionalType": [
+        "https://schema.org/Physician"
+      ],
+      "awards": [
+        "Fellow of the Canadian Academy of Manipulative Physiotherapy (FCAMPT), 2005"
+      ],
+      "datePublished": "2025-09-26",
+      "about": [
+        {
+          "@type": "Person",
+          "@id": "https://www.physioactif.com/en/equipe/sylvain-st-amour/#person"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Physiothérapie",
+          "alternateName": [
+            "Physical therapy",
+            "Kinésithérapie",
+            "Fisioterapia"
+          ],
+          "sameAs": [
+            "https://www.physioactif.com/en/guide-complet/physiotherapie",
+            "https://www.wikidata.org/wiki/Q186005",
+            "https://en.wikipedia.org/wiki/Physical_therapy",
+            "https://fr.wikipedia.org/wiki/Kinésithérapie",
+            "https://meshb.nlm.nih.gov/record/ui?ui=D026761",
+            "https://www.merriam-webster.com/dictionary/physiotherapy",
+            "https://www.britannica.com/topic/physical-therapy"
+          ]
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.physioactif.com/en/equipe/sylvain-st-amour/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Accueil",
+          "item": "https://www.physioactif.com/en/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Équipe",
+          "item": "https://www.physioactif.com/en/equipe/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Sylvain St-Amour",
+          "item": "https://www.physioactif.com/en/equipe/sylvain-st-amour"
+        }
+      ]
+    }
+  ]
+}

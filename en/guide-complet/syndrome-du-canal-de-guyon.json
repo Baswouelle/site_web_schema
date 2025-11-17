@@ -1,0 +1,218 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "MedicalCondition",
+      "@id": "https://www.physioactif.com/en/guide-complet/syndrome-du-canal-de-guyon#condition",
+      "name": "Syndrome du canal de Guyon",
+      "alternateName": [
+        "Ulnar tunnel syndrome",
+        "Guyon canal syndrome",
+        "Handlebar palsy",
+        "Ulnar neuropathy at wrist"
+      ],
+      "description": "Le syndrome du canal de Guyon, également connu sous le nom de syndrome du tunnel ulnaire, est une neuropathie ulnaire au poignet où le nerf passe à travers le tunnel ulnaire (canal de Guyon). Le syndrome du canal de Guyon est une neuropathie ulnaire périphérique relativement rare qui implique une lésion de la portion distale du nerf ulnaire lorsqu'il traverse un corridor anatomique étroit au poignet. Il est généralement causé par un kyste ganglionnaire comprimant le nerf ulnaire; d'autres causes incluent un traumatisme au poignet et des mouvements répétitifs, mais souvent la cause est inconnue (idiopathique). Les signes et symptômes peuvent être purement moteurs, purement sensoriels ou mixtes selon la zone de lésion du nerf ulnaire distal. Le canal de Guyon peut être séparé en trois zones selon la portion du nerf ulnaire impliquée.",
+      "code": [
+        {
+          "@type": "MedicalCode",
+          "code": "G56.2",
+          "codingSystem": "ICD-10"
+        },
+        {
+          "@type": "MedicalCode",
+          "code": "D017769",
+          "codingSystem": "MeSH"
+        }
+      ],
+      "sameAs": [
+        "https://fr.wikipedia.org/wiki/Syndrome_du_canal_de_Guyon",
+        "https://en.wikipedia.org/wiki/Ulnar_tunnel_syndrome",
+        "https://www.wikidata.org/wiki/Q3977093",
+        "https://www.ncbi.nlm.nih.gov/books/NBK431063/",
+        "https://www.icd10data.com/ICD10CM/Codes/G00-G99/G50-G59/G56-/G56.2",
+        "http://snomed.info/id/57668007"
+      ],
+      "possibleTreatment": {
+        "@type": "MedicalTherapy",
+        "name": "Physiothérapie",
+        "alternateName": [
+          "Physical therapy",
+          "Kinésithérapie",
+          "Fisioterapia"
+        ],
+        "sameAs": [
+          "https://www.physioactif.com/en/guide-complet/physiotherapie",
+          "https://www.wikidata.org/wiki/Q186005",
+          "https://en.wikipedia.org/wiki/Physical_therapy",
+          "https://fr.wikipedia.org/wiki/Kinésithérapie",
+          "https://meshb.nlm.nih.gov/record/ui?ui=D026761",
+          "https://www.merriam-webster.com/dictionary/physiotherapy",
+          "https://www.britannica.com/topic/physical-therapy"
+        ]
+      }
+    },
+    {
+      "@type": "MedicalWebPage",
+      "@id": "https://www.physioactif.com/en/guide-complet/syndrome-du-canal-de-guyon#article",
+      "author": {
+        "@type": "Person",
+        "@id": "https://www.physioactif.com/en/equipe/ariel-desjardins-charbonneau/#person"
+      },
+      "datePublished": "2025-09-26",
+      "name": "Syndrome Du Canal De Guyon - Guide Complet",
+      "headline": "Syndrome Du Canal De Guyon: Symptômes, Causes, Diagnostic et Traitement en Physiothérapie",
+      "about": [
+        {
+          "@id": "https://www.physioactif.com/en/guide-complet/syndrome-du-canal-de-guyon#condition"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Physiothérapie",
+          "alternateName": [
+            "Physical therapy",
+            "Kinésithérapie",
+            "Fisioterapia"
+          ],
+          "sameAs": [
+            "https://www.physioactif.com/en/guide-complet/physiotherapie",
+            "https://www.wikidata.org/wiki/Q186005",
+            "https://en.wikipedia.org/wiki/Physical_therapy",
+            "https://fr.wikipedia.org/wiki/Kinésithérapie",
+            "https://meshb.nlm.nih.gov/record/ui?ui=D026761",
+            "https://www.merriam-webster.com/dictionary/physiotherapy",
+            "https://www.britannica.com/topic/physical-therapy"
+          ]
+        }
+      ],
+      "mainEntity": {
+        "@id": "https://www.physioactif.com/en/guide-complet/syndrome-du-canal-de-guyon#condition"
+      },
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [
+          ".header_heading",
+          ".header_content .text-style-muted.w-richtext",
+          ".section_article .text-rich-text h2"
+        ]
+      },
+      "specialty": [
+        "Physiotherapy",
+        "Musculoskeletal",
+        "SportsMedicine"
+      ],
+      "medicalAudience": [
+        {
+          "@type": "Patient"
+        },
+        {
+          "@type": "MedicalAudience",
+          "audienceType": "General Public"
+        }
+      ],
+      "reviewedBy": {
+        "@id": "https://www.physioactif.com/en/#org"
+      },
+      "provider": {
+        "@id": "https://www.physioactif.com/en/#org"
+      },
+      "inLanguage": [
+        "en-CA"
+      ],
+      "isPartOf": {
+        "@id": "https://www.physioactif.com/en/#website"
+      },
+      "mentions": [
+        {
+          "@type": "MedicalTherapy",
+          "name": "Physiothérapie",
+          "alternateName": [
+            "Physical therapy",
+            "Kinésithérapie",
+            "Fisioterapia"
+          ],
+          "sameAs": [
+            "https://www.physioactif.com/en/guide-complet/physiotherapie",
+            "https://www.wikidata.org/wiki/Q186005",
+            "https://en.wikipedia.org/wiki/Physical_therapy",
+            "https://fr.wikipedia.org/wiki/Kinésithérapie",
+            "https://meshb.nlm.nih.gov/record/ui?ui=D026761",
+            "https://www.merriam-webster.com/dictionary/physiotherapy",
+            "https://www.britannica.com/topic/physical-therapy"
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "name": "Syndrome du tunnel carpien",
+          "description": "Compression du nerf médian au niveau du poignet",
+          "sameAs": [
+            "https://fr.wikipedia.org/wiki/Syndrome_du_canal_carpien",
+            "https://en.wikipedia.org/wiki/Carpal_tunnel_syndrome",
+            "https://www.wikidata.org/wiki/Q332293",
+            "https://meshb.nlm.nih.gov/record/ui?ui=D002349"
+          ]
+        }
+      ]
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://www.physioactif.com/en/guide-complet/syndrome-du-canal-de-guyon#webpage",
+      "datePublished": "2025-09-26",
+      "url": "https://www.physioactif.com/en/guide-complet/syndrome-du-canal-de-guyon",
+      "name": "Syndrome Du Canal De Guyon - Guide Complet | Physioactif",
+      "description": "Guide complet sur syndrome du canal de guyon: causes, symptômes, diagnostic et traitements en physiothérapie par les experts de Physioactif.",
+      "mainEntity": {
+        "@id": "https://www.physioactif.com/en/guide-complet/syndrome-du-canal-de-guyon#condition"
+      },
+      "about": {
+        "@id": "https://www.physioactif.com/en/guide-complet/syndrome-du-canal-de-guyon#condition"
+      },
+      "breadcrumb": {
+        "@type": "BreadcrumbList",
+        "@id": "https://www.physioactif.com/en/guide-complet/syndrome-du-canal-de-guyon#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Accueil",
+            "item": "https://www.physioactif.com/en/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Guide Complet",
+            "item": "https://www.physioactif.com/en/guide-complet"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Syndrome Du Canal De Guyon",
+            "item": "https://www.physioactif.com/en/guide-complet/syndrome-du-canal-de-guyon"
+          }
+        ]
+      },
+      "isPartOf": {
+        "@id": "https://www.physioactif.com/en/#website"
+      },
+      "inLanguage": [
+        "en-CA"
+      ],
+      "potentialAction": {
+        "@type": "ReadAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://www.physioactif.com/en/guide-complet/syndrome-du-canal-de-guyon",
+          "actionPlatform": [
+            "http://schema.org/DesktopWebPlatform",
+            "http://schema.org/MobileWebPlatform"
+          ]
+        }
+      },
+      "relatedLink": [
+        "https://physioactif.clinicmaster.com/clinic-selection?lang=fr-CA"
+      ],
+      "publisher": {
+        "@id": "https://www.physioactif.com/en/#org"
+      }
+    }
+  ]
+}

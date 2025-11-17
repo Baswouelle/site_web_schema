@@ -1,0 +1,218 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "MedicalCondition",
+      "@id": "https://www.physioactif.com/en/guide-complet/entorse-au-genou-et-dechirure-du-ligament-croise-anterieur-lca#condition",
+      "name": "Entorse au genou (LCA)",
+      "alternateName": [
+        "ACL injury",
+        "Anterior cruciate ligament injury",
+        "Lésion du ligament croisé antérieur"
+      ],
+      "description": "Une lésion du ligament croisé antérieur se produit lorsque le ligament croisé antérieur est étiré, partiellement déchiré ou complètement déchiré. Les symptômes comprennent la douleur, un bruit sec lors de la blessure, une instabilité du genou et un gonflement des articulations.",
+      "code": [
+        {
+          "@type": "MedicalCode",
+          "code": "NC93.62",
+          "codingSystem": "ICD-11"
+        },
+        {
+          "@type": "MedicalCode",
+          "code": "D000070598",
+          "codingSystem": "MeSH"
+        }
+      ],
+      "sameAs": [
+        "https://fr.wikipedia.org/wiki/Lésion_du_ligament_croisé_antérieur",
+        "https://en.wikipedia.org/wiki/Anterior_cruciate_ligament_injury",
+        "https://www.wikidata.org/wiki/Q18912826",
+        "https://meshb.nlm.nih.gov/record/ui?ui=D000070598",
+        "https://icd.who.int/browse/2025-01/mms/en#737926171",
+        "https://www.merriam-webster.com/dictionary/anterior%20cruciate%20ligament",
+        "http://snomed.info/id/444470001"
+      ],
+      "possibleTreatment": {
+        "@type": "MedicalTherapy",
+        "name": "Physiothérapie",
+        "alternateName": [
+          "Physical therapy",
+          "Kinésithérapie",
+          "Fisioterapia"
+        ],
+        "sameAs": [
+          "https://www.physioactif.com/en/guide-complet/physiotherapie",
+          "https://www.wikidata.org/wiki/Q186005",
+          "https://en.wikipedia.org/wiki/Physical_therapy",
+          "https://fr.wikipedia.org/wiki/Kinésithérapie",
+          "https://meshb.nlm.nih.gov/record/ui?ui=D026761",
+          "https://www.merriam-webster.com/dictionary/physiotherapy",
+          "https://www.britannica.com/topic/physical-therapy"
+        ]
+      }
+    },
+    {
+      "@type": "MedicalWebPage",
+      "@id": "https://www.physioactif.com/en/guide-complet/entorse-au-genou-et-dechirure-du-ligament-croise-anterieur-lca#article",
+      "author": {
+        "@type": "Person",
+        "@id": "https://www.physioactif.com/en/equipe/ariel-desjardins-charbonneau/#person"
+      },
+      "datePublished": "2025-09-26",
+      "name": "Entorse Au Genou Et Dechirure Du Ligament Croise Anterieur Lca - Guide Complet",
+      "headline": "Entorse Au Genou Et Dechirure Du Ligament Croise Anterieur Lca: Symptômes, Causes, Diagnostic et Traitement en Physiothérapie",
+      "about": [
+        {
+          "@id": "https://www.physioactif.com/en/guide-complet/entorse-au-genou-et-dechirure-du-ligament-croise-anterieur-lca#condition"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Physiothérapie",
+          "alternateName": [
+            "Physical therapy",
+            "Kinésithérapie",
+            "Fisioterapia"
+          ],
+          "sameAs": [
+            "https://www.physioactif.com/en/guide-complet/physiotherapie",
+            "https://www.wikidata.org/wiki/Q186005",
+            "https://en.wikipedia.org/wiki/Physical_therapy",
+            "https://fr.wikipedia.org/wiki/Kinésithérapie",
+            "https://meshb.nlm.nih.gov/record/ui?ui=D026761",
+            "https://www.merriam-webster.com/dictionary/physiotherapy",
+            "https://www.britannica.com/topic/physical-therapy"
+          ]
+        }
+      ],
+      "mainEntity": {
+        "@id": "https://www.physioactif.com/en/guide-complet/entorse-au-genou-et-dechirure-du-ligament-croise-anterieur-lca#condition"
+      },
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [
+          ".header_heading",
+          ".header_content .text-style-muted.w-richtext",
+          ".section_article .text-rich-text h2"
+        ]
+      },
+      "specialty": [
+        "Physiotherapy",
+        "Musculoskeletal",
+        "SportsMedicine"
+      ],
+      "medicalAudience": [
+        {
+          "@type": "Patient"
+        },
+        {
+          "@type": "MedicalAudience",
+          "audienceType": "General Public"
+        }
+      ],
+      "reviewedBy": {
+        "@id": "https://www.physioactif.com/en/#org"
+      },
+      "provider": {
+        "@id": "https://www.physioactif.com/en/#org"
+      },
+      "inLanguage": [
+        "en-CA"
+      ],
+      "isPartOf": {
+        "@id": "https://www.physioactif.com/en/#website"
+      },
+      "mentions": [
+        {
+          "@type": "MedicalTherapy",
+          "name": "Physiothérapie",
+          "alternateName": [
+            "Physical therapy",
+            "Kinésithérapie",
+            "Fisioterapia"
+          ],
+          "sameAs": [
+            "https://www.physioactif.com/en/guide-complet/physiotherapie",
+            "https://www.wikidata.org/wiki/Q186005",
+            "https://en.wikipedia.org/wiki/Physical_therapy",
+            "https://fr.wikipedia.org/wiki/Kinésithérapie",
+            "https://meshb.nlm.nih.gov/record/ui?ui=D026761",
+            "https://www.merriam-webster.com/dictionary/physiotherapy",
+            "https://www.britannica.com/topic/physical-therapy"
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "name": "Arthrose du genou (Gonarthrose)",
+          "description": "Usure progressive du cartilage articulaire",
+          "sameAs": [
+            "https://fr.wikipedia.org/wiki/Gonarthrose",
+            "https://en.wikipedia.org/wiki/Osteoarthritis#Knee",
+            "https://www.wikidata.org/wiki/Q1777118",
+            "https://meshb.nlm.nih.gov/record/ui?ui=D020370"
+          ]
+        }
+      ]
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://www.physioactif.com/en/guide-complet/entorse-au-genou-et-dechirure-du-ligament-croise-anterieur-lca#webpage",
+      "datePublished": "2025-09-26",
+      "url": "https://www.physioactif.com/en/guide-complet/entorse-au-genou-et-dechirure-du-ligament-croise-anterieur-lca",
+      "name": "Entorse Au Genou Et Dechirure Du Ligament Croise Anterieur Lca - Guide Complet | Physioactif",
+      "description": "Guide complet sur entorse au genou et dechirure du ligament croise anterieur lca: causes, symptômes, diagnostic et traitements en physiothérapie par les experts de Physioactif.",
+      "mainEntity": {
+        "@id": "https://www.physioactif.com/en/guide-complet/entorse-au-genou-et-dechirure-du-ligament-croise-anterieur-lca#condition"
+      },
+      "about": {
+        "@id": "https://www.physioactif.com/en/guide-complet/entorse-au-genou-et-dechirure-du-ligament-croise-anterieur-lca#condition"
+      },
+      "breadcrumb": {
+        "@type": "BreadcrumbList",
+        "@id": "https://www.physioactif.com/en/guide-complet/entorse-au-genou-et-dechirure-du-ligament-croise-anterieur-lca#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Accueil",
+            "item": "https://www.physioactif.com/en/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Guide Complet",
+            "item": "https://www.physioactif.com/en/guide-complet"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Entorse Au Genou Et Dechirure Du Ligament Croise Anterieur Lca",
+            "item": "https://www.physioactif.com/en/guide-complet/entorse-au-genou-et-dechirure-du-ligament-croise-anterieur-lca"
+          }
+        ]
+      },
+      "isPartOf": {
+        "@id": "https://www.physioactif.com/en/#website"
+      },
+      "inLanguage": [
+        "en-CA"
+      ],
+      "potentialAction": {
+        "@type": "ReadAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://www.physioactif.com/en/guide-complet/entorse-au-genou-et-dechirure-du-ligament-croise-anterieur-lca",
+          "actionPlatform": [
+            "http://schema.org/DesktopWebPlatform",
+            "http://schema.org/MobileWebPlatform"
+          ]
+        }
+      },
+      "relatedLink": [
+        "https://physioactif.clinicmaster.com/clinic-selection?lang=fr-CA"
+      ],
+      "publisher": {
+        "@id": "https://www.physioactif.com/en/#org"
+      }
+    }
+  ]
+}

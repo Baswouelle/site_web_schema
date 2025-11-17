@@ -1,0 +1,117 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "@id": "https://www.physioactif.com/en/approches-therapeutiques/posture/#article",
+      "author": {
+        "@type": "Person",
+        "@id": "https://www.physioactif.com/en/equipe/alexis-gougeon/#person"
+      },
+      "headline": "Analyse complète de posture par des physio avec ses solutions",
+      "description": "Corrigez votre posture définitivement. Analyse détaillée et solutions concrètes pour un dos droit et sans douleur.",
+      "url": "https://www.physioactif.com/en/approches-therapeutiques/posture/",
+      "inLanguage": [
+        "en-CA"
+      ],
+      "datePublished": "2025-09-26",
+      "publisher": {
+        "@id": "https://www.physioactif.com/en/#org"
+      },
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://www.physioactif.com/en/wp-content/uploads/approches/posture-thumb.jpg",
+        "width": 1200,
+        "height": 675
+      },
+      "about": [
+        {
+          "@type": "PhysicalTherapy",
+          "name": "Analyse complète de posture par des physio avec ses solutions"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Physiothérapie",
+          "alternateName": [
+            "Physical therapy",
+            "Kinésithérapie",
+            "Fisioterapia"
+          ],
+          "sameAs": [
+            "https://www.physioactif.com/en/guide-complet/physiotherapie",
+            "https://www.wikidata.org/wiki/Q186005",
+            "https://en.wikipedia.org/wiki/Physical_therapy",
+            "https://fr.wikipedia.org/wiki/Kinésithérapie",
+            "https://meshb.nlm.nih.gov/record/ui?ui=D026761",
+            "https://www.merriam-webster.com/dictionary/physiotherapy",
+            "https://www.britannica.com/topic/physical-therapy"
+          ]
+        }
+      ],
+      "articleSection": "Approches thérapeutiques",
+      "keywords": [
+        "physiothérapie",
+        "traitement",
+        "approche thérapeutique"
+      ],
+      "mentions": [
+        {
+          "@type": "DefinedTerm",
+          "name": "Analyse et correction posturale",
+          "description": "Évaluation complète de la posture et mise en place de stratégies de correction pour améliorer l'alignement corporel, réduire les tensions musculaires et prévenir les douleurs chroniques.",
+          "sameAs": [
+            "https://en.wikipedia.org/wiki/Posture_(psychology)",
+            "https://en.wikipedia.org/wiki/Physical_therapy"
+          ]
+        }
+      ]
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://www.physioactif.com/en/approches-therapeutiques/posture/#webpage",
+      "datePublished": "2025-09-26",
+      "url": "https://www.physioactif.com/en/approches-therapeutiques/posture/",
+      "name": "Analyse complète de posture par des physio avec ses solutions",
+      "description": "Corrigez votre posture définitivement. Analyse détaillée et solutions concrètes pour un dos droit et sans douleur.",
+      "inLanguage": [
+        "en-CA"
+      ],
+      "isPartOf": {
+        "@id": "https://www.physioactif.com/en/#website"
+      },
+      "mainEntity": {
+        "@id": "https://www.physioactif.com/en/approches-therapeutiques/posture/#article"
+      },
+      "breadcrumb": {
+        "@id": "https://www.physioactif.com/en/approches-therapeutiques/posture/#breadcrumb"
+      },
+      "publisher": {
+        "@id": "https://www.physioactif.com/en/#org"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.physioactif.com/en/approches-therapeutiques/posture/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Accueil",
+          "item": "https://www.physioactif.com/en/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Approches thérapeutiques",
+          "item": "https://www.physioactif.com/en/approches-therapeutiques/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Analyse complète de posture par des physio avec ses solutions",
+          "item": "https://www.physioactif.com/en/approches-therapeutiques/posture/"
+        }
+      ]
+    }
+  ]
+}

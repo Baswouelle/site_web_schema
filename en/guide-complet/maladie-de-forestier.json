@@ -1,0 +1,226 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "MedicalCondition",
+      "@id": "https://www.physioactif.com/en/guide-complet/maladie-de-forestier#condition",
+      "name": "Maladie de Forestier",
+      "alternateName": [
+        "Forestier disease",
+        "DISH",
+        "Diffuse idiopathic skeletal hyperostosis",
+        "Hyperostose vertébrale engainante"
+      ],
+      "description": "La maladie de Forestier ou hyperostose vertébrale engainante (en anglais : Diffuse Idiopathic Skeletal Hyperostosis - DISH) est une maladie caractérisée par une hyperostose vertébrale exubérante en « flamme de bougie » des faces antéro-latérales des corps vertébraux. Elle se manifeste par une ossification ou calcification des ligaments de certaines articulations, entraînant des raideurs du dos ou du cou et parfois une dysphagie. C'est une maladie fréquente d'étiologie inconnue, caractérisée par la formation d'os nouveau au site d'insertion des ligaments, tendons et capsules articulaires (enthèses). Elle se traduit par des ponts osseux, initialement entre les vertèbres dorsales, s'étendant progressivement aux vertèbres lombaires et cervicales. La maladie est le plus souvent asymptomatique et découverte de façon fortuite sur des examens d'imagerie.",
+      "code": [
+        {
+          "@type": "MedicalCode",
+          "code": "M48.1",
+          "codingSystem": "ICD-10"
+        },
+        {
+          "@type": "MedicalCode",
+          "code": "D004057",
+          "codingSystem": "MeSH"
+        }
+      ],
+      "sameAs": [
+        "https://fr.wikipedia.org/wiki/Maladie_de_Forestier",
+        "https://en.wikipedia.org/wiki/Diffuse_idiopathic_skeletal_hyperostosis",
+        "https://www.wikidata.org/wiki/Q742762"
+      ],
+      "possibleTreatment": {
+        "@type": "MedicalTherapy",
+        "name": "Physiothérapie",
+        "alternateName": [
+          "Physical therapy",
+          "Kinésithérapie",
+          "Fisioterapia"
+        ],
+        "sameAs": [
+          "https://www.physioactif.com/en/guide-complet/physiotherapie",
+          "https://www.wikidata.org/wiki/Q186005",
+          "https://en.wikipedia.org/wiki/Physical_therapy",
+          "https://fr.wikipedia.org/wiki/Kinésithérapie",
+          "https://meshb.nlm.nih.gov/record/ui?ui=D026761",
+          "https://www.merriam-webster.com/dictionary/physiotherapy",
+          "https://www.britannica.com/topic/physical-therapy"
+        ]
+      }
+    },
+    {
+      "@type": "MedicalWebPage",
+      "@id": "https://www.physioactif.com/en/guide-complet/maladie-de-forestier#article",
+      "author": {
+        "@type": "Person",
+        "@id": "https://www.physioactif.com/en/equipe/ariel-desjardins-charbonneau/#person"
+      },
+      "datePublished": "2025-09-26",
+      "name": "Maladie De Forestier - Guide Complet",
+      "headline": "Maladie De Forestier: Symptômes, Causes, Diagnostic et Traitement en Physiothérapie",
+      "about": [
+        {
+          "@id": "https://www.physioactif.com/en/guide-complet/maladie-de-forestier#condition"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Physiothérapie",
+          "alternateName": [
+            "Physical therapy",
+            "Kinésithérapie",
+            "Fisioterapia"
+          ],
+          "sameAs": [
+            "https://www.physioactif.com/en/guide-complet/physiotherapie",
+            "https://www.wikidata.org/wiki/Q186005",
+            "https://en.wikipedia.org/wiki/Physical_therapy",
+            "https://fr.wikipedia.org/wiki/Kinésithérapie",
+            "https://meshb.nlm.nih.gov/record/ui?ui=D026761",
+            "https://www.merriam-webster.com/dictionary/physiotherapy",
+            "https://www.britannica.com/topic/physical-therapy"
+          ]
+        }
+      ],
+      "mainEntity": {
+        "@id": "https://www.physioactif.com/en/guide-complet/maladie-de-forestier#condition"
+      },
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [
+          ".header_heading",
+          ".header_content .text-style-muted.w-richtext",
+          ".section_article .text-rich-text h2"
+        ]
+      },
+      "specialty": [
+        "Physiotherapy",
+        "Musculoskeletal",
+        "SportsMedicine"
+      ],
+      "medicalAudience": [
+        {
+          "@type": "Patient"
+        },
+        {
+          "@type": "MedicalAudience",
+          "audienceType": "General Public"
+        }
+      ],
+      "reviewedBy": {
+        "@id": "https://www.physioactif.com/en/#org"
+      },
+      "provider": {
+        "@id": "https://www.physioactif.com/en/#org"
+      },
+      "inLanguage": [
+        "en-CA"
+      ],
+      "isPartOf": {
+        "@id": "https://www.physioactif.com/en/#website"
+      },
+      "mentions": [
+        {
+          "@type": "MedicalTherapy",
+          "name": "Physiothérapie",
+          "alternateName": [
+            "Physical therapy",
+            "Kinésithérapie",
+            "Fisioterapia"
+          ],
+          "sameAs": [
+            "https://www.physioactif.com/en/guide-complet/physiotherapie",
+            "https://www.wikidata.org/wiki/Q186005",
+            "https://en.wikipedia.org/wiki/Physical_therapy",
+            "https://fr.wikipedia.org/wiki/Kinésithérapie",
+            "https://meshb.nlm.nih.gov/record/ui?ui=D026761",
+            "https://www.merriam-webster.com/dictionary/physiotherapy",
+            "https://www.britannica.com/topic/physical-therapy"
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "name": "Arthrose lombaire",
+          "description": "Dégénérescence des articulations de la colonne lombaire",
+          "sameAs": [
+            "https://fr.wikipedia.org/wiki/Arthrose",
+            "https://en.wikipedia.org/wiki/Spondylosis",
+            "https://www.wikidata.org/wiki/Q1097028",
+            "https://meshb.nlm.nih.gov/record/ui?ui=D055009"
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "name": "Lombalgie",
+          "description": "Douleur dans la région lombaire du bas du dos",
+          "sameAs": [
+            "https://fr.wikipedia.org/wiki/Lombalgie",
+            "https://en.wikipedia.org/wiki/Low_back_pain",
+            "https://www.wikidata.org/wiki/Q852163",
+            "https://meshb.nlm.nih.gov/record/ui?ui=D017116"
+          ]
+        }
+      ]
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://www.physioactif.com/en/guide-complet/maladie-de-forestier#webpage",
+      "datePublished": "2025-09-26",
+      "url": "https://www.physioactif.com/en/guide-complet/maladie-de-forestier",
+      "name": "Maladie De Forestier - Guide Complet | Physioactif",
+      "description": "Guide complet sur maladie de forestier: causes, symptômes, diagnostic et traitements en physiothérapie par les experts de Physioactif.",
+      "mainEntity": {
+        "@id": "https://www.physioactif.com/en/guide-complet/maladie-de-forestier#condition"
+      },
+      "about": {
+        "@id": "https://www.physioactif.com/en/guide-complet/maladie-de-forestier#condition"
+      },
+      "breadcrumb": {
+        "@type": "BreadcrumbList",
+        "@id": "https://www.physioactif.com/en/guide-complet/maladie-de-forestier#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Accueil",
+            "item": "https://www.physioactif.com/en/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Guide Complet",
+            "item": "https://www.physioactif.com/en/guide-complet"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Maladie De Forestier",
+            "item": "https://www.physioactif.com/en/guide-complet/maladie-de-forestier"
+          }
+        ]
+      },
+      "isPartOf": {
+        "@id": "https://www.physioactif.com/en/#website"
+      },
+      "inLanguage": [
+        "en-CA"
+      ],
+      "potentialAction": {
+        "@type": "ReadAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://www.physioactif.com/en/guide-complet/maladie-de-forestier",
+          "actionPlatform": [
+            "http://schema.org/DesktopWebPlatform",
+            "http://schema.org/MobileWebPlatform"
+          ]
+        }
+      },
+      "relatedLink": [
+        "https://physioactif.clinicmaster.com/clinic-selection?lang=fr-CA"
+      ],
+      "publisher": {
+        "@id": "https://www.physioactif.com/en/#org"
+      }
+    }
+  ]
+}

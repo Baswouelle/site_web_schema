@@ -1,0 +1,119 @@
+{
+  "@context": "https://schema.org",
+  "@type": "MedicalWebPage",
+  "@id": "https://www.physioactif.com/diagnostic-et-traitement/pathologies/descente-dorganes-prolapsus-pelvien/#webpage",
+  "author": {
+    "@type": "Person",
+    "@id": "https://www.physioactif.com/equipe/alexis-gougeon/#person"
+  },
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      ".header_heading",
+      ".header_content .max-width-medium",
+      ".perks_content-right h2",
+      ".perks_content-right .w-richtext"
+    ]
+  },
+  "datePublished": "2025-09-26",
+  "url": "https://www.physioactif.com/diagnostic-et-traitement/pathologies/descente-dorganes-prolapsus-pelvien/",
+  "name": "Retrouvez votre confort et votre confiance au quotidien",
+  "description": "Retrouvez votre confort et votre confiance au quotidien",
+  "inLanguage": [
+    "fr-CA"
+  ],
+  "isPartOf": {
+    "@id": "https://www.physioactif.com/#website"
+  },
+  "about": [
+    {
+      "@type": "DefinedTerm",
+      "name": "Prolapsus des organes pelviens",
+      "description": "Descente d'un ou plusieurs organes pelviens à travers le plancher pelvien",
+      "sameAs": [
+        "https://fr.wikipedia.org/wiki/Prolapsus_génital",
+        "https://en.wikipedia.org/wiki/Pelvic_organ_prolapse",
+        "https://www.wikidata.org/wiki/Q166102",
+        "https://meshb.nlm.nih.gov/record/ui?ui=D056887"
+      ]
+    },
+    {
+      "@type": "MedicalCondition",
+      "name": "Descente Dorganes Prolapsus Pelvien"
+    },
+    {
+      "@type": "MedicalTherapy",
+      "name": "Physiothérapie",
+      "alternateName": [
+        "Physical therapy",
+        "Kinésithérapie",
+        "Fisioterapia"
+      ],
+      "sameAs": [
+        "https://www.physioactif.com/guide-complet/physiotherapie",
+        "https://www.wikidata.org/wiki/Q186005",
+        "https://en.wikipedia.org/wiki/Physical_therapy",
+        "https://fr.wikipedia.org/wiki/Kinésithérapie",
+        "https://meshb.nlm.nih.gov/record/ui?ui=D026761",
+        "https://www.merriam-webster.com/dictionary/physiotherapy",
+        "https://www.britannica.com/topic/physical-therapy"
+      ]
+    }
+  ],
+  "specialty": [
+    "Physiotherapy",
+    "Pelvic Floor Rehabilitation"
+  ],
+  "provider": {
+    "@id": "https://www.physioactif.com/#org"
+  },
+  "potentialAction": {
+    "@type": "ReserveAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://physioactif.clinicmaster.com/clinic-selection?lang=fr-CA",
+      "inLanguage": [
+        "fr-CA"
+      ]
+    },
+    "result": {
+      "@type": "Reservation",
+      "name": "Prendre rendez-vous"
+    }
+  },
+  "breadcrumb": {
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Accueil",
+        "item": "https://www.physioactif.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Diagnostic et traitement",
+        "item": "https://www.physioactif.com/diagnostic-et-traitement/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Pathologies",
+        "item": "https://www.physioactif.com/diagnostic-et-traitement/pathologies/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "Descente Dorganes Prolapsus Pelvien",
+        "item": "https://www.physioactif.com/diagnostic-et-traitement/pathologies/descente-dorganes-prolapsus-pelvien/"
+      }
+    ]
+  },
+  "mentions": [
+    {
+      "@id": "https://www.physioactif.com/services/incontinence-et-douleurs-genitales-homme-et-femme/#therapy"
+    }
+  ],
+  "relatedLink": "https://www.physioactif.com/guide-complet/descente-dorganes-prolapsus-pelvien"
+}

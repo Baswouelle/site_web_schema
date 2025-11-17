@@ -1,0 +1,117 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "@id": "https://www.physioactif.com/en/ressources/comment-gerer-ma-douleur-a-la-maison-en-attendant-de-consulter/#article",
+      "author": {
+        "@type": "Person",
+        "@id": "https://www.physioactif.com/en/equipe/alexis-gougeon/#person"
+      },
+      "headline": "Douleur : comment la gérer à la maison avant votre RV en physiothérapie | Physioactif",
+      "description": "Reprenez le contrôle de votre douleur dès maintenant. Conseils de physios pour soulager et bouger en sécurité avant votre RDV.",
+      "url": "https://www.physioactif.com/en/ressources/comment-gerer-ma-douleur-a-la-maison-en-attendant-de-consulter/",
+      "inLanguage": [
+        "en-CA"
+      ],
+      "datePublished": "2025-09-26",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://cdn.prod.website-files.com/670e84ccd653d18590687563/physioactif-hero-default.jpg",
+        "width": 1200,
+        "height": 630
+      },
+      "publisher": {
+        "@id": "https://www.physioactif.com/en/#org"
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.physioactif.com/en/ressources/comment-gerer-ma-douleur-a-la-maison-en-attendant-de-consulter/"
+      },
+      "about": [
+        {
+          "@type": "MedicalCondition",
+          "name": "Blessure musculo-squelettique"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Physiothérapie",
+          "alternateName": [
+            "Physical therapy",
+            "Kinésithérapie",
+            "Fisioterapia"
+          ],
+          "sameAs": [
+            "https://www.physioactif.com/en/guide-complet/physiotherapie",
+            "https://www.wikidata.org/wiki/Q186005",
+            "https://en.wikipedia.org/wiki/Physical_therapy",
+            "https://fr.wikipedia.org/wiki/Kinésithérapie",
+            "https://meshb.nlm.nih.gov/record/ui?ui=D026761",
+            "https://www.merriam-webster.com/dictionary/physiotherapy",
+            "https://www.britannica.com/topic/physical-therapy"
+          ]
+        }
+      ],
+      "articleSection": "Ressources",
+      "keywords": [
+        "gestion douleur",
+        "douleur maison",
+        "auto-traitement",
+        "glace chaleur",
+        "repos actif"
+      ],
+      "mentions": [
+        {
+          "@id": "https://www.physioactif.com/en/services/traitement-pour-douleur-et-raideur-7-97-ans/#therapy"
+        }
+      ]
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://www.physioactif.com/en/ressources/comment-gerer-ma-douleur-a-la-maison-en-attendant-de-consulter/#webpage",
+      "datePublished": "2025-09-26",
+      "url": "https://www.physioactif.com/en/ressources/comment-gerer-ma-douleur-a-la-maison-en-attendant-de-consulter/",
+      "name": "Douleur : comment la gérer à la maison avant votre RV en physiothérapie | Physioactif",
+      "description": "Reprenez le contrôle de votre douleur dès maintenant. Conseils de physios pour soulager et bouger en sécurité avant votre RDV.",
+      "inLanguage": [
+        "en-CA"
+      ],
+      "isPartOf": {
+        "@id": "https://www.physioactif.com/en/#website"
+      },
+      "mainEntity": {
+        "@id": "https://www.physioactif.com/en/ressources/comment-gerer-ma-douleur-a-la-maison-en-attendant-de-consulter/#article"
+      },
+      "breadcrumb": {
+        "@id": "https://www.physioactif.com/en/ressources/comment-gerer-ma-douleur-a-la-maison-en-attendant-de-consulter/#breadcrumb"
+      },
+      "publisher": {
+        "@id": "https://www.physioactif.com/en/#org"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.physioactif.com/en/ressources/comment-gerer-ma-douleur-a-la-maison-en-attendant-de-consulter/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Accueil",
+          "item": "https://www.physioactif.com/en/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Ressources",
+          "item": "https://www.physioactif.com/en/ressources/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Douleur : comment la gérer à la maison avant votre RV en physiothérapie",
+          "item": "https://www.physioactif.com/en/ressources/comment-gerer-ma-douleur-a-la-maison-en-attendant-de-consulter/"
+        }
+      ]
+    }
+  ]
+}

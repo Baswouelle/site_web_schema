@@ -1,0 +1,91 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "@id": "https://www.physioactif.com/ressources/que-se-passe-t-il-si-je-ne-ressens-pas-damelioration-en-physiotherapie/#article",
+      "author": {
+        "@type": "Person",
+        "@id": "https://www.physioactif.com/equipe/alexis-gougeon/#person"
+      },
+      "headline": "Physiothérapie : absence de progrès, causes et solutions | Physioactif",
+      "description": "Débloquez enfin vos progrès en physio. Identifiez pourquoi ça stagne et retrouvez le chemin vers la guérison.",
+      "url": "https://www.physioactif.com/ressources/que-se-passe-t-il-si-je-ne-ressens-pas-damelioration-en-physiotherapie/",
+      "inLanguage": [
+        "fr-CA"
+      ],
+      "datePublished": "2025-09-26",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://cdn.prod.website-files.com/670e84ccd653d18590687563/physioactif-hero-default.jpg",
+        "width": 1200,
+        "height": 630
+      },
+      "publisher": {
+        "@id": "https://www.physioactif.com/#org"
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.physioactif.com/ressources/que-se-passe-t-il-si-je-ne-ressens-pas-damelioration-en-physiotherapie/"
+      },
+      "about": {
+        "@type": "PhysicalTherapy",
+        "name": "Physiothérapie"
+      },
+      "articleSection": "Ressources",
+      "keywords": [
+        "amélioration physio",
+        "résultats physiothérapie",
+        "efficacité traitement",
+        "deuxième avis"
+      ]
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://www.physioactif.com/ressources/que-se-passe-t-il-si-je-ne-ressens-pas-damelioration-en-physiotherapie/#webpage",
+      "datePublished": "2025-09-26",
+      "url": "https://www.physioactif.com/ressources/que-se-passe-t-il-si-je-ne-ressens-pas-damelioration-en-physiotherapie/",
+      "name": "Physiothérapie : absence de progrès, causes et solutions | Physioactif",
+      "description": "Débloquez enfin vos progrès en physio. Identifiez pourquoi ça stagne et retrouvez le chemin vers la guérison.",
+      "inLanguage": [
+        "fr-CA"
+      ],
+      "isPartOf": {
+        "@id": "https://www.physioactif.com/#website"
+      },
+      "mainEntity": {
+        "@id": "https://www.physioactif.com/ressources/que-se-passe-t-il-si-je-ne-ressens-pas-damelioration-en-physiotherapie/#article"
+      },
+      "breadcrumb": {
+        "@id": "https://www.physioactif.com/ressources/que-se-passe-t-il-si-je-ne-ressens-pas-damelioration-en-physiotherapie/#breadcrumb"
+      },
+      "publisher": {
+        "@id": "https://www.physioactif.com/#org"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.physioactif.com/ressources/que-se-passe-t-il-si-je-ne-ressens-pas-damelioration-en-physiotherapie/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Accueil",
+          "item": "https://www.physioactif.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Ressources",
+          "item": "https://www.physioactif.com/ressources/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Physiothérapie : absence de progrès, causes et solutions",
+          "item": "https://www.physioactif.com/ressources/que-se-passe-t-il-si-je-ne-ressens-pas-damelioration-en-physiotherapie/"
+        }
+      ]
+    }
+  ]
+}

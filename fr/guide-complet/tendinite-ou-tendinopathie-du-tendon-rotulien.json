@@ -1,0 +1,217 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "MedicalCondition",
+      "@id": "https://www.physioactif.com/guide-complet/tendinite-ou-tendinopathie-du-tendon-rotulien#condition",
+      "name": "Tendinite du tendon rotulien",
+      "alternateName": [
+        "Patellar tendinitis",
+        "Jumper's knee",
+        "Patellar tendinopathy"
+      ],
+      "description": "La tendinite rotulienne, également connue sous le nom de genou du sauteur, est une blessure de surutilisation du tendon qui redresse le genou. Les symptômes incluent une douleur à l'avant du genou. La tendinite rotulienne est une blessure de surutilisation due à une surcharge répétitive ou à un stress répétitif du tendon rotulien du genou conduisant à des micro-déchirures et une inflammation qui n'ont pas le temps de guérir avant la prochaine utilisation. Aux premiers stades, le repos, la glace, la compression et l'élévation peuvent être essayés. Les AINS sont généralement recommandés. Le code ICD-10 pour la tendinite rotulienne est M76.5, avec des codes spécifiques pour le genou droit (M76.51), le genou gauche (M76.52) et le genou non spécifié (M76.50).",
+      "code": [
+        {
+          "@type": "MedicalCode",
+          "code": "M76.5",
+          "codingSystem": "ICD-10"
+        },
+        {
+          "@type": "MedicalCode",
+          "code": "D052256",
+          "codingSystem": "MeSH"
+        }
+      ],
+      "sameAs": [
+        "https://fr.wikipedia.org/wiki/Tendinite_rotulienne",
+        "https://en.wikipedia.org/wiki/Patellar_tendinitis",
+        "https://www.wikidata.org/wiki/Q2276072",
+        "https://meshb.nlm.nih.gov/record/ui?ui=D052256",
+        "https://www.icd10data.com/ICD10CM/Codes/M00-M99/M70-M79/M76-/M76.5",
+        "http://snomed.info/id/76070007"
+      ],
+      "possibleTreatment": {
+        "@type": "MedicalTherapy",
+        "name": "Physiothérapie",
+        "alternateName": [
+          "Physical therapy",
+          "Kinésithérapie",
+          "Fisioterapia"
+        ],
+        "sameAs": [
+          "https://www.physioactif.com/guide-complet/physiotherapie",
+          "https://www.wikidata.org/wiki/Q186005",
+          "https://en.wikipedia.org/wiki/Physical_therapy",
+          "https://fr.wikipedia.org/wiki/Kinésithérapie",
+          "https://meshb.nlm.nih.gov/record/ui?ui=D026761",
+          "https://www.merriam-webster.com/dictionary/physiotherapy",
+          "https://www.britannica.com/topic/physical-therapy"
+        ]
+      }
+    },
+    {
+      "@type": "MedicalWebPage",
+      "@id": "https://www.physioactif.com/guide-complet/tendinite-ou-tendinopathie-du-tendon-rotulien#article",
+      "author": {
+        "@type": "Person",
+        "@id": "https://www.physioactif.com/equipe/ariel-desjardins-charbonneau/#person"
+      },
+      "datePublished": "2025-09-26",
+      "name": "Tendinite Ou Tendinopathie Du Tendon Rotulien - Guide Complet",
+      "headline": "Tendinite Ou Tendinopathie Du Tendon Rotulien: Symptômes, Causes, Diagnostic et Traitement en Physiothérapie",
+      "about": [
+        {
+          "@id": "https://www.physioactif.com/guide-complet/tendinite-ou-tendinopathie-du-tendon-rotulien#condition"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Physiothérapie",
+          "alternateName": [
+            "Physical therapy",
+            "Kinésithérapie",
+            "Fisioterapia"
+          ],
+          "sameAs": [
+            "https://www.physioactif.com/guide-complet/physiotherapie",
+            "https://www.wikidata.org/wiki/Q186005",
+            "https://en.wikipedia.org/wiki/Physical_therapy",
+            "https://fr.wikipedia.org/wiki/Kinésithérapie",
+            "https://meshb.nlm.nih.gov/record/ui?ui=D026761",
+            "https://www.merriam-webster.com/dictionary/physiotherapy",
+            "https://www.britannica.com/topic/physical-therapy"
+          ]
+        }
+      ],
+      "mainEntity": {
+        "@id": "https://www.physioactif.com/guide-complet/tendinite-ou-tendinopathie-du-tendon-rotulien#condition"
+      },
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [
+          ".header_heading",
+          ".header_content .text-style-muted.w-richtext",
+          ".section_article .text-rich-text h2"
+        ]
+      },
+      "specialty": [
+        "Physiotherapy",
+        "Musculoskeletal",
+        "SportsMedicine"
+      ],
+      "medicalAudience": [
+        {
+          "@type": "Patient"
+        },
+        {
+          "@type": "MedicalAudience",
+          "audienceType": "General Public"
+        }
+      ],
+      "reviewedBy": {
+        "@id": "https://www.physioactif.com/#org"
+      },
+      "provider": {
+        "@id": "https://www.physioactif.com/#org"
+      },
+      "inLanguage": [
+        "fr-CA"
+      ],
+      "isPartOf": {
+        "@id": "https://www.physioactif.com/#website"
+      },
+      "mentions": [
+        {
+          "@type": "MedicalTherapy",
+          "name": "Physiothérapie",
+          "alternateName": [
+            "Physical therapy",
+            "Kinésithérapie",
+            "Fisioterapia"
+          ],
+          "sameAs": [
+            "https://www.physioactif.com/guide-complet/physiotherapie",
+            "https://www.wikidata.org/wiki/Q186005",
+            "https://en.wikipedia.org/wiki/Physical_therapy",
+            "https://fr.wikipedia.org/wiki/Kinésithérapie",
+            "https://meshb.nlm.nih.gov/record/ui?ui=D026761",
+            "https://www.merriam-webster.com/dictionary/physiotherapy",
+            "https://www.britannica.com/topic/physical-therapy"
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "name": "Arthrose du genou (Gonarthrose)",
+          "description": "Usure progressive du cartilage articulaire",
+          "sameAs": [
+            "https://fr.wikipedia.org/wiki/Gonarthrose",
+            "https://en.wikipedia.org/wiki/Osteoarthritis#Knee",
+            "https://www.wikidata.org/wiki/Q1777118",
+            "https://meshb.nlm.nih.gov/record/ui?ui=D020370"
+          ]
+        }
+      ]
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://www.physioactif.com/guide-complet/tendinite-ou-tendinopathie-du-tendon-rotulien#webpage",
+      "datePublished": "2025-09-26",
+      "url": "https://www.physioactif.com/guide-complet/tendinite-ou-tendinopathie-du-tendon-rotulien",
+      "name": "Tendinite Ou Tendinopathie Du Tendon Rotulien - Guide Complet | Physioactif",
+      "description": "Guide complet sur tendinite ou tendinopathie du tendon rotulien: causes, symptômes, diagnostic et traitements en physiothérapie par les experts de Physioactif.",
+      "mainEntity": {
+        "@id": "https://www.physioactif.com/guide-complet/tendinite-ou-tendinopathie-du-tendon-rotulien#condition"
+      },
+      "about": {
+        "@id": "https://www.physioactif.com/guide-complet/tendinite-ou-tendinopathie-du-tendon-rotulien#condition"
+      },
+      "breadcrumb": {
+        "@type": "BreadcrumbList",
+        "@id": "https://www.physioactif.com/guide-complet/tendinite-ou-tendinopathie-du-tendon-rotulien#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Accueil",
+            "item": "https://www.physioactif.com/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Guide Complet",
+            "item": "https://www.physioactif.com/guide-complet"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Tendinite Ou Tendinopathie Du Tendon Rotulien",
+            "item": "https://www.physioactif.com/guide-complet/tendinite-ou-tendinopathie-du-tendon-rotulien"
+          }
+        ]
+      },
+      "isPartOf": {
+        "@id": "https://www.physioactif.com/#website"
+      },
+      "inLanguage": [
+        "fr-CA"
+      ],
+      "potentialAction": {
+        "@type": "ReadAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://www.physioactif.com/guide-complet/tendinite-ou-tendinopathie-du-tendon-rotulien",
+          "actionPlatform": [
+            "http://schema.org/DesktopWebPlatform",
+            "http://schema.org/MobileWebPlatform"
+          ]
+        }
+      },
+      "relatedLink": [
+        "https://physioactif.clinicmaster.com/clinic-selection?lang=fr-CA"
+      ],
+      "publisher": {
+        "@id": "https://www.physioactif.com/#org"
+      }
+    }
+  ]
+}

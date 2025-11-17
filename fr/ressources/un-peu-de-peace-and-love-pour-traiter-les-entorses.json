@@ -1,0 +1,117 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "@id": "https://www.physioactif.com/ressources/un-peu-de-peace-and-love-pour-traiter-les-entorses/#article",
+      "author": {
+        "@type": "Person",
+        "@id": "https://www.physioactif.com/equipe/philippe-paradis/#person"
+      },
+      "headline": "Le PEACE and LOVE pour traiter les blessures aiguës | Physioactif",
+      "description": "Réagissez parfaitement après une blessure. Protocole PEACE and LOVE pour guérir vite et éviter les erreurs coûteuses.",
+      "url": "https://www.physioactif.com/ressources/un-peu-de-peace-and-love-pour-traiter-les-entorses/",
+      "inLanguage": [
+        "fr-CA"
+      ],
+      "datePublished": "2025-09-26",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://cdn.prod.website-files.com/670e84ccd653d18590687563/physioactif-hero-default.jpg",
+        "width": 1200,
+        "height": 630
+      },
+      "publisher": {
+        "@id": "https://www.physioactif.com/#org"
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.physioactif.com/ressources/un-peu-de-peace-and-love-pour-traiter-les-entorses/"
+      },
+      "about": [
+        {
+          "@type": "MedicalCondition",
+          "name": "Blessure musculo-squelettique"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Physiothérapie",
+          "alternateName": [
+            "Physical therapy",
+            "Kinésithérapie",
+            "Fisioterapia"
+          ],
+          "sameAs": [
+            "https://www.physioactif.com/guide-complet/physiotherapie",
+            "https://www.wikidata.org/wiki/Q186005",
+            "https://en.wikipedia.org/wiki/Physical_therapy",
+            "https://fr.wikipedia.org/wiki/Kinésithérapie",
+            "https://meshb.nlm.nih.gov/record/ui?ui=D026761",
+            "https://www.merriam-webster.com/dictionary/physiotherapy",
+            "https://www.britannica.com/topic/physical-therapy"
+          ]
+        }
+      ],
+      "articleSection": "Ressources",
+      "keywords": [
+        "PEACE LOVE",
+        "protocole entorse",
+        "traitement entorse",
+        "récupération blessure",
+        "physiothérapie"
+      ],
+      "mentions": [
+        {
+          "@id": "https://www.physioactif.com/services/physiotherapie-sportive/#therapy"
+        }
+      ]
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://www.physioactif.com/ressources/un-peu-de-peace-and-love-pour-traiter-les-entorses/#webpage",
+      "datePublished": "2025-09-26",
+      "url": "https://www.physioactif.com/ressources/un-peu-de-peace-and-love-pour-traiter-les-entorses/",
+      "name": "Le PEACE and LOVE pour traiter les blessures aiguës | Physioactif",
+      "description": "Réagissez parfaitement après une blessure. Protocole PEACE and LOVE pour guérir vite et éviter les erreurs coûteuses.",
+      "inLanguage": [
+        "fr-CA"
+      ],
+      "isPartOf": {
+        "@id": "https://www.physioactif.com/#website"
+      },
+      "mainEntity": {
+        "@id": "https://www.physioactif.com/ressources/un-peu-de-peace-and-love-pour-traiter-les-entorses/#article"
+      },
+      "breadcrumb": {
+        "@id": "https://www.physioactif.com/ressources/un-peu-de-peace-and-love-pour-traiter-les-entorses/#breadcrumb"
+      },
+      "publisher": {
+        "@id": "https://www.physioactif.com/#org"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.physioactif.com/ressources/un-peu-de-peace-and-love-pour-traiter-les-entorses/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Accueil",
+          "item": "https://www.physioactif.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Ressources",
+          "item": "https://www.physioactif.com/ressources/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Le PEACE and LOVE pour traiter les blessures aiguës",
+          "item": "https://www.physioactif.com/ressources/un-peu-de-peace-and-love-pour-traiter-les-entorses/"
+        }
+      ]
+    }
+  ]
+}

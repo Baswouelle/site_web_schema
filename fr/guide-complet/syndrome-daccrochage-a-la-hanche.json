@@ -1,0 +1,211 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "MedicalCondition",
+      "@id": "https://www.physioactif.com/guide-complet/syndrome-daccrochage-a-la-hanche#condition",
+      "name": "Syndrome d'accrochage de la hanche",
+      "alternateName": [
+        "Snapping hip syndrome",
+        "Coxa saltans",
+        "Dancer's hip",
+        "Hanche à ressaut"
+      ],
+      "description": "Le syndrome d'accrochage de la hanche, également connu sous le nom de coxa saltans (ou hanche du danseur), est une condition clinique caractérisée par une sensation de claquement audible ou palpable qui est entendue lors du mouvement de l'articulation de la hanche. Ces claquements peuvent être divisés en trois types : externe, interne et intra-articulaire. Cette condition se classe en types extra-articulaire (latéral et médial) et intra-articulaire, le type externe étant le plus courant. Environ 5-10% de la population est affectée par la hanche à ressaut, la majorité éprouvant un claquement indolore. Le syndrome se définit par une sensation de claquement qui se produit lorsque la hanche est fléchie et étendue.",
+      "code": [
+        {
+          "@type": "MedicalCode",
+          "code": "M76.8",
+          "codingSystem": "ICD-10"
+        }
+      ],
+      "sameAs": [
+        "https://fr.wikipedia.org/wiki/Syndrome_de_la_hanche_à_ressaut",
+        "https://en.wikipedia.org/wiki/Snapping_hip_syndrome",
+        "https://www.wikidata.org/wiki/Q1138264",
+        "https://www.ncbi.nlm.nih.gov/books/NBK448200/"
+      ],
+      "possibleTreatment": {
+        "@type": "MedicalTherapy",
+        "name": "Physiothérapie",
+        "alternateName": [
+          "Physical therapy",
+          "Kinésithérapie",
+          "Fisioterapia"
+        ],
+        "sameAs": [
+          "https://www.physioactif.com/guide-complet/physiotherapie",
+          "https://www.wikidata.org/wiki/Q186005",
+          "https://en.wikipedia.org/wiki/Physical_therapy",
+          "https://fr.wikipedia.org/wiki/Kinésithérapie",
+          "https://meshb.nlm.nih.gov/record/ui?ui=D026761",
+          "https://www.merriam-webster.com/dictionary/physiotherapy",
+          "https://www.britannica.com/topic/physical-therapy"
+        ]
+      }
+    },
+    {
+      "@type": "MedicalWebPage",
+      "@id": "https://www.physioactif.com/guide-complet/syndrome-daccrochage-a-la-hanche#article",
+      "author": {
+        "@type": "Person",
+        "@id": "https://www.physioactif.com/equipe/ariel-desjardins-charbonneau/#person"
+      },
+      "datePublished": "2025-09-26",
+      "name": "Syndrome Daccrochage A La Hanche - Guide Complet",
+      "headline": "Syndrome Daccrochage A La Hanche: Symptômes, Causes, Diagnostic et Traitement en Physiothérapie",
+      "about": [
+        {
+          "@id": "https://www.physioactif.com/guide-complet/syndrome-daccrochage-a-la-hanche#condition"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Physiothérapie",
+          "alternateName": [
+            "Physical therapy",
+            "Kinésithérapie",
+            "Fisioterapia"
+          ],
+          "sameAs": [
+            "https://www.physioactif.com/guide-complet/physiotherapie",
+            "https://www.wikidata.org/wiki/Q186005",
+            "https://en.wikipedia.org/wiki/Physical_therapy",
+            "https://fr.wikipedia.org/wiki/Kinésithérapie",
+            "https://meshb.nlm.nih.gov/record/ui?ui=D026761",
+            "https://www.merriam-webster.com/dictionary/physiotherapy",
+            "https://www.britannica.com/topic/physical-therapy"
+          ]
+        }
+      ],
+      "mainEntity": {
+        "@id": "https://www.physioactif.com/guide-complet/syndrome-daccrochage-a-la-hanche#condition"
+      },
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [
+          ".header_heading",
+          ".header_content .text-style-muted.w-richtext",
+          ".section_article .text-rich-text h2"
+        ]
+      },
+      "specialty": [
+        "Physiotherapy",
+        "Musculoskeletal",
+        "SportsMedicine"
+      ],
+      "medicalAudience": [
+        {
+          "@type": "Patient"
+        },
+        {
+          "@type": "MedicalAudience",
+          "audienceType": "General Public"
+        }
+      ],
+      "reviewedBy": {
+        "@id": "https://www.physioactif.com/#org"
+      },
+      "provider": {
+        "@id": "https://www.physioactif.com/#org"
+      },
+      "inLanguage": [
+        "fr-CA"
+      ],
+      "isPartOf": {
+        "@id": "https://www.physioactif.com/#website"
+      },
+      "mentions": [
+        {
+          "@type": "MedicalTherapy",
+          "name": "Physiothérapie",
+          "alternateName": [
+            "Physical therapy",
+            "Kinésithérapie",
+            "Fisioterapia"
+          ],
+          "sameAs": [
+            "https://www.physioactif.com/guide-complet/physiotherapie",
+            "https://www.wikidata.org/wiki/Q186005",
+            "https://en.wikipedia.org/wiki/Physical_therapy",
+            "https://fr.wikipedia.org/wiki/Kinésithérapie",
+            "https://meshb.nlm.nih.gov/record/ui?ui=D026761",
+            "https://www.merriam-webster.com/dictionary/physiotherapy",
+            "https://www.britannica.com/topic/physical-therapy"
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "name": "Bursite de la hanche",
+          "description": "Inflammation d'une bourse séreuse articulaire",
+          "sameAs": [
+            "https://fr.wikipedia.org/wiki/Bursite_trochantérienne",
+            "https://en.wikipedia.org/wiki/Greater_trochanteric_pain_syndrome",
+            "https://www.wikidata.org/wiki/Q5613373",
+            "https://meshb.nlm.nih.gov/record/ui?ui=D002062"
+          ]
+        }
+      ]
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://www.physioactif.com/guide-complet/syndrome-daccrochage-a-la-hanche#webpage",
+      "datePublished": "2025-09-26",
+      "url": "https://www.physioactif.com/guide-complet/syndrome-daccrochage-a-la-hanche",
+      "name": "Syndrome Daccrochage A La Hanche - Guide Complet | Physioactif",
+      "description": "Guide complet sur syndrome daccrochage a la hanche: causes, symptômes, diagnostic et traitements en physiothérapie par les experts de Physioactif.",
+      "mainEntity": {
+        "@id": "https://www.physioactif.com/guide-complet/syndrome-daccrochage-a-la-hanche#condition"
+      },
+      "about": {
+        "@id": "https://www.physioactif.com/guide-complet/syndrome-daccrochage-a-la-hanche#condition"
+      },
+      "breadcrumb": {
+        "@type": "BreadcrumbList",
+        "@id": "https://www.physioactif.com/guide-complet/syndrome-daccrochage-a-la-hanche#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Accueil",
+            "item": "https://www.physioactif.com/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Guide Complet",
+            "item": "https://www.physioactif.com/guide-complet"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Syndrome Daccrochage A La Hanche",
+            "item": "https://www.physioactif.com/guide-complet/syndrome-daccrochage-a-la-hanche"
+          }
+        ]
+      },
+      "isPartOf": {
+        "@id": "https://www.physioactif.com/#website"
+      },
+      "inLanguage": [
+        "fr-CA"
+      ],
+      "potentialAction": {
+        "@type": "ReadAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://www.physioactif.com/guide-complet/syndrome-daccrochage-a-la-hanche",
+          "actionPlatform": [
+            "http://schema.org/DesktopWebPlatform",
+            "http://schema.org/MobileWebPlatform"
+          ]
+        }
+      },
+      "relatedLink": [
+        "https://physioactif.clinicmaster.com/clinic-selection?lang=fr-CA"
+      ],
+      "publisher": {
+        "@id": "https://www.physioactif.com/#org"
+      }
+    }
+  ]
+}

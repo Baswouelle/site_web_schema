@@ -1,0 +1,117 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "@id": "https://www.physioactif.com/en/ressources/mythes-et-realites-de-la-commotion-cerebrale/#article",
+      "author": {
+        "@type": "Person",
+        "@id": "https://www.physioactif.com/en/equipe/claudine-farah/#person"
+      },
+      "headline": "Commotions cérébrales : mythes et réalités | Physioactif",
+      "description": "Démêlez le vrai du faux sur les commotions. Protégez-vous avec les bonnes informations et réagissez correctement en cas d'impact.",
+      "url": "https://www.physioactif.com/en/ressources/mythes-et-realites-de-la-commotion-cerebrale/",
+      "inLanguage": [
+        "en-CA"
+      ],
+      "datePublished": "2025-09-26",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://cdn.prod.website-files.com/670e84ccd653d18590687563/physioactif-hero-default.jpg",
+        "width": 1200,
+        "height": 630
+      },
+      "publisher": {
+        "@id": "https://www.physioactif.com/en/#org"
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.physioactif.com/en/ressources/mythes-et-realites-de-la-commotion-cerebrale/"
+      },
+      "about": [
+        {
+          "@type": "MedicalCondition",
+          "name": "Commotion cérébrale"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Physiothérapie",
+          "alternateName": [
+            "Physical therapy",
+            "Kinésithérapie",
+            "Fisioterapia"
+          ],
+          "sameAs": [
+            "https://www.physioactif.com/en/guide-complet/physiotherapie",
+            "https://www.wikidata.org/wiki/Q186005",
+            "https://en.wikipedia.org/wiki/Physical_therapy",
+            "https://fr.wikipedia.org/wiki/Kinésithérapie",
+            "https://meshb.nlm.nih.gov/record/ui?ui=D026761",
+            "https://www.merriam-webster.com/dictionary/physiotherapy",
+            "https://www.britannica.com/topic/physical-therapy"
+          ]
+        }
+      ],
+      "articleSection": "Ressources",
+      "keywords": [
+        "commotion",
+        "mythes commotion",
+        "traumatisme crânien",
+        "récupération commotion",
+        "repos commotion"
+      ],
+      "mentions": [
+        {
+          "@id": "https://www.physioactif.com/en/services/reeducation-vestibulaire-pour-vertiges-et-etourdissements/#therapy"
+        }
+      ]
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://www.physioactif.com/en/ressources/mythes-et-realites-de-la-commotion-cerebrale/#webpage",
+      "datePublished": "2025-09-26",
+      "url": "https://www.physioactif.com/en/ressources/mythes-et-realites-de-la-commotion-cerebrale/",
+      "name": "Commotions cérébrales : mythes et réalités | Physioactif",
+      "description": "Démêlez le vrai du faux sur les commotions. Protégez-vous avec les bonnes informations et réagissez correctement en cas d'impact.",
+      "inLanguage": [
+        "en-CA"
+      ],
+      "isPartOf": {
+        "@id": "https://www.physioactif.com/en/#website"
+      },
+      "mainEntity": {
+        "@id": "https://www.physioactif.com/en/ressources/mythes-et-realites-de-la-commotion-cerebrale/#article"
+      },
+      "breadcrumb": {
+        "@id": "https://www.physioactif.com/en/ressources/mythes-et-realites-de-la-commotion-cerebrale/#breadcrumb"
+      },
+      "publisher": {
+        "@id": "https://www.physioactif.com/en/#org"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.physioactif.com/en/ressources/mythes-et-realites-de-la-commotion-cerebrale/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Accueil",
+          "item": "https://www.physioactif.com/en/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Ressources",
+          "item": "https://www.physioactif.com/en/ressources/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Commotions cérébrales : mythes et réalités",
+          "item": "https://www.physioactif.com/en/ressources/mythes-et-realites-de-la-commotion-cerebrale/"
+        }
+      ]
+    }
+  ]
+}

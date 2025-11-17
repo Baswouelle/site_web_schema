@@ -1,0 +1,131 @@
+{
+  "@context": "https://schema.org",
+  "@type": "MedicalWebPage",
+  "@id": "https://www.physioactif.com/diagnostic-et-traitement/pathologies/syndrome-du-canal-de-guyon/#webpage",
+  "author": {
+    "@type": "Person",
+    "@id": "https://www.physioactif.com/equipe/claudine-farah/#person"
+  },
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      ".header_heading",
+      ".header_content .max-width-medium",
+      ".perks_content-right h2",
+      ".perks_content-right .w-richtext"
+    ]
+  },
+  "datePublished": "2025-09-26",
+  "url": "https://www.physioactif.com/diagnostic-et-traitement/pathologies/syndrome-du-canal-de-guyon/",
+  "name": "Soulagez vos douleurs au poignet et retrouvez l'usage de votre main",
+  "description": "Soulagez vos douleurs au poignet et retrouvez l'usage de votre main",
+  "inLanguage": [
+    "fr-CA"
+  ],
+  "isPartOf": {
+    "@id": "https://www.physioactif.com/#website"
+  },
+  "about": [
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://www.physioactif.com/diagnostic-et-traitement/pathologies/syndrome-du-canal-de-guyon/#condition",
+      "name": "Syndrome du canal de Guyon",
+      "inDefinedTermSet": "https://schema.org/MedicalCondition",
+      "sameAs": [
+        "https://fr.wikipedia.org/wiki/Syndrome_du_canal_de_Guyon",
+        "https://en.wikipedia.org/wiki/Ulnar_tunnel_syndrome",
+        "https://www.wikidata.org/wiki/Q2382645"
+      ]
+    },
+    {
+      "@type": "MedicalCondition",
+      "name": "Douleur au poignet"
+    },
+    {
+      "@type": "MedicalTherapy",
+      "name": "Physiothérapie",
+      "alternateName": [
+        "Physical therapy",
+        "Kinésithérapie",
+        "Fisioterapia"
+      ],
+      "sameAs": [
+        "https://www.physioactif.com/guide-complet/physiotherapie",
+        "https://www.wikidata.org/wiki/Q186005",
+        "https://en.wikipedia.org/wiki/Physical_therapy",
+        "https://fr.wikipedia.org/wiki/Kinésithérapie",
+        "https://meshb.nlm.nih.gov/record/ui?ui=D026761",
+        "https://www.merriam-webster.com/dictionary/physiotherapy",
+        "https://www.britannica.com/topic/physical-therapy"
+      ]
+    }
+  ],
+  "specialty": "Physiotherapy",
+  "provider": {
+    "@id": "https://www.physioactif.com/#org"
+  },
+  "potentialAction": {
+    "@type": "ReserveAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://physioactif.clinicmaster.com/clinic-selection?lang=fr-CA",
+      "inLanguage": [
+        "fr-CA"
+      ]
+    },
+    "result": {
+      "@type": "Reservation",
+      "name": "Prendre rendez-vous"
+    }
+  },
+  "breadcrumb": {
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Accueil",
+        "item": "https://www.physioactif.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Diagnostic et traitement",
+        "item": "https://www.physioactif.com/diagnostic-et-traitement/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Pathologies",
+        "item": "https://www.physioactif.com/diagnostic-et-traitement/pathologies/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "Douleur au poignet",
+        "item": "https://www.physioactif.com/diagnostic-et-traitement/pathologies/syndrome-du-canal-de-guyon/"
+      }
+    ]
+  },
+  "mentions": [
+    {
+      "@id": "https://www.physioactif.com/services/accident-du-travail-cnesst/#therapy"
+    },
+    {
+      "@id": "https://www.physioactif.com/services/deuxieme-avis-sur-diagnostic-et-traitement/#therapy"
+    },
+    {
+      "@id": "https://www.physioactif.com/services/physiotherapie-sportive/#therapy"
+    },
+    {
+      "@id": "https://www.physioactif.com/services/programme-douleurs-persistantes/#therapy"
+    },
+    {
+      "@id": "https://www.physioactif.com/services/traitement-pour-douleur-et-raideur-7-97-ans/#therapy"
+    },
+    {
+      "@id": "https://www.physioactif.com/services/traitement-pour-engourdissement-et-nevralgies/#therapy"
+    }
+  ],
+  "relatedLink": "https://www.physioactif.com/guide-complet/syndrome-du-canal-de-guyon"
+}

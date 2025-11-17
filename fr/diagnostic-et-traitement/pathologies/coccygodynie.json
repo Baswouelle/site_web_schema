@@ -1,0 +1,115 @@
+{
+  "@context": "https://schema.org",
+  "@type": "MedicalWebPage",
+  "@id": "https://www.physioactif.com/diagnostic-et-traitement/pathologies/coccygodynie/#webpage",
+  "author": {
+    "@type": "Person",
+    "@id": "https://www.physioactif.com/equipe/alexis-gougeon/#person"
+  },
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      ".header_heading",
+      ".header_content .max-width-medium",
+      ".perks_content-right h2",
+      ".perks_content-right .w-richtext"
+    ]
+  },
+  "datePublished": "2025-09-26",
+  "url": "https://www.physioactif.com/diagnostic-et-traitement/pathologies/coccygodynie/",
+  "name": "Soulagez votre douleur au coccyx et retrouvez votre confort quotidien",
+  "description": "Soulagez votre douleur au coccyx et retrouvez votre confort quotidien",
+  "inLanguage": [
+    "fr-CA"
+  ],
+  "isPartOf": {
+    "@id": "https://www.physioactif.com/#website"
+  },
+  "about": [
+    {
+      "@type": "DefinedTerm",
+      "name": "Coccygodynie",
+      "description": "Douleur au coccyx ou dans la région du coccyx, souvent provoquée par une chute sur le coccyx ou par une irritation persistante généralement due à la position assise",
+      "sameAs": [
+        "https://fr.wikipedia.org/wiki/Coccygodynie",
+        "https://en.wikipedia.org/wiki/Coccydynia",
+        "https://www.wikidata.org/wiki/Q167794"
+      ]
+    },
+    {
+      "@type": "MedicalTherapy",
+      "name": "Physiothérapie",
+      "alternateName": [
+        "Physical therapy",
+        "Kinésithérapie",
+        "Fisioterapia"
+      ],
+      "sameAs": [
+        "https://www.physioactif.com/guide-complet/physiotherapie",
+        "https://www.wikidata.org/wiki/Q186005",
+        "https://en.wikipedia.org/wiki/Physical_therapy",
+        "https://fr.wikipedia.org/wiki/Kinésithérapie",
+        "https://meshb.nlm.nih.gov/record/ui?ui=D026761",
+        "https://www.merriam-webster.com/dictionary/physiotherapy",
+        "https://www.britannica.com/topic/physical-therapy"
+      ]
+    }
+  ],
+  "specialty": [
+    "Physiotherapy",
+    "Musculoskeletal",
+    "Pain Management"
+  ],
+  "provider": {
+    "@id": "https://www.physioactif.com/#org"
+  },
+  "potentialAction": {
+    "@type": "ReserveAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://physioactif.clinicmaster.com/clinic-selection?lang=fr-CA",
+      "inLanguage": [
+        "fr-CA"
+      ]
+    },
+    "result": {
+      "@type": "Reservation",
+      "name": "Prendre rendez-vous"
+    }
+  },
+  "breadcrumb": {
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Accueil",
+        "item": "https://www.physioactif.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Diagnostic et traitement",
+        "item": "https://www.physioactif.com/diagnostic-et-traitement/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Pathologies",
+        "item": "https://www.physioactif.com/diagnostic-et-traitement/pathologies/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "Douleur au coccyx",
+        "item": "https://www.physioactif.com/diagnostic-et-traitement/pathologies/coccygodynie/"
+      }
+    ]
+  },
+  "mentions": [
+    {
+      "@id": "https://www.physioactif.com/services/incontinence-et-douleurs-genitales-homme-et-femme/#therapy"
+    }
+  ],
+  "relatedLink": "https://www.physioactif.com/guide-complet/coccygodynie"
+}

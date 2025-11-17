@@ -1,0 +1,215 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "CollectionPage",
+      "@id": "https://www.physioactif.com/en/ressources/#collectionpage",
+      "url": "https://www.physioactif.com/en/ressources/",
+      "name": "Blogue physiothérapie: conseils de pros pour vos douleurs",
+      "description": "Votre recherche Google se termine ici. Conseils concrets de physiothérapeutes. Comprennez votre douleur et sachez quoi faire.",
+      "inLanguage": [
+        "en-CA"
+      ],
+      "isPartOf": {
+        "@id": "https://www.physioactif.com/en/#website"
+      },
+      "breadcrumb": {
+        "@type": "BreadcrumbList",
+        "@id": "https://www.physioactif.com/en/ressources/#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Accueil",
+            "item": "https://www.physioactif.com/en/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Ressources",
+            "item": "https://www.physioactif.com/en/ressources/"
+          }
+        ]
+      },
+      "about": {
+        "@type": "Thing",
+        "name": "Physiothérapie",
+        "description": "Articles éducatifs et conseils pratiques sur la physiothérapie, la gestion de la douleur, et la santé musculo-squelettique"
+      },
+      "publisher": {
+        "@id": "https://www.physioactif.com/en/#org"
+      },
+      "mainEntity": {
+        "@type": "ItemList",
+        "@id": "https://www.physioactif.com/en/ressources/#articlelist",
+        "name": "Articles de blogue Physioactif",
+        "description": "Collection d'articles éducatifs sur la physiothérapie et la santé musculo-squelettique",
+        "numberOfItems": 29,
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "item": {
+              "@type": "Article",
+              "@id": "https://www.physioactif.com/en/ressources/blessures-de-surcharge/#article",
+              "headline": "Blessures de surcharge",
+              "description": "Je me suis réveillée lundi matin avec le cou endolori, pourtant… je n'ai rien fait de spécial dans la nuit!?"
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "item": {
+              "@type": "Article",
+              "@id": "https://www.physioactif.com/en/ressources/les-commotions-cerebrales-cest-plus-que-des-maux-de-tete/#article",
+              "headline": "Les commotions cérébrales, c'est plus que des maux de tête!",
+              "description": "Plus que jamais, la commotion cérébrale est un sujet d'actualité en santé et dans le sport. Elle est maintenant identifiée comme un enjeu important de santé publique."
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "item": {
+              "@type": "Article",
+              "@id": "https://www.physioactif.com/en/ressources/age-limite-pour-commencer-la-course/#article",
+              "headline": "Mythes et réalités en course à pied – Y a-t-il un âge limite pour commencer la course?",
+              "description": "La course à pied est un sport qui monte en popularité à vue d'œil. La simplicité de ce sport et ses bienfaits sur la santé nourrissent la motivation à enfiler ses souliers pour aller courir.",
+              "articleSection": "Bien-être et santé générale"
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 4,
+            "item": {
+              "@type": "Article",
+              "@id": "https://www.physioactif.com/en/ressources/comment-se-deroule-une-evaluation-en-physiotherapie-chez-physioactif/#article",
+              "headline": "Évaluation en physiothérapie: comment ça se déroule?",
+              "description": "Découvrez le déroulement détaillé d'une première visite chez un physiothérapeute : préparation, évaluation physique et plan de traitement personnalisé.",
+              "articleSection": "Bien-être et santé générale"
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 5,
+            "item": {
+              "@type": "Article",
+              "@id": "https://www.physioactif.com/en/ressources/comment-gerer-mon-entorse-de-la-cheville/#article",
+              "headline": "Comment gérer mon entorse de la cheville?",
+              "description": "Quoi de plus banal qu'une entorse de la cheville, n'est-ce pas? Pourtant, plusieurs se retrouvent avec des séquelles à long terme de leur entorse de cheville."
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 6,
+            "item": {
+              "@type": "Article",
+              "@id": "https://www.physioactif.com/en/ressources/un-peu-de-peace-and-love-pour-traiter-les-entorses/#article",
+              "headline": "Un peu de peace and love pour traiter les entorses",
+              "description": "Dois-je mettre du chaud ou du froid? Est-ce que je peux marcher dessus ou pas? Ce sont toutes d'excellentes questions et le PEACE and LOVE est là pour y répondre."
+            }
+          }
+        ]
+      },
+      "potentialAction": {
+        "@type": "ReadAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://www.physioactif.com/en/ressources/{slug}/"
+        },
+        "object": {
+          "@type": "Article",
+          "provider": {
+            "@id": "https://www.physioactif.com/en/#org"
+          }
+        }
+      },
+      "hasPart": {
+        "@type": "FAQPage",
+        "@id": "https://www.physioactif.com/en/ressources/#faq",
+        "name": "Questions fréquentes sur la physiothérapie",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Traitement en physiothérapie: découvrez comment ça se déroule?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Il faut savoir que les traitements de physiothérapie sont personnalisés selon chaque personne et sa blessure. D'abord, le physiothérapeute vous questionnera sur les changements que vous avez vu depuis le dernier rendez-vous. Le physiothérapeute vérifiera aussi comment s'est passée la pratique des exercices. Au besoin, les exercices seront modifiés, corrigés ou progressés afin d'assurer la meilleure évolution de votre condition. Ensuite, le physiothérapeute fera quelques tests pour réévaluer la condition. Si votre condition demande un traitement par thérapie manuelle, le physiothérapeute effectuera un traitement des articulations, des muscles ou des nerfs. Finalement, le physiothérapeute vérifiera si vous avez des questions ou des inquiétudes en lien avec votre condition."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Évaluation en physiothérapie: découvrez le processus Physioactif?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Avant le début de votre évaluation, vous devrez remplir un questionnaire portant sur votre état de santé global, incluant vos conditions de santé, vos anciennes blessures, vos chirurgies et la liste des médicaments que vous prenez. Ceci permettra au physiothérapeute d'avoir une idée globale de votre santé et de mieux vous aider. Pendant l'évaluation, vous discuterez avec le physiothérapeute de votre problème. S'en suivra une évaluation physique qui mènera vers une diagnostic établi par le physiothérapeute. Par la suite, un plan de traitement sera construit en collaboration avec le physiothérapeute. Vous repartirez avec votre feuille de plan de traitement, sur laquelle seront aussi notés vos exercices à effectuer à la maison."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Comment savoir si je suis pris en charge par de la bonne physiothérapie?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Voici quelques indices clés qui vous permettent de savoir si vous recevez une bonne qualité de soins en physiothérapie: a. Le physiothérapeute passe l'entièreté du temps de votre rendez-vous avec vous. b. Vous avez un programme d'exercices spécifiques à votre condition à faire à la maison que vous comprenez bien. c. Vous avez reçu un diagnostic et vous êtes capable d'expliquer en bref la cause de votre problème. d. Vous savez quoi faire quand vous avez mal pour soulager la douleur car votre physiothérapeute vous a donné des conseils. e. Pendant vos rendez-vous, vous n'êtes pas branché sur des appareils d'électrothérapie. f. Vous avez reçu un plan de traitement clairement défini qui a été personnalisé par le physiothérapeute. g. On a évalué et discuté avec vous des facteurs autres qui peuvent nuire à la récupération. h. Votre traitement n'est pas exclusivement passif."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "La physiothérapie ne m'a pas aidé par le passé, est-ce qu'il y a encore de l'espoir?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Oui, il y a de l'espoir! Que vous ayez vu d'autres physiothérapeutes, ostéopathes, chiropraticiens, acupuncteurs, massothérapeutes ou autres, vous trouverez des solutions avec nos physiothérapeutes chez Physioactif. Nous sommes habitués de traiter des problèmes complexes et des gens qui n'ont pas eu de résultats avec d'autres professionnels. Ayant cette réputation, c'est à chaque semaine que vous recevons des personnes qui viennent nous voir même s'il ont déjà vu 3-4 autres professionnels qui n'ont pas régler le problème. Vous verrez dès la première rencontre qu'une prise en charge chez Physioactif est différente de ce que vous aurez vécu ailleurs."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Prenez-vous les assurances et acceptez-vous les cas d'accidents de travail et de la route?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Oui, vos traitements de physiothérapie peuvent être couverts par vos assurances. La majorité des assurances couvrent une partie des frais de physiothérapie. Si votre douleur est le résultat d'un accident de travail, alors la CNESST couvre votre physiothérapie. Pour ce faire, il faut voir un médecin en premier et avoir une prescription pour la physiothérapie par le médecin. Si votre douleur est le résultat d'un accident de la route, alors la SAAQ couvre votre physiothérapie. Pour ce faire, il faut voir un médecin en premier et avoir une prescription pour la physiothérapie par le médecin."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "J'ai mal depuis longtemps, est-ce qu'il est trop tard?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Non, il n'est jamais trop tard. Peu importe depuis combien de temps votre blessure ou douleur est présente, il est toujours possible d'améliorer votre condition. Les études démontrent d'ailleurs que la durée de la douleur ne vous empêche pas de vous améliorer. La majorité de la clientèle que nous voyons sont des personnes qui ont des douleurs depuis au moins plusieurs mois. Nous sommes donc très à l'aise pour aider des gens qui ont mal depuis 6 mois, 1 an, 5 ans et même 20 ans!"
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Est-ce que la physiothérapie peut m'aider?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "La physiothérapie permet de traiter les blessures, douleurs et inconforts qui sont reliés aux os, aux muscles, aux articulations, aux vertèbres, aux tendons, aux ligaments, aux ménisques et aux nerfs. Si vous avez une douleur ou un inconfort qui vous incommode, qui vous limite dans vos activités, votre travail ou vos loisirs, alors la physiothérapie est la solution pour vous. Nous pouvons traiter: douleurs au dos, au cou, aux genoux, aux épaules, maux de têtes et migraines, douleur à la mâchoire, commotions cérébrales, vertiges et étourdissements, incontinence urinaire, entorses, claquages, tendinites, torticolis, whiplash, fractures, déchirures, sciatalgie, hernie discale, contusion, fasciite plantaire, arthrose, arthrite, accident de la route, accident de travail, blessures sportives."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Quelle est la différence entre un ostéopathe, un chiropraticien, un physiothérapeute, un massothérapeute, un acupuncteur et un kinésiologue?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Le physiothérapeute a une formation universitaire et pose un diagnostic basé sur l'histoire de la blessure, le comportement de la douleur et une évaluation physique. Il établit ensuite un plan de traitement qui inclut des exercices spécifiques, des conseils dans la gestion des activités/postures/sports et applique des traitements de thérapie manuelle au besoin. L'ostéopathe a une formation non universitaire et pose un diagnostic avec ses mains. Le chiropraticien a une formation universitaire et utilise souvent les ajustements chiropratiques. Le massothérapeute a une formation non universitaire et utilise des techniques de massage. L'acupuncteur a une formation collégiale basée sur la médecine traditionnelle chinoise. Le kinésiologue a une formation universitaire et est le spécialiste de l'entraînement et l'activité physique."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Est-ce que j'ai besoin d'une prescription?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Non. N'importe qui peut consulter directement un.e physiothérapeute. Il suffit d'appeler en clinique pour prendre rendez-vous. Vous n'avez donc pas besoin d'être évalué par un médecin avant d'aller en physiothérapie. Le physiothérapeute est l'expert pour faire l'évaluation d'une douleur et n'a pas besoin de l'avis du médecin. Par contre, certaines compagnies d'assurances qui couvrent les dépenses en physiothérapie exigent une prescription du médecin avant de rembourser les frais."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Comment fonctionne la physiothérapie?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "La physiothérapie est une discipline médicale qui permet d'améliorer votre qualité de vie et de retourner à vos activités souhaitées lorsque vous avez mal. On le fait à l'aide d'exercices, de conseils, de modifications d'habitudes de vie et de thérapie avec les mains. Lors de la première rencontre, une évaluation complète de votre état est faite par le physiothérapeute incluant un examen physique avec des tests et certaines manipulations. Puis, le physiothérapeute établit son diagnostic et élabore avec vous un plan de traitement pour atteindre vos objectifs souhaités."
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "@id": "https://www.physioactif.com/approches-therapeutiques/exercices-de-renforcement-et-dendurance-musculaire/#article",
+      "author": {
+        "@type": "Person",
+        "@id": "https://www.physioactif.com/equipe/claudine-farah/#person"
+      },
+      "headline": "Exercices de renforcement : programme personnalisé et suivi adapté",
+      "description": "Retrouvez votre force perdue. Un programme taillé pour vous qui vous ramène plus fort qu'avant votre blessure.",
+      "url": "https://www.physioactif.com/approches-therapeutiques/exercices-de-renforcement-et-dendurance-musculaire/",
+      "inLanguage": [
+        "fr-CA"
+      ],
+      "datePublished": "2025-09-26",
+      "publisher": {
+        "@id": "https://www.physioactif.com/#org"
+      },
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://www.physioactif.com/wp-content/uploads/approches/exercices-de-renforcement-et-dendurance-musculaire-thumb.jpg",
+        "width": 1200,
+        "height": 675
+      },
+      "about": [
+        {
+          "@type": "PhysicalTherapy",
+          "name": "Exercices de renforcement : programme personnalisé et suivi adapté"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Physiothérapie",
+          "alternateName": [
+            "Physical therapy",
+            "Kinésithérapie",
+            "Fisioterapia"
+          ],
+          "sameAs": [
+            "https://www.physioactif.com/guide-complet/physiotherapie",
+            "https://www.wikidata.org/wiki/Q186005",
+            "https://en.wikipedia.org/wiki/Physical_therapy",
+            "https://fr.wikipedia.org/wiki/Kinésithérapie",
+            "https://meshb.nlm.nih.gov/record/ui?ui=D026761",
+            "https://www.merriam-webster.com/dictionary/physiotherapy",
+            "https://www.britannica.com/topic/physical-therapy"
+          ]
+        }
+      ],
+      "articleSection": "Approches thérapeutiques",
+      "keywords": [
+        "physiothérapie",
+        "traitement",
+        "approche thérapeutique"
+      ],
+      "mentions": [
+        {
+          "@type": "DefinedTerm",
+          "name": "Renforcement et endurance musculaire",
+          "description": "Programme d'exercices thérapeutiques personnalisés visant à augmenter la force musculaire, améliorer l'endurance et favoriser la récupération fonctionnelle après une blessure.",
+          "sameAs": [
+            "https://en.wikipedia.org/wiki/Strength_training",
+            "https://fr.wikipedia.org/wiki/Renforcement_musculaire",
+            "https://www.wikidata.org/wiki/Q1075301"
+          ]
+        }
+      ]
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://www.physioactif.com/approches-therapeutiques/exercices-de-renforcement-et-dendurance-musculaire/#webpage",
+      "datePublished": "2025-09-26",
+      "url": "https://www.physioactif.com/approches-therapeutiques/exercices-de-renforcement-et-dendurance-musculaire/",
+      "name": "Exercices de renforcement : programme personnalisé et suivi adapté",
+      "description": "Retrouvez votre force perdue. Un programme taillé pour vous qui vous ramène plus fort qu'avant votre blessure.",
+      "inLanguage": [
+        "fr-CA"
+      ],
+      "isPartOf": {
+        "@id": "https://www.physioactif.com/#website"
+      },
+      "mainEntity": {
+        "@id": "https://www.physioactif.com/approches-therapeutiques/exercices-de-renforcement-et-dendurance-musculaire/#article"
+      },
+      "breadcrumb": {
+        "@id": "https://www.physioactif.com/approches-therapeutiques/exercices-de-renforcement-et-dendurance-musculaire/#breadcrumb"
+      },
+      "publisher": {
+        "@id": "https://www.physioactif.com/#org"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.physioactif.com/approches-therapeutiques/exercices-de-renforcement-et-dendurance-musculaire/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Accueil",
+          "item": "https://www.physioactif.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Approches thérapeutiques",
+          "item": "https://www.physioactif.com/approches-therapeutiques/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Exercices de renforcement : programme personnalisé et suivi adapté",
+          "item": "https://www.physioactif.com/approches-therapeutiques/exercices-de-renforcement-et-dendurance-musculaire/"
+        }
+      ]
+    }
+  ]
+}

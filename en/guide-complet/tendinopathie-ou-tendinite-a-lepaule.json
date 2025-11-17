@@ -1,0 +1,216 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "MedicalCondition",
+      "@id": "https://www.physioactif.com/en/guide-complet/tendinopathie-ou-tendinite-a-lepaule#condition",
+      "name": "Tendinopathie de l'épaule",
+      "alternateName": [
+        "Shoulder tendinopathy",
+        "Rotator cuff tendinopathy",
+        "Rotator cuff tendinitis",
+        "Shoulder tendinitis"
+      ],
+      "description": "La tendinopathie de la coiffe des rotateurs est une maladie affectant l'épaule, également appelée « épaule douloureuse simple », qui correspond à une tendinite des muscles de la coiffe des rotateurs. C'est la cause la plus fréquente de douleur à l'épaule et son incidence augmente avec l'âge. L'incidence de la tendinopathie de la coiffe des rotateurs varie de 0,3% à 5,5% et la prévalence annuelle de 0,5% à 7,4%. Le code ICD-10 pour la tendinite de la coiffe des rotateurs est M75.3-, avec des codes spécifiques pour chaque tendon impliqué. M75.1 représente « Déchirure ou rupture de la coiffe des rotateurs, non spécifiée comme traumatique ». Les conditions incluent le syndrome de la coiffe des rotateurs, la déchirure du supra-épineux non spécifiée comme traumatique, et le syndrome du supra-épineux.",
+      "code": [
+        {
+          "@type": "MedicalCode",
+          "code": "M75.3",
+          "codingSystem": "ICD-10"
+        },
+        {
+          "@type": "MedicalCode",
+          "code": "D052256",
+          "codingSystem": "MeSH"
+        }
+      ],
+      "sameAs": [
+        "https://fr.wikipedia.org/wiki/Tendinopathie_de_la_coiffe_des_rotateurs",
+        "https://en.wikipedia.org/wiki/Tendinopathy",
+        "https://www.wikidata.org/wiki/Q1758866",
+        "https://meshb.nlm.nih.gov/record/ui?ui=D052256",
+        "http://snomed.info/id/4106009"
+      ],
+      "possibleTreatment": {
+        "@type": "MedicalTherapy",
+        "name": "Physiothérapie",
+        "alternateName": [
+          "Physical therapy",
+          "Kinésithérapie",
+          "Fisioterapia"
+        ],
+        "sameAs": [
+          "https://www.physioactif.com/en/guide-complet/physiotherapie",
+          "https://www.wikidata.org/wiki/Q186005",
+          "https://en.wikipedia.org/wiki/Physical_therapy",
+          "https://fr.wikipedia.org/wiki/Kinésithérapie",
+          "https://meshb.nlm.nih.gov/record/ui?ui=D026761",
+          "https://www.merriam-webster.com/dictionary/physiotherapy",
+          "https://www.britannica.com/topic/physical-therapy"
+        ]
+      }
+    },
+    {
+      "@type": "MedicalWebPage",
+      "@id": "https://www.physioactif.com/en/guide-complet/tendinopathie-ou-tendinite-a-lepaule#article",
+      "author": {
+        "@type": "Person",
+        "@id": "https://www.physioactif.com/en/equipe/ariel-desjardins-charbonneau/#person"
+      },
+      "datePublished": "2025-09-26",
+      "name": "Tendinopathie Ou Tendinite A Lepaule - Guide Complet",
+      "headline": "Tendinopathie Ou Tendinite A Lepaule: Symptômes, Causes, Diagnostic et Traitement en Physiothérapie",
+      "about": [
+        {
+          "@id": "https://www.physioactif.com/en/guide-complet/tendinopathie-ou-tendinite-a-lepaule#condition"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Physiothérapie",
+          "alternateName": [
+            "Physical therapy",
+            "Kinésithérapie",
+            "Fisioterapia"
+          ],
+          "sameAs": [
+            "https://www.physioactif.com/en/guide-complet/physiotherapie",
+            "https://www.wikidata.org/wiki/Q186005",
+            "https://en.wikipedia.org/wiki/Physical_therapy",
+            "https://fr.wikipedia.org/wiki/Kinésithérapie",
+            "https://meshb.nlm.nih.gov/record/ui?ui=D026761",
+            "https://www.merriam-webster.com/dictionary/physiotherapy",
+            "https://www.britannica.com/topic/physical-therapy"
+          ]
+        }
+      ],
+      "mainEntity": {
+        "@id": "https://www.physioactif.com/en/guide-complet/tendinopathie-ou-tendinite-a-lepaule#condition"
+      },
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [
+          ".header_heading",
+          ".header_content .text-style-muted.w-richtext",
+          ".section_article .text-rich-text h2"
+        ]
+      },
+      "specialty": [
+        "Physiotherapy",
+        "Musculoskeletal",
+        "SportsMedicine"
+      ],
+      "medicalAudience": [
+        {
+          "@type": "Patient"
+        },
+        {
+          "@type": "MedicalAudience",
+          "audienceType": "General Public"
+        }
+      ],
+      "reviewedBy": {
+        "@id": "https://www.physioactif.com/en/#org"
+      },
+      "provider": {
+        "@id": "https://www.physioactif.com/en/#org"
+      },
+      "inLanguage": [
+        "en-CA"
+      ],
+      "isPartOf": {
+        "@id": "https://www.physioactif.com/en/#website"
+      },
+      "mentions": [
+        {
+          "@type": "MedicalTherapy",
+          "name": "Physiothérapie",
+          "alternateName": [
+            "Physical therapy",
+            "Kinésithérapie",
+            "Fisioterapia"
+          ],
+          "sameAs": [
+            "https://www.physioactif.com/en/guide-complet/physiotherapie",
+            "https://www.wikidata.org/wiki/Q186005",
+            "https://en.wikipedia.org/wiki/Physical_therapy",
+            "https://fr.wikipedia.org/wiki/Kinésithérapie",
+            "https://meshb.nlm.nih.gov/record/ui?ui=D026761",
+            "https://www.merriam-webster.com/dictionary/physiotherapy",
+            "https://www.britannica.com/topic/physical-therapy"
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "name": "Conflit sous-acromial",
+          "description": "Condition musculosquelettique affectant conflit sous-acromial",
+          "sameAs": [
+            "https://en.wikipedia.org/wiki/Shoulder_impingement_syndrome",
+            "https://www.wikidata.org/wiki/Q1758866",
+            "https://meshb.nlm.nih.gov/record/ui?ui=D019534"
+          ]
+        }
+      ]
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://www.physioactif.com/en/guide-complet/tendinopathie-ou-tendinite-a-lepaule#webpage",
+      "datePublished": "2025-09-26",
+      "url": "https://www.physioactif.com/en/guide-complet/tendinopathie-ou-tendinite-a-lepaule",
+      "name": "Tendinopathie Ou Tendinite A Lepaule - Guide Complet | Physioactif",
+      "description": "Guide complet sur tendinopathie ou tendinite a lepaule: causes, symptômes, diagnostic et traitements en physiothérapie par les experts de Physioactif.",
+      "mainEntity": {
+        "@id": "https://www.physioactif.com/en/guide-complet/tendinopathie-ou-tendinite-a-lepaule#condition"
+      },
+      "about": {
+        "@id": "https://www.physioactif.com/en/guide-complet/tendinopathie-ou-tendinite-a-lepaule#condition"
+      },
+      "breadcrumb": {
+        "@type": "BreadcrumbList",
+        "@id": "https://www.physioactif.com/en/guide-complet/tendinopathie-ou-tendinite-a-lepaule#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Accueil",
+            "item": "https://www.physioactif.com/en/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Guide Complet",
+            "item": "https://www.physioactif.com/en/guide-complet"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Tendinopathie Ou Tendinite A Lepaule",
+            "item": "https://www.physioactif.com/en/guide-complet/tendinopathie-ou-tendinite-a-lepaule"
+          }
+        ]
+      },
+      "isPartOf": {
+        "@id": "https://www.physioactif.com/en/#website"
+      },
+      "inLanguage": [
+        "en-CA"
+      ],
+      "potentialAction": {
+        "@type": "ReadAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://www.physioactif.com/en/guide-complet/tendinopathie-ou-tendinite-a-lepaule",
+          "actionPlatform": [
+            "http://schema.org/DesktopWebPlatform",
+            "http://schema.org/MobileWebPlatform"
+          ]
+        }
+      },
+      "relatedLink": [
+        "https://physioactif.clinicmaster.com/clinic-selection?lang=fr-CA"
+      ],
+      "publisher": {
+        "@id": "https://www.physioactif.com/en/#org"
+      }
+    }
+  ]
+}

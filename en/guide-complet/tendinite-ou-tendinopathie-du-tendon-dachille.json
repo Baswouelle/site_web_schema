@@ -1,0 +1,217 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "MedicalCondition",
+      "@id": "https://www.physioactif.com/en/guide-complet/tendinite-ou-tendinopathie-du-tendon-dachille#condition",
+      "name": "Tendinite du tendon d'Achille",
+      "alternateName": [
+        "Achilles tendinitis",
+        "Achilles tendinopathy",
+        "Achilles tendonitis"
+      ],
+      "description": "La tendinite d'Achille, également connue sous le nom de tendinopathie d'Achille, est une douleur du tendon d'Achille. Les symptômes les plus courants sont la douleur et l'enflure autour de l'arrière de la cheville. La douleur est généralement pire au début de l'exercice et diminue par la suite. Une raideur de la cheville peut également être présente. Les blessures du tendon d'Achille peuvent être séparées en tendinopathie d'insertion (20-25% des blessures), tendinopathie de la portion médiane (55-65%), et blessures de la jonction musculo-tendineuse proximale (9-25%), selon la localisation de la douleur. La tendinopathie d'Achille est idiopathique, ce qui signifie que la cause n'est pas bien comprise. Le traitement implique généralement le repos, la glace, les agents anti-inflammatoires non stéroïdiens (AINS) et la physiothérapie.",
+      "code": [
+        {
+          "@type": "MedicalCode",
+          "code": "M76.6",
+          "codingSystem": "ICD-10"
+        },
+        {
+          "@type": "MedicalCode",
+          "code": "D052256",
+          "codingSystem": "MeSH"
+        }
+      ],
+      "sameAs": [
+        "https://fr.wikipedia.org/wiki/Tendinite_d'Achille",
+        "https://en.wikipedia.org/wiki/Achilles_tendinitis",
+        "https://www.wikidata.org/wiki/Q24738",
+        "https://meshb.nlm.nih.gov/record/ui?ui=D052256",
+        "https://www.icd10data.com/ICD10CM/Codes/M00-M99/M70-M79/M76-/M76.6",
+        "http://snomed.info/id/76070007"
+      ],
+      "possibleTreatment": {
+        "@type": "MedicalTherapy",
+        "name": "Physiothérapie",
+        "alternateName": [
+          "Physical therapy",
+          "Kinésithérapie",
+          "Fisioterapia"
+        ],
+        "sameAs": [
+          "https://www.physioactif.com/en/guide-complet/physiotherapie",
+          "https://www.wikidata.org/wiki/Q186005",
+          "https://en.wikipedia.org/wiki/Physical_therapy",
+          "https://fr.wikipedia.org/wiki/Kinésithérapie",
+          "https://meshb.nlm.nih.gov/record/ui?ui=D026761",
+          "https://www.merriam-webster.com/dictionary/physiotherapy",
+          "https://www.britannica.com/topic/physical-therapy"
+        ]
+      }
+    },
+    {
+      "@type": "MedicalWebPage",
+      "@id": "https://www.physioactif.com/en/guide-complet/tendinite-ou-tendinopathie-du-tendon-dachille#article",
+      "author": {
+        "@type": "Person",
+        "@id": "https://www.physioactif.com/en/equipe/ariel-desjardins-charbonneau/#person"
+      },
+      "datePublished": "2025-09-26",
+      "name": "Tendinite Ou Tendinopathie Du Tendon Dachille - Guide Complet",
+      "headline": "Tendinite Ou Tendinopathie Du Tendon Dachille: Symptômes, Causes, Diagnostic et Traitement en Physiothérapie",
+      "about": [
+        {
+          "@id": "https://www.physioactif.com/en/guide-complet/tendinite-ou-tendinopathie-du-tendon-dachille#condition"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Physiothérapie",
+          "alternateName": [
+            "Physical therapy",
+            "Kinésithérapie",
+            "Fisioterapia"
+          ],
+          "sameAs": [
+            "https://www.physioactif.com/en/guide-complet/physiotherapie",
+            "https://www.wikidata.org/wiki/Q186005",
+            "https://en.wikipedia.org/wiki/Physical_therapy",
+            "https://fr.wikipedia.org/wiki/Kinésithérapie",
+            "https://meshb.nlm.nih.gov/record/ui?ui=D026761",
+            "https://www.merriam-webster.com/dictionary/physiotherapy",
+            "https://www.britannica.com/topic/physical-therapy"
+          ]
+        }
+      ],
+      "mainEntity": {
+        "@id": "https://www.physioactif.com/en/guide-complet/tendinite-ou-tendinopathie-du-tendon-dachille#condition"
+      },
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [
+          ".header_heading",
+          ".header_content .text-style-muted.w-richtext",
+          ".section_article .text-rich-text h2"
+        ]
+      },
+      "specialty": [
+        "Physiotherapy",
+        "Musculoskeletal",
+        "SportsMedicine"
+      ],
+      "medicalAudience": [
+        {
+          "@type": "Patient"
+        },
+        {
+          "@type": "MedicalAudience",
+          "audienceType": "General Public"
+        }
+      ],
+      "reviewedBy": {
+        "@id": "https://www.physioactif.com/en/#org"
+      },
+      "provider": {
+        "@id": "https://www.physioactif.com/en/#org"
+      },
+      "inLanguage": [
+        "en-CA"
+      ],
+      "isPartOf": {
+        "@id": "https://www.physioactif.com/en/#website"
+      },
+      "mentions": [
+        {
+          "@type": "MedicalTherapy",
+          "name": "Physiothérapie",
+          "alternateName": [
+            "Physical therapy",
+            "Kinésithérapie",
+            "Fisioterapia"
+          ],
+          "sameAs": [
+            "https://www.physioactif.com/en/guide-complet/physiotherapie",
+            "https://www.wikidata.org/wiki/Q186005",
+            "https://en.wikipedia.org/wiki/Physical_therapy",
+            "https://fr.wikipedia.org/wiki/Kinésithérapie",
+            "https://meshb.nlm.nih.gov/record/ui?ui=D026761",
+            "https://www.merriam-webster.com/dictionary/physiotherapy",
+            "https://www.britannica.com/topic/physical-therapy"
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "name": "Fasciite plantaire",
+          "description": "Inflammation du fascia plantaire sous le pied",
+          "sameAs": [
+            "https://fr.wikipedia.org/wiki/Aponévrosite_plantaire",
+            "https://en.wikipedia.org/wiki/Plantar_fasciitis",
+            "https://www.wikidata.org/wiki/Q52851",
+            "https://meshb.nlm.nih.gov/record/ui?ui=D036981"
+          ]
+        }
+      ]
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://www.physioactif.com/en/guide-complet/tendinite-ou-tendinopathie-du-tendon-dachille#webpage",
+      "datePublished": "2025-09-26",
+      "url": "https://www.physioactif.com/en/guide-complet/tendinite-ou-tendinopathie-du-tendon-dachille",
+      "name": "Tendinite Ou Tendinopathie Du Tendon Dachille - Guide Complet | Physioactif",
+      "description": "Guide complet sur tendinite ou tendinopathie du tendon dachille: causes, symptômes, diagnostic et traitements en physiothérapie par les experts de Physioactif.",
+      "mainEntity": {
+        "@id": "https://www.physioactif.com/en/guide-complet/tendinite-ou-tendinopathie-du-tendon-dachille#condition"
+      },
+      "about": {
+        "@id": "https://www.physioactif.com/en/guide-complet/tendinite-ou-tendinopathie-du-tendon-dachille#condition"
+      },
+      "breadcrumb": {
+        "@type": "BreadcrumbList",
+        "@id": "https://www.physioactif.com/en/guide-complet/tendinite-ou-tendinopathie-du-tendon-dachille#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Accueil",
+            "item": "https://www.physioactif.com/en/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Guide Complet",
+            "item": "https://www.physioactif.com/en/guide-complet"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Tendinite Ou Tendinopathie Du Tendon Dachille",
+            "item": "https://www.physioactif.com/en/guide-complet/tendinite-ou-tendinopathie-du-tendon-dachille"
+          }
+        ]
+      },
+      "isPartOf": {
+        "@id": "https://www.physioactif.com/en/#website"
+      },
+      "inLanguage": [
+        "en-CA"
+      ],
+      "potentialAction": {
+        "@type": "ReadAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://www.physioactif.com/en/guide-complet/tendinite-ou-tendinopathie-du-tendon-dachille",
+          "actionPlatform": [
+            "http://schema.org/DesktopWebPlatform",
+            "http://schema.org/MobileWebPlatform"
+          ]
+        }
+      },
+      "relatedLink": [
+        "https://physioactif.clinicmaster.com/clinic-selection?lang=fr-CA"
+      ],
+      "publisher": {
+        "@id": "https://www.physioactif.com/en/#org"
+      }
+    }
+  ]
+}

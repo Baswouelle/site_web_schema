@@ -1,0 +1,117 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "@id": "https://www.physioactif.com/en/approches-therapeutiques/telereadaptation/#article",
+      "author": {
+        "@type": "Person",
+        "@id": "https://www.physioactif.com/en/equipe/alexis-gougeon/#person"
+      },
+      "headline": "Téléréadaptation : séances de qualité et horaires flexibles",
+      "description": "Guérissez depuis chez vous. Séances professionnelles adaptées à votre horaire, sans compromis sur la qualité.",
+      "url": "https://www.physioactif.com/en/approches-therapeutiques/telereadaptation/",
+      "inLanguage": [
+        "en-CA"
+      ],
+      "datePublished": "2025-09-26",
+      "publisher": {
+        "@id": "https://www.physioactif.com/en/#org"
+      },
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://www.physioactif.com/en/wp-content/uploads/approches/telereadaptation-thumb.jpg",
+        "width": 1200,
+        "height": 675
+      },
+      "about": [
+        {
+          "@type": "PhysicalTherapy",
+          "name": "Téléréadaptation : séances de qualité et horaires flexibles"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Physiothérapie",
+          "alternateName": [
+            "Physical therapy",
+            "Kinésithérapie",
+            "Fisioterapia"
+          ],
+          "sameAs": [
+            "https://www.physioactif.com/en/guide-complet/physiotherapie",
+            "https://www.wikidata.org/wiki/Q186005",
+            "https://en.wikipedia.org/wiki/Physical_therapy",
+            "https://fr.wikipedia.org/wiki/Kinésithérapie",
+            "https://meshb.nlm.nih.gov/record/ui?ui=D026761",
+            "https://www.merriam-webster.com/dictionary/physiotherapy",
+            "https://www.britannica.com/topic/physical-therapy"
+          ]
+        }
+      ],
+      "articleSection": "Approches thérapeutiques",
+      "keywords": [
+        "physiothérapie",
+        "traitement",
+        "approche thérapeutique"
+      ],
+      "mentions": [
+        {
+          "@type": "DefinedTerm",
+          "name": "Téléréadaptation",
+          "description": "Prestation de services de réadaptation à distance via Internet et les technologies de télécommunication, permettant aux patients d'interagir avec les professionnels de la santé et de recevoir des soins de physiothérapie en ligne.",
+          "sameAs": [
+            "https://en.wikipedia.org/wiki/Telerehabilitation",
+            "https://www.wikidata.org/wiki/Q7696779"
+          ]
+        }
+      ]
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://www.physioactif.com/en/approches-therapeutiques/telereadaptation/#webpage",
+      "datePublished": "2025-09-26",
+      "url": "https://www.physioactif.com/en/approches-therapeutiques/telereadaptation/",
+      "name": "Téléréadaptation : séances de qualité et horaires flexibles",
+      "description": "Guérissez depuis chez vous. Séances professionnelles adaptées à votre horaire, sans compromis sur la qualité.",
+      "inLanguage": [
+        "en-CA"
+      ],
+      "isPartOf": {
+        "@id": "https://www.physioactif.com/en/#website"
+      },
+      "mainEntity": {
+        "@id": "https://www.physioactif.com/en/approches-therapeutiques/telereadaptation/#article"
+      },
+      "breadcrumb": {
+        "@id": "https://www.physioactif.com/en/approches-therapeutiques/telereadaptation/#breadcrumb"
+      },
+      "publisher": {
+        "@id": "https://www.physioactif.com/en/#org"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.physioactif.com/en/approches-therapeutiques/telereadaptation/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Accueil",
+          "item": "https://www.physioactif.com/en/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Approches thérapeutiques",
+          "item": "https://www.physioactif.com/en/approches-therapeutiques/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Téléréadaptation : séances de qualité et horaires flexibles",
+          "item": "https://www.physioactif.com/en/approches-therapeutiques/telereadaptation/"
+        }
+      ]
+    }
+  ]
+}

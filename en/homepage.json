@@ -1,0 +1,193 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "MedicalOrganization",
+      "@id": "https://www.physioactif.com/en/#org",
+      "name": "Physioactif",
+      "alternateName": "Clinique Physioactif",
+      "url": "https://www.physioactif.com/en/",
+      "logo": "https://cdn.prod.website-files.com/670e84ccd653d18590687563/6785900b5369e1a21a9e11df_icon%20(1).png",
+      "image": "https://cdn.prod.website-files.com/670e84ccd653d18590687563/686e75beb7bba56788ef9e8e_3a1bb8f47a53784d9a4e821a7b003a6c_Physiothe%CC%81rapie%20pour%20douleurs.avif",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Montréal",
+        "addressRegion": "QC",
+        "addressCountry": "CA"
+      },
+      "areaServed": [
+        {
+          "@type": "City",
+          "name": "Montréal"
+        },
+        {
+          "@type": "City",
+          "name": "Laval"
+        },
+        {
+          "@type": "City",
+          "name": "Blainville"
+        },
+        {
+          "@type": "City",
+          "name": "Vaudreuil-Dorion"
+        },
+        {
+          "@type": "City",
+          "name": "Saint-Eustache"
+        }
+      ],
+      "about": {
+        "@type": "MedicalTherapy",
+        "name": "Physiothérapie",
+        "alternateName": [
+          "Physical therapy",
+          "Kinésithérapie",
+          "Fisioterapia"
+        ],
+        "sameAs": [
+          "https://www.physioactif.com/en/guide-complet/physiotherapie",
+          "https://www.wikidata.org/wiki/Q186005",
+          "https://en.wikipedia.org/wiki/Physical_therapy",
+          "https://fr.wikipedia.org/wiki/Kinésithérapie",
+          "https://meshb.nlm.nih.gov/record/ui?ui=D026761",
+          "https://www.merriam-webster.com/dictionary/physiotherapy",
+          "https://www.britannica.com/topic/physical-therapy"
+        ]
+      },
+      "medicalSpecialty": [
+        "Physiotherapy",
+        "SportsMedicine",
+        "Musculoskeletal"
+      ],
+      "healthPlanNetworkId": [
+        "Beneva",
+        "Canada Vie",
+        "Desjardins Assurances",
+        "Green Shield Canada",
+        "Manuvie",
+        "Sun Life",
+        "CNESST",
+        "SAAQ",
+        "MÉDIC Construction"
+      ],
+      "department": [
+        {
+          "@id": "https://www.physioactif.com/en/clinique/physioactif-chomedey/#clinic"
+        },
+        {
+          "@id": "https://www.physioactif.com/en/clinique/physioactif-ahuntsic-et-villeray/#clinic"
+        },
+        {
+          "@id": "https://www.physioactif.com/en/clinique/physioactif-vaudreuil-dorion/#clinic"
+        },
+        {
+          "@id": "https://www.physioactif.com/en/clinique/physioactif-blainville-sud-et-rosemere/#clinic"
+        },
+        {
+          "@id": "https://www.physioactif.com/en/clinique/physioactif-st-eustache-physiotherapie/#clinic"
+        }
+      ],
+      "contactPoint": [
+        {
+          "@type": "ContactPoint",
+          "contactType": "customer service",
+          "availableLanguage": [
+            "French",
+            "English"
+          ],
+          "areaServed": "CA"
+        }
+      ],
+      "sameAs": [
+        "https://www.facebook.com/Physioactif/",
+        "https://www.instagram.com/physioactif/",
+        "https://www.youtube.com/@Physioactif/",
+        "https://www.linkedin.com/company/physioactif/",
+        "https://x.com/physioactif"
+      ],
+      "foundingDate": "2000",
+      "founder": [
+        {
+          "@type": "Person",
+          "@id": "https://www.physioactif.com/en/equipe/sylvain-st-amour/#person",
+          "name": "Sylvain St-Amour"
+        }
+      ],
+      "memberOf": [
+        {
+          "@type": "MedicalOrganization",
+          "name": "Ordre professionnel de la physiothérapie du Québec",
+          "alternateName": "OPPQ",
+          "url": "https://oppq.qc.ca/",
+          "sameAs": [
+            "https://fr.wikipedia.org/wiki/Ordre_professionnel_de_la_physiothérapie_du_Québec",
+            "https://www.wikidata.org/wiki/Q3355905"
+          ]
+        }
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://www.physioactif.com/en/#website",
+      "url": "https://www.physioactif.com/en/",
+      "name": "Physioactif",
+      "description": "Réseau de 5 cliniques de physiothérapie dans le Grand Montréal. Expertise en douleurs persistantes, blessures sportives, rééducation vestibulaire et périnéale.",
+      "publisher": {
+        "@id": "https://www.physioactif.com/en/#org"
+      },
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://www.physioactif.com/en/recherche?q={search_term_string}"
+        },
+        "query-input": "required name=search_term_string"
+      },
+      "inLanguage": [
+        "en-CA"
+      ]
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://www.physioactif.com/en/#homepage",
+      "url": "https://www.physioactif.com/en/",
+      "name": "Physioactif – Physiothérapie Grand Montréal",
+      "isPartOf": {
+        "@id": "https://www.physioactif.com/en/#website"
+      },
+      "about": {
+        "@id": "https://www.physioactif.com/en/#org"
+      },
+      "mainEntityOfPage": {
+        "@id": "https://www.physioactif.com/en/#org"
+      },
+      "primaryImageOfPage": {
+        "@type": "ImageObject",
+        "@id": "https://www.physioactif.com/en/#primaryimage",
+        "url": "https://cdn.prod.website-files.com/670e84ccd653d18590687563/686e75beb7bba56788ef9e8e_3a1bb8f47a53784d9a4e821a7b003a6c_Physiothe%CC%81rapie%20pour%20douleurs.avif",
+        "width": 1200,
+        "height": 628
+      },
+      "datePublished": "2025-09-26",
+      "breadcrumb": {
+        "@type": "BreadcrumbList",
+        "@id": "https://www.physioactif.com/en/#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Accueil",
+            "item": "https://www.physioactif.com/en/"
+          }
+        ]
+      },
+      "inLanguage": [
+        "en-CA"
+      ],
+      "publisher": {
+        "@id": "https://www.physioactif.com/en/#org"
+      }
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@id": "https://www.physioactif.com/services/programme-douleurs-persistantes/#therapy"
+    },
+    {
+      "@id": "https://www.physioactif.com/services/programme-douleurs-persistantes/#offer"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://www.physioactif.com/services/programme-douleurs-persistantes/#webpage",
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [
+          ".header_heading",
+          ".max-width-medium .text-style-muted"
+        ]
+      },
+      "datePublished": "2025-09-26",
+      "url": "https://www.physioactif.com/services/programme-douleurs-persistantes/",
+      "name": "Physiothérapie pour douleurs chroniques : sortez du cercle vicieux",
+      "description": "Brisez le cycle de la douleur. Reprenez le contrôle sur votre vie. Programme structuré qui vous sort de l'épuisement et vous redonne vos activités.",
+      "author": {
+        "@type": "Person",
+        "@id": "https://www.physioactif.com/equipe/alexis-gougeon/#person"
+      },
+      "inLanguage": [
+        "fr-CA"
+      ],
+      "isPartOf": {
+        "@id": "https://www.physioactif.com/#website"
+      },
+      "mainEntity": {
+        "@id": "https://www.physioactif.com/services/programme-douleurs-persistantes/#therapy"
+      },
+      "breadcrumb": {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Accueil",
+            "item": "https://www.physioactif.com/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Services",
+            "item": "https://www.physioactif.com/services/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Physiothérapie pour douleurs chroniques : sortez du cercle vicieux",
+            "item": "https://www.physioactif.com/services/programme-douleurs-persistantes/"
+          }
+        ]
+      },
+      "about": [
+        {
+          "@type": "MedicalTherapy",
+          "name": "Programme de gestion des douleurs persistantes",
+          "description": "Programme multidisciplinaire structuré pour traiter les douleurs chroniques, basé sur l'éducation à la douleur, l'exercice thérapeutique et la réadaptation fonctionnelle.",
+          "sameAs": [
+            "https://fr.wikipedia.org/wiki/Douleur_chronique",
+            "https://en.wikipedia.org/wiki/Chronic_pain",
+            "https://www.wikidata.org/wiki/Q1088113"
+          ]
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Physiothérapie",
+          "alternateName": [
+            "Physical therapy",
+            "Kinésithérapie",
+            "Fisioterapia"
+          ],
+          "sameAs": [
+            "https://www.physioactif.com/guide-complet/physiotherapie",
+            "https://www.wikidata.org/wiki/Q186005",
+            "https://en.wikipedia.org/wiki/Physical_therapy",
+            "https://fr.wikipedia.org/wiki/Kinésithérapie",
+            "https://meshb.nlm.nih.gov/record/ui?ui=D026761",
+            "https://www.merriam-webster.com/dictionary/physiotherapy",
+            "https://www.britannica.com/topic/physical-therapy"
+          ]
+        }
+      ],
+      "publisher": {
+        "@id": "https://www.physioactif.com/#org"
+      }
+    }
+  ]
+}

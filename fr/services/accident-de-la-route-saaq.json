@@ -1,0 +1,95 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@id": "https://www.physioactif.com/services/accident-de-la-route-saaq/#therapy"
+    },
+    {
+      "@id": "https://www.physioactif.com/services/accident-de-la-route-saaq/#offer"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://www.physioactif.com/services/accident-de-la-route-saaq/#webpage",
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [
+          ".header_heading",
+          ".max-width-medium .text-style-muted"
+        ]
+      },
+      "datePublished": "2025-09-26",
+      "url": "https://www.physioactif.com/services/accident-de-la-route-saaq/",
+      "name": "Physiothérapie pour accident de la route (SAAQ): 20 ans d'expérience",
+      "description": "Récupérez complètement après votre accident. 20 ans d'expertise SAAQ pour naviguer le système et retrouver votre vie.",
+      "author": {
+        "@type": "Person",
+        "@id": "https://www.physioactif.com/equipe/ariel-desjardins-charbonneau/#person"
+      },
+      "inLanguage": [
+        "fr-CA"
+      ],
+      "isPartOf": {
+        "@id": "https://www.physioactif.com/#website"
+      },
+      "mainEntity": {
+        "@id": "https://www.physioactif.com/services/accident-de-la-route-saaq/#therapy"
+      },
+      "breadcrumb": {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Accueil",
+            "item": "https://www.physioactif.com/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Services",
+            "item": "https://www.physioactif.com/services/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Physiothérapie pour accident de la route (SAAQ): 20 ans d'expérience",
+            "item": "https://www.physioactif.com/services/accident-de-la-route-saaq/"
+          }
+        ]
+      },
+      "about": [
+        {
+          "@type": "MedicalTherapy",
+          "name": "Physiothérapie pour accident de la route (SAAQ)",
+          "description": "Réadaptation spécialisée pour victimes d'accidents de la route couverts par la SAAQ, incluant traitement des blessures traumatiques et retour aux activités.",
+          "sameAs": [
+            "https://fr.wikipedia.org/wiki/Kinésithérapie",
+            "https://en.wikipedia.org/wiki/Physical_therapy",
+            "https://www.wikidata.org/wiki/Q186005"
+          ]
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Physiothérapie",
+          "alternateName": [
+            "Physical therapy",
+            "Kinésithérapie",
+            "Fisioterapia"
+          ],
+          "sameAs": [
+            "https://www.physioactif.com/guide-complet/physiotherapie",
+            "https://www.wikidata.org/wiki/Q186005",
+            "https://en.wikipedia.org/wiki/Physical_therapy",
+            "https://fr.wikipedia.org/wiki/Kinésithérapie",
+            "https://meshb.nlm.nih.gov/record/ui?ui=D026761",
+            "https://www.merriam-webster.com/dictionary/physiotherapy",
+            "https://www.britannica.com/topic/physical-therapy"
+          ]
+        }
+      ],
+      "publisher": {
+        "@id": "https://www.physioactif.com/#org"
+      }
+    }
+  ]
+}

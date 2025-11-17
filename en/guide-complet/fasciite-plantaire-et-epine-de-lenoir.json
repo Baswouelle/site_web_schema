@@ -1,0 +1,207 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "MedicalCondition",
+      "@id": "https://www.physioactif.com/en/guide-complet/fasciite-plantaire-et-epine-de-lenoir#condition",
+      "name": "Fasciite plantaire",
+      "alternateName": [
+        "Plantar fasciitis",
+        "aponévrosite plantaire",
+        "heel spur syndrome",
+        "épine calcanéenne"
+      ],
+      "description": "Inflammation du fascia plantaire, une bande de tissu conjonctif reliant le talon aux orteils.",
+      "sameAs": [
+        "https://fr.wikipedia.org/wiki/Aponévrosite_plantaire",
+        "https://en.wikipedia.org/wiki/Plantar_fasciitis",
+        "https://www.wikidata.org/wiki/Q52851",
+        "https://meshb.nlm.nih.gov/record/ui?ui=D036981",
+        "http://snomed.info/id/202882003"
+      ],
+      "code": [
+        {
+          "@type": "MedicalCode",
+          "code": "M72.2",
+          "codingSystem": "ICD-10"
+        },
+        {
+          "@type": "MedicalCode",
+          "code": "FB40.1",
+          "codingSystem": "ICD-11"
+        }
+      ]
+    },
+    {
+      "@type": "MedicalWebPage",
+      "@id": "https://www.physioactif.com/en/guide-complet/fasciite-plantaire-et-epine-de-lenoir#article",
+      "author": {
+        "@type": "Person",
+        "@id": "https://www.physioactif.com/en/equipe/ariel-desjardins-charbonneau/#person"
+      },
+      "datePublished": "2025-09-26",
+      "name": "Fasciite Plantaire Et Epine De Lenoir - Guide Complet",
+      "headline": "Fasciite Plantaire Et Epine De Lenoir: Symptômes, Causes, Diagnostic et Traitement en Physiothérapie",
+      "about": [
+        {
+          "@id": "https://www.physioactif.com/en/guide-complet/fasciite-plantaire-et-epine-de-lenoir#condition"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Physiothérapie",
+          "alternateName": [
+            "Physical therapy",
+            "Kinésithérapie",
+            "Fisioterapia"
+          ],
+          "sameAs": [
+            "https://www.physioactif.com/en/guide-complet/physiotherapie",
+            "https://www.wikidata.org/wiki/Q186005",
+            "https://en.wikipedia.org/wiki/Physical_therapy",
+            "https://fr.wikipedia.org/wiki/Kinésithérapie",
+            "https://meshb.nlm.nih.gov/record/ui?ui=D026761",
+            "https://www.merriam-webster.com/dictionary/physiotherapy",
+            "https://www.britannica.com/topic/physical-therapy"
+          ]
+        }
+      ],
+      "mainEntity": {
+        "@id": "https://www.physioactif.com/en/guide-complet/fasciite-plantaire-et-epine-de-lenoir#condition"
+      },
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [
+          ".header_heading",
+          ".header_content .text-style-muted.w-richtext",
+          ".section_article .text-rich-text h2"
+        ]
+      },
+      "specialty": [
+        "Physiotherapy",
+        "Musculoskeletal",
+        "SportsMedicine"
+      ],
+      "medicalAudience": [
+        {
+          "@type": "Patient"
+        },
+        {
+          "@type": "MedicalAudience",
+          "audienceType": "General Public"
+        }
+      ],
+      "reviewedBy": {
+        "@id": "https://www.physioactif.com/en/#org"
+      },
+      "provider": {
+        "@id": "https://www.physioactif.com/en/#org"
+      },
+      "inLanguage": [
+        "en-CA"
+      ],
+      "isPartOf": {
+        "@id": "https://www.physioactif.com/en/#website"
+      },
+      "mentions": [
+        {
+          "@type": "MedicalTherapy",
+          "name": "Physiothérapie",
+          "alternateName": [
+            "Physical therapy",
+            "Kinésithérapie",
+            "Fisioterapia"
+          ],
+          "sameAs": [
+            "https://www.physioactif.com/en/guide-complet/physiotherapie",
+            "https://www.wikidata.org/wiki/Q186005",
+            "https://en.wikipedia.org/wiki/Physical_therapy",
+            "https://fr.wikipedia.org/wiki/Kinésithérapie",
+            "https://meshb.nlm.nih.gov/record/ui?ui=D026761",
+            "https://www.merriam-webster.com/dictionary/physiotherapy",
+            "https://www.britannica.com/topic/physical-therapy"
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "@id": "https://www.physioactif.com/en/guide-complet/fasciite-plantaire-et-epine-de-lenoir#condition",
+          "name": "Fasciite plantaire",
+          "inDefinedTermSet": "https://schema.org/MedicalCondition",
+          "termCode": [
+            {
+              "@type": "MedicalCode",
+              "code": "M72.2",
+              "codingSystem": "ICD-10"
+            },
+            {
+              "@type": "MedicalCode",
+              "code": "FB40.1",
+              "codingSystem": "ICD-11"
+            }
+          ],
+          "url": "https://www.physioactif.com/en/guide-complet/fasciite-plantaire-et-epine-de-lenoir"
+        }
+      ]
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://www.physioactif.com/en/guide-complet/fasciite-plantaire-et-epine-de-lenoir#webpage",
+      "datePublished": "2025-09-26",
+      "url": "https://www.physioactif.com/en/guide-complet/fasciite-plantaire-et-epine-de-lenoir",
+      "name": "Fasciite Plantaire Et Epine De Lenoir - Guide Complet | Physioactif",
+      "description": "Guide complet sur fasciite plantaire et epine de lenoir: causes, symptômes, diagnostic et traitements en physiothérapie par les experts de Physioactif.",
+      "mainEntity": {
+        "@id": "https://www.physioactif.com/en/guide-complet/fasciite-plantaire-et-epine-de-lenoir#condition"
+      },
+      "about": {
+        "@id": "https://www.physioactif.com/en/guide-complet/fasciite-plantaire-et-epine-de-lenoir#condition"
+      },
+      "breadcrumb": {
+        "@type": "BreadcrumbList",
+        "@id": "https://www.physioactif.com/en/guide-complet/fasciite-plantaire-et-epine-de-lenoir#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Accueil",
+            "item": "https://www.physioactif.com/en/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Guide Complet",
+            "item": "https://www.physioactif.com/en/guide-complet"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Fasciite Plantaire Et Epine De Lenoir",
+            "item": "https://www.physioactif.com/en/guide-complet/fasciite-plantaire-et-epine-de-lenoir"
+          }
+        ]
+      },
+      "isPartOf": {
+        "@id": "https://www.physioactif.com/en/#website"
+      },
+      "inLanguage": [
+        "en-CA"
+      ],
+      "potentialAction": {
+        "@type": "ReadAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://www.physioactif.com/en/guide-complet/fasciite-plantaire-et-epine-de-lenoir",
+          "actionPlatform": [
+            "http://schema.org/DesktopWebPlatform",
+            "http://schema.org/MobileWebPlatform"
+          ]
+        }
+      },
+      "relatedLink": [
+        "https://physioactif.clinicmaster.com/clinic-selection?lang=fr-CA"
+      ],
+      "publisher": {
+        "@id": "https://www.physioactif.com/en/#org"
+      }
+    }
+  ]
+}

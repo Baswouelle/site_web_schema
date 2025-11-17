@@ -1,0 +1,214 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "VideoObject",
+      "@id": "https://www.physioactif.com/en/videos-dexercise/bascule-du-bassin-assis-neutre-lombaire#video",
+      "name": "Bascule du Bassin Assis Neutre Lombaire - Vidéo Physiothérapie",
+      "description": "Vidéo démonstration professionnelle de l'exercice bascule du bassin assis neutre lombaire par les physiothérapeutes de Physioactif.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/K3Mr_VgtnSk/maxresdefault.jpg",
+      "uploadDate": "2024-01-15",
+      "duration": "PT1M",
+      "publisher": {
+        "@id": "https://www.physioactif.com/en/#org"
+      },
+      "about": [
+        {
+          "@id": "https://www.physioactif.com/en/videos-dexercise/bascule-du-bassin-assis-neutre-lombaire#exercise"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Physiothérapie",
+          "alternateName": [
+            "Physical therapy",
+            "Kinésithérapie",
+            "Fisioterapia"
+          ],
+          "sameAs": [
+            "https://www.physioactif.com/en/guide-complet/physiotherapie",
+            "https://www.wikidata.org/wiki/Q186005",
+            "https://en.wikipedia.org/wiki/Physical_therapy",
+            "https://fr.wikipedia.org/wiki/Kinésithérapie",
+            "https://meshb.nlm.nih.gov/record/ui?ui=D026761",
+            "https://www.merriam-webster.com/dictionary/physiotherapy",
+            "https://www.britannica.com/topic/physical-therapy"
+          ]
+        }
+      ],
+      "embedUrl": "https://www.youtube.com/embed/K3Mr_VgtnSk",
+      "contentUrl": "https://www.youtube.com/watch?v=K3Mr_VgtnSk"
+    },
+    {
+      "@type": "ExercisePlan",
+      "@id": "https://www.physioactif.com/en/videos-dexercise/bascule-du-bassin-assis-neutre-lombaire#exercise",
+      "name": "Bascule du Bassin Assis Neutre Lombaire",
+      "description": "Exercice thérapeutique pour la région ciblée visant à améliorer la mobilité et la fonction. Particulièrement efficace pour traiter Lombalgie, Arthrose de la hanche (coxarthrose), Bursite de la hanche. Cet exercice aide à corriger les déséquilibres musculaires, améliorer la posture et réduire la douleur. Recommandé dans le cadre d'un programme de réadaptation en physiothérapie.",
+      "category": "Dos",
+      "activityDuration": "PT1M",
+      "exerciseType": "PhysicalActivity",
+      "associatedAnatomicalStructure": {
+        "@type": "AnatomicalStructure",
+        "name": "Dos"
+      },
+      "isPartOf": {
+        "@id": "https://www.physioactif.com/en/#org"
+      },
+      "provider": {
+        "@id": "https://www.physioactif.com/en/#org"
+      },
+      "inLanguage": [
+        "en-CA"
+      ],
+      "url": "https://www.physioactif.com/en/videos-dexercise/bascule-du-bassin-assis-neutre-lombaire",
+      "exerciseRelatedCondition": [
+        {
+          "@id": "https://www.physioactif.com/en/guide-complet/lombalgie#condition"
+        },
+        {
+          "@id": "https://www.physioactif.com/en/guide-complet/arthrose-de-la-hanche-coxarthrose#condition"
+        },
+        {
+          "@id": "https://www.physioactif.com/en/guide-complet/bursite-de-la-hanche#condition"
+        },
+        {
+          "@id": "https://www.physioactif.com/en/guide-complet/conflit-femoro-acetabulaire#condition"
+        },
+        {
+          "@id": "https://www.physioactif.com/en/guide-complet/tendinite-ou-tendinopathie-des-muscles-fessiers#condition"
+        }
+      ],
+      "targetArea": [
+        {
+          "@type": "AnatomicalStructure",
+          "name": "Lumbar spine"
+        },
+        {
+          "@type": "AnatomicalStructure",
+          "name": "Thoracic spine"
+        }
+      ],
+      "intensity": {
+        "@type": "QuantitativeValue",
+        "value": "Beginner to Intermediate",
+        "description": "Débutant à intermédiaire - Convient à la plupart des patients"
+      },
+      "repetitions": {
+        "@type": "QuantitativeValue",
+        "value": "3-5",
+        "unitText": "répétitions par côté"
+      },
+      "restPeriods": "PT30S",
+      "workload": {
+        "@type": "Energy",
+        "value": "Light to moderate"
+      }
+    },
+    {
+      "@type": "MedicalWebPage",
+      "@id": "https://www.physioactif.com/en/videos-dexercise/bascule-du-bassin-assis-neutre-lombaire#webpage",
+      "datePublished": "2025-09-26",
+      "name": "Bascule du Bassin Assis Neutre Lombaire - Vidéo d'exercice",
+      "headline": "Bascule du Bassin Assis Neutre Lombaire - Exercice de physiothérapie en vidéo | Physioactif",
+      "description": "Exercice thérapeutique pour la région ciblée visant à améliorer la mobilité et la fonction. Particulièrement efficace pour traiter Lombalgie, Arthrose de la hanche (coxarthrose), Bursite de la hanche. Cet exercice aide à corriger les déséquilibres musculaires, améliorer la posture et réduire la douleur. Recommandé dans le cadre d'un programme de réadaptation en physiothérapie.",
+      "about": [
+        {
+          "@id": "https://www.physioactif.com/en/videos-dexercise/bascule-du-bassin-assis-neutre-lombaire#exercise"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Physiothérapie",
+          "alternateName": [
+            "Physical therapy",
+            "Kinésithérapie",
+            "Fisioterapia"
+          ],
+          "sameAs": [
+            "https://www.physioactif.com/en/guide-complet/physiotherapie",
+            "https://www.wikidata.org/wiki/Q186005",
+            "https://en.wikipedia.org/wiki/Physical_therapy",
+            "https://fr.wikipedia.org/wiki/Kinésithérapie",
+            "https://meshb.nlm.nih.gov/record/ui?ui=D026761",
+            "https://www.merriam-webster.com/dictionary/physiotherapy",
+            "https://www.britannica.com/topic/physical-therapy"
+          ]
+        }
+      ],
+      "mainEntity": {
+        "@id": "https://www.physioactif.com/en/videos-dexercise/bascule-du-bassin-assis-neutre-lombaire#exercise"
+      },
+      "isPartOf": {
+        "@id": "https://www.physioactif.com/en/#website"
+      },
+      "specialty": [
+        "Physiotherapy",
+        "Musculoskeletal",
+        "SportsMedicine"
+      ],
+      "mentions": [
+        {
+          "@type": "DefinedTerm",
+          "name": "Colonne lombaire",
+          "description": "Les cinq vertèbres lombaires (L1-L5) situées entre les vertèbres thoraciques et le sacrum, formant la lordose lombaire de la colonne vertébrale.",
+          "sameAs": [
+            "https://fr.wikipedia.org/wiki/Vertèbre_lombaire",
+            "https://en.wikipedia.org/wiki/Lumbar_vertebrae",
+            "https://www.wikidata.org/wiki/Q405478",
+            "https://meshb.nlm.nih.gov/record/ui?ui=D008159"
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "name": "Colonne thoracique",
+          "description": "Les douze vertèbres thoraciques (T1-T12) situées entre les vertèbres cervicales et lombaires, connectées aux côtes pour former la cage thoracique.",
+          "sameAs": [
+            "https://fr.wikipedia.org/wiki/Vertèbre_thoracique",
+            "https://en.wikipedia.org/wiki/Thoracic_vertebrae",
+            "https://www.wikidata.org/wiki/Q578786",
+            "https://meshb.nlm.nih.gov/record/ui?ui=D013904"
+          ]
+        }
+      ],
+      "inLanguage": [
+        "en-CA"
+      ],
+      "url": "https://www.physioactif.com/en/videos-dexercise/bascule-du-bassin-assis-neutre-lombaire",
+      "breadcrumb": {
+        "@id": "https://www.physioactif.com/en/videos-dexercise/bascule-du-bassin-assis-neutre-lombaire#breadcrumb"
+      },
+      "video": {
+        "@id": "https://www.physioactif.com/en/videos-dexercise/bascule-du-bassin-assis-neutre-lombaire#video"
+      },
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [
+          ".header_heading",
+          ".header_content .text-style-muted",
+          ".section_article .text-rich-text h2"
+        ]
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.physioactif.com/en/videos-dexercise/bascule-du-bassin-assis-neutre-lombaire#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Accueil",
+          "item": "https://www.physioactif.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Vidéos d'exercices",
+          "item": "https://www.physioactif.com/en/videos-exercices"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Bascule du Bassin Assis Neutre Lombaire"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,223 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "VideoObject",
+      "@id": "https://www.physioactif.com/videos-dexercise/mobilisation-du-nerf-femoral-en-pkb-slump#video",
+      "name": "Mobilisation du Nerf Femoral en Pkb Slump - Vidéo Physiothérapie",
+      "description": "Vidéo démonstration professionnelle de l'exercice mobilisation du nerf femoral en pkb slump par les physiothérapeutes de Physioactif.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/xh5SWZqKwEw/maxresdefault.jpg",
+      "uploadDate": "2024-01-15",
+      "duration": "PT1M",
+      "publisher": {
+        "@id": "https://www.physioactif.com/#org"
+      },
+      "about": [
+        {
+          "@id": "https://www.physioactif.com/videos-dexercise/mobilisation-du-nerf-femoral-en-pkb-slump#exercise"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Physiothérapie",
+          "alternateName": [
+            "Physical therapy",
+            "Kinésithérapie",
+            "Fisioterapia"
+          ],
+          "sameAs": [
+            "https://www.physioactif.com/guide-complet/physiotherapie",
+            "https://www.wikidata.org/wiki/Q186005",
+            "https://en.wikipedia.org/wiki/Physical_therapy",
+            "https://fr.wikipedia.org/wiki/Kinésithérapie",
+            "https://meshb.nlm.nih.gov/record/ui?ui=D026761",
+            "https://www.merriam-webster.com/dictionary/physiotherapy",
+            "https://www.britannica.com/topic/physical-therapy"
+          ]
+        }
+      ],
+      "embedUrl": "https://www.youtube.com/embed/xh5SWZqKwEw",
+      "contentUrl": "https://www.youtube.com/watch?v=xh5SWZqKwEw"
+    },
+    {
+      "@type": "ExercisePlan",
+      "@id": "https://www.physioactif.com/videos-dexercise/mobilisation-du-nerf-femoral-en-pkb-slump#exercise",
+      "name": "Mobilisation du Nerf Femoral en Pkb Slump",
+      "description": "Exercice d'étirement spécifique pour la région ciblée visant à améliorer la flexibilité et réduire les tensions musculaires. Particulièrement efficace pour traiter Lombo-sciatalgie, Névralgie de la jambe, Syndrome du tunnel carpien. Cet exercice aide à corriger les déséquilibres musculaires, améliorer la posture et réduire la douleur. Recommandé dans le cadre d'un programme de réadaptation en physiothérapie.",
+      "category": "Hanche, bassin et cuisse",
+      "activityDuration": "PT1M",
+      "exerciseType": "PhysicalActivity",
+      "associatedAnatomicalStructure": {
+        "@type": "AnatomicalStructure",
+        "name": "Hanche, bassin et cuisse"
+      },
+      "isPartOf": {
+        "@id": "https://www.physioactif.com/#org"
+      },
+      "provider": {
+        "@id": "https://www.physioactif.com/#org"
+      },
+      "inLanguage": [
+        "fr-CA"
+      ],
+      "url": "https://www.physioactif.com/videos-dexercise/mobilisation-du-nerf-femoral-en-pkb-slump",
+      "exerciseRelatedCondition": [
+        {
+          "@id": "https://www.physioactif.com/guide-complet/lombo-sciatalgie#condition"
+        },
+        {
+          "@id": "https://www.physioactif.com/guide-complet/nevralgie-de-la-jambe#condition"
+        },
+        {
+          "@id": "https://www.physioactif.com/guide-complet/syndrome-du-tunnel-carpien#condition"
+        }
+      ],
+      "targetArea": [
+        {
+          "@type": "AnatomicalStructure",
+          "name": "Hip"
+        },
+        {
+          "@type": "AnatomicalStructure",
+          "name": "Pelvis"
+        },
+        {
+          "@type": "AnatomicalStructure",
+          "name": "Lumbar spine"
+        }
+      ],
+      "intensity": {
+        "@type": "QuantitativeValue",
+        "value": "Beginner to Intermediate",
+        "description": "Débutant à intermédiaire - Convient à la plupart des patients"
+      },
+      "repetitions": {
+        "@type": "QuantitativeValue",
+        "value": "3-5",
+        "unitText": "répétitions par côté"
+      },
+      "restPeriods": "PT30S",
+      "workload": {
+        "@type": "Energy",
+        "value": "Light to moderate"
+      }
+    },
+    {
+      "@type": "MedicalWebPage",
+      "@id": "https://www.physioactif.com/videos-dexercise/mobilisation-du-nerf-femoral-en-pkb-slump#webpage",
+      "datePublished": "2025-09-26",
+      "name": "Mobilisation du Nerf Femoral en Pkb Slump - Vidéo d'exercice",
+      "headline": "Mobilisation du Nerf Femoral en Pkb Slump - Exercice de physiothérapie en vidéo | Physioactif",
+      "description": "Exercice d'étirement spécifique pour la région ciblée visant à améliorer la flexibilité et réduire les tensions musculaires. Particulièrement efficace pour traiter Lombo-sciatalgie, Névralgie de la jambe, Syndrome du tunnel carpien. Cet exercice aide à corriger les déséquilibres musculaires, améliorer la posture et réduire la douleur. Recommandé dans le cadre d'un programme de réadaptation en physiothérapie.",
+      "about": [
+        {
+          "@id": "https://www.physioactif.com/videos-dexercise/mobilisation-du-nerf-femoral-en-pkb-slump#exercise"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Physiothérapie",
+          "alternateName": [
+            "Physical therapy",
+            "Kinésithérapie",
+            "Fisioterapia"
+          ],
+          "sameAs": [
+            "https://www.physioactif.com/guide-complet/physiotherapie",
+            "https://www.wikidata.org/wiki/Q186005",
+            "https://en.wikipedia.org/wiki/Physical_therapy",
+            "https://fr.wikipedia.org/wiki/Kinésithérapie",
+            "https://meshb.nlm.nih.gov/record/ui?ui=D026761",
+            "https://www.merriam-webster.com/dictionary/physiotherapy",
+            "https://www.britannica.com/topic/physical-therapy"
+          ]
+        }
+      ],
+      "mainEntity": {
+        "@id": "https://www.physioactif.com/videos-dexercise/mobilisation-du-nerf-femoral-en-pkb-slump#exercise"
+      },
+      "mentions": [
+        {
+          "@type": "DefinedTerm",
+          "name": "Bassin",
+          "description": "Région anatomique inférieure du tronc située entre l'abdomen et les membres inférieurs, comprenant les os coxaux, le sacrum et le coccyx",
+          "sameAs": [
+            "https://fr.wikipedia.org/wiki/Bassin_(anatomie)",
+            "https://en.wikipedia.org/wiki/Pelvis",
+            "https://www.wikidata.org/wiki/Q713102",
+            "https://meshb.nlm.nih.gov/record/ui?ui=D010388"
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "name": "Hanche",
+          "description": "Région anatomique située à la jonction entre le membre inférieur et le tronc, centrée sur l'articulation coxo-fémorale",
+          "sameAs": [
+            "https://fr.wikipedia.org/wiki/Hanche",
+            "https://en.wikipedia.org/wiki/Hip",
+            "https://www.wikidata.org/wiki/Q193818",
+            "https://meshb.nlm.nih.gov/record/ui?ui=D006621"
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "name": "Colonne lombaire",
+          "description": "Partie inférieure de la colonne vertébrale comprenant les cinq vertèbres lombaires situées entre les vertèbres thoraciques et le sacrum",
+          "sameAs": [
+            "https://fr.wikipedia.org/wiki/Vertèbre_lombaire",
+            "https://en.wikipedia.org/wiki/Lumbar_vertebrae",
+            "https://www.wikidata.org/wiki/Q66513438",
+            "https://meshb.nlm.nih.gov/record/ui?ui=D008159"
+          ]
+        }
+      ],
+      "isPartOf": {
+        "@id": "https://www.physioactif.com/#website"
+      },
+      "specialty": [
+        "Physiotherapy",
+        "Musculoskeletal",
+        "SportsMedicine"
+      ],
+      "inLanguage": [
+        "fr-CA"
+      ],
+      "url": "https://www.physioactif.com/videos-dexercise/mobilisation-du-nerf-femoral-en-pkb-slump",
+      "breadcrumb": {
+        "@id": "https://www.physioactif.com/videos-dexercise/mobilisation-du-nerf-femoral-en-pkb-slump#breadcrumb"
+      },
+      "video": {
+        "@id": "https://www.physioactif.com/videos-dexercise/mobilisation-du-nerf-femoral-en-pkb-slump#video"
+      },
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [
+          ".header_heading",
+          ".header_content .text-style-muted",
+          ".section_article .text-rich-text h2"
+        ]
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.physioactif.com/videos-dexercise/mobilisation-du-nerf-femoral-en-pkb-slump#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Accueil",
+          "item": "https://www.physioactif.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Vidéos d'exercices",
+          "item": "https://www.physioactif.com/videos-exercices"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Mobilisation du Nerf Femoral en Pkb Slump"
+        }
+      ]
+    }
+  ]
+}

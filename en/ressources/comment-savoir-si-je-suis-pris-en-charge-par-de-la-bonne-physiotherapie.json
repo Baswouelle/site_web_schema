@@ -1,0 +1,91 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "@id": "https://www.physioactif.com/en/ressources/comment-savoir-si-je-suis-pris-en-charge-par-de-la-bonne-physiotherapie/#article",
+      "author": {
+        "@type": "Person",
+        "@id": "https://www.physioactif.com/en/equipe/alexis-gougeon/#person"
+      },
+      "headline": "Physiothérapie de qualité : comment la reconnaître | Physioactif",
+      "description": "Ne perdez plus temps et argent. 7 signes pour identifier des soins de physio efficaces qui vous feront vraiment progresser.",
+      "url": "https://www.physioactif.com/en/ressources/comment-savoir-si-je-suis-pris-en-charge-par-de-la-bonne-physiotherapie/",
+      "inLanguage": [
+        "en-CA"
+      ],
+      "datePublished": "2025-09-26",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://cdn.prod.website-files.com/670e84ccd653d18590687563/physioactif-hero-default.jpg",
+        "width": 1200,
+        "height": 630
+      },
+      "publisher": {
+        "@id": "https://www.physioactif.com/en/#org"
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.physioactif.com/en/ressources/comment-savoir-si-je-suis-pris-en-charge-par-de-la-bonne-physiotherapie/"
+      },
+      "about": {
+        "@type": "PhysicalTherapy",
+        "name": "Physiothérapie"
+      },
+      "articleSection": "Ressources",
+      "keywords": [
+        "qualité physiothérapie",
+        "bonne physiothérapie",
+        "choix physiothérapeute",
+        "compétences physio"
+      ]
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://www.physioactif.com/en/ressources/comment-savoir-si-je-suis-pris-en-charge-par-de-la-bonne-physiotherapie/#webpage",
+      "datePublished": "2025-09-26",
+      "url": "https://www.physioactif.com/en/ressources/comment-savoir-si-je-suis-pris-en-charge-par-de-la-bonne-physiotherapie/",
+      "name": "Physiothérapie de qualité : comment la reconnaître | Physioactif",
+      "description": "Ne perdez plus temps et argent. 7 signes pour identifier des soins de physio efficaces qui vous feront vraiment progresser.",
+      "inLanguage": [
+        "en-CA"
+      ],
+      "isPartOf": {
+        "@id": "https://www.physioactif.com/en/#website"
+      },
+      "mainEntity": {
+        "@id": "https://www.physioactif.com/en/ressources/comment-savoir-si-je-suis-pris-en-charge-par-de-la-bonne-physiotherapie/#article"
+      },
+      "breadcrumb": {
+        "@id": "https://www.physioactif.com/en/ressources/comment-savoir-si-je-suis-pris-en-charge-par-de-la-bonne-physiotherapie/#breadcrumb"
+      },
+      "publisher": {
+        "@id": "https://www.physioactif.com/en/#org"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.physioactif.com/en/ressources/comment-savoir-si-je-suis-pris-en-charge-par-de-la-bonne-physiotherapie/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Accueil",
+          "item": "https://www.physioactif.com/en/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Ressources",
+          "item": "https://www.physioactif.com/en/ressources/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Physiothérapie de qualité : comment la reconnaître",
+          "item": "https://www.physioactif.com/en/ressources/comment-savoir-si-je-suis-pris-en-charge-par-de-la-bonne-physiotherapie/"
+        }
+      ]
+    }
+  ]
+}

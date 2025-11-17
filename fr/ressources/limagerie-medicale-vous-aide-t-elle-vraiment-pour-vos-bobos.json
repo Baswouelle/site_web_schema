@@ -1,0 +1,97 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "@id": "https://www.physioactif.com/ressources/limagerie-medicale-vous-aide-t-elle-vraiment-pour-vos-bobos/#article",
+      "author": {
+        "@type": "Person",
+        "@id": "https://www.physioactif.com/equipe/philippe-paradis/#person"
+      },
+      "headline": "Imagerie médicale : vraiment utile pour vos douleurs ? | Physioactif",
+      "description": "Économisez temps et stress inutiles. Découvrez quand l'imagerie médicale vous aide vraiment et quand elle peut vous nuire.",
+      "url": "https://www.physioactif.com/ressources/limagerie-medicale-vous-aide-t-elle-vraiment-pour-vos-bobos/",
+      "inLanguage": [
+        "fr-CA"
+      ],
+      "datePublished": "2025-09-26",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://cdn.prod.website-files.com/670e84ccd653d18590687563/physioactif-hero-default.jpg",
+        "width": 1200,
+        "height": 630
+      },
+      "publisher": {
+        "@id": "https://www.physioactif.com/#org"
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.physioactif.com/ressources/limagerie-medicale-vous-aide-t-elle-vraiment-pour-vos-bobos/"
+      },
+      "about": {
+        "@type": "PhysicalTherapy",
+        "name": "Physiothérapie"
+      },
+      "articleSection": "Ressources",
+      "keywords": [
+        "imagerie médicale",
+        "radiographie",
+        "IRM",
+        "échographie",
+        "diagnostic"
+      ],
+      "mentions": [
+        {
+          "@id": "https://www.physioactif.com/services/deuxieme-avis-sur-diagnostic-et-traitement/#therapy"
+        }
+      ]
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://www.physioactif.com/ressources/limagerie-medicale-vous-aide-t-elle-vraiment-pour-vos-bobos/#webpage",
+      "datePublished": "2025-09-26",
+      "url": "https://www.physioactif.com/ressources/limagerie-medicale-vous-aide-t-elle-vraiment-pour-vos-bobos/",
+      "name": "Imagerie médicale : vraiment utile pour vos douleurs ? | Physioactif",
+      "description": "Économisez temps et stress inutiles. Découvrez quand l'imagerie médicale vous aide vraiment et quand elle peut vous nuire.",
+      "inLanguage": [
+        "fr-CA"
+      ],
+      "isPartOf": {
+        "@id": "https://www.physioactif.com/#website"
+      },
+      "mainEntity": {
+        "@id": "https://www.physioactif.com/ressources/limagerie-medicale-vous-aide-t-elle-vraiment-pour-vos-bobos/#article"
+      },
+      "breadcrumb": {
+        "@id": "https://www.physioactif.com/ressources/limagerie-medicale-vous-aide-t-elle-vraiment-pour-vos-bobos/#breadcrumb"
+      },
+      "publisher": {
+        "@id": "https://www.physioactif.com/#org"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.physioactif.com/ressources/limagerie-medicale-vous-aide-t-elle-vraiment-pour-vos-bobos/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Accueil",
+          "item": "https://www.physioactif.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Ressources",
+          "item": "https://www.physioactif.com/ressources/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Imagerie médicale : vraiment utile pour vos douleurs ?",
+          "item": "https://www.physioactif.com/ressources/limagerie-medicale-vous-aide-t-elle-vraiment-pour-vos-bobos/"
+        }
+      ]
+    }
+  ]
+}

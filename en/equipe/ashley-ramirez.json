@@ -1,0 +1,87 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@id": "https://www.physioactif.com/en/equipe/ashley-ramirez/#person",
+      "@type": "Person",
+      "name": "Ashley Ramirez",
+      "url": "https://www.physioactif.com/en/equipe/ashley-ramirez/",
+      "jobTitle": "Coordonnatrice",
+      "description": "Ashley Ramirez is a coordinator at Physioactif's Saint-Eustache clinic, managing patient scheduling and administrative operations.",
+      "image": {
+        "@type": "ImageObject",
+        "contentUrl": "https://www.physioactif.com/en/wp-content/uploads/placeholder-ashley-ramirez.jpg",
+        "name": "Ashley Ramirez"
+      },
+      "worksFor": {
+        "@id": "https://www.physioactif.com/en/#org"
+      },
+      "isPartOf": "https://www.physioactif.com/en/#website",
+      "workLocation": {
+        "@type": "MedicalClinic",
+        "@id": "https://www.physioactif.com/en/clinique/physioactif-st-eustache-physiotherapie/#clinic"
+      },
+      "knowsLanguage": [
+        {
+          "@type": "Language",
+          "name": "French"
+        },
+        {
+          "@type": "Language",
+          "name": "English"
+        }
+      ],
+      "about": [
+        {
+          "@type": "Person",
+          "@id": "https://www.physioactif.com/en/equipe/ashley-ramirez/#person"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Physiothérapie",
+          "alternateName": [
+            "Physical therapy",
+            "Kinésithérapie",
+            "Fisioterapia"
+          ],
+          "sameAs": [
+            "https://www.physioactif.com/en/guide-complet/physiotherapie",
+            "https://www.wikidata.org/wiki/Q186005",
+            "https://en.wikipedia.org/wiki/Physical_therapy",
+            "https://fr.wikipedia.org/wiki/Kinésithérapie",
+            "https://meshb.nlm.nih.gov/record/ui?ui=D026761",
+            "https://www.merriam-webster.com/dictionary/physiotherapy",
+            "https://www.britannica.com/topic/physical-therapy"
+          ]
+        }
+      ],
+      "knowsAbout": [
+        "Physiotherapy"
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.physioactif.com/en/equipe/ashley-ramirez/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Accueil",
+          "item": "https://www.physioactif.com/en/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Équipe",
+          "item": "https://www.physioactif.com/en/equipe/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Ashley Ramirez",
+          "item": "https://www.physioactif.com/en/equipe/ashley-ramirez"
+        }
+      ]
+    }
+  ]
+}

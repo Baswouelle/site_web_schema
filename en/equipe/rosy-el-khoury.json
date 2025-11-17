@@ -1,0 +1,203 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@id": "https://www.physioactif.com/en/equipe/rosy-el-khoury/#person",
+      "@type": "Person",
+      "name": "Rosy El-Khoury",
+      "url": "https://www.physioactif.com/en/equipe/rosy-el-khoury/",
+      "description": "Rosy El-Khoury is a physiotherapist specializing in traumatic pain, sports injuries, and vestibular disorders. As a Fellow of the Canadian Academy of Manipulative Physiotherapy (FCAMPT) and certified sports physiotherapist, she combines advanced clinical expertise with leadership roles in the Canadian Physiotherapy Association's Orthopaedic Division.",
+      "jobTitle": "Physiothérapeute, FCAMPT, Physiothérapeute du sport",
+      "image": {
+        "@type": "ImageObject",
+        "contentUrl": "https://www.physioactif.com/en/wp-content/uploads/placeholder-rosy.jpg",
+        "name": "Rosy El-Khoury",
+        "description": "Professional portrait of Rosy El-Khoury, physiotherapist"
+      },
+      "alumniOf": {
+        "@type": "CollegeOrUniversity",
+        "name": "University of Ottawa",
+        "sameAs": "https://www.uottawa.ca/"
+      },
+      "hasCredential": [
+        {
+          "@type": "EducationalOccupationalCredential",
+          "name": "Licensed Physiotherapist",
+          "credentialCategory": "Professional License",
+          "identifier": "P18327",
+          "url": "https://oppq.qc.ca/professionnels/54936/el-khoury/rosy/",
+          "dateCreated": "2018",
+          "recognizedBy": {
+            "@type": "Organization",
+            "name": "Ordre professionnel de la physiothérapie du Québec (OPPQ)",
+            "sameAs": "https://oppq.qc.ca/"
+          }
+        },
+        {
+          "@type": "EducationalOccupationalCredential",
+          "name": "Fellow of the Canadian Academy of Manipulative Physiotherapy (FCAMPT)",
+          "credentialCategory": "Professional Certification",
+          "recognizedBy": {
+            "@type": "Organization",
+            "name": "Canadian Academy of Manipulative Physiotherapy",
+            "sameAs": "https://manippt.org/"
+          },
+          "dateCreated": "2023"
+        },
+        {
+          "@type": "EducationalOccupationalCredential",
+          "name": "Sports Physiotherapist Certificate",
+          "credentialCategory": "Professional Certification",
+          "recognizedBy": {
+            "@type": "Organization",
+            "name": "Canadian Physiotherapy Association"
+          },
+          "dateCreated": "2022"
+        },
+        {
+          "@type": "EducationalOccupationalCredential",
+          "name": "Clinical Master's in Advanced Practice",
+          "credentialCategory": "Graduate Certificate",
+          "recognizedBy": {
+            "@type": "CollegeOrUniversity",
+            "name": "Université de Montréal"
+          },
+          "dateCreated": "2023"
+        },
+        {
+          "@type": "EducationalOccupationalCredential",
+          "name": "Master's in Kinesiology",
+          "credentialCategory": "Graduate Degree",
+          "recognizedBy": {
+            "@type": "CollegeOrUniversity",
+            "name": "Université de Montréal"
+          },
+          "dateCreated": "2015"
+        }
+      ],
+      "memberOf": [
+        {
+          "@type": "Organization",
+          "name": "Ordre professionnel de la physiothérapie du Québec (OPPQ)",
+          "sameAs": "https://oppq.qc.ca/"
+        },
+        {
+          "@type": "Organization",
+          "name": "Canadian Physiotherapy Association (ACP)",
+          "sameAs": "https://physiotherapy.ca/"
+        },
+        {
+          "@type": "Organization",
+          "name": "Canadian Academy of Manipulative Physiotherapy (CAMPT)",
+          "sameAs": "https://manippt.org/"
+        }
+      ],
+      "hasOccupation": {
+        "@type": "Occupation",
+        "name": "Physiotherapist",
+        "occupationLocation": {
+          "@type": "AdministrativeArea",
+          "name": "Laval",
+          "sameAs": "https://en.wikipedia.org/wiki/Laval,_Quebec"
+        },
+        "occupationalCategory": "3142",
+        "educationRequirements": "Master's degree in Physiotherapy",
+        "experienceRequirements": "Licensed by OPPQ since 2018",
+        "qualifications": "Licensed physiotherapist in Quebec (OPPQ #P18327), FCAMPT, Sports Physiotherapy Certificate",
+        "skills": [
+          "Sports Physiotherapy",
+          "Traumatic Pain Management",
+          "Vestibular Rehabilitation",
+          "Running Injury Prevention",
+          "Manual Therapy",
+          "Advanced Clinical Practice"
+        ]
+      },
+      "knowsAbout": [
+        "Physiotherapy",
+        "Sports Physiotherapy",
+        "Traumatic Pain",
+        "Sports Injuries",
+        "Vestibular Disorders",
+        "Running Injury Prevention",
+        "Manual Therapy",
+        "Concussion Management",
+        "Advanced Clinical Practice"
+      ],
+      "knowsLanguage": [
+        {
+          "@type": "Language",
+          "name": "French"
+        },
+        {
+          "@type": "Language",
+          "name": "English"
+        }
+      ],
+      "worksFor": {
+        "@id": "https://www.physioactif.com/en/#org"
+      },
+      "isPartOf": "https://www.physioactif.com/en/#website",
+      "workLocation": {
+        "@type": "MedicalClinic",
+        "@id": "https://www.physioactif.com/en/clinique/physioactif-chomedey/#clinic"
+      },
+      "sameAs": [
+        "http://g.co/kg/g/11x5xxrqyk",
+        "https://www.linkedin.com/in/rosy-el-khoury",
+        "https://oppq.qc.ca/professionnels/54936/el-khoury/rosy/"
+      ],
+      "additionalType": [
+        "https://schema.org/Physician"
+      ],
+      "about": [
+        {
+          "@type": "Person",
+          "@id": "https://www.physioactif.com/en/equipe/rosy-el-khoury/#person"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Physiothérapie",
+          "alternateName": [
+            "Physical therapy",
+            "Kinésithérapie",
+            "Fisioterapia"
+          ],
+          "sameAs": [
+            "https://www.physioactif.com/en/guide-complet/physiotherapie",
+            "https://www.wikidata.org/wiki/Q186005",
+            "https://en.wikipedia.org/wiki/Physical_therapy",
+            "https://fr.wikipedia.org/wiki/Kinésithérapie",
+            "https://meshb.nlm.nih.gov/record/ui?ui=D026761",
+            "https://www.merriam-webster.com/dictionary/physiotherapy",
+            "https://www.britannica.com/topic/physical-therapy"
+          ]
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.physioactif.com/en/equipe/rosy-el-khoury/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Accueil",
+          "item": "https://www.physioactif.com/en/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Équipe",
+          "item": "https://www.physioactif.com/en/equipe/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Rosy El-Khoury",
+          "item": "https://www.physioactif.com/en/equipe/rosy-el-khoury"
+        }
+      ]
+    }
+  ]
+}

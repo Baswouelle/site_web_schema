@@ -1,0 +1,226 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "MedicalCondition",
+      "@id": "https://www.physioactif.com/guide-complet/tendinite-calcifiante-a-lepaule#condition",
+      "name": "Tendinite calcifiante de l'épaule",
+      "alternateName": [
+        "Calcific tendinitis",
+        "Calcifying tendinitis of rotator cuff",
+        "Tendinitis calcarea"
+      ],
+      "description": "La tendinite calcifiante est une maladie auto-limitée caractérisée par le dépôt de cristaux de phosphate de calcium dans les tendons de la coiffe des rotateurs. Les dépôts de tendinite calcifiante peuvent se produire à plusieurs endroits dans le corps, mais sont de loin les plus courants dans la coiffe des rotateurs de l'épaule. Le site le plus commun est 1,5-2 cm de distance du site d'insertion du tendon du supra-épineux sur la grande tubérosité, le tendon du supra-épineux étant le plus fréquemment affecté. Elle survient le plus souvent entre 30 et 50 ans et est rare chez les plus de 70 ans. Environ 80% des personnes ayant des dépôts éprouvent des symptômes, généralement une douleur chronique lors de certains mouvements de l'épaule, ou une douleur aiguë intense qui s'aggrave la nuit. La prise en charge non opératoire réussit chez jusqu'à 90% des patients.",
+      "code": [
+        {
+          "@type": "MedicalCode",
+          "code": "M75.3",
+          "codingSystem": "ICD-10"
+        },
+        {
+          "@type": "MedicalCode",
+          "code": "D002114",
+          "codingSystem": "MeSH"
+        }
+      ],
+      "sameAs": [
+        "https://fr.wikipedia.org/wiki/Tendinite_calcifiante",
+        "https://en.wikipedia.org/wiki/Calcific_tendinitis",
+        "https://www.wikidata.org/wiki/Q1522871",
+        "https://meshb.nlm.nih.gov/record/ui?ui=D002114",
+        "http://snomed.info/id/95414005"
+      ],
+      "possibleTreatment": {
+        "@type": "MedicalTherapy",
+        "name": "Physiothérapie",
+        "alternateName": [
+          "Physical therapy",
+          "Kinésithérapie",
+          "Fisioterapia"
+        ],
+        "sameAs": [
+          "https://www.physioactif.com/guide-complet/physiotherapie",
+          "https://www.wikidata.org/wiki/Q186005",
+          "https://en.wikipedia.org/wiki/Physical_therapy",
+          "https://fr.wikipedia.org/wiki/Kinésithérapie",
+          "https://meshb.nlm.nih.gov/record/ui?ui=D026761",
+          "https://www.merriam-webster.com/dictionary/physiotherapy",
+          "https://www.britannica.com/topic/physical-therapy"
+        ]
+      }
+    },
+    {
+      "@type": "MedicalWebPage",
+      "@id": "https://www.physioactif.com/guide-complet/tendinite-calcifiante-a-lepaule#article",
+      "author": {
+        "@type": "Person",
+        "@id": "https://www.physioactif.com/equipe/ariel-desjardins-charbonneau/#person"
+      },
+      "datePublished": "2025-09-26",
+      "name": "Tendinite Calcifiante A Lepaule - Guide Complet",
+      "headline": "Tendinite Calcifiante A Lepaule: Symptômes, Causes, Diagnostic et Traitement en Physiothérapie",
+      "about": [
+        {
+          "@id": "https://www.physioactif.com/guide-complet/tendinite-calcifiante-a-lepaule#condition"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Physiothérapie",
+          "alternateName": [
+            "Physical therapy",
+            "Kinésithérapie",
+            "Fisioterapia"
+          ],
+          "sameAs": [
+            "https://www.physioactif.com/guide-complet/physiotherapie",
+            "https://www.wikidata.org/wiki/Q186005",
+            "https://en.wikipedia.org/wiki/Physical_therapy",
+            "https://fr.wikipedia.org/wiki/Kinésithérapie",
+            "https://meshb.nlm.nih.gov/record/ui?ui=D026761",
+            "https://www.merriam-webster.com/dictionary/physiotherapy",
+            "https://www.britannica.com/topic/physical-therapy"
+          ]
+        }
+      ],
+      "mainEntity": {
+        "@id": "https://www.physioactif.com/guide-complet/tendinite-calcifiante-a-lepaule#condition"
+      },
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [
+          ".header_heading",
+          ".header_content .text-style-muted.w-richtext",
+          ".section_article .text-rich-text h2"
+        ]
+      },
+      "specialty": [
+        "Physiotherapy",
+        "Musculoskeletal",
+        "SportsMedicine"
+      ],
+      "medicalAudience": [
+        {
+          "@type": "Patient"
+        },
+        {
+          "@type": "MedicalAudience",
+          "audienceType": "General Public"
+        }
+      ],
+      "reviewedBy": {
+        "@id": "https://www.physioactif.com/#org"
+      },
+      "provider": {
+        "@id": "https://www.physioactif.com/#org"
+      },
+      "inLanguage": [
+        "fr-CA"
+      ],
+      "isPartOf": {
+        "@id": "https://www.physioactif.com/#website"
+      },
+      "mentions": [
+        {
+          "@type": "MedicalTherapy",
+          "name": "Physiothérapie",
+          "alternateName": [
+            "Physical therapy",
+            "Kinésithérapie",
+            "Fisioterapia"
+          ],
+          "sameAs": [
+            "https://www.physioactif.com/guide-complet/physiotherapie",
+            "https://www.wikidata.org/wiki/Q186005",
+            "https://en.wikipedia.org/wiki/Physical_therapy",
+            "https://fr.wikipedia.org/wiki/Kinésithérapie",
+            "https://meshb.nlm.nih.gov/record/ui?ui=D026761",
+            "https://www.merriam-webster.com/dictionary/physiotherapy",
+            "https://www.britannica.com/topic/physical-therapy"
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "name": "Conflit sous-acromial",
+          "description": "Condition musculosquelettique affectant conflit sous-acromial",
+          "sameAs": [
+            "https://en.wikipedia.org/wiki/Shoulder_impingement_syndrome",
+            "https://www.wikidata.org/wiki/Q1758866",
+            "https://meshb.nlm.nih.gov/record/ui?ui=D019534"
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "name": "Capsulite adhésive (Frozen shoulder)",
+          "description": "Raideur et limitation de mouvement de l'épaule",
+          "sameAs": [
+            "https://fr.wikipedia.org/wiki/Capsulite_rétractile_de_l'épaule",
+            "https://en.wikipedia.org/wiki/Adhesive_capsulitis_of_the_shoulder",
+            "https://www.wikidata.org/wiki/Q52854",
+            "https://meshb.nlm.nih.gov/record/ui?ui=D000925"
+          ]
+        }
+      ]
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://www.physioactif.com/guide-complet/tendinite-calcifiante-a-lepaule#webpage",
+      "datePublished": "2025-09-26",
+      "url": "https://www.physioactif.com/guide-complet/tendinite-calcifiante-a-lepaule",
+      "name": "Tendinite Calcifiante A Lepaule - Guide Complet | Physioactif",
+      "description": "Guide complet sur tendinite calcifiante a lepaule: causes, symptômes, diagnostic et traitements en physiothérapie par les experts de Physioactif.",
+      "mainEntity": {
+        "@id": "https://www.physioactif.com/guide-complet/tendinite-calcifiante-a-lepaule#condition"
+      },
+      "about": {
+        "@id": "https://www.physioactif.com/guide-complet/tendinite-calcifiante-a-lepaule#condition"
+      },
+      "breadcrumb": {
+        "@type": "BreadcrumbList",
+        "@id": "https://www.physioactif.com/guide-complet/tendinite-calcifiante-a-lepaule#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Accueil",
+            "item": "https://www.physioactif.com/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Guide Complet",
+            "item": "https://www.physioactif.com/guide-complet"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Tendinite Calcifiante A Lepaule",
+            "item": "https://www.physioactif.com/guide-complet/tendinite-calcifiante-a-lepaule"
+          }
+        ]
+      },
+      "isPartOf": {
+        "@id": "https://www.physioactif.com/#website"
+      },
+      "inLanguage": [
+        "fr-CA"
+      ],
+      "potentialAction": {
+        "@type": "ReadAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://www.physioactif.com/guide-complet/tendinite-calcifiante-a-lepaule",
+          "actionPlatform": [
+            "http://schema.org/DesktopWebPlatform",
+            "http://schema.org/MobileWebPlatform"
+          ]
+        }
+      },
+      "relatedLink": [
+        "https://physioactif.clinicmaster.com/clinic-selection?lang=fr-CA"
+      ],
+      "publisher": {
+        "@id": "https://www.physioactif.com/#org"
+      }
+    }
+  ]
+}

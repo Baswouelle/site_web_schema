@@ -1,0 +1,94 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@id": "https://www.physioactif.com/en/services/reeducation-vestibulaire-pour-vertiges-et-etourdissements/#therapy"
+    },
+    {
+      "@id": "https://www.physioactif.com/en/services/reeducation-vestibulaire-pour-vertiges-et-etourdissements/#offer"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://www.physioactif.com/en/services/reeducation-vestibulaire-pour-vertiges-et-etourdissements/#webpage",
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [
+          ".header_heading",
+          ".max-width-medium .text-style-muted"
+        ]
+      },
+      "datePublished": "2025-09-26",
+      "url": "https://www.physioactif.com/en/services/reeducation-vestibulaire-pour-vertiges-et-etourdissements/",
+      "name": "Physio vestibulaire, formé pour les vertiges et étourdissements",
+      "description": "Éliminez vos vertiges . Formés spécialement pour ça nos physio vous aident pour pour retrouver votre équilibre et votre confiance.",
+      "author": {
+        "@type": "Person",
+        "@id": "https://www.physioactif.com/en/equipe/claudine-farah/#person"
+      },
+      "inLanguage": [
+        "en-CA"
+      ],
+      "isPartOf": {
+        "@id": "https://www.physioactif.com/en/#website"
+      },
+      "mainEntity": {
+        "@id": "https://www.physioactif.com/en/services/reeducation-vestibulaire-pour-vertiges-et-etourdissements/#therapy"
+      },
+      "breadcrumb": {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Accueil",
+            "item": "https://www.physioactif.com/en/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Services",
+            "item": "https://www.physioactif.com/en/services/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Physio vestibulaire, formé pour les vertiges et étourdissements",
+            "item": "https://www.physioactif.com/en/services/reeducation-vestibulaire-pour-vertiges-et-etourdissements/"
+          }
+        ]
+      },
+      "about": [
+        {
+          "@type": "MedicalTherapy",
+          "name": "Rééducation vestibulaire",
+          "description": "Thérapie spécialisée pour traiter les troubles d'équilibre, vertiges et étourdissements d'origine vestibulaire, incluant manœuvres de repositionnement et exercices d'adaptation.",
+          "sameAs": [
+            "https://en.wikipedia.org/wiki/Vestibular_rehabilitation",
+            "https://www.wikidata.org/wiki/Q60742850"
+          ]
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Physiothérapie",
+          "alternateName": [
+            "Physical therapy",
+            "Kinésithérapie",
+            "Fisioterapia"
+          ],
+          "sameAs": [
+            "https://www.physioactif.com/en/guide-complet/physiotherapie",
+            "https://www.wikidata.org/wiki/Q186005",
+            "https://en.wikipedia.org/wiki/Physical_therapy",
+            "https://fr.wikipedia.org/wiki/Kinésithérapie",
+            "https://meshb.nlm.nih.gov/record/ui?ui=D026761",
+            "https://www.merriam-webster.com/dictionary/physiotherapy",
+            "https://www.britannica.com/topic/physical-therapy"
+          ]
+        }
+      ],
+      "publisher": {
+        "@id": "https://www.physioactif.com/en/#org"
+      }
+    }
+  ]
+}

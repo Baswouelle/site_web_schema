@@ -1,0 +1,214 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "MedicalCondition",
+      "@id": "https://www.physioactif.com/en/guide-complet/entorse-au-pouce-pouce-du-skieur-ou-du-doigt#condition",
+      "name": "Entorse au pouce, pouce du skieur ou du doigt",
+      "alternateName": [
+        "Skier's thumb",
+        "Gamekeeper's thumb",
+        "UCL injury of thumb"
+      ],
+      "description": "L'entorse du pouce du skieur (ou pouce du garde-chasse) est une lésion aiguë ou chronique du ligament collatéral ulnaire de l'articulation métacarpo-phalangienne du pouce, causée par une hyperabduction traumatique lors d'une chute avec le bâton de ski en main ou par des stress répétés. Cette blessure provoque une instabilité de l'articulation, une douleur marquée et une faiblesse de la pince du pouce, affectant significativement la fonction globale de la main.",
+      "code": [
+        {
+          "@type": "MedicalCode",
+          "code": "S63.64",
+          "codingSystem": "ICD-10"
+        },
+        {
+          "@type": "MedicalCode",
+          "code": "D013180",
+          "codingSystem": "MeSH"
+        }
+      ],
+      "sameAs": [
+        "https://en.wikipedia.org/wiki/Ulnar_collateral_ligament_injury_of_the_thumb",
+        "https://www.wikidata.org/wiki/Q1443565",
+        "http://id.nlm.nih.gov/mesh/D013180"
+      ],
+      "possibleTreatment": {
+        "@type": "MedicalTherapy",
+        "name": "Physiothérapie",
+        "alternateName": [
+          "Physical therapy",
+          "Kinésithérapie",
+          "Fisioterapia"
+        ],
+        "sameAs": [
+          "https://www.physioactif.com/en/guide-complet/physiotherapie",
+          "https://www.wikidata.org/wiki/Q186005",
+          "https://en.wikipedia.org/wiki/Physical_therapy",
+          "https://fr.wikipedia.org/wiki/Kinésithérapie",
+          "https://meshb.nlm.nih.gov/record/ui?ui=D026761",
+          "https://www.merriam-webster.com/dictionary/physiotherapy",
+          "https://www.britannica.com/topic/physical-therapy"
+        ]
+      }
+    },
+    {
+      "@type": "MedicalWebPage",
+      "@id": "https://www.physioactif.com/en/guide-complet/entorse-au-pouce-pouce-du-skieur-ou-du-doigt#article",
+      "author": {
+        "@type": "Person",
+        "@id": "https://www.physioactif.com/en/equipe/ariel-desjardins-charbonneau/#person"
+      },
+      "datePublished": "2025-09-26",
+      "name": "Entorse Au Pouce Pouce Du Skieur Ou Du Doigt - Guide Complet",
+      "headline": "Entorse Au Pouce Pouce Du Skieur Ou Du Doigt: Symptômes, Causes, Diagnostic et Traitement en Physiothérapie",
+      "about": [
+        {
+          "@id": "https://www.physioactif.com/en/guide-complet/entorse-au-pouce-pouce-du-skieur-ou-du-doigt#condition"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Physiothérapie",
+          "alternateName": [
+            "Physical therapy",
+            "Kinésithérapie",
+            "Fisioterapia"
+          ],
+          "sameAs": [
+            "https://www.physioactif.com/en/guide-complet/physiotherapie",
+            "https://www.wikidata.org/wiki/Q186005",
+            "https://en.wikipedia.org/wiki/Physical_therapy",
+            "https://fr.wikipedia.org/wiki/Kinésithérapie",
+            "https://meshb.nlm.nih.gov/record/ui?ui=D026761",
+            "https://www.merriam-webster.com/dictionary/physiotherapy",
+            "https://www.britannica.com/topic/physical-therapy"
+          ]
+        }
+      ],
+      "mainEntity": {
+        "@id": "https://www.physioactif.com/en/guide-complet/entorse-au-pouce-pouce-du-skieur-ou-du-doigt#condition"
+      },
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [
+          ".header_heading",
+          ".header_content .text-style-muted.w-richtext",
+          ".section_article .text-rich-text h2"
+        ]
+      },
+      "specialty": [
+        "Physiotherapy",
+        "Musculoskeletal",
+        "SportsMedicine"
+      ],
+      "medicalAudience": [
+        {
+          "@type": "Patient"
+        },
+        {
+          "@type": "MedicalAudience",
+          "audienceType": "General Public"
+        }
+      ],
+      "reviewedBy": {
+        "@id": "https://www.physioactif.com/en/#org"
+      },
+      "provider": {
+        "@id": "https://www.physioactif.com/en/#org"
+      },
+      "inLanguage": [
+        "en-CA"
+      ],
+      "isPartOf": {
+        "@id": "https://www.physioactif.com/en/#website"
+      },
+      "mentions": [
+        {
+          "@type": "MedicalTherapy",
+          "name": "Physiothérapie",
+          "alternateName": [
+            "Physical therapy",
+            "Kinésithérapie",
+            "Fisioterapia"
+          ],
+          "sameAs": [
+            "https://www.physioactif.com/en/guide-complet/physiotherapie",
+            "https://www.wikidata.org/wiki/Q186005",
+            "https://en.wikipedia.org/wiki/Physical_therapy",
+            "https://fr.wikipedia.org/wiki/Kinésithérapie",
+            "https://meshb.nlm.nih.gov/record/ui?ui=D026761",
+            "https://www.merriam-webster.com/dictionary/physiotherapy",
+            "https://www.britannica.com/topic/physical-therapy"
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "name": "Entorse au pouce (pouce du skieur)",
+          "description": "Une entorse au pouce, aussi appelée 'pouce du skieur', est une lésion du ligament collatéral ulnaire de l'articulation métacarpo-phalangienne du pouce, causée par une hyperextension ou abduction forcée.",
+          "sameAs": [
+            "https://fr.wikipedia.org/wiki/Entorse",
+            "https://en.wikipedia.org/wiki/Skier%27s_thumb",
+            "https://www.wikidata.org/wiki/Q7535539",
+            "https://www.merriam-webster.com/dictionary/sprain"
+          ]
+        }
+      ]
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://www.physioactif.com/en/guide-complet/entorse-au-pouce-pouce-du-skieur-ou-du-doigt#webpage",
+      "datePublished": "2025-09-26",
+      "url": "https://www.physioactif.com/en/guide-complet/entorse-au-pouce-pouce-du-skieur-ou-du-doigt",
+      "name": "Entorse Au Pouce Pouce Du Skieur Ou Du Doigt - Guide Complet | Physioactif",
+      "description": "Guide complet sur entorse au pouce pouce du skieur ou du doigt: causes, symptômes, diagnostic et traitements en physiothérapie par les experts de Physioactif.",
+      "mainEntity": {
+        "@id": "https://www.physioactif.com/en/guide-complet/entorse-au-pouce-pouce-du-skieur-ou-du-doigt#condition"
+      },
+      "about": {
+        "@id": "https://www.physioactif.com/en/guide-complet/entorse-au-pouce-pouce-du-skieur-ou-du-doigt#condition"
+      },
+      "breadcrumb": {
+        "@type": "BreadcrumbList",
+        "@id": "https://www.physioactif.com/en/guide-complet/entorse-au-pouce-pouce-du-skieur-ou-du-doigt#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Accueil",
+            "item": "https://www.physioactif.com/en/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Guide Complet",
+            "item": "https://www.physioactif.com/en/guide-complet"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Entorse Au Pouce Pouce Du Skieur Ou Du Doigt",
+            "item": "https://www.physioactif.com/en/guide-complet/entorse-au-pouce-pouce-du-skieur-ou-du-doigt"
+          }
+        ]
+      },
+      "isPartOf": {
+        "@id": "https://www.physioactif.com/en/#website"
+      },
+      "inLanguage": [
+        "en-CA"
+      ],
+      "potentialAction": {
+        "@type": "ReadAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://www.physioactif.com/en/guide-complet/entorse-au-pouce-pouce-du-skieur-ou-du-doigt",
+          "actionPlatform": [
+            "http://schema.org/DesktopWebPlatform",
+            "http://schema.org/MobileWebPlatform"
+          ]
+        }
+      },
+      "relatedLink": [
+        "https://physioactif.clinicmaster.com/clinic-selection?lang=fr-CA"
+      ],
+      "publisher": {
+        "@id": "https://www.physioactif.com/en/#org"
+      }
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "@id": "https://www.physioactif.com/ressources/trouvez-votre-physio-parfait-en-4-etapes-faciles/#article",
+      "author": {
+        "@type": "Person",
+        "@id": "https://www.physioactif.com/equipe/philippe-paradis/#person"
+      },
+      "headline": "Choix du physiothérapeute : 4 étapes pour trouver la bonne personne | Physioactif",
+      "description": "Trouvez votre physio idéal en 4 étapes. Méthode simple pour dénicher la personne qui vous comprendra et vous guérira.",
+      "url": "https://www.physioactif.com/ressources/trouvez-votre-physio-parfait-en-4-etapes-faciles/",
+      "inLanguage": [
+        "fr-CA"
+      ],
+      "datePublished": "2025-09-26",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://cdn.prod.website-files.com/670e84ccd653d18590687563/physioactif-hero-default.jpg",
+        "width": 1200,
+        "height": 630
+      },
+      "publisher": {
+        "@id": "https://www.physioactif.com/#org"
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.physioactif.com/ressources/trouvez-votre-physio-parfait-en-4-etapes-faciles/"
+      },
+      "about": {
+        "@type": "PhysicalTherapy",
+        "name": "Physiothérapie"
+      },
+      "articleSection": "Ressources",
+      "keywords": [
+        "choisir physiothérapeute",
+        "trouver physio",
+        "sélection physiothérapie",
+        "critères choix"
+      ]
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://www.physioactif.com/ressources/trouvez-votre-physio-parfait-en-4-etapes-faciles/#webpage",
+      "datePublished": "2025-09-26",
+      "url": "https://www.physioactif.com/ressources/trouvez-votre-physio-parfait-en-4-etapes-faciles/",
+      "name": "Choix du physiothérapeute : 4 étapes pour trouver la bonne personne | Physioactif",
+      "description": "Trouvez votre physio idéal en 4 étapes. Méthode simple pour dénicher la personne qui vous comprendra et vous guérira.",
+      "inLanguage": [
+        "fr-CA"
+      ],
+      "isPartOf": {
+        "@id": "https://www.physioactif.com/#website"
+      },
+      "mainEntity": {
+        "@id": "https://www.physioactif.com/ressources/trouvez-votre-physio-parfait-en-4-etapes-faciles/#article"
+      },
+      "breadcrumb": {
+        "@id": "https://www.physioactif.com/ressources/trouvez-votre-physio-parfait-en-4-etapes-faciles/#breadcrumb"
+      },
+      "publisher": {
+        "@id": "https://www.physioactif.com/#org"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.physioactif.com/ressources/trouvez-votre-physio-parfait-en-4-etapes-faciles/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Accueil",
+          "item": "https://www.physioactif.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Ressources",
+          "item": "https://www.physioactif.com/ressources/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Choix du physiothérapeute : 4 étapes pour trouver la bonne personne",
+          "item": "https://www.physioactif.com/ressources/trouvez-votre-physio-parfait-en-4-etapes-faciles/"
+        }
+      ]
+    }
+  ]
+}

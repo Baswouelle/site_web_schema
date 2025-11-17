@@ -1,0 +1,118 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "@id": "https://www.physioactif.com/en/approches-therapeutiques/enseignement-sur-la-condition/#article",
+      "author": {
+        "@type": "Person",
+        "@id": "https://www.physioactif.com/en/equipe/claudine-farah/#person"
+      },
+      "headline": "Enseignement sur votre condition : information claire et stratégies",
+      "description": "Comprenez enfin ce qui vous arrive. Des explications claires qui transforment votre anxiété en pouvoir d'action.",
+      "url": "https://www.physioactif.com/en/approches-therapeutiques/enseignement-sur-la-condition/",
+      "inLanguage": [
+        "en-CA"
+      ],
+      "datePublished": "2025-09-26",
+      "publisher": {
+        "@id": "https://www.physioactif.com/en/#org"
+      },
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://www.physioactif.com/en/wp-content/uploads/approches/enseignement-sur-la-condition-thumb.jpg",
+        "width": 1200,
+        "height": 675
+      },
+      "about": [
+        {
+          "@type": "PhysicalTherapy",
+          "name": "Enseignement sur votre condition : information claire et stratégies"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Physiothérapie",
+          "alternateName": [
+            "Physical therapy",
+            "Kinésithérapie",
+            "Fisioterapia"
+          ],
+          "sameAs": [
+            "https://www.physioactif.com/en/guide-complet/physiotherapie",
+            "https://www.wikidata.org/wiki/Q186005",
+            "https://en.wikipedia.org/wiki/Physical_therapy",
+            "https://fr.wikipedia.org/wiki/Kinésithérapie",
+            "https://meshb.nlm.nih.gov/record/ui?ui=D026761",
+            "https://www.merriam-webster.com/dictionary/physiotherapy",
+            "https://www.britannica.com/topic/physical-therapy"
+          ]
+        }
+      ],
+      "articleSection": "Approches thérapeutiques",
+      "keywords": [
+        "physiothérapie",
+        "traitement",
+        "approche thérapeutique"
+      ],
+      "mentions": [
+        {
+          "@type": "DefinedTerm",
+          "name": "Éducation thérapeutique du patient",
+          "description": "Approche éducative visant à informer les patients sur leur condition, expliquer les mécanismes de la douleur et fournir des stratégies d'autogestion pour favoriser l'autonomie et la guérison.",
+          "sameAs": [
+            "https://en.wikipedia.org/wiki/Patient_education",
+            "https://fr.wikipedia.org/wiki/Éducation_thérapeutique_du_patient",
+            "https://www.wikidata.org/wiki/Q3579708"
+          ]
+        }
+      ]
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://www.physioactif.com/en/approches-therapeutiques/enseignement-sur-la-condition/#webpage",
+      "datePublished": "2025-09-26",
+      "url": "https://www.physioactif.com/en/approches-therapeutiques/enseignement-sur-la-condition/",
+      "name": "Enseignement sur votre condition : information claire et stratégies",
+      "description": "Comprenez enfin ce qui vous arrive. Des explications claires qui transforment votre anxiété en pouvoir d'action.",
+      "inLanguage": [
+        "en-CA"
+      ],
+      "isPartOf": {
+        "@id": "https://www.physioactif.com/en/#website"
+      },
+      "mainEntity": {
+        "@id": "https://www.physioactif.com/en/approches-therapeutiques/enseignement-sur-la-condition/#article"
+      },
+      "breadcrumb": {
+        "@id": "https://www.physioactif.com/en/approches-therapeutiques/enseignement-sur-la-condition/#breadcrumb"
+      },
+      "publisher": {
+        "@id": "https://www.physioactif.com/en/#org"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.physioactif.com/en/approches-therapeutiques/enseignement-sur-la-condition/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Accueil",
+          "item": "https://www.physioactif.com/en/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Approches thérapeutiques",
+          "item": "https://www.physioactif.com/en/approches-therapeutiques/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Enseignement sur votre condition : information claire et stratégies",
+          "item": "https://www.physioactif.com/en/approches-therapeutiques/enseignement-sur-la-condition/"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,131 @@
+{
+  "@context": "https://schema.org",
+  "@type": "MedicalWebPage",
+  "@id": "https://www.physioactif.com/en/diagnostic-et-traitement/pathologies/capsulite/#webpage",
+  "author": {
+    "@type": "Person",
+    "@id": "https://www.physioactif.com/en/equipe/alexis-gougeon/#person"
+  },
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      ".header_heading",
+      ".header_content .max-width-medium",
+      ".perks_content-right h2",
+      ".perks_content-right .w-richtext"
+    ]
+  },
+  "datePublished": "2025-09-26",
+  "url": "https://www.physioactif.com/en/diagnostic-et-traitement/pathologies/capsulite/",
+  "name": "Libérez-vous de votre épaule gelée et retrouvez votre autonomie",
+  "description": "Libérez-vous de votre épaule gelée et retrouvez votre autonomie",
+  "inLanguage": [
+    "en-CA"
+  ],
+  "isPartOf": {
+    "@id": "https://www.physioactif.com/en/#website"
+  },
+  "about": [
+    {
+      "@type": "DefinedTerm",
+      "name": "Capsulite adhésive (Frozen shoulder)",
+      "description": "Raideur progressive de l'épaule avec perte importante d'amplitude articulaire",
+      "sameAs": [
+        "https://fr.wikipedia.org/wiki/Capsulite_rétractile_de_l'épaule",
+        "https://en.wikipedia.org/wiki/Adhesive_capsulitis_of_the_shoulder",
+        "https://www.wikidata.org/wiki/Q52854",
+        "https://meshb.nlm.nih.gov/record/ui?ui=D000925",
+        "https://www.merriam-webster.com/medical/frozen%20shoulder"
+      ]
+    },
+    {
+      "@type": "MedicalTherapy",
+      "name": "Physiothérapie",
+      "alternateName": [
+        "Physical therapy",
+        "Kinésithérapie",
+        "Fisioterapia"
+      ],
+      "sameAs": [
+        "https://www.physioactif.com/en/guide-complet/physiotherapie",
+        "https://www.wikidata.org/wiki/Q186005",
+        "https://en.wikipedia.org/wiki/Physical_therapy",
+        "https://fr.wikipedia.org/wiki/Kinésithérapie",
+        "https://meshb.nlm.nih.gov/record/ui?ui=D026761",
+        "https://www.merriam-webster.com/dictionary/physiotherapy",
+        "https://www.britannica.com/topic/physical-therapy"
+      ]
+    }
+  ],
+  "specialty": [
+    "Physiotherapy",
+    "Musculoskeletal"
+  ],
+  "provider": {
+    "@id": "https://www.physioactif.com/en/#org"
+  },
+  "potentialAction": {
+    "@type": "ReserveAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://physioactif.clinicmaster.com/clinic-selection?lang=fr-CA",
+      "inLanguage": [
+        "en-CA"
+      ]
+    },
+    "result": {
+      "@type": "Reservation",
+      "name": "Prendre rendez-vous"
+    }
+  },
+  "breadcrumb": {
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Accueil",
+        "item": "https://www.physioactif.com/en/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Diagnostic et traitement",
+        "item": "https://www.physioactif.com/en/diagnostic-et-traitement/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Pathologies",
+        "item": "https://www.physioactif.com/en/diagnostic-et-traitement/pathologies/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "Capsulite",
+        "item": "https://www.physioactif.com/en/diagnostic-et-traitement/pathologies/capsulite/"
+      }
+    ]
+  },
+  "mentions": [
+    {
+      "@id": "https://www.physioactif.com/en/services/programme-douleurs-persistantes/#therapy"
+    },
+    {
+      "@id": "https://www.physioactif.com/en/services/accident-du-travail-cnesst/#therapy"
+    },
+    {
+      "@id": "https://www.physioactif.com/en/services/ancien-combattant/#therapy"
+    },
+    {
+      "@id": "https://www.physioactif.com/en/services/deuxieme-avis-sur-diagnostic-et-traitement/#therapy"
+    },
+    {
+      "@id": "https://www.physioactif.com/en/services/traitement-pour-douleur-et-raideur-7-97-ans/#therapy"
+    },
+    {
+      "@id": "https://www.physioactif.com/en/services/traitement-pour-engourdissement-et-nevralgies/#therapy"
+    }
+  ],
+  "relatedLink": "https://www.physioactif.com/en/guide-complet/capsulite"
+}

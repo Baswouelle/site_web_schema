@@ -1,0 +1,120 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "@id": "https://www.physioactif.com/en/ressources/est-ce-reellement-votre-arthrose-qui-vous-fait-mal/#article",
+      "author": {
+        "@type": "Person",
+        "@id": "https://www.physioactif.com/en/equipe/philippe-paradis/#person"
+      },
+      "headline": "Arthrose : est-ce vraiment elle qui fait mal ? | Physioactif",
+      "description": "Votre arthrose ne vous condamne pas. Découvrez pourquoi vous pouvez soulager vos douleurs peu importe votre âge ou diagnostic.",
+      "url": "https://www.physioactif.com/en/ressources/est-ce-reellement-votre-arthrose-qui-vous-fait-mal/",
+      "inLanguage": [
+        "en-CA"
+      ],
+      "datePublished": "2025-09-26",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://cdn.prod.website-files.com/670e84ccd653d18590687563/physioactif-hero-default.jpg",
+        "width": 1200,
+        "height": 630
+      },
+      "publisher": {
+        "@id": "https://www.physioactif.com/en/#org"
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.physioactif.com/en/ressources/est-ce-reellement-votre-arthrose-qui-vous-fait-mal/"
+      },
+      "about": [
+        {
+          "@type": "MedicalCondition",
+          "name": "Arthrose"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Physiothérapie",
+          "alternateName": [
+            "Physical therapy",
+            "Kinésithérapie",
+            "Fisioterapia"
+          ],
+          "sameAs": [
+            "https://www.physioactif.com/en/guide-complet/physiotherapie",
+            "https://www.wikidata.org/wiki/Q186005",
+            "https://en.wikipedia.org/wiki/Physical_therapy",
+            "https://fr.wikipedia.org/wiki/Kinésithérapie",
+            "https://meshb.nlm.nih.gov/record/ui?ui=D026761",
+            "https://www.merriam-webster.com/dictionary/physiotherapy",
+            "https://www.britannica.com/topic/physical-therapy"
+          ]
+        }
+      ],
+      "articleSection": "Ressources",
+      "keywords": [
+        "arthrose",
+        "douleur arthrose",
+        "traitement arthrose",
+        "douleur articulaire",
+        "mobilité"
+      ],
+      "mentions": [
+        {
+          "@id": "https://www.physioactif.com/en/services/traitement-pour-douleur-et-raideur-7-97-ans/#therapy"
+        },
+        {
+          "@id": "https://www.physioactif.com/en/services/programme-douleurs-persistantes/#therapy"
+        }
+      ]
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://www.physioactif.com/en/ressources/est-ce-reellement-votre-arthrose-qui-vous-fait-mal/#webpage",
+      "datePublished": "2025-09-26",
+      "url": "https://www.physioactif.com/en/ressources/est-ce-reellement-votre-arthrose-qui-vous-fait-mal/",
+      "name": "Arthrose : est-ce vraiment elle qui fait mal ? | Physioactif",
+      "description": "Votre arthrose ne vous condamne pas. Découvrez pourquoi vous pouvez soulager vos douleurs peu importe votre âge ou diagnostic.",
+      "inLanguage": [
+        "en-CA"
+      ],
+      "isPartOf": {
+        "@id": "https://www.physioactif.com/en/#website"
+      },
+      "mainEntity": {
+        "@id": "https://www.physioactif.com/en/ressources/est-ce-reellement-votre-arthrose-qui-vous-fait-mal/#article"
+      },
+      "breadcrumb": {
+        "@id": "https://www.physioactif.com/en/ressources/est-ce-reellement-votre-arthrose-qui-vous-fait-mal/#breadcrumb"
+      },
+      "publisher": {
+        "@id": "https://www.physioactif.com/en/#org"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.physioactif.com/en/ressources/est-ce-reellement-votre-arthrose-qui-vous-fait-mal/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Accueil",
+          "item": "https://www.physioactif.com/en/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Ressources",
+          "item": "https://www.physioactif.com/en/ressources/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Arthrose : est-ce vraiment elle qui fait mal ?",
+          "item": "https://www.physioactif.com/en/ressources/est-ce-reellement-votre-arthrose-qui-vous-fait-mal/"
+        }
+      ]
+    }
+  ]
+}

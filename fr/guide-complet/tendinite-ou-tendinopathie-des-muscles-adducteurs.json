@@ -1,0 +1,216 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "MedicalCondition",
+      "@id": "https://www.physioactif.com/guide-complet/tendinite-ou-tendinopathie-des-muscles-adducteurs#condition",
+      "name": "Tendinopathie des muscles adducteurs",
+      "alternateName": [
+        "Adductor tendinopathy",
+        "Groin strain",
+        "Adductor tendinitis",
+        "Groin pain"
+      ],
+      "description": "La tendinopathie des adducteurs est généralement ressentie comme une douleur à l'aine lors de la palpation des tendons adducteurs, de l'adduction des jambes et/ou de la jambe affectée. La nature répétitive des mouvements dans les sports et le changement constant de direction sollicitent fortement le tendon adducteur, rendant les athlètes plus susceptibles à la tendinopathie des adducteurs et aux blessures à l'aine. Il est essentiel de distinguer la véritable tendinopathie, qui est une enthésopathie (douleur d'insertion de l'adducteur long sur le pubis), d'une déchirure de la jonction myotendineuse, qui est plus rare, et de la douleur projetée. La douleur des adducteurs est très courante dans le sport.",
+      "code": [
+        {
+          "@type": "MedicalCode",
+          "code": "S76.21",
+          "codingSystem": "ICD-10"
+        },
+        {
+          "@type": "MedicalCode",
+          "code": "M67.8",
+          "codingSystem": "ICD-10"
+        }
+      ],
+      "sameAs": [
+        "https://fr.wikipedia.org/wiki/Tendinopathie",
+        "https://en.wikipedia.org/wiki/Tendinopathy",
+        "https://www.physio-pedia.com/Adductor_Tendinopathy",
+        "https://www.icd10data.com/ICD10CM/Codes/S00-T88/S70-S79/S76-/S76.21"
+      ],
+      "possibleTreatment": {
+        "@type": "MedicalTherapy",
+        "name": "Physiothérapie",
+        "alternateName": [
+          "Physical therapy",
+          "Kinésithérapie",
+          "Fisioterapia"
+        ],
+        "sameAs": [
+          "https://www.physioactif.com/guide-complet/physiotherapie",
+          "https://www.wikidata.org/wiki/Q186005",
+          "https://en.wikipedia.org/wiki/Physical_therapy",
+          "https://fr.wikipedia.org/wiki/Kinésithérapie",
+          "https://meshb.nlm.nih.gov/record/ui?ui=D026761",
+          "https://www.merriam-webster.com/dictionary/physiotherapy",
+          "https://www.britannica.com/topic/physical-therapy"
+        ]
+      }
+    },
+    {
+      "@type": "MedicalWebPage",
+      "@id": "https://www.physioactif.com/guide-complet/tendinite-ou-tendinopathie-des-muscles-adducteurs#article",
+      "author": {
+        "@type": "Person",
+        "@id": "https://www.physioactif.com/equipe/ariel-desjardins-charbonneau/#person"
+      },
+      "datePublished": "2025-09-26",
+      "name": "Tendinite Ou Tendinopathie Des Muscles Adducteurs - Guide Complet",
+      "headline": "Tendinite Ou Tendinopathie Des Muscles Adducteurs: Symptômes, Causes, Diagnostic et Traitement en Physiothérapie",
+      "about": [
+        {
+          "@id": "https://www.physioactif.com/guide-complet/tendinite-ou-tendinopathie-des-muscles-adducteurs#condition"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Physiothérapie",
+          "alternateName": [
+            "Physical therapy",
+            "Kinésithérapie",
+            "Fisioterapia"
+          ],
+          "sameAs": [
+            "https://www.physioactif.com/guide-complet/physiotherapie",
+            "https://www.wikidata.org/wiki/Q186005",
+            "https://en.wikipedia.org/wiki/Physical_therapy",
+            "https://fr.wikipedia.org/wiki/Kinésithérapie",
+            "https://meshb.nlm.nih.gov/record/ui?ui=D026761",
+            "https://www.merriam-webster.com/dictionary/physiotherapy",
+            "https://www.britannica.com/topic/physical-therapy"
+          ]
+        }
+      ],
+      "mainEntity": {
+        "@id": "https://www.physioactif.com/guide-complet/tendinite-ou-tendinopathie-des-muscles-adducteurs#condition"
+      },
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [
+          ".header_heading",
+          ".header_content .text-style-muted.w-richtext",
+          ".section_article .text-rich-text h2"
+        ]
+      },
+      "specialty": [
+        "Physiotherapy",
+        "Musculoskeletal",
+        "SportsMedicine"
+      ],
+      "medicalAudience": [
+        {
+          "@type": "Patient"
+        },
+        {
+          "@type": "MedicalAudience",
+          "audienceType": "General Public"
+        }
+      ],
+      "reviewedBy": {
+        "@id": "https://www.physioactif.com/#org"
+      },
+      "provider": {
+        "@id": "https://www.physioactif.com/#org"
+      },
+      "inLanguage": [
+        "fr-CA"
+      ],
+      "isPartOf": {
+        "@id": "https://www.physioactif.com/#website"
+      },
+      "mentions": [
+        {
+          "@type": "MedicalTherapy",
+          "name": "Physiothérapie",
+          "alternateName": [
+            "Physical therapy",
+            "Kinésithérapie",
+            "Fisioterapia"
+          ],
+          "sameAs": [
+            "https://www.physioactif.com/guide-complet/physiotherapie",
+            "https://www.wikidata.org/wiki/Q186005",
+            "https://en.wikipedia.org/wiki/Physical_therapy",
+            "https://fr.wikipedia.org/wiki/Kinésithérapie",
+            "https://meshb.nlm.nih.gov/record/ui?ui=D026761",
+            "https://www.merriam-webster.com/dictionary/physiotherapy",
+            "https://www.britannica.com/topic/physical-therapy"
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "name": "Bursite de la hanche",
+          "description": "Inflammation d'une bourse séreuse articulaire",
+          "sameAs": [
+            "https://fr.wikipedia.org/wiki/Bursite_trochantérienne",
+            "https://en.wikipedia.org/wiki/Greater_trochanteric_pain_syndrome",
+            "https://www.wikidata.org/wiki/Q5613373",
+            "https://meshb.nlm.nih.gov/record/ui?ui=D002062"
+          ]
+        }
+      ]
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://www.physioactif.com/guide-complet/tendinite-ou-tendinopathie-des-muscles-adducteurs#webpage",
+      "datePublished": "2025-09-26",
+      "url": "https://www.physioactif.com/guide-complet/tendinite-ou-tendinopathie-des-muscles-adducteurs",
+      "name": "Tendinite Ou Tendinopathie Des Muscles Adducteurs - Guide Complet | Physioactif",
+      "description": "Guide complet sur tendinite ou tendinopathie des muscles adducteurs: causes, symptômes, diagnostic et traitements en physiothérapie par les experts de Physioactif.",
+      "mainEntity": {
+        "@id": "https://www.physioactif.com/guide-complet/tendinite-ou-tendinopathie-des-muscles-adducteurs#condition"
+      },
+      "about": {
+        "@id": "https://www.physioactif.com/guide-complet/tendinite-ou-tendinopathie-des-muscles-adducteurs#condition"
+      },
+      "breadcrumb": {
+        "@type": "BreadcrumbList",
+        "@id": "https://www.physioactif.com/guide-complet/tendinite-ou-tendinopathie-des-muscles-adducteurs#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Accueil",
+            "item": "https://www.physioactif.com/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Guide Complet",
+            "item": "https://www.physioactif.com/guide-complet"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Tendinite Ou Tendinopathie Des Muscles Adducteurs",
+            "item": "https://www.physioactif.com/guide-complet/tendinite-ou-tendinopathie-des-muscles-adducteurs"
+          }
+        ]
+      },
+      "isPartOf": {
+        "@id": "https://www.physioactif.com/#website"
+      },
+      "inLanguage": [
+        "fr-CA"
+      ],
+      "potentialAction": {
+        "@type": "ReadAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://www.physioactif.com/guide-complet/tendinite-ou-tendinopathie-des-muscles-adducteurs",
+          "actionPlatform": [
+            "http://schema.org/DesktopWebPlatform",
+            "http://schema.org/MobileWebPlatform"
+          ]
+        }
+      },
+      "relatedLink": [
+        "https://physioactif.clinicmaster.com/clinic-selection?lang=fr-CA"
+      ],
+      "publisher": {
+        "@id": "https://www.physioactif.com/#org"
+      }
+    }
+  ]
+}

@@ -1,0 +1,151 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@id": "https://www.physioactif.com/en/equipe/alexandre-fortier/#person",
+      "@type": "Person",
+      "name": "Alexandre Fortier",
+      "url": "https://www.physioactif.com/en/equipe/alexandre-fortier/",
+      "description": "Alexandre Fortier is a physiothérapeute at Physioactif specializing in Sports Injuries, Manual Therapy, Persistent Pain.",
+      "jobTitle": "Physiothérapeute",
+      "image": {
+        "@type": "ImageObject",
+        "contentUrl": "https://www.physioactif.com/en/wp-content/uploads/placeholder-alexandre-fortier.jpg",
+        "name": "Alexandre Fortier",
+        "description": "Professional portrait of Alexandre Fortier, physiothérapeute"
+      },
+      "alumniOf": {
+        "@type": "CollegeOrUniversity",
+        "name": "Université de Montréal",
+        "sameAs": "https://www.umontreal.ca/"
+      },
+      "hasCredential": [
+        {
+          "@type": "EducationalOccupationalCredential",
+          "name": "Licensed Physiotherapist",
+          "credentialCategory": "Professional License",
+          "identifier": "P21361",
+          "url": "https://oppq.qc.ca/professionnels/58937/fortier/alexandre/",
+          "dateCreated": "2021",
+          "recognizedBy": {
+            "@type": "Organization",
+            "name": "Ordre professionnel de la physiothérapie du Québec (OPPQ)",
+            "sameAs": "https://oppq.qc.ca/"
+          }
+        }
+      ],
+      "memberOf": [
+        {
+          "@type": "Organization",
+          "name": "Ordre professionnel de la physiothérapie du Québec (OPPQ)",
+          "sameAs": "https://oppq.qc.ca/"
+        },
+        {
+          "@type": "Organization",
+          "name": "Canadian Physiotherapy Association (ACP)",
+          "sameAs": "https://physiotherapy.ca/"
+        }
+      ],
+      "hasOccupation": {
+        "@type": "Occupation",
+        "name": "Physiotherapist",
+        "occupationLocation": {
+          "@type": "AdministrativeArea",
+          "name": "Saint-Eustache",
+          "sameAs": "https://en.wikipedia.org/wiki/Saint-Eustache,_Quebec"
+        },
+        "occupationalCategory": "3142",
+        "educationRequirements": "Master's degree in Physiotherapy",
+        "experienceRequirements": "Licensed by OPPQ since 2021",
+        "qualifications": "Licensed physiotherapist in Quebec (OPPQ #P21361)",
+        "skills": [
+          "Sports Injuries",
+          "Manual Therapy",
+          "Persistent Pain",
+          "Movement Analysis"
+        ]
+      },
+      "knowsAbout": [
+        "Physiotherapy",
+        "Sports Injuries",
+        "Manual Therapy",
+        "Persistent Pain",
+        "Movement Analysis"
+      ],
+      "knowsLanguage": [
+        {
+          "@type": "Language",
+          "name": "French"
+        },
+        {
+          "@type": "Language",
+          "name": "English"
+        }
+      ],
+      "worksFor": {
+        "@id": "https://www.physioactif.com/en/#org"
+      },
+      "isPartOf": "https://www.physioactif.com/en/#website",
+      "workLocation": {
+        "@type": "MedicalClinic",
+        "@id": "https://www.physioactif.com/en/clinique/physioactif-st-eustache-physiotherapie/#clinic"
+      },
+      "sameAs": [
+        "http://g.co/kg/g/11v3w02rr4",
+        "https://www.linkedin.com/in/alexandre-fortier",
+        "https://oppq.qc.ca/professionnels/58937/fortier/alexandre/"
+      ],
+      "additionalType": [
+        "https://schema.org/Physician"
+      ],
+      "about": [
+        {
+          "@type": "Person",
+          "@id": "https://www.physioactif.com/en/equipe/alexandre-fortier/#person"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Physiothérapie",
+          "alternateName": [
+            "Physical therapy",
+            "Kinésithérapie",
+            "Fisioterapia"
+          ],
+          "sameAs": [
+            "https://www.physioactif.com/en/guide-complet/physiotherapie",
+            "https://www.wikidata.org/wiki/Q186005",
+            "https://en.wikipedia.org/wiki/Physical_therapy",
+            "https://fr.wikipedia.org/wiki/Kinésithérapie",
+            "https://meshb.nlm.nih.gov/record/ui?ui=D026761",
+            "https://www.merriam-webster.com/dictionary/physiotherapy",
+            "https://www.britannica.com/topic/physical-therapy"
+          ]
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.physioactif.com/en/equipe/alexandre-fortier/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Accueil",
+          "item": "https://www.physioactif.com/en/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Équipe",
+          "item": "https://www.physioactif.com/en/equipe/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Alexandre Fortier",
+          "item": "https://www.physioactif.com/en/equipe/alexandre-fortier"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,214 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "MedicalCondition",
+      "@id": "https://www.physioactif.com/guide-complet/luxation-ou-subluxation-de-la-rotule#condition",
+      "name": "Luxation ou subluxation de la rotule",
+      "alternateName": [
+        "Patellar dislocation",
+        "Kneecap dislocation",
+        "Patellar subluxation"
+      ],
+      "description": "La luxation de la rotule est une lésion du genou dans laquelle la rotule (patella) sort de sa position normale dans la trochlée fémorale. Elle se produit toujours dans le même sens, la rotule allant se loger en haut et en dehors de la trochlée fémorale. La réduction est simple, pouvant être réalisée par le patient lui-même en mettant la jambe en extension et en empaumant la rotule pour la ramener vers le bas et l'intérieur. Cette blessure affecte principalement les adolescentes présentant une anomalie chronique fémoro-patellaire sous-jacente. Elle occasionne une douleur et un gonflement extrêmement intenses, et survient généralement lors d'un changement brusque de direction ou d'une torsion du genou.",
+      "code": [
+        {
+          "@type": "MedicalCode",
+          "code": "S83.0",
+          "codingSystem": "ICD-10"
+        },
+        {
+          "@type": "MedicalCode",
+          "code": "D031222",
+          "codingSystem": "MeSH"
+        }
+      ],
+      "sameAs": [
+        "https://en.wikipedia.org/wiki/Patellar_dislocation",
+        "https://fr.wikipedia.org/wiki/Luxation#Luxation_de_la_rotule",
+        "https://www.wikidata.org/wiki/Q7144429"
+      ],
+      "possibleTreatment": {
+        "@type": "MedicalTherapy",
+        "name": "Physiothérapie",
+        "alternateName": [
+          "Physical therapy",
+          "Kinésithérapie",
+          "Fisioterapia"
+        ],
+        "sameAs": [
+          "https://www.physioactif.com/guide-complet/physiotherapie",
+          "https://www.wikidata.org/wiki/Q186005",
+          "https://en.wikipedia.org/wiki/Physical_therapy",
+          "https://fr.wikipedia.org/wiki/Kinésithérapie",
+          "https://meshb.nlm.nih.gov/record/ui?ui=D026761",
+          "https://www.merriam-webster.com/dictionary/physiotherapy",
+          "https://www.britannica.com/topic/physical-therapy"
+        ]
+      }
+    },
+    {
+      "@type": "MedicalWebPage",
+      "@id": "https://www.physioactif.com/guide-complet/luxation-ou-subluxation-de-la-rotule#article",
+      "author": {
+        "@type": "Person",
+        "@id": "https://www.physioactif.com/equipe/ariel-desjardins-charbonneau/#person"
+      },
+      "datePublished": "2025-09-26",
+      "name": "Luxation Ou Subluxation De La Rotule - Guide Complet",
+      "headline": "Luxation Ou Subluxation De La Rotule: Symptômes, Causes, Diagnostic et Traitement en Physiothérapie",
+      "about": [
+        {
+          "@id": "https://www.physioactif.com/guide-complet/luxation-ou-subluxation-de-la-rotule#condition"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Physiothérapie",
+          "alternateName": [
+            "Physical therapy",
+            "Kinésithérapie",
+            "Fisioterapia"
+          ],
+          "sameAs": [
+            "https://www.physioactif.com/guide-complet/physiotherapie",
+            "https://www.wikidata.org/wiki/Q186005",
+            "https://en.wikipedia.org/wiki/Physical_therapy",
+            "https://fr.wikipedia.org/wiki/Kinésithérapie",
+            "https://meshb.nlm.nih.gov/record/ui?ui=D026761",
+            "https://www.merriam-webster.com/dictionary/physiotherapy",
+            "https://www.britannica.com/topic/physical-therapy"
+          ]
+        }
+      ],
+      "mainEntity": {
+        "@id": "https://www.physioactif.com/guide-complet/luxation-ou-subluxation-de-la-rotule#condition"
+      },
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [
+          ".header_heading",
+          ".header_content .text-style-muted.w-richtext",
+          ".section_article .text-rich-text h2"
+        ]
+      },
+      "specialty": [
+        "Physiotherapy",
+        "Musculoskeletal",
+        "SportsMedicine"
+      ],
+      "medicalAudience": [
+        {
+          "@type": "Patient"
+        },
+        {
+          "@type": "MedicalAudience",
+          "audienceType": "General Public"
+        }
+      ],
+      "reviewedBy": {
+        "@id": "https://www.physioactif.com/#org"
+      },
+      "provider": {
+        "@id": "https://www.physioactif.com/#org"
+      },
+      "inLanguage": [
+        "fr-CA"
+      ],
+      "isPartOf": {
+        "@id": "https://www.physioactif.com/#website"
+      },
+      "mentions": [
+        {
+          "@type": "MedicalTherapy",
+          "name": "Physiothérapie",
+          "alternateName": [
+            "Physical therapy",
+            "Kinésithérapie",
+            "Fisioterapia"
+          ],
+          "sameAs": [
+            "https://www.physioactif.com/guide-complet/physiotherapie",
+            "https://www.wikidata.org/wiki/Q186005",
+            "https://en.wikipedia.org/wiki/Physical_therapy",
+            "https://fr.wikipedia.org/wiki/Kinésithérapie",
+            "https://meshb.nlm.nih.gov/record/ui?ui=D026761",
+            "https://www.merriam-webster.com/dictionary/physiotherapy",
+            "https://www.britannica.com/topic/physical-therapy"
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "name": "Luxation ou subluxation de la rotule",
+          "description": "Une luxation ou subluxation de la rotule est un déplacement complet (luxation) ou partiel (subluxation) de la patella hors de sa position anatomique dans la trochlée fémorale.",
+          "sameAs": [
+            "https://fr.wikipedia.org/wiki/Luxation_de_la_rotule",
+            "https://en.wikipedia.org/wiki/Patellar_dislocation",
+            "https://www.wikidata.org/wiki/Q2276073",
+            "https://meshb.nlm.nih.gov/record/ui?ui=D031222"
+          ]
+        }
+      ]
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://www.physioactif.com/guide-complet/luxation-ou-subluxation-de-la-rotule#webpage",
+      "datePublished": "2025-09-26",
+      "url": "https://www.physioactif.com/guide-complet/luxation-ou-subluxation-de-la-rotule",
+      "name": "Luxation Ou Subluxation De La Rotule - Guide Complet | Physioactif",
+      "description": "Guide complet sur luxation ou subluxation de la rotule: causes, symptômes, diagnostic et traitements en physiothérapie par les experts de Physioactif.",
+      "mainEntity": {
+        "@id": "https://www.physioactif.com/guide-complet/luxation-ou-subluxation-de-la-rotule#condition"
+      },
+      "about": {
+        "@id": "https://www.physioactif.com/guide-complet/luxation-ou-subluxation-de-la-rotule#condition"
+      },
+      "breadcrumb": {
+        "@type": "BreadcrumbList",
+        "@id": "https://www.physioactif.com/guide-complet/luxation-ou-subluxation-de-la-rotule#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Accueil",
+            "item": "https://www.physioactif.com/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Guide Complet",
+            "item": "https://www.physioactif.com/guide-complet"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Luxation Ou Subluxation De La Rotule",
+            "item": "https://www.physioactif.com/guide-complet/luxation-ou-subluxation-de-la-rotule"
+          }
+        ]
+      },
+      "isPartOf": {
+        "@id": "https://www.physioactif.com/#website"
+      },
+      "inLanguage": [
+        "fr-CA"
+      ],
+      "potentialAction": {
+        "@type": "ReadAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://www.physioactif.com/guide-complet/luxation-ou-subluxation-de-la-rotule",
+          "actionPlatform": [
+            "http://schema.org/DesktopWebPlatform",
+            "http://schema.org/MobileWebPlatform"
+          ]
+        }
+      },
+      "relatedLink": [
+        "https://physioactif.clinicmaster.com/clinic-selection?lang=fr-CA"
+      ],
+      "publisher": {
+        "@id": "https://www.physioactif.com/#org"
+      }
+    }
+  ]
+}

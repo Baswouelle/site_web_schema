@@ -1,0 +1,92 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "@id": "https://www.physioactif.com/en/ressources/comment-se-deroule-un-traitement-de-physiotherapie-chez-physioactif/#article",
+      "author": {
+        "@type": "Person",
+        "@id": "https://www.physioactif.com/en/equipe/alexis-gougeon/#person"
+      },
+      "headline": "Traitement de physiothérapie : comment ça se déroule | Physioactif",
+      "description": "Arrivez confiant à votre traitement. Découvrez exactement ce qui vous attend et comment chaque séance vous rapproche de vos objectifs.",
+      "url": "https://www.physioactif.com/en/ressources/comment-se-deroule-un-traitement-de-physiotherapie-chez-physioactif/",
+      "inLanguage": [
+        "en-CA"
+      ],
+      "datePublished": "2025-09-26",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://cdn.prod.website-files.com/670e84ccd653d18590687563/physioactif-hero-default.jpg",
+        "width": 1200,
+        "height": 630
+      },
+      "publisher": {
+        "@id": "https://www.physioactif.com/en/#org"
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.physioactif.com/en/ressources/comment-se-deroule-un-traitement-de-physiotherapie-chez-physioactif/"
+      },
+      "about": {
+        "@type": "PhysicalTherapy",
+        "name": "Physiothérapie"
+      },
+      "articleSection": "Ressources",
+      "keywords": [
+        "traitement physiothérapie",
+        "séance physio",
+        "exercices thérapeutiques",
+        "modalités physio",
+        "suivi traitement"
+      ]
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://www.physioactif.com/en/ressources/comment-se-deroule-un-traitement-de-physiotherapie-chez-physioactif/#webpage",
+      "datePublished": "2025-09-26",
+      "url": "https://www.physioactif.com/en/ressources/comment-se-deroule-un-traitement-de-physiotherapie-chez-physioactif/",
+      "name": "Traitement de physiothérapie : comment ça se déroule | Physioactif",
+      "description": "Arrivez confiant à votre traitement. Découvrez exactement ce qui vous attend et comment chaque séance vous rapproche de vos objectifs.",
+      "inLanguage": [
+        "en-CA"
+      ],
+      "isPartOf": {
+        "@id": "https://www.physioactif.com/en/#website"
+      },
+      "mainEntity": {
+        "@id": "https://www.physioactif.com/en/ressources/comment-se-deroule-un-traitement-de-physiotherapie-chez-physioactif/#article"
+      },
+      "breadcrumb": {
+        "@id": "https://www.physioactif.com/en/ressources/comment-se-deroule-un-traitement-de-physiotherapie-chez-physioactif/#breadcrumb"
+      },
+      "publisher": {
+        "@id": "https://www.physioactif.com/en/#org"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.physioactif.com/en/ressources/comment-se-deroule-un-traitement-de-physiotherapie-chez-physioactif/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Accueil",
+          "item": "https://www.physioactif.com/en/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Ressources",
+          "item": "https://www.physioactif.com/en/ressources/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Traitement de physiothérapie : comment ça se déroule",
+          "item": "https://www.physioactif.com/en/ressources/comment-se-deroule-un-traitement-de-physiotherapie-chez-physioactif/"
+        }
+      ]
+    }
+  ]
+}

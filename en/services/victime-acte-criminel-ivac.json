@@ -1,0 +1,90 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@id": "https://www.physioactif.com/en/services/victime-acte-criminel-ivac/#therapy"
+    },
+    {
+      "@id": "https://www.physioactif.com/en/services/victime-acte-criminel-ivac/#offer"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://www.physioactif.com/en/services/victime-acte-criminel-ivac/#webpage",
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [
+          ".header_heading",
+          ".max-width-medium .text-style-muted"
+        ]
+      },
+      "datePublished": "2025-09-26",
+      "url": "https://www.physioactif.com/en/services/victime-acte-criminel-ivac/",
+      "name": "Physio pour les victimes d'accident criminel (IVAC) : 100% gratuit",
+      "description": "Guérissez après le trauma. Soins 100% gratuits IVAC avec expertise en récupération post-traumatique.",
+      "author": {
+        "@type": "Person",
+        "@id": "https://www.physioactif.com/en/equipe/ariel-desjardins-charbonneau/#person"
+      },
+      "inLanguage": [
+        "en-CA"
+      ],
+      "isPartOf": {
+        "@id": "https://www.physioactif.com/en/#website"
+      },
+      "mainEntity": {
+        "@id": "https://www.physioactif.com/en/services/victime-acte-criminel-ivac/#therapy"
+      },
+      "breadcrumb": {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Accueil",
+            "item": "https://www.physioactif.com/en/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Services",
+            "item": "https://www.physioactif.com/en/services/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Physio pour les victimes d'accident criminel (IVAC) : 100% gratuit",
+            "item": "https://www.physioactif.com/en/services/victime-acte-criminel-ivac/"
+          }
+        ]
+      },
+      "about": [
+        {
+          "@type": "MedicalTherapy",
+          "name": "Physiothérapie pour victimes d'actes criminels (IVAC)",
+          "description": "Réadaptation post-traumatique spécialisée pour victimes d'actes criminels couverts par l'IVAC, incluant traitement des blessures physiques et soutien au rétablissement."
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Physiothérapie",
+          "alternateName": [
+            "Physical therapy",
+            "Kinésithérapie",
+            "Fisioterapia"
+          ],
+          "sameAs": [
+            "https://www.physioactif.com/en/guide-complet/physiotherapie",
+            "https://www.wikidata.org/wiki/Q186005",
+            "https://en.wikipedia.org/wiki/Physical_therapy",
+            "https://fr.wikipedia.org/wiki/Kinésithérapie",
+            "https://meshb.nlm.nih.gov/record/ui?ui=D026761",
+            "https://www.merriam-webster.com/dictionary/physiotherapy",
+            "https://www.britannica.com/topic/physical-therapy"
+          ]
+        }
+      ],
+      "publisher": {
+        "@id": "https://www.physioactif.com/en/#org"
+      }
+    }
+  ]
+}

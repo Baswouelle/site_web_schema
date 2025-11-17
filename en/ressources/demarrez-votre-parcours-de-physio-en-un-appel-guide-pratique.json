@@ -1,0 +1,91 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "@id": "https://www.physioactif.com/en/ressources/demarrez-votre-parcours-de-physio-en-un-appel-guide-pratique/#article",
+      "author": {
+        "@type": "Person",
+        "@id": "https://www.physioactif.com/en/equipe/alexis-gougeon/#person"
+      },
+      "headline": "Parcours de physiothérapie : comment débuter en un appel | Physioactif",
+      "description": "Démarrez votre guérison aujourd'hui. Un simple appel suffit pour être dirigé vers le bon physio et commencer à aller mieux.",
+      "url": "https://www.physioactif.com/en/ressources/demarrez-votre-parcours-de-physio-en-un-appel-guide-pratique/",
+      "inLanguage": [
+        "en-CA"
+      ],
+      "datePublished": "2025-09-26",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://cdn.prod.website-files.com/670e84ccd653d18590687563/physioactif-hero-default.jpg",
+        "width": 1200,
+        "height": 630
+      },
+      "publisher": {
+        "@id": "https://www.physioactif.com/en/#org"
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.physioactif.com/en/ressources/demarrez-votre-parcours-de-physio-en-un-appel-guide-pratique/"
+      },
+      "about": {
+        "@type": "PhysicalTherapy",
+        "name": "Physiothérapie"
+      },
+      "articleSection": "Ressources",
+      "keywords": [
+        "premier appel",
+        "commencer physiothérapie",
+        "prise rendez-vous",
+        "consultation initiale"
+      ]
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://www.physioactif.com/en/ressources/demarrez-votre-parcours-de-physio-en-un-appel-guide-pratique/#webpage",
+      "datePublished": "2025-09-26",
+      "url": "https://www.physioactif.com/en/ressources/demarrez-votre-parcours-de-physio-en-un-appel-guide-pratique/",
+      "name": "Parcours de physiothérapie : comment débuter en un appel | Physioactif",
+      "description": "Démarrez votre guérison aujourd'hui. Un simple appel suffit pour être dirigé vers le bon physio et commencer à aller mieux.",
+      "inLanguage": [
+        "en-CA"
+      ],
+      "isPartOf": {
+        "@id": "https://www.physioactif.com/en/#website"
+      },
+      "mainEntity": {
+        "@id": "https://www.physioactif.com/en/ressources/demarrez-votre-parcours-de-physio-en-un-appel-guide-pratique/#article"
+      },
+      "breadcrumb": {
+        "@id": "https://www.physioactif.com/en/ressources/demarrez-votre-parcours-de-physio-en-un-appel-guide-pratique/#breadcrumb"
+      },
+      "publisher": {
+        "@id": "https://www.physioactif.com/en/#org"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.physioactif.com/en/ressources/demarrez-votre-parcours-de-physio-en-un-appel-guide-pratique/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Accueil",
+          "item": "https://www.physioactif.com/en/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Ressources",
+          "item": "https://www.physioactif.com/en/ressources/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Parcours de physiothérapie : comment débuter en un appel",
+          "item": "https://www.physioactif.com/en/ressources/demarrez-votre-parcours-de-physio-en-un-appel-guide-pratique/"
+        }
+      ]
+    }
+  ]
+}

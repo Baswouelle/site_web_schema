@@ -1,0 +1,132 @@
+{
+  "@context": "https://schema.org",
+  "@type": "MedicalWebPage",
+  "@id": "https://www.physioactif.com/diagnostic-et-traitement/douleurs/inflammatoire/#webpage",
+  "author": {
+    "@type": "Person",
+    "@id": "https://www.physioactif.com/equipe/alexis-gougeon/#person"
+  },
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      ".header_heading",
+      ".header_content .max-width-medium",
+      ".perks_content-right h2",
+      ".perks_content-right .w-richtext"
+    ]
+  },
+  "datePublished": "2025-09-26",
+  "url": "https://www.physioactif.com/diagnostic-et-traitement/douleurs/inflammatoire/",
+  "name": "Soulagez vos douleurs inflammatoires",
+  "description": "Soulagez vos douleurs inflammatoires",
+  "inLanguage": [
+    "fr-CA"
+  ],
+  "isPartOf": {
+    "@id": "https://www.physioactif.com/#website"
+  },
+  "about": [
+    {
+      "@type": "DefinedTerm",
+      "name": "Douleur inflammatoire",
+      "description": "Douleur associée à l'activation du système immunitaire, caractérisée par une rougeur, une chaleur, un gonflement et une sensibilité au toucher",
+      "sameAs": [
+        "https://fr.wikipedia.org/wiki/Inflammation",
+        "https://en.wikipedia.org/wiki/Inflammation",
+        "https://www.wikidata.org/wiki/Q101991"
+      ]
+    },
+    {
+      "@type": "MedicalTherapy",
+      "name": "Physiothérapie",
+      "alternateName": [
+        "Physical therapy",
+        "Kinésithérapie",
+        "Fisioterapia"
+      ],
+      "sameAs": [
+        "https://www.physioactif.com/guide-complet/physiotherapie",
+        "https://www.wikidata.org/wiki/Q186005",
+        "https://en.wikipedia.org/wiki/Physical_therapy",
+        "https://fr.wikipedia.org/wiki/Kinésithérapie",
+        "https://meshb.nlm.nih.gov/record/ui?ui=D026761",
+        "https://www.merriam-webster.com/dictionary/physiotherapy",
+        "https://www.britannica.com/topic/physical-therapy"
+      ]
+    }
+  ],
+  "specialty": [
+    "Physiotherapy",
+    "Musculoskeletal",
+    "Pain Management"
+  ],
+  "provider": {
+    "@id": "https://www.physioactif.com/#org"
+  },
+  "potentialAction": {
+    "@type": "ReserveAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://physioactif.clinicmaster.com/clinic-selection?lang=fr-CA",
+      "inLanguage": [
+        "fr-CA"
+      ]
+    },
+    "result": {
+      "@type": "Reservation",
+      "name": "Prendre rendez-vous"
+    }
+  },
+  "breadcrumb": {
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Accueil",
+        "item": "https://www.physioactif.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Diagnostic et traitement",
+        "item": "https://www.physioactif.com/diagnostic-et-traitement/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Douleurs",
+        "item": "https://www.physioactif.com/diagnostic-et-traitement/douleurs/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "Douleur inflammatoires",
+        "item": "https://www.physioactif.com/diagnostic-et-traitement/douleurs/inflammatoire/"
+      }
+    ]
+  },
+  "mentions": [
+    {
+      "@id": "https://www.physioactif.com/services/accident-de-la-route-saaq/#therapy"
+    },
+    {
+      "@id": "https://www.physioactif.com/services/accident-du-travail-cnesst/#therapy"
+    },
+    {
+      "@id": "https://www.physioactif.com/services/deuxieme-avis-sur-diagnostic-et-traitement/#therapy"
+    },
+    {
+      "@id": "https://www.physioactif.com/services/physiotherapie-sportive/#therapy"
+    },
+    {
+      "@id": "https://www.physioactif.com/services/pre-operatoire-et-post-operatoire/#therapy"
+    },
+    {
+      "@id": "https://www.physioactif.com/services/programme-douleurs-persistantes/#therapy"
+    },
+    {
+      "@id": "https://www.physioactif.com/services/traitement-pour-douleur-et-raideur-7-97-ans/#therapy"
+    }
+  ]
+}

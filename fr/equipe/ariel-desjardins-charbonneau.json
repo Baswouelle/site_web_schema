@@ -1,0 +1,277 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@id": "https://www.physioactif.com/equipe/ariel-desjardins-charbonneau/#person",
+      "@type": [
+        "Person",
+        "WebPage"
+      ],
+      "name": "Dr. Ariel Desjardins-Charbonneau",
+      "url": "https://www.physioactif.com/equipe/ariel-desjardins-charbonneau/",
+      "alumniOf": [
+        {
+          "@type": "CollegeOrUniversity",
+          "name": "Université de Montréal",
+          "description": "Université de Montréal is a public research university in Montreal, Quebec, Canada. Founded in 1878, it offers a wide range of programs including Physical Therapy. The university is known for its strong emphasis on research and innovation in healthcare sciences.",
+          "sameAs": "https://www.umontreal.ca/"
+        }
+      ],
+      "hasCredential": [
+        {
+          "@type": "EducationalOccupationalCredential",
+          "name": "Fellow of the Canadian Academy of Manipulative Physiotherapy (FCAMPT)",
+          "credentialCategory": "Professional Certification",
+          "recognizedBy": {
+            "@type": "Organization",
+            "name": "Canadian Academy of Manipulative Physiotherapy",
+            "sameAs": "https://manippt.org/"
+          },
+          "dateCreated": "2017"
+        },
+        {
+          "@type": "EducationalOccupationalCredential",
+          "name": "Licensed Physiotherapist",
+          "credentialCategory": "Professional License",
+          "recognizedBy": {
+            "@type": "Organization",
+            "name": "Ordre professionnel de la physiothérapie du Québec (OPPQ)",
+            "sameAs": "https://oppq.qc.ca/"
+          }
+        }
+      ],
+      "datePublished": "2025-09-26",
+      "description": "Dr. Ariel Desjardins-Charbonneau is a highly experienced physiotherapist with a strong background in research, teaching, and clinical practice. As a Fellow of the Canadian Academy of Manipulative Physiotherapy (FCAMPT) and co-owner of Physioactif, Dr. Desjardins-Charbonneau combines deep expertise in manual therapy with a passion for education and patient care.",
+      "disambiguatingDescription": "Dr. Ariel Desjardins-Charbonneau's career spans clinical practice, research, and education. Starting as a physical therapist at Physioactif in 2012, he quickly expanded their role to include lecturing at the University of Montréal and conducting research at Hopital Maisonneuve-Rosemont. In 2018, he became co-owner and co-CEO of Physioactif, while continuing to contribute to the field through speaking engagements and teaching at Physiolab School.",
+      "image": {
+        "@type": "ImageObject",
+        "@id": "https://www.physioactif.com/equipe/ariel-desjardins-charbonneau/#image",
+        "creator": {
+          "@id": "https://www.physioactif.com/#org"
+        },
+        "author": {
+          "@id": "https://www.physioactif.com/#org"
+        },
+        "representativeOfPage": "http://schema.org/True",
+        "contentUrl": "https://www.physioactif.com/wp-content/uploads/2024/01/Physios_3_types_3x4.jpg",
+        "name": "Dr. Ariel Desjardins-Charbonneau",
+        "alternateName": "Ariel Desjardins-Charbonneau",
+        "description": "Dr. Ariel Desjardins-Charbonneau is a professional service provider specializing in physiotherapy and manual therapy.",
+        "text": "Dr. Ariel Desjardins-Charbonneau offers expert physiotherapy services tailored to meet individual patient needs.",
+        "disambiguatingDescription": "Dr. Ariel Desjardins-Charbonneau is a physiotherapy expert with years of experience in clinical practice, research, and education.",
+        "keywords": "physiotherapy, manual therapy, pain management, FCAMPT, Physioactif, Dr. Ariel Desjardins-Charbonneau",
+        "genre": "Physiotherapy Services",
+        "caption": "Dr. Ariel Desjardins-Charbonneau - Your Trusted Physiotherapist",
+        "copyrightNotice": "See our license page.",
+        "license": "https://www.physioactif.com/license/",
+        "acquireLicensePage": "https://www.physioactif.com/license/",
+        "creditText": "See our license page."
+      },
+      "isPartOf": "https://www.physioactif.com/#website",
+      "jobTitle": "Physiotherapist, Co-owner and Co-CEO",
+      "knowsAbout": [
+        "Physiotherapy",
+        "Manual Therapy",
+        "Pain Management",
+        "Musculoskeletal Disorders",
+        "Neurodynamics",
+        "Movement Analysis",
+        "Neuromuscular Retraining",
+        "Clinical Research",
+        "Patient Education",
+        "Motivational Interviewing"
+      ],
+      "memberOf": [
+        {
+          "@type": "Organization",
+          "name": "Ordre professionnel de la physiothérapie du Québec (OPPQ)",
+          "description": "The Ordre professionnel de la physiothérapie du Québec (OPPQ) is the regulatory body for physiotherapists in Quebec. Membership in the OPPQ ensures that physiotherapists meet high standards of professional practice and ethics.",
+          "sameAs": "https://oppq.qc.ca/"
+        },
+        {
+          "@type": "Organization",
+          "name": "Canadian Physiotherapy Association (ACP)",
+          "description": "The Canadian Physiotherapy Association is a national organization that represents physiotherapists across Canada. Membership provides access to professional development resources and supports advocacy for the profession.",
+          "sameAs": "https://physiotherapy.ca/"
+        },
+        {
+          "@type": "Organization",
+          "name": "Canadian Academy of Manipulative Physiotherapy (CAMPT)",
+          "description": "The Canadian Academy of Manipulative Physiotherapy is an organization dedicated to advancing manual and manipulative therapy in Canada. As a Fellow of CAMPT, Dr. Desjardins-Charbonneau has demonstrated advanced clinical skills in this area.",
+          "sameAs": "https://manippt.org/"
+        }
+      ],
+      "worksFor": {
+        "@id": "https://www.physioactif.com/#org"
+      },
+      "sameAs": [
+        "http://g.co/kg/g/11sqwk8d_9",
+        "https://scholar.google.com/citations?user=5g7ONHwAAAAJ&hl=en",
+        "https://www.linkedin.com/in/ariel-desjardins-charbonneau-b900833b/",
+        "https://www.researchgate.net/profile/Ariel-Desjardins-Charbonneau",
+        "https://oppq.qc.ca/en/professionals/50794/desjardins-charbonneau/ariel/",
+        "https://pubmed.ncbi.nlm.nih.gov/?term=ariel+desjardins+charbonneau",
+        "https://manippt.org/therapist/ariel-desjardins-charbonneau/",
+        "https://orcid.org/0000-0002-7476-6194",
+        "https://umontreal.academia.edu/ArielDesjardinsCharbonneau",
+        "https://www.crunchbase.com/person/ariel-desjardins-charbonneau",
+        "https://ecolephysiolab.com/",
+        "https://www.imdb.com/name/nm16063454/",
+        "https://www.wikidata.org/wiki/Q125678543",
+        "https://www.instagram.com/ariel_desjardins/",
+        "https://www.facebook.com/ariel.charbonneau",
+        "https://www.youtube.com/@ArielDC",
+        "https://oppq.qc.ca/professionnels/50794/desjardins-charbonneau/ariel/"
+      ],
+      "additionalType": [
+        "https://schema.org/Physician"
+      ],
+      "awards": [
+        "Fellow of the Canadian Academy of Manipulative Physiotherapy (FCAMPT), 2017"
+      ],
+      "hasOccupation": [
+        {
+          "@type": "Occupation",
+          "name": "Physiotherapist",
+          "occupationLocation": {
+            "@type": "AdministrativeArea",
+            "name": "Montréal",
+            "sameAs": "https://en.wikipedia.org/wiki/Montreal"
+          },
+          "educationRequirements": "Master's degree in Physiotherapy",
+          "experienceRequirements": "Minimum of 5 years of clinical practice, with specialization in manual therapy",
+          "occupationalCategory": "3142",
+          "qualifications": "Licensed physiotherapist in Quebec, FCAMPT certification",
+          "responsibilities": "Assess, diagnose, and treat physical dysfunction, injury, and pain using therapeutic exercise, manual therapy, and other interventions.",
+          "skills": [
+            "Manual therapy",
+            "Pain management",
+            "Patient education",
+            "Movement analysis",
+            "Clinical reasoning"
+          ]
+        },
+        {
+          "@type": "Occupation",
+          "name": "Lecturer at Université de Montréal",
+          "occupationLocation": {
+            "@type": "AdministrativeArea",
+            "name": "Montréal",
+            "sameAs": "https://en.wikipedia.org/wiki/Montreal"
+          },
+          "educationRequirements": "Master's degree in Physiotherapy",
+          "experienceRequirements": "Minimum of 3 years of clinical practice and research experience",
+          "occupationalCategory": "4011",
+          "qualifications": "Licensed physiotherapist in Quebec, expertise in physiotherapy research and education",
+          "responsibilities": "Teach physiotherapy courses, mentor students, contribute to curriculum development, conduct research in physiotherapy",
+          "skills": [
+            "Teaching",
+            "Research methodology",
+            "Curriculum development",
+            "Clinical expertise",
+            "Student mentoring"
+          ]
+        },
+        {
+          "@type": "Occupation",
+          "name": "Teacher at Physiolab School",
+          "occupationLocation": {
+            "@type": "AdministrativeArea",
+            "name": "Montréal",
+            "sameAs": "https://en.wikipedia.org/wiki/Montreal"
+          },
+          "educationRequirements": "Master's degree in Physiotherapy, FCAMPT certification",
+          "experienceRequirements": "Minimum of 5 years of clinical practice, with expertise in manual therapy",
+          "occupationalCategory": "3142",
+          "qualifications": "Licensed physiotherapist in Quebec, FCAMPT certification, extensive clinical experience",
+          "responsibilities": "Teach advanced physiotherapy techniques, mentor practicing physiotherapists, develop curriculum for continuing education courses",
+          "skills": [
+            "Manual therapy",
+            "Advanced clinical techniques",
+            "Teaching",
+            "Curriculum development",
+            "Professional mentoring"
+          ]
+        },
+        {
+          "@type": "Role",
+          "hasOccupation": {
+            "@type": "Occupation",
+            "name": "Research Assistant",
+            "occupationalCategory": "19-4061",
+            "occupationLocation": {
+              "@type": "AdministrativeArea",
+              "name": "Montréal",
+              "sameAs": "https://en.wikipedia.org/wiki/Montreal"
+            }
+          },
+          "startDate": "2013",
+          "endDate": "2017",
+          "roleName": "Research Assistant"
+        }
+      ],
+      "knowsLanguage": [
+        {
+          "@type": "Language",
+          "name": "French"
+        },
+        {
+          "@type": "Language",
+          "name": "English"
+        }
+      ],
+      "workLocation": {
+        "@type": "MedicalClinic",
+        "@id": "https://www.physioactif.com/clinique/physioactif-ahuntsic-et-villeray/#clinic"
+      },
+      "about": [
+        {
+          "@type": "Person",
+          "@id": "https://www.physioactif.com/equipe/ariel-desjardins-charbonneau/#person"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Physiothérapie",
+          "alternateName": [
+            "Physical therapy",
+            "Kinésithérapie",
+            "Fisioterapia"
+          ],
+          "sameAs": [
+            "https://www.physioactif.com/guide-complet/physiotherapie",
+            "https://www.wikidata.org/wiki/Q186005",
+            "https://en.wikipedia.org/wiki/Physical_therapy",
+            "https://fr.wikipedia.org/wiki/Kinésithérapie",
+            "https://meshb.nlm.nih.gov/record/ui?ui=D026761",
+            "https://www.merriam-webster.com/dictionary/physiotherapy",
+            "https://www.britannica.com/topic/physical-therapy"
+          ]
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.physioactif.com/equipe/ariel-desjardins-charbonneau/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Accueil",
+          "item": "https://www.physioactif.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Équipe",
+          "item": "https://www.physioactif.com/equipe/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Dr. Ariel Desjardins-Charbonneau",
+          "item": "https://www.physioactif.com/equipe/ariel-desjardins-charbonneau"
+        }
+      ]
+    }
+  ]
+}

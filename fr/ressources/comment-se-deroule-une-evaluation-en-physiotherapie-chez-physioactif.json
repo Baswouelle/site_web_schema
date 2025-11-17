@@ -1,0 +1,97 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "@id": "https://www.physioactif.com/ressources/comment-se-deroule-une-evaluation-en-physiotherapie-chez-physioactif/#article",
+      "author": {
+        "@type": "Person",
+        "@id": "https://www.physioactif.com/equipe/alexis-gougeon/#person"
+      },
+      "headline": "Évaluation en physiothérapie : comment ça se déroule | Physioactif",
+      "description": "Première visite sans stress. Préparez-vous parfaitement et découvrez comment votre plan de guérison personnalisé sera créé.",
+      "url": "https://www.physioactif.com/ressources/comment-se-deroule-une-evaluation-en-physiotherapie-chez-physioactif/",
+      "inLanguage": [
+        "fr-CA"
+      ],
+      "datePublished": "2025-09-26",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://cdn.prod.website-files.com/670e84ccd653d18590687563/physioactif-hero-default.jpg",
+        "width": 1200,
+        "height": 630
+      },
+      "publisher": {
+        "@id": "https://www.physioactif.com/#org"
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.physioactif.com/ressources/comment-se-deroule-une-evaluation-en-physiotherapie-chez-physioactif/"
+      },
+      "about": {
+        "@type": "PhysicalTherapy",
+        "name": "Physiothérapie"
+      },
+      "articleSection": "Ressources",
+      "keywords": [
+        "évaluation physio",
+        "première visite",
+        "consultation physiothérapie",
+        "diagnostic physiothérapie",
+        "plan traitement"
+      ],
+      "mentions": [
+        {
+          "@id": "https://www.physioactif.com/services/deuxieme-avis-sur-diagnostic-et-traitement/#therapy"
+        }
+      ]
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://www.physioactif.com/ressources/comment-se-deroule-une-evaluation-en-physiotherapie-chez-physioactif/#webpage",
+      "datePublished": "2025-09-26",
+      "url": "https://www.physioactif.com/ressources/comment-se-deroule-une-evaluation-en-physiotherapie-chez-physioactif/",
+      "name": "Évaluation en physiothérapie : comment ça se déroule | Physioactif",
+      "description": "Première visite sans stress. Préparez-vous parfaitement et découvrez comment votre plan de guérison personnalisé sera créé.",
+      "inLanguage": [
+        "fr-CA"
+      ],
+      "isPartOf": {
+        "@id": "https://www.physioactif.com/#website"
+      },
+      "mainEntity": {
+        "@id": "https://www.physioactif.com/ressources/comment-se-deroule-une-evaluation-en-physiotherapie-chez-physioactif/#article"
+      },
+      "breadcrumb": {
+        "@id": "https://www.physioactif.com/ressources/comment-se-deroule-une-evaluation-en-physiotherapie-chez-physioactif/#breadcrumb"
+      },
+      "publisher": {
+        "@id": "https://www.physioactif.com/#org"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.physioactif.com/ressources/comment-se-deroule-une-evaluation-en-physiotherapie-chez-physioactif/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Accueil",
+          "item": "https://www.physioactif.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Ressources",
+          "item": "https://www.physioactif.com/ressources/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Évaluation en physiothérapie : comment ça se déroule",
+          "item": "https://www.physioactif.com/ressources/comment-se-deroule-une-evaluation-en-physiotherapie-chez-physioactif/"
+        }
+      ]
+    }
+  ]
+}

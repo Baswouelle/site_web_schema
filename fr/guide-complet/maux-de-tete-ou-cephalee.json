@@ -1,0 +1,228 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "MedicalCondition",
+      "@id": "https://www.physioactif.com/guide-complet/maux-de-tete-ou-cephalee#condition",
+      "name": "Céphalée",
+      "alternateName": [
+        "Headache",
+        "Maux de tête",
+        "Cephalalgia"
+      ],
+      "description": "La céphalée, communément appelée mal de tête, est une douleur locale ressentie au niveau du crâne ou parfois du cou. Elle correspond à toute plainte douloureuse centrée sur la région crânienne. À l'échelle mondiale, la prévalence des céphalées communes chez l'adulte (douleur symptomatique au moins une fois au cours de l'année passée : 2015) est de 47%. Les céphalées sont principalement classées selon la Classification Internationale des Céphalées (ICHD) publiée par la Société Internationale des Céphalées, approuvée par l'Organisation Mondiale de la Santé. La classification utilise des codes numériques et comprend 13 groupes de céphalées.",
+      "code": [
+        {
+          "@type": "MedicalCode",
+          "code": "R51",
+          "codingSystem": "ICD-10"
+        },
+        {
+          "@type": "MedicalCode",
+          "code": "D006261",
+          "codingSystem": "MeSH"
+        }
+      ],
+      "sameAs": [
+        "https://fr.wikipedia.org/wiki/Céphalée",
+        "https://en.wikipedia.org/wiki/Headache",
+        "https://www.wikidata.org/wiki/Q86",
+        "https://meshb.nlm.nih.gov/record/ui?ui=D006261",
+        "https://www.merriam-webster.com/dictionary/headache",
+        "http://snomed.info/id/25064002"
+      ],
+      "possibleTreatment": {
+        "@type": "MedicalTherapy",
+        "name": "Physiothérapie",
+        "alternateName": [
+          "Physical therapy",
+          "Kinésithérapie",
+          "Fisioterapia"
+        ],
+        "sameAs": [
+          "https://www.physioactif.com/guide-complet/physiotherapie",
+          "https://www.wikidata.org/wiki/Q186005",
+          "https://en.wikipedia.org/wiki/Physical_therapy",
+          "https://fr.wikipedia.org/wiki/Kinésithérapie",
+          "https://meshb.nlm.nih.gov/record/ui?ui=D026761",
+          "https://www.merriam-webster.com/dictionary/physiotherapy",
+          "https://www.britannica.com/topic/physical-therapy"
+        ]
+      }
+    },
+    {
+      "@type": "MedicalWebPage",
+      "@id": "https://www.physioactif.com/guide-complet/maux-de-tete-ou-cephalee#article",
+      "author": {
+        "@type": "Person",
+        "@id": "https://www.physioactif.com/equipe/ariel-desjardins-charbonneau/#person"
+      },
+      "datePublished": "2025-09-26",
+      "name": "Maux De Tete Ou Cephalee - Guide Complet",
+      "headline": "Maux De Tete Ou Cephalee: Symptômes, Causes, Diagnostic et Traitement en Physiothérapie",
+      "about": [
+        {
+          "@id": "https://www.physioactif.com/guide-complet/maux-de-tete-ou-cephalee#condition"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Physiothérapie",
+          "alternateName": [
+            "Physical therapy",
+            "Kinésithérapie",
+            "Fisioterapia"
+          ],
+          "sameAs": [
+            "https://www.physioactif.com/guide-complet/physiotherapie",
+            "https://www.wikidata.org/wiki/Q186005",
+            "https://en.wikipedia.org/wiki/Physical_therapy",
+            "https://fr.wikipedia.org/wiki/Kinésithérapie",
+            "https://meshb.nlm.nih.gov/record/ui?ui=D026761",
+            "https://www.merriam-webster.com/dictionary/physiotherapy",
+            "https://www.britannica.com/topic/physical-therapy"
+          ]
+        }
+      ],
+      "mainEntity": {
+        "@id": "https://www.physioactif.com/guide-complet/maux-de-tete-ou-cephalee#condition"
+      },
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [
+          ".header_heading",
+          ".header_content .text-style-muted.w-richtext",
+          ".section_article .text-rich-text h2"
+        ]
+      },
+      "specialty": [
+        "Physiotherapy",
+        "Musculoskeletal",
+        "SportsMedicine"
+      ],
+      "medicalAudience": [
+        {
+          "@type": "Patient"
+        },
+        {
+          "@type": "MedicalAudience",
+          "audienceType": "General Public"
+        }
+      ],
+      "reviewedBy": {
+        "@id": "https://www.physioactif.com/#org"
+      },
+      "provider": {
+        "@id": "https://www.physioactif.com/#org"
+      },
+      "inLanguage": [
+        "fr-CA"
+      ],
+      "isPartOf": {
+        "@id": "https://www.physioactif.com/#website"
+      },
+      "mentions": [
+        {
+          "@type": "MedicalTherapy",
+          "name": "Physiothérapie",
+          "alternateName": [
+            "Physical therapy",
+            "Kinésithérapie",
+            "Fisioterapia"
+          ],
+          "sameAs": [
+            "https://www.physioactif.com/guide-complet/physiotherapie",
+            "https://www.wikidata.org/wiki/Q186005",
+            "https://en.wikipedia.org/wiki/Physical_therapy",
+            "https://fr.wikipedia.org/wiki/Kinésithérapie",
+            "https://meshb.nlm.nih.gov/record/ui?ui=D026761",
+            "https://www.merriam-webster.com/dictionary/physiotherapy",
+            "https://www.britannica.com/topic/physical-therapy"
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "name": "Migraine",
+          "description": "Condition musculosquelettique affectant migraine",
+          "sameAs": [
+            "https://fr.wikipedia.org/wiki/Migraine",
+            "https://en.wikipedia.org/wiki/Migraine",
+            "https://www.wikidata.org/wiki/Q133823",
+            "https://meshb.nlm.nih.gov/record/ui?ui=D008881"
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "name": "Cervicalgie",
+          "description": "Douleur au niveau de la région cervicale du cou",
+          "sameAs": [
+            "https://fr.wikipedia.org/wiki/Cervicalgie",
+            "https://en.wikipedia.org/wiki/Neck_pain",
+            "https://www.wikidata.org/wiki/Q1758730",
+            "https://meshb.nlm.nih.gov/record/ui?ui=D019547"
+          ]
+        }
+      ]
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://www.physioactif.com/guide-complet/maux-de-tete-ou-cephalee#webpage",
+      "datePublished": "2025-09-26",
+      "url": "https://www.physioactif.com/guide-complet/maux-de-tete-ou-cephalee",
+      "name": "Maux De Tete Ou Cephalee - Guide Complet | Physioactif",
+      "description": "Guide complet sur maux de tete ou cephalee: causes, symptômes, diagnostic et traitements en physiothérapie par les experts de Physioactif.",
+      "mainEntity": {
+        "@id": "https://www.physioactif.com/guide-complet/maux-de-tete-ou-cephalee#condition"
+      },
+      "about": {
+        "@id": "https://www.physioactif.com/guide-complet/maux-de-tete-ou-cephalee#condition"
+      },
+      "breadcrumb": {
+        "@type": "BreadcrumbList",
+        "@id": "https://www.physioactif.com/guide-complet/maux-de-tete-ou-cephalee#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Accueil",
+            "item": "https://www.physioactif.com/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Guide Complet",
+            "item": "https://www.physioactif.com/guide-complet"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Maux De Tete Ou Cephalee",
+            "item": "https://www.physioactif.com/guide-complet/maux-de-tete-ou-cephalee"
+          }
+        ]
+      },
+      "isPartOf": {
+        "@id": "https://www.physioactif.com/#website"
+      },
+      "inLanguage": [
+        "fr-CA"
+      ],
+      "potentialAction": {
+        "@type": "ReadAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://www.physioactif.com/guide-complet/maux-de-tete-ou-cephalee",
+          "actionPlatform": [
+            "http://schema.org/DesktopWebPlatform",
+            "http://schema.org/MobileWebPlatform"
+          ]
+        }
+      },
+      "relatedLink": [
+        "https://physioactif.clinicmaster.com/clinic-selection?lang=fr-CA"
+      ],
+      "publisher": {
+        "@id": "https://www.physioactif.com/#org"
+      }
+    }
+  ]
+}

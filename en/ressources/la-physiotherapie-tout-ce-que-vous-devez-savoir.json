@@ -1,0 +1,92 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "@id": "https://www.physioactif.com/en/ressources/la-physiotherapie-tout-ce-que-vous-devez-savoir/#article",
+      "author": {
+        "@type": "Person",
+        "@id": "https://www.physioactif.com/en/equipe/alexis-gougeon/#person"
+      },
+      "headline": "Physiothérapie : tout ce qu'il faut savoir | Physioactif",
+      "description": "Découvrez enfin ce qu'est vraiment la physiothérapie. Comprenez comment retrouver vos capacités et reprendre vos activités préférées.",
+      "url": "https://www.physioactif.com/en/ressources/la-physiotherapie-tout-ce-que-vous-devez-savoir/",
+      "inLanguage": [
+        "en-CA"
+      ],
+      "datePublished": "2025-09-26",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://cdn.prod.website-files.com/670e84ccd653d18590687563/physioactif-hero-default.jpg",
+        "width": 1200,
+        "height": 630
+      },
+      "publisher": {
+        "@id": "https://www.physioactif.com/en/#org"
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.physioactif.com/en/ressources/la-physiotherapie-tout-ce-que-vous-devez-savoir/"
+      },
+      "about": {
+        "@type": "PhysicalTherapy",
+        "name": "Physiothérapie"
+      },
+      "articleSection": "Ressources",
+      "keywords": [
+        "physiothérapie",
+        "réadaptation physique",
+        "physiothérapeute",
+        "traitement physio",
+        "santé physique"
+      ]
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://www.physioactif.com/en/ressources/la-physiotherapie-tout-ce-que-vous-devez-savoir/#webpage",
+      "datePublished": "2025-09-26",
+      "url": "https://www.physioactif.com/en/ressources/la-physiotherapie-tout-ce-que-vous-devez-savoir/",
+      "name": "Physiothérapie : tout ce qu'il faut savoir | Physioactif",
+      "description": "Découvrez enfin ce qu'est vraiment la physiothérapie. Comprenez comment retrouver vos capacités et reprendre vos activités préférées.",
+      "inLanguage": [
+        "en-CA"
+      ],
+      "isPartOf": {
+        "@id": "https://www.physioactif.com/en/#website"
+      },
+      "mainEntity": {
+        "@id": "https://www.physioactif.com/en/ressources/la-physiotherapie-tout-ce-que-vous-devez-savoir/#article"
+      },
+      "breadcrumb": {
+        "@id": "https://www.physioactif.com/en/ressources/la-physiotherapie-tout-ce-que-vous-devez-savoir/#breadcrumb"
+      },
+      "publisher": {
+        "@id": "https://www.physioactif.com/en/#org"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.physioactif.com/en/ressources/la-physiotherapie-tout-ce-que-vous-devez-savoir/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Accueil",
+          "item": "https://www.physioactif.com/en/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Ressources",
+          "item": "https://www.physioactif.com/en/ressources/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Physiothérapie : tout ce qu'il faut savoir",
+          "item": "https://www.physioactif.com/en/ressources/la-physiotherapie-tout-ce-que-vous-devez-savoir/"
+        }
+      ]
+    }
+  ]
+}

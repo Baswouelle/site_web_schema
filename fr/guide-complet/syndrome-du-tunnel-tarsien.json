@@ -1,0 +1,217 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "MedicalCondition",
+      "@id": "https://www.physioactif.com/guide-complet/syndrome-du-tunnel-tarsien#condition",
+      "name": "Syndrome du tunnel tarsien",
+      "alternateName": [
+        "Tarsal tunnel syndrome",
+        "TTS",
+        "Posterior tibial nerve entrapment"
+      ],
+      "description": "Le syndrome du tunnel tarsien (STT) est un syndrome de compression nerveuse ou syndrome de piégeage nerveux causant une condition douloureuse du pied dans laquelle le nerf tibial est piégé lors de son passage à travers le tunnel tarsien. Le tunnel tarsien se trouve le long de la jambe intérieure derrière la malléole médiale (bosse à l'intérieur de la cheville). L'artère tibiale postérieure, le nerf tibial et les tendons des muscles tibial postérieur, long fléchisseur des orteils et long fléchisseur de l'hallux voyagent en faisceau à travers le tunnel tarsien. Les personnes atteintes de STT se plaignent typiquement d'engourdissement dans le pied irradiant vers le gros orteil et les trois premiers orteils, de douleur, de sensations de brûlure, de sensations électriques et de picotements sur la base du pied et le talon.",
+      "code": [
+        {
+          "@type": "MedicalCode",
+          "code": "G57.5",
+          "codingSystem": "ICD-10"
+        },
+        {
+          "@type": "MedicalCode",
+          "code": "D013641",
+          "codingSystem": "MeSH"
+        }
+      ],
+      "sameAs": [
+        "https://fr.wikipedia.org/wiki/Syndrome_du_tunnel_tarsien",
+        "https://en.wikipedia.org/wiki/Tarsal_tunnel_syndrome",
+        "https://www.wikidata.org/wiki/Q1071693",
+        "https://meshb.nlm.nih.gov/record/ui?ui=D013641",
+        "https://www.icd10data.com/ICD10CM/Codes/G00-G99/G50-G59/G57-/G57.5",
+        "http://snomed.info/id/238816002"
+      ],
+      "possibleTreatment": {
+        "@type": "MedicalTherapy",
+        "name": "Physiothérapie",
+        "alternateName": [
+          "Physical therapy",
+          "Kinésithérapie",
+          "Fisioterapia"
+        ],
+        "sameAs": [
+          "https://www.physioactif.com/guide-complet/physiotherapie",
+          "https://www.wikidata.org/wiki/Q186005",
+          "https://en.wikipedia.org/wiki/Physical_therapy",
+          "https://fr.wikipedia.org/wiki/Kinésithérapie",
+          "https://meshb.nlm.nih.gov/record/ui?ui=D026761",
+          "https://www.merriam-webster.com/dictionary/physiotherapy",
+          "https://www.britannica.com/topic/physical-therapy"
+        ]
+      }
+    },
+    {
+      "@type": "MedicalWebPage",
+      "@id": "https://www.physioactif.com/guide-complet/syndrome-du-tunnel-tarsien#article",
+      "author": {
+        "@type": "Person",
+        "@id": "https://www.physioactif.com/equipe/ariel-desjardins-charbonneau/#person"
+      },
+      "datePublished": "2025-09-26",
+      "name": "Syndrome Du Tunnel Tarsien - Guide Complet",
+      "headline": "Syndrome Du Tunnel Tarsien: Symptômes, Causes, Diagnostic et Traitement en Physiothérapie",
+      "about": [
+        {
+          "@id": "https://www.physioactif.com/guide-complet/syndrome-du-tunnel-tarsien#condition"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Physiothérapie",
+          "alternateName": [
+            "Physical therapy",
+            "Kinésithérapie",
+            "Fisioterapia"
+          ],
+          "sameAs": [
+            "https://www.physioactif.com/guide-complet/physiotherapie",
+            "https://www.wikidata.org/wiki/Q186005",
+            "https://en.wikipedia.org/wiki/Physical_therapy",
+            "https://fr.wikipedia.org/wiki/Kinésithérapie",
+            "https://meshb.nlm.nih.gov/record/ui?ui=D026761",
+            "https://www.merriam-webster.com/dictionary/physiotherapy",
+            "https://www.britannica.com/topic/physical-therapy"
+          ]
+        }
+      ],
+      "mainEntity": {
+        "@id": "https://www.physioactif.com/guide-complet/syndrome-du-tunnel-tarsien#condition"
+      },
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [
+          ".header_heading",
+          ".header_content .text-style-muted.w-richtext",
+          ".section_article .text-rich-text h2"
+        ]
+      },
+      "specialty": [
+        "Physiotherapy",
+        "Musculoskeletal",
+        "SportsMedicine"
+      ],
+      "medicalAudience": [
+        {
+          "@type": "Patient"
+        },
+        {
+          "@type": "MedicalAudience",
+          "audienceType": "General Public"
+        }
+      ],
+      "reviewedBy": {
+        "@id": "https://www.physioactif.com/#org"
+      },
+      "provider": {
+        "@id": "https://www.physioactif.com/#org"
+      },
+      "inLanguage": [
+        "fr-CA"
+      ],
+      "isPartOf": {
+        "@id": "https://www.physioactif.com/#website"
+      },
+      "mentions": [
+        {
+          "@type": "MedicalTherapy",
+          "name": "Physiothérapie",
+          "alternateName": [
+            "Physical therapy",
+            "Kinésithérapie",
+            "Fisioterapia"
+          ],
+          "sameAs": [
+            "https://www.physioactif.com/guide-complet/physiotherapie",
+            "https://www.wikidata.org/wiki/Q186005",
+            "https://en.wikipedia.org/wiki/Physical_therapy",
+            "https://fr.wikipedia.org/wiki/Kinésithérapie",
+            "https://meshb.nlm.nih.gov/record/ui?ui=D026761",
+            "https://www.merriam-webster.com/dictionary/physiotherapy",
+            "https://www.britannica.com/topic/physical-therapy"
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "name": "Fasciite plantaire",
+          "description": "Inflammation du fascia plantaire sous le pied",
+          "sameAs": [
+            "https://fr.wikipedia.org/wiki/Aponévrosite_plantaire",
+            "https://en.wikipedia.org/wiki/Plantar_fasciitis",
+            "https://www.wikidata.org/wiki/Q52851",
+            "https://meshb.nlm.nih.gov/record/ui?ui=D036981"
+          ]
+        }
+      ]
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://www.physioactif.com/guide-complet/syndrome-du-tunnel-tarsien#webpage",
+      "datePublished": "2025-09-26",
+      "url": "https://www.physioactif.com/guide-complet/syndrome-du-tunnel-tarsien",
+      "name": "Syndrome Du Tunnel Tarsien - Guide Complet | Physioactif",
+      "description": "Guide complet sur syndrome du tunnel tarsien: causes, symptômes, diagnostic et traitements en physiothérapie par les experts de Physioactif.",
+      "mainEntity": {
+        "@id": "https://www.physioactif.com/guide-complet/syndrome-du-tunnel-tarsien#condition"
+      },
+      "about": {
+        "@id": "https://www.physioactif.com/guide-complet/syndrome-du-tunnel-tarsien#condition"
+      },
+      "breadcrumb": {
+        "@type": "BreadcrumbList",
+        "@id": "https://www.physioactif.com/guide-complet/syndrome-du-tunnel-tarsien#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Accueil",
+            "item": "https://www.physioactif.com/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Guide Complet",
+            "item": "https://www.physioactif.com/guide-complet"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Syndrome Du Tunnel Tarsien",
+            "item": "https://www.physioactif.com/guide-complet/syndrome-du-tunnel-tarsien"
+          }
+        ]
+      },
+      "isPartOf": {
+        "@id": "https://www.physioactif.com/#website"
+      },
+      "inLanguage": [
+        "fr-CA"
+      ],
+      "potentialAction": {
+        "@type": "ReadAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://www.physioactif.com/guide-complet/syndrome-du-tunnel-tarsien",
+          "actionPlatform": [
+            "http://schema.org/DesktopWebPlatform",
+            "http://schema.org/MobileWebPlatform"
+          ]
+        }
+      },
+      "relatedLink": [
+        "https://physioactif.clinicmaster.com/clinic-selection?lang=fr-CA"
+      ],
+      "publisher": {
+        "@id": "https://www.physioactif.com/#org"
+      }
+    }
+  ]
+}

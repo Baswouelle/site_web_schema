@@ -1,0 +1,93 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "@id": "https://www.physioactif.com/ressources/quelle-est-la-difference-entre-un-osteopathe-un-chiropraticien-un-physiotherapeute-un-massotherapeute-un-acupuncteur-et-un-kinesiologue/#article",
+      "author": {
+        "@type": "Person",
+        "@id": "https://www.physioactif.com/equipe/alexis-gougeon/#person"
+      },
+      "headline": "Les différences entre ostéo, chiro, physio, masso, acu et  kiné?",
+      "description": "Choisissez enfin le bon professionnel. Découvrez qui peut vraiment vous aider et évitez de perdre temps et argent.",
+      "url": "https://www.physioactif.com/ressources/quelle-est-la-difference-entre-un-osteopathe-un-chiropraticien-un-physiotherapeute-un-massotherapeute-un-acupuncteur-et-un-kinesiologue/",
+      "inLanguage": [
+        "fr-CA"
+      ],
+      "datePublished": "2025-09-26",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://cdn.prod.website-files.com/670e84ccd653d18590687563/physioactif-hero-default.jpg",
+        "width": 1200,
+        "height": 630
+      },
+      "publisher": {
+        "@id": "https://www.physioactif.com/#org"
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.physioactif.com/ressources/quelle-est-la-difference-entre-un-osteopathe-un-chiropraticien-un-physiotherapeute-un-massotherapeute-un-acupuncteur-et-un-kinesiologue/"
+      },
+      "about": {
+        "@type": "PhysicalTherapy",
+        "name": "Physiothérapie"
+      },
+      "articleSection": "Ressources",
+      "keywords": [
+        "professions santé",
+        "ostéopathie",
+        "chiropratique",
+        "physiothérapie",
+        "massothérapie",
+        "kinésiologie"
+      ]
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://www.physioactif.com/ressources/quelle-est-la-difference-entre-un-osteopathe-un-chiropraticien-un-physiotherapeute-un-massotherapeute-un-acupuncteur-et-un-kinesiologue/#webpage",
+      "datePublished": "2025-09-26",
+      "url": "https://www.physioactif.com/ressources/quelle-est-la-difference-entre-un-osteopathe-un-chiropraticien-un-physiotherapeute-un-massotherapeute-un-acupuncteur-et-un-kinesiologue/",
+      "name": "Les différences entre ostéo, chiro, physio, masso, acu et  kiné?",
+      "description": "Choisissez enfin le bon professionnel. Découvrez qui peut vraiment vous aider et évitez de perdre temps et argent.",
+      "inLanguage": [
+        "fr-CA"
+      ],
+      "isPartOf": {
+        "@id": "https://www.physioactif.com/#website"
+      },
+      "mainEntity": {
+        "@id": "https://www.physioactif.com/ressources/quelle-est-la-difference-entre-un-osteopathe-un-chiropraticien-un-physiotherapeute-un-massotherapeute-un-acupuncteur-et-un-kinesiologue/#article"
+      },
+      "breadcrumb": {
+        "@id": "https://www.physioactif.com/ressources/quelle-est-la-difference-entre-un-osteopathe-un-chiropraticien-un-physiotherapeute-un-massotherapeute-un-acupuncteur-et-un-kinesiologue/#breadcrumb"
+      },
+      "publisher": {
+        "@id": "https://www.physioactif.com/#org"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.physioactif.com/ressources/quelle-est-la-difference-entre-un-osteopathe-un-chiropraticien-un-physiotherapeute-un-massotherapeute-un-acupuncteur-et-un-kinesiologue/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Accueil",
+          "item": "https://www.physioactif.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Ressources",
+          "item": "https://www.physioactif.com/ressources/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Les différences entre ostéo, chiro, physio, masso, acu et  kiné?",
+          "item": "https://www.physioactif.com/ressources/quelle-est-la-difference-entre-un-osteopathe-un-chiropraticien-un-physiotherapeute-un-massotherapeute-un-acupuncteur-et-un-kinesiologue/"
+        }
+      ]
+    }
+  ]
+}

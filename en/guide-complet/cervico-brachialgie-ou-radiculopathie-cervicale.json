@@ -1,0 +1,217 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "MedicalCondition",
+      "@id": "https://www.physioactif.com/en/guide-complet/cervico-brachialgie-ou-radiculopathie-cervicale#condition",
+      "name": "Cervico-brachialgie ou radiculopathie cervicale",
+      "alternateName": [
+        "Cervical radiculopathy",
+        "Pinched nerve in neck",
+        "Névralgie cervico-brachiale"
+      ],
+      "description": "La radiculopathie cervicale est une affection causée par la compression ou l'irritation d'une racine nerveuse au niveau de la colonne cervicale, entraînant douleur, engourdissement, paresthésie et faiblesse musculaire dans le cou, l'épaule, le bras ou la main. Elle affecte le plus souvent les racines nerveuses C7 et C6, et peut être causée par une hernie discale, une arthrose ou une sténose foraminale.",
+      "code": [
+        {
+          "@type": "MedicalCode",
+          "code": "M54.12",
+          "codingSystem": "ICD-10"
+        },
+        {
+          "@type": "MedicalCode",
+          "code": "D011843",
+          "codingSystem": "MeSH"
+        }
+      ],
+      "sameAs": [
+        "https://en.wikipedia.org/wiki/Radiculopathy",
+        "https://www.wikidata.org/wiki/Q9324221",
+        "https://www.nlm.nih.gov/mesh/D011843",
+        "https://icd.who.int/browse10/2019/en#/M54.12",
+        "https://www.merriam-webster.com/dictionary/radiculopathy"
+      ],
+      "possibleTreatment": {
+        "@type": "MedicalTherapy",
+        "name": "Physiothérapie",
+        "alternateName": [
+          "Physical therapy",
+          "Kinésithérapie",
+          "Fisioterapia"
+        ],
+        "sameAs": [
+          "https://www.physioactif.com/en/guide-complet/physiotherapie",
+          "https://www.wikidata.org/wiki/Q186005",
+          "https://en.wikipedia.org/wiki/Physical_therapy",
+          "https://fr.wikipedia.org/wiki/Kinésithérapie",
+          "https://meshb.nlm.nih.gov/record/ui?ui=D026761",
+          "https://www.merriam-webster.com/dictionary/physiotherapy",
+          "https://www.britannica.com/topic/physical-therapy"
+        ]
+      }
+    },
+    {
+      "@type": "MedicalWebPage",
+      "@id": "https://www.physioactif.com/en/guide-complet/cervico-brachialgie-ou-radiculopathie-cervicale#article",
+      "author": {
+        "@type": "Person",
+        "@id": "https://www.physioactif.com/en/equipe/ariel-desjardins-charbonneau/#person"
+      },
+      "datePublished": "2025-09-26",
+      "name": "Cervico Brachialgie Ou Radiculopathie Cervicale - Guide Complet",
+      "headline": "Cervico Brachialgie Ou Radiculopathie Cervicale: Symptômes, Causes, Diagnostic et Traitement en Physiothérapie",
+      "about": [
+        {
+          "@id": "https://www.physioactif.com/en/guide-complet/cervico-brachialgie-ou-radiculopathie-cervicale#condition"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Physiothérapie",
+          "alternateName": [
+            "Physical therapy",
+            "Kinésithérapie",
+            "Fisioterapia"
+          ],
+          "sameAs": [
+            "https://www.physioactif.com/en/guide-complet/physiotherapie",
+            "https://www.wikidata.org/wiki/Q186005",
+            "https://en.wikipedia.org/wiki/Physical_therapy",
+            "https://fr.wikipedia.org/wiki/Kinésithérapie",
+            "https://meshb.nlm.nih.gov/record/ui?ui=D026761",
+            "https://www.merriam-webster.com/dictionary/physiotherapy",
+            "https://www.britannica.com/topic/physical-therapy"
+          ]
+        }
+      ],
+      "mainEntity": {
+        "@id": "https://www.physioactif.com/en/guide-complet/cervico-brachialgie-ou-radiculopathie-cervicale#condition"
+      },
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [
+          ".header_heading",
+          ".header_content .text-style-muted.w-richtext",
+          ".section_article .text-rich-text h2"
+        ]
+      },
+      "specialty": [
+        "Physiotherapy",
+        "Musculoskeletal",
+        "SportsMedicine"
+      ],
+      "medicalAudience": [
+        {
+          "@type": "Patient"
+        },
+        {
+          "@type": "MedicalAudience",
+          "audienceType": "General Public"
+        }
+      ],
+      "reviewedBy": {
+        "@id": "https://www.physioactif.com/en/#org"
+      },
+      "provider": {
+        "@id": "https://www.physioactif.com/en/#org"
+      },
+      "inLanguage": [
+        "en-CA"
+      ],
+      "isPartOf": {
+        "@id": "https://www.physioactif.com/en/#website"
+      },
+      "mentions": [
+        {
+          "@type": "MedicalTherapy",
+          "name": "Physiothérapie",
+          "alternateName": [
+            "Physical therapy",
+            "Kinésithérapie",
+            "Fisioterapia"
+          ],
+          "sameAs": [
+            "https://www.physioactif.com/en/guide-complet/physiotherapie",
+            "https://www.wikidata.org/wiki/Q186005",
+            "https://en.wikipedia.org/wiki/Physical_therapy",
+            "https://fr.wikipedia.org/wiki/Kinésithérapie",
+            "https://meshb.nlm.nih.gov/record/ui?ui=D026761",
+            "https://www.merriam-webster.com/dictionary/physiotherapy",
+            "https://www.britannica.com/topic/physical-therapy"
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "name": "Névralgie cervico-brachiale",
+          "description": "Une névralgie cervico-brachiale (ou radiculopathie cervicale) est une douleur d'origine nerveuse qui irradie du cou vers le bras, causée par la compression ou l'irritation d'une racine nerveuse au niveau de la colonne cervicale.",
+          "sameAs": [
+            "https://fr.wikipedia.org/wiki/Névralgie_cervicobrachiale",
+            "https://en.wikipedia.org/wiki/Radiculopathy",
+            "https://www.wikidata.org/wiki/Q9324221",
+            "https://meshb.nlm.nih.gov/record/ui?ui=D011843",
+            "https://www.merriam-webster.com/dictionary/radiculopathy"
+          ]
+        }
+      ]
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://www.physioactif.com/en/guide-complet/cervico-brachialgie-ou-radiculopathie-cervicale#webpage",
+      "datePublished": "2025-09-26",
+      "url": "https://www.physioactif.com/en/guide-complet/cervico-brachialgie-ou-radiculopathie-cervicale",
+      "name": "Cervico Brachialgie Ou Radiculopathie Cervicale - Guide Complet | Physioactif",
+      "description": "Guide complet sur cervico brachialgie ou radiculopathie cervicale: causes, symptômes, diagnostic et traitements en physiothérapie par les experts de Physioactif.",
+      "mainEntity": {
+        "@id": "https://www.physioactif.com/en/guide-complet/cervico-brachialgie-ou-radiculopathie-cervicale#condition"
+      },
+      "about": {
+        "@id": "https://www.physioactif.com/en/guide-complet/cervico-brachialgie-ou-radiculopathie-cervicale#condition"
+      },
+      "breadcrumb": {
+        "@type": "BreadcrumbList",
+        "@id": "https://www.physioactif.com/en/guide-complet/cervico-brachialgie-ou-radiculopathie-cervicale#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Accueil",
+            "item": "https://www.physioactif.com/en/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Guide Complet",
+            "item": "https://www.physioactif.com/en/guide-complet"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Cervico Brachialgie Ou Radiculopathie Cervicale",
+            "item": "https://www.physioactif.com/en/guide-complet/cervico-brachialgie-ou-radiculopathie-cervicale"
+          }
+        ]
+      },
+      "isPartOf": {
+        "@id": "https://www.physioactif.com/en/#website"
+      },
+      "inLanguage": [
+        "en-CA"
+      ],
+      "potentialAction": {
+        "@type": "ReadAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://www.physioactif.com/en/guide-complet/cervico-brachialgie-ou-radiculopathie-cervicale",
+          "actionPlatform": [
+            "http://schema.org/DesktopWebPlatform",
+            "http://schema.org/MobileWebPlatform"
+          ]
+        }
+      },
+      "relatedLink": [
+        "https://physioactif.clinicmaster.com/clinic-selection?lang=fr-CA"
+      ],
+      "publisher": {
+        "@id": "https://www.physioactif.com/en/#org"
+      }
+    }
+  ]
+}

@@ -1,0 +1,208 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "VideoObject",
+      "@id": "https://www.physioactif.com/en/videos-dexercise/flexion-du-genou-sur-le-ventre-pkb#video",
+      "name": "Flexion du Genou Sur le Ventre Pkb - Vidéo Physiothérapie",
+      "description": "Vidéo démonstration professionnelle de l'exercice flexion du genou sur le ventre pkb par les physiothérapeutes de Physioactif.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/OUn3dOCXFNc/maxresdefault.jpg",
+      "uploadDate": "2024-01-15",
+      "duration": "PT1M",
+      "publisher": {
+        "@id": "https://www.physioactif.com/en/#org"
+      },
+      "about": [
+        {
+          "@id": "https://www.physioactif.com/en/videos-dexercise/flexion-du-genou-sur-le-ventre-pkb#exercise"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Physiothérapie",
+          "alternateName": [
+            "Physical therapy",
+            "Kinésithérapie",
+            "Fisioterapia"
+          ],
+          "sameAs": [
+            "https://www.physioactif.com/en/guide-complet/physiotherapie",
+            "https://www.wikidata.org/wiki/Q186005",
+            "https://en.wikipedia.org/wiki/Physical_therapy",
+            "https://fr.wikipedia.org/wiki/Kinésithérapie",
+            "https://meshb.nlm.nih.gov/record/ui?ui=D026761",
+            "https://www.merriam-webster.com/dictionary/physiotherapy",
+            "https://www.britannica.com/topic/physical-therapy"
+          ]
+        }
+      ],
+      "embedUrl": "https://www.youtube.com/embed/OUn3dOCXFNc",
+      "contentUrl": "https://www.youtube.com/watch?v=OUn3dOCXFNc"
+    },
+    {
+      "@type": "ExercisePlan",
+      "@id": "https://www.physioactif.com/en/videos-dexercise/flexion-du-genou-sur-le-ventre-pkb#exercise",
+      "name": "Flexion du Genou Sur le Ventre Pkb",
+      "description": "Exercice thérapeutique pour la région ciblée visant à améliorer la mobilité et la fonction. Particulièrement efficace pour traiter Syndrome fémoro-patellaire, Arthrose du genou (gonarthrose), Entorse au genou et déchirure du ligament croisé antérieur (LCA). Cet exercice aide à corriger les déséquilibres musculaires, améliorer la posture et réduire la douleur. Recommandé dans le cadre d'un programme de réadaptation en physiothérapie.",
+      "category": "Genou",
+      "activityDuration": "PT1M",
+      "exerciseType": "PhysicalActivity",
+      "associatedAnatomicalStructure": {
+        "@type": "AnatomicalStructure",
+        "name": "Genou"
+      },
+      "isPartOf": {
+        "@id": "https://www.physioactif.com/en/#org"
+      },
+      "provider": {
+        "@id": "https://www.physioactif.com/en/#org"
+      },
+      "inLanguage": [
+        "en-CA"
+      ],
+      "url": "https://www.physioactif.com/en/videos-dexercise/flexion-du-genou-sur-le-ventre-pkb",
+      "exerciseRelatedCondition": [
+        {
+          "@id": "https://www.physioactif.com/en/guide-complet/syndrome-femoro-patellaire#condition"
+        },
+        {
+          "@id": "https://www.physioactif.com/en/guide-complet/arthrose-du-genou-gonarthrose#condition"
+        },
+        {
+          "@id": "https://www.physioactif.com/en/guide-complet/entorse-au-genou-et-dechirure-du-ligament-croise-anterieur-lca#condition"
+        }
+      ],
+      "targetArea": [
+        {
+          "@type": "AnatomicalStructure",
+          "name": "Knee"
+        },
+        {
+          "@type": "AnatomicalStructure",
+          "name": "Patella"
+        }
+      ],
+      "intensity": {
+        "@type": "QuantitativeValue",
+        "value": "Moderate",
+        "description": "Modéré - Convient aux personnes avec mobilité de base"
+      },
+      "repetitions": {
+        "@type": "QuantitativeValue",
+        "value": "3-5",
+        "unitText": "répétitions par côté"
+      },
+      "restPeriods": "PT30S",
+      "workload": {
+        "@type": "Energy",
+        "value": "Light to moderate"
+      }
+    },
+    {
+      "@type": "MedicalWebPage",
+      "@id": "https://www.physioactif.com/en/videos-dexercise/flexion-du-genou-sur-le-ventre-pkb#webpage",
+      "datePublished": "2025-09-26",
+      "name": "Flexion du Genou Sur le Ventre Pkb - Vidéo d'exercice",
+      "headline": "Flexion du Genou Sur le Ventre Pkb - Exercice de physiothérapie en vidéo | Physioactif",
+      "description": "Exercice thérapeutique pour la région ciblée visant à améliorer la mobilité et la fonction. Particulièrement efficace pour traiter Syndrome fémoro-patellaire, Arthrose du genou (gonarthrose), Entorse au genou et déchirure du ligament croisé antérieur (LCA). Cet exercice aide à corriger les déséquilibres musculaires, améliorer la posture et réduire la douleur. Recommandé dans le cadre d'un programme de réadaptation en physiothérapie.",
+      "about": [
+        {
+          "@id": "https://www.physioactif.com/en/videos-dexercise/flexion-du-genou-sur-le-ventre-pkb#exercise"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Physiothérapie",
+          "alternateName": [
+            "Physical therapy",
+            "Kinésithérapie",
+            "Fisioterapia"
+          ],
+          "sameAs": [
+            "https://www.physioactif.com/en/guide-complet/physiotherapie",
+            "https://www.wikidata.org/wiki/Q186005",
+            "https://en.wikipedia.org/wiki/Physical_therapy",
+            "https://fr.wikipedia.org/wiki/Kinésithérapie",
+            "https://meshb.nlm.nih.gov/record/ui?ui=D026761",
+            "https://www.merriam-webster.com/dictionary/physiotherapy",
+            "https://www.britannica.com/topic/physical-therapy"
+          ]
+        }
+      ],
+      "mainEntity": {
+        "@id": "https://www.physioactif.com/en/videos-dexercise/flexion-du-genou-sur-le-ventre-pkb#exercise"
+      },
+      "isPartOf": {
+        "@id": "https://www.physioactif.com/en/#website"
+      },
+      "specialty": [
+        "Physiotherapy",
+        "Musculoskeletal",
+        "SportsMedicine"
+      ],
+      "inLanguage": [
+        "en-CA"
+      ],
+      "url": "https://www.physioactif.com/en/videos-dexercise/flexion-du-genou-sur-le-ventre-pkb",
+      "breadcrumb": {
+        "@id": "https://www.physioactif.com/en/videos-dexercise/flexion-du-genou-sur-le-ventre-pkb#breadcrumb"
+      },
+      "video": {
+        "@id": "https://www.physioactif.com/en/videos-dexercise/flexion-du-genou-sur-le-ventre-pkb#video"
+      },
+      "mentions": [
+        {
+          "@type": "DefinedTerm",
+          "name": "Genou",
+          "description": "Articulation synoviale reliant le fémur, le tibia et la patelle, permettant principalement des mouvements de flexion et d'extension",
+          "sameAs": [
+            "https://fr.wikipedia.org/wiki/Genou",
+            "https://en.wikipedia.org/wiki/Knee",
+            "https://www.wikidata.org/wiki/Q37425",
+            "https://meshb.nlm.nih.gov/record/ui?ui=D007717"
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "name": "Patella",
+          "description": "Os sésamoïde situé en avant du genou, également appelé rotule, qui protège l'articulation fémoropatellaire",
+          "sameAs": [
+            "https://fr.wikipedia.org/wiki/Patella_(os)",
+            "https://en.wikipedia.org/wiki/Patella",
+            "https://www.wikidata.org/wiki/Q229081",
+            "https://meshb.nlm.nih.gov/record/ui?ui=D010329"
+          ]
+        }
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [
+          ".header_heading",
+          ".header_content .text-style-muted",
+          ".section_article .text-rich-text h2"
+        ]
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.physioactif.com/en/videos-dexercise/flexion-du-genou-sur-le-ventre-pkb#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Accueil",
+          "item": "https://www.physioactif.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Vidéos d'exercices",
+          "item": "https://www.physioactif.com/en/videos-exercices"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Flexion du Genou Sur le Ventre Pkb"
+        }
+      ]
+    }
+  ]
+}

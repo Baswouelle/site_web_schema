@@ -1,0 +1,218 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "MedicalCondition",
+      "@id": "https://www.physioactif.com/guide-complet/tenosynovite-de-dequervain#condition",
+      "name": "Ténosynovite de De Quervain",
+      "alternateName": [
+        "De Quervain syndrome",
+        "De Quervain's tenosynovitis",
+        "De Quervain's tendinosis",
+        "Radial styloid tenosynovitis"
+      ],
+      "description": "Le syndrome de De Quervain est nommé d'après le chirurgien suisse Fritz de Quervain, qui l'a identifié pour la première fois en 1895. C'est une condition caractérisée par l'inflammation et l'irritation des tendons situés du côté du pouce du poignet. Le syndrome de De Quervain implique un épaississement non inflammatoire des tendons et des gaines synoviales, affectant les muscles court extenseur du pouce et long abducteur du pouce. L'examen histopathologique montre un épaississement et une dégénérescence myxoïde cohérents avec un processus dégénératif chronique, plutôt qu'une inflammation ou une blessure. La douleur est aggravée par le mouvement du pouce et du poignet, et peut irradier vers le pouce ou l'avant-bras. Les patients se présentent avec une douleur du côté radial du poignet généralement aggravée par le mouvement du pouce et du poignet.",
+      "code": [
+        {
+          "@type": "MedicalCode",
+          "code": "M65.4",
+          "codingSystem": "ICD-10"
+        },
+        {
+          "@type": "MedicalCode",
+          "code": "D053684",
+          "codingSystem": "MeSH"
+        }
+      ],
+      "sameAs": [
+        "https://fr.wikipedia.org/wiki/Ténosynovite_de_De_Quervain",
+        "https://en.wikipedia.org/wiki/De_Quervain_syndrome",
+        "https://www.wikidata.org/wiki/Q517202",
+        "https://meshb.nlm.nih.gov/record/ui?ui=D053684",
+        "https://www.icd10data.com/ICD10CM/Codes/M00-M99/M65-M67/M65-/M65.4",
+        "http://snomed.info/id/410097009"
+      ],
+      "possibleTreatment": {
+        "@type": "MedicalTherapy",
+        "name": "Physiothérapie",
+        "alternateName": [
+          "Physical therapy",
+          "Kinésithérapie",
+          "Fisioterapia"
+        ],
+        "sameAs": [
+          "https://www.physioactif.com/guide-complet/physiotherapie",
+          "https://www.wikidata.org/wiki/Q186005",
+          "https://en.wikipedia.org/wiki/Physical_therapy",
+          "https://fr.wikipedia.org/wiki/Kinésithérapie",
+          "https://meshb.nlm.nih.gov/record/ui?ui=D026761",
+          "https://www.merriam-webster.com/dictionary/physiotherapy",
+          "https://www.britannica.com/topic/physical-therapy"
+        ]
+      }
+    },
+    {
+      "@type": "MedicalWebPage",
+      "@id": "https://www.physioactif.com/guide-complet/tenosynovite-de-dequervain#article",
+      "author": {
+        "@type": "Person",
+        "@id": "https://www.physioactif.com/equipe/ariel-desjardins-charbonneau/#person"
+      },
+      "datePublished": "2025-09-26",
+      "name": "Tenosynovite De Dequervain - Guide Complet",
+      "headline": "Tenosynovite De Dequervain: Symptômes, Causes, Diagnostic et Traitement en Physiothérapie",
+      "about": [
+        {
+          "@id": "https://www.physioactif.com/guide-complet/tenosynovite-de-dequervain#condition"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Physiothérapie",
+          "alternateName": [
+            "Physical therapy",
+            "Kinésithérapie",
+            "Fisioterapia"
+          ],
+          "sameAs": [
+            "https://www.physioactif.com/guide-complet/physiotherapie",
+            "https://www.wikidata.org/wiki/Q186005",
+            "https://en.wikipedia.org/wiki/Physical_therapy",
+            "https://fr.wikipedia.org/wiki/Kinésithérapie",
+            "https://meshb.nlm.nih.gov/record/ui?ui=D026761",
+            "https://www.merriam-webster.com/dictionary/physiotherapy",
+            "https://www.britannica.com/topic/physical-therapy"
+          ]
+        }
+      ],
+      "mainEntity": {
+        "@id": "https://www.physioactif.com/guide-complet/tenosynovite-de-dequervain#condition"
+      },
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [
+          ".header_heading",
+          ".header_content .text-style-muted.w-richtext",
+          ".section_article .text-rich-text h2"
+        ]
+      },
+      "specialty": [
+        "Physiotherapy",
+        "Musculoskeletal",
+        "SportsMedicine"
+      ],
+      "medicalAudience": [
+        {
+          "@type": "Patient"
+        },
+        {
+          "@type": "MedicalAudience",
+          "audienceType": "General Public"
+        }
+      ],
+      "reviewedBy": {
+        "@id": "https://www.physioactif.com/#org"
+      },
+      "provider": {
+        "@id": "https://www.physioactif.com/#org"
+      },
+      "inLanguage": [
+        "fr-CA"
+      ],
+      "isPartOf": {
+        "@id": "https://www.physioactif.com/#website"
+      },
+      "mentions": [
+        {
+          "@type": "MedicalTherapy",
+          "name": "Physiothérapie",
+          "alternateName": [
+            "Physical therapy",
+            "Kinésithérapie",
+            "Fisioterapia"
+          ],
+          "sameAs": [
+            "https://www.physioactif.com/guide-complet/physiotherapie",
+            "https://www.wikidata.org/wiki/Q186005",
+            "https://en.wikipedia.org/wiki/Physical_therapy",
+            "https://fr.wikipedia.org/wiki/Kinésithérapie",
+            "https://meshb.nlm.nih.gov/record/ui?ui=D026761",
+            "https://www.merriam-webster.com/dictionary/physiotherapy",
+            "https://www.britannica.com/topic/physical-therapy"
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "name": "Syndrome du tunnel carpien",
+          "description": "Compression du nerf médian au niveau du poignet",
+          "sameAs": [
+            "https://fr.wikipedia.org/wiki/Syndrome_du_canal_carpien",
+            "https://en.wikipedia.org/wiki/Carpal_tunnel_syndrome",
+            "https://www.wikidata.org/wiki/Q332293",
+            "https://meshb.nlm.nih.gov/record/ui?ui=D002349"
+          ]
+        }
+      ]
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://www.physioactif.com/guide-complet/tenosynovite-de-dequervain#webpage",
+      "datePublished": "2025-09-26",
+      "url": "https://www.physioactif.com/guide-complet/tenosynovite-de-dequervain",
+      "name": "Tenosynovite De Dequervain - Guide Complet | Physioactif",
+      "description": "Guide complet sur tenosynovite de dequervain: causes, symptômes, diagnostic et traitements en physiothérapie par les experts de Physioactif.",
+      "mainEntity": {
+        "@id": "https://www.physioactif.com/guide-complet/tenosynovite-de-dequervain#condition"
+      },
+      "about": {
+        "@id": "https://www.physioactif.com/guide-complet/tenosynovite-de-dequervain#condition"
+      },
+      "breadcrumb": {
+        "@type": "BreadcrumbList",
+        "@id": "https://www.physioactif.com/guide-complet/tenosynovite-de-dequervain#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Accueil",
+            "item": "https://www.physioactif.com/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Guide Complet",
+            "item": "https://www.physioactif.com/guide-complet"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Tenosynovite De Dequervain",
+            "item": "https://www.physioactif.com/guide-complet/tenosynovite-de-dequervain"
+          }
+        ]
+      },
+      "isPartOf": {
+        "@id": "https://www.physioactif.com/#website"
+      },
+      "inLanguage": [
+        "fr-CA"
+      ],
+      "potentialAction": {
+        "@type": "ReadAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://www.physioactif.com/guide-complet/tenosynovite-de-dequervain",
+          "actionPlatform": [
+            "http://schema.org/DesktopWebPlatform",
+            "http://schema.org/MobileWebPlatform"
+          ]
+        }
+      },
+      "relatedLink": [
+        "https://physioactif.clinicmaster.com/clinic-selection?lang=fr-CA"
+      ],
+      "publisher": {
+        "@id": "https://www.physioactif.com/#org"
+      }
+    }
+  ]
+}

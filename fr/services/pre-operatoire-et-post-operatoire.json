@@ -1,0 +1,95 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@id": "https://www.physioactif.com/services/pre-operatoire-et-post-operatoire/#therapy"
+    },
+    {
+      "@id": "https://www.physioactif.com/services/pre-operatoire-et-post-operatoire/#offer"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://www.physioactif.com/services/pre-operatoire-et-post-operatoire/#webpage",
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [
+          ".header_heading",
+          ".max-width-medium .text-style-muted"
+        ]
+      },
+      "datePublished": "2025-09-26",
+      "url": "https://www.physioactif.com/services/pre-operatoire-et-post-operatoire/",
+      "name": "Physio pré et post-opératoire : préparation et programme personnalisé",
+      "description": "Optimisez votre chirurgie. Préparation ciblée et récupération accélérée pour des résultats exceptionnels.",
+      "author": {
+        "@type": "Person",
+        "@id": "https://www.physioactif.com/equipe/ariel-desjardins-charbonneau/#person"
+      },
+      "inLanguage": [
+        "fr-CA"
+      ],
+      "isPartOf": {
+        "@id": "https://www.physioactif.com/#website"
+      },
+      "mainEntity": {
+        "@id": "https://www.physioactif.com/services/pre-operatoire-et-post-operatoire/#therapy"
+      },
+      "breadcrumb": {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Accueil",
+            "item": "https://www.physioactif.com/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Services",
+            "item": "https://www.physioactif.com/services/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Physio pré et post-opératoire : préparation et programme personnalisé",
+            "item": "https://www.physioactif.com/services/pre-operatoire-et-post-operatoire/"
+          }
+        ]
+      },
+      "about": [
+        {
+          "@type": "MedicalTherapy",
+          "name": "Physiothérapie pré-opératoire et post-opératoire",
+          "description": "Programme de réadaptation périopératoire incluant préhabilitation chirurgicale pour optimiser la condition préopératoire et récupération postopératoire accélérée.",
+          "sameAs": [
+            "https://fr.wikipedia.org/wiki/Récupération_rapide_après_chirurgie",
+            "https://en.wikipedia.org/wiki/Prehabilitation",
+            "https://www.wikidata.org/wiki/Q49553343"
+          ]
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Physiothérapie",
+          "alternateName": [
+            "Physical therapy",
+            "Kinésithérapie",
+            "Fisioterapia"
+          ],
+          "sameAs": [
+            "https://www.physioactif.com/guide-complet/physiotherapie",
+            "https://www.wikidata.org/wiki/Q186005",
+            "https://en.wikipedia.org/wiki/Physical_therapy",
+            "https://fr.wikipedia.org/wiki/Kinésithérapie",
+            "https://meshb.nlm.nih.gov/record/ui?ui=D026761",
+            "https://www.merriam-webster.com/dictionary/physiotherapy",
+            "https://www.britannica.com/topic/physical-therapy"
+          ]
+        }
+      ],
+      "publisher": {
+        "@id": "https://www.physioactif.com/#org"
+      }
+    }
+  ]
+}

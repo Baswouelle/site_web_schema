@@ -1,0 +1,218 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "MedicalCondition",
+      "@id": "https://www.physioactif.com/guide-complet/syndrome-de-la-vessie-hyperactive#condition",
+      "name": "Syndrome de la vessie hyperactive",
+      "alternateName": [
+        "Overactive bladder",
+        "OAB",
+        "Hyperactive bladder syndrome",
+        "Urgency syndrome"
+      ],
+      "description": "Le syndrome de la vessie hyperactive est un symptôme de muscle détrusor hyperactif de la vessie urinaire qui se contracte avec une fréquence et une urgence anormalement élevées. La vessie hyperactive se caractérise par un groupe de quatre symptômes : urgence, fréquence urinaire, nycturie et incontinence par impériosité. La fréquence urinaire se définit comme uriner plus de 7-8 fois environ en une journée. La condition affecte la qualité de vie des patients et nécessite souvent une prise en charge multidisciplinaire incluant la physiothérapie du plancher pelvien. Les symptômes peuvent inclure une envie soudaine et incontrôlable d'uriner, des mictions fréquentes et parfois une perte involontaire d'urine.",
+      "code": [
+        {
+          "@type": "MedicalCode",
+          "code": "N32.81",
+          "codingSystem": "ICD-10"
+        },
+        {
+          "@type": "MedicalCode",
+          "code": "D053201",
+          "codingSystem": "MeSH"
+        }
+      ],
+      "sameAs": [
+        "https://fr.wikipedia.org/wiki/Vessie_hyperactive",
+        "https://en.wikipedia.org/wiki/Overactive_bladder",
+        "https://www.wikidata.org/wiki/Q1429643",
+        "https://meshb.nlm.nih.gov/record/ui?ui=D053201",
+        "https://www.icd10data.com/ICD10CM/Codes/N00-N99/N30-N39/N32-/N32.81",
+        "http://snomed.info/id/236633002"
+      ],
+      "possibleTreatment": {
+        "@type": "MedicalTherapy",
+        "name": "Physiothérapie",
+        "alternateName": [
+          "Physical therapy",
+          "Kinésithérapie",
+          "Fisioterapia"
+        ],
+        "sameAs": [
+          "https://www.physioactif.com/guide-complet/physiotherapie",
+          "https://www.wikidata.org/wiki/Q186005",
+          "https://en.wikipedia.org/wiki/Physical_therapy",
+          "https://fr.wikipedia.org/wiki/Kinésithérapie",
+          "https://meshb.nlm.nih.gov/record/ui?ui=D026761",
+          "https://www.merriam-webster.com/dictionary/physiotherapy",
+          "https://www.britannica.com/topic/physical-therapy"
+        ]
+      }
+    },
+    {
+      "@type": "MedicalWebPage",
+      "@id": "https://www.physioactif.com/guide-complet/syndrome-de-la-vessie-hyperactive#article",
+      "author": {
+        "@type": "Person",
+        "@id": "https://www.physioactif.com/equipe/ariel-desjardins-charbonneau/#person"
+      },
+      "datePublished": "2025-09-26",
+      "name": "Syndrome De La Vessie Hyperactive - Guide Complet",
+      "headline": "Syndrome De La Vessie Hyperactive: Symptômes, Causes, Diagnostic et Traitement en Physiothérapie",
+      "about": [
+        {
+          "@id": "https://www.physioactif.com/guide-complet/syndrome-de-la-vessie-hyperactive#condition"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Physiothérapie",
+          "alternateName": [
+            "Physical therapy",
+            "Kinésithérapie",
+            "Fisioterapia"
+          ],
+          "sameAs": [
+            "https://www.physioactif.com/guide-complet/physiotherapie",
+            "https://www.wikidata.org/wiki/Q186005",
+            "https://en.wikipedia.org/wiki/Physical_therapy",
+            "https://fr.wikipedia.org/wiki/Kinésithérapie",
+            "https://meshb.nlm.nih.gov/record/ui?ui=D026761",
+            "https://www.merriam-webster.com/dictionary/physiotherapy",
+            "https://www.britannica.com/topic/physical-therapy"
+          ]
+        }
+      ],
+      "mainEntity": {
+        "@id": "https://www.physioactif.com/guide-complet/syndrome-de-la-vessie-hyperactive#condition"
+      },
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [
+          ".header_heading",
+          ".header_content .text-style-muted.w-richtext",
+          ".section_article .text-rich-text h2"
+        ]
+      },
+      "specialty": [
+        "Physiotherapy",
+        "Musculoskeletal",
+        "SportsMedicine"
+      ],
+      "medicalAudience": [
+        {
+          "@type": "Patient"
+        },
+        {
+          "@type": "MedicalAudience",
+          "audienceType": "General Public"
+        }
+      ],
+      "reviewedBy": {
+        "@id": "https://www.physioactif.com/#org"
+      },
+      "provider": {
+        "@id": "https://www.physioactif.com/#org"
+      },
+      "inLanguage": [
+        "fr-CA"
+      ],
+      "isPartOf": {
+        "@id": "https://www.physioactif.com/#website"
+      },
+      "mentions": [
+        {
+          "@type": "MedicalTherapy",
+          "name": "Physiothérapie",
+          "alternateName": [
+            "Physical therapy",
+            "Kinésithérapie",
+            "Fisioterapia"
+          ],
+          "sameAs": [
+            "https://www.physioactif.com/guide-complet/physiotherapie",
+            "https://www.wikidata.org/wiki/Q186005",
+            "https://en.wikipedia.org/wiki/Physical_therapy",
+            "https://fr.wikipedia.org/wiki/Kinésithérapie",
+            "https://meshb.nlm.nih.gov/record/ui?ui=D026761",
+            "https://www.merriam-webster.com/dictionary/physiotherapy",
+            "https://www.britannica.com/topic/physical-therapy"
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "name": "Incontinence urinaire",
+          "description": "Condition musculosquelettique affectant incontinence urinaire",
+          "sameAs": [
+            "https://fr.wikipedia.org/wiki/Incontinence_urinaire",
+            "https://en.wikipedia.org/wiki/Urinary_incontinence",
+            "https://www.wikidata.org/wiki/Q281490",
+            "https://meshb.nlm.nih.gov/record/ui?ui=D014549"
+          ]
+        }
+      ]
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://www.physioactif.com/guide-complet/syndrome-de-la-vessie-hyperactive#webpage",
+      "datePublished": "2025-09-26",
+      "url": "https://www.physioactif.com/guide-complet/syndrome-de-la-vessie-hyperactive",
+      "name": "Syndrome De La Vessie Hyperactive - Guide Complet | Physioactif",
+      "description": "Guide complet sur syndrome de la vessie hyperactive: causes, symptômes, diagnostic et traitements en physiothérapie par les experts de Physioactif.",
+      "mainEntity": {
+        "@id": "https://www.physioactif.com/guide-complet/syndrome-de-la-vessie-hyperactive#condition"
+      },
+      "about": {
+        "@id": "https://www.physioactif.com/guide-complet/syndrome-de-la-vessie-hyperactive#condition"
+      },
+      "breadcrumb": {
+        "@type": "BreadcrumbList",
+        "@id": "https://www.physioactif.com/guide-complet/syndrome-de-la-vessie-hyperactive#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Accueil",
+            "item": "https://www.physioactif.com/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Guide Complet",
+            "item": "https://www.physioactif.com/guide-complet"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Syndrome De La Vessie Hyperactive",
+            "item": "https://www.physioactif.com/guide-complet/syndrome-de-la-vessie-hyperactive"
+          }
+        ]
+      },
+      "isPartOf": {
+        "@id": "https://www.physioactif.com/#website"
+      },
+      "inLanguage": [
+        "fr-CA"
+      ],
+      "potentialAction": {
+        "@type": "ReadAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://www.physioactif.com/guide-complet/syndrome-de-la-vessie-hyperactive",
+          "actionPlatform": [
+            "http://schema.org/DesktopWebPlatform",
+            "http://schema.org/MobileWebPlatform"
+          ]
+        }
+      },
+      "relatedLink": [
+        "https://physioactif.clinicmaster.com/clinic-selection?lang=fr-CA"
+      ],
+      "publisher": {
+        "@id": "https://www.physioactif.com/#org"
+      }
+    }
+  ]
+}

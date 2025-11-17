@@ -1,0 +1,116 @@
+{
+  "@context": "https://schema.org",
+  "@type": "MedicalWebPage",
+  "@id": "https://www.physioactif.com/en/diagnostic-et-traitement/pathologies/proctalgie-fugace/#webpage",
+  "author": {
+    "@type": "Person",
+    "@id": "https://www.physioactif.com/en/equipe/claudine-farah/#person"
+  },
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      ".header_heading",
+      ".header_content .max-width-medium",
+      ".perks_content-right h2",
+      ".perks_content-right .w-richtext"
+    ]
+  },
+  "datePublished": "2025-09-26",
+  "url": "https://www.physioactif.com/en/diagnostic-et-traitement/pathologies/proctalgie-fugace/",
+  "name": "Soulagez vos douleurs rectales soudaines et retrouvez votre sérénité",
+  "description": "Soulagez vos douleurs rectales soudaines et retrouvez votre sérénité",
+  "inLanguage": [
+    "en-CA"
+  ],
+  "isPartOf": {
+    "@id": "https://www.physioactif.com/en/#website"
+  },
+  "about": [
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://www.physioactif.com/en/diagnostic-et-traitement/pathologies/proctalgie-fugace/#condition",
+      "name": "Proctalgie fugace",
+      "inDefinedTermSet": "https://schema.org/MedicalCondition",
+      "sameAs": [
+        "https://fr.wikipedia.org/wiki/Proctalgie_fugace",
+        "https://en.wikipedia.org/wiki/Proctalgia_fugax",
+        "https://www.wikidata.org/wiki/Q2066816"
+      ]
+    },
+    {
+      "@type": "MedicalCondition",
+      "name": "Douleur rectales soudaines"
+    },
+    {
+      "@type": "MedicalTherapy",
+      "name": "Physiothérapie",
+      "alternateName": [
+        "Physical therapy",
+        "Kinésithérapie",
+        "Fisioterapia"
+      ],
+      "sameAs": [
+        "https://www.physioactif.com/en/guide-complet/physiotherapie",
+        "https://www.wikidata.org/wiki/Q186005",
+        "https://en.wikipedia.org/wiki/Physical_therapy",
+        "https://fr.wikipedia.org/wiki/Kinésithérapie",
+        "https://meshb.nlm.nih.gov/record/ui?ui=D026761",
+        "https://www.merriam-webster.com/dictionary/physiotherapy",
+        "https://www.britannica.com/topic/physical-therapy"
+      ]
+    }
+  ],
+  "specialty": "Physiotherapy",
+  "provider": {
+    "@id": "https://www.physioactif.com/en/#org"
+  },
+  "potentialAction": {
+    "@type": "ReserveAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://physioactif.clinicmaster.com/clinic-selection?lang=fr-CA",
+      "inLanguage": [
+        "en-CA"
+      ]
+    },
+    "result": {
+      "@type": "Reservation",
+      "name": "Prendre rendez-vous"
+    }
+  },
+  "breadcrumb": {
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Accueil",
+        "item": "https://www.physioactif.com/en/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Diagnostic et traitement",
+        "item": "https://www.physioactif.com/en/diagnostic-et-traitement/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Pathologies",
+        "item": "https://www.physioactif.com/en/diagnostic-et-traitement/pathologies/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "Douleur rectales soudaines",
+        "item": "https://www.physioactif.com/en/diagnostic-et-traitement/pathologies/proctalgie-fugace/"
+      }
+    ]
+  },
+  "mentions": [
+    {
+      "@id": "https://www.physioactif.com/en/services/incontinence-et-douleurs-genitales-homme-et-femme/#therapy"
+    }
+  ],
+  "relatedLink": "https://www.physioactif.com/en/guide-complet/proctalgie-fugace"
+}

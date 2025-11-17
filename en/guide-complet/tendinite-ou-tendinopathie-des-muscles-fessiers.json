@@ -1,0 +1,228 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "MedicalCondition",
+      "@id": "https://www.physioactif.com/en/guide-complet/tendinite-ou-tendinopathie-des-muscles-fessiers#condition",
+      "name": "Tendinopathie des muscles fessiers",
+      "alternateName": [
+        "Gluteal tendinopathy",
+        "Greater trochanteric pain syndrome",
+        "GTPS",
+        "Trochanteric bursitis"
+      ],
+      "description": "La tendinopathie des muscles fessiers affecte les tendons qui se connectent aux muscles fessiers, y compris le grand fessier, le moyen fessier et le petit fessier, qui vont de l'os de la hanche (bassin) au grand trochanter sur la crête au sommet de l'os de la cuisse (fémur). Le syndrome de la douleur trochantérienne majeure (GTPS) était historiquement attribué à l'inflammation de la bourse trochantérienne, mais des études chirurgicales, histologiques et d'imagerie ont montré que le GTPS est attribuable à la tendinopathie du moyen fessier et/ou du petit fessier avec ou sans pathologie bursale coexistante. Les patients se présentent généralement avec une douleur latérale de la hanche, localisée au grand trochanter, qui est pire avec les activités de mise en charge et en position couchée sur le côté la nuit. La douleur s'étend sur l'extérieur de la jambe jusqu'au genou ou au bas de la jambe. La majorité des cas de GTPS peuvent être gérés avec succès en soins primaires.",
+      "code": [
+        {
+          "@type": "MedicalCode",
+          "code": "M76.01",
+          "codingSystem": "ICD-10"
+        },
+        {
+          "@type": "MedicalCode",
+          "code": "M70.6",
+          "codingSystem": "ICD-10"
+        }
+      ],
+      "sameAs": [
+        "https://fr.wikipedia.org/wiki/Syndrome_de_la_douleur_du_grand_trochanter",
+        "https://en.wikipedia.org/wiki/Greater_trochanteric_pain_syndrome",
+        "https://www.wikidata.org/wiki/Q5613373",
+        "https://www.physio-pedia.com/Greater_Trochanteric_Pain_Syndrome",
+        "http://snomed.info/id/836440003"
+      ],
+      "possibleTreatment": {
+        "@type": "MedicalTherapy",
+        "name": "Physiothérapie",
+        "alternateName": [
+          "Physical therapy",
+          "Kinésithérapie",
+          "Fisioterapia"
+        ],
+        "sameAs": [
+          "https://www.physioactif.com/en/guide-complet/physiotherapie",
+          "https://www.wikidata.org/wiki/Q186005",
+          "https://en.wikipedia.org/wiki/Physical_therapy",
+          "https://fr.wikipedia.org/wiki/Kinésithérapie",
+          "https://meshb.nlm.nih.gov/record/ui?ui=D026761",
+          "https://www.merriam-webster.com/dictionary/physiotherapy",
+          "https://www.britannica.com/topic/physical-therapy"
+        ]
+      }
+    },
+    {
+      "@type": "MedicalWebPage",
+      "@id": "https://www.physioactif.com/en/guide-complet/tendinite-ou-tendinopathie-des-muscles-fessiers#article",
+      "author": {
+        "@type": "Person",
+        "@id": "https://www.physioactif.com/en/equipe/ariel-desjardins-charbonneau/#person"
+      },
+      "datePublished": "2025-09-26",
+      "name": "Tendinite Ou Tendinopathie Des Muscles Fessiers - Guide Complet",
+      "headline": "Tendinite Ou Tendinopathie Des Muscles Fessiers: Symptômes, Causes, Diagnostic et Traitement en Physiothérapie",
+      "about": [
+        {
+          "@id": "https://www.physioactif.com/en/guide-complet/tendinite-ou-tendinopathie-des-muscles-fessiers#condition"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Physiothérapie",
+          "alternateName": [
+            "Physical therapy",
+            "Kinésithérapie",
+            "Fisioterapia"
+          ],
+          "sameAs": [
+            "https://www.physioactif.com/en/guide-complet/physiotherapie",
+            "https://www.wikidata.org/wiki/Q186005",
+            "https://en.wikipedia.org/wiki/Physical_therapy",
+            "https://fr.wikipedia.org/wiki/Kinésithérapie",
+            "https://meshb.nlm.nih.gov/record/ui?ui=D026761",
+            "https://www.merriam-webster.com/dictionary/physiotherapy",
+            "https://www.britannica.com/topic/physical-therapy"
+          ]
+        }
+      ],
+      "mainEntity": {
+        "@id": "https://www.physioactif.com/en/guide-complet/tendinite-ou-tendinopathie-des-muscles-fessiers#condition"
+      },
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [
+          ".header_heading",
+          ".header_content .text-style-muted.w-richtext",
+          ".section_article .text-rich-text h2"
+        ]
+      },
+      "specialty": [
+        "Physiotherapy",
+        "Musculoskeletal",
+        "SportsMedicine"
+      ],
+      "medicalAudience": [
+        {
+          "@type": "Patient"
+        },
+        {
+          "@type": "MedicalAudience",
+          "audienceType": "General Public"
+        }
+      ],
+      "reviewedBy": {
+        "@id": "https://www.physioactif.com/en/#org"
+      },
+      "provider": {
+        "@id": "https://www.physioactif.com/en/#org"
+      },
+      "inLanguage": [
+        "en-CA"
+      ],
+      "isPartOf": {
+        "@id": "https://www.physioactif.com/en/#website"
+      },
+      "mentions": [
+        {
+          "@type": "MedicalTherapy",
+          "name": "Physiothérapie",
+          "alternateName": [
+            "Physical therapy",
+            "Kinésithérapie",
+            "Fisioterapia"
+          ],
+          "sameAs": [
+            "https://www.physioactif.com/en/guide-complet/physiotherapie",
+            "https://www.wikidata.org/wiki/Q186005",
+            "https://en.wikipedia.org/wiki/Physical_therapy",
+            "https://fr.wikipedia.org/wiki/Kinésithérapie",
+            "https://meshb.nlm.nih.gov/record/ui?ui=D026761",
+            "https://www.merriam-webster.com/dictionary/physiotherapy",
+            "https://www.britannica.com/topic/physical-therapy"
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "name": "Bursite de la hanche",
+          "description": "Inflammation d'une bourse séreuse articulaire",
+          "sameAs": [
+            "https://fr.wikipedia.org/wiki/Bursite_trochantérienne",
+            "https://en.wikipedia.org/wiki/Greater_trochanteric_pain_syndrome",
+            "https://www.wikidata.org/wiki/Q5613373",
+            "https://meshb.nlm.nih.gov/record/ui?ui=D002062"
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "name": "Syndrome du piriforme",
+          "description": "Condition musculosquelettique affectant syndrome du piriforme",
+          "sameAs": [
+            "https://fr.wikipedia.org/wiki/Syndrome_du_piriforme",
+            "https://en.wikipedia.org/wiki/Piriformis_syndrome",
+            "https://www.wikidata.org/wiki/Q1136742",
+            "https://meshb.nlm.nih.gov/record/ui?ui=D055958"
+          ]
+        }
+      ]
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://www.physioactif.com/en/guide-complet/tendinite-ou-tendinopathie-des-muscles-fessiers#webpage",
+      "datePublished": "2025-09-26",
+      "url": "https://www.physioactif.com/en/guide-complet/tendinite-ou-tendinopathie-des-muscles-fessiers",
+      "name": "Tendinite Ou Tendinopathie Des Muscles Fessiers - Guide Complet | Physioactif",
+      "description": "Guide complet sur tendinite ou tendinopathie des muscles fessiers: causes, symptômes, diagnostic et traitements en physiothérapie par les experts de Physioactif.",
+      "mainEntity": {
+        "@id": "https://www.physioactif.com/en/guide-complet/tendinite-ou-tendinopathie-des-muscles-fessiers#condition"
+      },
+      "about": {
+        "@id": "https://www.physioactif.com/en/guide-complet/tendinite-ou-tendinopathie-des-muscles-fessiers#condition"
+      },
+      "breadcrumb": {
+        "@type": "BreadcrumbList",
+        "@id": "https://www.physioactif.com/en/guide-complet/tendinite-ou-tendinopathie-des-muscles-fessiers#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Accueil",
+            "item": "https://www.physioactif.com/en/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Guide Complet",
+            "item": "https://www.physioactif.com/en/guide-complet"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Tendinite Ou Tendinopathie Des Muscles Fessiers",
+            "item": "https://www.physioactif.com/en/guide-complet/tendinite-ou-tendinopathie-des-muscles-fessiers"
+          }
+        ]
+      },
+      "isPartOf": {
+        "@id": "https://www.physioactif.com/en/#website"
+      },
+      "inLanguage": [
+        "en-CA"
+      ],
+      "potentialAction": {
+        "@type": "ReadAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://www.physioactif.com/en/guide-complet/tendinite-ou-tendinopathie-des-muscles-fessiers",
+          "actionPlatform": [
+            "http://schema.org/DesktopWebPlatform",
+            "http://schema.org/MobileWebPlatform"
+          ]
+        }
+      },
+      "relatedLink": [
+        "https://physioactif.clinicmaster.com/clinic-selection?lang=fr-CA"
+      ],
+      "publisher": {
+        "@id": "https://www.physioactif.com/en/#org"
+      }
+    }
+  ]
+}
