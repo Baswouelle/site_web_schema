@@ -50,55 +50,84 @@
               "PART_TIME"
             ],
             "hiringOrganization": {
-              "@id": "https://www.physioactif.com/#org"
+              "@type": "MedicalOrganization",
+              "@id": "https://www.physioactif.com/#org",
+              "name": "Physioactif",
+              "sameAs": "https://www.physioactif.com/",
+              "logo": "https://cdn.prod.website-files.com/670e84ccd653d18590687563/670e84ccd653d1859068759e_physioactif-logo-black.svg"
             },
             "jobLocation": [
               {
                 "@type": "Place",
+                "name": "Physioactif Ahuntsic",
                 "address": {
                   "@type": "PostalAddress",
+                  "streetAddress": "8801 Rue Lajeunesse",
                   "addressLocality": "Montréal",
                   "addressRegion": "QC",
+                  "postalCode": "H2M 1R8",
                   "addressCountry": "CA"
                 }
               },
               {
                 "@type": "Place",
+                "name": "Physioactif Blainville",
                 "address": {
                   "@type": "PostalAddress",
+                  "streetAddress": "190 Chemin du Bas-de-Sainte-Thérèse, Bureau 110",
                   "addressLocality": "Blainville",
                   "addressRegion": "QC",
+                  "postalCode": "J7B 1A7",
                   "addressCountry": "CA"
                 }
               },
               {
                 "@type": "Place",
+                "name": "Physioactif Chomedey",
                 "address": {
                   "@type": "PostalAddress",
+                  "streetAddress": "3224 Avenue Jean-Béraud, Bureau 220",
                   "addressLocality": "Laval",
                   "addressRegion": "QC",
+                  "postalCode": "H7T 2S4",
                   "addressCountry": "CA"
                 }
               },
               {
                 "@type": "Place",
+                "name": "Physioactif Saint-Eustache",
                 "address": {
                   "@type": "PostalAddress",
+                  "streetAddress": "180 25e Avenue, Bureau 201",
                   "addressLocality": "Saint-Eustache",
                   "addressRegion": "QC",
+                  "postalCode": "J7P 2V2",
                   "addressCountry": "CA"
                 }
               },
               {
                 "@type": "Place",
+                "name": "Physioactif Vaudreuil-Dorion",
                 "address": {
                   "@type": "PostalAddress",
+                  "streetAddress": "21 Bd de la Cité-des-Jeunes, Bureau 240",
                   "addressLocality": "Vaudreuil-Dorion",
                   "addressRegion": "QC",
+                  "postalCode": "J7V 0N3",
                   "addressCountry": "CA"
                 }
               }
             ],
+            "baseSalary": {
+              "@type": "MonetaryAmount",
+              "currency": "CAD",
+              "value": {
+                "@type": "QuantitativeValue",
+                "minValue": 80000,
+                "maxValue": 90000,
+                "unitText": "YEAR"
+              }
+            },
             "qualifications": "Membre de l'Ordre professionnel de la physiothérapie du Québec (OPPQ)",
             "responsibilities": "Évaluation et traitement de patients, participation au programme de mentorat, développement professionnel continu",
             "skills": [
@@ -108,11 +137,13 @@
             ],
             "educationRequirements": {
               "@type": "EducationalOccupationalCredential",
-              "credentialCategory": "Diplôme universitaire en physiothérapie"
+              "credentialCategory": "degree",
+              "educationalLevel": "Master's degree",
+              "competencyRequired": "Maîtrise en physiothérapie"
             },
             "jobBenefits": "Programme de mentorat rémunéré de 96h, équipe administrative solide, développement professionnel, flexibilité horaire",
             "industry": "Healthcare",
-            "occupationalCategory": "3142",
+            "occupationalCategory": "29-1123",
             "validThrough": "2025-12-31"
           },
           {
@@ -126,56 +157,88 @@
               "PART_TIME"
             ],
             "hiringOrganization": {
-              "@id": "https://www.physioactif.com/#org"
+              "@type": "MedicalOrganization",
+              "@id": "https://www.physioactif.com/#org",
+              "name": "Physioactif",
+              "sameAs": "https://www.physioactif.com/",
+              "logo": "https://cdn.prod.website-files.com/670e84ccd653d18590687563/670e84ccd653d1859068759e_physioactif-logo-black.svg"
             },
             "jobLocation": [
               {
                 "@type": "Place",
+                "name": "Physioactif Ahuntsic",
                 "address": {
                   "@type": "PostalAddress",
+                  "streetAddress": "8801 Rue Lajeunesse",
                   "addressLocality": "Montréal",
                   "addressRegion": "QC",
+                  "postalCode": "H2M 1R8",
                   "addressCountry": "CA"
                 }
               },
               {
                 "@type": "Place",
+                "name": "Physioactif Blainville",
                 "address": {
                   "@type": "PostalAddress",
+                  "streetAddress": "190 Chemin du Bas-de-Sainte-Thérèse, Bureau 110",
                   "addressLocality": "Blainville",
                   "addressRegion": "QC",
+                  "postalCode": "J7B 1A7",
                   "addressCountry": "CA"
                 }
               },
               {
                 "@type": "Place",
+                "name": "Physioactif Chomedey",
                 "address": {
                   "@type": "PostalAddress",
+                  "streetAddress": "3224 Avenue Jean-Béraud, Bureau 220",
                   "addressLocality": "Laval",
                   "addressRegion": "QC",
+                  "postalCode": "H7T 2S4",
                   "addressCountry": "CA"
                 }
               },
               {
                 "@type": "Place",
+                "name": "Physioactif Saint-Eustache",
                 "address": {
                   "@type": "PostalAddress",
+                  "streetAddress": "180 25e Avenue, Bureau 201",
                   "addressLocality": "Saint-Eustache",
                   "addressRegion": "QC",
+                  "postalCode": "J7P 2V2",
                   "addressCountry": "CA"
                 }
               },
               {
                 "@type": "Place",
+                "name": "Physioactif Vaudreuil-Dorion",
                 "address": {
                   "@type": "PostalAddress",
+                  "streetAddress": "21 Bd de la Cité-des-Jeunes, Bureau 240",
                   "addressLocality": "Vaudreuil-Dorion",
                   "addressRegion": "QC",
+                  "postalCode": "J7V 0N3",
                   "addressCountry": "CA"
                 }
               }
             ],
-            "experienceRequirements": "Aucun pré-requis. Expérience dans la restauration, la vente ou le secteur hôtelier est un atout",
+            "baseSalary": {
+              "@type": "MonetaryAmount",
+              "currency": "CAD",
+              "value": {
+                "@type": "QuantitativeValue",
+                "minValue": 19,
+                "maxValue": 26,
+                "unitText": "HOUR"
+              }
+            },
+            "experienceRequirements": {
+              "@type": "OccupationalExperienceRequirements",
+              "monthsOfExperience": 0
+            },
             "responsibilities": "Accueil des patients, coordination des soins, support administratif, gestion des rendez-vous",
             "skills": [
               "Hospitalité",
@@ -183,147 +246,205 @@
               "Multitâche",
               "Communication"
             ],
+            "jobBenefits": "Expérience dans la restauration, la vente ou le secteur hôtelier est un atout",
             "industry": "Healthcare",
-            "occupationalCategory": "1221",
+            "occupationalCategory": "43-4051",
             "validThrough": "2025-12-31"
           },
           {
             "@type": "JobPosting",
             "@id": "https://www.physioactif.com/carriere/#job-technologue",
-            "title": "Technologue en physiothérapie",
-            "description": "Postulez si vous êtes actuellement étudiant.e en physio.",
+            "title": "Technologue en physiothérapie (TRP)",
+            "description": "Postulez si vous êtes diplômé ou actuellement étudiant.e en technique de physiothérapie.",
             "datePosted": "2024-01-01",
             "employmentType": [
               "FULL_TIME",
               "PART_TIME"
             ],
             "hiringOrganization": {
-              "@id": "https://www.physioactif.com/#org"
+              "@type": "MedicalOrganization",
+              "@id": "https://www.physioactif.com/#org",
+              "name": "Physioactif",
+              "sameAs": "https://www.physioactif.com/",
+              "logo": "https://cdn.prod.website-files.com/670e84ccd653d18590687563/670e84ccd653d1859068759e_physioactif-logo-black.svg"
             },
             "jobLocation": [
               {
                 "@type": "Place",
+                "name": "Physioactif Ahuntsic",
                 "address": {
                   "@type": "PostalAddress",
+                  "streetAddress": "8801 Rue Lajeunesse",
                   "addressLocality": "Montréal",
                   "addressRegion": "QC",
+                  "postalCode": "H2M 1R8",
                   "addressCountry": "CA"
                 }
               },
               {
                 "@type": "Place",
+                "name": "Physioactif Blainville",
                 "address": {
                   "@type": "PostalAddress",
+                  "streetAddress": "190 Chemin du Bas-de-Sainte-Thérèse, Bureau 110",
                   "addressLocality": "Blainville",
                   "addressRegion": "QC",
+                  "postalCode": "J7B 1A7",
                   "addressCountry": "CA"
                 }
               },
               {
                 "@type": "Place",
+                "name": "Physioactif Chomedey",
                 "address": {
                   "@type": "PostalAddress",
+                  "streetAddress": "3224 Avenue Jean-Béraud, Bureau 220",
                   "addressLocality": "Laval",
                   "addressRegion": "QC",
+                  "postalCode": "H7T 2S4",
                   "addressCountry": "CA"
                 }
               },
               {
                 "@type": "Place",
+                "name": "Physioactif Saint-Eustache",
                 "address": {
                   "@type": "PostalAddress",
+                  "streetAddress": "180 25e Avenue, Bureau 201",
                   "addressLocality": "Saint-Eustache",
                   "addressRegion": "QC",
+                  "postalCode": "J7P 2V2",
                   "addressCountry": "CA"
                 }
               },
               {
                 "@type": "Place",
+                "name": "Physioactif Vaudreuil-Dorion",
                 "address": {
                   "@type": "PostalAddress",
+                  "streetAddress": "21 Bd de la Cité-des-Jeunes, Bureau 240",
                   "addressLocality": "Vaudreuil-Dorion",
                   "addressRegion": "QC",
+                  "postalCode": "J7V 0N3",
                   "addressCountry": "CA"
                 }
               }
             ],
-            "qualifications": "Étudiant en physiothérapie",
+            "baseSalary": {
+              "@type": "MonetaryAmount",
+              "currency": "CAD",
+              "value": {
+                "@type": "QuantitativeValue",
+                "value": 30,
+                "unitText": "HOUR"
+              }
+            },
+            "qualifications": "Diplôme ou étudiant en technique de physiothérapie",
             "educationRequirements": {
               "@type": "EducationalOccupationalCredential",
-              "credentialCategory": "Étudiant en programme de physiothérapie"
+              "credentialCategory": "certificate",
+              "educationalLevel": "DEC - Diplôme d'études collégiales",
+              "competencyRequired": "Technique en réadaptation physique"
             },
             "industry": "Healthcare",
+            "occupationalCategory": "31-2021",
             "validThrough": "2025-12-31"
           },
           {
             "@type": "JobPosting",
             "@id": "https://www.physioactif.com/carriere/#job-massotherapeute",
             "title": "Massothérapeute",
-            "description": "Nous cherchons massothérapeute qui souhaite être travailleur autonome seulement et développer son bassin de clientèle.",
+            "description": "Nous cherchons un(e) massothérapeute avec un profil entrepreneur qui souhaite développer sa clientèle en partage d'honoraires. Vous devez avoir vos propres assurances professionnelles. Nous fournissons les locaux et l'équipement - vous développez votre pratique.",
             "datePosted": "2024-01-01",
             "employmentType": [
-              "CONTRACTOR",
               "PART_TIME",
               "FULL_TIME"
             ],
             "hiringOrganization": {
-              "@id": "https://www.physioactif.com/#org"
+              "@type": "MedicalOrganization",
+              "@id": "https://www.physioactif.com/#org",
+              "name": "Physioactif",
+              "sameAs": "https://www.physioactif.com/",
+              "logo": "https://cdn.prod.website-files.com/670e84ccd653d18590687563/670e84ccd653d1859068759e_physioactif-logo-black.svg"
             },
             "jobLocation": [
               {
                 "@type": "Place",
+                "name": "Physioactif Ahuntsic",
                 "address": {
                   "@type": "PostalAddress",
+                  "streetAddress": "8801 Rue Lajeunesse",
                   "addressLocality": "Montréal",
                   "addressRegion": "QC",
+                  "postalCode": "H2M 1R8",
                   "addressCountry": "CA"
                 }
               },
               {
                 "@type": "Place",
+                "name": "Physioactif Blainville",
                 "address": {
                   "@type": "PostalAddress",
+                  "streetAddress": "190 Chemin du Bas-de-Sainte-Thérèse, Bureau 110",
                   "addressLocality": "Blainville",
                   "addressRegion": "QC",
+                  "postalCode": "J7B 1A7",
                   "addressCountry": "CA"
                 }
               },
               {
                 "@type": "Place",
+                "name": "Physioactif Chomedey",
                 "address": {
                   "@type": "PostalAddress",
+                  "streetAddress": "3224 Avenue Jean-Béraud, Bureau 220",
                   "addressLocality": "Laval",
                   "addressRegion": "QC",
+                  "postalCode": "H7T 2S4",
                   "addressCountry": "CA"
                 }
               },
               {
                 "@type": "Place",
+                "name": "Physioactif Saint-Eustache",
                 "address": {
                   "@type": "PostalAddress",
+                  "streetAddress": "180 25e Avenue, Bureau 201",
                   "addressLocality": "Saint-Eustache",
                   "addressRegion": "QC",
+                  "postalCode": "J7P 2V2",
                   "addressCountry": "CA"
                 }
               },
               {
                 "@type": "Place",
+                "name": "Physioactif Vaudreuil-Dorion",
                 "address": {
                   "@type": "PostalAddress",
+                  "streetAddress": "21 Bd de la Cité-des-Jeunes, Bureau 240",
                   "addressLocality": "Vaudreuil-Dorion",
                   "addressRegion": "QC",
+                  "postalCode": "J7V 0N3",
                   "addressCountry": "CA"
                 }
               }
             ],
-            "qualifications": "Diplôme en massothérapie reconnu",
-            "responsibilities": "Développer et maintenir sa clientèle, offrir des services de massothérapie de qualité",
+            "experienceRequirements": {
+              "@type": "OccupationalExperienceRequirements",
+              "monthsOfExperience": 0
+            },
+            "qualifications": "Diplôme en massothérapie reconnu, assurances professionnelles requises, profil entrepreneur",
+            "responsibilities": "Développer et maintenir sa clientèle, offrir des services de massothérapie de qualité, gérer son propre marketing",
             "skills": [
               "Massothérapie",
+              "Entrepreneuriat",
               "Relation client",
-              "Autonomie"
+              "Autonomie",
+              "Marketing personnel"
             ],
+            "jobBenefits": "Partage d'honoraires, locaux et équipement fournis, flexibilité horaire, environnement professionnel",
             "industry": "Healthcare",
+            "occupationalCategory": "31-9011",
             "validThrough": "2025-12-31"
           }
         ]
@@ -362,7 +483,7 @@
             "name": "Quels types de postes sont disponibles?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Nous recrutons pour: Physiothérapeute (temps plein et partiel), Coordonnateur.trice de soins, Technologue en physiothérapie (étudiants), et Massothérapeute (travailleur autonome)."
+              "text": "Nous recrutons pour: Physiothérapeute (80 000$ - 90 000$/an), Technologue en physiothérapie (30$/h), Coordonnateur.trice de soins (19-26$/h), et Massothérapeute (partage d'honoraires)."
             }
           }
         ]
