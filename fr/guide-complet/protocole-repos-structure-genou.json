@@ -1,0 +1,200 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "MedicalTherapy",
+      "@id": "https://www.physioactif.com/guide-complet/protocole-repos-structure-genou#therapy",
+      "name": "Protocole de repos structuré pour le genou",
+      "alternateName": [
+        "Structured rest protocol",
+        "protocole de repos progressif",
+        "programme de repos structuré",
+        "knee rest protocol"
+      ],
+      "description": "Traitement en 4 phases sur 7-9 mois pour guérir la douleur chronique à l'avant du genou. Comprend l'identification des déclencheurs et la réintroduction progressive des activités.",
+      "procedureType": "http://purl.bioontology.org/ontology/SNOMEDCT/277132007",
+      "howPerformed": "4 phases : 1) Identification des déclencheurs de douleur, 2) Période de repos des structures irritées, 3) Réintroduction progressive des mouvements, 4) Retour aux activités normales"
+    },
+    {
+      "@type": "MedicalWebPage",
+      "@id": "https://www.physioactif.com/guide-complet/protocole-repos-structure-genou#article",
+      "author": {
+        "@type": "Person",
+        "@id": "https://www.physioactif.com/equipe/ariel-desjardins-charbonneau/#person"
+      },
+      "datePublished": "2025-09-26",
+      "name": "Protocole de repos structuré pour le genou - Guide Complet",
+      "headline": "Protocole de repos structuré: 4 phases pour guérir la douleur au genou",
+      "about": [
+        {
+          "@id": "https://www.physioactif.com/guide-complet/protocole-repos-structure-genou#therapy"
+        },
+        {
+          "@type": "MedicalCondition",
+          "name": "Douleur antérieure au genou",
+          "sameAs": [
+            "https://www.physioactif.com/guide-complet/douleur-anterieure-genou",
+            "https://fr.wikipedia.org/wiki/Syndrome_rotulien",
+            "https://en.wikipedia.org/wiki/Patellofemoral_pain_syndrome",
+            "https://www.wikidata.org/wiki/Q7144437"
+          ]
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Physiothérapie",
+          "alternateName": [
+            "Physical therapy",
+            "Kinésithérapie",
+            "Fisioterapia"
+          ],
+          "sameAs": [
+            "https://www.physioactif.com/guide-complet/physiotherapie",
+            "https://www.wikidata.org/wiki/Q186005",
+            "https://en.wikipedia.org/wiki/Physical_therapy",
+            "https://fr.wikipedia.org/wiki/Kinésithérapie",
+            "https://meshb.nlm.nih.gov/record/ui?ui=D026761",
+            "https://www.merriam-webster.com/dictionary/physiotherapy",
+            "https://www.britannica.com/topic/physical-therapy"
+          ]
+        }
+      ],
+      "mainEntity": {
+        "@id": "https://www.physioactif.com/guide-complet/protocole-repos-structure-genou#therapy"
+      },
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [
+          ".header_heading",
+          ".header_content .text-style-muted.w-richtext",
+          ".section_article .text-rich-text h2"
+        ]
+      },
+      "specialty": [
+        "Physiotherapy",
+        "Musculoskeletal",
+        "SportsMedicine"
+      ],
+      "medicalAudience": [
+        {
+          "@type": "Patient"
+        },
+        {
+          "@type": "MedicalAudience",
+          "audienceType": "General Public"
+        }
+      ],
+      "reviewedBy": {
+        "@id": "https://www.physioactif.com/#org"
+      },
+      "provider": {
+        "@id": "https://www.physioactif.com/#org"
+      },
+      "inLanguage": [
+        "fr-CA"
+      ],
+      "isPartOf": {
+        "@id": "https://www.physioactif.com/#website"
+      },
+      "mentions": [
+        {
+          "@type": "MedicalTherapy",
+          "name": "Physiothérapie",
+          "alternateName": [
+            "Physical therapy",
+            "Kinésithérapie",
+            "Fisioterapia"
+          ],
+          "sameAs": [
+            "https://www.physioactif.com/guide-complet/physiotherapie",
+            "https://www.wikidata.org/wiki/Q186005",
+            "https://en.wikipedia.org/wiki/Physical_therapy",
+            "https://fr.wikipedia.org/wiki/Kinésithérapie",
+            "https://meshb.nlm.nih.gov/record/ui?ui=D026761",
+            "https://www.merriam-webster.com/dictionary/physiotherapy",
+            "https://www.britannica.com/topic/physical-therapy"
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "name": "Douleur chronique",
+          "description": "Douleur persistant au-delà de 3 mois",
+          "sameAs": [
+            "https://fr.wikipedia.org/wiki/Douleur_chronique",
+            "https://en.wikipedia.org/wiki/Chronic_pain",
+            "https://www.wikidata.org/wiki/Q1322353"
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "name": "Rotule",
+          "description": "Os sésamoïde situé à l'avant du genou",
+          "sameAs": [
+            "https://fr.wikipedia.org/wiki/Patella",
+            "https://en.wikipedia.org/wiki/Patella"
+          ]
+        }
+      ]
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://www.physioactif.com/guide-complet/protocole-repos-structure-genou#webpage",
+      "datePublished": "2025-09-26",
+      "url": "https://www.physioactif.com/guide-complet/protocole-repos-structure-genou",
+      "name": "Protocole de repos structuré: Guérir le genou en 4 phases | Physioactif",
+      "description": "Découvrez le protocole en 4 phases qui a résolu 4 ans de douleur chronique au genou. Guide méthodique par des physiothérapeutes.",
+      "mainEntity": {
+        "@id": "https://www.physioactif.com/guide-complet/protocole-repos-structure-genou#therapy"
+      },
+      "about": {
+        "@id": "https://www.physioactif.com/guide-complet/protocole-repos-structure-genou#therapy"
+      },
+      "breadcrumb": {
+        "@type": "BreadcrumbList",
+        "@id": "https://www.physioactif.com/guide-complet/protocole-repos-structure-genou#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Accueil",
+            "item": "https://www.physioactif.com/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Guide Complet",
+            "item": "https://www.physioactif.com/guide-complet"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Protocole de repos structuré pour le genou",
+            "item": "https://www.physioactif.com/guide-complet/protocole-repos-structure-genou"
+          }
+        ]
+      },
+      "isPartOf": {
+        "@id": "https://www.physioactif.com/#website"
+      },
+      "inLanguage": [
+        "fr-CA"
+      ],
+      "potentialAction": {
+        "@type": "ReadAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://www.physioactif.com/guide-complet/protocole-repos-structure-genou",
+          "actionPlatform": [
+            "http://schema.org/DesktopWebPlatform",
+            "http://schema.org/MobileWebPlatform"
+          ]
+        }
+      },
+      "relatedLink": [
+        "https://physioactif.clinicmaster.com/clinic-selection?lang=fr-CA"
+      ],
+      "publisher": {
+        "@id": "https://www.physioactif.com/#org"
+      }
+    }
+  ]
+}

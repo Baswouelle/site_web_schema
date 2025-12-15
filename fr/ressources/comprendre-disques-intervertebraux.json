@@ -1,0 +1,166 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "@id": "https://www.physioactif.com/ressources/comprendre-disques-intervertebraux/#article",
+      "author": {
+        "@type": "Person",
+        "@id": "https://www.physioactif.com/equipe/ariel-desjardins-charbonneau/#person"
+      },
+      "headline": "Comprendre vos disques intervertébraux: anatomie et guérison | Physioactif",
+      "description": "Apprenez comment fonctionnent vos disques intervertébraux et leur capacité de guérison. Structure, rôle d'amortisseur et ce qui les garde en santé.",
+      "url": "https://www.physioactif.com/ressources/comprendre-disques-intervertebraux",
+      "inLanguage": [
+        "fr-CA"
+      ],
+      "datePublished": "2025-09-26",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://cdn.prod.website-files.com/670e84ccd653d18590687563/physioactif-hero-default.jpg",
+        "width": 1200,
+        "height": 630
+      },
+      "publisher": {
+        "@id": "https://www.physioactif.com/#org"
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.physioactif.com/ressources/comprendre-disques-intervertebraux/"
+      },
+      "about": [
+        {
+          "@type": "AnatomicalStructure",
+          "name": "Disque intervertébral",
+          "alternateName": [
+            "Intervertebral disc",
+            "disque vertébral",
+            "disc"
+          ],
+          "sameAs": [
+            "https://fr.wikipedia.org/wiki/Disque_intervertébral",
+            "https://en.wikipedia.org/wiki/Intervertebral_disc",
+            "https://www.wikidata.org/wiki/Q1353640",
+            "https://meshb.nlm.nih.gov/record/ui?ui=D007403"
+          ]
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Physiothérapie",
+          "alternateName": [
+            "Physical therapy",
+            "Kinésithérapie",
+            "Fisioterapia"
+          ],
+          "sameAs": [
+            "https://www.physioactif.com/guide-complet/physiotherapie",
+            "https://www.wikidata.org/wiki/Q186005",
+            "https://en.wikipedia.org/wiki/Physical_therapy",
+            "https://fr.wikipedia.org/wiki/Kinésithérapie",
+            "https://meshb.nlm.nih.gov/record/ui?ui=D026761",
+            "https://www.merriam-webster.com/dictionary/physiotherapy",
+            "https://www.britannica.com/topic/physical-therapy"
+          ]
+        }
+      ],
+      "articleSection": "Ressources",
+      "keywords": [
+        "disque intervertébral",
+        "anatomie",
+        "nucleus pulposus",
+        "annulus fibrosus",
+        "hernie discale",
+        "guérison",
+        "physiothérapie"
+      ],
+      "mentions": [
+        {
+          "@type": "DefinedTerm",
+          "name": "Nucleus pulposus",
+          "description": "Partie centrale gélatineuse du disque intervertébral",
+          "sameAs": [
+            "https://fr.wikipedia.org/wiki/Nucleus_pulposus",
+            "https://en.wikipedia.org/wiki/Nucleus_pulposus",
+            "https://www.wikidata.org/wiki/Q1058428"
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "name": "Annulus fibrosus",
+          "description": "Anneau fibreux externe entourant le nucleus pulposus",
+          "sameAs": [
+            "https://fr.wikipedia.org/wiki/Annulus_fibrosus",
+            "https://en.wikipedia.org/wiki/Anulus_fibrosus_disci_intervertebralis",
+            "https://www.wikidata.org/wiki/Q2468789"
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "name": "Colonne vertébrale",
+          "description": "Structure osseuse formée de 33 vertèbres",
+          "sameAs": [
+            "https://fr.wikipedia.org/wiki/Colonne_vertébrale",
+            "https://en.wikipedia.org/wiki/Vertebral_column",
+            "https://www.wikidata.org/wiki/Q482853"
+          ]
+        },
+        {
+          "@id": "https://www.physioactif.com/guide-complet/hernie-discale-lombaire/#condition"
+        },
+        {
+          "@id": "https://www.physioactif.com/guide-complet/discopathie-degenerative/#condition"
+        },
+        {
+          "@id": "https://www.physioactif.com/ressources/anatomie-colonne-vertebrale/#article"
+        }
+      ]
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://www.physioactif.com/ressources/comprendre-disques-intervertebraux/#webpage",
+      "datePublished": "2025-09-26",
+      "url": "https://www.physioactif.com/ressources/comprendre-disques-intervertebraux",
+      "name": "Disques intervertébraux: anatomie et guérison | Physioactif",
+      "description": "Apprenez comment fonctionnent vos disques intervertébraux et leur capacité de guérison. Structure, rôle d'amortisseur et ce qui les garde en santé.",
+      "inLanguage": [
+        "fr-CA"
+      ],
+      "isPartOf": {
+        "@id": "https://www.physioactif.com/#website"
+      },
+      "mainEntity": {
+        "@id": "https://www.physioactif.com/ressources/comprendre-disques-intervertebraux/#article"
+      },
+      "breadcrumb": {
+        "@id": "https://www.physioactif.com/ressources/comprendre-disques-intervertebraux/#breadcrumb"
+      },
+      "publisher": {
+        "@id": "https://www.physioactif.com/#org"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.physioactif.com/ressources/comprendre-disques-intervertebraux/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Accueil",
+          "item": "https://www.physioactif.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Ressources",
+          "item": "https://www.physioactif.com/ressources/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Comprendre vos disques intervertébraux",
+          "item": "https://www.physioactif.com/ressources/comprendre-disques-intervertebraux"
+        }
+      ]
+    }
+  ]
+}

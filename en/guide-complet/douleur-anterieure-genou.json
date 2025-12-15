@@ -1,0 +1,209 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "MedicalCondition",
+      "@id": "https://www.physioactif.com/en/guide-complet/douleur-anterieure-genou#condition",
+      "name": "Anterior Knee Pain",
+      "alternateName": [
+        "Patellofemoral pain syndrome",
+        "runner's knee",
+        "patellofemoral syndrome",
+        "PFPS",
+        "douleur antérieure au genou",
+        "syndrome fémoro-patellaire",
+        "syndrome rotulien"
+      ],
+      "description": "Pain at the front of the kneecap affecting 25-40% of knee problems. Very common in runners, athletes and office workers. Nearly 80% of knee pain is related to patellofemoral syndrome.",
+      "sameAs": [
+        "https://en.wikipedia.org/wiki/Patellofemoral_pain_syndrome",
+        "https://fr.wikipedia.org/wiki/Syndrome_rotulien",
+        "https://www.wikidata.org/wiki/Q7144437",
+        "https://meshb.nlm.nih.gov/record/ui?ui=D046788"
+      ],
+      "code": [
+        {
+          "@type": "MedicalCode",
+          "code": "M22.2",
+          "codingSystem": "ICD-10"
+        },
+        {
+          "@type": "MedicalCode",
+          "code": "FA32.1",
+          "codingSystem": "ICD-11"
+        }
+      ]
+    },
+    {
+      "@type": "MedicalWebPage",
+      "@id": "https://www.physioactif.com/en/guide-complet/douleur-anterieure-genou#article",
+      "author": {
+        "@type": "Person",
+        "@id": "https://www.physioactif.com/en/equipe/ariel-desjardins-charbonneau/#person"
+      },
+      "datePublished": "2025-09-26",
+      "name": "Anterior Knee Pain - Complete Guide",
+      "headline": "Anterior Knee Pain: Causes and Effective Treatment with Physiotherapy",
+      "about": [
+        {
+          "@id": "https://www.physioactif.com/en/guide-complet/douleur-anterieure-genou#condition"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Physiotherapy",
+          "alternateName": [
+            "Physical therapy",
+            "Kinésithérapie",
+            "Fisioterapia"
+          ],
+          "sameAs": [
+            "https://www.physioactif.com/en/guide-complet/physiotherapie",
+            "https://www.wikidata.org/wiki/Q186005",
+            "https://en.wikipedia.org/wiki/Physical_therapy",
+            "https://fr.wikipedia.org/wiki/Kinésithérapie",
+            "https://meshb.nlm.nih.gov/record/ui?ui=D026761",
+            "https://www.merriam-webster.com/dictionary/physiotherapy",
+            "https://www.britannica.com/topic/physical-therapy"
+          ]
+        }
+      ],
+      "mainEntity": {
+        "@id": "https://www.physioactif.com/en/guide-complet/douleur-anterieure-genou#condition"
+      },
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [
+          ".header_heading",
+          ".header_content .text-style-muted.w-richtext",
+          ".section_article .text-rich-text h2"
+        ]
+      },
+      "specialty": [
+        "Physiotherapy",
+        "Musculoskeletal",
+        "SportsMedicine"
+      ],
+      "medicalAudience": [
+        {
+          "@type": "Patient"
+        },
+        {
+          "@type": "MedicalAudience",
+          "audienceType": "General Public"
+        }
+      ],
+      "reviewedBy": {
+        "@id": "https://www.physioactif.com/en/#org"
+      },
+      "provider": {
+        "@id": "https://www.physioactif.com/en/#org"
+      },
+      "inLanguage": [
+        "en-CA"
+      ],
+      "isPartOf": {
+        "@id": "https://www.physioactif.com/en/#website"
+      },
+      "mentions": [
+        {
+          "@type": "MedicalTherapy",
+          "name": "Physiotherapy",
+          "alternateName": [
+            "Physical therapy",
+            "Kinésithérapie",
+            "Fisioterapia"
+          ],
+          "sameAs": [
+            "https://www.physioactif.com/en/guide-complet/physiotherapie",
+            "https://www.wikidata.org/wiki/Q186005",
+            "https://en.wikipedia.org/wiki/Physical_therapy",
+            "https://fr.wikipedia.org/wiki/Kinésithérapie",
+            "https://meshb.nlm.nih.gov/record/ui?ui=D026761",
+            "https://www.merriam-webster.com/dictionary/physiotherapy",
+            "https://www.britannica.com/topic/physical-therapy"
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "name": "Patella",
+          "description": "Sesamoid bone located at the front of the knee, also called kneecap",
+          "sameAs": [
+            "https://en.wikipedia.org/wiki/Patella",
+            "https://fr.wikipedia.org/wiki/Patella",
+            "https://www.wikidata.org/wiki/Q9341"
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "name": "Quadriceps",
+          "description": "Main thigh muscle responsible for knee extension",
+          "sameAs": [
+            "https://en.wikipedia.org/wiki/Quadriceps",
+            "https://fr.wikipedia.org/wiki/Muscle_quadriceps_fémoral"
+          ]
+        }
+      ]
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://www.physioactif.com/en/guide-complet/douleur-anterieure-genou#webpage",
+      "datePublished": "2025-09-26",
+      "url": "https://www.physioactif.com/en/guide-complet/douleur-anterieure-genou",
+      "name": "Anterior Knee Pain: Causes and Treatment | Physioactif",
+      "description": "Relieve your knee pain: discover the causes, symptoms and effective treatments. Complete guide by physiotherapists.",
+      "mainEntity": {
+        "@id": "https://www.physioactif.com/en/guide-complet/douleur-anterieure-genou#condition"
+      },
+      "about": {
+        "@id": "https://www.physioactif.com/en/guide-complet/douleur-anterieure-genou#condition"
+      },
+      "breadcrumb": {
+        "@type": "BreadcrumbList",
+        "@id": "https://www.physioactif.com/en/guide-complet/douleur-anterieure-genou#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://www.physioactif.com/en/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Complete Guide",
+            "item": "https://www.physioactif.com/en/guide-complet"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Anterior Knee Pain",
+            "item": "https://www.physioactif.com/en/guide-complet/douleur-anterieure-genou"
+          }
+        ]
+      },
+      "isPartOf": {
+        "@id": "https://www.physioactif.com/en/#website"
+      },
+      "inLanguage": [
+        "en-CA"
+      ],
+      "potentialAction": {
+        "@type": "ReadAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://www.physioactif.com/en/guide-complet/douleur-anterieure-genou",
+          "actionPlatform": [
+            "http://schema.org/DesktopWebPlatform",
+            "http://schema.org/MobileWebPlatform"
+          ]
+        }
+      },
+      "relatedLink": [
+        "https://physioactif.clinicmaster.com/clinic-selection?lang=en-CA"
+      ],
+      "publisher": {
+        "@id": "https://www.physioactif.com/en/#org"
+      }
+    }
+  ]
+}

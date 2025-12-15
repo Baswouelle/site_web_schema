@@ -1,0 +1,163 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "@id": "https://www.physioactif.com/en/ressources/anatomie-colonne-vertebrale/#article",
+      "author": {
+        "@type": "Person",
+        "@id": "https://www.physioactif.com/en/equipe/ariel-desjardins-charbonneau/#person"
+      },
+      "headline": "Spine Anatomy: Understanding Your Back | Physioactif",
+      "description": "Discover the anatomy of your spine: vertebrae, discs, nerves and muscles. Understanding your back to better prevent and treat your pain.",
+      "url": "https://www.physioactif.com/en/ressources/anatomie-colonne-vertebrale",
+      "inLanguage": [
+        "en-CA"
+      ],
+      "datePublished": "2025-09-26",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://cdn.prod.website-files.com/670e84ccd653d18590687563/physioactif-hero-default.jpg",
+        "width": 1200,
+        "height": 630
+      },
+      "publisher": {
+        "@id": "https://www.physioactif.com/en/#org"
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.physioactif.com/en/ressources/anatomie-colonne-vertebrale/"
+      },
+      "about": [
+        {
+          "@type": "AnatomicalStructure",
+          "name": "Spine",
+          "alternateName": [
+            "Vertebral column",
+            "backbone",
+            "colonne vertébrale",
+            "rachis"
+          ],
+          "sameAs": [
+            "https://en.wikipedia.org/wiki/Vertebral_column",
+            "https://fr.wikipedia.org/wiki/Colonne_vertébrale",
+            "https://www.wikidata.org/wiki/Q482853",
+            "https://meshb.nlm.nih.gov/record/ui?ui=D013131"
+          ]
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Physiotherapy",
+          "alternateName": [
+            "Physical therapy",
+            "Kinésithérapie",
+            "Fisioterapia"
+          ],
+          "sameAs": [
+            "https://www.physioactif.com/en/guide-complet/physiotherapie",
+            "https://www.wikidata.org/wiki/Q186005",
+            "https://en.wikipedia.org/wiki/Physical_therapy",
+            "https://fr.wikipedia.org/wiki/Kinésithérapie",
+            "https://meshb.nlm.nih.gov/record/ui?ui=D026761",
+            "https://www.merriam-webster.com/dictionary/physiotherapy",
+            "https://www.britannica.com/topic/physical-therapy"
+          ]
+        }
+      ],
+      "articleSection": "Resources",
+      "keywords": [
+        "anatomy",
+        "spine",
+        "vertebrae",
+        "intervertebral discs",
+        "back",
+        "physiotherapy"
+      ],
+      "mentions": [
+        {
+          "@type": "DefinedTerm",
+          "name": "Vertebra",
+          "description": "Bone constituting the spine, numbering 33",
+          "sameAs": [
+            "https://en.wikipedia.org/wiki/Vertebra",
+            "https://fr.wikipedia.org/wiki/Vertèbre",
+            "https://www.wikidata.org/wiki/Q482498"
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "name": "Intervertebral Disc",
+          "description": "Fibrocartilaginous cushion between vertebrae",
+          "sameAs": [
+            "https://en.wikipedia.org/wiki/Intervertebral_disc",
+            "https://fr.wikipedia.org/wiki/Disque_intervertébral",
+            "https://www.wikidata.org/wiki/Q1353640"
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "name": "Spinal Cord",
+          "description": "Part of the central nervous system protected by the spine",
+          "sameAs": [
+            "https://en.wikipedia.org/wiki/Spinal_cord",
+            "https://fr.wikipedia.org/wiki/Moelle_épinière",
+            "https://www.wikidata.org/wiki/Q180453"
+          ]
+        },
+        {
+          "@id": "https://www.physioactif.com/en/guide-complet/lombalgie/#condition"
+        },
+        {
+          "@id": "https://www.physioactif.com/en/guide-complet/hernie-discale-lombaire/#condition"
+        }
+      ]
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://www.physioactif.com/en/ressources/anatomie-colonne-vertebrale/#webpage",
+      "datePublished": "2025-09-26",
+      "url": "https://www.physioactif.com/en/ressources/anatomie-colonne-vertebrale",
+      "name": "Spine Anatomy: Structure and Function | Physioactif",
+      "description": "Discover the anatomy of your spine: vertebrae, discs, nerves and muscles. Understanding your back to better prevent and treat your pain.",
+      "inLanguage": [
+        "en-CA"
+      ],
+      "isPartOf": {
+        "@id": "https://www.physioactif.com/en/#website"
+      },
+      "mainEntity": {
+        "@id": "https://www.physioactif.com/en/ressources/anatomie-colonne-vertebrale/#article"
+      },
+      "breadcrumb": {
+        "@id": "https://www.physioactif.com/en/ressources/anatomie-colonne-vertebrale/#breadcrumb"
+      },
+      "publisher": {
+        "@id": "https://www.physioactif.com/en/#org"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.physioactif.com/en/ressources/anatomie-colonne-vertebrale/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.physioactif.com/en/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Resources",
+          "item": "https://www.physioactif.com/en/ressources/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Spine Anatomy",
+          "item": "https://www.physioactif.com/en/ressources/anatomie-colonne-vertebrale"
+        }
+      ]
+    }
+  ]
+}
