@@ -1,0 +1,156 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "VideoObject",
+      "@id": "https://www.physioactif.com/videos-dexercise/transverse-de-l-abdomen#video",
+      "name": "Transverse De L'abdomen - Vidéo Physiothérapie",
+      "description": "Vidéo démonstration professionnelle de l'exercice transverse de l'abdomen par les physiothérapeutes de Physioactif.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/-6S0lHmjeiw/maxresdefault.jpg",
+      "uploadDate": "2024-01-15",
+      "duration": "PT1M",
+      "publisher": {
+        "@id": "https://www.physioactif.com/#org"
+      },
+      "about": [
+        {
+          "@id": "https://www.physioactif.com/videos-dexercise/transverse-de-l-abdomen#exercise"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Physiothérapie",
+          "alternateName": [
+            "Physical therapy",
+            "Kinésithérapie",
+            "Fisioterapia"
+          ],
+          "sameAs": [
+            "https://www.physioactif.com/guide-complet/physiotherapie",
+            "https://www.wikidata.org/wiki/Q186005",
+            "https://en.wikipedia.org/wiki/Physical_therapy",
+            "https://fr.wikipedia.org/wiki/Kinésithérapie",
+            "https://meshb.nlm.nih.gov/record/ui?ui=D026761"
+          ]
+        }
+      ],
+      "embedUrl": "https://www.youtube.com/embed/-6S0lHmjeiw",
+      "contentUrl": "https://www.youtube.com/watch?v=-6S0lHmjeiw"
+    },
+    {
+      "@type": "ExercisePlan",
+      "@id": "https://www.physioactif.com/videos-dexercise/transverse-de-l-abdomen#exercise",
+      "name": "Transverse De L'abdomen",
+      "description": "Exercice thérapeutique ciblant transverse de l'abdomen pour améliorer la mobilité et la fonction. Recommandé dans le cadre d'un programme de réadaptation en physiothérapie.",
+      "category": "Dos",
+      "activityDuration": "PT1M",
+      "exerciseType": "PhysicalActivity",
+      "associatedAnatomicalStructure": {
+        "@type": "AnatomicalStructure",
+        "name": "Transverse de l'abdomen"
+      },
+      "isPartOf": {
+        "@id": "https://www.physioactif.com/#org"
+      },
+      "provider": {
+        "@id": "https://www.physioactif.com/#org"
+      },
+      "inLanguage": [
+        "fr-CA"
+      ],
+      "url": "https://www.physioactif.com/videos-dexercise/transverse-de-l-abdomen",
+      "targetArea": [
+        {
+          "@type": "AnatomicalStructure",
+          "name": "Transverse de l'abdomen"
+        }
+      ],
+      "intensity": {
+        "@type": "QuantitativeValue",
+        "value": "Moderate",
+        "description": "Modéré - Convient aux personnes avec mobilité de base"
+      },
+      "repetitions": {
+        "@type": "QuantitativeValue",
+        "value": "3-5",
+        "unitText": "répétitions par côté"
+      },
+      "restPeriods": "PT30S"
+    },
+    {
+      "@type": "MedicalWebPage",
+      "@id": "https://www.physioactif.com/videos-dexercise/transverse-de-l-abdomen#webpage",
+      "datePublished": "2025-12-17",
+      "name": "Transverse De L'abdomen - Vidéo d'exercice",
+      "headline": "Transverse De L'abdomen - Exercice de physiothérapie en vidéo | Physioactif",
+      "description": "Exercice thérapeutique ciblant transverse de l'abdomen pour améliorer la mobilité et la fonction. Recommandé dans le cadre d'un programme de réadaptation en physiothérapie.",
+      "about": [
+        {
+          "@id": "https://www.physioactif.com/videos-dexercise/transverse-de-l-abdomen#exercise"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Physiothérapie",
+          "alternateName": [
+            "Physical therapy",
+            "Kinésithérapie"
+          ],
+          "sameAs": [
+            "https://www.physioactif.com/guide-complet/physiotherapie",
+            "https://www.wikidata.org/wiki/Q186005"
+          ]
+        }
+      ],
+      "mainEntity": {
+        "@id": "https://www.physioactif.com/videos-dexercise/transverse-de-l-abdomen#exercise"
+      },
+      "isPartOf": {
+        "@id": "https://www.physioactif.com/#website"
+      },
+      "specialty": [
+        "Physiotherapy",
+        "Musculoskeletal",
+        "SportsMedicine"
+      ],
+      "inLanguage": [
+        "fr-CA"
+      ],
+      "url": "https://www.physioactif.com/videos-dexercise/transverse-de-l-abdomen",
+      "breadcrumb": {
+        "@id": "https://www.physioactif.com/videos-dexercise/transverse-de-l-abdomen#breadcrumb"
+      },
+      "video": {
+        "@id": "https://www.physioactif.com/videos-dexercise/transverse-de-l-abdomen#video"
+      },
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [
+          ".header_heading",
+          ".header_content .text-style-muted"
+        ]
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.physioactif.com/videos-dexercise/transverse-de-l-abdomen#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Accueil",
+          "item": "https://www.physioactif.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Vidéos d'exercices",
+          "item": "https://www.physioactif.com/videos-exercices"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Transverse De L'abdomen"
+        }
+      ]
+    }
+  ]
+}

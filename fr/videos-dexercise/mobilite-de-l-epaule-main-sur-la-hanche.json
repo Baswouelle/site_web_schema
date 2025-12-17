@@ -1,0 +1,156 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "VideoObject",
+      "@id": "https://www.physioactif.com/videos-dexercise/mobilite-de-l-epaule-main-sur-la-hanche#video",
+      "name": "Mobilité De L'épaule Main Sur La Hanche - Vidéo Physiothérapie",
+      "description": "Vidéo démonstration professionnelle de l'exercice mobilité de l'épaule main sur la hanche par les physiothérapeutes de Physioactif.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/r9owXbccPgg/maxresdefault.jpg",
+      "uploadDate": "2024-01-15",
+      "duration": "PT1M",
+      "publisher": {
+        "@id": "https://www.physioactif.com/#org"
+      },
+      "about": [
+        {
+          "@id": "https://www.physioactif.com/videos-dexercise/mobilite-de-l-epaule-main-sur-la-hanche#exercise"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Physiothérapie",
+          "alternateName": [
+            "Physical therapy",
+            "Kinésithérapie",
+            "Fisioterapia"
+          ],
+          "sameAs": [
+            "https://www.physioactif.com/guide-complet/physiotherapie",
+            "https://www.wikidata.org/wiki/Q186005",
+            "https://en.wikipedia.org/wiki/Physical_therapy",
+            "https://fr.wikipedia.org/wiki/Kinésithérapie",
+            "https://meshb.nlm.nih.gov/record/ui?ui=D026761"
+          ]
+        }
+      ],
+      "embedUrl": "https://www.youtube.com/embed/r9owXbccPgg",
+      "contentUrl": "https://www.youtube.com/watch?v=r9owXbccPgg"
+    },
+    {
+      "@type": "ExercisePlan",
+      "@id": "https://www.physioactif.com/videos-dexercise/mobilite-de-l-epaule-main-sur-la-hanche#exercise",
+      "name": "Mobilité De L'épaule Main Sur La Hanche",
+      "description": "Exercice thérapeutique ciblant articulation gléno-humérale pour améliorer la mobilité et la fonction. Recommandé dans le cadre d'un programme de réadaptation en physiothérapie.",
+      "category": "Épaule et bras",
+      "activityDuration": "PT1M",
+      "exerciseType": "PhysicalActivity",
+      "associatedAnatomicalStructure": {
+        "@type": "AnatomicalStructure",
+        "name": "Articulation gléno-humérale"
+      },
+      "isPartOf": {
+        "@id": "https://www.physioactif.com/#org"
+      },
+      "provider": {
+        "@id": "https://www.physioactif.com/#org"
+      },
+      "inLanguage": [
+        "fr-CA"
+      ],
+      "url": "https://www.physioactif.com/videos-dexercise/mobilite-de-l-epaule-main-sur-la-hanche",
+      "targetArea": [
+        {
+          "@type": "AnatomicalStructure",
+          "name": "Articulation gléno-humérale"
+        }
+      ],
+      "intensity": {
+        "@type": "QuantitativeValue",
+        "value": "Moderate",
+        "description": "Modéré - Convient aux personnes avec mobilité de base"
+      },
+      "repetitions": {
+        "@type": "QuantitativeValue",
+        "value": "3-5",
+        "unitText": "répétitions par côté"
+      },
+      "restPeriods": "PT30S"
+    },
+    {
+      "@type": "MedicalWebPage",
+      "@id": "https://www.physioactif.com/videos-dexercise/mobilite-de-l-epaule-main-sur-la-hanche#webpage",
+      "datePublished": "2025-12-17",
+      "name": "Mobilité De L'épaule Main Sur La Hanche - Vidéo d'exercice",
+      "headline": "Mobilité De L'épaule Main Sur La Hanche - Exercice de physiothérapie en vidéo | Physioactif",
+      "description": "Exercice thérapeutique ciblant articulation gléno-humérale pour améliorer la mobilité et la fonction. Recommandé dans le cadre d'un programme de réadaptation en physiothérapie.",
+      "about": [
+        {
+          "@id": "https://www.physioactif.com/videos-dexercise/mobilite-de-l-epaule-main-sur-la-hanche#exercise"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Physiothérapie",
+          "alternateName": [
+            "Physical therapy",
+            "Kinésithérapie"
+          ],
+          "sameAs": [
+            "https://www.physioactif.com/guide-complet/physiotherapie",
+            "https://www.wikidata.org/wiki/Q186005"
+          ]
+        }
+      ],
+      "mainEntity": {
+        "@id": "https://www.physioactif.com/videos-dexercise/mobilite-de-l-epaule-main-sur-la-hanche#exercise"
+      },
+      "isPartOf": {
+        "@id": "https://www.physioactif.com/#website"
+      },
+      "specialty": [
+        "Physiotherapy",
+        "Musculoskeletal",
+        "SportsMedicine"
+      ],
+      "inLanguage": [
+        "fr-CA"
+      ],
+      "url": "https://www.physioactif.com/videos-dexercise/mobilite-de-l-epaule-main-sur-la-hanche",
+      "breadcrumb": {
+        "@id": "https://www.physioactif.com/videos-dexercise/mobilite-de-l-epaule-main-sur-la-hanche#breadcrumb"
+      },
+      "video": {
+        "@id": "https://www.physioactif.com/videos-dexercise/mobilite-de-l-epaule-main-sur-la-hanche#video"
+      },
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [
+          ".header_heading",
+          ".header_content .text-style-muted"
+        ]
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.physioactif.com/videos-dexercise/mobilite-de-l-epaule-main-sur-la-hanche#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Accueil",
+          "item": "https://www.physioactif.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Vidéos d'exercices",
+          "item": "https://www.physioactif.com/videos-exercices"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Mobilité De L'épaule Main Sur La Hanche"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,156 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "VideoObject",
+      "@id": "https://www.physioactif.com/videos-dexercise/slump-en-flexion-plantaire-et-inversion#video",
+      "name": "Slump En Flexion Plantaire Et Inversion - Vidéo Physiothérapie",
+      "description": "Vidéo démonstration professionnelle de l'exercice slump en flexion plantaire et inversion par les physiothérapeutes de Physioactif.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ERh6w9SbwoE/maxresdefault.jpg",
+      "uploadDate": "2024-01-15",
+      "duration": "PT1M",
+      "publisher": {
+        "@id": "https://www.physioactif.com/#org"
+      },
+      "about": [
+        {
+          "@id": "https://www.physioactif.com/videos-dexercise/slump-en-flexion-plantaire-et-inversion#exercise"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Physiothérapie",
+          "alternateName": [
+            "Physical therapy",
+            "Kinésithérapie",
+            "Fisioterapia"
+          ],
+          "sameAs": [
+            "https://www.physioactif.com/guide-complet/physiotherapie",
+            "https://www.wikidata.org/wiki/Q186005",
+            "https://en.wikipedia.org/wiki/Physical_therapy",
+            "https://fr.wikipedia.org/wiki/Kinésithérapie",
+            "https://meshb.nlm.nih.gov/record/ui?ui=D026761"
+          ]
+        }
+      ],
+      "embedUrl": "https://www.youtube.com/embed/ERh6w9SbwoE",
+      "contentUrl": "https://www.youtube.com/watch?v=ERh6w9SbwoE"
+    },
+    {
+      "@type": "ExercisePlan",
+      "@id": "https://www.physioactif.com/videos-dexercise/slump-en-flexion-plantaire-et-inversion#exercise",
+      "name": "Slump En Flexion Plantaire Et Inversion",
+      "description": "Exercice thérapeutique ciblant nerf sciatique pour améliorer la mobilité et la fonction. Recommandé dans le cadre d'un programme de réadaptation en physiothérapie.",
+      "category": "Mollet, cheville et pied",
+      "activityDuration": "PT1M",
+      "exerciseType": "PhysicalActivity",
+      "associatedAnatomicalStructure": {
+        "@type": "AnatomicalStructure",
+        "name": "Nerf sciatique"
+      },
+      "isPartOf": {
+        "@id": "https://www.physioactif.com/#org"
+      },
+      "provider": {
+        "@id": "https://www.physioactif.com/#org"
+      },
+      "inLanguage": [
+        "fr-CA"
+      ],
+      "url": "https://www.physioactif.com/videos-dexercise/slump-en-flexion-plantaire-et-inversion",
+      "targetArea": [
+        {
+          "@type": "AnatomicalStructure",
+          "name": "Nerf sciatique"
+        }
+      ],
+      "intensity": {
+        "@type": "QuantitativeValue",
+        "value": "Moderate",
+        "description": "Modéré - Convient aux personnes avec mobilité de base"
+      },
+      "repetitions": {
+        "@type": "QuantitativeValue",
+        "value": "3-5",
+        "unitText": "répétitions par côté"
+      },
+      "restPeriods": "PT30S"
+    },
+    {
+      "@type": "MedicalWebPage",
+      "@id": "https://www.physioactif.com/videos-dexercise/slump-en-flexion-plantaire-et-inversion#webpage",
+      "datePublished": "2025-12-17",
+      "name": "Slump En Flexion Plantaire Et Inversion - Vidéo d'exercice",
+      "headline": "Slump En Flexion Plantaire Et Inversion - Exercice de physiothérapie en vidéo | Physioactif",
+      "description": "Exercice thérapeutique ciblant nerf sciatique pour améliorer la mobilité et la fonction. Recommandé dans le cadre d'un programme de réadaptation en physiothérapie.",
+      "about": [
+        {
+          "@id": "https://www.physioactif.com/videos-dexercise/slump-en-flexion-plantaire-et-inversion#exercise"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Physiothérapie",
+          "alternateName": [
+            "Physical therapy",
+            "Kinésithérapie"
+          ],
+          "sameAs": [
+            "https://www.physioactif.com/guide-complet/physiotherapie",
+            "https://www.wikidata.org/wiki/Q186005"
+          ]
+        }
+      ],
+      "mainEntity": {
+        "@id": "https://www.physioactif.com/videos-dexercise/slump-en-flexion-plantaire-et-inversion#exercise"
+      },
+      "isPartOf": {
+        "@id": "https://www.physioactif.com/#website"
+      },
+      "specialty": [
+        "Physiotherapy",
+        "Musculoskeletal",
+        "SportsMedicine"
+      ],
+      "inLanguage": [
+        "fr-CA"
+      ],
+      "url": "https://www.physioactif.com/videos-dexercise/slump-en-flexion-plantaire-et-inversion",
+      "breadcrumb": {
+        "@id": "https://www.physioactif.com/videos-dexercise/slump-en-flexion-plantaire-et-inversion#breadcrumb"
+      },
+      "video": {
+        "@id": "https://www.physioactif.com/videos-dexercise/slump-en-flexion-plantaire-et-inversion#video"
+      },
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [
+          ".header_heading",
+          ".header_content .text-style-muted"
+        ]
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.physioactif.com/videos-dexercise/slump-en-flexion-plantaire-et-inversion#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Accueil",
+          "item": "https://www.physioactif.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Vidéos d'exercices",
+          "item": "https://www.physioactif.com/videos-exercices"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Slump En Flexion Plantaire Et Inversion"
+        }
+      ]
+    }
+  ]
+}

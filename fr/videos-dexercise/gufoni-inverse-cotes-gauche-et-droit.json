@@ -1,0 +1,156 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "VideoObject",
+      "@id": "https://www.physioactif.com/videos-dexercise/gufoni-inverse-cotes-gauche-et-droit#video",
+      "name": "Gufoni Inversé Côtés Gauche Et Droit - Vidéo Physiothérapie",
+      "description": "Vidéo démonstration professionnelle de l'exercice gufoni inversé côtés gauche et droit par les physiothérapeutes de Physioactif.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/U9akvrIMyJk/maxresdefault.jpg",
+      "uploadDate": "2024-01-15",
+      "duration": "PT1M",
+      "publisher": {
+        "@id": "https://www.physioactif.com/#org"
+      },
+      "about": [
+        {
+          "@id": "https://www.physioactif.com/videos-dexercise/gufoni-inverse-cotes-gauche-et-droit#exercise"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Physiothérapie",
+          "alternateName": [
+            "Physical therapy",
+            "Kinésithérapie",
+            "Fisioterapia"
+          ],
+          "sameAs": [
+            "https://www.physioactif.com/guide-complet/physiotherapie",
+            "https://www.wikidata.org/wiki/Q186005",
+            "https://en.wikipedia.org/wiki/Physical_therapy",
+            "https://fr.wikipedia.org/wiki/Kinésithérapie",
+            "https://meshb.nlm.nih.gov/record/ui?ui=D026761"
+          ]
+        }
+      ],
+      "embedUrl": "https://www.youtube.com/embed/U9akvrIMyJk",
+      "contentUrl": "https://www.youtube.com/watch?v=U9akvrIMyJk"
+    },
+    {
+      "@type": "ExercisePlan",
+      "@id": "https://www.physioactif.com/videos-dexercise/gufoni-inverse-cotes-gauche-et-droit#exercise",
+      "name": "Gufoni Inversé Côtés Gauche Et Droit",
+      "description": "Exercice thérapeutique ciblant système vestibulaire pour améliorer la mobilité et la fonction. Recommandé dans le cadre d'un programme de réadaptation en physiothérapie.",
+      "category": "Tête, mâchoire, visage",
+      "activityDuration": "PT1M",
+      "exerciseType": "PhysicalActivity",
+      "associatedAnatomicalStructure": {
+        "@type": "AnatomicalStructure",
+        "name": "Système vestibulaire"
+      },
+      "isPartOf": {
+        "@id": "https://www.physioactif.com/#org"
+      },
+      "provider": {
+        "@id": "https://www.physioactif.com/#org"
+      },
+      "inLanguage": [
+        "fr-CA"
+      ],
+      "url": "https://www.physioactif.com/videos-dexercise/gufoni-inverse-cotes-gauche-et-droit",
+      "targetArea": [
+        {
+          "@type": "AnatomicalStructure",
+          "name": "Système vestibulaire"
+        }
+      ],
+      "intensity": {
+        "@type": "QuantitativeValue",
+        "value": "Moderate",
+        "description": "Modéré - Convient aux personnes avec mobilité de base"
+      },
+      "repetitions": {
+        "@type": "QuantitativeValue",
+        "value": "3-5",
+        "unitText": "répétitions par côté"
+      },
+      "restPeriods": "PT30S"
+    },
+    {
+      "@type": "MedicalWebPage",
+      "@id": "https://www.physioactif.com/videos-dexercise/gufoni-inverse-cotes-gauche-et-droit#webpage",
+      "datePublished": "2025-12-17",
+      "name": "Gufoni Inversé Côtés Gauche Et Droit - Vidéo d'exercice",
+      "headline": "Gufoni Inversé Côtés Gauche Et Droit - Exercice de physiothérapie en vidéo | Physioactif",
+      "description": "Exercice thérapeutique ciblant système vestibulaire pour améliorer la mobilité et la fonction. Recommandé dans le cadre d'un programme de réadaptation en physiothérapie.",
+      "about": [
+        {
+          "@id": "https://www.physioactif.com/videos-dexercise/gufoni-inverse-cotes-gauche-et-droit#exercise"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Physiothérapie",
+          "alternateName": [
+            "Physical therapy",
+            "Kinésithérapie"
+          ],
+          "sameAs": [
+            "https://www.physioactif.com/guide-complet/physiotherapie",
+            "https://www.wikidata.org/wiki/Q186005"
+          ]
+        }
+      ],
+      "mainEntity": {
+        "@id": "https://www.physioactif.com/videos-dexercise/gufoni-inverse-cotes-gauche-et-droit#exercise"
+      },
+      "isPartOf": {
+        "@id": "https://www.physioactif.com/#website"
+      },
+      "specialty": [
+        "Physiotherapy",
+        "Musculoskeletal",
+        "SportsMedicine"
+      ],
+      "inLanguage": [
+        "fr-CA"
+      ],
+      "url": "https://www.physioactif.com/videos-dexercise/gufoni-inverse-cotes-gauche-et-droit",
+      "breadcrumb": {
+        "@id": "https://www.physioactif.com/videos-dexercise/gufoni-inverse-cotes-gauche-et-droit#breadcrumb"
+      },
+      "video": {
+        "@id": "https://www.physioactif.com/videos-dexercise/gufoni-inverse-cotes-gauche-et-droit#video"
+      },
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [
+          ".header_heading",
+          ".header_content .text-style-muted"
+        ]
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.physioactif.com/videos-dexercise/gufoni-inverse-cotes-gauche-et-droit#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Accueil",
+          "item": "https://www.physioactif.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Vidéos d'exercices",
+          "item": "https://www.physioactif.com/videos-exercices"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Gufoni Inversé Côtés Gauche Et Droit"
+        }
+      ]
+    }
+  ]
+}
