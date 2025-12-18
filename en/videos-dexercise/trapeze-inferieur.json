@@ -7,7 +7,7 @@
       "name": "Trapeze Inferieur - Vidéo Physiothérapie",
       "description": "Vidéo démonstration professionnelle de l'exercice trapeze inferieur par les physiothérapeutes de Physioactif.",
       "thumbnailUrl": "https://i.ytimg.com/vi/R_mp_t7g0hA/maxresdefault.jpg",
-      "uploadDate": "2024-01-15",
+      "uploadDate": "2024-01-15T00:00:00-05:00",
       "duration": "PT1M",
       "publisher": {
         "@id": "https://www.physioactif.com/en/#org"

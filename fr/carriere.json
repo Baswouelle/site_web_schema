@@ -50,7 +50,7 @@
               "PART_TIME"
             ],
             "hiringOrganization": {
-              "@type": "MedicalOrganization",
+              "@type": "Organization",
               "@id": "https://www.physioactif.com/#org",
               "name": "Physioactif",
               "sameAs": "https://www.physioactif.com/",
@@ -157,7 +157,7 @@
               "PART_TIME"
             ],
             "hiringOrganization": {
-              "@type": "MedicalOrganization",
+              "@type": "Organization",
               "@id": "https://www.physioactif.com/#org",
               "name": "Physioactif",
               "sameAs": "https://www.physioactif.com/",
@@ -262,7 +262,7 @@
               "PART_TIME"
             ],
             "hiringOrganization": {
-              "@type": "MedicalOrganization",
+              "@type": "Organization",
               "@id": "https://www.physioactif.com/#org",
               "name": "Physioactif",
               "sameAs": "https://www.physioactif.com/",
@@ -361,7 +361,7 @@
               "FULL_TIME"
             ],
             "hiringOrganization": {
-              "@type": "MedicalOrganization",
+              "@type": "Organization",
               "@id": "https://www.physioactif.com/#org",
               "name": "Physioactif",
               "sameAs": "https://www.physioactif.com/",

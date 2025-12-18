@@ -7,7 +7,7 @@
       "name": "Ulnt 1 2 0 - Vidéo Physiothérapie",
       "description": "Vidéo démonstration professionnelle de l'exercice ulnt 1 2 0 par les physiothérapeutes de Physioactif.",
       "thumbnailUrl": "https://i.ytimg.com/vi/Gegrvl_XXaQ/maxresdefault.jpg",
-      "uploadDate": "2024-01-15",
+      "uploadDate": "2024-01-15T00:00:00-05:00",
       "duration": "PT1M",
       "publisher": {
         "@id": "https://www.physioactif.com/#org"

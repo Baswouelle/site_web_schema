@@ -7,7 +7,7 @@
       "name": "Multifides Lombaires - Vidéo Physiothérapie",
       "description": "Vidéo démonstration professionnelle de l'exercice multifides lombaires par les physiothérapeutes de Physioactif.",
       "thumbnailUrl": "https://i.ytimg.com/vi/OEKpJONvAmk/maxresdefault.jpg",
-      "uploadDate": "2024-01-15",
+      "uploadDate": "2024-01-15T00:00:00-05:00",
       "duration": "PT1M",
       "publisher": {
         "@id": "https://www.physioactif.com/#org"
