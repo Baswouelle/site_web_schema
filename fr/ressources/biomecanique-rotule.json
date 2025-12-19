@@ -1,0 +1,51 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "@id": "https://www.physioactif.com/ressources/biomecanique-rotule/#article",
+      "author": {"@type": "Person", "@id": "https://www.physioactif.com/equipe/alexis-gougeon/#person"},
+      "headline": "Biomécanique de la rotule: comprendre le mouvement | Physioactif",
+      "description": "Découvrez la biomécanique rotulienne: comment la rotule bouge, son alignement et son rôle dans la fonction du genou.",
+      "url": "https://www.physioactif.com/ressources/biomecanique-rotule",
+      "inLanguage": ["fr-CA"],
+      "datePublished": "2026-01-02",
+      "image": {"@type": "ImageObject", "url": "https://cdn.prod.website-files.com/670e84ccd653d18590687563/physioactif-hero-default.jpg", "width": 1200, "height": 630},
+      "publisher": {"@id": "https://www.physioactif.com/#org"},
+      "mainEntityOfPage": {"@type": "WebPage", "@id": "https://www.physioactif.com/ressources/biomecanique-rotule/"},
+      "about": [
+        {"@type": "DefinedTerm", "name": "Biomécanique", "sameAs": ["https://www.wikidata.org/wiki/Q211214", "https://en.wikipedia.org/wiki/Biomechanics"]},
+        {"@type": "AnatomicalStructure", "name": "Rotule", "sameAs": ["https://www.wikidata.org/wiki/Q171178"]}
+      ],
+      "articleSection": "Ressources",
+      "keywords": ["biomécanique", "rotule", "patella", "tracking", "alignement", "trochlée"],
+      "mentions": [
+        {"@type": "DefinedTerm", "name": "Tracking rotulien", "description": "Mouvement de glissement de la rotule dans la trochlée fémorale"},
+        {"@type": "DefinedTerm", "name": "Angle Q", "description": "Angle formé entre le quadriceps et le tendon rotulien"},
+        {"@id": "https://www.physioactif.com/guide-complet/syndrome-femoro-patellaire#condition"}
+      ]
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://www.physioactif.com/ressources/biomecanique-rotule/#webpage",
+      "datePublished": "2026-01-02",
+      "url": "https://www.physioactif.com/ressources/biomecanique-rotule",
+      "name": "Biomécanique de la rotule | Physioactif",
+      "description": "Découvrez la biomécanique rotulienne et son importance pour la santé du genou.",
+      "inLanguage": ["fr-CA"],
+      "isPartOf": {"@id": "https://www.physioactif.com/#website"},
+      "mainEntity": {"@id": "https://www.physioactif.com/ressources/biomecanique-rotule/#article"},
+      "breadcrumb": {"@id": "https://www.physioactif.com/ressources/biomecanique-rotule/#breadcrumb"},
+      "publisher": {"@id": "https://www.physioactif.com/#org"}
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.physioactif.com/ressources/biomecanique-rotule/#breadcrumb",
+      "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Accueil", "item": "https://www.physioactif.com/"},
+        {"@type": "ListItem", "position": 2, "name": "Ressources", "item": "https://www.physioactif.com/ressources/"},
+        {"@type": "ListItem", "position": 3, "name": "Biomécanique de la rotule", "item": "https://www.physioactif.com/ressources/biomecanique-rotule"}
+      ]
+    }
+  ]
+}

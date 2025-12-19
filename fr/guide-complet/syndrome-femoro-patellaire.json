@@ -5,207 +5,51 @@
       "@type": "MedicalCondition",
       "@id": "https://www.physioactif.com/guide-complet/syndrome-femoro-patellaire#condition",
       "name": "Syndrome fémoro-patellaire",
-      "alternateName": [
-        "Patellofemoral pain syndrome",
-        "PFPS",
-        "runner's knee",
-        "syndrome de douleur fémoro-patellaire",
-        "chondromalacie rotulienne"
-      ],
-      "description": "Condition médicale affectant le système musculosquelettique nécessitant une prise en charge en physiothérapie.",
+      "alternateName": ["Patellofemoral syndrome", "Runner's knee", "Genou du coureur"],
+      "description": "Douleur autour ou derrière la rotule causée par un mauvais alignement ou une surcharge de l'articulation fémoro-patellaire.",
       "sameAs": [
-        "https://fr.wikipedia.org/wiki/Syndrome_fémoro-patellaire",
         "https://en.wikipedia.org/wiki/Patellofemoral_pain_syndrome",
-        "https://www.wikidata.org/wiki/Q2276069",
-        "https://meshb.nlm.nih.gov/record/ui?ui=D046788",
-        "http://snomed.info/id/430725003"
+        "https://fr.wikipedia.org/wiki/Syndrome_fémoro-patellaire",
+        "https://www.wikidata.org/wiki/Q3503293",
+        "https://meshb.nlm.nih.gov/record/ui?ui=D046788"
       ],
-      "code": [
-        {
-          "@type": "MedicalCode",
-          "code": "M22.2",
-          "codingSystem": "ICD-10"
-        },
-        {
-          "@type": "MedicalCode",
-          "code": "FB57.1",
-          "codingSystem": "ICD-11"
-        }
-      ]
+      "code": [{"@type": "MedicalCode", "code": "M22.2", "codingSystem": "ICD-10"}],
+      "associatedAnatomy": {"@type": "AnatomicalStructure", "name": "Articulation fémoro-patellaire"},
+      "possibleTreatment": [{"@type": "MedicalTherapy", "name": "Physiothérapie"}]
     },
     {
       "@type": "MedicalWebPage",
       "@id": "https://www.physioactif.com/guide-complet/syndrome-femoro-patellaire#article",
-      "author": {
-        "@type": "Person",
-        "@id": "https://www.physioactif.com/equipe/ariel-desjardins-charbonneau/#person"
-      },
-      "datePublished": "2025-09-26",
-      "name": "Syndrome Femoro Patellaire - Guide Complet",
-      "headline": "Syndrome Femoro Patellaire: Symptômes, Causes, Diagnostic et Traitement en Physiothérapie",
-      "about": [
-        {
-          "@id": "https://www.physioactif.com/guide-complet/syndrome-femoro-patellaire#condition"
-        },
-        {
-          "@type": "MedicalTherapy",
-          "name": "Physiothérapie",
-          "alternateName": [
-            "Physical therapy",
-            "Kinésithérapie",
-            "Fisioterapia"
-          ],
-          "sameAs": [
-            "https://www.physioactif.com/guide-complet/physiotherapie",
-            "https://www.wikidata.org/wiki/Q186005",
-            "https://en.wikipedia.org/wiki/Physical_therapy",
-            "https://fr.wikipedia.org/wiki/Kinésithérapie",
-            "https://meshb.nlm.nih.gov/record/ui?ui=D026761",
-            "https://www.merriam-webster.com/dictionary/physiotherapy",
-            "https://www.britannica.com/topic/physical-therapy"
-          ]
-        }
-      ],
-      "mainEntity": {
-        "@id": "https://www.physioactif.com/guide-complet/syndrome-femoro-patellaire#condition"
-      },
-      "speakable": {
-        "@type": "SpeakableSpecification",
-        "cssSelector": [
-          ".header_heading",
-          ".header_content .text-style-muted.w-richtext",
-          ".section_article .text-rich-text h2"
-        ]
-      },
-      "specialty": [
-        "Physiotherapy",
-        "Musculoskeletal",
-        "SportsMedicine"
-      ],
-      "medicalAudience": [
-        {
-          "@type": "Patient"
-        },
-        {
-          "@type": "MedicalAudience",
-          "audienceType": "General Public"
-        }
-      ],
-      "reviewedBy": {
-        "@id": "https://www.physioactif.com/#org"
-      },
-      "provider": {
-        "@id": "https://www.physioactif.com/#org"
-      },
-      "inLanguage": [
-        "fr-CA"
-      ],
-      "isPartOf": {
-        "@id": "https://www.physioactif.com/#website"
-      },
-      "mentions": [
-        {
-          "@type": "MedicalTherapy",
-          "name": "Physiothérapie",
-          "alternateName": [
-            "Physical therapy",
-            "Kinésithérapie",
-            "Fisioterapia"
-          ],
-          "sameAs": [
-            "https://www.physioactif.com/guide-complet/physiotherapie",
-            "https://www.wikidata.org/wiki/Q186005",
-            "https://en.wikipedia.org/wiki/Physical_therapy",
-            "https://fr.wikipedia.org/wiki/Kinésithérapie",
-            "https://meshb.nlm.nih.gov/record/ui?ui=D026761",
-            "https://www.merriam-webster.com/dictionary/physiotherapy",
-            "https://www.britannica.com/topic/physical-therapy"
-          ]
-        },
-        {
-          "@type": "DefinedTerm",
-          "name": "Arthrose du genou (Gonarthrose)",
-          "description": "Usure progressive du cartilage articulaire",
-          "sameAs": [
-            "https://fr.wikipedia.org/wiki/Gonarthrose",
-            "https://en.wikipedia.org/wiki/Osteoarthritis#Knee",
-            "https://www.wikidata.org/wiki/Q1777118",
-            "https://meshb.nlm.nih.gov/record/ui?ui=D020370"
-          ]
-        },
-        {
-          "@type": "DefinedTerm",
-          "name": "Tendinite rotulienne",
-          "description": "Inflammation ou irritation d'un tendon",
-          "sameAs": [
-            "https://fr.wikipedia.org/wiki/Tendinopathie_rotulienne",
-            "https://en.wikipedia.org/wiki/Patellar_tendinitis",
-            "https://www.wikidata.org/wiki/Q2276072",
-            "https://meshb.nlm.nih.gov/record/ui?ui=D052256"
-          ]
-        }
-      ]
+      "author": {"@type": "Person", "@id": "https://www.physioactif.com/equipe/claudine-farah/#person"},
+      "reviewedBy": {"@type": "Person", "@id": "https://www.physioactif.com/equipe/philippe-paradis/#person"},
+      "datePublished": "2025-12-26",
+      "name": "Syndrome fémoro-patellaire - Guide Complet",
+      "headline": "Syndrome fémoro-patellaire: Symptômes, Causes et Traitement en Physiothérapie",
+      "about": [{"@id": "https://www.physioactif.com/guide-complet/syndrome-femoro-patellaire#condition"}],
+      "mainEntity": {"@id": "https://www.physioactif.com/guide-complet/syndrome-femoro-patellaire#condition"},
+      "speakable": {"@type": "SpeakableSpecification", "cssSelector": [".header_heading", ".section_article .text-rich-text h2"]},
+      "specialty": ["Physiotherapy", "Musculoskeletal", "SportsMedicine"],
+      "medicalAudience": [{"@type": "Patient"}],
+      "provider": {"@id": "https://www.physioactif.com/#org"},
+      "inLanguage": ["fr-CA"],
+      "isPartOf": {"@id": "https://www.physioactif.com/#website"}
     },
     {
       "@type": "WebPage",
       "@id": "https://www.physioactif.com/guide-complet/syndrome-femoro-patellaire#webpage",
-      "datePublished": "2025-09-26",
+      "datePublished": "2025-12-26",
       "url": "https://www.physioactif.com/guide-complet/syndrome-femoro-patellaire",
-      "name": "Syndrome Femoro Patellaire - Guide Complet | Physioactif",
-      "description": "Guide complet sur syndrome femoro patellaire: causes, symptômes, diagnostic et traitements en physiothérapie par les experts de Physioactif.",
-      "mainEntity": {
-        "@id": "https://www.physioactif.com/guide-complet/syndrome-femoro-patellaire#condition"
-      },
-      "about": {
-        "@id": "https://www.physioactif.com/guide-complet/syndrome-femoro-patellaire#condition"
-      },
-      "breadcrumb": {
-        "@type": "BreadcrumbList",
-        "@id": "https://www.physioactif.com/guide-complet/syndrome-femoro-patellaire#breadcrumb",
-        "itemListElement": [
-          {
-            "@type": "ListItem",
-            "position": 1,
-            "name": "Accueil",
-            "item": "https://www.physioactif.com/"
-          },
-          {
-            "@type": "ListItem",
-            "position": 2,
-            "name": "Guide Complet",
-            "item": "https://www.physioactif.com/guide-complet"
-          },
-          {
-            "@type": "ListItem",
-            "position": 3,
-            "name": "Syndrome Femoro Patellaire",
-            "item": "https://www.physioactif.com/guide-complet/syndrome-femoro-patellaire"
-          }
-        ]
-      },
-      "isPartOf": {
-        "@id": "https://www.physioactif.com/#website"
-      },
-      "inLanguage": [
-        "fr-CA"
-      ],
-      "potentialAction": {
-        "@type": "ReadAction",
-        "target": {
-          "@type": "EntryPoint",
-          "urlTemplate": "https://www.physioactif.com/guide-complet/syndrome-femoro-patellaire",
-          "actionPlatform": [
-            "http://schema.org/DesktopWebPlatform",
-            "http://schema.org/MobileWebPlatform"
-          ]
-        }
-      },
-      "relatedLink": [
-        "https://physioactif.clinicmaster.com/clinic-selection?lang=fr-CA"
-      ],
-      "publisher": {
-        "@id": "https://www.physioactif.com/#org"
-      }
+      "name": "Syndrome fémoro-patellaire - Guide Complet | Physioactif",
+      "description": "Guide complet sur le syndrome fémoro-patellaire: causes, symptômes et traitements en physiothérapie.",
+      "mainEntity": {"@id": "https://www.physioactif.com/guide-complet/syndrome-femoro-patellaire#condition"},
+      "breadcrumb": {"@type": "BreadcrumbList", "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Accueil", "item": "https://www.physioactif.com/"},
+        {"@type": "ListItem", "position": 2, "name": "Guide Complet", "item": "https://www.physioactif.com/guide-complet"},
+        {"@type": "ListItem", "position": 3, "name": "Syndrome fémoro-patellaire", "item": "https://www.physioactif.com/guide-complet/syndrome-femoro-patellaire"}
+      ]},
+      "isPartOf": {"@id": "https://www.physioactif.com/#website"},
+      "inLanguage": ["fr-CA"],
+      "publisher": {"@id": "https://www.physioactif.com/#org"}
     }
   ]
 }

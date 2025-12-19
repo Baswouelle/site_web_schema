@@ -1,0 +1,55 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "MedicalCondition",
+      "@id": "https://www.physioactif.com/guide-complet/maladie-osgood-schlatter#condition",
+      "name": "Maladie d'Osgood-Schlatter",
+      "alternateName": ["Osgood-Schlatter disease", "Apophysite tibiale antérieure"],
+      "description": "Inflammation douloureuse de la tubérosité tibiale chez les adolescents en croissance, causée par la traction répétée du tendon rotulien.",
+      "sameAs": [
+        "https://en.wikipedia.org/wiki/Osgood–Schlatter_disease",
+        "https://fr.wikipedia.org/wiki/Maladie_d%27Osgood-Schlatter",
+        "https://www.wikidata.org/wiki/Q1421685",
+        "https://meshb.nlm.nih.gov/record/ui?ui=D055034"
+      ],
+      "code": [{"@type": "MedicalCode", "code": "M92.5", "codingSystem": "ICD-10"}],
+      "associatedAnatomy": {"@type": "AnatomicalStructure", "name": "Tubérosité tibiale antérieure"},
+      "possibleTreatment": [{"@type": "MedicalTherapy", "name": "Physiothérapie"}]
+    },
+    {
+      "@type": "MedicalWebPage",
+      "@id": "https://www.physioactif.com/guide-complet/maladie-osgood-schlatter#article",
+      "author": {"@type": "Person", "@id": "https://www.physioactif.com/equipe/lorianne-gonzalez-bayard/#person"},
+      "reviewedBy": {"@type": "Person", "@id": "https://www.physioactif.com/equipe/claudine-farah/#person"},
+      "datePublished": "2025-12-30",
+      "name": "Maladie d'Osgood-Schlatter - Guide Complet",
+      "headline": "Maladie d'Osgood-Schlatter: Symptômes, Causes et Traitement en Physiothérapie",
+      "about": [{"@id": "https://www.physioactif.com/guide-complet/maladie-osgood-schlatter#condition"}],
+      "mainEntity": {"@id": "https://www.physioactif.com/guide-complet/maladie-osgood-schlatter#condition"},
+      "speakable": {"@type": "SpeakableSpecification", "cssSelector": [".header_heading", ".section_article .text-rich-text h2"]},
+      "specialty": ["Physiotherapy", "Musculoskeletal", "Pediatrics"],
+      "medicalAudience": [{"@type": "Patient"}],
+      "provider": {"@id": "https://www.physioactif.com/#org"},
+      "inLanguage": ["fr-CA"],
+      "isPartOf": {"@id": "https://www.physioactif.com/#website"}
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://www.physioactif.com/guide-complet/maladie-osgood-schlatter#webpage",
+      "datePublished": "2025-12-30",
+      "url": "https://www.physioactif.com/guide-complet/maladie-osgood-schlatter",
+      "name": "Maladie d'Osgood-Schlatter - Guide Complet | Physioactif",
+      "description": "Guide complet sur la maladie d'Osgood-Schlatter: causes, symptômes et traitements en physiothérapie pour adolescents.",
+      "mainEntity": {"@id": "https://www.physioactif.com/guide-complet/maladie-osgood-schlatter#condition"},
+      "breadcrumb": {"@type": "BreadcrumbList", "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Accueil", "item": "https://www.physioactif.com/"},
+        {"@type": "ListItem", "position": 2, "name": "Guide Complet", "item": "https://www.physioactif.com/guide-complet"},
+        {"@type": "ListItem", "position": 3, "name": "Maladie d'Osgood-Schlatter", "item": "https://www.physioactif.com/guide-complet/maladie-osgood-schlatter"}
+      ]},
+      "isPartOf": {"@id": "https://www.physioactif.com/#website"},
+      "inLanguage": ["fr-CA"],
+      "publisher": {"@id": "https://www.physioactif.com/#org"}
+    }
+  ]
+}

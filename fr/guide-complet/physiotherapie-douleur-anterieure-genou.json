@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "MedicalTherapy",
+      "@id": "https://www.physioactif.com/guide-complet/physiotherapie-douleur-anterieure-genou#therapy",
+      "name": "Physiothérapie pour douleur antérieure au genou",
+      "alternateName": ["Physical therapy for anterior knee pain", "Réadaptation du genou"],
+      "description": "Approche de physiothérapie pour traiter la douleur antérieure au genou incluant exercices de renforcement, étirements et techniques manuelles.",
+      "sameAs": ["https://www.wikidata.org/wiki/Q186005"],
+      "relevantCondition": {"@id": "https://www.physioactif.com/guide-complet/douleur-anterieure-genou#condition"}
+    },
+    {
+      "@type": "MedicalWebPage",
+      "@id": "https://www.physioactif.com/guide-complet/physiotherapie-douleur-anterieure-genou#article",
+      "author": {"@type": "Person", "@id": "https://www.physioactif.com/equipe/chloe-roy/#person"},
+      "reviewedBy": {"@type": "Person", "@id": "https://www.physioactif.com/equipe/alexis-gougeon/#person"},
+      "datePublished": "2025-12-23",
+      "name": "Physiothérapie pour douleur antérieure au genou - Guide Complet",
+      "headline": "Physiothérapie pour douleur antérieure au genou: Exercices et Traitements",
+      "about": [
+        {"@id": "https://www.physioactif.com/guide-complet/physiotherapie-douleur-anterieure-genou#therapy"},
+        {"@id": "https://www.physioactif.com/guide-complet/douleur-anterieure-genou#condition"}
+      ],
+      "mainEntity": {"@id": "https://www.physioactif.com/guide-complet/physiotherapie-douleur-anterieure-genou#therapy"},
+      "speakable": {"@type": "SpeakableSpecification", "cssSelector": [".header_heading", ".header_content .text-style-muted.w-richtext", ".section_article .text-rich-text h2"]},
+      "specialty": ["Physiotherapy", "Musculoskeletal", "SportsMedicine"],
+      "medicalAudience": [{"@type": "Patient"}, {"@type": "MedicalAudience", "audienceType": "General Public"}],
+      "provider": {"@id": "https://www.physioactif.com/#org"},
+      "inLanguage": ["fr-CA"],
+      "isPartOf": {"@id": "https://www.physioactif.com/#website"}
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://www.physioactif.com/guide-complet/physiotherapie-douleur-anterieure-genou#webpage",
+      "datePublished": "2025-12-23",
+      "url": "https://www.physioactif.com/guide-complet/physiotherapie-douleur-anterieure-genou",
+      "name": "Physiothérapie pour douleur antérieure au genou | Physioactif",
+      "description": "Guide complet sur la physiothérapie pour douleur antérieure au genou: exercices, traitements et réadaptation par les experts de Physioactif.",
+      "mainEntity": {"@id": "https://www.physioactif.com/guide-complet/physiotherapie-douleur-anterieure-genou#therapy"},
+      "breadcrumb": {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {"@type": "ListItem", "position": 1, "name": "Accueil", "item": "https://www.physioactif.com/"},
+          {"@type": "ListItem", "position": 2, "name": "Guide Complet", "item": "https://www.physioactif.com/guide-complet"},
+          {"@type": "ListItem", "position": 3, "name": "Physiothérapie douleur antérieure genou", "item": "https://www.physioactif.com/guide-complet/physiotherapie-douleur-anterieure-genou"}
+        ]
+      },
+      "isPartOf": {"@id": "https://www.physioactif.com/#website"},
+      "inLanguage": ["fr-CA"],
+      "publisher": {"@id": "https://www.physioactif.com/#org"}
+    }
+  ]
+}

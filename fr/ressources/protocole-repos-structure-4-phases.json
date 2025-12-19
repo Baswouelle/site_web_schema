@@ -1,0 +1,53 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "@id": "https://www.physioactif.com/ressources/protocole-repos-structure-4-phases/#article",
+      "author": {"@type": "Person", "@id": "https://www.physioactif.com/equipe/philippe-paradis/#person"},
+      "headline": "Protocole de repos structuré en 4 phases | Physioactif",
+      "description": "Guide pratique du protocole de repos structuré en 4 phases pour optimiser la récupération après une blessure au genou.",
+      "url": "https://www.physioactif.com/ressources/protocole-repos-structure-4-phases",
+      "inLanguage": ["fr-CA"],
+      "datePublished": "2026-01-06",
+      "image": {"@type": "ImageObject", "url": "https://cdn.prod.website-files.com/670e84ccd653d18590687563/physioactif-hero-default.jpg", "width": 1200, "height": 630},
+      "publisher": {"@id": "https://www.physioactif.com/#org"},
+      "mainEntityOfPage": {"@type": "WebPage", "@id": "https://www.physioactif.com/ressources/protocole-repos-structure-4-phases/"},
+      "about": [
+        {"@type": "MedicalTherapy", "name": "Protocole de récupération", "sameAs": ["https://www.wikidata.org/wiki/Q189196"]},
+        {"@type": "MedicalTherapy", "name": "Physiothérapie", "sameAs": ["https://www.wikidata.org/wiki/Q186005"]}
+      ],
+      "articleSection": "Ressources",
+      "keywords": ["repos structuré", "récupération", "4 phases", "retour au sport", "progression", "physiothérapie"],
+      "mentions": [
+        {"@type": "DefinedTerm", "name": "Phase 1 - Repos relatif", "description": "Première phase de récupération avec activité réduite"},
+        {"@type": "DefinedTerm", "name": "Phase 2 - Mobilisation", "description": "Reprise progressive du mouvement"},
+        {"@type": "DefinedTerm", "name": "Phase 3 - Renforcement", "description": "Exercices de renforcement progressif"},
+        {"@type": "DefinedTerm", "name": "Phase 4 - Retour au sport", "description": "Reprise des activités sportives"},
+        {"@id": "https://www.physioactif.com/guide-complet/douleur-anterieure-genou#condition"}
+      ]
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://www.physioactif.com/ressources/protocole-repos-structure-4-phases/#webpage",
+      "datePublished": "2026-01-06",
+      "url": "https://www.physioactif.com/ressources/protocole-repos-structure-4-phases",
+      "name": "Protocole de repos structuré en 4 phases | Physioactif",
+      "description": "Guide du protocole de repos structuré pour la récupération.",
+      "inLanguage": ["fr-CA"],
+      "isPartOf": {"@id": "https://www.physioactif.com/#website"},
+      "mainEntity": {"@id": "https://www.physioactif.com/ressources/protocole-repos-structure-4-phases/#article"},
+      "breadcrumb": {"@id": "https://www.physioactif.com/ressources/protocole-repos-structure-4-phases/#breadcrumb"},
+      "publisher": {"@id": "https://www.physioactif.com/#org"}
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.physioactif.com/ressources/protocole-repos-structure-4-phases/#breadcrumb",
+      "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Accueil", "item": "https://www.physioactif.com/"},
+        {"@type": "ListItem", "position": 2, "name": "Ressources", "item": "https://www.physioactif.com/ressources/"},
+        {"@type": "ListItem", "position": 3, "name": "Protocole de repos structuré", "item": "https://www.physioactif.com/ressources/protocole-repos-structure-4-phases"}
+      ]
+    }
+  ]
+}

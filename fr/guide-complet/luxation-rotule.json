@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "MedicalCondition",
+      "@id": "https://www.physioactif.com/guide-complet/luxation-rotule#condition",
+      "name": "Luxation de la rotule",
+      "alternateName": ["Patellar dislocation", "Dislocation de la patella", "Luxation patellaire"],
+      "description": "Déplacement de la rotule hors de son logement normal dans la trochlée fémorale, souvent suite à un traumatisme ou une instabilité chronique.",
+      "sameAs": [
+        "https://en.wikipedia.org/wiki/Patellar_dislocation",
+        "https://www.wikidata.org/wiki/Q7144659",
+        "https://meshb.nlm.nih.gov/record/ui?ui=D031222"
+      ],
+      "code": [{"@type": "MedicalCode", "code": "S83.0", "codingSystem": "ICD-10"}],
+      "associatedAnatomy": {"@type": "AnatomicalStructure", "name": "Rotule (patella)"},
+      "possibleTreatment": [{"@type": "MedicalTherapy", "name": "Physiothérapie"}]
+    },
+    {
+      "@type": "MedicalWebPage",
+      "@id": "https://www.physioactif.com/guide-complet/luxation-rotule#article",
+      "author": {"@type": "Person", "@id": "https://www.physioactif.com/equipe/philippe-paradis/#person"},
+      "reviewedBy": {"@type": "Person", "@id": "https://www.physioactif.com/equipe/chloe-roy/#person"},
+      "datePublished": "2025-12-30",
+      "name": "Luxation de la rotule - Guide Complet",
+      "headline": "Luxation de la rotule: Symptômes, Causes et Traitement en Physiothérapie",
+      "about": [{"@id": "https://www.physioactif.com/guide-complet/luxation-rotule#condition"}],
+      "mainEntity": {"@id": "https://www.physioactif.com/guide-complet/luxation-rotule#condition"},
+      "speakable": {"@type": "SpeakableSpecification", "cssSelector": [".header_heading", ".section_article .text-rich-text h2"]},
+      "specialty": ["Physiotherapy", "Musculoskeletal", "SportsMedicine"],
+      "medicalAudience": [{"@type": "Patient"}],
+      "provider": {"@id": "https://www.physioactif.com/#org"},
+      "inLanguage": ["fr-CA"],
+      "isPartOf": {"@id": "https://www.physioactif.com/#website"}
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://www.physioactif.com/guide-complet/luxation-rotule#webpage",
+      "datePublished": "2025-12-30",
+      "url": "https://www.physioactif.com/guide-complet/luxation-rotule",
+      "name": "Luxation de la rotule - Guide Complet | Physioactif",
+      "description": "Guide complet sur la luxation de la rotule: causes, symptômes et traitements en physiothérapie.",
+      "mainEntity": {"@id": "https://www.physioactif.com/guide-complet/luxation-rotule#condition"},
+      "breadcrumb": {"@type": "BreadcrumbList", "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Accueil", "item": "https://www.physioactif.com/"},
+        {"@type": "ListItem", "position": 2, "name": "Guide Complet", "item": "https://www.physioactif.com/guide-complet"},
+        {"@type": "ListItem", "position": 3, "name": "Luxation de la rotule", "item": "https://www.physioactif.com/guide-complet/luxation-rotule"}
+      ]},
+      "isPartOf": {"@id": "https://www.physioactif.com/#website"},
+      "inLanguage": ["fr-CA"],
+      "publisher": {"@id": "https://www.physioactif.com/#org"}
+    }
+  ]
+}

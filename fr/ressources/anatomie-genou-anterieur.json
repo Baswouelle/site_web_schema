@@ -1,0 +1,52 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "@id": "https://www.physioactif.com/ressources/anatomie-genou-anterieur/#article",
+      "author": {"@type": "Person", "@id": "https://www.physioactif.com/equipe/claudine-farah/#person"},
+      "headline": "Anatomie du genou antérieur: comprendre votre rotule | Physioactif",
+      "description": "Découvrez l'anatomie de la partie antérieure du genou: rotule, tendon rotulien, quadriceps et articulation fémoro-patellaire.",
+      "url": "https://www.physioactif.com/ressources/anatomie-genou-anterieur",
+      "inLanguage": ["fr-CA"],
+      "datePublished": "2026-01-02",
+      "image": {"@type": "ImageObject", "url": "https://cdn.prod.website-files.com/670e84ccd653d18590687563/physioactif-hero-default.jpg", "width": 1200, "height": 630},
+      "publisher": {"@id": "https://www.physioactif.com/#org"},
+      "mainEntityOfPage": {"@type": "WebPage", "@id": "https://www.physioactif.com/ressources/anatomie-genou-anterieur/"},
+      "about": [
+        {"@type": "AnatomicalStructure", "name": "Genou", "sameAs": ["https://www.wikidata.org/wiki/Q9633", "https://en.wikipedia.org/wiki/Knee"]},
+        {"@type": "AnatomicalStructure", "name": "Rotule", "alternateName": ["Patella"], "sameAs": ["https://www.wikidata.org/wiki/Q171178", "https://en.wikipedia.org/wiki/Patella"]}
+      ],
+      "articleSection": "Ressources",
+      "keywords": ["anatomie", "genou", "rotule", "patella", "quadriceps", "tendon rotulien", "fémoro-patellaire"],
+      "mentions": [
+        {"@type": "DefinedTerm", "name": "Quadriceps", "description": "Groupe de quatre muscles de la cuisse antérieure", "sameAs": ["https://www.wikidata.org/wiki/Q181969"]},
+        {"@type": "DefinedTerm", "name": "Tendon rotulien", "description": "Tendon reliant la rotule au tibia", "sameAs": ["https://www.wikidata.org/wiki/Q636628"]},
+        {"@id": "https://www.physioactif.com/guide-complet/douleur-anterieure-genou#condition"},
+        {"@id": "https://www.physioactif.com/guide-complet/syndrome-femoro-patellaire#condition"}
+      ]
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://www.physioactif.com/ressources/anatomie-genou-anterieur/#webpage",
+      "datePublished": "2026-01-02",
+      "url": "https://www.physioactif.com/ressources/anatomie-genou-anterieur",
+      "name": "Anatomie du genou antérieur | Physioactif",
+      "description": "Découvrez l'anatomie de la partie antérieure du genou: rotule, tendon rotulien, quadriceps.",
+      "inLanguage": ["fr-CA"],
+      "isPartOf": {"@id": "https://www.physioactif.com/#website"},
+      "mainEntity": {"@id": "https://www.physioactif.com/ressources/anatomie-genou-anterieur/#article"},
+      "breadcrumb": {"@id": "https://www.physioactif.com/ressources/anatomie-genou-anterieur/#breadcrumb"},
+      "publisher": {"@id": "https://www.physioactif.com/#org"}
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.physioactif.com/ressources/anatomie-genou-anterieur/#breadcrumb",
+      "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Accueil", "item": "https://www.physioactif.com/"},
+        {"@type": "ListItem", "position": 2, "name": "Ressources", "item": "https://www.physioactif.com/ressources/"},
+        {"@type": "ListItem", "position": 3, "name": "Anatomie du genou antérieur", "item": "https://www.physioactif.com/ressources/anatomie-genou-anterieur"}
+      ]
+    }
+  ]
+}

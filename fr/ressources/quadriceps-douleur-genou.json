@@ -1,0 +1,52 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "@id": "https://www.physioactif.com/ressources/quadriceps-douleur-genou/#article",
+      "author": {"@type": "Person", "@id": "https://www.physioactif.com/equipe/ariel-desjardins-charbonneau/#person"},
+      "headline": "Quadriceps et douleur au genou: le lien expliqué | Physioactif",
+      "description": "Découvrez comment le quadriceps influence la douleur au genou et pourquoi son renforcement est essentiel en physiothérapie.",
+      "url": "https://www.physioactif.com/ressources/quadriceps-douleur-genou",
+      "inLanguage": ["fr-CA"],
+      "datePublished": "2026-01-06",
+      "image": {"@type": "ImageObject", "url": "https://cdn.prod.website-files.com/670e84ccd653d18590687563/physioactif-hero-default.jpg", "width": 1200, "height": 630},
+      "publisher": {"@id": "https://www.physioactif.com/#org"},
+      "mainEntityOfPage": {"@type": "WebPage", "@id": "https://www.physioactif.com/ressources/quadriceps-douleur-genou/"},
+      "about": [
+        {"@type": "AnatomicalStructure", "name": "Quadriceps", "sameAs": ["https://www.wikidata.org/wiki/Q181969", "https://en.wikipedia.org/wiki/Quadriceps"]},
+        {"@type": "MedicalTherapy", "name": "Physiothérapie", "sameAs": ["https://www.wikidata.org/wiki/Q186005"]}
+      ],
+      "articleSection": "Ressources",
+      "keywords": ["quadriceps", "douleur genou", "renforcement", "VMO", "vaste médial", "physiothérapie"],
+      "mentions": [
+        {"@type": "DefinedTerm", "name": "Vaste médial oblique (VMO)", "description": "Portion du quadriceps importante pour la stabilité rotulienne"},
+        {"@type": "DefinedTerm", "name": "Inhibition musculaire artrogène", "description": "Réflexe d'inhibition du quadriceps suite à une douleur au genou"},
+        {"@id": "https://www.physioactif.com/guide-complet/douleur-anterieure-genou#condition"},
+        {"@id": "https://www.physioactif.com/guide-complet/syndrome-femoro-patellaire#condition"}
+      ]
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://www.physioactif.com/ressources/quadriceps-douleur-genou/#webpage",
+      "datePublished": "2026-01-06",
+      "url": "https://www.physioactif.com/ressources/quadriceps-douleur-genou",
+      "name": "Quadriceps et douleur au genou | Physioactif",
+      "description": "Découvrez le lien entre le quadriceps et la douleur au genou.",
+      "inLanguage": ["fr-CA"],
+      "isPartOf": {"@id": "https://www.physioactif.com/#website"},
+      "mainEntity": {"@id": "https://www.physioactif.com/ressources/quadriceps-douleur-genou/#article"},
+      "breadcrumb": {"@id": "https://www.physioactif.com/ressources/quadriceps-douleur-genou/#breadcrumb"},
+      "publisher": {"@id": "https://www.physioactif.com/#org"}
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.physioactif.com/ressources/quadriceps-douleur-genou/#breadcrumb",
+      "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Accueil", "item": "https://www.physioactif.com/"},
+        {"@type": "ListItem", "position": 2, "name": "Ressources", "item": "https://www.physioactif.com/ressources/"},
+        {"@type": "ListItem", "position": 3, "name": "Quadriceps et douleur au genou", "item": "https://www.physioactif.com/ressources/quadriceps-douleur-genou"}
+      ]
+    }
+  ]
+}
