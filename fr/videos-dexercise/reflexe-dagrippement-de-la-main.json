@@ -7,8 +7,8 @@
       "name": "Reflexe Dagrippement de la Main - Vidéo Physiothérapie",
       "description": "Vidéo démonstration professionnelle de l'exercice reflexe dagrippement de la main par les physiothérapeutes de Physioactif.",
       "thumbnailUrl": "https://i.ytimg.com/vi/CG1AcBsfW_E/maxresdefault.jpg",
-      "uploadDate": "2024-01-15T00:00:00-05:00",
-      "duration": "PT1M",
+      "uploadDate": "2012-11-30T14:53:56Z",
+      "duration": "PT1M7S",
       "publisher": {
         "@id": "https://www.physioactif.com/#org"
       },
@@ -36,7 +36,15 @@
         }
       ],
       "embedUrl": "https://www.youtube.com/embed/CG1AcBsfW_E",
-      "contentUrl": "https://www.youtube.com/watch?v=CG1AcBsfW_E"
+      "contentUrl": "https://www.youtube.com/watch?v=CG1AcBsfW_E",
+      "regionsAllowed": "CA",
+      "interactionStatistic": {
+        "@type": "InteractionCounter",
+        "interactionType": {
+          "@type": "WatchAction"
+        },
+        "userInteractionCount": 3447
+      }
     },
     {
       "@type": "ExercisePlan",

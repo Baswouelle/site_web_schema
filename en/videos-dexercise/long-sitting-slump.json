@@ -7,8 +7,8 @@
       "name": "Long Sitting Slump - Vidéo Physiothérapie",
       "description": "Vidéo démonstration professionnelle de l'exercice long sitting slump par les physiothérapeutes de Physioactif.",
       "thumbnailUrl": "https://i.ytimg.com/vi/GdQKKmTgUTs/maxresdefault.jpg",
-      "uploadDate": "2024-01-15T00:00:00-05:00",
-      "duration": "PT1M",
+      "uploadDate": "2020-04-28T19:10:48Z",
+      "duration": "PT35S",
       "publisher": {
         "@id": "https://www.physioactif.com/en/#org"
       },
@@ -36,7 +36,15 @@
         }
       ],
       "embedUrl": "https://www.youtube.com/embed/GdQKKmTgUTs",
-      "contentUrl": "https://www.youtube.com/watch?v=GdQKKmTgUTs"
+      "contentUrl": "https://www.youtube.com/watch?v=GdQKKmTgUTs",
+      "regionsAllowed": "CA",
+      "interactionStatistic": {
+        "@type": "InteractionCounter",
+        "interactionType": {
+          "@type": "WatchAction"
+        },
+        "userInteractionCount": 2566
+      }
     },
     {
       "@type": "ExercisePlan",

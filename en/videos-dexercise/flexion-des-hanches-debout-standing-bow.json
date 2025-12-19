@@ -6,9 +6,9 @@
       "@id": "https://www.physioactif.com/en/videos-dexercise/flexion-des-hanches-debout-standing-bow#video",
       "name": "Flexion Des Hanches Debout Standing Bow - Vidéo Physiothérapie",
       "description": "Vidéo démonstration professionnelle de l'exercice flexion des hanches debout standing bow par les physiothérapeutes de Physioactif.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/BOV0aRJw6CM/maxresdefault.jpg",
-      "uploadDate": "2024-01-15T00:00:00-05:00",
-      "duration": "PT1M",
+      "thumbnailUrl": "https://i.ytimg.com/vi/BOV0aRJw6CM/hqdefault.jpg",
+      "uploadDate": "2020-04-28T19:17:47Z",
+      "duration": "PT1M44S",
       "publisher": {
         "@id": "https://www.physioactif.com/en/#org"
       },
@@ -36,7 +36,15 @@
         }
       ],
       "embedUrl": "https://www.youtube.com/embed/BOV0aRJw6CM",
-      "contentUrl": "https://www.youtube.com/watch?v=BOV0aRJw6CM"
+      "contentUrl": "https://www.youtube.com/watch?v=BOV0aRJw6CM",
+      "regionsAllowed": "CA",
+      "interactionStatistic": {
+        "@type": "InteractionCounter",
+        "interactionType": {
+          "@type": "WatchAction"
+        },
+        "userInteractionCount": 4287
+      }
     },
     {
       "@type": "ExercisePlan",

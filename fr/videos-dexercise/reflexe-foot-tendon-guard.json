@@ -7,8 +7,8 @@
       "name": "Reflexe Foot Tendon Guard - Vidéo Physiothérapie",
       "description": "Vidéo démonstration professionnelle de l'exercice reflexe foot tendon guard par les physiothérapeutes de Physioactif.",
       "thumbnailUrl": "https://i.ytimg.com/vi/IqMoz6U4SoY/maxresdefault.jpg",
-      "uploadDate": "2024-01-15T00:00:00-05:00",
-      "duration": "PT1M",
+      "uploadDate": "2012-11-16T16:36:14Z",
+      "duration": "PT48S",
       "publisher": {
         "@id": "https://www.physioactif.com/#org"
       },
@@ -36,7 +36,15 @@
         }
       ],
       "embedUrl": "https://www.youtube.com/embed/IqMoz6U4SoY",
-      "contentUrl": "https://www.youtube.com/watch?v=IqMoz6U4SoY"
+      "contentUrl": "https://www.youtube.com/watch?v=IqMoz6U4SoY",
+      "regionsAllowed": "CA",
+      "interactionStatistic": {
+        "@type": "InteractionCounter",
+        "interactionType": {
+          "@type": "WatchAction"
+        },
+        "userInteractionCount": 14271
+      }
     },
     {
       "@type": "ExercisePlan",

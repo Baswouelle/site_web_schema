@@ -7,8 +7,8 @@
       "name": "Mobilisation du Nerf Sciatique a Une Jambe Debout - Vidéo Physiothérapie",
       "description": "Vidéo démonstration professionnelle de l'exercice mobilisation du nerf sciatique a une jambe debout par les physiothérapeutes de Physioactif.",
       "thumbnailUrl": "https://i.ytimg.com/vi/hFB2uLW43Do/maxresdefault.jpg",
-      "uploadDate": "2024-01-15T00:00:00-05:00",
-      "duration": "PT1M",
+      "uploadDate": "2024-07-16T15:41:25Z",
+      "duration": "PT24S",
       "publisher": {
         "@id": "https://www.physioactif.com/#org"
       },
@@ -36,7 +36,15 @@
         }
       ],
       "embedUrl": "https://www.youtube.com/embed/hFB2uLW43Do",
-      "contentUrl": "https://www.youtube.com/watch?v=hFB2uLW43Do"
+      "contentUrl": "https://www.youtube.com/watch?v=hFB2uLW43Do",
+      "regionsAllowed": "CA",
+      "interactionStatistic": {
+        "@type": "InteractionCounter",
+        "interactionType": {
+          "@type": "WatchAction"
+        },
+        "userInteractionCount": 1279
+      }
     },
     {
       "@type": "ExercisePlan",

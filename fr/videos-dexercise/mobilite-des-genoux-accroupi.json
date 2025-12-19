@@ -7,8 +7,8 @@
       "name": "Mobilité Des Genoux Accroupi - Vidéo Physiothérapie",
       "description": "Vidéo démonstration professionnelle de l'exercice mobilité des genoux accroupi par les physiothérapeutes de Physioactif.",
       "thumbnailUrl": "https://i.ytimg.com/vi/-dIqv_CaEP0/maxresdefault.jpg",
-      "uploadDate": "2024-01-15T00:00:00-05:00",
-      "duration": "PT1M",
+      "uploadDate": "2025-06-03T13:58:34Z",
+      "duration": "PT29S",
       "publisher": {
         "@id": "https://www.physioactif.com/#org"
       },
@@ -34,7 +34,15 @@
         }
       ],
       "embedUrl": "https://www.youtube.com/embed/-dIqv_CaEP0",
-      "contentUrl": "https://www.youtube.com/watch?v=-dIqv_CaEP0"
+      "contentUrl": "https://www.youtube.com/watch?v=-dIqv_CaEP0",
+      "regionsAllowed": "CA",
+      "interactionStatistic": {
+        "@type": "InteractionCounter",
+        "interactionType": {
+          "@type": "WatchAction"
+        },
+        "userInteractionCount": 54
+      }
     },
     {
       "@type": "ExercisePlan",

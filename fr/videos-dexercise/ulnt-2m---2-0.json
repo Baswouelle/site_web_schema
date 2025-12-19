@@ -7,8 +7,8 @@
       "name": "Ulnt 2m 2 0 - Vidéo Physiothérapie",
       "description": "Vidéo démonstration professionnelle de l'exercice ulnt 2m 2 0 par les physiothérapeutes de Physioactif.",
       "thumbnailUrl": "https://i.ytimg.com/vi/4ibIOm3xH4U/maxresdefault.jpg",
-      "uploadDate": "2024-01-15T00:00:00-05:00",
-      "duration": "PT1M",
+      "uploadDate": "2020-04-28T19:06:17Z",
+      "duration": "PT54S",
       "publisher": {
         "@id": "https://www.physioactif.com/#org"
       },
@@ -36,7 +36,15 @@
         }
       ],
       "embedUrl": "https://www.youtube.com/embed/4ibIOm3xH4U",
-      "contentUrl": "https://www.youtube.com/watch?v=4ibIOm3xH4U"
+      "contentUrl": "https://www.youtube.com/watch?v=4ibIOm3xH4U",
+      "regionsAllowed": "CA",
+      "interactionStatistic": {
+        "@type": "InteractionCounter",
+        "interactionType": {
+          "@type": "WatchAction"
+        },
+        "userInteractionCount": 6833
+      }
     },
     {
       "@type": "ExercisePlan",

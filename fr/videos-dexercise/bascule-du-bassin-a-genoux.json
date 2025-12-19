@@ -7,8 +7,8 @@
       "name": "Bascule du Bassin a Genoux - Vidéo Physiothérapie",
       "description": "Vidéo démonstration professionnelle de l'exercice bascule du bassin a genoux par les physiothérapeutes de Physioactif.",
       "thumbnailUrl": "https://i.ytimg.com/vi/EQ4HX98JD3w/maxresdefault.jpg",
-      "uploadDate": "2024-01-15T00:00:00-05:00",
-      "duration": "PT1M",
+      "uploadDate": "2021-04-20T15:53:08Z",
+      "duration": "PT1M5S",
       "publisher": {
         "@id": "https://www.physioactif.com/#org"
       },
@@ -36,7 +36,15 @@
         }
       ],
       "embedUrl": "https://www.youtube.com/embed/EQ4HX98JD3w",
-      "contentUrl": "https://www.youtube.com/watch?v=EQ4HX98JD3w"
+      "contentUrl": "https://www.youtube.com/watch?v=EQ4HX98JD3w",
+      "regionsAllowed": "CA",
+      "interactionStatistic": {
+        "@type": "InteractionCounter",
+        "interactionType": {
+          "@type": "WatchAction"
+        },
+        "userInteractionCount": 6224
+      }
     },
     {
       "@type": "ExercisePlan",

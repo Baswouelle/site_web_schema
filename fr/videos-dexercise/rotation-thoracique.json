@@ -7,8 +7,8 @@
       "name": "Rotation Thoracique - Vidéo Physiothérapie",
       "description": "Vidéo démonstration professionnelle de l'exercice rotation thoracique par les physiothérapeutes de Physioactif.",
       "thumbnailUrl": "https://i.ytimg.com/vi/CfwSVJi-3_I/maxresdefault.jpg",
-      "uploadDate": "2024-01-15T00:00:00-05:00",
-      "duration": "PT1M",
+      "uploadDate": "2015-04-30T20:32:02Z",
+      "duration": "PT30S",
       "publisher": {
         "@id": "https://www.physioactif.com/#org"
       },
@@ -34,7 +34,15 @@
         }
       ],
       "embedUrl": "https://www.youtube.com/embed/CfwSVJi-3_I",
-      "contentUrl": "https://www.youtube.com/watch?v=CfwSVJi-3_I"
+      "contentUrl": "https://www.youtube.com/watch?v=CfwSVJi-3_I",
+      "regionsAllowed": "CA",
+      "interactionStatistic": {
+        "@type": "InteractionCounter",
+        "interactionType": {
+          "@type": "WatchAction"
+        },
+        "userInteractionCount": 3688
+      }
     },
     {
       "@type": "ExercisePlan",

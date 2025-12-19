@@ -7,8 +7,8 @@
       "name": "Mobilisation du Nerf Sciatique la Jambe Tendue Couche - Vidéo Physiothérapie",
       "description": "Vidéo démonstration professionnelle de l'exercice mobilisation du nerf sciatique la jambe tendue couche par les physiothérapeutes de Physioactif.",
       "thumbnailUrl": "https://i.ytimg.com/vi/Rv6qEGXCIPA/maxresdefault.jpg",
-      "uploadDate": "2024-01-15T00:00:00-05:00",
-      "duration": "PT1M",
+      "uploadDate": "2015-05-01T18:49:34Z",
+      "duration": "PT27S",
       "publisher": {
         "@id": "https://www.physioactif.com/en/#org"
       },
@@ -36,7 +36,15 @@
         }
       ],
       "embedUrl": "https://www.youtube.com/embed/Rv6qEGXCIPA",
-      "contentUrl": "https://www.youtube.com/watch?v=Rv6qEGXCIPA"
+      "contentUrl": "https://www.youtube.com/watch?v=Rv6qEGXCIPA",
+      "regionsAllowed": "CA",
+      "interactionStatistic": {
+        "@type": "InteractionCounter",
+        "interactionType": {
+          "@type": "WatchAction"
+        },
+        "userInteractionCount": 11034
+      }
     },
     {
       "@type": "ExercisePlan",

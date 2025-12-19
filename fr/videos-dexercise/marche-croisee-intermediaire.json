@@ -7,8 +7,8 @@
       "name": "Marche Croisee Intermediaire - Vidéo Physiothérapie",
       "description": "Vidéo démonstration professionnelle de l'exercice marche croisee intermediaire par les physiothérapeutes de Physioactif.",
       "thumbnailUrl": "https://i.ytimg.com/vi/z3eDDdKk48c/maxresdefault.jpg",
-      "uploadDate": "2024-01-15T00:00:00-05:00",
-      "duration": "PT1M",
+      "uploadDate": "2012-11-13T13:55:54Z",
+      "duration": "PT3M5S",
       "publisher": {
         "@id": "https://www.physioactif.com/#org"
       },
@@ -36,7 +36,15 @@
         }
       ],
       "embedUrl": "https://www.youtube.com/embed/z3eDDdKk48c",
-      "contentUrl": "https://www.youtube.com/watch?v=z3eDDdKk48c"
+      "contentUrl": "https://www.youtube.com/watch?v=z3eDDdKk48c",
+      "regionsAllowed": "CA",
+      "interactionStatistic": {
+        "@type": "InteractionCounter",
+        "interactionType": {
+          "@type": "WatchAction"
+        },
+        "userInteractionCount": 1965
+      }
     },
     {
       "@type": "ExercisePlan",

@@ -7,8 +7,8 @@
       "name": "Bascule Posterieure du Bassin Debout - Vidéo Physiothérapie",
       "description": "Vidéo démonstration professionnelle de l'exercice bascule posterieure du bassin debout par les physiothérapeutes de Physioactif.",
       "thumbnailUrl": "https://i.ytimg.com/vi/aXXoXkMEI9Y/maxresdefault.jpg",
-      "uploadDate": "2024-01-15T00:00:00-05:00",
-      "duration": "PT1M",
+      "uploadDate": "2024-07-16T15:30:44Z",
+      "duration": "PT44S",
       "publisher": {
         "@id": "https://www.physioactif.com/en/#org"
       },
@@ -36,7 +36,15 @@
         }
       ],
       "embedUrl": "https://www.youtube.com/embed/aXXoXkMEI9Y",
-      "contentUrl": "https://www.youtube.com/watch?v=aXXoXkMEI9Y"
+      "contentUrl": "https://www.youtube.com/watch?v=aXXoXkMEI9Y",
+      "regionsAllowed": "CA",
+      "interactionStatistic": {
+        "@type": "InteractionCounter",
+        "interactionType": {
+          "@type": "WatchAction"
+        },
+        "userInteractionCount": 537
+      }
     },
     {
       "@type": "ExercisePlan",

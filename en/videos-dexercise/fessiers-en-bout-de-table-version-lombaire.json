@@ -7,8 +7,8 @@
       "name": "Fessiers en Bout de Table Version Lombaire - Vidéo Physiothérapie",
       "description": "Vidéo démonstration professionnelle de l'exercice fessiers en bout de table version lombaire par les physiothérapeutes de Physioactif.",
       "thumbnailUrl": "https://i.ytimg.com/vi/2Xyn9iZzLZ8/maxresdefault.jpg",
-      "uploadDate": "2024-01-15T00:00:00-05:00",
-      "duration": "PT1M",
+      "uploadDate": "2020-12-23T21:36:53Z",
+      "duration": "PT1M2S",
       "publisher": {
         "@id": "https://www.physioactif.com/en/#org"
       },
@@ -36,7 +36,15 @@
         }
       ],
       "embedUrl": "https://www.youtube.com/embed/2Xyn9iZzLZ8",
-      "contentUrl": "https://www.youtube.com/watch?v=2Xyn9iZzLZ8"
+      "contentUrl": "https://www.youtube.com/watch?v=2Xyn9iZzLZ8",
+      "regionsAllowed": "CA",
+      "interactionStatistic": {
+        "@type": "InteractionCounter",
+        "interactionType": {
+          "@type": "WatchAction"
+        },
+        "userInteractionCount": 4935
+      }
     },
     {
       "@type": "ExercisePlan",

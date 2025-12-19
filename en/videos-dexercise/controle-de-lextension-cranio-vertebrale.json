@@ -7,8 +7,8 @@
       "name": "Controle de Lextension Cranio Vertebrale - Vidéo Physiothérapie",
       "description": "Vidéo démonstration professionnelle de l'exercice controle de lextension cranio vertebrale par les physiothérapeutes de Physioactif.",
       "thumbnailUrl": "https://i.ytimg.com/vi/TgNt7_HM7t8/maxresdefault.jpg",
-      "uploadDate": "2024-01-15T00:00:00-05:00",
-      "duration": "PT1M",
+      "uploadDate": "2021-05-05T21:59:36Z",
+      "duration": "PT1M16S",
       "publisher": {
         "@id": "https://www.physioactif.com/en/#org"
       },
@@ -36,7 +36,15 @@
         }
       ],
       "embedUrl": "https://www.youtube.com/embed/TgNt7_HM7t8",
-      "contentUrl": "https://www.youtube.com/watch?v=TgNt7_HM7t8"
+      "contentUrl": "https://www.youtube.com/watch?v=TgNt7_HM7t8",
+      "regionsAllowed": "CA",
+      "interactionStatistic": {
+        "@type": "InteractionCounter",
+        "interactionType": {
+          "@type": "WatchAction"
+        },
+        "userInteractionCount": 870
+      }
     },
     {
       "@type": "ExercisePlan",

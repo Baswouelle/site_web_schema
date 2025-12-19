@@ -7,8 +7,8 @@
       "name": "Psoas Couche Sur le Cote - Vidéo Physiothérapie",
       "description": "Vidéo démonstration professionnelle de l'exercice psoas couche sur le cote par les physiothérapeutes de Physioactif.",
       "thumbnailUrl": "https://i.ytimg.com/vi/t-18MwU_FjY/maxresdefault.jpg",
-      "uploadDate": "2024-01-15T00:00:00-05:00",
-      "duration": "PT1M",
+      "uploadDate": "2015-06-01T20:32:11Z",
+      "duration": "PT28S",
       "publisher": {
         "@id": "https://www.physioactif.com/en/#org"
       },
@@ -36,7 +36,15 @@
         }
       ],
       "embedUrl": "https://www.youtube.com/embed/t-18MwU_FjY",
-      "contentUrl": "https://www.youtube.com/watch?v=t-18MwU_FjY"
+      "contentUrl": "https://www.youtube.com/watch?v=t-18MwU_FjY",
+      "regionsAllowed": "CA",
+      "interactionStatistic": {
+        "@type": "InteractionCounter",
+        "interactionType": {
+          "@type": "WatchAction"
+        },
+        "userInteractionCount": 3305
+      }
     },
     {
       "@type": "ExercisePlan",

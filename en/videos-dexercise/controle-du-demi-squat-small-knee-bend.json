@@ -7,8 +7,8 @@
       "name": "Controle du Demi Squat Small Knee Bend - Vidéo Physiothérapie",
       "description": "Vidéo démonstration professionnelle de l'exercice controle du demi squat small knee bend par les physiothérapeutes de Physioactif.",
       "thumbnailUrl": "https://i.ytimg.com/vi/huA4CH5UJRs/maxresdefault.jpg",
-      "uploadDate": "2024-01-15T00:00:00-05:00",
-      "duration": "PT1M",
+      "uploadDate": "2020-04-28T19:09:11Z",
+      "duration": "PT1M17S",
       "publisher": {
         "@id": "https://www.physioactif.com/en/#org"
       },
@@ -36,7 +36,15 @@
         }
       ],
       "embedUrl": "https://www.youtube.com/embed/huA4CH5UJRs",
-      "contentUrl": "https://www.youtube.com/watch?v=huA4CH5UJRs"
+      "contentUrl": "https://www.youtube.com/watch?v=huA4CH5UJRs",
+      "regionsAllowed": "CA",
+      "interactionStatistic": {
+        "@type": "InteractionCounter",
+        "interactionType": {
+          "@type": "WatchAction"
+        },
+        "userInteractionCount": 3498
+      }
     },
     {
       "@type": "ExercisePlan",

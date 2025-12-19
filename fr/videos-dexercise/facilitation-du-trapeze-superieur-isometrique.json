@@ -7,8 +7,8 @@
       "name": "Facilitation du Trapeze Superieur Isometrique - Vidéo Physiothérapie",
       "description": "Vidéo démonstration professionnelle de l'exercice facilitation du trapeze superieur isometrique par les physiothérapeutes de Physioactif.",
       "thumbnailUrl": "https://i.ytimg.com/vi/6xJSKI8N5nk/maxresdefault.jpg",
-      "uploadDate": "2024-01-15T00:00:00-05:00",
-      "duration": "PT1M",
+      "uploadDate": "2024-07-16T15:36:06Z",
+      "duration": "PT29S",
       "publisher": {
         "@id": "https://www.physioactif.com/#org"
       },
@@ -36,7 +36,15 @@
         }
       ],
       "embedUrl": "https://www.youtube.com/embed/6xJSKI8N5nk",
-      "contentUrl": "https://www.youtube.com/watch?v=6xJSKI8N5nk"
+      "contentUrl": "https://www.youtube.com/watch?v=6xJSKI8N5nk",
+      "regionsAllowed": "CA",
+      "interactionStatistic": {
+        "@type": "InteractionCounter",
+        "interactionType": {
+          "@type": "WatchAction"
+        },
+        "userInteractionCount": 491
+      }
     },
     {
       "@type": "ExercisePlan",

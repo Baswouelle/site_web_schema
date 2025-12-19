@@ -7,8 +7,8 @@
       "name": "Reflexe Amphibien - Vidéo Physiothérapie",
       "description": "Vidéo démonstration professionnelle de l'exercice reflexe amphibien par les physiothérapeutes de Physioactif.",
       "thumbnailUrl": "https://i.ytimg.com/vi/Lpy_PxqGiiU/maxresdefault.jpg",
-      "uploadDate": "2024-01-15T00:00:00-05:00",
-      "duration": "PT1M",
+      "uploadDate": "2012-12-14T00:52:43Z",
+      "duration": "PT25S",
       "publisher": {
         "@id": "https://www.physioactif.com/en/#org"
       },
@@ -36,7 +36,15 @@
         }
       ],
       "embedUrl": "https://www.youtube.com/embed/Lpy_PxqGiiU",
-      "contentUrl": "https://www.youtube.com/watch?v=Lpy_PxqGiiU"
+      "contentUrl": "https://www.youtube.com/watch?v=Lpy_PxqGiiU",
+      "regionsAllowed": "CA",
+      "interactionStatistic": {
+        "@type": "InteractionCounter",
+        "interactionType": {
+          "@type": "WatchAction"
+        },
+        "userInteractionCount": 4547
+      }
     },
     {
       "@type": "ExercisePlan",

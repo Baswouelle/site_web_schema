@@ -7,8 +7,8 @@
       "name": "Trapeze Superieur - Vidéo Physiothérapie",
       "description": "Vidéo démonstration professionnelle de l'exercice trapeze superieur par les physiothérapeutes de Physioactif.",
       "thumbnailUrl": "https://i.ytimg.com/vi/UBEE9-vF8q0/maxresdefault.jpg",
-      "uploadDate": "2024-01-15T00:00:00-05:00",
-      "duration": "PT1M",
+      "uploadDate": "2021-06-22T18:13:56Z",
+      "duration": "PT1M22S",
       "publisher": {
         "@id": "https://www.physioactif.com/#org"
       },
@@ -36,7 +36,15 @@
         }
       ],
       "embedUrl": "https://www.youtube.com/embed/UBEE9-vF8q0",
-      "contentUrl": "https://www.youtube.com/watch?v=UBEE9-vF8q0"
+      "contentUrl": "https://www.youtube.com/watch?v=UBEE9-vF8q0",
+      "regionsAllowed": "CA",
+      "interactionStatistic": {
+        "@type": "InteractionCounter",
+        "interactionType": {
+          "@type": "WatchAction"
+        },
+        "userInteractionCount": 8065
+      }
     },
     {
       "@type": "ExercisePlan",

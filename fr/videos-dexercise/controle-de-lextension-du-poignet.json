@@ -7,8 +7,8 @@
       "name": "Controle de Lextension du Poignet - Vidéo Physiothérapie",
       "description": "Vidéo démonstration professionnelle de l'exercice controle de lextension du poignet par les physiothérapeutes de Physioactif.",
       "thumbnailUrl": "https://i.ytimg.com/vi/o_PnX4SHlyo/maxresdefault.jpg",
-      "uploadDate": "2024-01-15T00:00:00-05:00",
-      "duration": "PT1M",
+      "uploadDate": "2015-04-24T15:03:12Z",
+      "duration": "PT30S",
       "publisher": {
         "@id": "https://www.physioactif.com/#org"
       },
@@ -36,7 +36,15 @@
         }
       ],
       "embedUrl": "https://www.youtube.com/embed/o_PnX4SHlyo",
-      "contentUrl": "https://www.youtube.com/watch?v=o_PnX4SHlyo"
+      "contentUrl": "https://www.youtube.com/watch?v=o_PnX4SHlyo",
+      "regionsAllowed": "CA",
+      "interactionStatistic": {
+        "@type": "InteractionCounter",
+        "interactionType": {
+          "@type": "WatchAction"
+        },
+        "userInteractionCount": 4096
+      }
     },
     {
       "@type": "ExercisePlan",

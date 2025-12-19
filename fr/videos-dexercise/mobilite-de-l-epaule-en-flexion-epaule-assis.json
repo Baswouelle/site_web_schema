@@ -7,8 +7,8 @@
       "name": "Mobilité De L'épaule En Flexion Épaule Assis - Vidéo Physiothérapie",
       "description": "Vidéo démonstration professionnelle de l'exercice mobilité de l'épaule en flexion épaule assis par les physiothérapeutes de Physioactif.",
       "thumbnailUrl": "https://i.ytimg.com/vi/C-fWY9chaT8/maxresdefault.jpg",
-      "uploadDate": "2024-01-15T00:00:00-05:00",
-      "duration": "PT1M",
+      "uploadDate": "2025-06-03T15:22:16Z",
+      "duration": "PT17S",
       "publisher": {
         "@id": "https://www.physioactif.com/#org"
       },
@@ -34,7 +34,15 @@
         }
       ],
       "embedUrl": "https://www.youtube.com/embed/C-fWY9chaT8",
-      "contentUrl": "https://www.youtube.com/watch?v=C-fWY9chaT8"
+      "contentUrl": "https://www.youtube.com/watch?v=C-fWY9chaT8",
+      "regionsAllowed": "CA",
+      "interactionStatistic": {
+        "@type": "InteractionCounter",
+        "interactionType": {
+          "@type": "WatchAction"
+        },
+        "userInteractionCount": 74
+      }
     },
     {
       "@type": "ExercisePlan",

@@ -7,8 +7,8 @@
       "name": "Reflexe Spinal Galant 2 - Vidéo Physiothérapie",
       "description": "Vidéo démonstration professionnelle de l'exercice reflexe spinal galant 2 par les physiothérapeutes de Physioactif.",
       "thumbnailUrl": "https://i.ytimg.com/vi/HSqdU3kx7JU/maxresdefault.jpg",
-      "uploadDate": "2024-01-15T00:00:00-05:00",
-      "duration": "PT1M",
+      "uploadDate": "2012-12-04T12:58:50Z",
+      "duration": "PT32S",
       "publisher": {
         "@id": "https://www.physioactif.com/#org"
       },
@@ -36,7 +36,15 @@
         }
       ],
       "embedUrl": "https://www.youtube.com/embed/HSqdU3kx7JU",
-      "contentUrl": "https://www.youtube.com/watch?v=HSqdU3kx7JU"
+      "contentUrl": "https://www.youtube.com/watch?v=HSqdU3kx7JU",
+      "regionsAllowed": "CA",
+      "interactionStatistic": {
+        "@type": "InteractionCounter",
+        "interactionType": {
+          "@type": "WatchAction"
+        },
+        "userInteractionCount": 7223
+      }
     },
     {
       "@type": "ExercisePlan",

@@ -7,8 +7,8 @@
       "name": "Facilitation du Moyen Fessier - Vidéo Physiothérapie",
       "description": "Vidéo démonstration professionnelle de l'exercice facilitation du moyen fessier par les physiothérapeutes de Physioactif.",
       "thumbnailUrl": "https://i.ytimg.com/vi/m22-l_y5JDE/maxresdefault.jpg",
-      "uploadDate": "2024-01-15T00:00:00-05:00",
-      "duration": "PT1M",
+      "uploadDate": "2024-08-06T15:39:24Z",
+      "duration": "PT28S",
       "publisher": {
         "@id": "https://www.physioactif.com/en/#org"
       },
@@ -36,7 +36,15 @@
         }
       ],
       "embedUrl": "https://www.youtube.com/embed/m22-l_y5JDE",
-      "contentUrl": "https://www.youtube.com/watch?v=m22-l_y5JDE"
+      "contentUrl": "https://www.youtube.com/watch?v=m22-l_y5JDE",
+      "regionsAllowed": "CA",
+      "interactionStatistic": {
+        "@type": "InteractionCounter",
+        "interactionType": {
+          "@type": "WatchAction"
+        },
+        "userInteractionCount": 468
+      }
     },
     {
       "@type": "ExercisePlan",

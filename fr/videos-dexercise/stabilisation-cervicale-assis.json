@@ -7,8 +7,8 @@
       "name": "Stabilisation Cervicale Assis - Vidéo Physiothérapie",
       "description": "Vidéo démonstration professionnelle de l'exercice stabilisation cervicale assis par les physiothérapeutes de Physioactif.",
       "thumbnailUrl": "https://i.ytimg.com/vi/vjqggwD3ZYg/maxresdefault.jpg",
-      "uploadDate": "2024-01-15T00:00:00-05:00",
-      "duration": "PT1M",
+      "uploadDate": "2021-06-15T21:38:01Z",
+      "duration": "PT1M2S",
       "publisher": {
         "@id": "https://www.physioactif.com/#org"
       },
@@ -36,7 +36,15 @@
         }
       ],
       "embedUrl": "https://www.youtube.com/embed/vjqggwD3ZYg",
-      "contentUrl": "https://www.youtube.com/watch?v=vjqggwD3ZYg"
+      "contentUrl": "https://www.youtube.com/watch?v=vjqggwD3ZYg",
+      "regionsAllowed": "CA",
+      "interactionStatistic": {
+        "@type": "InteractionCounter",
+        "interactionType": {
+          "@type": "WatchAction"
+        },
+        "userInteractionCount": 2606
+      }
     },
     {
       "@type": "ExercisePlan",

@@ -7,8 +7,8 @@
       "name": "Flexion Des Hanches Debout Pour Les Nerfs - Vidéo Physiothérapie",
       "description": "Vidéo démonstration professionnelle de l'exercice flexion des hanches debout pour les nerfs par les physiothérapeutes de Physioactif.",
       "thumbnailUrl": "https://i.ytimg.com/vi/DJFxl7oaL-A/maxresdefault.jpg",
-      "uploadDate": "2024-01-15T00:00:00-05:00",
-      "duration": "PT1M",
+      "uploadDate": "2021-06-22T18:35:05Z",
+      "duration": "PT54S",
       "publisher": {
         "@id": "https://www.physioactif.com/en/#org"
       },
@@ -36,7 +36,15 @@
         }
       ],
       "embedUrl": "https://www.youtube.com/embed/DJFxl7oaL-A",
-      "contentUrl": "https://www.youtube.com/watch?v=DJFxl7oaL-A"
+      "contentUrl": "https://www.youtube.com/watch?v=DJFxl7oaL-A",
+      "regionsAllowed": "CA",
+      "interactionStatistic": {
+        "@type": "InteractionCounter",
+        "interactionType": {
+          "@type": "WatchAction"
+        },
+        "userInteractionCount": 5052
+      }
     },
     {
       "@type": "ExercisePlan",

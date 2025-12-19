@@ -7,8 +7,8 @@
       "name": "Mobilité De L'épaule Main Sur La Hanche - Vidéo Physiothérapie",
       "description": "Vidéo démonstration professionnelle de l'exercice mobilité de l'épaule main sur la hanche par les physiothérapeutes de Physioactif.",
       "thumbnailUrl": "https://i.ytimg.com/vi/r9owXbccPgg/maxresdefault.jpg",
-      "uploadDate": "2024-01-15T00:00:00-05:00",
-      "duration": "PT1M",
+      "uploadDate": "2025-06-03T13:56:37Z",
+      "duration": "PT33S",
       "publisher": {
         "@id": "https://www.physioactif.com/#org"
       },
@@ -34,7 +34,15 @@
         }
       ],
       "embedUrl": "https://www.youtube.com/embed/r9owXbccPgg",
-      "contentUrl": "https://www.youtube.com/watch?v=r9owXbccPgg"
+      "contentUrl": "https://www.youtube.com/watch?v=r9owXbccPgg",
+      "regionsAllowed": "CA",
+      "interactionStatistic": {
+        "@type": "InteractionCounter",
+        "interactionType": {
+          "@type": "WatchAction"
+        },
+        "userInteractionCount": 30
+      }
     },
     {
       "@type": "ExercisePlan",

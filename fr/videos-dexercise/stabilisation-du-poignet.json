@@ -7,8 +7,8 @@
       "name": "Stabilisation du Poignet - Vidéo Physiothérapie",
       "description": "Vidéo démonstration professionnelle de l'exercice stabilisation du poignet par les physiothérapeutes de Physioactif.",
       "thumbnailUrl": "https://i.ytimg.com/vi/STgpVWnxJiU/maxresdefault.jpg",
-      "uploadDate": "2024-01-15T00:00:00-05:00",
-      "duration": "PT1M",
+      "uploadDate": "2024-08-06T15:48:06Z",
+      "duration": "PT33S",
       "publisher": {
         "@id": "https://www.physioactif.com/#org"
       },
@@ -36,7 +36,15 @@
         }
       ],
       "embedUrl": "https://www.youtube.com/embed/STgpVWnxJiU",
-      "contentUrl": "https://www.youtube.com/watch?v=STgpVWnxJiU"
+      "contentUrl": "https://www.youtube.com/watch?v=STgpVWnxJiU",
+      "regionsAllowed": "CA",
+      "interactionStatistic": {
+        "@type": "InteractionCounter",
+        "interactionType": {
+          "@type": "WatchAction"
+        },
+        "userInteractionCount": 381
+      }
     },
     {
       "@type": "ExercisePlan",

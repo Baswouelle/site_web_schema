@@ -7,8 +7,8 @@
       "name": "Mobilisation du Nerf Femoral en Pkb Slump - Vidéo Physiothérapie",
       "description": "Vidéo démonstration professionnelle de l'exercice mobilisation du nerf femoral en pkb slump par les physiothérapeutes de Physioactif.",
       "thumbnailUrl": "https://i.ytimg.com/vi/xh5SWZqKwEw/maxresdefault.jpg",
-      "uploadDate": "2024-01-15T00:00:00-05:00",
-      "duration": "PT1M",
+      "uploadDate": "2024-07-16T15:42:29Z",
+      "duration": "PT23S",
       "publisher": {
         "@id": "https://www.physioactif.com/#org"
       },
@@ -36,7 +36,15 @@
         }
       ],
       "embedUrl": "https://www.youtube.com/embed/xh5SWZqKwEw",
-      "contentUrl": "https://www.youtube.com/watch?v=xh5SWZqKwEw"
+      "contentUrl": "https://www.youtube.com/watch?v=xh5SWZqKwEw",
+      "regionsAllowed": "CA",
+      "interactionStatistic": {
+        "@type": "InteractionCounter",
+        "interactionType": {
+          "@type": "WatchAction"
+        },
+        "userInteractionCount": 746
+      }
     },
     {
       "@type": "ExercisePlan",

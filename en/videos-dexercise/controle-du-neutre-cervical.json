@@ -7,8 +7,8 @@
       "name": "Controle du Neutre Cervical - Vidéo Physiothérapie",
       "description": "Vidéo démonstration professionnelle de l'exercice controle du neutre cervical par les physiothérapeutes de Physioactif.",
       "thumbnailUrl": "https://i.ytimg.com/vi/xizy1hdlqUQ/maxresdefault.jpg",
-      "uploadDate": "2024-01-15T00:00:00-05:00",
-      "duration": "PT1M",
+      "uploadDate": "2015-04-30T22:43:51Z",
+      "duration": "PT19S",
       "publisher": {
         "@id": "https://www.physioactif.com/en/#org"
       },
@@ -36,7 +36,15 @@
         }
       ],
       "embedUrl": "https://www.youtube.com/embed/xizy1hdlqUQ",
-      "contentUrl": "https://www.youtube.com/watch?v=xizy1hdlqUQ"
+      "contentUrl": "https://www.youtube.com/watch?v=xizy1hdlqUQ",
+      "regionsAllowed": "CA",
+      "interactionStatistic": {
+        "@type": "InteractionCounter",
+        "interactionType": {
+          "@type": "WatchAction"
+        },
+        "userInteractionCount": 3503
+      }
     },
     {
       "@type": "ExercisePlan",

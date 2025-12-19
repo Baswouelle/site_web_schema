@@ -7,8 +7,8 @@
       "name": "Inhibition du Reflexe Vestibulo Oculaire - Vidéo Physiothérapie",
       "description": "Vidéo démonstration professionnelle de l'exercice inhibition du reflexe vestibulo oculaire par les physiothérapeutes de Physioactif.",
       "thumbnailUrl": "https://i.ytimg.com/vi/taLdq4jISlo/maxresdefault.jpg",
-      "uploadDate": "2024-01-15T00:00:00-05:00",
-      "duration": "PT1M",
+      "uploadDate": "2020-12-02T21:01:32Z",
+      "duration": "PT28S",
       "publisher": {
         "@id": "https://www.physioactif.com/en/#org"
       },
@@ -36,7 +36,15 @@
         }
       ],
       "embedUrl": "https://www.youtube.com/embed/taLdq4jISlo",
-      "contentUrl": "https://www.youtube.com/watch?v=taLdq4jISlo"
+      "contentUrl": "https://www.youtube.com/watch?v=taLdq4jISlo",
+      "regionsAllowed": "CA",
+      "interactionStatistic": {
+        "@type": "InteractionCounter",
+        "interactionType": {
+          "@type": "WatchAction"
+        },
+        "userInteractionCount": 5452
+      }
     },
     {
       "@type": "ExercisePlan",

@@ -7,8 +7,8 @@
       "name": "Demi Pas Pour la Facilitation du Multifides - Vidéo Physiothérapie",
       "description": "Vidéo démonstration professionnelle de l'exercice demi pas pour la facilitation du multifides par les physiothérapeutes de Physioactif.",
       "thumbnailUrl": "https://i.ytimg.com/vi/Cx9Tf0okCkE/maxresdefault.jpg",
-      "uploadDate": "2024-01-15T00:00:00-05:00",
-      "duration": "PT1M",
+      "uploadDate": "2015-04-22T23:17:32Z",
+      "duration": "PT38S",
       "publisher": {
         "@id": "https://www.physioactif.com/#org"
       },
@@ -36,7 +36,15 @@
         }
       ],
       "embedUrl": "https://www.youtube.com/embed/Cx9Tf0okCkE",
-      "contentUrl": "https://www.youtube.com/watch?v=Cx9Tf0okCkE"
+      "contentUrl": "https://www.youtube.com/watch?v=Cx9Tf0okCkE",
+      "regionsAllowed": "CA",
+      "interactionStatistic": {
+        "@type": "InteractionCounter",
+        "interactionType": {
+          "@type": "WatchAction"
+        },
+        "userInteractionCount": 1217
+      }
     },
     {
       "@type": "ExercisePlan",

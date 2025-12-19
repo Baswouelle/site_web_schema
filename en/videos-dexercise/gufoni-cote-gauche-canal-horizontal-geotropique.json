@@ -7,8 +7,8 @@
       "name": "Gufoni Cote Gauche Canal Horizontal Geotropique - Vidéo Physiothérapie",
       "description": "Vidéo démonstration professionnelle de l'exercice gufoni cote gauche canal horizontal geotropique par les physiothérapeutes de Physioactif.",
       "thumbnailUrl": "https://i.ytimg.com/vi/Z_ZbcPft6q0/maxresdefault.jpg",
-      "uploadDate": "2024-01-15T00:00:00-05:00",
-      "duration": "PT1M",
+      "uploadDate": "2024-08-06T15:59:27Z",
+      "duration": "PT28S",
       "publisher": {
         "@id": "https://www.physioactif.com/en/#org"
       },
@@ -36,7 +36,15 @@
         }
       ],
       "embedUrl": "https://www.youtube.com/embed/Z_ZbcPft6q0",
-      "contentUrl": "https://www.youtube.com/watch?v=Z_ZbcPft6q0"
+      "contentUrl": "https://www.youtube.com/watch?v=Z_ZbcPft6q0",
+      "regionsAllowed": "CA",
+      "interactionStatistic": {
+        "@type": "InteractionCounter",
+        "interactionType": {
+          "@type": "WatchAction"
+        },
+        "userInteractionCount": 275
+      }
     },
     {
       "@type": "ExercisePlan",

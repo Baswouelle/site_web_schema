@@ -7,8 +7,8 @@
       "name": "Mobilite de Lepaule Assistee - Vidéo Physiothérapie",
       "description": "Vidéo démonstration professionnelle de l'exercice mobilite de lepaule assistee par les physiothérapeutes de Physioactif.",
       "thumbnailUrl": "https://i.ytimg.com/vi/bZ7gnuR3Bl8/maxresdefault.jpg",
-      "uploadDate": "2024-01-15T00:00:00-05:00",
-      "duration": "PT1M",
+      "uploadDate": "2021-04-06T14:48:56Z",
+      "duration": "PT1M46S",
       "publisher": {
         "@id": "https://www.physioactif.com/en/#org"
       },
@@ -36,7 +36,15 @@
         }
       ],
       "embedUrl": "https://www.youtube.com/embed/bZ7gnuR3Bl8",
-      "contentUrl": "https://www.youtube.com/watch?v=bZ7gnuR3Bl8"
+      "contentUrl": "https://www.youtube.com/watch?v=bZ7gnuR3Bl8",
+      "regionsAllowed": "CA",
+      "interactionStatistic": {
+        "@type": "InteractionCounter",
+        "interactionType": {
+          "@type": "WatchAction"
+        },
+        "userInteractionCount": 2155
+      }
     },
     {
       "@type": "ExercisePlan",

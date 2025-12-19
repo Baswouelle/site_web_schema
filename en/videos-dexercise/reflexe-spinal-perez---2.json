@@ -7,8 +7,8 @@
       "name": "Reflexe Spinal Perez 2 - Vidéo Physiothérapie",
       "description": "Vidéo démonstration professionnelle de l'exercice reflexe spinal perez 2 par les physiothérapeutes de Physioactif.",
       "thumbnailUrl": "https://i.ytimg.com/vi/dKHR1ELdOU0/maxresdefault.jpg",
-      "uploadDate": "2024-01-15T00:00:00-05:00",
-      "duration": "PT1M",
+      "uploadDate": "2012-12-04T13:10:54Z",
+      "duration": "PT26S",
       "publisher": {
         "@id": "https://www.physioactif.com/en/#org"
       },
@@ -36,7 +36,15 @@
         }
       ],
       "embedUrl": "https://www.youtube.com/embed/dKHR1ELdOU0",
-      "contentUrl": "https://www.youtube.com/watch?v=dKHR1ELdOU0"
+      "contentUrl": "https://www.youtube.com/watch?v=dKHR1ELdOU0",
+      "regionsAllowed": "CA",
+      "interactionStatistic": {
+        "@type": "InteractionCounter",
+        "interactionType": {
+          "@type": "WatchAction"
+        },
+        "userInteractionCount": 6184
+      }
     },
     {
       "@type": "ExercisePlan",

@@ -7,8 +7,8 @@
       "name": "Fessiers en Isometrique - Vidéo Physiothérapie",
       "description": "Vidéo démonstration professionnelle de l'exercice fessiers en isometrique par les physiothérapeutes de Physioactif.",
       "thumbnailUrl": "https://i.ytimg.com/vi/zUzwptWkseY/maxresdefault.jpg",
-      "uploadDate": "2024-01-15T00:00:00-05:00",
-      "duration": "PT1M",
+      "uploadDate": "2015-04-22T22:33:25Z",
+      "duration": "PT21S",
       "publisher": {
         "@id": "https://www.physioactif.com/en/#org"
       },
@@ -36,7 +36,15 @@
         }
       ],
       "embedUrl": "https://www.youtube.com/embed/zUzwptWkseY",
-      "contentUrl": "https://www.youtube.com/watch?v=zUzwptWkseY"
+      "contentUrl": "https://www.youtube.com/watch?v=zUzwptWkseY",
+      "regionsAllowed": "CA",
+      "interactionStatistic": {
+        "@type": "InteractionCounter",
+        "interactionType": {
+          "@type": "WatchAction"
+        },
+        "userInteractionCount": 11917
+      }
     },
     {
       "@type": "ExercisePlan",

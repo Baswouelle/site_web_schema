@@ -7,8 +7,8 @@
       "name": "Dentele Anterieur a 4 Pattes - Vidéo Physiothérapie",
       "description": "Vidéo démonstration professionnelle de l'exercice dentele anterieur a 4 pattes par les physiothérapeutes de Physioactif.",
       "thumbnailUrl": "https://i.ytimg.com/vi/W2F3DQDHtAg/maxresdefault.jpg",
-      "uploadDate": "2024-01-15T00:00:00-05:00",
-      "duration": "PT1M",
+      "uploadDate": "2021-04-20T16:15:17Z",
+      "duration": "PT40S",
       "publisher": {
         "@id": "https://www.physioactif.com/en/#org"
       },
@@ -36,7 +36,15 @@
         }
       ],
       "embedUrl": "https://www.youtube.com/embed/W2F3DQDHtAg",
-      "contentUrl": "https://www.youtube.com/watch?v=W2F3DQDHtAg"
+      "contentUrl": "https://www.youtube.com/watch?v=W2F3DQDHtAg",
+      "regionsAllowed": "CA",
+      "interactionStatistic": {
+        "@type": "InteractionCounter",
+        "interactionType": {
+          "@type": "WatchAction"
+        },
+        "userInteractionCount": 6471
+      }
     },
     {
       "@type": "ExercisePlan",

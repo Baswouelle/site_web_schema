@@ -7,8 +7,8 @@
       "name": "Marche Croisee Difficile - Vidéo Physiothérapie",
       "description": "Vidéo démonstration professionnelle de l'exercice marche croisee difficile par les physiothérapeutes de Physioactif.",
       "thumbnailUrl": "https://i.ytimg.com/vi/mx-dUXKcTAU/maxresdefault.jpg",
-      "uploadDate": "2024-01-15T00:00:00-05:00",
-      "duration": "PT1M",
+      "uploadDate": "2012-11-13T13:56:27Z",
+      "duration": "PT3M16S",
       "publisher": {
         "@id": "https://www.physioactif.com/en/#org"
       },
@@ -36,7 +36,15 @@
         }
       ],
       "embedUrl": "https://www.youtube.com/embed/mx-dUXKcTAU",
-      "contentUrl": "https://www.youtube.com/watch?v=mx-dUXKcTAU"
+      "contentUrl": "https://www.youtube.com/watch?v=mx-dUXKcTAU",
+      "regionsAllowed": "CA",
+      "interactionStatistic": {
+        "@type": "InteractionCounter",
+        "interactionType": {
+          "@type": "WatchAction"
+        },
+        "userInteractionCount": 2962
+      }
     },
     {
       "@type": "ExercisePlan",

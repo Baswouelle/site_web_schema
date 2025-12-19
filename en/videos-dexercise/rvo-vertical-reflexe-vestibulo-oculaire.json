@@ -7,8 +7,8 @@
       "name": "Rvo Vertical Reflexe Vestibulo Oculaire - Vidéo Physiothérapie",
       "description": "Vidéo démonstration professionnelle de l'exercice rvo vertical reflexe vestibulo oculaire par les physiothérapeutes de Physioactif.",
       "thumbnailUrl": "https://i.ytimg.com/vi/URr_zN6B7i0/maxresdefault.jpg",
-      "uploadDate": "2024-01-15T00:00:00-05:00",
-      "duration": "PT1M",
+      "uploadDate": "2020-12-02T20:39:59Z",
+      "duration": "PT46S",
       "publisher": {
         "@id": "https://www.physioactif.com/en/#org"
       },
@@ -36,7 +36,15 @@
         }
       ],
       "embedUrl": "https://www.youtube.com/embed/URr_zN6B7i0",
-      "contentUrl": "https://www.youtube.com/watch?v=URr_zN6B7i0"
+      "contentUrl": "https://www.youtube.com/watch?v=URr_zN6B7i0",
+      "regionsAllowed": "CA",
+      "interactionStatistic": {
+        "@type": "InteractionCounter",
+        "interactionType": {
+          "@type": "WatchAction"
+        },
+        "userInteractionCount": 7431
+      }
     },
     {
       "@type": "ExercisePlan",

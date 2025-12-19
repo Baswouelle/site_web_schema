@@ -7,8 +7,8 @@
       "name": "Rotation Externe Isometrique de Lepaule - Vidéo Physiothérapie",
       "description": "Vidéo démonstration professionnelle de l'exercice rotation externe isometrique de lepaule par les physiothérapeutes de Physioactif.",
       "thumbnailUrl": "https://i.ytimg.com/vi/b66HgOuhPgE/maxresdefault.jpg",
-      "uploadDate": "2024-01-15T00:00:00-05:00",
-      "duration": "PT1M",
+      "uploadDate": "2024-07-16T15:31:13Z",
+      "duration": "PT26S",
       "publisher": {
         "@id": "https://www.physioactif.com/en/#org"
       },
@@ -36,7 +36,15 @@
         }
       ],
       "embedUrl": "https://www.youtube.com/embed/b66HgOuhPgE",
-      "contentUrl": "https://www.youtube.com/watch?v=b66HgOuhPgE"
+      "contentUrl": "https://www.youtube.com/watch?v=b66HgOuhPgE",
+      "regionsAllowed": "CA",
+      "interactionStatistic": {
+        "@type": "InteractionCounter",
+        "interactionType": {
+          "@type": "WatchAction"
+        },
+        "userInteractionCount": 886
+      }
     },
     {
       "@type": "ExercisePlan",

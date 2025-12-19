@@ -7,8 +7,8 @@
       "name": "Flexion Des Hanches a Quatre Pattes - Vidéo Physiothérapie",
       "description": "Vidéo démonstration professionnelle de l'exercice flexion des hanches a quatre pattes par les physiothérapeutes de Physioactif.",
       "thumbnailUrl": "https://i.ytimg.com/vi/F4HiFkIZHmA/maxresdefault.jpg",
-      "uploadDate": "2024-01-15T00:00:00-05:00",
-      "duration": "PT1M",
+      "uploadDate": "2015-04-30T23:23:41Z",
+      "duration": "PT15S",
       "publisher": {
         "@id": "https://www.physioactif.com/#org"
       },
@@ -36,7 +36,15 @@
         }
       ],
       "embedUrl": "https://www.youtube.com/embed/F4HiFkIZHmA",
-      "contentUrl": "https://www.youtube.com/watch?v=F4HiFkIZHmA"
+      "contentUrl": "https://www.youtube.com/watch?v=F4HiFkIZHmA",
+      "regionsAllowed": "CA",
+      "interactionStatistic": {
+        "@type": "InteractionCounter",
+        "interactionType": {
+          "@type": "WatchAction"
+        },
+        "userInteractionCount": 3793
+      }
     },
     {
       "@type": "ExercisePlan",

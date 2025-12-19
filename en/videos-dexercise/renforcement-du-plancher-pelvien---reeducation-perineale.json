@@ -7,8 +7,8 @@
       "name": "Renforcement du Plancher Pelvien Reeducation Perineale - Vidéo Physiothérapie",
       "description": "Vidéo démonstration professionnelle de l'exercice renforcement du plancher pelvien reeducation perineale par les physiothérapeutes de Physioactif.",
       "thumbnailUrl": "https://i.ytimg.com/vi/kAkoQB9ENrA/maxresdefault.jpg",
-      "uploadDate": "2024-01-15T00:00:00-05:00",
-      "duration": "PT1M",
+      "uploadDate": "2024-08-06T16:38:36Z",
+      "duration": "PT49S",
       "publisher": {
         "@id": "https://www.physioactif.com/en/#org"
       },
@@ -36,7 +36,15 @@
         }
       ],
       "embedUrl": "https://www.youtube.com/embed/kAkoQB9ENrA",
-      "contentUrl": "https://www.youtube.com/watch?v=kAkoQB9ENrA"
+      "contentUrl": "https://www.youtube.com/watch?v=kAkoQB9ENrA",
+      "regionsAllowed": "CA",
+      "interactionStatistic": {
+        "@type": "InteractionCounter",
+        "interactionType": {
+          "@type": "WatchAction"
+        },
+        "userInteractionCount": 229
+      }
     },
     {
       "@type": "ExercisePlan",

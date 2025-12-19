@@ -6,9 +6,9 @@
       "@id": "https://www.physioactif.com/videos-dexercise/bascule-du-bassin-assis-neutre-lombaire#video",
       "name": "Bascule du Bassin Assis Neutre Lombaire - Vidéo Physiothérapie",
       "description": "Vidéo démonstration professionnelle de l'exercice bascule du bassin assis neutre lombaire par les physiothérapeutes de Physioactif.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/K3Mr_VgtnSk/maxresdefault.jpg",
-      "uploadDate": "2024-01-15T00:00:00-05:00",
-      "duration": "PT1M",
+      "thumbnailUrl": "https://i.ytimg.com/vi/K3Mr_VgtnSk/hqdefault.jpg",
+      "uploadDate": "2021-03-02T20:50:38Z",
+      "duration": "PT1M25S",
       "publisher": {
         "@id": "https://www.physioactif.com/#org"
       },
@@ -36,7 +36,15 @@
         }
       ],
       "embedUrl": "https://www.youtube.com/embed/K3Mr_VgtnSk",
-      "contentUrl": "https://www.youtube.com/watch?v=K3Mr_VgtnSk"
+      "contentUrl": "https://www.youtube.com/watch?v=K3Mr_VgtnSk",
+      "regionsAllowed": "CA",
+      "interactionStatistic": {
+        "@type": "InteractionCounter",
+        "interactionType": {
+          "@type": "WatchAction"
+        },
+        "userInteractionCount": 8583
+      }
     },
     {
       "@type": "ExercisePlan",

@@ -7,8 +7,8 @@
       "name": "Reflexe de Landau - Vidéo Physiothérapie",
       "description": "Vidéo démonstration professionnelle de l'exercice reflexe de landau par les physiothérapeutes de Physioactif.",
       "thumbnailUrl": "https://i.ytimg.com/vi/18y2_D7iKWM/maxresdefault.jpg",
-      "uploadDate": "2024-01-15T00:00:00-05:00",
-      "duration": "PT1M",
+      "uploadDate": "2012-11-30T14:35:48Z",
+      "duration": "PT32S",
       "publisher": {
         "@id": "https://www.physioactif.com/en/#org"
       },
@@ -36,7 +36,15 @@
         }
       ],
       "embedUrl": "https://www.youtube.com/embed/18y2_D7iKWM",
-      "contentUrl": "https://www.youtube.com/watch?v=18y2_D7iKWM"
+      "contentUrl": "https://www.youtube.com/watch?v=18y2_D7iKWM",
+      "regionsAllowed": "CA",
+      "interactionStatistic": {
+        "@type": "InteractionCounter",
+        "interactionType": {
+          "@type": "WatchAction"
+        },
+        "userInteractionCount": 4753
+      }
     },
     {
       "@type": "ExercisePlan",

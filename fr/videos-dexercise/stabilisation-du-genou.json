@@ -7,8 +7,8 @@
       "name": "Stabilisation du Genou - Vidéo Physiothérapie",
       "description": "Vidéo démonstration professionnelle de l'exercice stabilisation du genou par les physiothérapeutes de Physioactif.",
       "thumbnailUrl": "https://i.ytimg.com/vi/JGaLCgzlc-0/maxresdefault.jpg",
-      "uploadDate": "2024-01-15T00:00:00-05:00",
-      "duration": "PT1M",
+      "uploadDate": "2021-09-28T16:37:54Z",
+      "duration": "PT1M12S",
       "publisher": {
         "@id": "https://www.physioactif.com/#org"
       },
@@ -36,7 +36,15 @@
         }
       ],
       "embedUrl": "https://www.youtube.com/embed/JGaLCgzlc-0",
-      "contentUrl": "https://www.youtube.com/watch?v=JGaLCgzlc-0"
+      "contentUrl": "https://www.youtube.com/watch?v=JGaLCgzlc-0",
+      "regionsAllowed": "CA",
+      "interactionStatistic": {
+        "@type": "InteractionCounter",
+        "interactionType": {
+          "@type": "WatchAction"
+        },
+        "userInteractionCount": 2327
+      }
     },
     {
       "@type": "ExercisePlan",

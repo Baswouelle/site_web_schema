@@ -6,9 +6,9 @@
       "@id": "https://www.physioactif.com/en/videos-dexercise/stabilisation-de-la-cheville#video",
       "name": "Stabilisation de la Cheville - Vidéo Physiothérapie",
       "description": "Vidéo démonstration professionnelle de l'exercice stabilisation de la cheville par les physiothérapeutes de Physioactif.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/nqXeV2pJ32I/maxresdefault.jpg",
-      "uploadDate": "2024-01-15T00:00:00-05:00",
-      "duration": "PT1M",
+      "thumbnailUrl": "https://i.ytimg.com/vi/nqXeV2pJ32I/hqdefault.jpg",
+      "uploadDate": "2021-09-28T16:19:44Z",
+      "duration": "PT50S",
       "publisher": {
         "@id": "https://www.physioactif.com/en/#org"
       },
@@ -36,7 +36,15 @@
         }
       ],
       "embedUrl": "https://www.youtube.com/embed/nqXeV2pJ32I",
-      "contentUrl": "https://www.youtube.com/watch?v=nqXeV2pJ32I"
+      "contentUrl": "https://www.youtube.com/watch?v=nqXeV2pJ32I",
+      "regionsAllowed": "CA",
+      "interactionStatistic": {
+        "@type": "InteractionCounter",
+        "interactionType": {
+          "@type": "WatchAction"
+        },
+        "userInteractionCount": 1507
+      }
     },
     {
       "@type": "ExercisePlan",

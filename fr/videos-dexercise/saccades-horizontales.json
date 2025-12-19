@@ -7,8 +7,8 @@
       "name": "Saccades Horizontales - Vidéo Physiothérapie",
       "description": "Vidéo démonstration professionnelle de l'exercice saccades horizontales par les physiothérapeutes de Physioactif.",
       "thumbnailUrl": "https://i.ytimg.com/vi/FktyHKxb81I/maxresdefault.jpg",
-      "uploadDate": "2024-01-15T00:00:00-05:00",
-      "duration": "PT1M",
+      "uploadDate": "2021-01-05T20:04:26Z",
+      "duration": "PT34S",
       "publisher": {
         "@id": "https://www.physioactif.com/#org"
       },
@@ -36,7 +36,15 @@
         }
       ],
       "embedUrl": "https://www.youtube.com/embed/FktyHKxb81I",
-      "contentUrl": "https://www.youtube.com/watch?v=FktyHKxb81I"
+      "contentUrl": "https://www.youtube.com/watch?v=FktyHKxb81I",
+      "regionsAllowed": "CA",
+      "interactionStatistic": {
+        "@type": "InteractionCounter",
+        "interactionType": {
+          "@type": "WatchAction"
+        },
+        "userInteractionCount": 12043
+      }
     },
     {
       "@type": "ExercisePlan",

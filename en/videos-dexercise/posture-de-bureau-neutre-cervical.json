@@ -7,8 +7,8 @@
       "name": "Posture de Bureau Neutre Cervical - Vidéo Physiothérapie",
       "description": "Vidéo démonstration professionnelle de l'exercice posture de bureau neutre cervical par les physiothérapeutes de Physioactif.",
       "thumbnailUrl": "https://i.ytimg.com/vi/xSzth_gZ1a8/maxresdefault.jpg",
-      "uploadDate": "2024-01-15T00:00:00-05:00",
-      "duration": "PT1M",
+      "uploadDate": "2021-05-19T12:58:51Z",
+      "duration": "PT46S",
       "publisher": {
         "@id": "https://www.physioactif.com/en/#org"
       },
@@ -36,7 +36,15 @@
         }
       ],
       "embedUrl": "https://www.youtube.com/embed/xSzth_gZ1a8",
-      "contentUrl": "https://www.youtube.com/watch?v=xSzth_gZ1a8"
+      "contentUrl": "https://www.youtube.com/watch?v=xSzth_gZ1a8",
+      "regionsAllowed": "CA",
+      "interactionStatistic": {
+        "@type": "InteractionCounter",
+        "interactionType": {
+          "@type": "WatchAction"
+        },
+        "userInteractionCount": 3514
+      }
     },
     {
       "@type": "ExercisePlan",

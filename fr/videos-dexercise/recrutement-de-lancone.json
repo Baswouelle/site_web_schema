@@ -7,8 +7,8 @@
       "name": "Recrutement de Lancone - Vidéo Physiothérapie",
       "description": "Vidéo démonstration professionnelle de l'exercice recrutement de lancone par les physiothérapeutes de Physioactif.",
       "thumbnailUrl": "https://i.ytimg.com/vi/fvLXKYV4cOI/maxresdefault.jpg",
-      "uploadDate": "2024-01-15T00:00:00-05:00",
-      "duration": "PT1M",
+      "uploadDate": "2024-08-06T15:52:44Z",
+      "duration": "PT39S",
       "publisher": {
         "@id": "https://www.physioactif.com/#org"
       },
@@ -36,7 +36,15 @@
         }
       ],
       "embedUrl": "https://www.youtube.com/embed/fvLXKYV4cOI",
-      "contentUrl": "https://www.youtube.com/watch?v=fvLXKYV4cOI"
+      "contentUrl": "https://www.youtube.com/watch?v=fvLXKYV4cOI",
+      "regionsAllowed": "CA",
+      "interactionStatistic": {
+        "@type": "InteractionCounter",
+        "interactionType": {
+          "@type": "WatchAction"
+        },
+        "userInteractionCount": 839
+      }
     },
     {
       "@type": "ExercisePlan",

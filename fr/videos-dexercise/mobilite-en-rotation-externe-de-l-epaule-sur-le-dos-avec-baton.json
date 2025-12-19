@@ -7,8 +7,8 @@
       "name": "Mobilité En Rotation Externe De L'épaule Sur Le Dos Avec Bâton - Vidéo Physiothérapie",
       "description": "Vidéo démonstration professionnelle de l'exercice mobilité en rotation externe de l'épaule sur le dos avec bâton par les physiothérapeutes de Physioactif.",
       "thumbnailUrl": "https://i.ytimg.com/vi/zWVeqfb75V8/maxresdefault.jpg",
-      "uploadDate": "2024-01-15T00:00:00-05:00",
-      "duration": "PT1M",
+      "uploadDate": "2025-06-03T15:19:13Z",
+      "duration": "PT27S",
       "publisher": {
         "@id": "https://www.physioactif.com/#org"
       },
@@ -34,7 +34,15 @@
         }
       ],
       "embedUrl": "https://www.youtube.com/embed/zWVeqfb75V8",
-      "contentUrl": "https://www.youtube.com/watch?v=zWVeqfb75V8"
+      "contentUrl": "https://www.youtube.com/watch?v=zWVeqfb75V8",
+      "regionsAllowed": "CA",
+      "interactionStatistic": {
+        "@type": "InteractionCounter",
+        "interactionType": {
+          "@type": "WatchAction"
+        },
+        "userInteractionCount": 46
+      }
     },
     {
       "@type": "ExercisePlan",

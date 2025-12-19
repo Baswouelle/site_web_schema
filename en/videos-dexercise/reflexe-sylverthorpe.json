@@ -7,8 +7,8 @@
       "name": "Reflexe Sylverthorpe - Vidéo Physiothérapie",
       "description": "Vidéo démonstration professionnelle de l'exercice reflexe sylverthorpe par les physiothérapeutes de Physioactif.",
       "thumbnailUrl": "https://i.ytimg.com/vi/1zLhYcMCkgA/maxresdefault.jpg",
-      "uploadDate": "2024-01-15T00:00:00-05:00",
-      "duration": "PT1M",
+      "uploadDate": "2012-12-14T00:48:40Z",
+      "duration": "PT23S",
       "publisher": {
         "@id": "https://www.physioactif.com/en/#org"
       },
@@ -36,7 +36,15 @@
         }
       ],
       "embedUrl": "https://www.youtube.com/embed/1zLhYcMCkgA",
-      "contentUrl": "https://www.youtube.com/watch?v=1zLhYcMCkgA"
+      "contentUrl": "https://www.youtube.com/watch?v=1zLhYcMCkgA",
+      "regionsAllowed": "CA",
+      "interactionStatistic": {
+        "@type": "InteractionCounter",
+        "interactionType": {
+          "@type": "WatchAction"
+        },
+        "userInteractionCount": 529
+      }
     },
     {
       "@type": "ExercisePlan",

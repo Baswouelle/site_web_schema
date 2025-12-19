@@ -7,8 +7,8 @@
       "name": "Mobilité De L'épaule En Fin De Flexion Sur Le Dos - Vidéo Physiothérapie",
       "description": "Vidéo démonstration professionnelle de l'exercice mobilité de l'épaule en fin de flexion sur le dos par les physiothérapeutes de Physioactif.",
       "thumbnailUrl": "https://i.ytimg.com/vi/yjDk4z9RDbE/maxresdefault.jpg",
-      "uploadDate": "2024-01-15T00:00:00-05:00",
-      "duration": "PT1M",
+      "uploadDate": "2025-06-03T15:23:03Z",
+      "duration": "PT16S",
       "publisher": {
         "@id": "https://www.physioactif.com/#org"
       },
@@ -34,7 +34,15 @@
         }
       ],
       "embedUrl": "https://www.youtube.com/embed/yjDk4z9RDbE",
-      "contentUrl": "https://www.youtube.com/watch?v=yjDk4z9RDbE"
+      "contentUrl": "https://www.youtube.com/watch?v=yjDk4z9RDbE",
+      "regionsAllowed": "CA",
+      "interactionStatistic": {
+        "@type": "InteractionCounter",
+        "interactionType": {
+          "@type": "WatchAction"
+        },
+        "userInteractionCount": 84
+      }
     },
     {
       "@type": "ExercisePlan",

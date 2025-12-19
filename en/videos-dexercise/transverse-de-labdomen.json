@@ -7,8 +7,8 @@
       "name": "Transverse de Labdomen - Vidéo Physiothérapie",
       "description": "Vidéo démonstration professionnelle de l'exercice transverse de labdomen par les physiothérapeutes de Physioactif.",
       "thumbnailUrl": "https://i.ytimg.com/vi/-6S0lHmjeiw/maxresdefault.jpg",
-      "uploadDate": "2024-01-15T00:00:00-05:00",
-      "duration": "PT1M",
+      "uploadDate": "2024-08-06T16:39:42Z",
+      "duration": "PT42S",
       "publisher": {
         "@id": "https://www.physioactif.com/en/#org"
       },
@@ -36,7 +36,15 @@
         }
       ],
       "embedUrl": "https://www.youtube.com/embed/-6S0lHmjeiw",
-      "contentUrl": "https://www.youtube.com/watch?v=-6S0lHmjeiw"
+      "contentUrl": "https://www.youtube.com/watch?v=-6S0lHmjeiw",
+      "regionsAllowed": "CA",
+      "interactionStatistic": {
+        "@type": "InteractionCounter",
+        "interactionType": {
+          "@type": "WatchAction"
+        },
+        "userInteractionCount": 448
+      }
     },
     {
       "@type": "ExercisePlan",

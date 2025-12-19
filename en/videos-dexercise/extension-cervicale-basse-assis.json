@@ -7,8 +7,8 @@
       "name": "Extension Cervicale Basse Assis - Vidéo Physiothérapie",
       "description": "Vidéo démonstration professionnelle de l'exercice extension cervicale basse assis par les physiothérapeutes de Physioactif.",
       "thumbnailUrl": "https://i.ytimg.com/vi/KSrr48OEpYY/maxresdefault.jpg",
-      "uploadDate": "2024-01-15T00:00:00-05:00",
-      "duration": "PT1M",
+      "uploadDate": "2021-05-05T22:08:03Z",
+      "duration": "PT45S",
       "publisher": {
         "@id": "https://www.physioactif.com/en/#org"
       },
@@ -36,7 +36,15 @@
         }
       ],
       "embedUrl": "https://www.youtube.com/embed/KSrr48OEpYY",
-      "contentUrl": "https://www.youtube.com/watch?v=KSrr48OEpYY"
+      "contentUrl": "https://www.youtube.com/watch?v=KSrr48OEpYY",
+      "regionsAllowed": "CA",
+      "interactionStatistic": {
+        "@type": "InteractionCounter",
+        "interactionType": {
+          "@type": "WatchAction"
+        },
+        "userInteractionCount": 1481
+      }
     },
     {
       "@type": "ExercisePlan",

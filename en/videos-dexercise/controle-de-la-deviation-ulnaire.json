@@ -7,8 +7,8 @@
       "name": "Controle de la Deviation Ulnaire - Vidéo Physiothérapie",
       "description": "Vidéo démonstration professionnelle de l'exercice controle de la deviation ulnaire par les physiothérapeutes de Physioactif.",
       "thumbnailUrl": "https://i.ytimg.com/vi/MzsAY05FNwU/maxresdefault.jpg",
-      "uploadDate": "2024-01-15T00:00:00-05:00",
-      "duration": "PT1M",
+      "uploadDate": "2015-04-24T17:02:08Z",
+      "duration": "PT28S",
       "publisher": {
         "@id": "https://www.physioactif.com/en/#org"
       },
@@ -36,7 +36,15 @@
         }
       ],
       "embedUrl": "https://www.youtube.com/embed/MzsAY05FNwU",
-      "contentUrl": "https://www.youtube.com/watch?v=MzsAY05FNwU"
+      "contentUrl": "https://www.youtube.com/watch?v=MzsAY05FNwU",
+      "regionsAllowed": "CA",
+      "interactionStatistic": {
+        "@type": "InteractionCounter",
+        "interactionType": {
+          "@type": "WatchAction"
+        },
+        "userInteractionCount": 4743
+      }
     },
     {
       "@type": "ExercisePlan",

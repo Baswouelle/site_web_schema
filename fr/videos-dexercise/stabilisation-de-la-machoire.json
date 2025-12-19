@@ -7,8 +7,8 @@
       "name": "Stabilisation de la Machoire - Vidéo Physiothérapie",
       "description": "Vidéo démonstration professionnelle de l'exercice stabilisation de la machoire par les physiothérapeutes de Physioactif.",
       "thumbnailUrl": "https://i.ytimg.com/vi/twod72rQw_w/maxresdefault.jpg",
-      "uploadDate": "2024-01-15T00:00:00-05:00",
-      "duration": "PT1M",
+      "uploadDate": "2024-08-06T15:50:57Z",
+      "duration": "PT39S",
       "publisher": {
         "@id": "https://www.physioactif.com/#org"
       },
@@ -36,7 +36,15 @@
         }
       ],
       "embedUrl": "https://www.youtube.com/embed/twod72rQw_w",
-      "contentUrl": "https://www.youtube.com/watch?v=twod72rQw_w"
+      "contentUrl": "https://www.youtube.com/watch?v=twod72rQw_w",
+      "regionsAllowed": "CA",
+      "interactionStatistic": {
+        "@type": "InteractionCounter",
+        "interactionType": {
+          "@type": "WatchAction"
+        },
+        "userInteractionCount": 402
+      }
     },
     {
       "@type": "ExercisePlan",

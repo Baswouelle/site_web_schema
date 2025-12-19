@@ -7,8 +7,8 @@
       "name": "Mobilisation du Nerf Femoral Debout - Vidéo Physiothérapie",
       "description": "Vidéo démonstration professionnelle de l'exercice mobilisation du nerf femoral debout par les physiothérapeutes de Physioactif.",
       "thumbnailUrl": "https://i.ytimg.com/vi/Wf-ZEkULKO8/maxresdefault.jpg",
-      "uploadDate": "2024-01-15T00:00:00-05:00",
-      "duration": "PT1M",
+      "uploadDate": "2024-07-16T15:28:52Z",
+      "duration": "PT26S",
       "publisher": {
         "@id": "https://www.physioactif.com/en/#org"
       },
@@ -36,7 +36,15 @@
         }
       ],
       "embedUrl": "https://www.youtube.com/embed/Wf-ZEkULKO8",
-      "contentUrl": "https://www.youtube.com/watch?v=Wf-ZEkULKO8"
+      "contentUrl": "https://www.youtube.com/watch?v=Wf-ZEkULKO8",
+      "regionsAllowed": "CA",
+      "interactionStatistic": {
+        "@type": "InteractionCounter",
+        "interactionType": {
+          "@type": "WatchAction"
+        },
+        "userInteractionCount": 691
+      }
     },
     {
       "@type": "ExercisePlan",

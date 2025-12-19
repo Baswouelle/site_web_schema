@@ -7,8 +7,8 @@
       "name": "Controle de la Deviation - Vidéo Physiothérapie",
       "description": "Vidéo démonstration professionnelle de l'exercice controle de la deviation par les physiothérapeutes de Physioactif.",
       "thumbnailUrl": "https://i.ytimg.com/vi/6IsTuK6tQS0/maxresdefault.jpg",
-      "uploadDate": "2024-01-15T00:00:00-05:00",
-      "duration": "PT1M",
+      "uploadDate": "2024-07-16T15:41:04Z",
+      "duration": "PT21S",
       "publisher": {
         "@id": "https://www.physioactif.com/#org"
       },
@@ -36,7 +36,15 @@
         }
       ],
       "embedUrl": "https://www.youtube.com/embed/6IsTuK6tQS0",
-      "contentUrl": "https://www.youtube.com/watch?v=6IsTuK6tQS0"
+      "contentUrl": "https://www.youtube.com/watch?v=6IsTuK6tQS0",
+      "regionsAllowed": "CA",
+      "interactionStatistic": {
+        "@type": "InteractionCounter",
+        "interactionType": {
+          "@type": "WatchAction"
+        },
+        "userInteractionCount": 318
+      }
     },
     {
       "@type": "ExercisePlan",

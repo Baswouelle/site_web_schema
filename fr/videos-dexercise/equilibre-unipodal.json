@@ -7,8 +7,8 @@
       "name": "Equilibre Unipodal - Vidéo Physiothérapie",
       "description": "Vidéo démonstration professionnelle de l'exercice equilibre unipodal par les physiothérapeutes de Physioactif.",
       "thumbnailUrl": "https://i.ytimg.com/vi/e9eEdm6YrG0/maxresdefault.jpg",
-      "uploadDate": "2024-01-15T00:00:00-05:00",
-      "duration": "PT1M",
+      "uploadDate": "2020-04-28T19:13:33Z",
+      "duration": "PT52S",
       "publisher": {
         "@id": "https://www.physioactif.com/#org"
       },
@@ -36,7 +36,15 @@
         }
       ],
       "embedUrl": "https://www.youtube.com/embed/e9eEdm6YrG0",
-      "contentUrl": "https://www.youtube.com/watch?v=e9eEdm6YrG0"
+      "contentUrl": "https://www.youtube.com/watch?v=e9eEdm6YrG0",
+      "regionsAllowed": "CA",
+      "interactionStatistic": {
+        "@type": "InteractionCounter",
+        "interactionType": {
+          "@type": "WatchAction"
+        },
+        "userInteractionCount": 3574
+      }
     },
     {
       "@type": "ExercisePlan",

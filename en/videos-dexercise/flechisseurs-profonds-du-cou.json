@@ -7,8 +7,8 @@
       "name": "Flechisseurs Profonds du Cou - Vidéo Physiothérapie",
       "description": "Vidéo démonstration professionnelle de l'exercice flechisseurs profonds du cou par les physiothérapeutes de Physioactif.",
       "thumbnailUrl": "https://i.ytimg.com/vi/pr9DNM-KokY/maxresdefault.jpg",
-      "uploadDate": "2024-01-15T00:00:00-05:00",
-      "duration": "PT1M",
+      "uploadDate": "2015-04-22T21:53:14Z",
+      "duration": "PT30S",
       "publisher": {
         "@id": "https://www.physioactif.com/en/#org"
       },
@@ -36,7 +36,15 @@
         }
       ],
       "embedUrl": "https://www.youtube.com/embed/pr9DNM-KokY",
-      "contentUrl": "https://www.youtube.com/watch?v=pr9DNM-KokY"
+      "contentUrl": "https://www.youtube.com/watch?v=pr9DNM-KokY",
+      "regionsAllowed": "CA",
+      "interactionStatistic": {
+        "@type": "InteractionCounter",
+        "interactionType": {
+          "@type": "WatchAction"
+        },
+        "userInteractionCount": 6255
+      }
     },
     {
       "@type": "ExercisePlan",

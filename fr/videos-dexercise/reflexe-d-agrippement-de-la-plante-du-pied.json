@@ -7,8 +7,8 @@
       "name": "Réflexe D'agrippement De La Plante Du Pied - Vidéo Physiothérapie",
       "description": "Vidéo démonstration professionnelle de l'exercice réflexe d'agrippement de la plante du pied par les physiothérapeutes de Physioactif.",
       "thumbnailUrl": "https://i.ytimg.com/vi/ZvMoLX84bAo/maxresdefault.jpg",
-      "uploadDate": "2024-01-15T00:00:00-05:00",
-      "duration": "PT1M",
+      "uploadDate": "2013-05-07T03:18:59Z",
+      "duration": "PT11S",
       "publisher": {
         "@id": "https://www.physioactif.com/#org"
       },
@@ -34,7 +34,15 @@
         }
       ],
       "embedUrl": "https://www.youtube.com/embed/ZvMoLX84bAo",
-      "contentUrl": "https://www.youtube.com/watch?v=ZvMoLX84bAo"
+      "contentUrl": "https://www.youtube.com/watch?v=ZvMoLX84bAo",
+      "regionsAllowed": "CA",
+      "interactionStatistic": {
+        "@type": "InteractionCounter",
+        "interactionType": {
+          "@type": "WatchAction"
+        },
+        "userInteractionCount": 820
+      }
     },
     {
       "@type": "ExercisePlan",

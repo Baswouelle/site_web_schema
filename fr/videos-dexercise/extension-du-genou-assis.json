@@ -7,8 +7,8 @@
       "name": "Extension du Genou Assis - Vidéo Physiothérapie",
       "description": "Vidéo démonstration professionnelle de l'exercice extension du genou assis par les physiothérapeutes de Physioactif.",
       "thumbnailUrl": "https://i.ytimg.com/vi/ZyGHhZr37uc/maxresdefault.jpg",
-      "uploadDate": "2024-01-15T00:00:00-05:00",
-      "duration": "PT1M",
+      "uploadDate": "2015-04-24T16:21:47Z",
+      "duration": "PT17S",
       "publisher": {
         "@id": "https://www.physioactif.com/#org"
       },
@@ -36,7 +36,15 @@
         }
       ],
       "embedUrl": "https://www.youtube.com/embed/ZyGHhZr37uc",
-      "contentUrl": "https://www.youtube.com/watch?v=ZyGHhZr37uc"
+      "contentUrl": "https://www.youtube.com/watch?v=ZyGHhZr37uc",
+      "regionsAllowed": "CA",
+      "interactionStatistic": {
+        "@type": "InteractionCounter",
+        "interactionType": {
+          "@type": "WatchAction"
+        },
+        "userInteractionCount": 2117
+      }
     },
     {
       "@type": "ExercisePlan",

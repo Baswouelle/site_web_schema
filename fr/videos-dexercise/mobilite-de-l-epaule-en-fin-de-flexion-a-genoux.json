@@ -7,8 +7,8 @@
       "name": "Mobilité De L'épaule En Fin De Flexion À Genoux - Vidéo Physiothérapie",
       "description": "Vidéo démonstration professionnelle de l'exercice mobilité de l'épaule en fin de flexion à genoux par les physiothérapeutes de Physioactif.",
       "thumbnailUrl": "https://i.ytimg.com/vi/6p_bilAyIlU/maxresdefault.jpg",
-      "uploadDate": "2024-01-15T00:00:00-05:00",
-      "duration": "PT1M",
+      "uploadDate": "2025-06-03T15:22:38Z",
+      "duration": "PT20S",
       "publisher": {
         "@id": "https://www.physioactif.com/#org"
       },
@@ -34,7 +34,15 @@
         }
       ],
       "embedUrl": "https://www.youtube.com/embed/6p_bilAyIlU",
-      "contentUrl": "https://www.youtube.com/watch?v=6p_bilAyIlU"
+      "contentUrl": "https://www.youtube.com/watch?v=6p_bilAyIlU",
+      "regionsAllowed": "CA",
+      "interactionStatistic": {
+        "@type": "InteractionCounter",
+        "interactionType": {
+          "@type": "WatchAction"
+        },
+        "userInteractionCount": 72
+      }
     },
     {
       "@type": "ExercisePlan",

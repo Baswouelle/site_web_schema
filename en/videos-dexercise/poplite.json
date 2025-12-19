@@ -7,8 +7,8 @@
       "name": "Poplite - Vidéo Physiothérapie",
       "description": "Vidéo démonstration professionnelle de l'exercice poplite par les physiothérapeutes de Physioactif.",
       "thumbnailUrl": "https://i.ytimg.com/vi/98tN5pyGEt4/maxresdefault.jpg",
-      "uploadDate": "2024-01-15T00:00:00-05:00",
-      "duration": "PT1M",
+      "uploadDate": "2021-09-28T16:30:43Z",
+      "duration": "PT1M34S",
       "publisher": {
         "@id": "https://www.physioactif.com/en/#org"
       },
@@ -36,7 +36,15 @@
         }
       ],
       "embedUrl": "https://www.youtube.com/embed/98tN5pyGEt4",
-      "contentUrl": "https://www.youtube.com/watch?v=98tN5pyGEt4"
+      "contentUrl": "https://www.youtube.com/watch?v=98tN5pyGEt4",
+      "regionsAllowed": "CA",
+      "interactionStatistic": {
+        "@type": "InteractionCounter",
+        "interactionType": {
+          "@type": "WatchAction"
+        },
+        "userInteractionCount": 38574
+      }
     },
     {
       "@type": "ExercisePlan",

@@ -7,8 +7,8 @@
       "name": "Controle de la Flexion du Poignet - Vidéo Physiothérapie",
       "description": "Vidéo démonstration professionnelle de l'exercice controle de la flexion du poignet par les physiothérapeutes de Physioactif.",
       "thumbnailUrl": "https://i.ytimg.com/vi/UZHvUdZ_1Is/maxresdefault.jpg",
-      "uploadDate": "2024-01-15T00:00:00-05:00",
-      "duration": "PT1M",
+      "uploadDate": "2015-04-24T16:05:12Z",
+      "duration": "PT29S",
       "publisher": {
         "@id": "https://www.physioactif.com/#org"
       },
@@ -36,7 +36,15 @@
         }
       ],
       "embedUrl": "https://www.youtube.com/embed/UZHvUdZ_1Is",
-      "contentUrl": "https://www.youtube.com/watch?v=UZHvUdZ_1Is"
+      "contentUrl": "https://www.youtube.com/watch?v=UZHvUdZ_1Is",
+      "regionsAllowed": "CA",
+      "interactionStatistic": {
+        "@type": "InteractionCounter",
+        "interactionType": {
+          "@type": "WatchAction"
+        },
+        "userInteractionCount": 4293
+      }
     },
     {
       "@type": "ExercisePlan",

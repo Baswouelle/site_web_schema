@@ -7,8 +7,8 @@
       "name": "Convergence Des Yeux - Vidéo Physiothérapie",
       "description": "Vidéo démonstration professionnelle de l'exercice convergence des yeux par les physiothérapeutes de Physioactif.",
       "thumbnailUrl": "https://i.ytimg.com/vi/DNZTK0xGzV8/maxresdefault.jpg",
-      "uploadDate": "2024-01-15T00:00:00-05:00",
-      "duration": "PT1M",
+      "uploadDate": "2021-01-05T19:51:18Z",
+      "duration": "PT32S",
       "publisher": {
         "@id": "https://www.physioactif.com/#org"
       },
@@ -36,7 +36,15 @@
         }
       ],
       "embedUrl": "https://www.youtube.com/embed/DNZTK0xGzV8",
-      "contentUrl": "https://www.youtube.com/watch?v=DNZTK0xGzV8"
+      "contentUrl": "https://www.youtube.com/watch?v=DNZTK0xGzV8",
+      "regionsAllowed": "CA",
+      "interactionStatistic": {
+        "@type": "InteractionCounter",
+        "interactionType": {
+          "@type": "WatchAction"
+        },
+        "userInteractionCount": 48609
+      }
     },
     {
       "@type": "ExercisePlan",

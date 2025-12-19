@@ -7,8 +7,8 @@
       "name": "Recrutement du Sous Scapulaire - Vidéo Physiothérapie",
       "description": "Vidéo démonstration professionnelle de l'exercice recrutement du sous scapulaire par les physiothérapeutes de Physioactif.",
       "thumbnailUrl": "https://i.ytimg.com/vi/hplbk07e5xM/maxresdefault.jpg",
-      "uploadDate": "2024-01-15T00:00:00-05:00",
-      "duration": "PT1M",
+      "uploadDate": "2024-08-06T15:46:43Z",
+      "duration": "PT37S",
       "publisher": {
         "@id": "https://www.physioactif.com/#org"
       },
@@ -36,7 +36,15 @@
         }
       ],
       "embedUrl": "https://www.youtube.com/embed/hplbk07e5xM",
-      "contentUrl": "https://www.youtube.com/watch?v=hplbk07e5xM"
+      "contentUrl": "https://www.youtube.com/watch?v=hplbk07e5xM",
+      "regionsAllowed": "CA",
+      "interactionStatistic": {
+        "@type": "InteractionCounter",
+        "interactionType": {
+          "@type": "WatchAction"
+        },
+        "userInteractionCount": 550
+      }
     },
     {
       "@type": "ExercisePlan",

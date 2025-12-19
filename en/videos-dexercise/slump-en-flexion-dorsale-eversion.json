@@ -7,8 +7,8 @@
       "name": "Slump en Flexion Dorsale Eversion - Vidéo Physiothérapie",
       "description": "Vidéo démonstration professionnelle de l'exercice slump en flexion dorsale eversion par les physiothérapeutes de Physioactif.",
       "thumbnailUrl": "https://i.ytimg.com/vi/3gMAmsiY3gg/maxresdefault.jpg",
-      "uploadDate": "2024-01-15T00:00:00-05:00",
-      "duration": "PT1M",
+      "uploadDate": "2020-04-28T18:53:27Z",
+      "duration": "PT1M10S",
       "publisher": {
         "@id": "https://www.physioactif.com/en/#org"
       },
@@ -36,7 +36,15 @@
         }
       ],
       "embedUrl": "https://www.youtube.com/embed/3gMAmsiY3gg",
-      "contentUrl": "https://www.youtube.com/watch?v=3gMAmsiY3gg"
+      "contentUrl": "https://www.youtube.com/watch?v=3gMAmsiY3gg",
+      "regionsAllowed": "CA",
+      "interactionStatistic": {
+        "@type": "InteractionCounter",
+        "interactionType": {
+          "@type": "WatchAction"
+        },
+        "userInteractionCount": 9250
+      }
     },
     {
       "@type": "ExercisePlan",

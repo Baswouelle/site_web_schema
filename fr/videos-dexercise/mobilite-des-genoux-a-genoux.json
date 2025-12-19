@@ -7,8 +7,8 @@
       "name": "Mobilité Des Genoux À Genoux - Vidéo Physiothérapie",
       "description": "Vidéo démonstration professionnelle de l'exercice mobilité des genoux à genoux par les physiothérapeutes de Physioactif.",
       "thumbnailUrl": "https://i.ytimg.com/vi/Ae-Uv9wioMY/maxresdefault.jpg",
-      "uploadDate": "2024-01-15T00:00:00-05:00",
-      "duration": "PT1M",
+      "uploadDate": "2025-06-03T13:52:57Z",
+      "duration": "PT44S",
       "publisher": {
         "@id": "https://www.physioactif.com/#org"
       },
@@ -34,7 +34,15 @@
         }
       ],
       "embedUrl": "https://www.youtube.com/embed/Ae-Uv9wioMY",
-      "contentUrl": "https://www.youtube.com/watch?v=Ae-Uv9wioMY"
+      "contentUrl": "https://www.youtube.com/watch?v=Ae-Uv9wioMY",
+      "regionsAllowed": "CA",
+      "interactionStatistic": {
+        "@type": "InteractionCounter",
+        "interactionType": {
+          "@type": "WatchAction"
+        },
+        "userInteractionCount": 52
+      }
     },
     {
       "@type": "ExercisePlan",

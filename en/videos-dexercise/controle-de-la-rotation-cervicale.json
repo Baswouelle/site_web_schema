@@ -6,9 +6,9 @@
       "@id": "https://www.physioactif.com/en/videos-dexercise/controle-de-la-rotation-cervicale#video",
       "name": "Controle de la Rotation Cervicale - Vidéo Physiothérapie",
       "description": "Vidéo démonstration professionnelle de l'exercice controle de la rotation cervicale par les physiothérapeutes de Physioactif.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/R6N6X-_MV-Q/maxresdefault.jpg",
-      "uploadDate": "2024-01-15T00:00:00-05:00",
-      "duration": "PT1M",
+      "thumbnailUrl": "https://i.ytimg.com/vi/R6N6X-_MV-Q/hqdefault.jpg",
+      "uploadDate": "2021-06-15T21:18:17Z",
+      "duration": "PT1M13S",
       "publisher": {
         "@id": "https://www.physioactif.com/en/#org"
       },
@@ -36,7 +36,15 @@
         }
       ],
       "embedUrl": "https://www.youtube.com/embed/R6N6X-_MV-Q",
-      "contentUrl": "https://www.youtube.com/watch?v=R6N6X-_MV-Q"
+      "contentUrl": "https://www.youtube.com/watch?v=R6N6X-_MV-Q",
+      "regionsAllowed": "CA",
+      "interactionStatistic": {
+        "@type": "InteractionCounter",
+        "interactionType": {
+          "@type": "WatchAction"
+        },
+        "userInteractionCount": 5155
+      }
     },
     {
       "@type": "ExercisePlan",

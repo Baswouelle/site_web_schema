@@ -7,8 +7,8 @@
       "name": "Facilitation du Trapeze Superieur Monkey Shrug - Vidéo Physiothérapie",
       "description": "Vidéo démonstration professionnelle de l'exercice facilitation du trapeze superieur monkey shrug par les physiothérapeutes de Physioactif.",
       "thumbnailUrl": "https://i.ytimg.com/vi/iU4RIGjg70I/maxresdefault.jpg",
-      "uploadDate": "2024-01-15T00:00:00-05:00",
-      "duration": "PT1M",
+      "uploadDate": "2024-07-16T15:32:01Z",
+      "duration": "PT27S",
       "publisher": {
         "@id": "https://www.physioactif.com/#org"
       },
@@ -36,7 +36,15 @@
         }
       ],
       "embedUrl": "https://www.youtube.com/embed/iU4RIGjg70I",
-      "contentUrl": "https://www.youtube.com/watch?v=iU4RIGjg70I"
+      "contentUrl": "https://www.youtube.com/watch?v=iU4RIGjg70I",
+      "regionsAllowed": "CA",
+      "interactionStatistic": {
+        "@type": "InteractionCounter",
+        "interactionType": {
+          "@type": "WatchAction"
+        },
+        "userInteractionCount": 1316
+      }
     },
     {
       "@type": "ExercisePlan",

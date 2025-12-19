@@ -7,8 +7,8 @@
       "name": "Marche Croisee Facile - Vidéo Physiothérapie",
       "description": "Vidéo démonstration professionnelle de l'exercice marche croisee facile par les physiothérapeutes de Physioactif.",
       "thumbnailUrl": "https://i.ytimg.com/vi/QNHFxjmEee8/maxresdefault.jpg",
-      "uploadDate": "2024-01-15T00:00:00-05:00",
-      "duration": "PT1M",
+      "uploadDate": "2012-11-13T13:57:27Z",
+      "duration": "PT2M23S",
       "publisher": {
         "@id": "https://www.physioactif.com/en/#org"
       },
@@ -36,7 +36,15 @@
         }
       ],
       "embedUrl": "https://www.youtube.com/embed/QNHFxjmEee8",
-      "contentUrl": "https://www.youtube.com/watch?v=QNHFxjmEee8"
+      "contentUrl": "https://www.youtube.com/watch?v=QNHFxjmEee8",
+      "regionsAllowed": "CA",
+      "interactionStatistic": {
+        "@type": "InteractionCounter",
+        "interactionType": {
+          "@type": "WatchAction"
+        },
+        "userInteractionCount": 5020
+      }
     },
     {
       "@type": "ExercisePlan",

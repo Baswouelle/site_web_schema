@@ -7,8 +7,8 @@
       "name": "Stabilisation de Lepaule Debout - Vidéo Physiothérapie",
       "description": "Vidéo démonstration professionnelle de l'exercice stabilisation de lepaule debout par les physiothérapeutes de Physioactif.",
       "thumbnailUrl": "https://i.ytimg.com/vi/bi9E2zOAdwQ/maxresdefault.jpg",
-      "uploadDate": "2024-01-15T00:00:00-05:00",
-      "duration": "PT1M",
+      "uploadDate": "2024-07-16T15:33:43Z",
+      "duration": "PT26S",
       "publisher": {
         "@id": "https://www.physioactif.com/#org"
       },
@@ -36,7 +36,15 @@
         }
       ],
       "embedUrl": "https://www.youtube.com/embed/bi9E2zOAdwQ",
-      "contentUrl": "https://www.youtube.com/watch?v=bi9E2zOAdwQ"
+      "contentUrl": "https://www.youtube.com/watch?v=bi9E2zOAdwQ",
+      "regionsAllowed": "CA",
+      "interactionStatistic": {
+        "@type": "InteractionCounter",
+        "interactionType": {
+          "@type": "WatchAction"
+        },
+        "userInteractionCount": 294
+      }
     },
     {
       "@type": "ExercisePlan",

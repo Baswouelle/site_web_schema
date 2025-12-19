@@ -7,8 +7,8 @@
       "name": "Controle de la Flexion Cervicale Basse - Vidéo Physiothérapie",
       "description": "Vidéo démonstration professionnelle de l'exercice controle de la flexion cervicale basse par les physiothérapeutes de Physioactif.",
       "thumbnailUrl": "https://i.ytimg.com/vi/0RNjcIHXD7Y/maxresdefault.jpg",
-      "uploadDate": "2024-01-15T00:00:00-05:00",
-      "duration": "PT1M",
+      "uploadDate": "2021-05-19T14:15:34Z",
+      "duration": "PT1M5S",
       "publisher": {
         "@id": "https://www.physioactif.com/#org"
       },
@@ -36,7 +36,15 @@
         }
       ],
       "embedUrl": "https://www.youtube.com/embed/0RNjcIHXD7Y",
-      "contentUrl": "https://www.youtube.com/watch?v=0RNjcIHXD7Y"
+      "contentUrl": "https://www.youtube.com/watch?v=0RNjcIHXD7Y",
+      "regionsAllowed": "CA",
+      "interactionStatistic": {
+        "@type": "InteractionCounter",
+        "interactionType": {
+          "@type": "WatchAction"
+        },
+        "userInteractionCount": 1276
+      }
     },
     {
       "@type": "ExercisePlan",

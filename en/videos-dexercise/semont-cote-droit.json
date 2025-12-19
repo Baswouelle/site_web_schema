@@ -7,8 +7,8 @@
       "name": "Semont Cote Droit - Vidéo Physiothérapie",
       "description": "Vidéo démonstration professionnelle de l'exercice semont cote droit par les physiothérapeutes de Physioactif.",
       "thumbnailUrl": "https://i.ytimg.com/vi/KrK2GYZV920/maxresdefault.jpg",
-      "uploadDate": "2024-01-15T00:00:00-05:00",
-      "duration": "PT1M",
+      "uploadDate": "2024-07-16T15:44:57Z",
+      "duration": "PT33S",
       "publisher": {
         "@id": "https://www.physioactif.com/en/#org"
       },
@@ -36,7 +36,15 @@
         }
       ],
       "embedUrl": "https://www.youtube.com/embed/KrK2GYZV920",
-      "contentUrl": "https://www.youtube.com/watch?v=KrK2GYZV920"
+      "contentUrl": "https://www.youtube.com/watch?v=KrK2GYZV920",
+      "regionsAllowed": "CA",
+      "interactionStatistic": {
+        "@type": "InteractionCounter",
+        "interactionType": {
+          "@type": "WatchAction"
+        },
+        "userInteractionCount": 113
+      }
     },
     {
       "@type": "ExercisePlan",

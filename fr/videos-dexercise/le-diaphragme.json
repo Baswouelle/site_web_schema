@@ -7,8 +7,8 @@
       "name": "Le Diaphragme - Vidéo Physiothérapie",
       "description": "Vidéo démonstration professionnelle de l'exercice le diaphragme par les physiothérapeutes de Physioactif.",
       "thumbnailUrl": "https://i.ytimg.com/vi/_hINjZ3553Y/maxresdefault.jpg",
-      "uploadDate": "2024-01-15T00:00:00-05:00",
-      "duration": "PT1M",
+      "uploadDate": "2024-12-03T15:50:22Z",
+      "duration": "PT1M18S",
       "publisher": {
         "@id": "https://www.physioactif.com/#org"
       },
@@ -34,7 +34,15 @@
         }
       ],
       "embedUrl": "https://www.youtube.com/embed/_hINjZ3553Y",
-      "contentUrl": "https://www.youtube.com/watch?v=_hINjZ3553Y"
+      "contentUrl": "https://www.youtube.com/watch?v=_hINjZ3553Y",
+      "regionsAllowed": "CA",
+      "interactionStatistic": {
+        "@type": "InteractionCounter",
+        "interactionType": {
+          "@type": "WatchAction"
+        },
+        "userInteractionCount": 151
+      }
     },
     {
       "@type": "ExercisePlan",

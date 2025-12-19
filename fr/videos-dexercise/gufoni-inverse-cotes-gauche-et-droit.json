@@ -7,8 +7,8 @@
       "name": "Gufoni Inversé Côtés Gauche Et Droit - Vidéo Physiothérapie",
       "description": "Vidéo démonstration professionnelle de l'exercice gufoni inversé côtés gauche et droit par les physiothérapeutes de Physioactif.",
       "thumbnailUrl": "https://i.ytimg.com/vi/U9akvrIMyJk/maxresdefault.jpg",
-      "uploadDate": "2024-01-15T00:00:00-05:00",
-      "duration": "PT1M",
+      "uploadDate": "2024-08-06T15:30:13Z",
+      "duration": "PT47S",
       "publisher": {
         "@id": "https://www.physioactif.com/#org"
       },
@@ -34,7 +34,15 @@
         }
       ],
       "embedUrl": "https://www.youtube.com/embed/U9akvrIMyJk",
-      "contentUrl": "https://www.youtube.com/watch?v=U9akvrIMyJk"
+      "contentUrl": "https://www.youtube.com/watch?v=U9akvrIMyJk",
+      "regionsAllowed": "CA",
+      "interactionStatistic": {
+        "@type": "InteractionCounter",
+        "interactionType": {
+          "@type": "WatchAction"
+        },
+        "userInteractionCount": 255
+      }
     },
     {
       "@type": "ExercisePlan",

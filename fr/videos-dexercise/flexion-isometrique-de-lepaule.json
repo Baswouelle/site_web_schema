@@ -7,8 +7,8 @@
       "name": "Flexion Isometrique de Lepaule - Vidéo Physiothérapie",
       "description": "Vidéo démonstration professionnelle de l'exercice flexion isometrique de lepaule par les physiothérapeutes de Physioactif.",
       "thumbnailUrl": "https://i.ytimg.com/vi/p0HPG2lZ0nc/maxresdefault.jpg",
-      "uploadDate": "2024-01-15T00:00:00-05:00",
-      "duration": "PT1M",
+      "uploadDate": "2024-07-16T15:32:56Z",
+      "duration": "PT26S",
       "publisher": {
         "@id": "https://www.physioactif.com/#org"
       },
@@ -36,7 +36,15 @@
         }
       ],
       "embedUrl": "https://www.youtube.com/embed/p0HPG2lZ0nc",
-      "contentUrl": "https://www.youtube.com/watch?v=p0HPG2lZ0nc"
+      "contentUrl": "https://www.youtube.com/watch?v=p0HPG2lZ0nc",
+      "regionsAllowed": "CA",
+      "interactionStatistic": {
+        "@type": "InteractionCounter",
+        "interactionType": {
+          "@type": "WatchAction"
+        },
+        "userInteractionCount": 295
+      }
     },
     {
       "@type": "ExercisePlan",

@@ -7,8 +7,8 @@
       "name": "Flexion de la Hanche Assis - Vidéo Physiothérapie",
       "description": "Vidéo démonstration professionnelle de l'exercice flexion de la hanche assis par les physiothérapeutes de Physioactif.",
       "thumbnailUrl": "https://i.ytimg.com/vi/lPjhgo-nnKY/maxresdefault.jpg",
-      "uploadDate": "2024-01-15T00:00:00-05:00",
-      "duration": "PT1M",
+      "uploadDate": "2015-06-01T22:10:10Z",
+      "duration": "PT18S",
       "publisher": {
         "@id": "https://www.physioactif.com/en/#org"
       },
@@ -36,7 +36,15 @@
         }
       ],
       "embedUrl": "https://www.youtube.com/embed/lPjhgo-nnKY",
-      "contentUrl": "https://www.youtube.com/watch?v=lPjhgo-nnKY"
+      "contentUrl": "https://www.youtube.com/watch?v=lPjhgo-nnKY",
+      "regionsAllowed": "CA",
+      "interactionStatistic": {
+        "@type": "InteractionCounter",
+        "interactionType": {
+          "@type": "WatchAction"
+        },
+        "userInteractionCount": 7053
+      }
     },
     {
       "@type": "ExercisePlan",

@@ -7,8 +7,8 @@
       "name": "Semont Cote Gauche - Vidéo Physiothérapie",
       "description": "Vidéo démonstration professionnelle de l'exercice semont cote gauche par les physiothérapeutes de Physioactif.",
       "thumbnailUrl": "https://i.ytimg.com/vi/su1zTAzRQ9I/maxresdefault.jpg",
-      "uploadDate": "2024-01-15T00:00:00-05:00",
-      "duration": "PT1M",
+      "uploadDate": "2024-07-16T15:43:49Z",
+      "duration": "PT36S",
       "publisher": {
         "@id": "https://www.physioactif.com/#org"
       },
@@ -36,7 +36,15 @@
         }
       ],
       "embedUrl": "https://www.youtube.com/embed/su1zTAzRQ9I",
-      "contentUrl": "https://www.youtube.com/watch?v=su1zTAzRQ9I"
+      "contentUrl": "https://www.youtube.com/watch?v=su1zTAzRQ9I",
+      "regionsAllowed": "CA",
+      "interactionStatistic": {
+        "@type": "InteractionCounter",
+        "interactionType": {
+          "@type": "WatchAction"
+        },
+        "userInteractionCount": 91
+      }
     },
     {
       "@type": "ExercisePlan",

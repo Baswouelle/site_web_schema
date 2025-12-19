@@ -7,8 +7,8 @@
       "name": "Mobilisation du Nerf Sciatique Oscillant au Genou Couche - Vidéo Physiothérapie",
       "description": "Vidéo démonstration professionnelle de l'exercice mobilisation du nerf sciatique oscillant au genou couche par les physiothérapeutes de Physioactif.",
       "thumbnailUrl": "https://i.ytimg.com/vi/FepOpaUQL94/maxresdefault.jpg",
-      "uploadDate": "2024-01-15T00:00:00-05:00",
-      "duration": "PT1M",
+      "uploadDate": "2015-06-02T13:38:28Z",
+      "duration": "PT28S",
       "publisher": {
         "@id": "https://www.physioactif.com/#org"
       },
@@ -36,7 +36,15 @@
         }
       ],
       "embedUrl": "https://www.youtube.com/embed/FepOpaUQL94",
-      "contentUrl": "https://www.youtube.com/watch?v=FepOpaUQL94"
+      "contentUrl": "https://www.youtube.com/watch?v=FepOpaUQL94",
+      "regionsAllowed": "CA",
+      "interactionStatistic": {
+        "@type": "InteractionCounter",
+        "interactionType": {
+          "@type": "WatchAction"
+        },
+        "userInteractionCount": 22156
+      }
     },
     {
       "@type": "ExercisePlan",

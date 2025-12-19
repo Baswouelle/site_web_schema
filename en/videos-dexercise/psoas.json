@@ -7,8 +7,8 @@
       "name": "Psoas - Vidéo Physiothérapie",
       "description": "Vidéo démonstration professionnelle de l'exercice psoas par les physiothérapeutes de Physioactif.",
       "thumbnailUrl": "https://i.ytimg.com/vi/EmFJGWLs7aU/maxresdefault.jpg",
-      "uploadDate": "2024-01-15T00:00:00-05:00",
-      "duration": "PT1M",
+      "uploadDate": "2015-04-22T22:24:27Z",
+      "duration": "PT19S",
       "publisher": {
         "@id": "https://www.physioactif.com/en/#org"
       },
@@ -36,7 +36,15 @@
         }
       ],
       "embedUrl": "https://www.youtube.com/embed/EmFJGWLs7aU",
-      "contentUrl": "https://www.youtube.com/watch?v=EmFJGWLs7aU"
+      "contentUrl": "https://www.youtube.com/watch?v=EmFJGWLs7aU",
+      "regionsAllowed": "CA",
+      "interactionStatistic": {
+        "@type": "InteractionCounter",
+        "interactionType": {
+          "@type": "WatchAction"
+        },
+        "userInteractionCount": 3297
+      }
     },
     {
       "@type": "ExercisePlan",

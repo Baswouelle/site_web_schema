@@ -6,9 +6,9 @@
       "@id": "https://www.physioactif.com/en/videos-dexercise/slump-en-flexion-plantaire-inversion#video",
       "name": "Slump en Flexion Plantaire Inversion - Vidéo Physiothérapie",
       "description": "Vidéo démonstration professionnelle de l'exercice slump en flexion plantaire inversion par les physiothérapeutes de Physioactif.",
-      "thumbnailUrl": "https://i.ytimg.com/vi/ERh6w9SbwoE/maxresdefault.jpg",
-      "uploadDate": "2024-01-15T00:00:00-05:00",
-      "duration": "PT1M",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ERh6w9SbwoE/hqdefault.jpg",
+      "uploadDate": "2020-04-28T18:59:25Z",
+      "duration": "PT1M1S",
       "publisher": {
         "@id": "https://www.physioactif.com/en/#org"
       },
@@ -36,7 +36,15 @@
         }
       ],
       "embedUrl": "https://www.youtube.com/embed/ERh6w9SbwoE",
-      "contentUrl": "https://www.youtube.com/watch?v=ERh6w9SbwoE"
+      "contentUrl": "https://www.youtube.com/watch?v=ERh6w9SbwoE",
+      "regionsAllowed": "CA",
+      "interactionStatistic": {
+        "@type": "InteractionCounter",
+        "interactionType": {
+          "@type": "WatchAction"
+        },
+        "userInteractionCount": 4130
+      }
     },
     {
       "@type": "ExercisePlan",

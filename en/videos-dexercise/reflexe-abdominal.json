@@ -7,8 +7,8 @@
       "name": "Reflexe Abdominal - Vidéo Physiothérapie",
       "description": "Vidéo démonstration professionnelle de l'exercice reflexe abdominal par les physiothérapeutes de Physioactif.",
       "thumbnailUrl": "https://i.ytimg.com/vi/EdxRGqnpxKQ/maxresdefault.jpg",
-      "uploadDate": "2024-01-15T00:00:00-05:00",
-      "duration": "PT1M",
+      "uploadDate": "2012-11-16T16:35:58Z",
+      "duration": "PT16S",
       "publisher": {
         "@id": "https://www.physioactif.com/en/#org"
       },
@@ -36,7 +36,15 @@
         }
       ],
       "embedUrl": "https://www.youtube.com/embed/EdxRGqnpxKQ",
-      "contentUrl": "https://www.youtube.com/watch?v=EdxRGqnpxKQ"
+      "contentUrl": "https://www.youtube.com/watch?v=EdxRGqnpxKQ",
+      "regionsAllowed": "CA",
+      "interactionStatistic": {
+        "@type": "InteractionCounter",
+        "interactionType": {
+          "@type": "WatchAction"
+        },
+        "userInteractionCount": 4087
+      }
     },
     {
       "@type": "ExercisePlan",

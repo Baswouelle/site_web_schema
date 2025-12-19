@@ -7,8 +7,8 @@
       "name": "Ulnt 3 - Vidéo Physiothérapie",
       "description": "Vidéo démonstration professionnelle de l'exercice ulnt 3 par les physiothérapeutes de Physioactif.",
       "thumbnailUrl": "https://i.ytimg.com/vi/B3YXkZEjGZU/maxresdefault.jpg",
-      "uploadDate": "2024-01-15T00:00:00-05:00",
-      "duration": "PT1M",
+      "uploadDate": "2015-06-02T13:18:51Z",
+      "duration": "PT22S",
       "publisher": {
         "@id": "https://www.physioactif.com/en/#org"
       },
@@ -36,7 +36,15 @@
         }
       ],
       "embedUrl": "https://www.youtube.com/embed/B3YXkZEjGZU",
-      "contentUrl": "https://www.youtube.com/watch?v=B3YXkZEjGZU"
+      "contentUrl": "https://www.youtube.com/watch?v=B3YXkZEjGZU",
+      "regionsAllowed": "CA",
+      "interactionStatistic": {
+        "@type": "InteractionCounter",
+        "interactionType": {
+          "@type": "WatchAction"
+        },
+        "userInteractionCount": 13992
+      }
     },
     {
       "@type": "ExercisePlan",

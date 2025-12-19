@@ -7,8 +7,8 @@
       "name": "Mobilisation du Nerf Saphene - Vidéo Physiothérapie",
       "description": "Vidéo démonstration professionnelle de l'exercice mobilisation du nerf saphene par les physiothérapeutes de Physioactif.",
       "thumbnailUrl": "https://i.ytimg.com/vi/pdODdM2RE_g/maxresdefault.jpg",
-      "uploadDate": "2024-01-15T00:00:00-05:00",
-      "duration": "PT1M",
+      "uploadDate": "2021-10-05T16:32:36Z",
+      "duration": "PT54S",
       "publisher": {
         "@id": "https://www.physioactif.com/en/#org"
       },
@@ -36,7 +36,15 @@
         }
       ],
       "embedUrl": "https://www.youtube.com/embed/pdODdM2RE_g",
-      "contentUrl": "https://www.youtube.com/watch?v=pdODdM2RE_g"
+      "contentUrl": "https://www.youtube.com/watch?v=pdODdM2RE_g",
+      "regionsAllowed": "CA",
+      "interactionStatistic": {
+        "@type": "InteractionCounter",
+        "interactionType": {
+          "@type": "WatchAction"
+        },
+        "userInteractionCount": 10310
+      }
     },
     {
       "@type": "ExercisePlan",

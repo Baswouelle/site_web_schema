@@ -7,8 +7,8 @@
       "name": "Plancher Pelvien - Vidéo Physiothérapie",
       "description": "Vidéo démonstration professionnelle de l'exercice plancher pelvien par les physiothérapeutes de Physioactif.",
       "thumbnailUrl": "https://i.ytimg.com/vi/NAyOfRFt6uQ/maxresdefault.jpg",
-      "uploadDate": "2024-01-15T00:00:00-05:00",
-      "duration": "PT1M",
+      "uploadDate": "2024-12-03T15:50:37Z",
+      "duration": "PT1M33S",
       "publisher": {
         "@id": "https://www.physioactif.com/en/#org"
       },
@@ -36,7 +36,15 @@
         }
       ],
       "embedUrl": "https://www.youtube.com/embed/NAyOfRFt6uQ",
-      "contentUrl": "https://www.youtube.com/watch?v=NAyOfRFt6uQ"
+      "contentUrl": "https://www.youtube.com/watch?v=NAyOfRFt6uQ",
+      "regionsAllowed": "CA",
+      "interactionStatistic": {
+        "@type": "InteractionCounter",
+        "interactionType": {
+          "@type": "WatchAction"
+        },
+        "userInteractionCount": 266
+      }
     },
     {
       "@type": "ExercisePlan",
