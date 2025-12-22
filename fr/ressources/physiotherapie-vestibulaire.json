@@ -1,0 +1,52 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "@id": "https://www.physioactif.com/ressources/physiotherapie-vestibulaire/#article",
+      "author": {"@type": "Person", "@id": "https://www.physioactif.com/equipe/lorianne-boulard/#person"},
+      "headline": "Physiothérapie vestibulaire: traitement des vertiges | Physioactif",
+      "description": "Découvrez la physiothérapie vestibulaire: rééducation spécialisée pour traiter les vertiges, étourdissements et troubles de l'équilibre.",
+      "url": "https://www.physioactif.com/ressources/physiotherapie-vestibulaire",
+      "inLanguage": ["fr-CA"],
+      "datePublished": "2026-01-16",
+      "image": {"@type": "ImageObject", "url": "https://cdn.prod.website-files.com/670e84ccd653d18590687563/physioactif-hero-default.jpg", "width": 1200, "height": 630},
+      "publisher": {"@id": "https://www.physioactif.com/#org"},
+      "mainEntityOfPage": {"@type": "WebPage", "@id": "https://www.physioactif.com/ressources/physiotherapie-vestibulaire/"},
+      "about": [
+        {"@type": "MedicalTherapy", "name": "Rééducation vestibulaire", "sameAs": ["https://www.wikidata.org/wiki/Q7306916", "https://en.wikipedia.org/wiki/Vestibular_rehabilitation"]},
+        {"@type": "MedicalTherapy", "name": "Physiothérapie", "sameAs": ["https://www.wikidata.org/wiki/Q186005"]}
+      ],
+      "articleSection": "Ressources",
+      "keywords": ["physiothérapie vestibulaire", "rééducation vestibulaire", "vertiges", "étourdissements", "équilibre", "VPPB"],
+      "mentions": [
+        {"@type": "DefinedTerm", "name": "Système vestibulaire", "description": "Système de l'oreille interne responsable de l'équilibre"},
+        {"@type": "DefinedTerm", "name": "VPPB", "description": "Vertige positionnel paroxystique bénin"},
+        {"@type": "DefinedTerm", "name": "Manœuvre d'Epley", "description": "Technique de repositionnement pour traiter le VPPB"},
+        {"@id": "https://www.physioactif.com/guide-complet/douleur-cervicale-guide-complet#condition"}
+      ]
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://www.physioactif.com/ressources/physiotherapie-vestibulaire/#webpage",
+      "datePublished": "2026-01-16",
+      "url": "https://www.physioactif.com/ressources/physiotherapie-vestibulaire",
+      "name": "Physiothérapie vestibulaire | Physioactif",
+      "description": "Découvrez la rééducation vestibulaire pour traiter les vertiges et troubles de l'équilibre.",
+      "inLanguage": ["fr-CA"],
+      "isPartOf": {"@id": "https://www.physioactif.com/#website"},
+      "mainEntity": {"@id": "https://www.physioactif.com/ressources/physiotherapie-vestibulaire/#article"},
+      "breadcrumb": {"@id": "https://www.physioactif.com/ressources/physiotherapie-vestibulaire/#breadcrumb"},
+      "publisher": {"@id": "https://www.physioactif.com/#org"}
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.physioactif.com/ressources/physiotherapie-vestibulaire/#breadcrumb",
+      "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Accueil", "item": "https://www.physioactif.com/"},
+        {"@type": "ListItem", "position": 2, "name": "Ressources", "item": "https://www.physioactif.com/ressources/"},
+        {"@type": "ListItem", "position": 3, "name": "Physiothérapie vestibulaire", "item": "https://www.physioactif.com/ressources/physiotherapie-vestibulaire"}
+      ]
+    }
+  ]
+}

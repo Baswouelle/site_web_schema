@@ -1,0 +1,51 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "@id": "https://www.physioactif.com/ressources/anatomie-cervicale/#article",
+      "author": {"@type": "Person", "@id": "https://www.physioactif.com/equipe/chloe-roy/#person"},
+      "headline": "Anatomie cervicale: comprendre votre cou | Physioactif",
+      "description": "Découvrez l'anatomie de la colonne cervicale: vertèbres, disques, muscles et nerfs du cou expliqués simplement.",
+      "url": "https://www.physioactif.com/ressources/anatomie-cervicale",
+      "inLanguage": ["fr-CA"],
+      "datePublished": "2026-01-13",
+      "image": {"@type": "ImageObject", "url": "https://cdn.prod.website-files.com/670e84ccd653d18590687563/physioactif-hero-default.jpg", "width": 1200, "height": 630},
+      "publisher": {"@id": "https://www.physioactif.com/#org"},
+      "mainEntityOfPage": {"@type": "WebPage", "@id": "https://www.physioactif.com/ressources/anatomie-cervicale/"},
+      "about": [
+        {"@type": "AnatomicalStructure", "name": "Colonne cervicale", "sameAs": ["https://www.wikidata.org/wiki/Q739038", "https://en.wikipedia.org/wiki/Cervical_vertebrae"]},
+        {"@type": "AnatomicalStructure", "name": "Vertèbres cervicales", "sameAs": ["https://www.wikidata.org/wiki/Q739038"]}
+      ],
+      "articleSection": "Ressources",
+      "keywords": ["anatomie cervicale", "colonne cervicale", "vertèbres cervicales", "C1-C7", "atlas", "axis", "disques cervicaux"],
+      "mentions": [
+        {"@type": "DefinedTerm", "name": "Atlas (C1)", "description": "Première vertèbre cervicale supportant le crâne"},
+        {"@type": "DefinedTerm", "name": "Axis (C2)", "description": "Deuxième vertèbre cervicale permettant la rotation de la tête"},
+        {"@id": "https://www.physioactif.com/guide-complet/douleur-cervicale-guide-complet#condition"}
+      ]
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://www.physioactif.com/ressources/anatomie-cervicale/#webpage",
+      "datePublished": "2026-01-13",
+      "url": "https://www.physioactif.com/ressources/anatomie-cervicale",
+      "name": "Anatomie cervicale | Physioactif",
+      "description": "Découvrez l'anatomie de la colonne cervicale: structure et fonction du cou.",
+      "inLanguage": ["fr-CA"],
+      "isPartOf": {"@id": "https://www.physioactif.com/#website"},
+      "mainEntity": {"@id": "https://www.physioactif.com/ressources/anatomie-cervicale/#article"},
+      "breadcrumb": {"@id": "https://www.physioactif.com/ressources/anatomie-cervicale/#breadcrumb"},
+      "publisher": {"@id": "https://www.physioactif.com/#org"}
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.physioactif.com/ressources/anatomie-cervicale/#breadcrumb",
+      "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Accueil", "item": "https://www.physioactif.com/"},
+        {"@type": "ListItem", "position": 2, "name": "Ressources", "item": "https://www.physioactif.com/ressources/"},
+        {"@type": "ListItem", "position": 3, "name": "Anatomie cervicale", "item": "https://www.physioactif.com/ressources/anatomie-cervicale"}
+      ]
+    }
+  ]
+}

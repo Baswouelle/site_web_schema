@@ -1,0 +1,55 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "MedicalCondition",
+      "@id": "https://www.physioactif.com/guide-complet/douleur-cervicale-guide-complet#condition",
+      "name": "Douleur cervicale",
+      "alternateName": ["Cervicalgie", "Neck pain", "Douleur au cou"],
+      "description": "Douleur localisée dans la région du cou, pouvant irradier vers les épaules, les bras ou la tête. Affecte les structures musculaires, articulaires et nerveuses de la colonne cervicale.",
+      "sameAs": [
+        "https://fr.wikipedia.org/wiki/Cervicalgie",
+        "https://en.wikipedia.org/wiki/Neck_pain",
+        "https://www.wikidata.org/wiki/Q1057059",
+        "https://meshb.nlm.nih.gov/record/ui?ui=D019547"
+      ],
+      "code": [{"@type": "MedicalCode", "code": "M54.2", "codingSystem": "ICD-10"}],
+      "associatedAnatomy": {"@type": "AnatomicalStructure", "name": "Colonne cervicale"},
+      "possibleTreatment": [{"@type": "MedicalTherapy", "name": "Physiothérapie"}]
+    },
+    {
+      "@type": "MedicalWebPage",
+      "@id": "https://www.physioactif.com/guide-complet/douleur-cervicale-guide-complet#article",
+      "author": {"@type": "Person", "@id": "https://www.physioactif.com/equipe/ariel-desjardins-charbonneau/#person"},
+      "reviewedBy": {"@type": "Person", "@id": "https://www.physioactif.com/equipe/claudine-farah/#person"},
+      "datePublished": "2026-01-09",
+      "name": "Douleur cervicale - Guide Complet",
+      "headline": "Douleur cervicale: Symptômes, Causes et Traitement en Physiothérapie",
+      "about": [{"@id": "https://www.physioactif.com/guide-complet/douleur-cervicale-guide-complet#condition"}],
+      "mainEntity": {"@id": "https://www.physioactif.com/guide-complet/douleur-cervicale-guide-complet#condition"},
+      "speakable": {"@type": "SpeakableSpecification", "cssSelector": [".header_heading", ".section_article .text-rich-text h2"]},
+      "specialty": ["Physiotherapy", "Musculoskeletal", "SpinalCare"],
+      "medicalAudience": [{"@type": "Patient"}],
+      "provider": {"@id": "https://www.physioactif.com/#org"},
+      "inLanguage": ["fr-CA"],
+      "isPartOf": {"@id": "https://www.physioactif.com/#website"}
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://www.physioactif.com/guide-complet/douleur-cervicale-guide-complet#webpage",
+      "datePublished": "2026-01-09",
+      "url": "https://www.physioactif.com/guide-complet/douleur-cervicale-guide-complet",
+      "name": "Douleur cervicale - Guide Complet | Physioactif",
+      "description": "Guide complet sur la douleur cervicale: causes, symptômes et traitements en physiothérapie.",
+      "mainEntity": {"@id": "https://www.physioactif.com/guide-complet/douleur-cervicale-guide-complet#condition"},
+      "breadcrumb": {"@type": "BreadcrumbList", "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Accueil", "item": "https://www.physioactif.com/"},
+        {"@type": "ListItem", "position": 2, "name": "Guide Complet", "item": "https://www.physioactif.com/guide-complet"},
+        {"@type": "ListItem", "position": 3, "name": "Douleur cervicale", "item": "https://www.physioactif.com/guide-complet/douleur-cervicale-guide-complet"}
+      ]},
+      "isPartOf": {"@id": "https://www.physioactif.com/#website"},
+      "inLanguage": ["fr-CA"],
+      "publisher": {"@id": "https://www.physioactif.com/#org"}
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "@id": "https://www.physioactif.com/ressources/cephalees-cervicogeniques/#article",
+      "author": {"@type": "Person", "@id": "https://www.physioactif.com/equipe/philippe-paradis/#person"},
+      "headline": "Céphalées cervicogéniques: maux de tête d'origine cervicale | Physioactif",
+      "description": "Découvrez les céphalées cervicogéniques: maux de tête causés par des problèmes cervicaux et comment la physiothérapie peut aider.",
+      "url": "https://www.physioactif.com/ressources/cephalees-cervicogeniques",
+      "inLanguage": ["fr-CA"],
+      "datePublished": "2026-01-16",
+      "image": {"@type": "ImageObject", "url": "https://cdn.prod.website-files.com/670e84ccd653d18590687563/physioactif-hero-default.jpg", "width": 1200, "height": 630},
+      "publisher": {"@id": "https://www.physioactif.com/#org"},
+      "mainEntityOfPage": {"@type": "WebPage", "@id": "https://www.physioactif.com/ressources/cephalees-cervicogeniques/"},
+      "about": [
+        {"@type": "MedicalCondition", "name": "Céphalée cervicogénique", "sameAs": ["https://www.wikidata.org/wiki/Q5061651", "https://en.wikipedia.org/wiki/Cervicogenic_headache"]},
+        {"@type": "MedicalTherapy", "name": "Physiothérapie", "sameAs": ["https://www.wikidata.org/wiki/Q186005"]}
+      ],
+      "articleSection": "Ressources",
+      "keywords": ["céphalée cervicogénique", "mal de tête cervical", "douleur référée", "physiothérapie", "cou"],
+      "mentions": [
+        {"@type": "DefinedTerm", "name": "Douleur référée", "description": "Douleur perçue dans une zone différente de son origine"},
+        {"@type": "DefinedTerm", "name": "Articulations facettaires", "description": "Articulations entre les vertèbres pouvant causer des maux de tête"},
+        {"@id": "https://www.physioactif.com/guide-complet/douleur-cervicale-guide-complet#condition"}
+      ]
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://www.physioactif.com/ressources/cephalees-cervicogeniques/#webpage",
+      "datePublished": "2026-01-16",
+      "url": "https://www.physioactif.com/ressources/cephalees-cervicogeniques",
+      "name": "Céphalées cervicogéniques | Physioactif",
+      "description": "Découvrez les maux de tête d'origine cervicale et leurs traitements.",
+      "inLanguage": ["fr-CA"],
+      "isPartOf": {"@id": "https://www.physioactif.com/#website"},
+      "mainEntity": {"@id": "https://www.physioactif.com/ressources/cephalees-cervicogeniques/#article"},
+      "breadcrumb": {"@id": "https://www.physioactif.com/ressources/cephalees-cervicogeniques/#breadcrumb"},
+      "publisher": {"@id": "https://www.physioactif.com/#org"}
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.physioactif.com/ressources/cephalees-cervicogeniques/#breadcrumb",
+      "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Accueil", "item": "https://www.physioactif.com/"},
+        {"@type": "ListItem", "position": 2, "name": "Ressources", "item": "https://www.physioactif.com/ressources/"},
+        {"@type": "ListItem", "position": 3, "name": "Céphalées cervicogéniques", "item": "https://www.physioactif.com/ressources/cephalees-cervicogeniques"}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "MedicalTherapy",
+      "@id": "https://www.physioactif.com/guide-complet/physiotherapie-pour-douleur-cervicale#therapy",
+      "name": "Physiothérapie pour douleur cervicale",
+      "alternateName": ["Physical therapy for neck pain", "Rééducation cervicale"],
+      "description": "Approche thérapeutique spécialisée utilisant des techniques manuelles, des exercices et des modalités pour traiter la douleur cervicale et restaurer la fonction du cou.",
+      "sameAs": [
+        "https://en.wikipedia.org/wiki/Physical_therapy",
+        "https://www.wikidata.org/wiki/Q186005",
+        "https://meshb.nlm.nih.gov/record/ui?ui=D026741"
+      ],
+      "relevantCondition": {"@id": "https://www.physioactif.com/guide-complet/douleur-cervicale-guide-complet#condition"}
+    },
+    {
+      "@type": "MedicalWebPage",
+      "@id": "https://www.physioactif.com/guide-complet/physiotherapie-pour-douleur-cervicale#article",
+      "author": {"@type": "Person", "@id": "https://www.physioactif.com/equipe/claudine-farah/#person"},
+      "reviewedBy": {"@type": "Person", "@id": "https://www.physioactif.com/equipe/alexis-gougeon/#person"},
+      "datePublished": "2026-01-09",
+      "name": "Physiothérapie pour douleur cervicale - Guide Complet",
+      "headline": "Physiothérapie pour douleur cervicale: Traitements et Exercices",
+      "about": [{"@id": "https://www.physioactif.com/guide-complet/physiotherapie-pour-douleur-cervicale#therapy"}],
+      "mainEntity": {"@id": "https://www.physioactif.com/guide-complet/physiotherapie-pour-douleur-cervicale#therapy"},
+      "speakable": {"@type": "SpeakableSpecification", "cssSelector": [".header_heading", ".section_article .text-rich-text h2"]},
+      "specialty": ["Physiotherapy", "Musculoskeletal", "SpinalCare"],
+      "medicalAudience": [{"@type": "Patient"}],
+      "provider": {"@id": "https://www.physioactif.com/#org"},
+      "inLanguage": ["fr-CA"],
+      "isPartOf": {"@id": "https://www.physioactif.com/#website"},
+      "mentions": [
+        {"@id": "https://www.physioactif.com/guide-complet/douleur-cervicale-guide-complet#condition"}
+      ]
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://www.physioactif.com/guide-complet/physiotherapie-pour-douleur-cervicale#webpage",
+      "datePublished": "2026-01-09",
+      "url": "https://www.physioactif.com/guide-complet/physiotherapie-pour-douleur-cervicale",
+      "name": "Physiothérapie pour douleur cervicale - Guide Complet | Physioactif",
+      "description": "Guide complet sur la physiothérapie pour traiter la douleur cervicale: techniques, exercices et approches thérapeutiques.",
+      "mainEntity": {"@id": "https://www.physioactif.com/guide-complet/physiotherapie-pour-douleur-cervicale#therapy"},
+      "breadcrumb": {"@type": "BreadcrumbList", "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Accueil", "item": "https://www.physioactif.com/"},
+        {"@type": "ListItem", "position": 2, "name": "Guide Complet", "item": "https://www.physioactif.com/guide-complet"},
+        {"@type": "ListItem", "position": 3, "name": "Physiothérapie pour douleur cervicale", "item": "https://www.physioactif.com/guide-complet/physiotherapie-pour-douleur-cervicale"}
+      ]},
+      "isPartOf": {"@id": "https://www.physioactif.com/#website"},
+      "inLanguage": ["fr-CA"],
+      "publisher": {"@id": "https://www.physioactif.com/#org"}
+    }
+  ]
+}

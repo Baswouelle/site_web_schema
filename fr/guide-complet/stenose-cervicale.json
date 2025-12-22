@@ -1,0 +1,57 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "MedicalCondition",
+      "@id": "https://www.physioactif.com/guide-complet/stenose-cervicale#condition",
+      "name": "Sténose cervicale",
+      "alternateName": ["Cervical spinal stenosis", "Rétrécissement du canal cervical", "Sténose spinale cervicale"],
+      "description": "Rétrécissement du canal rachidien au niveau cervical, pouvant comprimer la moelle épinière ou les racines nerveuses et causer des douleurs, engourdissements et faiblesse.",
+      "sameAs": [
+        "https://en.wikipedia.org/wiki/Spinal_stenosis",
+        "https://www.wikidata.org/wiki/Q1420478",
+        "https://meshb.nlm.nih.gov/record/ui?ui=D013130"
+      ],
+      "code": [{"@type": "MedicalCode", "code": "M48.02", "codingSystem": "ICD-10"}],
+      "associatedAnatomy": {"@type": "AnatomicalStructure", "name": "Canal rachidien cervical"},
+      "possibleTreatment": [{"@type": "MedicalTherapy", "name": "Physiothérapie"}]
+    },
+    {
+      "@type": "MedicalWebPage",
+      "@id": "https://www.physioactif.com/guide-complet/stenose-cervicale#article",
+      "author": {"@type": "Person", "@id": "https://www.physioactif.com/equipe/alexis-gougeon/#person"},
+      "reviewedBy": {"@type": "Person", "@id": "https://www.physioactif.com/equipe/philippe-paradis/#person"},
+      "datePublished": "2026-01-13",
+      "name": "Sténose cervicale - Guide Complet",
+      "headline": "Sténose cervicale: Symptômes, Causes et Traitement en Physiothérapie",
+      "about": [{"@id": "https://www.physioactif.com/guide-complet/stenose-cervicale#condition"}],
+      "mainEntity": {"@id": "https://www.physioactif.com/guide-complet/stenose-cervicale#condition"},
+      "speakable": {"@type": "SpeakableSpecification", "cssSelector": [".header_heading", ".section_article .text-rich-text h2"]},
+      "specialty": ["Physiotherapy", "Musculoskeletal", "SpinalCare"],
+      "medicalAudience": [{"@type": "Patient"}],
+      "provider": {"@id": "https://www.physioactif.com/#org"},
+      "inLanguage": ["fr-CA"],
+      "isPartOf": {"@id": "https://www.physioactif.com/#website"},
+      "mentions": [
+        {"@id": "https://www.physioactif.com/guide-complet/douleur-cervicale-guide-complet#condition"}
+      ]
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://www.physioactif.com/guide-complet/stenose-cervicale#webpage",
+      "datePublished": "2026-01-13",
+      "url": "https://www.physioactif.com/guide-complet/stenose-cervicale",
+      "name": "Sténose cervicale - Guide Complet | Physioactif",
+      "description": "Guide complet sur la sténose cervicale: causes, symptômes et traitements en physiothérapie.",
+      "mainEntity": {"@id": "https://www.physioactif.com/guide-complet/stenose-cervicale#condition"},
+      "breadcrumb": {"@type": "BreadcrumbList", "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Accueil", "item": "https://www.physioactif.com/"},
+        {"@type": "ListItem", "position": 2, "name": "Guide Complet", "item": "https://www.physioactif.com/guide-complet"},
+        {"@type": "ListItem", "position": 3, "name": "Sténose cervicale", "item": "https://www.physioactif.com/guide-complet/stenose-cervicale"}
+      ]},
+      "isPartOf": {"@id": "https://www.physioactif.com/#website"},
+      "inLanguage": ["fr-CA"],
+      "publisher": {"@id": "https://www.physioactif.com/#org"}
+    }
+  ]
+}
