@@ -1,0 +1,190 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "MedicalCondition",
+      "@id": "https://www.physioactif.com/guide-complet/douleur-machoire-atm#condition",
+      "name": "Douleur mâchoire (atm)",
+      "alternateName": [
+        "Jaw (TMJ) pain",
+        "Douleur mâchoire (atm)"
+      ],
+      "description": "Découvrez les causes de la douleur à la mâchoire et les traitements efficaces. La physiothérapie aide dans 70 à 90% des cas de troubles de l'ATM.",
+      "associatedAnatomy": {
+        "@type": "AnatomicalStructure",
+        "name": "Mâchoire (ATM)"
+      },
+      "possibleTreatment": {
+        "@type": "MedicalTherapy",
+        "name": "Physiothérapie",
+        "sameAs": "https://www.physioactif.com/guide-complet/physiotherapie"
+      },
+      "sameAs": [
+        "https://fr.wikipedia.org/wiki/Articulation_temporo-mandibulaire",
+        "https://en.wikipedia.org/wiki/Temporomandibular_joint_dysfunction",
+        "https://www.wikidata.org/wiki/Q1757212"
+      ]
+    },
+    {
+      "@type": "MedicalWebPage",
+      "@id": "https://www.physioactif.com/guide-complet/douleur-machoire-atm#article",
+      "author": {
+        "@type": "Person",
+        "@id": "https://www.physioactif.com/equipe/ariel-desjardins-charbonneau/#person"
+      },
+      "datePublished": "2026-01-09",
+      "name": "Douleur à la mâchoire (ATM)",
+      "headline": "Douleur à la mâchoire (ATM) : causes, symptômes et traitement",
+      "about": [
+        {
+          "@id": "https://www.physioactif.com/guide-complet/douleur-machoire-atm#condition"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Physiothérapie",
+          "alternateName": [
+            "Physical therapy",
+            "Kinésithérapie",
+            "Fisioterapia"
+          ],
+          "sameAs": [
+            "https://www.physioactif.com/guide-complet/physiotherapie",
+            "https://www.wikidata.org/wiki/Q186005",
+            "https://en.wikipedia.org/wiki/Physical_therapy",
+            "https://fr.wikipedia.org/wiki/Kinésithérapie",
+            "https://meshb.nlm.nih.gov/record/ui?ui=D026761",
+            "https://www.merriam-webster.com/dictionary/physiotherapy",
+            "https://www.britannica.com/topic/physical-therapy"
+          ]
+        }
+      ],
+      "mainEntity": {
+        "@id": "https://www.physioactif.com/guide-complet/douleur-machoire-atm#condition"
+      },
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [
+          ".header_heading",
+          ".header_content .text-style-muted.w-richtext",
+          ".section_article .text-rich-text h2"
+        ]
+      },
+      "specialty": [
+        "Physiotherapy",
+        "Musculoskeletal"
+      ],
+      "medicalAudience": [
+        {
+          "@type": "Patient"
+        },
+        {
+          "@type": "MedicalAudience",
+          "audienceType": "General Public"
+        }
+      ],
+      "reviewedBy": {
+        "@id": "https://www.physioactif.com/#org"
+      },
+      "provider": {
+        "@id": "https://www.physioactif.com/#org"
+      },
+      "inLanguage": [
+        "fr-CA"
+      ],
+      "isPartOf": {
+        "@id": "https://www.physioactif.com/#website"
+      },
+      "mentions": [
+        {
+          "@type": "MedicalTherapy",
+          "name": "Physiothérapie",
+          "alternateName": [
+            "Physical therapy",
+            "Kinésithérapie",
+            "Fisioterapia"
+          ],
+          "sameAs": [
+            "https://www.physioactif.com/guide-complet/physiotherapie",
+            "https://www.wikidata.org/wiki/Q186005",
+            "https://en.wikipedia.org/wiki/Physical_therapy",
+            "https://fr.wikipedia.org/wiki/Kinésithérapie",
+            "https://meshb.nlm.nih.gov/record/ui?ui=D026761",
+            "https://www.merriam-webster.com/dictionary/physiotherapy",
+            "https://www.britannica.com/topic/physical-therapy"
+          ]
+        },
+        {
+          "@type": "MedicalCondition",
+          "name": "Bruxisme",
+          "sameAs": "https://www.physioactif.com/guide-complet/bruxisme"
+        },
+        {
+          "@type": "MedicalCondition",
+          "name": "Maux de tête",
+          "sameAs": "https://www.physioactif.com/guide-complet/maux-de-tete-cephalees"
+        }
+      ]
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://www.physioactif.com/guide-complet/douleur-machoire-atm#webpage",
+      "datePublished": "2026-01-09",
+      "url": "https://www.physioactif.com/guide-complet/douleur-machoire-atm",
+      "name": "Douleur à la mâchoire (ATM) | Physioactif",
+      "description": "Découvrez les causes de la douleur à la mâchoire et les traitements efficaces. La physiothérapie aide dans 70 à 90% des cas de troubles de l'ATM.",
+      "mainEntity": {
+        "@id": "https://www.physioactif.com/guide-complet/douleur-machoire-atm#condition"
+      },
+      "about": {
+        "@id": "https://www.physioactif.com/guide-complet/douleur-machoire-atm#condition"
+      },
+      "breadcrumb": {
+        "@type": "BreadcrumbList",
+        "@id": "https://www.physioactif.com/guide-complet/douleur-machoire-atm#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Accueil",
+            "item": "https://www.physioactif.com/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Guide Complet",
+            "item": "https://www.physioactif.com/guide-complet"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Douleur à la mâchoire (ATM)",
+            "item": "https://www.physioactif.com/guide-complet/douleur-machoire-atm"
+          }
+        ]
+      },
+      "isPartOf": {
+        "@id": "https://www.physioactif.com/#website"
+      },
+      "inLanguage": [
+        "fr-CA"
+      ],
+      "potentialAction": {
+        "@type": "ReadAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://www.physioactif.com/guide-complet/douleur-machoire-atm",
+          "actionPlatform": [
+            "http://schema.org/DesktopWebPlatform",
+            "http://schema.org/MobileWebPlatform"
+          ]
+        }
+      },
+      "relatedLink": [
+        "https://physioactif.clinicmaster.com/clinic-selection?lang=fr-CA"
+      ],
+      "publisher": {
+        "@id": "https://www.physioactif.com/#org"
+      }
+    }
+  ]
+}

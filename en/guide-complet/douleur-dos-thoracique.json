@@ -1,0 +1,189 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "MedicalCondition",
+      "@id": "https://www.physioactif.com/en/guide-complet/douleur-dos-thoracique#condition",
+      "name": "Douleur dos thoracique",
+      "alternateName": [
+        "Thoracic Spine pain",
+        "Douleur dos thoracique"
+      ],
+      "description": "Soulagez votre douleur au haut du dos: causes musculaires, articulaires et posturales. La physiothérapie traite efficacement.",
+      "associatedAnatomy": {
+        "@type": "AnatomicalStructure",
+        "name": "Dos thoracique"
+      },
+      "possibleTreatment": {
+        "@type": "MedicalTherapy",
+        "name": "Physiothérapie",
+        "sameAs": "https://www.physioactif.com/en/guide-complet/physiotherapie"
+      },
+      "sameAs": [
+        "https://fr.wikipedia.org/wiki/Colonne_vertébrale_thoracique",
+        "https://en.wikipedia.org/wiki/Thoracic_vertebrae"
+      ]
+    },
+    {
+      "@type": "MedicalWebPage",
+      "@id": "https://www.physioactif.com/en/guide-complet/douleur-dos-thoracique#article",
+      "author": {
+        "@type": "Person",
+        "@id": "https://www.physioactif.com/en/equipe/ariel-desjardins-charbonneau/#person"
+      },
+      "datePublished": "2026-01-09",
+      "name": "Douleur au dos thoracique",
+      "headline": "Douleur au dos thoracique: Causes et traitement",
+      "about": [
+        {
+          "@id": "https://www.physioactif.com/en/guide-complet/douleur-dos-thoracique#condition"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Physiothérapie",
+          "alternateName": [
+            "Physical therapy",
+            "Kinésithérapie",
+            "Fisioterapia"
+          ],
+          "sameAs": [
+            "https://www.physioactif.com/en/guide-complet/physiotherapie",
+            "https://www.wikidata.org/wiki/Q186005",
+            "https://en.wikipedia.org/wiki/Physical_therapy",
+            "https://fr.wikipedia.org/wiki/Kinésithérapie",
+            "https://meshb.nlm.nih.gov/record/ui?ui=D026761",
+            "https://www.merriam-webster.com/dictionary/physiotherapy",
+            "https://www.britannica.com/topic/physical-therapy"
+          ]
+        }
+      ],
+      "mainEntity": {
+        "@id": "https://www.physioactif.com/en/guide-complet/douleur-dos-thoracique#condition"
+      },
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [
+          ".header_heading",
+          ".header_content .text-style-muted.w-richtext",
+          ".section_article .text-rich-text h2"
+        ]
+      },
+      "specialty": [
+        "Physiotherapy",
+        "Musculoskeletal"
+      ],
+      "medicalAudience": [
+        {
+          "@type": "Patient"
+        },
+        {
+          "@type": "MedicalAudience",
+          "audienceType": "General Public"
+        }
+      ],
+      "reviewedBy": {
+        "@id": "https://www.physioactif.com/#org"
+      },
+      "provider": {
+        "@id": "https://www.physioactif.com/#org"
+      },
+      "inLanguage": [
+        "en-CA"
+      ],
+      "isPartOf": {
+        "@id": "https://www.physioactif.com/#website"
+      },
+      "mentions": [
+        {
+          "@type": "MedicalTherapy",
+          "name": "Physiothérapie",
+          "alternateName": [
+            "Physical therapy",
+            "Kinésithérapie",
+            "Fisioterapia"
+          ],
+          "sameAs": [
+            "https://www.physioactif.com/en/guide-complet/physiotherapie",
+            "https://www.wikidata.org/wiki/Q186005",
+            "https://en.wikipedia.org/wiki/Physical_therapy",
+            "https://fr.wikipedia.org/wiki/Kinésithérapie",
+            "https://meshb.nlm.nih.gov/record/ui?ui=D026761",
+            "https://www.merriam-webster.com/dictionary/physiotherapy",
+            "https://www.britannica.com/topic/physical-therapy"
+          ]
+        },
+        {
+          "@type": "MedicalCondition",
+          "name": "Douleur au dos",
+          "sameAs": "https://www.physioactif.com/en/guide-complet/douleur-dos-guide-complet"
+        },
+        {
+          "@type": "MedicalCondition",
+          "name": "Douleur à l'épaule",
+          "sameAs": "https://www.physioactif.com/en/guide-complet/douleur-epaule-guide-complet"
+        }
+      ]
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://www.physioactif.com/en/guide-complet/douleur-dos-thoracique#webpage",
+      "datePublished": "2026-01-09",
+      "url": "https://www.physioactif.com/en/guide-complet/douleur-dos-thoracique",
+      "name": "Douleur au dos thoracique | Physioactif",
+      "description": "Soulagez votre douleur au haut du dos: causes musculaires, articulaires et posturales. La physiothérapie traite efficacement.",
+      "mainEntity": {
+        "@id": "https://www.physioactif.com/en/guide-complet/douleur-dos-thoracique#condition"
+      },
+      "about": {
+        "@id": "https://www.physioactif.com/en/guide-complet/douleur-dos-thoracique#condition"
+      },
+      "breadcrumb": {
+        "@type": "BreadcrumbList",
+        "@id": "https://www.physioactif.com/en/guide-complet/douleur-dos-thoracique#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Accueil",
+            "item": "https://www.physioactif.com/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Guide Complet",
+            "item": "https://www.physioactif.com/guide-complet"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Douleur au dos thoracique",
+            "item": "https://www.physioactif.com/en/guide-complet/douleur-dos-thoracique"
+          }
+        ]
+      },
+      "isPartOf": {
+        "@id": "https://www.physioactif.com/#website"
+      },
+      "inLanguage": [
+        "en-CA"
+      ],
+      "potentialAction": {
+        "@type": "ReadAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://www.physioactif.com/en/guide-complet/douleur-dos-thoracique",
+          "actionPlatform": [
+            "http://schema.org/DesktopWebPlatform",
+            "http://schema.org/MobileWebPlatform"
+          ]
+        }
+      },
+      "relatedLink": [
+        "https://physioactif.clinicmaster.com/clinic-selection?lang=fr-CA"
+      ],
+      "publisher": {
+        "@id": "https://www.physioactif.com/#org"
+      }
+    }
+  ]
+}

@@ -1,0 +1,201 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "MedicalCondition",
+      "@id": "https://www.physioactif.com/guide-complet/douleur-tete-visage-guide#condition",
+      "name": "Douleur à la tête et au visage",
+      "alternateName": [
+        "Head and Face pain",
+        "Douleur tête et visage"
+      ],
+      "description": "Identifiez l'origine de votre douleur: mâchoire (ATM), cou, vertiges ou commotion. Guide pratique par des physiothérapeutes.",
+      "associatedAnatomy": {
+        "@type": "AnatomicalStructure",
+        "name": "Tête et visage"
+      },
+      "possibleTreatment": {
+        "@type": "MedicalTherapy",
+        "name": "Physiothérapie",
+        "sameAs": "https://www.physioactif.com/guide-complet/physiotherapie"
+      },
+      "sameAs": [
+        "https://fr.wikipedia.org/wiki/Tête",
+        "https://fr.wikipedia.org/wiki/Visage",
+        "https://en.wikipedia.org/wiki/Head",
+        "https://en.wikipedia.org/wiki/Face"
+      ]
+    },
+    {
+      "@type": "MedicalWebPage",
+      "@id": "https://www.physioactif.com/guide-complet/douleur-tete-visage-guide#article",
+      "author": {
+        "@type": "Person",
+        "@id": "https://www.physioactif.com/equipe/ariel-desjardins-charbonneau/#person"
+      },
+      "datePublished": "2026-01-09",
+      "name": "Douleur à la tête et au visage",
+      "headline": "Douleur à la tête et au visage : comprendre vos symptômes",
+      "about": [
+        {
+          "@id": "https://www.physioactif.com/guide-complet/douleur-tete-visage-guide#condition"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Physiothérapie",
+          "alternateName": [
+            "Physical therapy",
+            "Kinésithérapie",
+            "Fisioterapia"
+          ],
+          "sameAs": [
+            "https://www.physioactif.com/guide-complet/physiotherapie",
+            "https://www.wikidata.org/wiki/Q186005",
+            "https://en.wikipedia.org/wiki/Physical_therapy",
+            "https://fr.wikipedia.org/wiki/Kinésithérapie",
+            "https://meshb.nlm.nih.gov/record/ui?ui=D026761",
+            "https://www.merriam-webster.com/dictionary/physiotherapy",
+            "https://www.britannica.com/topic/physical-therapy"
+          ]
+        }
+      ],
+      "mainEntity": {
+        "@id": "https://www.physioactif.com/guide-complet/douleur-tete-visage-guide#condition"
+      },
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [
+          ".header_heading",
+          ".header_content .text-style-muted.w-richtext",
+          ".section_article .text-rich-text h2"
+        ]
+      },
+      "specialty": [
+        "Physiotherapy",
+        "Musculoskeletal"
+      ],
+      "medicalAudience": [
+        {
+          "@type": "Patient"
+        },
+        {
+          "@type": "MedicalAudience",
+          "audienceType": "General Public"
+        }
+      ],
+      "reviewedBy": {
+        "@id": "https://www.physioactif.com/#org"
+      },
+      "provider": {
+        "@id": "https://www.physioactif.com/#org"
+      },
+      "inLanguage": [
+        "fr-CA"
+      ],
+      "isPartOf": {
+        "@id": "https://www.physioactif.com/#website"
+      },
+      "mentions": [
+        {
+          "@type": "MedicalTherapy",
+          "name": "Physiothérapie",
+          "alternateName": [
+            "Physical therapy",
+            "Kinésithérapie",
+            "Fisioterapia"
+          ],
+          "sameAs": [
+            "https://www.physioactif.com/guide-complet/physiotherapie",
+            "https://www.wikidata.org/wiki/Q186005",
+            "https://en.wikipedia.org/wiki/Physical_therapy",
+            "https://fr.wikipedia.org/wiki/Kinésithérapie",
+            "https://meshb.nlm.nih.gov/record/ui?ui=D026761",
+            "https://www.merriam-webster.com/dictionary/physiotherapy",
+            "https://www.britannica.com/topic/physical-therapy"
+          ]
+        },
+        {
+          "@type": "MedicalCondition",
+          "name": "Douleur à la mâchoire (ATM)",
+          "sameAs": "https://www.physioactif.com/guide-complet/douleur-machoire-atm"
+        },
+        {
+          "@type": "MedicalCondition",
+          "name": "Maux de tête",
+          "sameAs": "https://www.physioactif.com/guide-complet/maux-de-tete-cephalees"
+        },
+        {
+          "@type": "MedicalCondition",
+          "name": "Vertigo",
+          "sameAs": "https://www.physioactif.com/guide-complet/vertigo-etourdissements"
+        },
+        {
+          "@type": "MedicalCondition",
+          "name": "Commotion cérébrale",
+          "sameAs": "https://www.physioactif.com/guide-complet/commotion-cerebrale"
+        }
+      ]
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://www.physioactif.com/guide-complet/douleur-tete-visage-guide#webpage",
+      "datePublished": "2026-01-09",
+      "url": "https://www.physioactif.com/guide-complet/douleur-tete-visage-guide",
+      "name": "Douleur à la tête et au visage | Physioactif",
+      "description": "Identifiez l'origine de votre douleur: mâchoire (ATM), cou, vertiges ou commotion. Guide pratique par des physiothérapeutes.",
+      "mainEntity": {
+        "@id": "https://www.physioactif.com/guide-complet/douleur-tete-visage-guide#condition"
+      },
+      "about": {
+        "@id": "https://www.physioactif.com/guide-complet/douleur-tete-visage-guide#condition"
+      },
+      "breadcrumb": {
+        "@type": "BreadcrumbList",
+        "@id": "https://www.physioactif.com/guide-complet/douleur-tete-visage-guide#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Accueil",
+            "item": "https://www.physioactif.com/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Guide Complet",
+            "item": "https://www.physioactif.com/guide-complet"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Douleur à la tête et au visage",
+            "item": "https://www.physioactif.com/guide-complet/douleur-tete-visage-guide"
+          }
+        ]
+      },
+      "isPartOf": {
+        "@id": "https://www.physioactif.com/#website"
+      },
+      "inLanguage": [
+        "fr-CA"
+      ],
+      "potentialAction": {
+        "@type": "ReadAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://www.physioactif.com/guide-complet/douleur-tete-visage-guide",
+          "actionPlatform": [
+            "http://schema.org/DesktopWebPlatform",
+            "http://schema.org/MobileWebPlatform"
+          ]
+        }
+      },
+      "relatedLink": [
+        "https://physioactif.clinicmaster.com/clinic-selection?lang=fr-CA"
+      ],
+      "publisher": {
+        "@id": "https://www.physioactif.com/#org"
+      }
+    }
+  ]
+}

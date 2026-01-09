@@ -1,0 +1,195 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "MedicalCondition",
+      "@id": "https://www.physioactif.com/en/guide-complet/maux-de-tete-cephalees#condition",
+      "name": "Douleur tête",
+      "alternateName": [
+        "Head pain",
+        "Douleur tête"
+      ],
+      "description": "Comprenez vos maux de tête: tension, cervicogénique ou migraine. Découvrez comment la physiothérapie soulage les céphalées.",
+      "associatedAnatomy": {
+        "@type": "AnatomicalStructure",
+        "name": "Tête"
+      },
+      "possibleTreatment": {
+        "@type": "MedicalTherapy",
+        "name": "Physiothérapie",
+        "sameAs": "https://www.physioactif.com/en/guide-complet/physiotherapie"
+      },
+      "sameAs": [
+        "https://fr.wikipedia.org/wiki/Céphalée",
+        "https://en.wikipedia.org/wiki/Headache",
+        "https://www.wikidata.org/wiki/Q10707169"
+      ]
+    },
+    {
+      "@type": "MedicalWebPage",
+      "@id": "https://www.physioactif.com/en/guide-complet/maux-de-tete-cephalees#article",
+      "author": {
+        "@type": "Person",
+        "@id": "https://www.physioactif.com/en/equipe/ariel-desjardins-charbonneau/#person"
+      },
+      "datePublished": "2026-01-09",
+      "name": "Maux de tête et céphalées",
+      "headline": "Maux de tête et céphalées: Causes et traitement",
+      "about": [
+        {
+          "@id": "https://www.physioactif.com/en/guide-complet/maux-de-tete-cephalees#condition"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Physiothérapie",
+          "alternateName": [
+            "Physical therapy",
+            "Kinésithérapie",
+            "Fisioterapia"
+          ],
+          "sameAs": [
+            "https://www.physioactif.com/en/guide-complet/physiotherapie",
+            "https://www.wikidata.org/wiki/Q186005",
+            "https://en.wikipedia.org/wiki/Physical_therapy",
+            "https://fr.wikipedia.org/wiki/Kinésithérapie",
+            "https://meshb.nlm.nih.gov/record/ui?ui=D026761",
+            "https://www.merriam-webster.com/dictionary/physiotherapy",
+            "https://www.britannica.com/topic/physical-therapy"
+          ]
+        }
+      ],
+      "mainEntity": {
+        "@id": "https://www.physioactif.com/en/guide-complet/maux-de-tete-cephalees#condition"
+      },
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [
+          ".header_heading",
+          ".header_content .text-style-muted.w-richtext",
+          ".section_article .text-rich-text h2"
+        ]
+      },
+      "specialty": [
+        "Physiotherapy",
+        "Musculoskeletal"
+      ],
+      "medicalAudience": [
+        {
+          "@type": "Patient"
+        },
+        {
+          "@type": "MedicalAudience",
+          "audienceType": "General Public"
+        }
+      ],
+      "reviewedBy": {
+        "@id": "https://www.physioactif.com/#org"
+      },
+      "provider": {
+        "@id": "https://www.physioactif.com/#org"
+      },
+      "inLanguage": [
+        "en-CA"
+      ],
+      "isPartOf": {
+        "@id": "https://www.physioactif.com/#website"
+      },
+      "mentions": [
+        {
+          "@type": "MedicalTherapy",
+          "name": "Physiothérapie",
+          "alternateName": [
+            "Physical therapy",
+            "Kinésithérapie",
+            "Fisioterapia"
+          ],
+          "sameAs": [
+            "https://www.physioactif.com/en/guide-complet/physiotherapie",
+            "https://www.wikidata.org/wiki/Q186005",
+            "https://en.wikipedia.org/wiki/Physical_therapy",
+            "https://fr.wikipedia.org/wiki/Kinésithérapie",
+            "https://meshb.nlm.nih.gov/record/ui?ui=D026761",
+            "https://www.merriam-webster.com/dictionary/physiotherapy",
+            "https://www.britannica.com/topic/physical-therapy"
+          ]
+        },
+        {
+          "@type": "MedicalCondition",
+          "name": "Céphalée cervicogénique",
+          "sameAs": "https://www.physioactif.com/en/guide-complet/cephalee-cervicogenique"
+        },
+        {
+          "@type": "MedicalCondition",
+          "name": "Migraine",
+          "sameAs": "https://www.physioactif.com/en/guide-complet/migraine"
+        },
+        {
+          "@type": "MedicalCondition",
+          "name": "Douleur à la mâchoire",
+          "sameAs": "https://www.physioactif.com/en/guide-complet/douleur-machoire-atm"
+        }
+      ]
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://www.physioactif.com/en/guide-complet/maux-de-tete-cephalees#webpage",
+      "datePublished": "2026-01-09",
+      "url": "https://www.physioactif.com/en/guide-complet/maux-de-tete-cephalees",
+      "name": "Maux de tête et céphalées | Physioactif",
+      "description": "Comprenez vos maux de tête: tension, cervicogénique ou migraine. Découvrez comment la physiothérapie soulage les céphalées.",
+      "mainEntity": {
+        "@id": "https://www.physioactif.com/en/guide-complet/maux-de-tete-cephalees#condition"
+      },
+      "about": {
+        "@id": "https://www.physioactif.com/en/guide-complet/maux-de-tete-cephalees#condition"
+      },
+      "breadcrumb": {
+        "@type": "BreadcrumbList",
+        "@id": "https://www.physioactif.com/en/guide-complet/maux-de-tete-cephalees#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Accueil",
+            "item": "https://www.physioactif.com/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Guide Complet",
+            "item": "https://www.physioactif.com/guide-complet"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Maux de tête et céphalées",
+            "item": "https://www.physioactif.com/en/guide-complet/maux-de-tete-cephalees"
+          }
+        ]
+      },
+      "isPartOf": {
+        "@id": "https://www.physioactif.com/#website"
+      },
+      "inLanguage": [
+        "en-CA"
+      ],
+      "potentialAction": {
+        "@type": "ReadAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://www.physioactif.com/en/guide-complet/maux-de-tete-cephalees",
+          "actionPlatform": [
+            "http://schema.org/DesktopWebPlatform",
+            "http://schema.org/MobileWebPlatform"
+          ]
+        }
+      },
+      "relatedLink": [
+        "https://physioactif.clinicmaster.com/clinic-selection?lang=fr-CA"
+      ],
+      "publisher": {
+        "@id": "https://www.physioactif.com/#org"
+      }
+    }
+  ]
+}
