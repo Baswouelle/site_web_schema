@@ -1,0 +1,181 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "MedicalTherapy",
+      "name": "Physiothérapie",
+      "alternateName": [
+        "Physical therapy",
+        "Kinésithérapie",
+        "Fisioterapia"
+      ],
+      "sameAs": [
+        "https://www.physioactif.com/guide-complet/physiotherapie",
+        "https://www.wikidata.org/wiki/Q186005",
+        "https://en.wikipedia.org/wiki/Physical_therapy",
+        "https://fr.wikipedia.org/wiki/Kinésithérapie",
+        "https://meshb.nlm.nih.gov/record/ui?ui=D026761",
+        "https://www.merriam-webster.com/dictionary/physiotherapy",
+        "https://www.britannica.com/topic/physical-therapy"
+      ],
+      "@id": "https://www.physioactif.com/guide-complet/physiotherapie-plancher-pelvien#therapy"
+    },
+    {
+      "@type": "MedicalWebPage",
+      "@id": "https://www.physioactif.com/guide-complet/physiotherapie-plancher-pelvien#article",
+      "author": {
+        "@type": "Person",
+        "@id": "https://www.physioactif.com/equipe/ariel-desjardins-charbonneau/#person"
+      },
+      "datePublished": "2026-01-08",
+      "name": "Physiothérapie du plancher pelvien",
+      "headline": "Physiothérapie du plancher pelvien: Guide complet",
+      "about": [
+        {
+          "@id": "https://www.physioactif.com/guide-complet/physiotherapie-plancher-pelvien#therapy"
+        },
+        {
+          "@type": "AnatomicalStructure",
+          "name": "Plancher pelvien"
+        }
+      ],
+      "mainEntity": {
+        "@id": "https://www.physioactif.com/guide-complet/physiotherapie-plancher-pelvien#therapy"
+      },
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [
+          ".header_heading",
+          ".header_content .text-style-muted.w-richtext",
+          ".section_article .text-rich-text h2"
+        ]
+      },
+      "specialty": [
+        "Physiotherapy",
+        "Musculoskeletal"
+      ],
+      "medicalAudience": [
+        {
+          "@type": "Patient"
+        },
+        {
+          "@type": "MedicalAudience",
+          "audienceType": "General Public"
+        }
+      ],
+      "reviewedBy": {
+        "@id": "https://www.physioactif.com/#org"
+      },
+      "provider": {
+        "@id": "https://www.physioactif.com/#org"
+      },
+      "inLanguage": [
+        "fr-CA"
+      ],
+      "isPartOf": {
+        "@id": "https://www.physioactif.com/#website"
+      },
+      "mentions": [
+        {
+          "@type": "MedicalTherapy",
+          "name": "Physiothérapie",
+          "alternateName": [
+            "Physical therapy",
+            "Kinésithérapie",
+            "Fisioterapia"
+          ],
+          "sameAs": [
+            "https://www.physioactif.com/guide-complet/physiotherapie",
+            "https://www.wikidata.org/wiki/Q186005",
+            "https://en.wikipedia.org/wiki/Physical_therapy",
+            "https://fr.wikipedia.org/wiki/Kinésithérapie",
+            "https://meshb.nlm.nih.gov/record/ui?ui=D026761",
+            "https://www.merriam-webster.com/dictionary/physiotherapy",
+            "https://www.britannica.com/topic/physical-therapy"
+          ]
+        },
+        {
+          "@type": "MedicalCondition",
+          "name": "Incontinence urinaire",
+          "sameAs": "https://www.physioactif.com/guide-complet/incontinence-urinaire"
+        },
+        {
+          "@type": "MedicalCondition",
+          "name": "Prolapsus pelvien",
+          "sameAs": "https://www.physioactif.com/guide-complet/descente-dorganes-prolapsus-pelvien"
+        },
+        {
+          "@type": "MedicalCondition",
+          "name": "Douleur pelvienne chronique",
+          "sameAs": "https://www.physioactif.com/guide-complet/syndrome-douloureux-pelvien-chronique"
+        },
+        {
+          "@type": "MedicalCondition",
+          "name": "Névralgie pudendale",
+          "sameAs": "https://www.physioactif.com/guide-complet/nevralgie-pudendale"
+        }
+      ]
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://www.physioactif.com/guide-complet/physiotherapie-plancher-pelvien#webpage",
+      "datePublished": "2026-01-08",
+      "url": "https://www.physioactif.com/guide-complet/physiotherapie-plancher-pelvien",
+      "name": "Physiothérapie du plancher pelvien | Physioactif",
+      "description": "Guide complet sur la physiothérapie du plancher pelvien: conditions traitées, techniques utilisées et résultats attendus.",
+      "mainEntity": {
+        "@id": "https://www.physioactif.com/guide-complet/physiotherapie-plancher-pelvien#therapy"
+      },
+      "about": {
+        "@id": "https://www.physioactif.com/guide-complet/physiotherapie-plancher-pelvien#therapy"
+      },
+      "breadcrumb": {
+        "@type": "BreadcrumbList",
+        "@id": "https://www.physioactif.com/guide-complet/physiotherapie-plancher-pelvien#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Accueil",
+            "item": "https://www.physioactif.com/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Guide Complet",
+            "item": "https://www.physioactif.com/guide-complet"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Physiothérapie du plancher pelvien",
+            "item": "https://www.physioactif.com/guide-complet/physiotherapie-plancher-pelvien"
+          }
+        ]
+      },
+      "isPartOf": {
+        "@id": "https://www.physioactif.com/#website"
+      },
+      "inLanguage": [
+        "fr-CA"
+      ],
+      "potentialAction": {
+        "@type": "ReadAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://www.physioactif.com/guide-complet/physiotherapie-plancher-pelvien",
+          "actionPlatform": [
+            "http://schema.org/DesktopWebPlatform",
+            "http://schema.org/MobileWebPlatform"
+          ]
+        }
+      },
+      "relatedLink": [
+        "https://physioactif.clinicmaster.com/clinic-selection?lang=fr-CA"
+      ],
+      "publisher": {
+        "@id": "https://www.physioactif.com/#org"
+      }
+    }
+  ]
+}

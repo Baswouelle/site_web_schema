@@ -1,0 +1,200 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "MedicalCondition",
+      "@id": "https://www.physioactif.com/en/guide-complet/douleur-poignet-main-guide-complet#condition",
+      "name": "Douleur au poignet et main",
+      "alternateName": [
+        "Wrist and Hand pain",
+        "Douleur poignet et main"
+      ],
+      "description": "Douleur et inconfort ressentis dans ou autour de la région du poignet et main.",
+      "associatedAnatomy": {
+        "@type": "AnatomicalStructure",
+        "name": "Poignet et main"
+      },
+      "possibleTreatment": {
+        "@type": "MedicalTherapy",
+        "name": "Physiothérapie",
+        "sameAs": "https://www.physioactif.com/en/guide-complet/physiotherapie"
+      },
+      "sameAs": [
+        "https://fr.wikipedia.org/wiki/Poignet",
+        "https://fr.wikipedia.org/wiki/Main",
+        "https://en.wikipedia.org/wiki/Wrist_pain"
+      ]
+    },
+    {
+      "@type": "MedicalWebPage",
+      "@id": "https://www.physioactif.com/en/guide-complet/douleur-poignet-main-guide-complet#article",
+      "author": {
+        "@type": "Person",
+        "@id": "https://www.physioactif.com/en/equipe/ariel-desjardins-charbonneau/#person"
+      },
+      "datePublished": "2026-01-08",
+      "name": "Douleur au poignet et à la main : Guide complet",
+      "headline": "Douleur au poignet et à la main: Causes, Symptômes et Traitements",
+      "about": [
+        {
+          "@id": "https://www.physioactif.com/en/guide-complet/douleur-poignet-main-guide-complet#condition"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Physiothérapie",
+          "alternateName": [
+            "Physical therapy",
+            "Kinésithérapie",
+            "Fisioterapia"
+          ],
+          "sameAs": [
+            "https://www.physioactif.com/en/guide-complet/physiotherapie",
+            "https://www.wikidata.org/wiki/Q186005",
+            "https://en.wikipedia.org/wiki/Physical_therapy",
+            "https://fr.wikipedia.org/wiki/Kinésithérapie",
+            "https://meshb.nlm.nih.gov/record/ui?ui=D026761",
+            "https://www.merriam-webster.com/dictionary/physiotherapy",
+            "https://www.britannica.com/topic/physical-therapy"
+          ]
+        }
+      ],
+      "mainEntity": {
+        "@id": "https://www.physioactif.com/en/guide-complet/douleur-poignet-main-guide-complet#condition"
+      },
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [
+          ".header_heading",
+          ".header_content .text-style-muted.w-richtext",
+          ".section_article .text-rich-text h2"
+        ]
+      },
+      "specialty": [
+        "Physiotherapy",
+        "Musculoskeletal"
+      ],
+      "medicalAudience": [
+        {
+          "@type": "Patient"
+        },
+        {
+          "@type": "MedicalAudience",
+          "audienceType": "General Public"
+        }
+      ],
+      "reviewedBy": {
+        "@id": "https://www.physioactif.com/#org"
+      },
+      "provider": {
+        "@id": "https://www.physioactif.com/#org"
+      },
+      "inLanguage": [
+        "en-CA"
+      ],
+      "isPartOf": {
+        "@id": "https://www.physioactif.com/#website"
+      },
+      "mentions": [
+        {
+          "@type": "MedicalTherapy",
+          "name": "Physiothérapie",
+          "alternateName": [
+            "Physical therapy",
+            "Kinésithérapie",
+            "Fisioterapia"
+          ],
+          "sameAs": [
+            "https://www.physioactif.com/en/guide-complet/physiotherapie",
+            "https://www.wikidata.org/wiki/Q186005",
+            "https://en.wikipedia.org/wiki/Physical_therapy",
+            "https://fr.wikipedia.org/wiki/Kinésithérapie",
+            "https://meshb.nlm.nih.gov/record/ui?ui=D026761",
+            "https://www.merriam-webster.com/dictionary/physiotherapy",
+            "https://www.britannica.com/topic/physical-therapy"
+          ]
+        },
+        {
+          "@type": "MedicalCondition",
+          "name": "Syndrome du tunnel carpien",
+          "sameAs": "https://www.physioactif.com/en/guide-complet/syndrome-du-tunnel-carpien"
+        },
+        {
+          "@type": "MedicalCondition",
+          "name": "Ténosynovite de De Quervain",
+          "sameAs": "https://www.physioactif.com/en/guide-complet/tenosynovite-de-dequervain"
+        },
+        {
+          "@type": "MedicalCondition",
+          "name": "Entorse au poignet",
+          "sameAs": "https://www.physioactif.com/en/guide-complet/entorse-au-poignet"
+        },
+        {
+          "@type": "MedicalCondition",
+          "name": "Entorse au pouce",
+          "sameAs": "https://www.physioactif.com/en/guide-complet/entorse-au-pouce-pouce-du-skieur-ou-du-doigt"
+        }
+      ]
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://www.physioactif.com/en/guide-complet/douleur-poignet-main-guide-complet#webpage",
+      "datePublished": "2026-01-08",
+      "url": "https://www.physioactif.com/en/guide-complet/douleur-poignet-main-guide-complet",
+      "name": "Douleur au poignet et à la main : Guide complet | Physioactif",
+      "description": "Guide complet sur la douleur au poignet et à la main: causes, symptômes, diagnostic et traitements en physiothérapie.",
+      "mainEntity": {
+        "@id": "https://www.physioactif.com/en/guide-complet/douleur-poignet-main-guide-complet#condition"
+      },
+      "about": {
+        "@id": "https://www.physioactif.com/en/guide-complet/douleur-poignet-main-guide-complet#condition"
+      },
+      "breadcrumb": {
+        "@type": "BreadcrumbList",
+        "@id": "https://www.physioactif.com/en/guide-complet/douleur-poignet-main-guide-complet#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Accueil",
+            "item": "https://www.physioactif.com/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Guide Complet",
+            "item": "https://www.physioactif.com/guide-complet"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Douleur au poignet et à la main",
+            "item": "https://www.physioactif.com/en/guide-complet/douleur-poignet-main-guide-complet"
+          }
+        ]
+      },
+      "isPartOf": {
+        "@id": "https://www.physioactif.com/#website"
+      },
+      "inLanguage": [
+        "en-CA"
+      ],
+      "potentialAction": {
+        "@type": "ReadAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://www.physioactif.com/en/guide-complet/douleur-poignet-main-guide-complet",
+          "actionPlatform": [
+            "http://schema.org/DesktopWebPlatform",
+            "http://schema.org/MobileWebPlatform"
+          ]
+        }
+      },
+      "relatedLink": [
+        "https://physioactif.clinicmaster.com/clinic-selection?lang=fr-CA"
+      ],
+      "publisher": {
+        "@id": "https://www.physioactif.com/#org"
+      }
+    }
+  ]
+}

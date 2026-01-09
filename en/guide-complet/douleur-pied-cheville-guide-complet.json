@@ -1,0 +1,200 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "MedicalCondition",
+      "@id": "https://www.physioactif.com/en/guide-complet/douleur-pied-cheville-guide-complet#condition",
+      "name": "Douleur au pied et cheville",
+      "alternateName": [
+        "Foot and Ankle pain",
+        "Douleur pied et cheville"
+      ],
+      "description": "Douleur et inconfort ressentis dans ou autour de la région du pied et cheville.",
+      "associatedAnatomy": {
+        "@type": "AnatomicalStructure",
+        "name": "Pied et cheville"
+      },
+      "possibleTreatment": {
+        "@type": "MedicalTherapy",
+        "name": "Physiothérapie",
+        "sameAs": "https://www.physioactif.com/en/guide-complet/physiotherapie"
+      },
+      "sameAs": [
+        "https://fr.wikipedia.org/wiki/Pied_(anatomie)",
+        "https://fr.wikipedia.org/wiki/Cheville_(anatomie)",
+        "https://en.wikipedia.org/wiki/Foot_pain"
+      ]
+    },
+    {
+      "@type": "MedicalWebPage",
+      "@id": "https://www.physioactif.com/en/guide-complet/douleur-pied-cheville-guide-complet#article",
+      "author": {
+        "@type": "Person",
+        "@id": "https://www.physioactif.com/en/equipe/ariel-desjardins-charbonneau/#person"
+      },
+      "datePublished": "2026-01-08",
+      "name": "Douleur au pied et à la cheville : Guide complet",
+      "headline": "Douleur au pied et à la cheville: Causes, Symptômes et Traitements",
+      "about": [
+        {
+          "@id": "https://www.physioactif.com/en/guide-complet/douleur-pied-cheville-guide-complet#condition"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Physiothérapie",
+          "alternateName": [
+            "Physical therapy",
+            "Kinésithérapie",
+            "Fisioterapia"
+          ],
+          "sameAs": [
+            "https://www.physioactif.com/en/guide-complet/physiotherapie",
+            "https://www.wikidata.org/wiki/Q186005",
+            "https://en.wikipedia.org/wiki/Physical_therapy",
+            "https://fr.wikipedia.org/wiki/Kinésithérapie",
+            "https://meshb.nlm.nih.gov/record/ui?ui=D026761",
+            "https://www.merriam-webster.com/dictionary/physiotherapy",
+            "https://www.britannica.com/topic/physical-therapy"
+          ]
+        }
+      ],
+      "mainEntity": {
+        "@id": "https://www.physioactif.com/en/guide-complet/douleur-pied-cheville-guide-complet#condition"
+      },
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [
+          ".header_heading",
+          ".header_content .text-style-muted.w-richtext",
+          ".section_article .text-rich-text h2"
+        ]
+      },
+      "specialty": [
+        "Physiotherapy",
+        "Musculoskeletal"
+      ],
+      "medicalAudience": [
+        {
+          "@type": "Patient"
+        },
+        {
+          "@type": "MedicalAudience",
+          "audienceType": "General Public"
+        }
+      ],
+      "reviewedBy": {
+        "@id": "https://www.physioactif.com/#org"
+      },
+      "provider": {
+        "@id": "https://www.physioactif.com/#org"
+      },
+      "inLanguage": [
+        "en-CA"
+      ],
+      "isPartOf": {
+        "@id": "https://www.physioactif.com/#website"
+      },
+      "mentions": [
+        {
+          "@type": "MedicalTherapy",
+          "name": "Physiothérapie",
+          "alternateName": [
+            "Physical therapy",
+            "Kinésithérapie",
+            "Fisioterapia"
+          ],
+          "sameAs": [
+            "https://www.physioactif.com/en/guide-complet/physiotherapie",
+            "https://www.wikidata.org/wiki/Q186005",
+            "https://en.wikipedia.org/wiki/Physical_therapy",
+            "https://fr.wikipedia.org/wiki/Kinésithérapie",
+            "https://meshb.nlm.nih.gov/record/ui?ui=D026761",
+            "https://www.merriam-webster.com/dictionary/physiotherapy",
+            "https://www.britannica.com/topic/physical-therapy"
+          ]
+        },
+        {
+          "@type": "MedicalCondition",
+          "name": "Fasciite plantaire",
+          "sameAs": "https://www.physioactif.com/en/guide-complet/fasciite-plantaire-et-epine-de-lenoir"
+        },
+        {
+          "@type": "MedicalCondition",
+          "name": "Entorse de la cheville",
+          "sameAs": "https://www.physioactif.com/en/guide-complet/entorse-de-la-cheville"
+        },
+        {
+          "@type": "MedicalCondition",
+          "name": "Tendinite du tendon d'Achille",
+          "sameAs": "https://www.physioactif.com/en/guide-complet/tendinite-ou-tendinopathie-du-tendon-dachille"
+        },
+        {
+          "@type": "MedicalCondition",
+          "name": "Névrome de Morton",
+          "sameAs": "https://www.physioactif.com/en/guide-complet/nevrome-de-morton"
+        }
+      ]
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://www.physioactif.com/en/guide-complet/douleur-pied-cheville-guide-complet#webpage",
+      "datePublished": "2026-01-08",
+      "url": "https://www.physioactif.com/en/guide-complet/douleur-pied-cheville-guide-complet",
+      "name": "Douleur au pied et à la cheville : Guide complet | Physioactif",
+      "description": "Guide complet sur la douleur au pied et à la cheville: causes, symptômes, diagnostic et traitements en physiothérapie.",
+      "mainEntity": {
+        "@id": "https://www.physioactif.com/en/guide-complet/douleur-pied-cheville-guide-complet#condition"
+      },
+      "about": {
+        "@id": "https://www.physioactif.com/en/guide-complet/douleur-pied-cheville-guide-complet#condition"
+      },
+      "breadcrumb": {
+        "@type": "BreadcrumbList",
+        "@id": "https://www.physioactif.com/en/guide-complet/douleur-pied-cheville-guide-complet#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Accueil",
+            "item": "https://www.physioactif.com/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Guide Complet",
+            "item": "https://www.physioactif.com/guide-complet"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Douleur au pied et à la cheville",
+            "item": "https://www.physioactif.com/en/guide-complet/douleur-pied-cheville-guide-complet"
+          }
+        ]
+      },
+      "isPartOf": {
+        "@id": "https://www.physioactif.com/#website"
+      },
+      "inLanguage": [
+        "en-CA"
+      ],
+      "potentialAction": {
+        "@type": "ReadAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://www.physioactif.com/en/guide-complet/douleur-pied-cheville-guide-complet",
+          "actionPlatform": [
+            "http://schema.org/DesktopWebPlatform",
+            "http://schema.org/MobileWebPlatform"
+          ]
+        }
+      },
+      "relatedLink": [
+        "https://physioactif.clinicmaster.com/clinic-selection?lang=fr-CA"
+      ],
+      "publisher": {
+        "@id": "https://www.physioactif.com/#org"
+      }
+    }
+  ]
+}
