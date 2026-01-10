@@ -3,41 +3,41 @@
   "@graph": [
     {
       "@type": "MedicalCondition",
-      "@id": "https://www.physioactif.com/guide-complet/vertigo-etourdissements#condition",
-      "name": "Douleur système vestibulaire",
+      "@id": "https://www.physioactif.com/en/guide-complet/douleur-aigue-guide-complet#condition",
+      "name": "Douleur aiguë",
       "alternateName": [
-        "Vestibular System pain",
-        "Douleur système vestibulaire"
+        "All regions pain",
+        "Douleur aiguë"
       ],
-      "description": "Comprenez les causes de vos vertiges: VPPB, névrite vestibulaire, Ménière. La physiothérapie vestibulaire traite efficacement les vertiges.",
+      "description": "Comprenez la douleur aiguë: fonction protectrice, phases de guérison et gestion. La physiothérapie favorise la récupération précoce.",
       "associatedAnatomy": {
         "@type": "AnatomicalStructure",
-        "name": "Système vestibulaire"
+        "name": "Toutes régions"
       },
       "possibleTreatment": {
         "@type": "MedicalTherapy",
         "name": "Physiothérapie",
-        "sameAs": "https://www.physioactif.com/guide-complet/physiotherapie"
+        "sameAs": "https://www.physioactif.com/en/guide-complet/physiotherapie"
       },
       "sameAs": [
-        "https://fr.wikipedia.org/wiki/Vertige",
-        "https://en.wikipedia.org/wiki/Vertigo",
-        "https://www.wikidata.org/wiki/Q12195"
+        "https://fr.wikipedia.org/wiki/Douleur_aiguë",
+        "https://en.wikipedia.org/wiki/Acute_pain",
+        "https://www.wikidata.org/wiki/Q4681207"
       ]
     },
     {
       "@type": "MedicalWebPage",
-      "@id": "https://www.physioactif.com/guide-complet/vertigo-etourdissements#article",
+      "@id": "https://www.physioactif.com/en/guide-complet/douleur-aigue-guide-complet#article",
       "author": {
         "@type": "Person",
-        "@id": "https://www.physioactif.com/equipe/ariel-desjardins-charbonneau/#person"
+        "@id": "https://www.physioactif.com/en/equipe/ariel-desjardins-charbonneau/#person"
       },
       "datePublished": "2026-01-10",
-      "name": "Vertigo et étourdissements",
-      "headline": "Vertigo et étourdissements: Causes et traitement",
+      "name": "Douleur aiguë",
+      "headline": "Douleur aiguë: Comprendre et traiter",
       "about": [
         {
-          "@id": "https://www.physioactif.com/guide-complet/vertigo-etourdissements#condition"
+          "@id": "https://www.physioactif.com/en/guide-complet/douleur-aigue-guide-complet#condition"
         },
         {
           "@type": "MedicalTherapy",
@@ -48,7 +48,7 @@
             "Fisioterapia"
           ],
           "sameAs": [
-            "https://www.physioactif.com/guide-complet/physiotherapie",
+            "https://www.physioactif.com/en/guide-complet/physiotherapie",
             "https://www.wikidata.org/wiki/Q186005",
             "https://en.wikipedia.org/wiki/Physical_therapy",
             "https://fr.wikipedia.org/wiki/Kinésithérapie",
@@ -59,7 +59,7 @@
         }
       ],
       "mainEntity": {
-        "@id": "https://www.physioactif.com/guide-complet/vertigo-etourdissements#condition"
+        "@id": "https://www.physioactif.com/en/guide-complet/douleur-aigue-guide-complet#condition"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -89,7 +89,7 @@
         "@id": "https://www.physioactif.com/#org"
       },
       "inLanguage": [
-        "fr-CA"
+        "en-CA"
       ],
       "isPartOf": {
         "@id": "https://www.physioactif.com/#website"
@@ -104,7 +104,7 @@
             "Fisioterapia"
           ],
           "sameAs": [
-            "https://www.physioactif.com/guide-complet/physiotherapie",
+            "https://www.physioactif.com/en/guide-complet/physiotherapie",
             "https://www.wikidata.org/wiki/Q186005",
             "https://en.wikipedia.org/wiki/Physical_therapy",
             "https://fr.wikipedia.org/wiki/Kinésithérapie",
@@ -115,37 +115,32 @@
         },
         {
           "@type": "MedicalCondition",
-          "name": "VPPB",
-          "sameAs": "https://www.physioactif.com/guide-complet/vertige-positionnel-paroxystique-benin"
+          "name": "Inflammation",
+          "sameAs": "https://www.physioactif.com/en/guide-complet/inflammation"
         },
         {
           "@type": "MedicalCondition",
-          "name": "Névrite vestibulaire",
-          "sameAs": "https://www.physioactif.com/guide-complet/nevrite-vestibulaire"
-        },
-        {
-          "@type": "MedicalCondition",
-          "name": "Commotion cérébrale",
-          "sameAs": "https://www.physioactif.com/guide-complet/commotion-cerebrale"
+          "name": "Guérison des tissus",
+          "sameAs": "https://www.physioactif.com/en/guide-complet/guerison-tissus"
         }
       ]
     },
     {
       "@type": "WebPage",
-      "@id": "https://www.physioactif.com/guide-complet/vertigo-etourdissements#webpage",
+      "@id": "https://www.physioactif.com/en/guide-complet/douleur-aigue-guide-complet#webpage",
       "datePublished": "2026-01-10",
-      "url": "https://www.physioactif.com/guide-complet/vertigo-etourdissements",
-      "name": "Vertigo et étourdissements | Physioactif",
-      "description": "Comprenez les causes de vos vertiges: VPPB, névrite vestibulaire, Ménière. La physiothérapie vestibulaire traite efficacement les vertiges.",
+      "url": "https://www.physioactif.com/en/guide-complet/douleur-aigue-guide-complet",
+      "name": "Douleur aiguë | Physioactif",
+      "description": "Comprenez la douleur aiguë: fonction protectrice, phases de guérison et gestion. La physiothérapie favorise la récupération précoce.",
       "mainEntity": {
-        "@id": "https://www.physioactif.com/guide-complet/vertigo-etourdissements#condition"
+        "@id": "https://www.physioactif.com/en/guide-complet/douleur-aigue-guide-complet#condition"
       },
       "about": {
-        "@id": "https://www.physioactif.com/guide-complet/vertigo-etourdissements#condition"
+        "@id": "https://www.physioactif.com/en/guide-complet/douleur-aigue-guide-complet#condition"
       },
       "breadcrumb": {
         "@type": "BreadcrumbList",
-        "@id": "https://www.physioactif.com/guide-complet/vertigo-etourdissements#breadcrumb",
+        "@id": "https://www.physioactif.com/en/guide-complet/douleur-aigue-guide-complet#breadcrumb",
         "itemListElement": [
           {
             "@type": "ListItem",
@@ -162,8 +157,8 @@
           {
             "@type": "ListItem",
             "position": 3,
-            "name": "Vertigo et étourdissements",
-            "item": "https://www.physioactif.com/guide-complet/vertigo-etourdissements"
+            "name": "Douleur aiguë",
+            "item": "https://www.physioactif.com/en/guide-complet/douleur-aigue-guide-complet"
           }
         ]
       },
@@ -171,13 +166,13 @@
         "@id": "https://www.physioactif.com/#website"
       },
       "inLanguage": [
-        "fr-CA"
+        "en-CA"
       ],
       "potentialAction": {
         "@type": "ReadAction",
         "target": {
           "@type": "EntryPoint",
-          "urlTemplate": "https://www.physioactif.com/guide-complet/vertigo-etourdissements",
+          "urlTemplate": "https://www.physioactif.com/en/guide-complet/douleur-aigue-guide-complet",
           "actionPlatform": [
             "http://schema.org/DesktopWebPlatform",
             "http://schema.org/MobileWebPlatform"

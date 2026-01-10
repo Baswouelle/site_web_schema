@@ -10,7 +10,7 @@
         "Fisioterapia"
       ],
       "sameAs": [
-        "https://www.physioactif.com/en/guide-complet/physiotherapie",
+        "https://www.physioactif.com/guide-complet/physiotherapie",
         "https://www.wikidata.org/wiki/Q186005",
         "https://en.wikipedia.org/wiki/Physical_therapy",
         "https://fr.wikipedia.org/wiki/Kinésithérapie",
@@ -18,7 +18,7 @@
         "https://www.merriam-webster.com/dictionary/physiotherapy",
         "https://www.britannica.com/topic/physical-therapy"
       ],
-      "@id": "https://www.physioactif.com/en/guide-complet/physiotherapie-douleur-dos-thoracique#therapy",
+      "@id": "https://www.physioactif.com/guide-complet/physiotherapie-douleur-aigue#therapy",
       "relevantSpecialty": {
         "@type": "MedicalSpecialty",
         "name": "Musculoskeletal"
@@ -26,25 +26,25 @@
     },
     {
       "@type": "MedicalWebPage",
-      "@id": "https://www.physioactif.com/en/guide-complet/physiotherapie-douleur-dos-thoracique#article",
+      "@id": "https://www.physioactif.com/guide-complet/physiotherapie-douleur-aigue#article",
       "author": {
         "@type": "Person",
-        "@id": "https://www.physioactif.com/en/equipe/ariel-desjardins-charbonneau/#person"
+        "@id": "https://www.physioactif.com/equipe/ariel-desjardins-charbonneau/#person"
       },
       "datePublished": "2026-01-10",
-      "name": "Physiothérapie pour la douleur au dos thoracique",
-      "headline": "Physiothérapie pour le dos thoracique: Traitement",
+      "name": "Physiothérapie pour la douleur aiguë",
+      "headline": "Physiothérapie pour douleur aiguë: Récupération précoce",
       "about": [
         {
-          "@id": "https://www.physioactif.com/en/guide-complet/physiotherapie-douleur-dos-thoracique#therapy"
+          "@id": "https://www.physioactif.com/guide-complet/physiotherapie-douleur-aigue#therapy"
         },
         {
           "@type": "AnatomicalStructure",
-          "name": "Dos thoracique"
+          "name": "Toutes régions"
         }
       ],
       "mainEntity": {
-        "@id": "https://www.physioactif.com/en/guide-complet/physiotherapie-douleur-dos-thoracique#therapy"
+        "@id": "https://www.physioactif.com/guide-complet/physiotherapie-douleur-aigue#therapy"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -74,7 +74,7 @@
         "@id": "https://www.physioactif.com/#org"
       },
       "inLanguage": [
-        "en-CA"
+        "fr-CA"
       ],
       "isPartOf": {
         "@id": "https://www.physioactif.com/#website"
@@ -89,7 +89,7 @@
             "Fisioterapia"
           ],
           "sameAs": [
-            "https://www.physioactif.com/en/guide-complet/physiotherapie",
+            "https://www.physioactif.com/guide-complet/physiotherapie",
             "https://www.wikidata.org/wiki/Q186005",
             "https://en.wikipedia.org/wiki/Physical_therapy",
             "https://fr.wikipedia.org/wiki/Kinésithérapie",
@@ -102,20 +102,20 @@
     },
     {
       "@type": "WebPage",
-      "@id": "https://www.physioactif.com/en/guide-complet/physiotherapie-douleur-dos-thoracique#webpage",
+      "@id": "https://www.physioactif.com/guide-complet/physiotherapie-douleur-aigue#webpage",
       "datePublished": "2026-01-10",
-      "url": "https://www.physioactif.com/en/guide-complet/physiotherapie-douleur-dos-thoracique",
-      "name": "Physiothérapie pour la douleur au dos thoracique | Physioactif",
-      "description": "Soulagez votre douleur au haut du dos: mobilisations, exercices de posture et renforcement. Physiothérapie efficace pour le dos thoracique.",
+      "url": "https://www.physioactif.com/guide-complet/physiotherapie-douleur-aigue",
+      "name": "Physiothérapie pour la douleur aiguë | Physioactif",
+      "description": "Gérez efficacement votre douleur aiguë: contrôle de la douleur, mobilisation précoce et retour aux activités progressif.",
       "mainEntity": {
-        "@id": "https://www.physioactif.com/en/guide-complet/physiotherapie-douleur-dos-thoracique#therapy"
+        "@id": "https://www.physioactif.com/guide-complet/physiotherapie-douleur-aigue#therapy"
       },
       "about": {
-        "@id": "https://www.physioactif.com/en/guide-complet/physiotherapie-douleur-dos-thoracique#therapy"
+        "@id": "https://www.physioactif.com/guide-complet/physiotherapie-douleur-aigue#therapy"
       },
       "breadcrumb": {
         "@type": "BreadcrumbList",
-        "@id": "https://www.physioactif.com/en/guide-complet/physiotherapie-douleur-dos-thoracique#breadcrumb",
+        "@id": "https://www.physioactif.com/guide-complet/physiotherapie-douleur-aigue#breadcrumb",
         "itemListElement": [
           {
             "@type": "ListItem",
@@ -132,8 +132,8 @@
           {
             "@type": "ListItem",
             "position": 3,
-            "name": "Physiothérapie pour la douleur au dos thoracique",
-            "item": "https://www.physioactif.com/en/guide-complet/physiotherapie-douleur-dos-thoracique"
+            "name": "Physiothérapie pour la douleur aiguë",
+            "item": "https://www.physioactif.com/guide-complet/physiotherapie-douleur-aigue"
           }
         ]
       },
@@ -141,13 +141,13 @@
         "@id": "https://www.physioactif.com/#website"
       },
       "inLanguage": [
-        "en-CA"
+        "fr-CA"
       ],
       "potentialAction": {
         "@type": "ReadAction",
         "target": {
           "@type": "EntryPoint",
-          "urlTemplate": "https://www.physioactif.com/en/guide-complet/physiotherapie-douleur-dos-thoracique",
+          "urlTemplate": "https://www.physioactif.com/guide-complet/physiotherapie-douleur-aigue",
           "actionPlatform": [
             "http://schema.org/DesktopWebPlatform",
             "http://schema.org/MobileWebPlatform"

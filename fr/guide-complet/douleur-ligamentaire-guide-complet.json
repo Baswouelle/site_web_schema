@@ -3,16 +3,16 @@
   "@graph": [
     {
       "@type": "MedicalCondition",
-      "@id": "https://www.physioactif.com/guide-complet/vertigo-etourdissements#condition",
-      "name": "Douleur système vestibulaire",
+      "@id": "https://www.physioactif.com/guide-complet/douleur-ligamentaire-guide-complet#condition",
+      "name": "Douleur ligamentaire",
       "alternateName": [
-        "Vestibular System pain",
-        "Douleur système vestibulaire"
+        "Ligaments pain",
+        "Douleur ligamentaire"
       ],
-      "description": "Comprenez les causes de vos vertiges: VPPB, névrite vestibulaire, Ménière. La physiothérapie vestibulaire traite efficacement les vertiges.",
+      "description": "Comprenez les entorses et blessures ligamentaires: grades 1 à 3, guérison et retour au sport. La physiothérapie optimise la récupération.",
       "associatedAnatomy": {
         "@type": "AnatomicalStructure",
-        "name": "Système vestibulaire"
+        "name": "Ligaments"
       },
       "possibleTreatment": {
         "@type": "MedicalTherapy",
@@ -20,24 +20,24 @@
         "sameAs": "https://www.physioactif.com/guide-complet/physiotherapie"
       },
       "sameAs": [
-        "https://fr.wikipedia.org/wiki/Vertige",
-        "https://en.wikipedia.org/wiki/Vertigo",
-        "https://www.wikidata.org/wiki/Q12195"
+        "https://fr.wikipedia.org/wiki/Entorse",
+        "https://en.wikipedia.org/wiki/Sprain",
+        "https://www.wikidata.org/wiki/Q193264"
       ]
     },
     {
       "@type": "MedicalWebPage",
-      "@id": "https://www.physioactif.com/guide-complet/vertigo-etourdissements#article",
+      "@id": "https://www.physioactif.com/guide-complet/douleur-ligamentaire-guide-complet#article",
       "author": {
         "@type": "Person",
         "@id": "https://www.physioactif.com/equipe/ariel-desjardins-charbonneau/#person"
       },
       "datePublished": "2026-01-10",
-      "name": "Vertigo et étourdissements",
-      "headline": "Vertigo et étourdissements: Causes et traitement",
+      "name": "Douleur ligamentaire",
+      "headline": "Douleur ligamentaire: Entorses et traitement",
       "about": [
         {
-          "@id": "https://www.physioactif.com/guide-complet/vertigo-etourdissements#condition"
+          "@id": "https://www.physioactif.com/guide-complet/douleur-ligamentaire-guide-complet#condition"
         },
         {
           "@type": "MedicalTherapy",
@@ -59,7 +59,7 @@
         }
       ],
       "mainEntity": {
-        "@id": "https://www.physioactif.com/guide-complet/vertigo-etourdissements#condition"
+        "@id": "https://www.physioactif.com/guide-complet/douleur-ligamentaire-guide-complet#condition"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -115,37 +115,37 @@
         },
         {
           "@type": "MedicalCondition",
-          "name": "VPPB",
-          "sameAs": "https://www.physioactif.com/guide-complet/vertige-positionnel-paroxystique-benin"
+          "name": "Entorse de la cheville",
+          "sameAs": "https://www.physioactif.com/guide-complet/entorse-cheville"
         },
         {
           "@type": "MedicalCondition",
-          "name": "Névrite vestibulaire",
-          "sameAs": "https://www.physioactif.com/guide-complet/nevrite-vestibulaire"
+          "name": "Entorse du genou",
+          "sameAs": "https://www.physioactif.com/guide-complet/entorse-genou"
         },
         {
           "@type": "MedicalCondition",
-          "name": "Commotion cérébrale",
-          "sameAs": "https://www.physioactif.com/guide-complet/commotion-cerebrale"
+          "name": "Entorse lombaire",
+          "sameAs": "https://www.physioactif.com/guide-complet/entorse-lombaire"
         }
       ]
     },
     {
       "@type": "WebPage",
-      "@id": "https://www.physioactif.com/guide-complet/vertigo-etourdissements#webpage",
+      "@id": "https://www.physioactif.com/guide-complet/douleur-ligamentaire-guide-complet#webpage",
       "datePublished": "2026-01-10",
-      "url": "https://www.physioactif.com/guide-complet/vertigo-etourdissements",
-      "name": "Vertigo et étourdissements | Physioactif",
-      "description": "Comprenez les causes de vos vertiges: VPPB, névrite vestibulaire, Ménière. La physiothérapie vestibulaire traite efficacement les vertiges.",
+      "url": "https://www.physioactif.com/guide-complet/douleur-ligamentaire-guide-complet",
+      "name": "Douleur ligamentaire | Physioactif",
+      "description": "Comprenez les entorses et blessures ligamentaires: grades 1 à 3, guérison et retour au sport. La physiothérapie optimise la récupération.",
       "mainEntity": {
-        "@id": "https://www.physioactif.com/guide-complet/vertigo-etourdissements#condition"
+        "@id": "https://www.physioactif.com/guide-complet/douleur-ligamentaire-guide-complet#condition"
       },
       "about": {
-        "@id": "https://www.physioactif.com/guide-complet/vertigo-etourdissements#condition"
+        "@id": "https://www.physioactif.com/guide-complet/douleur-ligamentaire-guide-complet#condition"
       },
       "breadcrumb": {
         "@type": "BreadcrumbList",
-        "@id": "https://www.physioactif.com/guide-complet/vertigo-etourdissements#breadcrumb",
+        "@id": "https://www.physioactif.com/guide-complet/douleur-ligamentaire-guide-complet#breadcrumb",
         "itemListElement": [
           {
             "@type": "ListItem",
@@ -162,8 +162,8 @@
           {
             "@type": "ListItem",
             "position": 3,
-            "name": "Vertigo et étourdissements",
-            "item": "https://www.physioactif.com/guide-complet/vertigo-etourdissements"
+            "name": "Douleur ligamentaire",
+            "item": "https://www.physioactif.com/guide-complet/douleur-ligamentaire-guide-complet"
           }
         ]
       },
@@ -177,7 +177,7 @@
         "@type": "ReadAction",
         "target": {
           "@type": "EntryPoint",
-          "urlTemplate": "https://www.physioactif.com/guide-complet/vertigo-etourdissements",
+          "urlTemplate": "https://www.physioactif.com/guide-complet/douleur-ligamentaire-guide-complet",
           "actionPlatform": [
             "http://schema.org/DesktopWebPlatform",
             "http://schema.org/MobileWebPlatform"

@@ -18,7 +18,7 @@
         "https://www.merriam-webster.com/dictionary/physiotherapy",
         "https://www.britannica.com/topic/physical-therapy"
       ],
-      "@id": "https://www.physioactif.com/en/guide-complet/physiotherapie-douleur-dos-thoracique#therapy",
+      "@id": "https://www.physioactif.com/en/guide-complet/physiotherapie-douleur-ligamentaire#therapy",
       "relevantSpecialty": {
         "@type": "MedicalSpecialty",
         "name": "Musculoskeletal"
@@ -26,25 +26,25 @@
     },
     {
       "@type": "MedicalWebPage",
-      "@id": "https://www.physioactif.com/en/guide-complet/physiotherapie-douleur-dos-thoracique#article",
+      "@id": "https://www.physioactif.com/en/guide-complet/physiotherapie-douleur-ligamentaire#article",
       "author": {
         "@type": "Person",
         "@id": "https://www.physioactif.com/en/equipe/ariel-desjardins-charbonneau/#person"
       },
       "datePublished": "2026-01-10",
-      "name": "Physiothérapie pour la douleur au dos thoracique",
-      "headline": "Physiothérapie pour le dos thoracique: Traitement",
+      "name": "Physiothérapie pour la douleur ligamentaire",
+      "headline": "Physiothérapie pour entorses: Récupération optimale",
       "about": [
         {
-          "@id": "https://www.physioactif.com/en/guide-complet/physiotherapie-douleur-dos-thoracique#therapy"
+          "@id": "https://www.physioactif.com/en/guide-complet/physiotherapie-douleur-ligamentaire#therapy"
         },
         {
           "@type": "AnatomicalStructure",
-          "name": "Dos thoracique"
+          "name": "Ligaments"
         }
       ],
       "mainEntity": {
-        "@id": "https://www.physioactif.com/en/guide-complet/physiotherapie-douleur-dos-thoracique#therapy"
+        "@id": "https://www.physioactif.com/en/guide-complet/physiotherapie-douleur-ligamentaire#therapy"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -102,20 +102,20 @@
     },
     {
       "@type": "WebPage",
-      "@id": "https://www.physioactif.com/en/guide-complet/physiotherapie-douleur-dos-thoracique#webpage",
+      "@id": "https://www.physioactif.com/en/guide-complet/physiotherapie-douleur-ligamentaire#webpage",
       "datePublished": "2026-01-10",
-      "url": "https://www.physioactif.com/en/guide-complet/physiotherapie-douleur-dos-thoracique",
-      "name": "Physiothérapie pour la douleur au dos thoracique | Physioactif",
-      "description": "Soulagez votre douleur au haut du dos: mobilisations, exercices de posture et renforcement. Physiothérapie efficace pour le dos thoracique.",
+      "url": "https://www.physioactif.com/en/guide-complet/physiotherapie-douleur-ligamentaire",
+      "name": "Physiothérapie pour la douleur ligamentaire | Physioactif",
+      "description": "Récupérez efficacement de votre entorse: protection, mobilisation progressive et renforcement. Physiothérapie pour blessures ligamentaires.",
       "mainEntity": {
-        "@id": "https://www.physioactif.com/en/guide-complet/physiotherapie-douleur-dos-thoracique#therapy"
+        "@id": "https://www.physioactif.com/en/guide-complet/physiotherapie-douleur-ligamentaire#therapy"
       },
       "about": {
-        "@id": "https://www.physioactif.com/en/guide-complet/physiotherapie-douleur-dos-thoracique#therapy"
+        "@id": "https://www.physioactif.com/en/guide-complet/physiotherapie-douleur-ligamentaire#therapy"
       },
       "breadcrumb": {
         "@type": "BreadcrumbList",
-        "@id": "https://www.physioactif.com/en/guide-complet/physiotherapie-douleur-dos-thoracique#breadcrumb",
+        "@id": "https://www.physioactif.com/en/guide-complet/physiotherapie-douleur-ligamentaire#breadcrumb",
         "itemListElement": [
           {
             "@type": "ListItem",
@@ -132,8 +132,8 @@
           {
             "@type": "ListItem",
             "position": 3,
-            "name": "Physiothérapie pour la douleur au dos thoracique",
-            "item": "https://www.physioactif.com/en/guide-complet/physiotherapie-douleur-dos-thoracique"
+            "name": "Physiothérapie pour la douleur ligamentaire",
+            "item": "https://www.physioactif.com/en/guide-complet/physiotherapie-douleur-ligamentaire"
           }
         ]
       },
@@ -147,7 +147,7 @@
         "@type": "ReadAction",
         "target": {
           "@type": "EntryPoint",
-          "urlTemplate": "https://www.physioactif.com/en/guide-complet/physiotherapie-douleur-dos-thoracique",
+          "urlTemplate": "https://www.physioactif.com/en/guide-complet/physiotherapie-douleur-ligamentaire",
           "actionPlatform": [
             "http://schema.org/DesktopWebPlatform",
             "http://schema.org/MobileWebPlatform"

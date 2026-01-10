@@ -3,16 +3,16 @@
   "@graph": [
     {
       "@type": "MedicalCondition",
-      "@id": "https://www.physioactif.com/guide-complet/vertigo-etourdissements#condition",
-      "name": "Douleur système vestibulaire",
+      "@id": "https://www.physioactif.com/guide-complet/douleur-neurale-guide-complet#condition",
+      "name": "Douleur neurale",
       "alternateName": [
-        "Vestibular System pain",
-        "Douleur système vestibulaire"
+        "Nervous system pain",
+        "Douleur neurale"
       ],
-      "description": "Comprenez les causes de vos vertiges: VPPB, névrite vestibulaire, Ménière. La physiothérapie vestibulaire traite efficacement les vertiges.",
+      "description": "Comprenez la douleur neurale: sciatique, névralgie et neuropathie. La physiothérapie soulage les douleurs d'origine nerveuse.",
       "associatedAnatomy": {
         "@type": "AnatomicalStructure",
-        "name": "Système vestibulaire"
+        "name": "Système nerveux"
       },
       "possibleTreatment": {
         "@type": "MedicalTherapy",
@@ -20,24 +20,24 @@
         "sameAs": "https://www.physioactif.com/guide-complet/physiotherapie"
       },
       "sameAs": [
-        "https://fr.wikipedia.org/wiki/Vertige",
-        "https://en.wikipedia.org/wiki/Vertigo",
-        "https://www.wikidata.org/wiki/Q12195"
+        "https://fr.wikipedia.org/wiki/Douleur_neuropathique",
+        "https://en.wikipedia.org/wiki/Neuropathic_pain",
+        "https://www.wikidata.org/wiki/Q1155296"
       ]
     },
     {
       "@type": "MedicalWebPage",
-      "@id": "https://www.physioactif.com/guide-complet/vertigo-etourdissements#article",
+      "@id": "https://www.physioactif.com/guide-complet/douleur-neurale-guide-complet#article",
       "author": {
         "@type": "Person",
         "@id": "https://www.physioactif.com/equipe/ariel-desjardins-charbonneau/#person"
       },
       "datePublished": "2026-01-10",
-      "name": "Vertigo et étourdissements",
-      "headline": "Vertigo et étourdissements: Causes et traitement",
+      "name": "Douleur neurale",
+      "headline": "Douleur neurale: Douleur neuropathique et traitement",
       "about": [
         {
-          "@id": "https://www.physioactif.com/guide-complet/vertigo-etourdissements#condition"
+          "@id": "https://www.physioactif.com/guide-complet/douleur-neurale-guide-complet#condition"
         },
         {
           "@type": "MedicalTherapy",
@@ -59,7 +59,7 @@
         }
       ],
       "mainEntity": {
-        "@id": "https://www.physioactif.com/guide-complet/vertigo-etourdissements#condition"
+        "@id": "https://www.physioactif.com/guide-complet/douleur-neurale-guide-complet#condition"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -115,37 +115,37 @@
         },
         {
           "@type": "MedicalCondition",
-          "name": "VPPB",
-          "sameAs": "https://www.physioactif.com/guide-complet/vertige-positionnel-paroxystique-benin"
+          "name": "Sciatique",
+          "sameAs": "https://www.physioactif.com/guide-complet/sciatique"
         },
         {
           "@type": "MedicalCondition",
-          "name": "Névrite vestibulaire",
-          "sameAs": "https://www.physioactif.com/guide-complet/nevrite-vestibulaire"
+          "name": "Névralgie",
+          "sameAs": "https://www.physioactif.com/guide-complet/nevralgie"
         },
         {
           "@type": "MedicalCondition",
-          "name": "Commotion cérébrale",
-          "sameAs": "https://www.physioactif.com/guide-complet/commotion-cerebrale"
+          "name": "Syndrome du tunnel carpien",
+          "sameAs": "https://www.physioactif.com/guide-complet/syndrome-tunnel-carpien"
         }
       ]
     },
     {
       "@type": "WebPage",
-      "@id": "https://www.physioactif.com/guide-complet/vertigo-etourdissements#webpage",
+      "@id": "https://www.physioactif.com/guide-complet/douleur-neurale-guide-complet#webpage",
       "datePublished": "2026-01-10",
-      "url": "https://www.physioactif.com/guide-complet/vertigo-etourdissements",
-      "name": "Vertigo et étourdissements | Physioactif",
-      "description": "Comprenez les causes de vos vertiges: VPPB, névrite vestibulaire, Ménière. La physiothérapie vestibulaire traite efficacement les vertiges.",
+      "url": "https://www.physioactif.com/guide-complet/douleur-neurale-guide-complet",
+      "name": "Douleur neurale | Physioactif",
+      "description": "Comprenez la douleur neurale: sciatique, névralgie et neuropathie. La physiothérapie soulage les douleurs d'origine nerveuse.",
       "mainEntity": {
-        "@id": "https://www.physioactif.com/guide-complet/vertigo-etourdissements#condition"
+        "@id": "https://www.physioactif.com/guide-complet/douleur-neurale-guide-complet#condition"
       },
       "about": {
-        "@id": "https://www.physioactif.com/guide-complet/vertigo-etourdissements#condition"
+        "@id": "https://www.physioactif.com/guide-complet/douleur-neurale-guide-complet#condition"
       },
       "breadcrumb": {
         "@type": "BreadcrumbList",
-        "@id": "https://www.physioactif.com/guide-complet/vertigo-etourdissements#breadcrumb",
+        "@id": "https://www.physioactif.com/guide-complet/douleur-neurale-guide-complet#breadcrumb",
         "itemListElement": [
           {
             "@type": "ListItem",
@@ -162,8 +162,8 @@
           {
             "@type": "ListItem",
             "position": 3,
-            "name": "Vertigo et étourdissements",
-            "item": "https://www.physioactif.com/guide-complet/vertigo-etourdissements"
+            "name": "Douleur neurale",
+            "item": "https://www.physioactif.com/guide-complet/douleur-neurale-guide-complet"
           }
         ]
       },
@@ -177,7 +177,7 @@
         "@type": "ReadAction",
         "target": {
           "@type": "EntryPoint",
-          "urlTemplate": "https://www.physioactif.com/guide-complet/vertigo-etourdissements",
+          "urlTemplate": "https://www.physioactif.com/guide-complet/douleur-neurale-guide-complet",
           "actionPlatform": [
             "http://schema.org/DesktopWebPlatform",
             "http://schema.org/MobileWebPlatform"
