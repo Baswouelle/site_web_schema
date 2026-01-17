@@ -64,6 +64,7 @@
         "@id": "https://www.physioactif.com/equipe/ariel-desjardins-charbonneau/#person"
       },
       "datePublished": "2025-09-26",
+      "dateModified": "2026-01-16",
       "name": "Lombo Sciatalgie - Guide Complet",
       "headline": "Lombo Sciatalgie: Symptômes, Causes, Diagnostic et Traitement en Physiothérapie",
       "about": [
@@ -115,7 +116,8 @@
         }
       ],
       "reviewedBy": {
-        "@id": "https://www.physioactif.com/#org"
+        "@type": "Person",
+        "@id": "https://www.physioactif.com/equipe/claudine-farah/#person"
       },
       "provider": {
         "@id": "https://www.physioactif.com/#org"
@@ -184,6 +186,7 @@
       "@type": "WebPage",
       "@id": "https://www.physioactif.com/guide-complet/lombo-sciatalgie#webpage",
       "datePublished": "2025-09-26",
+      "dateModified": "2026-01-16",
       "url": "https://www.physioactif.com/guide-complet/lombo-sciatalgie",
       "name": "Lombo Sciatalgie - Guide Complet | Physioactif",
       "description": "Guide complet sur lombo sciatalgie: causes, symptômes, diagnostic et traitements en physiothérapie par les experts de Physioactif.",
