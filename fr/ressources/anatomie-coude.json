@@ -3,14 +3,14 @@
   "@graph": [
     {
       "@type": "MedicalWebPage",
-      "@id": "https://www.physioactif.com/en/ressources/anatomie-colonne-vertebrale#article",
+      "@id": "https://www.physioactif.com/ressources/anatomie-coude#article",
       "author": {
         "@type": "Person",
         "@id": "https://www.physioactif.com/equipe/charles-alexis-daigle/#person"
       },
       "datePublished": "2026-01-19",
-      "name": "Anatomy of the colonne vertébrale : comprendre la structure de votre dos",
-      "headline": "Anatomy of the colonne vertébrale : comprendre la structure de votre dos",
+      "name": "Anatomie du coude : structure, os et ligaments",
+      "headline": "Comprendre l'anatomie de votre coude pour mieux identifier les blessures",
       "about": [
         {
           "@type": "MedicalTherapy",
@@ -60,7 +60,7 @@
         "@id": "https://www.physioactif.com/#org"
       },
       "inLanguage": [
-        "en-CA"
+        "fr-CA"
       ],
       "isPartOf": {
         "@id": "https://www.physioactif.com/#website"
@@ -88,11 +88,11 @@
     },
     {
       "@type": "WebPage",
-      "@id": "https://www.physioactif.com/en/ressources/anatomie-colonne-vertebrale#webpage",
+      "@id": "https://www.physioactif.com/ressources/anatomie-coude#webpage",
       "datePublished": "2026-01-19",
-      "url": "https://www.physioactif.com/en/ressources/anatomie-colonne-vertebrale",
-      "name": "Anatomy of the colonne vertébrale : comprendre la structure de votre dos | Physioactif",
-      "description": "Complete anatomical guide: understand the structure and function.",
+      "url": "https://www.physioactif.com/ressources/anatomie-coude",
+      "name": "Anatomie du coude : structure, os et ligaments | Physioactif",
+      "description": "Découvrez l'anatomie complète du coude avec os, articulations, ligaments et muscles. Comprenez les blessures courantes et l'approche physiothérapique.",
       "about": [
         {
           "@type": "MedicalTherapy",
@@ -115,25 +115,25 @@
       ],
       "breadcrumb": {
         "@type": "BreadcrumbList",
-        "@id": "https://www.physioactif.com/en/ressources/anatomie-colonne-vertebrale#breadcrumb",
+        "@id": "https://www.physioactif.com/ressources/anatomie-coude#breadcrumb",
         "itemListElement": [
           {
             "@type": "ListItem",
             "position": 1,
-            "name": "Home",
-            "item": "https://www.physioactif.com/en/"
+            "name": "Accueil",
+            "item": "https://www.physioactif.com/"
           },
           {
             "@type": "ListItem",
             "position": 2,
-            "name": "Resources",
-            "item": "https://www.physioactif.com/en/ressources"
+            "name": "Ressources",
+            "item": "https://www.physioactif.com/ressources"
           },
           {
             "@type": "ListItem",
             "position": 3,
-            "name": "Anatomy of the colonne vertébrale : comprendre la structure de votre dos",
-            "item": "https://www.physioactif.com/en/ressources/anatomie-colonne-vertebrale"
+            "name": "Comprendre l'anatomie de votre coude pour mieux identifier les blessures",
+            "item": "https://www.physioactif.com/ressources/anatomie-coude"
           }
         ]
       },
@@ -141,13 +141,13 @@
         "@id": "https://www.physioactif.com/#website"
       },
       "inLanguage": [
-        "en-CA"
+        "fr-CA"
       ],
       "potentialAction": {
         "@type": "ReadAction",
         "target": {
           "@type": "EntryPoint",
-          "urlTemplate": "https://www.physioactif.com/en/ressources/anatomie-colonne-vertebrale",
+          "urlTemplate": "https://www.physioactif.com/ressources/anatomie-coude",
           "actionPlatform": [
             "http://schema.org/DesktopWebPlatform",
             "http://schema.org/MobileWebPlatform"
@@ -155,7 +155,7 @@
         }
       },
       "relatedLink": [
-        "https://physioactif.clinicmaster.com/clinic-selection?lang=en-CA"
+        "https://physioactif.clinicmaster.com/clinic-selection?lang=fr-CA"
       ],
       "publisher": {
         "@id": "https://www.physioactif.com/#org"

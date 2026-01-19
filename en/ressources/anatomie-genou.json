@@ -3,14 +3,14 @@
   "@graph": [
     {
       "@type": "MedicalWebPage",
-      "@id": "https://www.physioactif.com/en/ressources/anatomie-colonne-vertebrale#article",
+      "@id": "https://www.physioactif.com/en/ressources/anatomie-genou#article",
       "author": {
         "@type": "Person",
         "@id": "https://www.physioactif.com/equipe/charles-alexis-daigle/#person"
       },
       "datePublished": "2026-01-19",
-      "name": "Anatomy of the colonne vertébrale : comprendre la structure de votre dos",
-      "headline": "Anatomy of the colonne vertébrale : comprendre la structure de votre dos",
+      "name": "Anatomy of the genou : comprendre la structure de votre genou",
+      "headline": "Anatomy of the genou : comprendre la structure de votre genou",
       "about": [
         {
           "@type": "MedicalTherapy",
@@ -88,10 +88,10 @@
     },
     {
       "@type": "WebPage",
-      "@id": "https://www.physioactif.com/en/ressources/anatomie-colonne-vertebrale#webpage",
+      "@id": "https://www.physioactif.com/en/ressources/anatomie-genou#webpage",
       "datePublished": "2026-01-19",
-      "url": "https://www.physioactif.com/en/ressources/anatomie-colonne-vertebrale",
-      "name": "Anatomy of the colonne vertébrale : comprendre la structure de votre dos | Physioactif",
+      "url": "https://www.physioactif.com/en/ressources/anatomie-genou",
+      "name": "Anatomy of the genou : comprendre la structure de votre genou | Physioactif",
       "description": "Complete anatomical guide: understand the structure and function.",
       "about": [
         {
@@ -115,7 +115,7 @@
       ],
       "breadcrumb": {
         "@type": "BreadcrumbList",
-        "@id": "https://www.physioactif.com/en/ressources/anatomie-colonne-vertebrale#breadcrumb",
+        "@id": "https://www.physioactif.com/en/ressources/anatomie-genou#breadcrumb",
         "itemListElement": [
           {
             "@type": "ListItem",
@@ -132,8 +132,8 @@
           {
             "@type": "ListItem",
             "position": 3,
-            "name": "Anatomy of the colonne vertébrale : comprendre la structure de votre dos",
-            "item": "https://www.physioactif.com/en/ressources/anatomie-colonne-vertebrale"
+            "name": "Anatomy of the genou : comprendre la structure de votre genou",
+            "item": "https://www.physioactif.com/en/ressources/anatomie-genou"
           }
         ]
       },
@@ -147,7 +147,7 @@
         "@type": "ReadAction",
         "target": {
           "@type": "EntryPoint",
-          "urlTemplate": "https://www.physioactif.com/en/ressources/anatomie-colonne-vertebrale",
+          "urlTemplate": "https://www.physioactif.com/en/ressources/anatomie-genou",
           "actionPlatform": [
             "http://schema.org/DesktopWebPlatform",
             "http://schema.org/MobileWebPlatform"
