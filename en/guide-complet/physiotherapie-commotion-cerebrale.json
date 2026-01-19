@@ -3,7 +3,7 @@
   "@graph": [
     {
       "@type": "MedicalTherapy",
-      "name": "Physiothérapie",
+      "name": "Physiothérapie pour la Commotion Cérébrale",
       "alternateName": [
         "Physical therapy",
         "Kinésithérapie",
@@ -14,15 +14,10 @@
         "https://www.wikidata.org/wiki/Q186005",
         "https://en.wikipedia.org/wiki/Physical_therapy",
         "https://fr.wikipedia.org/wiki/Kinésithérapie",
-        "https://meshb.nlm.nih.gov/record/ui?ui=D026761",
-        "https://www.merriam-webster.com/dictionary/physiotherapy",
-        "https://www.britannica.com/topic/physical-therapy"
+        "https://meshb.nlm.nih.gov/record/ui?ui=D026761"
       ],
       "@id": "https://www.physioactif.com/en/guide-complet/physiotherapie-commotion-cerebrale#therapy",
-      "relevantSpecialty": {
-        "@type": "MedicalSpecialty",
-        "name": "Musculoskeletal"
-      }
+      "description": "Comment la physiothérapie accélère la récupération post-commotion: traitement cervical, rééducation vestibulaire, retour progressif aux activités."
     },
     {
       "@type": "MedicalWebPage",
@@ -31,16 +26,16 @@
         "@type": "Person",
         "@id": "https://www.physioactif.com/en/equipe/ariel-desjardins-charbonneau/#person"
       },
-      "datePublished": "2026-01-10",
-      "name": "Physiothérapie pour commotion cérébrale",
-      "headline": "Physiothérapie pour commotion: Récupération efficace",
+      "datePublished": "2026-01-19",
+      "name": "Physiothérapie pour la Commotion Cérébrale",
+      "headline": "Physiothérapie Commotion Cérébrale: Récupération Optimale",
       "about": [
         {
           "@id": "https://www.physioactif.com/en/guide-complet/physiotherapie-commotion-cerebrale#therapy"
         },
         {
           "@type": "AnatomicalStructure",
-          "name": "Cerveau et cou"
+          "name": "Cerveau"
         }
       ],
       "mainEntity": {
@@ -93,20 +88,23 @@
             "https://www.wikidata.org/wiki/Q186005",
             "https://en.wikipedia.org/wiki/Physical_therapy",
             "https://fr.wikipedia.org/wiki/Kinésithérapie",
-            "https://meshb.nlm.nih.gov/record/ui?ui=D026761",
-            "https://www.merriam-webster.com/dictionary/physiotherapy",
-            "https://www.britannica.com/topic/physical-therapy"
+            "https://meshb.nlm.nih.gov/record/ui?ui=D026761"
           ]
+        },
+        {
+          "@type": "MedicalCondition",
+          "name": "la Commotion Cérébrale",
+          "sameAs": "https://www.physioactif.com/en/guide-complet/commotion-cerebrale"
         }
       ]
     },
     {
       "@type": "WebPage",
       "@id": "https://www.physioactif.com/en/guide-complet/physiotherapie-commotion-cerebrale#webpage",
-      "datePublished": "2026-01-10",
+      "datePublished": "2026-01-19",
       "url": "https://www.physioactif.com/en/guide-complet/physiotherapie-commotion-cerebrale",
-      "name": "Physiothérapie pour commotion cérébrale | Physioactif",
-      "description": "Récupérez après une commotion avec la physiothérapie: rééducation vestibulaire, traitement cervical et retour progressif aux activités.",
+      "name": "Physiothérapie pour la Commotion Cérébrale | Physioactif",
+      "description": "Comment la physiothérapie accélère la récupération post-commotion: traitement cervical, rééducation vestibulaire, retour progressif aux activités.",
       "mainEntity": {
         "@id": "https://www.physioactif.com/en/guide-complet/physiotherapie-commotion-cerebrale#therapy"
       },
@@ -132,7 +130,7 @@
           {
             "@type": "ListItem",
             "position": 3,
-            "name": "Physiothérapie pour commotion cérébrale",
+            "name": "Physiothérapie pour la Commotion Cérébrale",
             "item": "https://www.physioactif.com/en/guide-complet/physiotherapie-commotion-cerebrale"
           }
         ]

@@ -3,7 +3,7 @@
   "@graph": [
     {
       "@type": "MedicalTherapy",
-      "name": "Physiothérapie",
+      "name": "Physiothérapie pour les Maux de Tête",
       "alternateName": [
         "Physical therapy",
         "Kinésithérapie",
@@ -14,15 +14,10 @@
         "https://www.wikidata.org/wiki/Q186005",
         "https://en.wikipedia.org/wiki/Physical_therapy",
         "https://fr.wikipedia.org/wiki/Kinésithérapie",
-        "https://meshb.nlm.nih.gov/record/ui?ui=D026761",
-        "https://www.merriam-webster.com/dictionary/physiotherapy",
-        "https://www.britannica.com/topic/physical-therapy"
+        "https://meshb.nlm.nih.gov/record/ui?ui=D026761"
       ],
       "@id": "https://www.physioactif.com/guide-complet/physiotherapie-maux-de-tete#therapy",
-      "relevantSpecialty": {
-        "@type": "MedicalSpecialty",
-        "name": "Musculoskeletal"
-      }
+      "description": "Comment la physiothérapie traite les céphalées cervicogéniques, céphalées de tension et migraines. Approche sans médicaments fondée sur les données probantes."
     },
     {
       "@type": "MedicalWebPage",
@@ -31,16 +26,16 @@
         "@type": "Person",
         "@id": "https://www.physioactif.com/equipe/ariel-desjardins-charbonneau/#person"
       },
-      "datePublished": "2026-01-10",
-      "name": "Physiothérapie pour les maux de tête",
-      "headline": "Physiothérapie pour les maux de tête: Traitement efficace",
+      "datePublished": "2026-01-19",
+      "name": "Physiothérapie pour les Maux de Tête",
+      "headline": "Physiothérapie pour Maux de Tête: Traitement Efficace",
       "about": [
         {
           "@id": "https://www.physioactif.com/guide-complet/physiotherapie-maux-de-tete#therapy"
         },
         {
           "@type": "AnatomicalStructure",
-          "name": "Tête et cou"
+          "name": "Tête"
         }
       ],
       "mainEntity": {
@@ -93,20 +88,23 @@
             "https://www.wikidata.org/wiki/Q186005",
             "https://en.wikipedia.org/wiki/Physical_therapy",
             "https://fr.wikipedia.org/wiki/Kinésithérapie",
-            "https://meshb.nlm.nih.gov/record/ui?ui=D026761",
-            "https://www.merriam-webster.com/dictionary/physiotherapy",
-            "https://www.britannica.com/topic/physical-therapy"
+            "https://meshb.nlm.nih.gov/record/ui?ui=D026761"
           ]
+        },
+        {
+          "@type": "MedicalCondition",
+          "name": "les Maux de Tête",
+          "sameAs": "https://www.physioactif.com/guide-complet/maux-de-tete-cephalees"
         }
       ]
     },
     {
       "@type": "WebPage",
       "@id": "https://www.physioactif.com/guide-complet/physiotherapie-maux-de-tete#webpage",
-      "datePublished": "2026-01-10",
+      "datePublished": "2026-01-19",
       "url": "https://www.physioactif.com/guide-complet/physiotherapie-maux-de-tete",
-      "name": "Physiothérapie pour les maux de tête | Physioactif",
-      "description": "Soulagez vos maux de tête avec la physiothérapie. Mobilisations cervicales, exercices et éducation pour les céphalées cervicogéniques.",
+      "name": "Physiothérapie pour les Maux de Tête | Physioactif",
+      "description": "Comment la physiothérapie traite les céphalées cervicogéniques, céphalées de tension et migraines. Approche sans médicaments fondée sur les données probantes.",
       "mainEntity": {
         "@id": "https://www.physioactif.com/guide-complet/physiotherapie-maux-de-tete#therapy"
       },
@@ -132,7 +130,7 @@
           {
             "@type": "ListItem",
             "position": 3,
-            "name": "Physiothérapie pour les maux de tête",
+            "name": "Physiothérapie pour les Maux de Tête",
             "item": "https://www.physioactif.com/guide-complet/physiotherapie-maux-de-tete"
           }
         ]

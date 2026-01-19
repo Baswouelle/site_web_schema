@@ -4,25 +4,33 @@
     {
       "@type": "MedicalCondition",
       "@id": "https://www.physioactif.com/en/guide-complet/douleur-machoire-atm#condition",
-      "name": "Douleur mâchoire (atm)",
-      "alternateName": [
-        "Jaw (TMJ) pain",
-        "Douleur mâchoire (atm)"
-      ],
-      "description": "Découvrez les causes de la douleur à la mâchoire et les traitements efficaces. La physiothérapie aide dans 70 à 90% des cas de troubles de l'ATM.",
+      "name": "Douleur à la Mâchoire et Troubles de l'ATM",
+      "description": "Douleurs à la mâchoire, clics, limitations d'ouverture? Découvrez les causes des troubles de l'ATM et comment la physiothérapie peut vous aider.",
       "associatedAnatomy": {
         "@type": "AnatomicalStructure",
-        "name": "Mâchoire (ATM)"
+        "name": "Mâchoire et ATM"
       },
       "possibleTreatment": {
         "@type": "MedicalTherapy",
         "name": "Physiothérapie",
-        "sameAs": "https://www.physioactif.com/en/guide-complet/physiotherapie"
+        "alternateName": [
+          "Physical therapy",
+          "Kinésithérapie",
+          "Fisioterapia"
+        ],
+        "sameAs": [
+          "https://www.physioactif.com/en/guide-complet/physiotherapie",
+          "https://www.wikidata.org/wiki/Q186005",
+          "https://en.wikipedia.org/wiki/Physical_therapy",
+          "https://fr.wikipedia.org/wiki/Kinésithérapie",
+          "https://meshb.nlm.nih.gov/record/ui?ui=D026761"
+        ]
       },
       "sameAs": [
-        "https://fr.wikipedia.org/wiki/Articulation_temporo-mandibulaire",
+        "https://fr.wikipedia.org/wiki/Syndrome_de_Costen",
         "https://en.wikipedia.org/wiki/Temporomandibular_joint_dysfunction",
-        "https://www.wikidata.org/wiki/Q1757212"
+        "https://www.wikidata.org/wiki/Q1411203",
+        "https://meshb.nlm.nih.gov/record/ui?ui=D013705"
       ]
     },
     {
@@ -32,30 +40,12 @@
         "@type": "Person",
         "@id": "https://www.physioactif.com/en/equipe/ariel-desjardins-charbonneau/#person"
       },
-      "datePublished": "2026-01-10",
-      "name": "Douleur à la mâchoire (ATM)",
-      "headline": "Douleur à la mâchoire (ATM) : causes, symptômes et traitement",
+      "datePublished": "2026-01-19",
+      "name": "Douleur à la Mâchoire et Troubles de l'ATM",
+      "headline": "Douleur Mâchoire et ATM: Causes, Symptômes, Solutions",
       "about": [
         {
           "@id": "https://www.physioactif.com/en/guide-complet/douleur-machoire-atm#condition"
-        },
-        {
-          "@type": "MedicalTherapy",
-          "name": "Physiothérapie",
-          "alternateName": [
-            "Physical therapy",
-            "Kinésithérapie",
-            "Fisioterapia"
-          ],
-          "sameAs": [
-            "https://www.physioactif.com/en/guide-complet/physiotherapie",
-            "https://www.wikidata.org/wiki/Q186005",
-            "https://en.wikipedia.org/wiki/Physical_therapy",
-            "https://fr.wikipedia.org/wiki/Kinésithérapie",
-            "https://meshb.nlm.nih.gov/record/ui?ui=D026761",
-            "https://www.merriam-webster.com/dictionary/physiotherapy",
-            "https://www.britannica.com/topic/physical-therapy"
-          ]
         }
       ],
       "mainEntity": {
@@ -108,30 +98,18 @@
             "https://www.wikidata.org/wiki/Q186005",
             "https://en.wikipedia.org/wiki/Physical_therapy",
             "https://fr.wikipedia.org/wiki/Kinésithérapie",
-            "https://meshb.nlm.nih.gov/record/ui?ui=D026761",
-            "https://www.merriam-webster.com/dictionary/physiotherapy",
-            "https://www.britannica.com/topic/physical-therapy"
+            "https://meshb.nlm.nih.gov/record/ui?ui=D026761"
           ]
-        },
-        {
-          "@type": "MedicalCondition",
-          "name": "Bruxisme",
-          "sameAs": "https://www.physioactif.com/en/guide-complet/bruxisme"
-        },
-        {
-          "@type": "MedicalCondition",
-          "name": "Maux de tête",
-          "sameAs": "https://www.physioactif.com/en/guide-complet/maux-de-tete-cephalees"
         }
       ]
     },
     {
       "@type": "WebPage",
       "@id": "https://www.physioactif.com/en/guide-complet/douleur-machoire-atm#webpage",
-      "datePublished": "2026-01-10",
+      "datePublished": "2026-01-19",
       "url": "https://www.physioactif.com/en/guide-complet/douleur-machoire-atm",
-      "name": "Douleur à la mâchoire (ATM) | Physioactif",
-      "description": "Découvrez les causes de la douleur à la mâchoire et les traitements efficaces. La physiothérapie aide dans 70 à 90% des cas de troubles de l'ATM.",
+      "name": "Douleur à la Mâchoire et Troubles de l'ATM | Physioactif",
+      "description": "Douleurs à la mâchoire, clics, limitations d'ouverture? Découvrez les causes des troubles de l'ATM et comment la physiothérapie peut vous aider.",
       "mainEntity": {
         "@id": "https://www.physioactif.com/en/guide-complet/douleur-machoire-atm#condition"
       },
@@ -157,7 +135,7 @@
           {
             "@type": "ListItem",
             "position": 3,
-            "name": "Douleur à la mâchoire (ATM)",
+            "name": "Douleur à la Mâchoire et Troubles de l'ATM",
             "item": "https://www.physioactif.com/en/guide-complet/douleur-machoire-atm"
           }
         ]

@@ -4,12 +4,8 @@
     {
       "@type": "MedicalCondition",
       "@id": "https://www.physioactif.com/guide-complet/vertigo-etourdissements#condition",
-      "name": "Douleur système vestibulaire",
-      "alternateName": [
-        "Vestibular System pain",
-        "Douleur système vestibulaire"
-      ],
-      "description": "Comprenez les causes de vos vertiges: VPPB, névrite vestibulaire, Ménière. La physiothérapie vestibulaire traite efficacement les vertiges.",
+      "name": "Vertiges et Étourdissements",
+      "description": "Vertiges positionnels, étourdissements, troubles de l'équilibre: causes, diagnostic, traitements. VPPB, névrite vestibulaire, migraine vestibulaire.",
       "associatedAnatomy": {
         "@type": "AnatomicalStructure",
         "name": "Système vestibulaire"
@@ -17,12 +13,24 @@
       "possibleTreatment": {
         "@type": "MedicalTherapy",
         "name": "Physiothérapie",
-        "sameAs": "https://www.physioactif.com/guide-complet/physiotherapie"
+        "alternateName": [
+          "Physical therapy",
+          "Kinésithérapie",
+          "Fisioterapia"
+        ],
+        "sameAs": [
+          "https://www.physioactif.com/guide-complet/physiotherapie",
+          "https://www.wikidata.org/wiki/Q186005",
+          "https://en.wikipedia.org/wiki/Physical_therapy",
+          "https://fr.wikipedia.org/wiki/Kinésithérapie",
+          "https://meshb.nlm.nih.gov/record/ui?ui=D026761"
+        ]
       },
       "sameAs": [
         "https://fr.wikipedia.org/wiki/Vertige",
         "https://en.wikipedia.org/wiki/Vertigo",
-        "https://www.wikidata.org/wiki/Q12195"
+        "https://www.wikidata.org/wiki/Q476686",
+        "https://meshb.nlm.nih.gov/record/ui?ui=D014717"
       ]
     },
     {
@@ -32,30 +40,12 @@
         "@type": "Person",
         "@id": "https://www.physioactif.com/equipe/ariel-desjardins-charbonneau/#person"
       },
-      "datePublished": "2026-01-10",
-      "name": "Vertigo et étourdissements",
-      "headline": "Vertigo et étourdissements: Causes et traitement",
+      "datePublished": "2026-01-19",
+      "name": "Vertiges et Étourdissements",
+      "headline": "Vertiges et Étourdissements: Causes et Traitements 2025",
       "about": [
         {
           "@id": "https://www.physioactif.com/guide-complet/vertigo-etourdissements#condition"
-        },
-        {
-          "@type": "MedicalTherapy",
-          "name": "Physiothérapie",
-          "alternateName": [
-            "Physical therapy",
-            "Kinésithérapie",
-            "Fisioterapia"
-          ],
-          "sameAs": [
-            "https://www.physioactif.com/guide-complet/physiotherapie",
-            "https://www.wikidata.org/wiki/Q186005",
-            "https://en.wikipedia.org/wiki/Physical_therapy",
-            "https://fr.wikipedia.org/wiki/Kinésithérapie",
-            "https://meshb.nlm.nih.gov/record/ui?ui=D026761",
-            "https://www.merriam-webster.com/dictionary/physiotherapy",
-            "https://www.britannica.com/topic/physical-therapy"
-          ]
         }
       ],
       "mainEntity": {
@@ -108,35 +98,18 @@
             "https://www.wikidata.org/wiki/Q186005",
             "https://en.wikipedia.org/wiki/Physical_therapy",
             "https://fr.wikipedia.org/wiki/Kinésithérapie",
-            "https://meshb.nlm.nih.gov/record/ui?ui=D026761",
-            "https://www.merriam-webster.com/dictionary/physiotherapy",
-            "https://www.britannica.com/topic/physical-therapy"
+            "https://meshb.nlm.nih.gov/record/ui?ui=D026761"
           ]
-        },
-        {
-          "@type": "MedicalCondition",
-          "name": "VPPB",
-          "sameAs": "https://www.physioactif.com/guide-complet/vertige-positionnel-paroxystique-benin"
-        },
-        {
-          "@type": "MedicalCondition",
-          "name": "Névrite vestibulaire",
-          "sameAs": "https://www.physioactif.com/guide-complet/nevrite-vestibulaire"
-        },
-        {
-          "@type": "MedicalCondition",
-          "name": "Commotion cérébrale",
-          "sameAs": "https://www.physioactif.com/guide-complet/commotion-cerebrale"
         }
       ]
     },
     {
       "@type": "WebPage",
       "@id": "https://www.physioactif.com/guide-complet/vertigo-etourdissements#webpage",
-      "datePublished": "2026-01-10",
+      "datePublished": "2026-01-19",
       "url": "https://www.physioactif.com/guide-complet/vertigo-etourdissements",
-      "name": "Vertigo et étourdissements | Physioactif",
-      "description": "Comprenez les causes de vos vertiges: VPPB, névrite vestibulaire, Ménière. La physiothérapie vestibulaire traite efficacement les vertiges.",
+      "name": "Vertiges et Étourdissements | Physioactif",
+      "description": "Vertiges positionnels, étourdissements, troubles de l'équilibre: causes, diagnostic, traitements. VPPB, névrite vestibulaire, migraine vestibulaire.",
       "mainEntity": {
         "@id": "https://www.physioactif.com/guide-complet/vertigo-etourdissements#condition"
       },
@@ -162,7 +135,7 @@
           {
             "@type": "ListItem",
             "position": 3,
-            "name": "Vertigo et étourdissements",
+            "name": "Vertiges et Étourdissements",
             "item": "https://www.physioactif.com/guide-complet/vertigo-etourdissements"
           }
         ]

@@ -4,26 +4,36 @@
     {
       "@type": "MedicalCondition",
       "@id": "https://www.physioactif.com/en/guide-complet/douleur-tete-visage-guide#condition",
-      "name": "Douleur à la tête et au visage",
+      "name": "Douleur tête, visage et mâchoire",
       "alternateName": [
-        "Head and Face pain",
-        "Douleur tête et visage"
+        "Head, Face and Jaw pain",
+        "Douleurs craniofaciales"
       ],
-      "description": "Identifiez l'origine de votre douleur: mâchoire (ATM), cou, vertiges ou commotion. Guide pratique par des physiothérapeutes.",
+      "description": "Douleurs affectant la région tête, visage et mâchoire.",
       "associatedAnatomy": {
         "@type": "AnatomicalStructure",
-        "name": "Tête et visage"
+        "name": "Tête, visage et mâchoire"
       },
       "possibleTreatment": {
         "@type": "MedicalTherapy",
         "name": "Physiothérapie",
-        "sameAs": "https://www.physioactif.com/en/guide-complet/physiotherapie"
+        "alternateName": [
+          "Physical therapy",
+          "Kinésithérapie",
+          "Fisioterapia"
+        ],
+        "sameAs": [
+          "https://www.physioactif.com/en/guide-complet/physiotherapie",
+          "https://www.wikidata.org/wiki/Q186005",
+          "https://en.wikipedia.org/wiki/Physical_therapy",
+          "https://fr.wikipedia.org/wiki/Kinésithérapie",
+          "https://meshb.nlm.nih.gov/record/ui?ui=D026761"
+        ]
       },
       "sameAs": [
-        "https://fr.wikipedia.org/wiki/Tête",
-        "https://fr.wikipedia.org/wiki/Visage",
-        "https://en.wikipedia.org/wiki/Head",
-        "https://en.wikipedia.org/wiki/Face"
+        "https://fr.wikipedia.org/wiki/Céphalée",
+        "https://en.wikipedia.org/wiki/Headache",
+        "https://www.wikidata.org/wiki/Q7890"
       ]
     },
     {
@@ -33,9 +43,9 @@
         "@type": "Person",
         "@id": "https://www.physioactif.com/en/equipe/ariel-desjardins-charbonneau/#person"
       },
-      "datePublished": "2026-01-10",
-      "name": "Douleur à la tête et au visage",
-      "headline": "Douleur à la tête et au visage : comprendre vos symptômes",
+      "datePublished": "2026-01-19",
+      "name": "Guide Complet sur les Douleurs à la Tête, au Visage et à la Mâchoire",
+      "headline": "Douleurs Tête, Visage, Mâchoire: Guide Complet 2025",
       "about": [
         {
           "@id": "https://www.physioactif.com/en/guide-complet/douleur-tete-visage-guide#condition"
@@ -53,9 +63,7 @@
             "https://www.wikidata.org/wiki/Q186005",
             "https://en.wikipedia.org/wiki/Physical_therapy",
             "https://fr.wikipedia.org/wiki/Kinésithérapie",
-            "https://meshb.nlm.nih.gov/record/ui?ui=D026761",
-            "https://www.merriam-webster.com/dictionary/physiotherapy",
-            "https://www.britannica.com/topic/physical-therapy"
+            "https://meshb.nlm.nih.gov/record/ui?ui=D026761"
           ]
         }
       ],
@@ -109,24 +117,22 @@
             "https://www.wikidata.org/wiki/Q186005",
             "https://en.wikipedia.org/wiki/Physical_therapy",
             "https://fr.wikipedia.org/wiki/Kinésithérapie",
-            "https://meshb.nlm.nih.gov/record/ui?ui=D026761",
-            "https://www.merriam-webster.com/dictionary/physiotherapy",
-            "https://www.britannica.com/topic/physical-therapy"
+            "https://meshb.nlm.nih.gov/record/ui?ui=D026761"
           ]
         },
         {
           "@type": "MedicalCondition",
-          "name": "Douleur à la mâchoire (ATM)",
-          "sameAs": "https://www.physioactif.com/en/guide-complet/douleur-machoire-atm"
-        },
-        {
-          "@type": "MedicalCondition",
-          "name": "Maux de tête",
+          "name": "Maux de tête et céphalées",
           "sameAs": "https://www.physioactif.com/en/guide-complet/maux-de-tete-cephalees"
         },
         {
           "@type": "MedicalCondition",
-          "name": "Vertigo",
+          "name": "Douleur à la mâchoire et ATM",
+          "sameAs": "https://www.physioactif.com/en/guide-complet/douleur-machoire-atm"
+        },
+        {
+          "@type": "MedicalCondition",
+          "name": "Vertiges et étourdissements",
           "sameAs": "https://www.physioactif.com/en/guide-complet/vertigo-etourdissements"
         },
         {
@@ -139,10 +145,10 @@
     {
       "@type": "WebPage",
       "@id": "https://www.physioactif.com/en/guide-complet/douleur-tete-visage-guide#webpage",
-      "datePublished": "2026-01-10",
+      "datePublished": "2026-01-19",
       "url": "https://www.physioactif.com/en/guide-complet/douleur-tete-visage-guide",
-      "name": "Douleur à la tête et au visage | Physioactif",
-      "description": "Identifiez l'origine de votre douleur: mâchoire (ATM), cou, vertiges ou commotion. Guide pratique par des physiothérapeutes.",
+      "name": "Guide Complet sur les Douleurs à la Tête, au Visage et à la Mâchoire | Physioactif",
+      "description": "Guide complet sur les douleurs craniofaciales: maux de tête, troubles ATM, vertiges, commotions. Causes, diagnostic, traitements en physiothérapie.",
       "mainEntity": {
         "@id": "https://www.physioactif.com/en/guide-complet/douleur-tete-visage-guide#condition"
       },
@@ -168,7 +174,7 @@
           {
             "@type": "ListItem",
             "position": 3,
-            "name": "Douleur à la tête et au visage",
+            "name": "Guide Complet sur les Douleurs à la Tête, au Visage et à la Mâchoire",
             "item": "https://www.physioactif.com/en/guide-complet/douleur-tete-visage-guide"
           }
         ]
