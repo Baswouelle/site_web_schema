@@ -3,7 +3,7 @@
   "@graph": [
     {
       "@type": "MedicalTherapy",
-      "name": "Physiothérapie",
+      "name": "Physiothérapie pour la Mâchoire et l'ATM",
       "alternateName": [
         "Physical therapy",
         "Kinésithérapie",
@@ -14,15 +14,10 @@
         "https://www.wikidata.org/wiki/Q186005",
         "https://en.wikipedia.org/wiki/Physical_therapy",
         "https://fr.wikipedia.org/wiki/Kinésithérapie",
-        "https://meshb.nlm.nih.gov/record/ui?ui=D026761",
-        "https://www.merriam-webster.com/dictionary/physiotherapy",
-        "https://www.britannica.com/topic/physical-therapy"
+        "https://meshb.nlm.nih.gov/record/ui?ui=D026761"
       ],
       "@id": "https://www.physioactif.com/guide-complet/physiotherapie-machoire-atm#therapy",
-      "relevantSpecialty": {
-        "@type": "MedicalSpecialty",
-        "name": "Musculoskeletal"
-      }
+      "description": "Comment la physiothérapie traite les troubles de l'ATM: évaluation, thérapie manuelle, exercices. 70-90% d'amélioration sans chirurgie."
     },
     {
       "@type": "MedicalWebPage",
@@ -31,16 +26,16 @@
         "@type": "Person",
         "@id": "https://www.physioactif.com/equipe/ariel-desjardins-charbonneau/#person"
       },
-      "datePublished": "2026-01-10",
-      "name": "Physiothérapie pour la douleur à la mâchoire (ATM)",
-      "headline": "Physiothérapie pour la mâchoire (ATM) : traitement efficace",
+      "datePublished": "2026-01-19",
+      "name": "Physiothérapie pour la Mâchoire et l'ATM",
+      "headline": "Physiothérapie ATM: Traitement des Douleurs de Mâchoire",
       "about": [
         {
           "@id": "https://www.physioactif.com/guide-complet/physiotherapie-machoire-atm#therapy"
         },
         {
           "@type": "AnatomicalStructure",
-          "name": "Mâchoire (ATM)"
+          "name": "Mâchoire et ATM"
         }
       ],
       "mainEntity": {
@@ -93,20 +88,23 @@
             "https://www.wikidata.org/wiki/Q186005",
             "https://en.wikipedia.org/wiki/Physical_therapy",
             "https://fr.wikipedia.org/wiki/Kinésithérapie",
-            "https://meshb.nlm.nih.gov/record/ui?ui=D026761",
-            "https://www.merriam-webster.com/dictionary/physiotherapy",
-            "https://www.britannica.com/topic/physical-therapy"
+            "https://meshb.nlm.nih.gov/record/ui?ui=D026761"
           ]
+        },
+        {
+          "@type": "MedicalCondition",
+          "name": "la Mâchoire et l'ATM",
+          "sameAs": "https://www.physioactif.com/guide-complet/douleur-machoire-atm"
         }
       ]
     },
     {
       "@type": "WebPage",
       "@id": "https://www.physioactif.com/guide-complet/physiotherapie-machoire-atm#webpage",
-      "datePublished": "2026-01-10",
+      "datePublished": "2026-01-19",
       "url": "https://www.physioactif.com/guide-complet/physiotherapie-machoire-atm",
-      "name": "Physiothérapie pour la douleur à la mâchoire (ATM) | Physioactif",
-      "description": "Découvrez comment la physiothérapie traite la douleur à la mâchoire. Techniques manuelles, exercices et rééducation pour les troubles de l'ATM.",
+      "name": "Physiothérapie pour la Mâchoire et l'ATM | Physioactif",
+      "description": "Comment la physiothérapie traite les troubles de l'ATM: évaluation, thérapie manuelle, exercices. 70-90% d'amélioration sans chirurgie.",
       "mainEntity": {
         "@id": "https://www.physioactif.com/guide-complet/physiotherapie-machoire-atm#therapy"
       },
@@ -132,7 +130,7 @@
           {
             "@type": "ListItem",
             "position": 3,
-            "name": "Physiothérapie pour la douleur à la mâchoire (ATM)",
+            "name": "Physiothérapie pour la Mâchoire et l'ATM",
             "item": "https://www.physioactif.com/guide-complet/physiotherapie-machoire-atm"
           }
         ]

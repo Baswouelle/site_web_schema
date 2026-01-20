@@ -2,48 +2,16 @@
   "@context": "https://schema.org",
   "@graph": [
     {
-      "@type": "Article",
-      "@id": "https://www.physioactif.com/ressources/anatomie-colonne-vertebrale/#article",
+      "@type": "MedicalWebPage",
+      "@id": "https://www.physioactif.com/ressources/anatomie-colonne-vertebrale#article",
       "author": {
         "@type": "Person",
-        "@id": "https://www.physioactif.com/equipe/ariel-desjardins-charbonneau/#person"
+        "@id": "https://www.physioactif.com/equipe/charles-alexis-daigle/#person"
       },
-      "headline": "Anatomie de la colonne vertébrale: comprendre votre dos | Physioactif",
-      "description": "Découvrez l'anatomie de votre colonne vertébrale: vertèbres, disques, nerfs et muscles. Comprendre votre dos pour mieux prévenir et traiter vos douleurs.",
-      "url": "https://www.physioactif.com/ressources/anatomie-colonne-vertebrale",
-      "inLanguage": [
-        "fr-CA"
-      ],
-      "datePublished": "2025-09-26",
-      "image": {
-        "@type": "ImageObject",
-        "url": "https://cdn.prod.website-files.com/670e84ccd653d18590687563/physioactif-hero-default.jpg",
-        "width": 1200,
-        "height": 630
-      },
-      "publisher": {
-        "@id": "https://www.physioactif.com/#org"
-      },
-      "mainEntityOfPage": {
-        "@type": "WebPage",
-        "@id": "https://www.physioactif.com/ressources/anatomie-colonne-vertebrale/"
-      },
+      "datePublished": "2026-01-19",
+      "name": "Anatomie de la colonne vertébrale : comprendre la structure de votre dos",
+      "headline": "Anatomie de la colonne vertébrale : comprendre la structure de votre dos",
       "about": [
-        {
-          "@type": "AnatomicalStructure",
-          "name": "Colonne vertébrale",
-          "alternateName": [
-            "Spine",
-            "rachis",
-            "vertebral column"
-          ],
-          "sameAs": [
-            "https://fr.wikipedia.org/wiki/Colonne_vertébrale",
-            "https://en.wikipedia.org/wiki/Vertebral_column",
-            "https://www.wikidata.org/wiki/Q482853",
-            "https://meshb.nlm.nih.gov/record/ui?ui=D013131"
-          ]
-        },
         {
           "@type": "MedicalTherapy",
           "name": "Physiothérapie",
@@ -63,100 +31,135 @@
           ]
         }
       ],
-      "articleSection": "Ressources",
-      "keywords": [
-        "anatomie",
-        "colonne vertébrale",
-        "vertèbres",
-        "disques intervertébraux",
-        "dos",
-        "physiothérapie"
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [
+          ".header_heading",
+          ".header_content .text-style-muted.w-richtext",
+          ".section_article .text-rich-text h2"
+        ]
+      },
+      "specialty": [
+        "Physiotherapy",
+        "Musculoskeletal",
+        "Anatomy"
       ],
-      "mentions": [
+      "medicalAudience": [
         {
-          "@type": "DefinedTerm",
-          "name": "Vertèbre",
-          "description": "Os constituant la colonne vertébrale, au nombre de 33",
-          "sameAs": [
-            "https://fr.wikipedia.org/wiki/Vertèbre",
-            "https://en.wikipedia.org/wiki/Vertebra",
-            "https://www.wikidata.org/wiki/Q482498"
-          ]
+          "@type": "Patient"
         },
         {
-          "@type": "DefinedTerm",
-          "name": "Disque intervertébral",
-          "description": "Coussin fibro-cartilagineux entre les vertèbres",
-          "sameAs": [
-            "https://fr.wikipedia.org/wiki/Disque_intervertébral",
-            "https://en.wikipedia.org/wiki/Intervertebral_disc",
-            "https://www.wikidata.org/wiki/Q1353640"
-          ]
-        },
-        {
-          "@type": "DefinedTerm",
-          "name": "Moelle épinière",
-          "description": "Partie du système nerveux central protégée par la colonne vertébrale",
-          "sameAs": [
-            "https://fr.wikipedia.org/wiki/Moelle_épinière",
-            "https://en.wikipedia.org/wiki/Spinal_cord",
-            "https://www.wikidata.org/wiki/Q180453"
-          ]
-        },
-        {
-          "@id": "https://www.physioactif.com/guide-complet/lombalgie/#condition"
-        },
-        {
-          "@id": "https://www.physioactif.com/guide-complet/hernie-discale-lombaire/#condition"
+          "@type": "MedicalAudience",
+          "audienceType": "General Public"
         }
-      ]
-    },
-    {
-      "@type": "WebPage",
-      "@id": "https://www.physioactif.com/ressources/anatomie-colonne-vertebrale/#webpage",
-      "datePublished": "2025-09-26",
-      "url": "https://www.physioactif.com/ressources/anatomie-colonne-vertebrale",
-      "name": "Anatomie colonne vertébrale: structure et fonction | Physioactif",
-      "description": "Découvrez l'anatomie de votre colonne vertébrale: vertèbres, disques, nerfs et muscles. Comprendre votre dos pour mieux prévenir et traiter vos douleurs.",
+      ],
+      "reviewedBy": {
+        "@id": "https://www.physioactif.com/#org"
+      },
+      "provider": {
+        "@id": "https://www.physioactif.com/#org"
+      },
       "inLanguage": [
         "fr-CA"
       ],
       "isPartOf": {
         "@id": "https://www.physioactif.com/#website"
       },
-      "mainEntity": {
-        "@id": "https://www.physioactif.com/ressources/anatomie-colonne-vertebrale/#article"
-      },
+      "mentions": [
+        {
+          "@type": "MedicalTherapy",
+          "name": "Physiothérapie",
+          "alternateName": [
+            "Physical therapy",
+            "Kinésithérapie",
+            "Fisioterapia"
+          ],
+          "sameAs": [
+            "https://www.physioactif.com/guide-complet/physiotherapie",
+            "https://www.wikidata.org/wiki/Q186005",
+            "https://en.wikipedia.org/wiki/Physical_therapy",
+            "https://fr.wikipedia.org/wiki/Kinésithérapie",
+            "https://meshb.nlm.nih.gov/record/ui?ui=D026761",
+            "https://www.merriam-webster.com/dictionary/physiotherapy",
+            "https://www.britannica.com/topic/physical-therapy"
+          ]
+        }
+      ]
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://www.physioactif.com/ressources/anatomie-colonne-vertebrale#webpage",
+      "datePublished": "2026-01-19",
+      "url": "https://www.physioactif.com/ressources/anatomie-colonne-vertebrale",
+      "name": "Anatomie de la colonne vertébrale : comprendre la structure de votre dos | Physioactif",
+      "description": "Guide complet : anatomie de la colonne vertébrale : comprendre la structure de votre dos. Comprendre la structure et le fonctionnement.",
+      "about": [
+        {
+          "@type": "MedicalTherapy",
+          "name": "Physiothérapie",
+          "alternateName": [
+            "Physical therapy",
+            "Kinésithérapie",
+            "Fisioterapia"
+          ],
+          "sameAs": [
+            "https://www.physioactif.com/guide-complet/physiotherapie",
+            "https://www.wikidata.org/wiki/Q186005",
+            "https://en.wikipedia.org/wiki/Physical_therapy",
+            "https://fr.wikipedia.org/wiki/Kinésithérapie",
+            "https://meshb.nlm.nih.gov/record/ui?ui=D026761",
+            "https://www.merriam-webster.com/dictionary/physiotherapy",
+            "https://www.britannica.com/topic/physical-therapy"
+          ]
+        }
+      ],
       "breadcrumb": {
-        "@id": "https://www.physioactif.com/ressources/anatomie-colonne-vertebrale/#breadcrumb"
+        "@type": "BreadcrumbList",
+        "@id": "https://www.physioactif.com/ressources/anatomie-colonne-vertebrale#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Accueil",
+            "item": "https://www.physioactif.com/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Ressources",
+            "item": "https://www.physioactif.com/ressources"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Anatomie de la colonne vertébrale : comprendre la structure de votre dos",
+            "item": "https://www.physioactif.com/ressources/anatomie-colonne-vertebrale"
+          }
+        ]
       },
+      "isPartOf": {
+        "@id": "https://www.physioactif.com/#website"
+      },
+      "inLanguage": [
+        "fr-CA"
+      ],
+      "potentialAction": {
+        "@type": "ReadAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://www.physioactif.com/ressources/anatomie-colonne-vertebrale",
+          "actionPlatform": [
+            "http://schema.org/DesktopWebPlatform",
+            "http://schema.org/MobileWebPlatform"
+          ]
+        }
+      },
+      "relatedLink": [
+        "https://physioactif.clinicmaster.com/clinic-selection?lang=fr-CA"
+      ],
       "publisher": {
         "@id": "https://www.physioactif.com/#org"
       }
-    },
-    {
-      "@type": "BreadcrumbList",
-      "@id": "https://www.physioactif.com/ressources/anatomie-colonne-vertebrale/#breadcrumb",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Accueil",
-          "item": "https://www.physioactif.com/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "name": "Ressources",
-          "item": "https://www.physioactif.com/ressources/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 3,
-          "name": "Anatomie de la colonne vertébrale",
-          "item": "https://www.physioactif.com/ressources/anatomie-colonne-vertebrale"
-        }
-      ]
     }
   ]
 }

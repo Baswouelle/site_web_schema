@@ -4,12 +4,8 @@
     {
       "@type": "MedicalCondition",
       "@id": "https://www.physioactif.com/en/guide-complet/commotion-cerebrale#condition",
-      "name": "Douleur cerveau",
-      "alternateName": [
-        "Brain pain",
-        "Douleur cerveau"
-      ],
-      "description": "Guide complet sur la commotion cérébrale: évaluation SCAT6, phases de récupération et retour progressif aux activités. Physiothérapie efficace.",
+      "name": "Commotion cérébrale",
+      "description": "Guide complet sur la commotion cérébrale: symptômes, protocoles de récupération, retour aux activités. Prise en charge multidisciplinaire.",
       "associatedAnatomy": {
         "@type": "AnatomicalStructure",
         "name": "Cerveau"
@@ -17,12 +13,24 @@
       "possibleTreatment": {
         "@type": "MedicalTherapy",
         "name": "Physiothérapie",
-        "sameAs": "https://www.physioactif.com/en/guide-complet/physiotherapie"
+        "alternateName": [
+          "Physical therapy",
+          "Kinésithérapie",
+          "Fisioterapia"
+        ],
+        "sameAs": [
+          "https://www.physioactif.com/en/guide-complet/physiotherapie",
+          "https://www.wikidata.org/wiki/Q186005",
+          "https://en.wikipedia.org/wiki/Physical_therapy",
+          "https://fr.wikipedia.org/wiki/Kinésithérapie",
+          "https://meshb.nlm.nih.gov/record/ui?ui=D026761"
+        ]
       },
       "sameAs": [
         "https://fr.wikipedia.org/wiki/Commotion_cérébrale",
         "https://en.wikipedia.org/wiki/Concussion",
-        "https://www.wikidata.org/wiki/Q185239"
+        "https://www.wikidata.org/wiki/Q193078",
+        "https://meshb.nlm.nih.gov/record/ui?ui=D001924"
       ]
     },
     {
@@ -32,30 +40,12 @@
         "@type": "Person",
         "@id": "https://www.physioactif.com/en/equipe/ariel-desjardins-charbonneau/#person"
       },
-      "datePublished": "2026-01-10",
+      "datePublished": "2026-01-19",
       "name": "Commotion cérébrale",
-      "headline": "Commotion cérébrale: Symptômes et récupération",
+      "headline": "Commotion Cérébrale: Symptômes et Récupération",
       "about": [
         {
           "@id": "https://www.physioactif.com/en/guide-complet/commotion-cerebrale#condition"
-        },
-        {
-          "@type": "MedicalTherapy",
-          "name": "Physiothérapie",
-          "alternateName": [
-            "Physical therapy",
-            "Kinésithérapie",
-            "Fisioterapia"
-          ],
-          "sameAs": [
-            "https://www.physioactif.com/en/guide-complet/physiotherapie",
-            "https://www.wikidata.org/wiki/Q186005",
-            "https://en.wikipedia.org/wiki/Physical_therapy",
-            "https://fr.wikipedia.org/wiki/Kinésithérapie",
-            "https://meshb.nlm.nih.gov/record/ui?ui=D026761",
-            "https://www.merriam-webster.com/dictionary/physiotherapy",
-            "https://www.britannica.com/topic/physical-therapy"
-          ]
         }
       ],
       "mainEntity": {
@@ -108,35 +98,18 @@
             "https://www.wikidata.org/wiki/Q186005",
             "https://en.wikipedia.org/wiki/Physical_therapy",
             "https://fr.wikipedia.org/wiki/Kinésithérapie",
-            "https://meshb.nlm.nih.gov/record/ui?ui=D026761",
-            "https://www.merriam-webster.com/dictionary/physiotherapy",
-            "https://www.britannica.com/topic/physical-therapy"
+            "https://meshb.nlm.nih.gov/record/ui?ui=D026761"
           ]
-        },
-        {
-          "@type": "MedicalCondition",
-          "name": "Syndrome post-commotionnel",
-          "sameAs": "https://www.physioactif.com/en/guide-complet/syndrome-post-commotionnel"
-        },
-        {
-          "@type": "MedicalCondition",
-          "name": "Maux de tête",
-          "sameAs": "https://www.physioactif.com/en/guide-complet/maux-de-tete-cephalees"
-        },
-        {
-          "@type": "MedicalCondition",
-          "name": "Vertigo",
-          "sameAs": "https://www.physioactif.com/en/guide-complet/vertigo-etourdissements"
         }
       ]
     },
     {
       "@type": "WebPage",
       "@id": "https://www.physioactif.com/en/guide-complet/commotion-cerebrale#webpage",
-      "datePublished": "2026-01-10",
+      "datePublished": "2026-01-19",
       "url": "https://www.physioactif.com/en/guide-complet/commotion-cerebrale",
       "name": "Commotion cérébrale | Physioactif",
-      "description": "Guide complet sur la commotion cérébrale: évaluation SCAT6, phases de récupération et retour progressif aux activités. Physiothérapie efficace.",
+      "description": "Guide complet sur la commotion cérébrale: symptômes, protocoles de récupération, retour aux activités. Prise en charge multidisciplinaire.",
       "mainEntity": {
         "@id": "https://www.physioactif.com/en/guide-complet/commotion-cerebrale#condition"
       },

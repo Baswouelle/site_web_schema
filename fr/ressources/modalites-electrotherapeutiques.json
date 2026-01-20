@@ -3,14 +3,14 @@
   "@graph": [
     {
       "@type": "MedicalWebPage",
-      "@id": "https://www.physioactif.com/en/ressources/anatomie-colonne-vertebrale#article",
+      "@id": "https://www.physioactif.com/ressources/modalites-electrotherapeutiques#article",
       "author": {
         "@type": "Person",
-        "@id": "https://www.physioactif.com/equipe/charles-alexis-daigle/#person"
+        "@id": "https://www.physioactif.com/equipe/gino-dilorenzo/#person"
       },
       "datePublished": "2026-01-19",
-      "name": "Anatomy of the colonne vertébrale : comprendre la structure de votre dos",
-      "headline": "Anatomy of the colonne vertébrale : comprendre la structure de votre dos",
+      "name": "Modalités électrothérapeutiques en physiothérapie : guide complet",
+      "headline": "Comment l'électrothérapie soulage vos douleurs et favorise la guérison",
       "about": [
         {
           "@type": "MedicalTherapy",
@@ -41,8 +41,7 @@
       },
       "specialty": [
         "Physiotherapy",
-        "Musculoskeletal",
-        "Anatomy"
+        "Musculoskeletal"
       ],
       "medicalAudience": [
         {
@@ -60,7 +59,7 @@
         "@id": "https://www.physioactif.com/#org"
       },
       "inLanguage": [
-        "en-CA"
+        "fr-CA"
       ],
       "isPartOf": {
         "@id": "https://www.physioactif.com/#website"
@@ -88,52 +87,45 @@
     },
     {
       "@type": "WebPage",
-      "@id": "https://www.physioactif.com/en/ressources/anatomie-colonne-vertebrale#webpage",
+      "@id": "https://www.physioactif.com/ressources/modalites-electrotherapeutiques#webpage",
       "datePublished": "2026-01-19",
-      "url": "https://www.physioactif.com/en/ressources/anatomie-colonne-vertebrale",
-      "name": "Anatomy of the colonne vertébrale : comprendre la structure de votre dos | Physioactif",
-      "description": "Complete anatomical guide: understand the structure and function.",
-      "about": [
-        {
-          "@type": "MedicalTherapy",
-          "name": "Physiothérapie",
-          "alternateName": [
-            "Physical therapy",
-            "Kinésithérapie",
-            "Fisioterapia"
-          ],
-          "sameAs": [
-            "https://www.physioactif.com/guide-complet/physiotherapie",
-            "https://www.wikidata.org/wiki/Q186005",
-            "https://en.wikipedia.org/wiki/Physical_therapy",
-            "https://fr.wikipedia.org/wiki/Kinésithérapie",
-            "https://meshb.nlm.nih.gov/record/ui?ui=D026761",
-            "https://www.merriam-webster.com/dictionary/physiotherapy",
-            "https://www.britannica.com/topic/physical-therapy"
-          ]
-        }
-      ],
+      "url": "https://www.physioactif.com/ressources/modalites-electrotherapeutiques",
+      "name": "Modalités électrothérapeutiques en physiothérapie : guide complet | Physioactif",
+      "description": "Les modalités électrothérapeutiques utilisent l'énergie électrique pour soulager la douleur et favoriser la guérison. Guide complet sur le TENS, l'ultrason et plus.",
+      "about": {
+        "@type": "MedicalTherapy",
+        "name": "Physiothérapie",
+        "sameAs": [
+          "https://www.physioactif.com/guide-complet/physiotherapie",
+          "https://www.wikidata.org/wiki/Q186005",
+          "https://en.wikipedia.org/wiki/Physical_therapy",
+          "https://fr.wikipedia.org/wiki/Kinésithérapie",
+          "https://meshb.nlm.nih.gov/record/ui?ui=D026761",
+          "https://www.merriam-webster.com/dictionary/physiotherapy",
+          "https://www.britannica.com/topic/physical-therapy"
+        ]
+      },
       "breadcrumb": {
         "@type": "BreadcrumbList",
-        "@id": "https://www.physioactif.com/en/ressources/anatomie-colonne-vertebrale#breadcrumb",
+        "@id": "https://www.physioactif.com/ressources/modalites-electrotherapeutiques#breadcrumb",
         "itemListElement": [
           {
             "@type": "ListItem",
             "position": 1,
-            "name": "Home",
-            "item": "https://www.physioactif.com/en/"
+            "name": "Accueil",
+            "item": "https://www.physioactif.com/"
           },
           {
             "@type": "ListItem",
             "position": 2,
-            "name": "Resources",
-            "item": "https://www.physioactif.com/en/ressources"
+            "name": "Ressources",
+            "item": "https://www.physioactif.com/ressources"
           },
           {
             "@type": "ListItem",
             "position": 3,
-            "name": "Anatomy of the colonne vertébrale : comprendre la structure de votre dos",
-            "item": "https://www.physioactif.com/en/ressources/anatomie-colonne-vertebrale"
+            "name": "Modalités électrothérapeutiques en physiothérapie : guide complet",
+            "item": "https://www.physioactif.com/ressources/modalites-electrotherapeutiques"
           }
         ]
       },
@@ -141,13 +133,13 @@
         "@id": "https://www.physioactif.com/#website"
       },
       "inLanguage": [
-        "en-CA"
+        "fr-CA"
       ],
       "potentialAction": {
         "@type": "ReadAction",
         "target": {
           "@type": "EntryPoint",
-          "urlTemplate": "https://www.physioactif.com/en/ressources/anatomie-colonne-vertebrale",
+          "urlTemplate": "https://www.physioactif.com/ressources/modalites-electrotherapeutiques",
           "actionPlatform": [
             "http://schema.org/DesktopWebPlatform",
             "http://schema.org/MobileWebPlatform"
@@ -155,7 +147,7 @@
         }
       },
       "relatedLink": [
-        "https://physioactif.clinicmaster.com/clinic-selection?lang=en-CA"
+        "https://physioactif.clinicmaster.com/clinic-selection?lang=fr-CA"
       ],
       "publisher": {
         "@id": "https://www.physioactif.com/#org"

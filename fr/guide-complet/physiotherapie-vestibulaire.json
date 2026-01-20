@@ -3,7 +3,7 @@
   "@graph": [
     {
       "@type": "MedicalTherapy",
-      "name": "Physiothérapie pour la Commotion Cérébrale",
+      "name": "Physiothérapie Vestibulaire",
       "alternateName": [
         "Physical therapy",
         "Kinésithérapie",
@@ -16,30 +16,30 @@
         "https://fr.wikipedia.org/wiki/Kinésithérapie",
         "https://meshb.nlm.nih.gov/record/ui?ui=D026761"
       ],
-      "@id": "https://www.physioactif.com/guide-complet/physiotherapie-commotion-cerebrale#therapy",
-      "description": "Comment la physiothérapie accélère la récupération post-commotion: traitement cervical, rééducation vestibulaire, retour progressif aux activités."
+      "@id": "https://www.physioactif.com/guide-complet/physiotherapie-vestibulaire#therapy",
+      "description": "Rééducation vestibulaire pour vertiges et troubles de l'équilibre. 80-90% de succès pour VPPB. Approche spécialisée fondée sur les données probantes."
     },
     {
       "@type": "MedicalWebPage",
-      "@id": "https://www.physioactif.com/guide-complet/physiotherapie-commotion-cerebrale#article",
+      "@id": "https://www.physioactif.com/guide-complet/physiotherapie-vestibulaire#article",
       "author": {
         "@type": "Person",
         "@id": "https://www.physioactif.com/equipe/ariel-desjardins-charbonneau/#person"
       },
       "datePublished": "2026-01-19",
-      "name": "Physiothérapie pour la Commotion Cérébrale",
-      "headline": "Physiothérapie Commotion Cérébrale: Récupération Optimale",
+      "name": "Physiothérapie Vestibulaire",
+      "headline": "Physiothérapie Vestibulaire: Traiter Vertiges et Équilibre",
       "about": [
         {
-          "@id": "https://www.physioactif.com/guide-complet/physiotherapie-commotion-cerebrale#therapy"
+          "@id": "https://www.physioactif.com/guide-complet/physiotherapie-vestibulaire#therapy"
         },
         {
           "@type": "AnatomicalStructure",
-          "name": "Cerveau"
+          "name": "Système vestibulaire"
         }
       ],
       "mainEntity": {
-        "@id": "https://www.physioactif.com/guide-complet/physiotherapie-commotion-cerebrale#therapy"
+        "@id": "https://www.physioactif.com/guide-complet/physiotherapie-vestibulaire#therapy"
       },
       "speakable": {
         "@type": "SpeakableSpecification",
@@ -93,27 +93,27 @@
         },
         {
           "@type": "MedicalCondition",
-          "name": "la Commotion Cérébrale",
-          "sameAs": "https://www.physioactif.com/guide-complet/commotion-cerebrale"
+          "name": "Physiothérapie Vestibulaire",
+          "sameAs": "https://www.physioactif.com/guide-complet/vertigo-etourdissements"
         }
       ]
     },
     {
       "@type": "WebPage",
-      "@id": "https://www.physioactif.com/guide-complet/physiotherapie-commotion-cerebrale#webpage",
+      "@id": "https://www.physioactif.com/guide-complet/physiotherapie-vestibulaire#webpage",
       "datePublished": "2026-01-19",
-      "url": "https://www.physioactif.com/guide-complet/physiotherapie-commotion-cerebrale",
-      "name": "Physiothérapie pour la Commotion Cérébrale | Physioactif",
-      "description": "Comment la physiothérapie accélère la récupération post-commotion: traitement cervical, rééducation vestibulaire, retour progressif aux activités.",
+      "url": "https://www.physioactif.com/guide-complet/physiotherapie-vestibulaire",
+      "name": "Physiothérapie Vestibulaire | Physioactif",
+      "description": "Rééducation vestibulaire pour vertiges et troubles de l'équilibre. 80-90% de succès pour VPPB. Approche spécialisée fondée sur les données probantes.",
       "mainEntity": {
-        "@id": "https://www.physioactif.com/guide-complet/physiotherapie-commotion-cerebrale#therapy"
+        "@id": "https://www.physioactif.com/guide-complet/physiotherapie-vestibulaire#therapy"
       },
       "about": {
-        "@id": "https://www.physioactif.com/guide-complet/physiotherapie-commotion-cerebrale#therapy"
+        "@id": "https://www.physioactif.com/guide-complet/physiotherapie-vestibulaire#therapy"
       },
       "breadcrumb": {
         "@type": "BreadcrumbList",
-        "@id": "https://www.physioactif.com/guide-complet/physiotherapie-commotion-cerebrale#breadcrumb",
+        "@id": "https://www.physioactif.com/guide-complet/physiotherapie-vestibulaire#breadcrumb",
         "itemListElement": [
           {
             "@type": "ListItem",
@@ -130,8 +130,8 @@
           {
             "@type": "ListItem",
             "position": 3,
-            "name": "Physiothérapie pour la Commotion Cérébrale",
-            "item": "https://www.physioactif.com/guide-complet/physiotherapie-commotion-cerebrale"
+            "name": "Physiothérapie Vestibulaire",
+            "item": "https://www.physioactif.com/guide-complet/physiotherapie-vestibulaire"
           }
         ]
       },
@@ -145,7 +145,7 @@
         "@type": "ReadAction",
         "target": {
           "@type": "EntryPoint",
-          "urlTemplate": "https://www.physioactif.com/guide-complet/physiotherapie-commotion-cerebrale",
+          "urlTemplate": "https://www.physioactif.com/guide-complet/physiotherapie-vestibulaire",
           "actionPlatform": [
             "http://schema.org/DesktopWebPlatform",
             "http://schema.org/MobileWebPlatform"

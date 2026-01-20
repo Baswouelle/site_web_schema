@@ -1,0 +1,124 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "MedicalWebPage",
+      "@id": "https://www.physioactif.com/en/ressources/comprendre-les-muscles#article",
+      "author": {
+        "@type": "Person",
+        "@id": "https://www.physioactif.com/equipe/basile-woeltje/#person"
+      },
+      "datePublished": "2026-01-20",
+      "name": "Understanding muscles: anatomie, fonction et prévention des blessures",
+      "headline": "Anatomie musculaire, contraction et prévention des déchirures",
+      "about": [
+        {
+          "@type": "MedicalTherapy",
+          "name": "Physical therapy",
+          "alternateName": [
+            "Physiotherapy",
+            "Kinésithérapie",
+            "Fisioterapia"
+          ],
+          "sameAs": [
+            "https://www.physioactif.com/en/ressources/la-physiotherapie-tout-ce-que-vous-devez-savoir",
+            "https://www.wikidata.org/wiki/Q186005",
+            "https://en.wikipedia.org/wiki/Physical_therapy",
+            "https://fr.wikipedia.org/wiki/Kinésithérapie",
+            "https://meshb.nlm.nih.gov/record/ui?ui=D026761",
+            "https://www.merriam-webster.com/dictionary/physiotherapy",
+            "https://www.britannica.com/topic/physical-therapy"
+          ]
+        }
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [
+          ".header_heading",
+          ".header_content .text-style-muted.w-richtext",
+          ".section_article .text-rich-text h2"
+        ]
+      },
+      "specialty": [
+        "Physiotherapy",
+        "Musculoskeletal"
+      ],
+      "medicalAudience": [
+        {
+          "@type": "Patient"
+        },
+        {
+          "@type": "MedicalAudience",
+          "audienceType": "General Public"
+        }
+      ],
+      "reviewedBy": {
+        "@id": "https://www.physioactif.com/#org"
+      },
+      "provider": {
+        "@id": "https://www.physioactif.com/#org"
+      },
+      "inLanguage": [
+        "en-CA"
+      ],
+      "isPartOf": {
+        "@id": "https://www.physioactif.com/#website"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://www.physioactif.com/en/ressources/comprendre-les-muscles#webpage",
+      "datePublished": "2026-01-20",
+      "url": "https://www.physioactif.com/en/ressources/comprendre-les-muscles",
+      "name": "Understanding muscles: anatomie, fonction et prévention des blessures | Physioactif",
+      "description": "Découvrez comment fonctionnent vos muscles, pourquoi ils se blessent et comment optimiser force, endurance et récupération grâce à la science.",
+      "breadcrumb": {
+        "@type": "BreadcrumbList",
+        "@id": "https://www.physioactif.com/en/ressources/comprendre-les-muscles#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://www.physioactif.com/en/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Resources",
+            "item": "https://www.physioactif.com/en/ressources"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Understanding muscles: anatomie, fonction et prévention des blessures",
+            "item": "https://www.physioactif.com/en/ressources/comprendre-les-muscles"
+          }
+        ]
+      },
+      "isPartOf": {
+        "@id": "https://www.physioactif.com/#website"
+      },
+      "inLanguage": [
+        "en-CA"
+      ],
+      "potentialAction": {
+        "@type": "ReadAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://www.physioactif.com/en/ressources/comprendre-les-muscles",
+          "actionPlatform": [
+            "http://schema.org/DesktopWebPlatform",
+            "http://schema.org/MobileWebPlatform"
+          ]
+        }
+      },
+      "relatedLink": [
+        "https://physioactif.clinicmaster.com/clinic-selection?lang=en-CA"
+      ],
+      "publisher": {
+        "@id": "https://www.physioactif.com/#org"
+      }
+    }
+  ]
+}

@@ -3,18 +3,18 @@
   "@graph": [
     {
       "@type": "MedicalWebPage",
-      "@id": "https://www.physioactif.com/en/ressources/anatomie-colonne-vertebrale#article",
+      "@id": "https://www.physioactif.com/en/ressources/therapie-manuelle-physiotherapie#article",
       "author": {
         "@type": "Person",
-        "@id": "https://www.physioactif.com/equipe/charles-alexis-daigle/#person"
+        "@id": "https://www.physioactif.com/en/equipe/gino-dilorenzo/#person"
       },
       "datePublished": "2026-01-19",
-      "name": "Anatomy of the colonne vertébrale : comprendre la structure de votre dos",
-      "headline": "Anatomy of the colonne vertébrale : comprendre la structure de votre dos",
+      "name": "Thérapie manuelle en physiothérapie : techniques et bienfaits",
+      "headline": "Découvrez comment la thérapie manuelle en physiothérapie soulage vos douleurs",
       "about": [
         {
           "@type": "MedicalTherapy",
-          "name": "Physiothérapie",
+          "name": "Physiotherapy",
           "alternateName": [
             "Physical therapy",
             "Kinésithérapie",
@@ -41,8 +41,7 @@
       },
       "specialty": [
         "Physiotherapy",
-        "Musculoskeletal",
-        "Anatomy"
+        "Musculoskeletal"
       ],
       "medicalAudience": [
         {
@@ -68,7 +67,7 @@
       "mentions": [
         {
           "@type": "MedicalTherapy",
-          "name": "Physiothérapie",
+          "name": "Physiotherapy",
           "alternateName": [
             "Physical therapy",
             "Kinésithérapie",
@@ -88,34 +87,27 @@
     },
     {
       "@type": "WebPage",
-      "@id": "https://www.physioactif.com/en/ressources/anatomie-colonne-vertebrale#webpage",
+      "@id": "https://www.physioactif.com/en/ressources/therapie-manuelle-physiotherapie#webpage",
       "datePublished": "2026-01-19",
-      "url": "https://www.physioactif.com/en/ressources/anatomie-colonne-vertebrale",
-      "name": "Anatomy of the colonne vertébrale : comprendre la structure de votre dos | Physioactif",
-      "description": "Complete anatomical guide: understand the structure and function.",
-      "about": [
-        {
-          "@type": "MedicalTherapy",
-          "name": "Physiothérapie",
-          "alternateName": [
-            "Physical therapy",
-            "Kinésithérapie",
-            "Fisioterapia"
-          ],
-          "sameAs": [
-            "https://www.physioactif.com/guide-complet/physiotherapie",
-            "https://www.wikidata.org/wiki/Q186005",
-            "https://en.wikipedia.org/wiki/Physical_therapy",
-            "https://fr.wikipedia.org/wiki/Kinésithérapie",
-            "https://meshb.nlm.nih.gov/record/ui?ui=D026761",
-            "https://www.merriam-webster.com/dictionary/physiotherapy",
-            "https://www.britannica.com/topic/physical-therapy"
-          ]
-        }
-      ],
+      "url": "https://www.physioactif.com/en/ressources/therapie-manuelle-physiotherapie",
+      "name": "Thérapie manuelle en physiothérapie : techniques et bienfaits | Physioactif",
+      "description": "La thérapie manuelle en physiothérapie utilise des techniques précises pour soulager la douleur et restaurer la mobilité. Guide complet sur les techniques, les bienfaits et les applications cliniques.",
+      "about": {
+        "@type": "MedicalTherapy",
+        "name": "Physiotherapy",
+        "sameAs": [
+          "https://www.physioactif.com/guide-complet/physiotherapie",
+          "https://www.wikidata.org/wiki/Q186005",
+          "https://en.wikipedia.org/wiki/Physical_therapy",
+          "https://fr.wikipedia.org/wiki/Kinésithérapie",
+          "https://meshb.nlm.nih.gov/record/ui?ui=D026761",
+          "https://www.merriam-webster.com/dictionary/physiotherapy",
+          "https://www.britannica.com/topic/physical-therapy"
+        ]
+      },
       "breadcrumb": {
         "@type": "BreadcrumbList",
-        "@id": "https://www.physioactif.com/en/ressources/anatomie-colonne-vertebrale#breadcrumb",
+        "@id": "https://www.physioactif.com/en/ressources/therapie-manuelle-physiotherapie#breadcrumb",
         "itemListElement": [
           {
             "@type": "ListItem",
@@ -132,8 +124,8 @@
           {
             "@type": "ListItem",
             "position": 3,
-            "name": "Anatomy of the colonne vertébrale : comprendre la structure de votre dos",
-            "item": "https://www.physioactif.com/en/ressources/anatomie-colonne-vertebrale"
+            "name": "Thérapie manuelle en physiothérapie : techniques et bienfaits",
+            "item": "https://www.physioactif.com/en/ressources/therapie-manuelle-physiotherapie"
           }
         ]
       },
@@ -147,7 +139,7 @@
         "@type": "ReadAction",
         "target": {
           "@type": "EntryPoint",
-          "urlTemplate": "https://www.physioactif.com/en/ressources/anatomie-colonne-vertebrale",
+          "urlTemplate": "https://www.physioactif.com/en/ressources/therapie-manuelle-physiotherapie",
           "actionPlatform": [
             "http://schema.org/DesktopWebPlatform",
             "http://schema.org/MobileWebPlatform"
