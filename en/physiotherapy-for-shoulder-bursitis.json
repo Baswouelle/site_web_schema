@@ -1,0 +1,134 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "MedicalTherapy",
+      "@id": "https://www.physioactif.com/en/complete-guide/physiotherapy-for-shoulder-bursitis#therapy",
+      "name": "Physiotherapy for shoulder bursitis",
+      "alternateName": ["Shoulder bursitis physiotherapy treatment", "Physical therapy for subacromial bursitis"],
+      "description": "Physiotherapy for shoulder bursitis combines manual therapy, progressive therapeutic exercises, and patient education to reduce inflammation, relieve pain, and restore shoulder function. Recommended first-line treatment.",
+      "relevantSpecialty": {
+        "@type": "MedicalSpecialty",
+        "name": "Musculoskeletal Physiotherapy"
+      },
+      "contraindication": [
+        {
+          "@type": "MedicalContraindication",
+          "name": "Septic bursitis (infectious bursitis)"
+        },
+        {
+          "@type": "MedicalContraindication",
+          "name": "Acute shoulder fracture"
+        }
+      ],
+      "procedureType": "Non-invasive conservative treatment",
+      "followup": "6 to 12 weeks of treatment with frequency of 1-2 visits per week initially",
+      "preparation": "No medical prescription required in Quebec. Bring imaging results if available.",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "Typical treatment duration",
+          "value": "6-12 weeks"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Initial visit frequency",
+          "value": "1-2 times per week"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "First visit duration",
+          "value": "45-60 minutes"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Home exercise program",
+          "value": "5-6 days per week, 15-20 minutes"
+        }
+      ],
+      "includedInHealthInsurancePlan": {
+        "@type": "HealthInsurancePlan",
+        "name": "Private insurance in Quebec"
+      }
+    },
+    {
+      "@type": "MedicalWebPage",
+      "@id": "https://www.physioactif.com/en/complete-guide/physiotherapy-for-shoulder-bursitis#article",
+      "url": "https://www.physioactif.com/en/complete-guide/physiotherapy-for-shoulder-bursitis",
+      "name": "Physiotherapy for shoulder bursitis: Treatment and exercises",
+      "description": "Complete guide on physiotherapy treatment for shoulder bursitis: techniques used, progressive exercises, treatment duration, and what to expect during your sessions.",
+      "inLanguage": "en-CA",
+      "isPartOf": {
+        "@type": "MedicalWebPage",
+        "@id": "https://www.physioactif.com/en/diagnosis-and-treatment/pain/shoulder-and-arm#webpage"
+      },
+      "about": {
+        "@id": "https://www.physioactif.com/en/complete-guide/physiotherapy-for-shoulder-bursitis#therapy"
+      },
+      "mainEntity": {
+        "@id": "https://www.physioactif.com/en/complete-guide/physiotherapy-for-shoulder-bursitis#therapy"
+      },
+      "specialty": "Musculoskeletal Physiotherapy",
+      "citation": [
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Progressive strengthening with mild pain acceptable",
+          "author": "Cavaggion et al.",
+          "datePublished": "2023",
+          "description": "Study showing progressive strengthening with acceptable mild pain gives better results than strict rest"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Criteria-based exercise progression",
+          "author": "Chepeha et al.",
+          "datePublished": "2025",
+          "description": "Progression based on measurable criteria rather than fixed calendar supports better recovery"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Movement control and strengthening exercises",
+          "author": "Dubé et al.",
+          "datePublished": "2023",
+          "description": "Movement control and strengthening exercises improve outcomes for shoulder pain"
+        }
+      ]
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://www.physioactif.com/en/complete-guide/physiotherapy-for-shoulder-bursitis#webpage",
+      "url": "https://www.physioactif.com/en/complete-guide/physiotherapy-for-shoulder-bursitis",
+      "name": "Physiotherapy for shoulder bursitis",
+      "inLanguage": "en-CA",
+      "isPartOf": {
+        "@type": "WebSite",
+        "@id": "https://www.physioactif.com/#website"
+      },
+      "breadcrumb": {
+        "@id": "https://www.physioactif.com/en/complete-guide/physiotherapy-for-shoulder-bursitis#breadcrumb"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.physioactif.com/en/complete-guide/physiotherapy-for-shoulder-bursitis#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.physioactif.com/en/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Complete Guide",
+          "item": "https://www.physioactif.com/en/complete-guide"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Physiotherapy for shoulder bursitis"
+        }
+      ]
+    }
+  ]
+}

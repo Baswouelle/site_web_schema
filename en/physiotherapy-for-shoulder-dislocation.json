@@ -1,0 +1,133 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "MedicalWebPage",
+      "@id": "https://www.physioactif.com/guide-complet/physiotherapie-pour-luxation-de-l-epaule#webpage",
+      "url": "https://www.physioactif.com/guide-complet/physiotherapie-pour-luxation-de-l-epaule",
+      "name": "Physiotherapy for Shoulder Dislocation: Recovery and Recurrence Prevention",
+      "description": "Rehabilitation after shoulder dislocation: 3-phase protocol to prevent recurrence (90% in <20 years). Evidence-based program. 5 clinics Greater Montreal.",
+      "inLanguage": "en-CA",
+      "datePublished": "2026-01-20",
+      "dateModified": "2026-01-20",
+      "about": {
+        "@id": "https://www.physioactif.com/guide-complet/physiotherapie-pour-luxation-de-l-epaule#therapy"
+      },
+      "specialty": {
+        "@type": "MedicalSpecialty",
+        "name": "Musculoskeletal Physiotherapy"
+      },
+      "mainEntity": {
+        "@id": "https://www.physioactif.com/guide-complet/physiotherapie-pour-luxation-de-l-epaule#therapy"
+      },
+      "breadcrumb": {
+        "@id": "https://www.physioactif.com/guide-complet/physiotherapie-pour-luxation-de-l-epaule#breadcrumb"
+      }
+    },
+    {
+      "@type": "MedicalTherapy",
+      "@id": "https://www.physioactif.com/guide-complet/physiotherapie-pour-luxation-de-l-epaule#therapy",
+      "name": "Physiotherapy for Shoulder Dislocation",
+      "alternateName": [
+        "Rehabilitation after shoulder dislocation",
+        "Shoulder dislocation rehab",
+        "Glenohumeral dislocation physiotherapy"
+      ],
+      "description": "Physiotherapy rehabilitation treatment for shoulder dislocation including 3-phase protocol: protection and initial recovery (0-4 weeks), strengthening and stabilization (4-8 weeks), re-athleticization and return to activities (8+ weeks). Recurrence prevention (90% in <20 years, 10% in >40 years).",
+      "relevantSpecialty": {
+        "@type": "MedicalSpecialty",
+        "name": "Musculoskeletal Physiotherapy"
+      },
+      "preparation": "Comprehensive initial evaluation including range of motion, muscle strength, stability tests, proprioception and functional assessment. Consultation as soon as medical clearance after reduction and imaging.",
+      "followup": "Periodic re-evaluations every 4 weeks to adjust treatment plan. Long-term maintenance program (2-3x/week) after initial rehabilitation to prevent recurrence.",
+      "howPerformed": "Progressive 3-phase protocol: Phase 1 (0-4 weeks) passive mobilizations and light isometric contractions, Phase 2 (4-8 weeks) isotonic rotator cuff strengthening and scapular stabilization, Phase 3 (8+ weeks) high-energy exercises and sport-specific re-athleticization.",
+      "expectedPrognosis": "Complete recovery in 3 to 6 months on average. Return to non-contact sports possible in 3-4 months, contact sports in 4-6 months if functional criteria met (strength 90%+ compared to uninjured side, stability demonstrated).",
+      "contraindication": [
+        "Early return to at-risk activities during healing",
+        "Heavy lifting during Phase 1-2",
+        "Combined abduction-external rotation positions 8-12 first weeks",
+        "Return to sport without functional testing validation"
+      ],
+      "adverseOutcome": "Dislocation recurrence if inadequate rehabilitation (rate 72-100% in <20 years, 70-82% in 20-30 years, 10-15% in >40 years). Risk of chronic instability requiring surgery if program not completed.",
+      "seriousAdverseOutcome": {
+        "@type": "MedicalEntity",
+        "name": "Chronic shoulder instability",
+        "description": "Repeated recurrent dislocations causing progressive damage to stabilizing structures (capsule, labrum, ligaments)"
+      },
+      "availableService": [
+        {
+          "@type": "MedicalProcedure",
+          "name": "Comprehensive shoulder evaluation",
+          "description": "Detailed assessment of range of motion, strength, stability, proprioception and function (60-75 minutes)"
+        },
+        {
+          "@type": "MedicalProcedure",
+          "name": "Rotator cuff strengthening",
+          "description": "Targeted program for supraspinatus, infraspinatus, subscapularis, teres minor with resistance bands and weights"
+        },
+        {
+          "@type": "MedicalProcedure",
+          "name": "Proprioceptive training",
+          "description": "Exercises on unstable surfaces, controlled perturbations, ball catching to improve protective reflexes"
+        },
+        {
+          "@type": "MedicalProcedure",
+          "name": "Sport-specific re-athleticization",
+          "description": "High-energy exercises, diagonal movements, shoulder plyometrics for return to sport"
+        },
+        {
+          "@type": "MedicalProcedure",
+          "name": "Return-to-sport functional testing",
+          "description": "Validation of strength criteria (90%+), stability, proprioception and sport-specific performance before clearance"
+        }
+      ],
+      "procedureType": "Non-invasive conservative treatment",
+      "bodyLocation": {
+        "@type": "AnatomicalStructure",
+        "name": "Glenohumeral joint",
+        "alternateName": "Shoulder"
+      }
+    },
+    {
+      "@type": "MedicalCondition",
+      "@id": "https://www.physioactif.com/guide-complet/luxation-de-l-epaule#condition",
+      "name": "Shoulder Dislocation",
+      "alternateName": [
+        "Shoulder dislocation",
+        "Glenohumeral dislocation",
+        "Dislocated shoulder"
+      ],
+      "associatedAnatomy": {
+        "@type": "AnatomicalStructure",
+        "name": "Glenohumeral joint"
+      },
+      "possibleTreatment": {
+        "@id": "https://www.physioactif.com/guide-complet/physiotherapie-pour-luxation-de-l-epaule#therapy"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.physioactif.com/guide-complet/physiotherapie-pour-luxation-de-l-epaule#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.physioactif.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Complete Guide",
+          "item": "https://www.physioactif.com/guide-complet"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Physiotherapy for Shoulder Dislocation",
+          "item": "https://www.physioactif.com/guide-complet/physiotherapie-pour-luxation-de-l-epaule"
+        }
+      ]
+    }
+  ]
+}

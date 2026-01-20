@@ -1,0 +1,133 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "MedicalWebPage",
+      "@id": "https://www.physioactif.com/guide-complet/bursite-a-l-epaule#article",
+      "url": "https://www.physioactif.com/guide-complet/bursite-a-l-epaule",
+      "name": "Bursite à l'épaule : Guide complet",
+      "headline": "Bursite à l'épaule : Traitement et guérison en physiothérapie",
+      "description": "Soulagez votre bursite à l'épaule rapidement avec la physiothérapie. Découvrez les causes, symptômes et exercices pour une récupération complète.",
+      "mainEntity": {
+        "@id": "https://www.physioactif.com/guide-complet/bursite-a-l-epaule#condition"
+      },
+      "about": {
+        "@id": "https://www.physioactif.com/guide-complet/bursite-a-l-epaule#condition"
+      },
+      "isPartOf": {
+        "@type": "WebSite",
+        "@id": "https://www.physioactif.com/#website"
+      },
+      "inLanguage": "fr-CA",
+      "datePublished": "2026-01-20",
+      "dateModified": "2026-01-20",
+      "breadcrumb": {
+        "@id": "https://www.physioactif.com/guide-complet/bursite-a-l-epaule#breadcrumb"
+      }
+    },
+    {
+      "@type": "MedicalCondition",
+      "@id": "https://www.physioactif.com/guide-complet/bursite-a-l-epaule#condition",
+      "name": "Bursite à l'épaule",
+      "alternateName": ["Bursite sous-acromiale", "Bursite sous-deltoïdienne"],
+      "description": "Inflammation de la bourse séreuse sous-acromiale située entre l'acromion et les tendons de la coiffe des rotateurs",
+      "code": {
+        "@type": "MedicalCode",
+        "code": "M75.5",
+        "codingSystem": "ICD-10"
+      },
+      "associatedAnatomy": {
+        "@type": "AnatomicalStructure",
+        "name": "Bourse sous-acromiale",
+        "partOfSystem": {
+          "@type": "AnatomicalStructure",
+          "name": "Épaule"
+        }
+      },
+      "riskFactor": [
+        {
+          "@type": "MedicalRiskFactor",
+          "name": "Mouvements répétitifs du bras en hauteur"
+        },
+        {
+          "@type": "MedicalRiskFactor",
+          "name": "Âge entre 40 et 60 ans"
+        },
+        {
+          "@type": "MedicalRiskFactor",
+          "name": "Activités professionnelles ou sportives sollicitantes"
+        }
+      ],
+      "signOrSymptom": [
+        {
+          "@type": "MedicalSymptom",
+          "name": "Douleur pulsatile nocturne à l'épaule"
+        },
+        {
+          "@type": "MedicalSymptom",
+          "name": "Raideur articulaire matinale"
+        },
+        {
+          "@type": "MedicalSymptom",
+          "name": "Arc douloureux entre 60 et 120 degrés d'abduction"
+        },
+        {
+          "@type": "MedicalSymptom",
+          "name": "Limitation des mouvements en élévation"
+        }
+      ],
+      "possibleTreatment": [
+        {
+          "@id": "https://www.physioactif.com/guide-complet/bursite-a-l-epaule#therapy"
+        }
+      ],
+      "epidemiology": "Affecte environ 10% de la population générale au cours de leur vie, pic d'incidence entre 40 et 60 ans"
+    },
+    {
+      "@type": "MedicalTherapy",
+      "@id": "https://www.physioactif.com/guide-complet/bursite-a-l-epaule#therapy",
+      "name": "Physiothérapie pour bursite à l'épaule",
+      "description": "Approche progressive en quatre phases : contrôle douleur/inflammation, récupération mobilité, renforcement coiffe rotateurs, prévention récidives",
+      "procedureType": "Conservative treatment",
+      "preparation": "Évaluation complète par physiothérapeute",
+      "followup": "Suivi périodique à 3-6 mois post-récupération",
+      "howPerformed": "Programme personnalisé incluant modalités thérapeutiques, mobilisations, exercices progressifs, correction posturale",
+      "expectedPrognosis": "85 à 90% de résolution complète avec traitement approprié, durée moyenne 2 à 6 semaines pour cas aigus"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://www.physioactif.com/guide-complet/bursite-a-l-epaule#webpage",
+      "url": "https://www.physioactif.com/guide-complet/bursite-a-l-epaule",
+      "name": "Bursite à l'épaule : Guide complet",
+      "isPartOf": {
+        "@type": "WebSite",
+        "@id": "https://www.physioactif.com/#website"
+      },
+      "inLanguage": "fr-CA"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.physioactif.com/guide-complet/bursite-a-l-epaule#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Accueil",
+          "item": "https://www.physioactif.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Guide complet",
+          "item": "https://www.physioactif.com/guide-complet"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Bursite à l'épaule",
+          "item": "https://www.physioactif.com/guide-complet/bursite-a-l-epaule"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,133 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "MedicalWebPage",
+      "@id": "https://www.physioactif.com/guide-complet/physiotherapie-pour-luxation-de-l-epaule#webpage",
+      "url": "https://www.physioactif.com/guide-complet/physiotherapie-pour-luxation-de-l-epaule",
+      "name": "Physiothérapie pour luxation de l'épaule : Récupération et prévention des récidives",
+      "description": "Réadaptation après luxation : protocole en 3 phases pour prévenir récidives (90% chez <20 ans). Programme fondé sur preuves. 5 cliniques Grand Montréal.",
+      "inLanguage": "fr-CA",
+      "datePublished": "2026-01-20",
+      "dateModified": "2026-01-20",
+      "about": {
+        "@id": "https://www.physioactif.com/guide-complet/physiotherapie-pour-luxation-de-l-epaule#therapy"
+      },
+      "specialty": {
+        "@type": "MedicalSpecialty",
+        "name": "Physiothérapie musculosquelettique"
+      },
+      "mainEntity": {
+        "@id": "https://www.physioactif.com/guide-complet/physiotherapie-pour-luxation-de-l-epaule#therapy"
+      },
+      "breadcrumb": {
+        "@id": "https://www.physioactif.com/guide-complet/physiotherapie-pour-luxation-de-l-epaule#breadcrumb"
+      }
+    },
+    {
+      "@type": "MedicalTherapy",
+      "@id": "https://www.physioactif.com/guide-complet/physiotherapie-pour-luxation-de-l-epaule#therapy",
+      "name": "Physiothérapie pour luxation de l'épaule",
+      "alternateName": [
+        "Réadaptation après luxation de l'épaule",
+        "Rééducation luxation épaule",
+        "Kinésithérapie luxation gléno-humérale"
+      ],
+      "description": "Traitement de réadaptation en physiothérapie pour luxation de l'épaule incluant protocole en 3 phases : protection et récupération initiale (0-4 semaines), renforcement et stabilisation (4-8 semaines), réathlétisation et retour aux activités (8+ semaines). Prévention des récidives (90% chez <20 ans, 10% chez >40 ans).",
+      "relevantSpecialty": {
+        "@type": "MedicalSpecialty",
+        "name": "Physiothérapie musculosquelettique"
+      },
+      "preparation": "Évaluation complète initiale incluant amplitude articulaire, force musculaire, tests de stabilité, proprioception et évaluation fonctionnelle. Consultation dès l'autorisation médicale après réduction et imagerie.",
+      "followup": "Réévaluations périodiques aux 4 semaines pour ajuster le plan de traitement. Programme d'entretien à long terme (2-3x/semaine) après réadaptation initiale pour prévenir récidives.",
+      "howPerformed": "Protocole progressif en 3 phases : Phase 1 (0-4 semaines) mobilisations passives et contractions isométriques légères, Phase 2 (4-8 semaines) renforcement isotonique coiffe rotateurs et stabilisation scapulaire, Phase 3 (8+ semaines) exercices haute énergie et réathlétisation sport-spécifique.",
+      "expectedPrognosis": "Récupération complète en 3 à 6 mois en moyenne. Retour aux sports sans contact possible en 3-4 mois, sports de contact en 4-6 mois si critères fonctionnels atteints (force 90%+ côté sain, stabilité démontrée).",
+      "contraindication": [
+        "Retour précoce aux activités à risque durant cicatrisation",
+        "Soulèvement charges lourdes durant Phase 1-2",
+        "Positions abduction-rotation externe combinée 8-12 premières semaines",
+        "Retour au sport sans validation tests fonctionnels"
+      ],
+      "adverseOutcome": "Récidive de luxation si réadaptation inadéquate (taux 72-100% chez <20 ans, 70-82% chez 20-30 ans, 10-15% chez >40 ans). Risque d'instabilité chronique nécessitant chirurgie si programme non complété.",
+      "seriousAdverseOutcome": {
+        "@type": "MedicalEntity",
+        "name": "Instabilité chronique de l'épaule",
+        "description": "Luxations récidivantes répétées causant dommages progressifs structures stabilisatrices (capsule, labrum, ligaments)"
+      },
+      "availableService": [
+        {
+          "@type": "MedicalProcedure",
+          "name": "Évaluation complète épaule",
+          "description": "Bilan détaillé amplitude, force, stabilité, proprioception et fonction (60-75 minutes)"
+        },
+        {
+          "@type": "MedicalProcedure",
+          "name": "Renforcement coiffe des rotateurs",
+          "description": "Programme ciblé supra-épineux, infra-épineux, subscapulaire, petit rond avec bandes élastiques et poids"
+        },
+        {
+          "@type": "MedicalProcedure",
+          "name": "Entraînement proprioceptif",
+          "description": "Exercices sur surfaces instables, perturbations contrôlées, rattrapage ballon pour améliorer réflexes protecteurs"
+        },
+        {
+          "@type": "MedicalProcedure",
+          "name": "Réathlétisation sport-spécifique",
+          "description": "Exercices haute énergie, mouvements diagonaux, pliométrie épaule pour retour au sport"
+        },
+        {
+          "@type": "MedicalProcedure",
+          "name": "Tests fonctionnels retour au sport",
+          "description": "Validation critères force (90%+), stabilité, proprioception et performance sport-spécifique avant autorisation"
+        }
+      ],
+      "procedureType": "Traitement conservateur non-invasif",
+      "bodyLocation": {
+        "@type": "AnatomicalStructure",
+        "name": "Articulation gléno-humérale",
+        "alternateName": "Épaule"
+      }
+    },
+    {
+      "@type": "MedicalCondition",
+      "@id": "https://www.physioactif.com/guide-complet/luxation-de-l-epaule#condition",
+      "name": "Luxation de l'épaule",
+      "alternateName": [
+        "Dislocation de l'épaule",
+        "Luxation gléno-humérale",
+        "Épaule disloquée"
+      ],
+      "associatedAnatomy": {
+        "@type": "AnatomicalStructure",
+        "name": "Articulation gléno-humérale"
+      },
+      "possibleTreatment": {
+        "@id": "https://www.physioactif.com/guide-complet/physiotherapie-pour-luxation-de-l-epaule#therapy"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.physioactif.com/guide-complet/physiotherapie-pour-luxation-de-l-epaule#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Accueil",
+          "item": "https://www.physioactif.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Guide Complet",
+          "item": "https://www.physioactif.com/guide-complet"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Physiothérapie pour luxation de l'épaule",
+          "item": "https://www.physioactif.com/guide-complet/physiotherapie-pour-luxation-de-l-epaule"
+        }
+      ]
+    }
+  ]
+}

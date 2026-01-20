@@ -1,0 +1,133 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "MedicalWebPage",
+      "@id": "https://www.physioactif.com/en/complete-guide/shoulder-bursitis#article",
+      "url": "https://www.physioactif.com/en/complete-guide/shoulder-bursitis",
+      "name": "Shoulder Bursitis: Complete Guide",
+      "headline": "Shoulder Bursitis: Treatment and Recovery with Physiotherapy",
+      "description": "Relieve your shoulder bursitis quickly with physiotherapy. Discover causes, symptoms and exercises for complete recovery.",
+      "mainEntity": {
+        "@id": "https://www.physioactif.com/en/complete-guide/shoulder-bursitis#condition"
+      },
+      "about": {
+        "@id": "https://www.physioactif.com/en/complete-guide/shoulder-bursitis#condition"
+      },
+      "isPartOf": {
+        "@type": "WebSite",
+        "@id": "https://www.physioactif.com/#website"
+      },
+      "inLanguage": "en-CA",
+      "datePublished": "2026-01-20",
+      "dateModified": "2026-01-20",
+      "breadcrumb": {
+        "@id": "https://www.physioactif.com/en/complete-guide/shoulder-bursitis#breadcrumb"
+      }
+    },
+    {
+      "@type": "MedicalCondition",
+      "@id": "https://www.physioactif.com/en/complete-guide/shoulder-bursitis#condition",
+      "name": "Shoulder Bursitis",
+      "alternateName": ["Subacromial Bursitis", "Subdeltoid Bursitis"],
+      "description": "Inflammation of the subacromial bursa located between the acromion and rotator cuff tendons",
+      "code": {
+        "@type": "MedicalCode",
+        "code": "M75.5",
+        "codingSystem": "ICD-10"
+      },
+      "associatedAnatomy": {
+        "@type": "AnatomicalStructure",
+        "name": "Subacromial Bursa",
+        "partOfSystem": {
+          "@type": "AnatomicalStructure",
+          "name": "Shoulder"
+        }
+      },
+      "riskFactor": [
+        {
+          "@type": "MedicalRiskFactor",
+          "name": "Repetitive overhead arm movements"
+        },
+        {
+          "@type": "MedicalRiskFactor",
+          "name": "Age between 40 and 60 years"
+        },
+        {
+          "@type": "MedicalRiskFactor",
+          "name": "Demanding occupational or sports activities"
+        }
+      ],
+      "signOrSymptom": [
+        {
+          "@type": "MedicalSymptom",
+          "name": "Throbbing nighttime shoulder pain"
+        },
+        {
+          "@type": "MedicalSymptom",
+          "name": "Morning joint stiffness"
+        },
+        {
+          "@type": "MedicalSymptom",
+          "name": "Painful arc between 60 and 120 degrees of abduction"
+        },
+        {
+          "@type": "MedicalSymptom",
+          "name": "Limited range of motion in elevation"
+        }
+      ],
+      "possibleTreatment": [
+        {
+          "@id": "https://www.physioactif.com/en/complete-guide/shoulder-bursitis#therapy"
+        }
+      ],
+      "epidemiology": "Affects approximately 10% of the general population during their lifetime, peak incidence between 40 and 60 years"
+    },
+    {
+      "@type": "MedicalTherapy",
+      "@id": "https://www.physioactif.com/en/complete-guide/shoulder-bursitis#therapy",
+      "name": "Physiotherapy for Shoulder Bursitis",
+      "description": "Progressive four-phase approach: pain/inflammation control, mobility recovery, rotator cuff strengthening, relapse prevention",
+      "procedureType": "Conservative treatment",
+      "preparation": "Comprehensive assessment by physiotherapist",
+      "followup": "Periodic follow-up at 3-6 months post-recovery",
+      "howPerformed": "Personalized program including therapeutic modalities, mobilizations, progressive exercises, postural correction",
+      "expectedPrognosis": "85 to 90% complete resolution with appropriate treatment, average duration 2 to 6 weeks for acute cases"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://www.physioactif.com/en/complete-guide/shoulder-bursitis#webpage",
+      "url": "https://www.physioactif.com/en/complete-guide/shoulder-bursitis",
+      "name": "Shoulder Bursitis: Complete Guide",
+      "isPartOf": {
+        "@type": "WebSite",
+        "@id": "https://www.physioactif.com/#website"
+      },
+      "inLanguage": "en-CA"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.physioactif.com/en/complete-guide/shoulder-bursitis#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.physioactif.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Complete Guide",
+          "item": "https://www.physioactif.com/en/complete-guide"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Shoulder Bursitis",
+          "item": "https://www.physioactif.com/en/complete-guide/shoulder-bursitis"
+        }
+      ]
+    }
+  ]
+}
