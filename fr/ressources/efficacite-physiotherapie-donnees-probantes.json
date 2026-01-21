@@ -1,0 +1,69 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "MedicalWebPage",
+      "@id": "https://www.physioactif.com/ressources/efficacite-physiotherapie-donnees-probantes#article",
+      "author": {
+        "@type": "Person",
+        "@id": "https://www.physioactif.com/equipe/alexis-gougeon/#person"
+      },
+      "datePublished": "2026-01-21",
+      "name": "Efficacité de la physiothérapie : données probantes",
+      "headline": "Efficacité de la physiothérapie : données probantes",
+      "about": [
+        {
+          "@type": "MedicalTherapy",
+          "name": "Physiothérapie",
+          "alternateName": [
+            "Physical therapy",
+            "Kinésithérapie",
+            "Fisioterapia"
+          ],
+          "sameAs": [
+            "https://www.physioactif.com/guide-complet/physiotherapie",
+            "https://www.wikidata.org/wiki/Q186005",
+            "https://en.wikipedia.org/wiki/Physical_therapy",
+            "https://fr.wikipedia.org/wiki/Kinésithérapie",
+            "https://meshb.nlm.nih.gov/record/ui?ui=D026761",
+            "https://www.merriam-webster.com/dictionary/physiotherapy",
+            "https://www.britannica.com/topic/physical-therapy"
+          ]
+        }
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [
+          ".header_heading",
+          ".header_content .text-style-muted.w-richtext",
+          ".section_article .text-rich-text h2"
+        ]
+      },
+      "specialty": [
+        "Physiotherapy",
+        "Musculoskeletal"
+      ],
+      "medicalAudience": [
+        {
+          "@type": "Patient"
+        },
+        {
+          "@type": "MedicalAudience",
+          "audienceType": "General Public"
+        }
+      ],
+      "reviewedBy": {
+        "@id": "https://www.physioactif.com/#org"
+      },
+      "provider": {
+        "@id": "https://www.physioactif.com/#org"
+      },
+      "inLanguage": [
+        "fr-CA"
+      ],
+      "isPartOf": {
+        "@id": "https://www.physioactif.com/#website"
+      }
+    }
+  ]
+}
