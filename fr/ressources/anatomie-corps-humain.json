@@ -1,0 +1,475 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "MedicalWebPage",
+      "@id": "https://www.physioactif.com/ressources/anatomie-corps-humain#article",
+      "author": {
+        "@type": "Person",
+        "@id": "https://www.physioactif.com/equipe/charles-alexis-daigle/#person"
+      },
+      "datePublished": "2026-01-21",
+      "dateModified": "2026-01-21",
+      "timeRequired": "PT26M",
+      "name": "Comprendre l'anatomie du corps humain : Guide complet pour patients",
+      "headline": "Comprendre l'anatomie du corps humain : Guide complet pour patients",
+      "about": [
+        {
+          "@type": "MedicalTherapy",
+          "name": "Physiothérapie",
+          "alternateName": [
+            "Physical therapy",
+            "Kinésithérapie",
+            "Fisioterapia"
+          ],
+          "sameAs": [
+            "https://www.physioactif.com/guide-complet/physiotherapie",
+            "https://www.wikidata.org/wiki/Q186005",
+            "https://en.wikipedia.org/wiki/Physical_therapy",
+            "https://fr.wikipedia.org/wiki/Kinésithérapie",
+            "https://meshb.nlm.nih.gov/record/ui?ui=D026761",
+            "https://www.merriam-webster.com/dictionary/physiotherapy",
+            "https://www.britannica.com/topic/physical-therapy"
+          ]
+        }
+      ],
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [
+          ".header_heading",
+          ".header_content .text-style-muted.w-richtext",
+          ".section_article .text-rich-text h2"
+        ]
+      },
+      "specialty": [
+        "Physiotherapy",
+        "Musculoskeletal",
+        "Anatomy",
+        "Patient Education"
+      ],
+      "medicalAudience": [
+        {
+          "@type": "Patient"
+        },
+        {
+          "@type": "MedicalAudience",
+          "audienceType": "General Public"
+        }
+      ],
+      "reviewedBy": {
+        "@type": "Person",
+        "@id": "https://www.physioactif.com/equipe/ariel-desjardins-charbonneau/#person"
+      },
+      "provider": {
+        "@id": "https://www.physioactif.com/#org"
+      },
+      "inLanguage": [
+        "fr-CA"
+      ],
+      "isPartOf": {
+        "@id": "https://www.physioactif.com/#website"
+      },
+      "hasPart": [
+        {
+          "@type": "WebPage",
+          "@id": "https://www.physioactif.com/ressources/anatomie-epaule#webpage",
+          "name": "Anatomie de l'épaule"
+        },
+        {
+          "@type": "WebPage",
+          "@id": "https://www.physioactif.com/ressources/anatomie-coude#webpage",
+          "name": "Anatomie du coude"
+        },
+        {
+          "@type": "WebPage",
+          "@id": "https://www.physioactif.com/ressources/anatomie-main#webpage",
+          "name": "Anatomie de la main"
+        },
+        {
+          "@type": "WebPage",
+          "@id": "https://www.physioactif.com/ressources/anatomie-poignet#webpage",
+          "name": "Anatomie du poignet"
+        },
+        {
+          "@type": "WebPage",
+          "@id": "https://www.physioactif.com/ressources/anatomie-hanche#webpage",
+          "name": "Anatomie de la hanche"
+        },
+        {
+          "@type": "WebPage",
+          "@id": "https://www.physioactif.com/ressources/anatomie-genou#webpage",
+          "name": "Anatomie du genou"
+        },
+        {
+          "@type": "WebPage",
+          "@id": "https://www.physioactif.com/ressources/anatomie-cheville#webpage",
+          "name": "Anatomie de la cheville"
+        },
+        {
+          "@type": "WebPage",
+          "@id": "https://www.physioactif.com/ressources/anatomie-pied#webpage",
+          "name": "Anatomie du pied"
+        },
+        {
+          "@type": "WebPage",
+          "@id": "https://www.physioactif.com/ressources/anatomie-cervicale#webpage",
+          "name": "Anatomie cervicale"
+        },
+        {
+          "@type": "WebPage",
+          "@id": "https://www.physioactif.com/ressources/anatomie-colonne-vertebrale#webpage",
+          "name": "Anatomie de la colonne vertébrale"
+        },
+        {
+          "@type": "WebPage",
+          "@id": "https://www.physioactif.com/ressources/anatomie-dos#webpage",
+          "name": "Anatomie du dos"
+        },
+        {
+          "@type": "WebPage",
+          "@id": "https://www.physioactif.com/ressources/anatomie-rachis#webpage",
+          "name": "Anatomie du rachis"
+        },
+        {
+          "@type": "WebPage",
+          "@id": "https://www.physioactif.com/ressources/anatomie-cage-thoracique#webpage",
+          "name": "Anatomie de la cage thoracique"
+        },
+        {
+          "@type": "WebPage",
+          "@id": "https://www.physioactif.com/ressources/anatomie-muscle#webpage",
+          "name": "Anatomie du muscle"
+        },
+        {
+          "@type": "WebPage",
+          "@id": "https://www.physioactif.com/ressources/anatomie-tendon#webpage",
+          "name": "Anatomie du tendon"
+        },
+        {
+          "@type": "WebPage",
+          "@id": "https://www.physioactif.com/ressources/anatomie-ligament#webpage",
+          "name": "Anatomie du ligament"
+        },
+        {
+          "@type": "WebPage",
+          "@id": "https://www.physioactif.com/ressources/anatomie-os#webpage",
+          "name": "Anatomie de l'os"
+        },
+        {
+          "@type": "WebPage",
+          "@id": "https://www.physioactif.com/ressources/comprendre-les-cartilages#webpage",
+          "name": "Comprendre les cartilages"
+        },
+        {
+          "@type": "WebPage",
+          "@id": "https://www.physioactif.com/ressources/anatomie-fascia#webpage",
+          "name": "Anatomie du fascia"
+        },
+        {
+          "@type": "WebPage",
+          "@id": "https://www.physioactif.com/ressources/anatomie-nerf#webpage",
+          "name": "Anatomie du nerf"
+        },
+        {
+          "@type": "WebPage",
+          "@id": "https://www.physioactif.com/ressources/systeme-musculosquelettique#webpage",
+          "name": "Système musculosquelettique"
+        },
+        {
+          "@type": "WebPage",
+          "@id": "https://www.physioactif.com/ressources/anatomie-articulation#webpage",
+          "name": "Anatomie des articulations"
+        },
+        {
+          "@type": "WebPage",
+          "@id": "https://www.physioactif.com/ressources/anatomie-bassin#webpage",
+          "name": "Anatomie du bassin"
+        },
+        {
+          "@type": "WebPage",
+          "@id": "https://www.physioactif.com/ressources/anatomie-cou#webpage",
+          "name": "Anatomie du cou"
+        },
+        {
+          "@type": "WebPage",
+          "@id": "https://www.physioactif.com/ressources/anatomie-tete#webpage",
+          "name": "Anatomie de la tête"
+        },
+        {
+          "@type": "WebPage",
+          "@id": "https://www.physioactif.com/ressources/anatomie-thorax#webpage",
+          "name": "Anatomie du thorax"
+        },
+        {
+          "@type": "WebPage",
+          "@id": "https://www.physioactif.com/ressources/anatomie-abdomen#webpage",
+          "name": "Anatomie de l'abdomen"
+        }
+      ],
+      "mentions": [
+        {
+          "@type": "MedicalTherapy",
+          "name": "Physiothérapie",
+          "alternateName": [
+            "Physical therapy",
+            "Kinésithérapie",
+            "Fisioterapia"
+          ],
+          "sameAs": [
+            "https://www.physioactif.com/guide-complet/physiotherapie",
+            "https://www.wikidata.org/wiki/Q186005",
+            "https://en.wikipedia.org/wiki/Physical_therapy",
+            "https://fr.wikipedia.org/wiki/Kinésithérapie",
+            "https://meshb.nlm.nih.gov/record/ui?ui=D026761",
+            "https://www.merriam-webster.com/dictionary/physiotherapy",
+            "https://www.britannica.com/topic/physical-therapy"
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "name": "Anatomie humaine",
+          "description": "Science qui étudie la structure du corps humain, ses organes, tissus et systèmes",
+          "sameAs": [
+            "https://fr.wikipedia.org/wiki/Anatomie_humaine",
+            "https://en.wikipedia.org/wiki/Human_anatomy",
+            "https://www.wikidata.org/wiki/Q514",
+            "https://meshb.nlm.nih.gov/record/ui?ui=D000715"
+          ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "name": "Système musculosquelettique",
+          "description": "Système corporel composé des muscles, os, articulations, ligaments et tendons permettant le mouvement et le support",
+          "sameAs": [
+            "https://fr.wikipedia.org/wiki/Système_musculo-squelettique",
+            "https://en.wikipedia.org/wiki/Human_musculoskeletal_system",
+            "https://www.wikidata.org/wiki/Q171973",
+            "https://meshb.nlm.nih.gov/record/ui?ui=D009141"
+          ]
+        }
+      ],
+      "citation": [
+        {
+          "@type": "ScholarlyArticle",
+          "name": "The efficacy of pain neuroscience education on musculoskeletal pain: A systematic review of the literature",
+          "author": "Louw A, Zimney K, Puentedura EJ, Diener I",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/27524803/"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Reconceptualising pain according to modern pain science",
+          "author": "Moseley GL",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/17543462/"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Individual patient education for low back pain",
+          "author": "Engers A, Jellema P, Wensing M, et al.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/18254056/"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "What the evidence shows about patient activation: better health outcomes and care experiences; fewer data on costs",
+          "author": "Hibbard JH, Greene J",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/23381511/"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Anatomy of the hand and wrist",
+          "author": "Kaplan SJ, Goitz HT",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/30703073/"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "The knee meniscus: structure-function, pathophysiology, current repair techniques, and prospects for regeneration",
+          "author": "Makris EA, Hadidi P, Athanasiou KA",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/21690796/"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "The epidemiology of ankle sprains in the United States",
+          "author": "Waterman BR, Owens BD, Davey S, et al.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/20595554/"
+        },
+        {
+          "@type": "Book",
+          "name": "Kinesiology of the musculoskeletal system: foundations for rehabilitation",
+          "author": "Neumann DA",
+          "url": "https://www.elsevier.com/books/kinesiology-of-the-musculoskeletal-system/neumann/978-0-323-39970-1"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Assessment of stresses in the cervical spine caused by posture and position of the head",
+          "author": "Hansraj KK",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/25393825/"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "A systematic review of the global prevalence of low back pain",
+          "author": "Hoy D, Bain C, Williams G, et al.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/22607977/"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Skeletal muscle: a brief review of structure and function",
+          "author": "Frontera WR, Ochala J",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/25510011/"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Muscle injuries: biology and treatment",
+          "author": "Järvinen TA, Järvinen TL, Kääriäinen M, et al.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/15652351/"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Tendon injury and tendinopathy: healing and repair",
+          "author": "Sharma P, Maffulli N",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/15929758/"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Ligament structure, physiology and function",
+          "author": "Frank CB",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/14747748/"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Bone quality—the material and structural basis of bone strength and fragility",
+          "author": "Seeman E, Delmas PD",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/16824969/"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Articular cartilage: degeneration and osteoarthritis, repair, regeneration, and transplantation",
+          "author": "Buckwalter JA, Mankin HJ",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/9355063/"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "What is 'fascia'? A review of different nomenclatures",
+          "author": "Schleip R, Jäger H, Klingler W",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/22341290/"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Evaluation and management of peripheral nerve injury",
+          "author": "Campbell WW",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/18779520/"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Vascular pathology and osteoarthritis",
+          "author": "Findlay DM",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/17726829/"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Impingement lesions",
+          "author": "Neer CS 2nd",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/6920467/"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Loading of the knee joint during activities of daily living measured in vivo in five subjects",
+          "author": "Kutzner I, Heinlein B, Graichen F, et al.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/20175098/"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Correlates of exercise compliance in physical therapy",
+          "author": "Sluijs EM, Kok GJ, van der Zee J",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/8284519/"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Biomechanics of knee ligaments: injury, healing, and repair",
+          "author": "Woo SL, Abramowitch SD, Kilger R, Liang R",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/16688039/"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Smoking and wound healing",
+          "author": "Silverstein P",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/1303521/"
+        }
+      ]
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://www.physioactif.com/ressources/anatomie-corps-humain#webpage",
+      "datePublished": "2026-01-21",
+      "dateModified": "2026-01-21",
+      "url": "https://www.physioactif.com/ressources/anatomie-corps-humain",
+      "name": "Comprendre l'anatomie du corps humain : Guide complet pour patients | Physioactif",
+      "description": "Guide complet sur l'anatomie du corps humain pour patients : régions du corps, types de tissus, guérison et douleur. 27 articles détaillés sur l'anatomie.",
+      "about": [
+        {
+          "@type": "MedicalTherapy",
+          "name": "Physiothérapie",
+          "alternateName": [
+            "Physical therapy",
+            "Kinésithérapie",
+            "Fisioterapia"
+          ],
+          "sameAs": [
+            "https://www.physioactif.com/guide-complet/physiotherapie",
+            "https://www.wikidata.org/wiki/Q186005",
+            "https://en.wikipedia.org/wiki/Physical_therapy",
+            "https://fr.wikipedia.org/wiki/Kinésithérapie",
+            "https://meshb.nlm.nih.gov/record/ui?ui=D026761",
+            "https://www.merriam-webster.com/dictionary/physiotherapy",
+            "https://www.britannica.com/topic/physical-therapy"
+          ]
+        }
+      ],
+      "breadcrumb": {
+        "@type": "BreadcrumbList",
+        "@id": "https://www.physioactif.com/ressources/anatomie-corps-humain#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Accueil",
+            "item": "https://www.physioactif.com/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Ressources",
+            "item": "https://www.physioactif.com/ressources"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Comprendre l'anatomie du corps humain : Guide complet pour patients",
+            "item": "https://www.physioactif.com/ressources/anatomie-corps-humain"
+          }
+        ]
+      },
+      "isPartOf": {
+        "@id": "https://www.physioactif.com/#website"
+      },
+      "inLanguage": [
+        "fr-CA"
+      ],
+      "potentialAction": {
+        "@type": "ReadAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://www.physioactif.com/ressources/anatomie-corps-humain",
+          "actionPlatform": [
+            "http://schema.org/DesktopWebPlatform",
+            "http://schema.org/MobileWebPlatform"
+          ]
+        }
+      },
+      "relatedLink": [
+        "https://physioactif.clinicmaster.com/clinic-selection?lang=fr-CA"
+      ],
+      "publisher": {
+        "@id": "https://www.physioactif.com/#org"
+      }
+    }
+  ]
+}
