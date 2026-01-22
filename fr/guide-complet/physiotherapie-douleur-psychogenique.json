@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "MedicalTherapy",
+      "@id": "https://www.physioactif.com/guide-complet/physiotherapie-douleur-psychogenique#therapy",
+      "name": "Physiothérapie pour douleur psychogénique",
+      "alternateName": ["Physical therapy for psychogenic pain", "Réadaptation douleur fonctionnelle"],
+      "description": "Approche de physiothérapie pour traiter la douleur psychogénique incluant éducation à la douleur, exercices graduels et techniques de gestion du stress.",
+      "sameAs": ["https://www.wikidata.org/wiki/Q186005"],
+      "relevantCondition": {"@id": "https://www.physioactif.com/guide-complet/douleur-psychogenique-ou-somatique#condition"}
+    },
+    {
+      "@type": "MedicalWebPage",
+      "@id": "https://www.physioactif.com/guide-complet/physiotherapie-douleur-psychogenique#article",
+      "author": {"@type": "Person", "@id": "https://www.physioactif.com/equipe/chloe-roy/#person"},
+      "reviewedBy": {"@type": "Person", "@id": "https://www.physioactif.com/equipe/alexis-gougeon/#person"},
+      "datePublished": "2026-01-22",
+      "name": "Physiothérapie pour douleur psychogénique - Guide Complet",
+      "headline": "Physiothérapie pour douleur psychogénique: Approche et Traitements",
+      "about": [
+        {"@id": "https://www.physioactif.com/guide-complet/physiotherapie-douleur-psychogenique#therapy"},
+        {"@id": "https://www.physioactif.com/guide-complet/douleur-psychogenique-ou-somatique#condition"}
+      ],
+      "mainEntity": {"@id": "https://www.physioactif.com/guide-complet/physiotherapie-douleur-psychogenique#therapy"},
+      "speakable": {"@type": "SpeakableSpecification", "cssSelector": [".header_heading", ".header_content .text-style-muted.w-richtext", ".section_article .text-rich-text h2"]},
+      "specialty": ["Physiotherapy", "Pain Management", "Psychology"],
+      "medicalAudience": [{"@type": "Patient"}, {"@type": "MedicalAudience", "audienceType": "General Public"}],
+      "provider": {"@id": "https://www.physioactif.com/#org"},
+      "inLanguage": ["fr-CA"],
+      "isPartOf": {"@id": "https://www.physioactif.com/#website"}
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://www.physioactif.com/guide-complet/physiotherapie-douleur-psychogenique#webpage",
+      "datePublished": "2026-01-22",
+      "url": "https://www.physioactif.com/guide-complet/physiotherapie-douleur-psychogenique",
+      "name": "Physiothérapie pour douleur psychogénique | Physioactif",
+      "description": "Guide complet sur la physiothérapie pour douleur psychogénique: approche biopsychosociale et traitements par les experts de Physioactif.",
+      "mainEntity": {"@id": "https://www.physioactif.com/guide-complet/physiotherapie-douleur-psychogenique#therapy"},
+      "breadcrumb": {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {"@type": "ListItem", "position": 1, "name": "Accueil", "item": "https://www.physioactif.com/"},
+          {"@type": "ListItem", "position": 2, "name": "Guide Complet", "item": "https://www.physioactif.com/guide-complet"},
+          {"@type": "ListItem", "position": 3, "name": "Physiothérapie douleur psychogénique", "item": "https://www.physioactif.com/guide-complet/physiotherapie-douleur-psychogenique"}
+        ]
+      },
+      "isPartOf": {"@id": "https://www.physioactif.com/#website"},
+      "inLanguage": ["fr-CA"],
+      "publisher": {"@id": "https://www.physioactif.com/#org"}
+    }
+  ]
+}

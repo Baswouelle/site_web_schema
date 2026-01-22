@@ -1,0 +1,53 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "MedicalTherapy",
+      "@id": "https://www.physioactif.com/en/guide-complet/physiotherapie-douleur-inflammatoire#therapy",
+      "name": "Physiotherapy for Inflammatory Pain",
+      "alternateName": ["Physical therapy for inflammatory pain", "Inflammatory pain rehabilitation"],
+      "description": "Physiotherapy approach to treat inflammatory pain including adapted exercises, anti-inflammatory modalities and activity management.",
+      "sameAs": ["https://www.wikidata.org/wiki/Q186005"]
+    },
+    {
+      "@type": "MedicalWebPage",
+      "@id": "https://www.physioactif.com/en/guide-complet/physiotherapie-douleur-inflammatoire#article",
+      "author": {"@type": "Person", "@id": "https://www.physioactif.com/en/equipe/chloe-roy/#person"},
+      "reviewedBy": {"@type": "Person", "@id": "https://www.physioactif.com/en/equipe/alexis-gougeon/#person"},
+      "datePublished": "2026-01-22",
+      "name": "Physiotherapy for Inflammatory Pain - Complete Guide",
+      "headline": "Physiotherapy for Inflammatory Pain: Exercises and Treatments",
+      "about": [
+        {"@id": "https://www.physioactif.com/en/guide-complet/physiotherapie-douleur-inflammatoire#therapy"},
+        {"@type": "MedicalCondition", "name": "Inflammatory pain", "sameAs": ["https://en.wikipedia.org/wiki/Inflammatory_pain"]}
+      ],
+      "mainEntity": {"@id": "https://www.physioactif.com/en/guide-complet/physiotherapie-douleur-inflammatoire#therapy"},
+      "speakable": {"@type": "SpeakableSpecification", "cssSelector": [".header_heading", ".header_content .text-style-muted.w-richtext", ".section_article .text-rich-text h2"]},
+      "specialty": ["Physiotherapy", "Pain Management", "Rheumatology"],
+      "medicalAudience": [{"@type": "Patient"}, {"@type": "MedicalAudience", "audienceType": "General Public"}],
+      "provider": {"@id": "https://www.physioactif.com/en/#org"},
+      "inLanguage": ["en-CA"],
+      "isPartOf": {"@id": "https://www.physioactif.com/en/#website"}
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://www.physioactif.com/en/guide-complet/physiotherapie-douleur-inflammatoire#webpage",
+      "datePublished": "2026-01-22",
+      "url": "https://www.physioactif.com/en/guide-complet/physiotherapie-douleur-inflammatoire",
+      "name": "Physiotherapy for Inflammatory Pain | Physioactif",
+      "description": "Complete guide on physiotherapy for inflammatory pain: exercises, treatments and inflammation management by Physioactif experts.",
+      "mainEntity": {"@id": "https://www.physioactif.com/en/guide-complet/physiotherapie-douleur-inflammatoire#therapy"},
+      "breadcrumb": {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.physioactif.com/en/"},
+          {"@type": "ListItem", "position": 2, "name": "Complete Guide", "item": "https://www.physioactif.com/en/guide-complet"},
+          {"@type": "ListItem", "position": 3, "name": "Physiotherapy inflammatory pain", "item": "https://www.physioactif.com/en/guide-complet/physiotherapie-douleur-inflammatoire"}
+        ]
+      },
+      "isPartOf": {"@id": "https://www.physioactif.com/en/#website"},
+      "inLanguage": ["en-CA"],
+      "publisher": {"@id": "https://www.physioactif.com/en/#org"}
+    }
+  ]
+}

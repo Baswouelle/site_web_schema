@@ -1,0 +1,66 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "MedicalCondition",
+      "@id": "https://www.physioactif.com/en/guide-complet/douleur-psychogenique-ou-somatique#condition",
+      "name": "Psychogenic or Somatic Pain",
+      "alternateName": ["Psychogenic pain", "Functional pain", "Douleur psychogénique", "Douleur somatique"],
+      "description": "Pain whose origin involves psychological factors, without identifiable tissue damage, but which remains a real and disabling experience.",
+      "sameAs": [
+        "https://en.wikipedia.org/wiki/Psychogenic_pain",
+        "https://fr.wikipedia.org/wiki/Trouble_somatoforme",
+        "https://www.wikidata.org/wiki/Q2915120"
+      ],
+      "code": [{"@type": "MedicalCode", "code": "F45.4", "codingSystem": "ICD-10"}],
+      "possibleTreatment": [{"@type": "MedicalTherapy", "name": "Physiotherapy"}]
+    },
+    {
+      "@type": "MedicalWebPage",
+      "@id": "https://www.physioactif.com/en/guide-complet/douleur-psychogenique-ou-somatique#article",
+      "author": {"@type": "Person", "@id": "https://www.physioactif.com/en/equipe/ariel-desjardins-charbonneau/#person"},
+      "reviewedBy": {"@type": "Person", "@id": "https://www.physioactif.com/en/equipe/claudine-farah/#person"},
+      "datePublished": "2026-01-22",
+      "name": "Psychogenic or Somatic Pain - Complete Guide",
+      "headline": "Psychogenic or Somatic Pain: Understanding Functional Pain",
+      "about": [
+        {"@id": "https://www.physioactif.com/en/guide-complet/douleur-psychogenique-ou-somatique#condition"},
+        {"@type": "MedicalTherapy", "name": "Physiotherapy", "sameAs": ["https://www.wikidata.org/wiki/Q186005"]}
+      ],
+      "mainEntity": {"@id": "https://www.physioactif.com/en/guide-complet/douleur-psychogenique-ou-somatique#condition"},
+      "speakable": {"@type": "SpeakableSpecification", "cssSelector": [".header_heading", ".header_content .text-style-muted.w-richtext", ".section_article .text-rich-text h2"]},
+      "specialty": ["Physiotherapy", "Pain Management", "Psychology"],
+      "medicalAudience": [{"@type": "Patient"}, {"@type": "MedicalAudience", "audienceType": "General Public"}],
+      "provider": {"@id": "https://www.physioactif.com/en/#org"},
+      "inLanguage": ["en-CA"],
+      "isPartOf": {"@id": "https://www.physioactif.com/en/#website"},
+      "mentions": [
+        {"@type": "MedicalTherapy", "name": "Physiotherapy for psychogenic pain", "@id": "https://www.physioactif.com/en/guide-complet/physiotherapie-douleur-psychogenique#therapy"}
+      ]
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://www.physioactif.com/en/guide-complet/douleur-psychogenique-ou-somatique#webpage",
+      "datePublished": "2026-01-22",
+      "url": "https://www.physioactif.com/en/guide-complet/douleur-psychogenique-ou-somatique",
+      "name": "Psychogenic or Somatic Pain - Complete Guide | Physioactif",
+      "description": "Complete guide on psychogenic or somatic pain: understanding functional pain and its physiotherapy treatment.",
+      "mainEntity": {"@id": "https://www.physioactif.com/en/guide-complet/douleur-psychogenique-ou-somatique#condition"},
+      "about": {"@id": "https://www.physioactif.com/en/guide-complet/douleur-psychogenique-ou-somatique#condition"},
+      "breadcrumb": {
+        "@type": "BreadcrumbList",
+        "@id": "https://www.physioactif.com/en/guide-complet/douleur-psychogenique-ou-somatique#breadcrumb",
+        "itemListElement": [
+          {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.physioactif.com/en/"},
+          {"@type": "ListItem", "position": 2, "name": "Complete Guide", "item": "https://www.physioactif.com/en/guide-complet"},
+          {"@type": "ListItem", "position": 3, "name": "Psychogenic or Somatic Pain", "item": "https://www.physioactif.com/en/guide-complet/douleur-psychogenique-ou-somatique"}
+        ]
+      },
+      "isPartOf": {"@id": "https://www.physioactif.com/en/#website"},
+      "inLanguage": ["en-CA"],
+      "potentialAction": {"@type": "ReadAction", "target": {"@type": "EntryPoint", "urlTemplate": "https://www.physioactif.com/en/guide-complet/douleur-psychogenique-ou-somatique", "actionPlatform": ["http://schema.org/DesktopWebPlatform", "http://schema.org/MobileWebPlatform"]}},
+      "relatedLink": ["https://physioactif.clinicmaster.com/clinic-selection?lang=en-CA"],
+      "publisher": {"@id": "https://www.physioactif.com/en/#org"}
+    }
+  ]
+}

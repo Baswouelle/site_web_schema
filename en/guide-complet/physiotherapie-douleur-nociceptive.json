@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "MedicalTherapy",
+      "@id": "https://www.physioactif.com/en/guide-complet/physiotherapie-douleur-nociceptive#therapy",
+      "name": "Physiotherapy for Nociceptive Pain",
+      "alternateName": ["Physical therapy for nociceptive pain", "Tissue pain rehabilitation"],
+      "description": "Physiotherapy approach to treat nociceptive pain including manual therapy, therapeutic exercises and analgesic modalities.",
+      "sameAs": ["https://www.wikidata.org/wiki/Q186005"],
+      "relevantCondition": {"@id": "https://www.physioactif.com/en/guide-complet/douleur-nociceptive#condition"}
+    },
+    {
+      "@type": "MedicalWebPage",
+      "@id": "https://www.physioactif.com/en/guide-complet/physiotherapie-douleur-nociceptive#article",
+      "author": {"@type": "Person", "@id": "https://www.physioactif.com/en/equipe/chloe-roy/#person"},
+      "reviewedBy": {"@type": "Person", "@id": "https://www.physioactif.com/en/equipe/alexis-gougeon/#person"},
+      "datePublished": "2026-01-22",
+      "name": "Physiotherapy for Nociceptive Pain - Complete Guide",
+      "headline": "Physiotherapy for Nociceptive Pain: Exercises and Treatments",
+      "about": [
+        {"@id": "https://www.physioactif.com/en/guide-complet/physiotherapie-douleur-nociceptive#therapy"},
+        {"@id": "https://www.physioactif.com/en/guide-complet/douleur-nociceptive#condition"}
+      ],
+      "mainEntity": {"@id": "https://www.physioactif.com/en/guide-complet/physiotherapie-douleur-nociceptive#therapy"},
+      "speakable": {"@type": "SpeakableSpecification", "cssSelector": [".header_heading", ".header_content .text-style-muted.w-richtext", ".section_article .text-rich-text h2"]},
+      "specialty": ["Physiotherapy", "Pain Management", "Musculoskeletal"],
+      "medicalAudience": [{"@type": "Patient"}, {"@type": "MedicalAudience", "audienceType": "General Public"}],
+      "provider": {"@id": "https://www.physioactif.com/en/#org"},
+      "inLanguage": ["en-CA"],
+      "isPartOf": {"@id": "https://www.physioactif.com/en/#website"}
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://www.physioactif.com/en/guide-complet/physiotherapie-douleur-nociceptive#webpage",
+      "datePublished": "2026-01-22",
+      "url": "https://www.physioactif.com/en/guide-complet/physiotherapie-douleur-nociceptive",
+      "name": "Physiotherapy for Nociceptive Pain | Physioactif",
+      "description": "Complete guide on physiotherapy for nociceptive pain: exercises, treatments and rehabilitation by Physioactif experts.",
+      "mainEntity": {"@id": "https://www.physioactif.com/en/guide-complet/physiotherapie-douleur-nociceptive#therapy"},
+      "breadcrumb": {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.physioactif.com/en/"},
+          {"@type": "ListItem", "position": 2, "name": "Complete Guide", "item": "https://www.physioactif.com/en/guide-complet"},
+          {"@type": "ListItem", "position": 3, "name": "Physiotherapy nociceptive pain", "item": "https://www.physioactif.com/en/guide-complet/physiotherapie-douleur-nociceptive"}
+        ]
+      },
+      "isPartOf": {"@id": "https://www.physioactif.com/en/#website"},
+      "inLanguage": ["en-CA"],
+      "publisher": {"@id": "https://www.physioactif.com/en/#org"}
+    }
+  ]
+}

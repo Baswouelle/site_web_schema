@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "MedicalTherapy",
+      "@id": "https://www.physioactif.com/guide-complet/physiotherapie-pediatrique#therapy",
+      "name": "Physiothérapie pédiatrique",
+      "alternateName": ["Pediatric physiotherapy", "Physical therapy for children", "Kinésithérapie pédiatrique"],
+      "description": "Spécialité de la physiothérapie dédiée aux enfants, visant à optimiser le développement moteur et traiter les troubles musculosquelettiques pédiatriques.",
+      "sameAs": ["https://www.wikidata.org/wiki/Q186005", "https://en.wikipedia.org/wiki/Pediatric_physical_therapy"],
+      "relevantCondition": {"@id": "https://www.physioactif.com/guide-complet/trouble-developpement-enfant#condition"}
+    },
+    {
+      "@type": "MedicalWebPage",
+      "@id": "https://www.physioactif.com/guide-complet/physiotherapie-pediatrique#article",
+      "author": {"@type": "Person", "@id": "https://www.physioactif.com/equipe/chloe-roy/#person"},
+      "reviewedBy": {"@type": "Person", "@id": "https://www.physioactif.com/equipe/alexis-gougeon/#person"},
+      "datePublished": "2026-01-22",
+      "name": "Physiothérapie pédiatrique - Guide Complet",
+      "headline": "Physiothérapie pédiatrique: Services et Traitements pour Enfants",
+      "about": [
+        {"@id": "https://www.physioactif.com/guide-complet/physiotherapie-pediatrique#therapy"},
+        {"@id": "https://www.physioactif.com/guide-complet/trouble-developpement-enfant#condition"}
+      ],
+      "mainEntity": {"@id": "https://www.physioactif.com/guide-complet/physiotherapie-pediatrique#therapy"},
+      "speakable": {"@type": "SpeakableSpecification", "cssSelector": [".header_heading", ".header_content .text-style-muted.w-richtext", ".section_article .text-rich-text h2"]},
+      "specialty": ["Physiotherapy", "Pediatrics"],
+      "medicalAudience": [{"@type": "Patient"}, {"@type": "MedicalAudience", "audienceType": "Parents"}],
+      "provider": {"@id": "https://www.physioactif.com/#org"},
+      "inLanguage": ["fr-CA"],
+      "isPartOf": {"@id": "https://www.physioactif.com/#website"}
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://www.physioactif.com/guide-complet/physiotherapie-pediatrique#webpage",
+      "datePublished": "2026-01-22",
+      "url": "https://www.physioactif.com/guide-complet/physiotherapie-pediatrique",
+      "name": "Physiothérapie pédiatrique | Physioactif",
+      "description": "Guide complet sur la physiothérapie pédiatrique: services spécialisés pour enfants et intervention précoce par les experts de Physioactif.",
+      "mainEntity": {"@id": "https://www.physioactif.com/guide-complet/physiotherapie-pediatrique#therapy"},
+      "breadcrumb": {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {"@type": "ListItem", "position": 1, "name": "Accueil", "item": "https://www.physioactif.com/"},
+          {"@type": "ListItem", "position": 2, "name": "Guide Complet", "item": "https://www.physioactif.com/guide-complet"},
+          {"@type": "ListItem", "position": 3, "name": "Physiothérapie pédiatrique", "item": "https://www.physioactif.com/guide-complet/physiotherapie-pediatrique"}
+        ]
+      },
+      "isPartOf": {"@id": "https://www.physioactif.com/#website"},
+      "inLanguage": ["fr-CA"],
+      "publisher": {"@id": "https://www.physioactif.com/#org"}
+    }
+  ]
+}

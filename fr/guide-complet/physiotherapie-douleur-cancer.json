@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "MedicalTherapy",
+      "@id": "https://www.physioactif.com/guide-complet/physiotherapie-douleur-cancer#therapy",
+      "name": "Physiothérapie pour douleur reliée au cancer",
+      "alternateName": ["Physical therapy for cancer pain", "Réadaptation oncologique"],
+      "description": "Approche de physiothérapie pour soulager la douleur reliée au cancer incluant exercices adaptés, techniques manuelles et gestion de la fatigue.",
+      "sameAs": ["https://www.wikidata.org/wiki/Q186005"],
+      "relevantCondition": {"@id": "https://www.physioactif.com/guide-complet/douleur-reliee-au-cancer#condition"}
+    },
+    {
+      "@type": "MedicalWebPage",
+      "@id": "https://www.physioactif.com/guide-complet/physiotherapie-douleur-cancer#article",
+      "author": {"@type": "Person", "@id": "https://www.physioactif.com/equipe/chloe-roy/#person"},
+      "reviewedBy": {"@type": "Person", "@id": "https://www.physioactif.com/equipe/alexis-gougeon/#person"},
+      "datePublished": "2026-01-22",
+      "name": "Physiothérapie pour douleur reliée au cancer - Guide Complet",
+      "headline": "Physiothérapie pour douleur reliée au cancer: Exercices et Traitements",
+      "about": [
+        {"@id": "https://www.physioactif.com/guide-complet/physiotherapie-douleur-cancer#therapy"},
+        {"@id": "https://www.physioactif.com/guide-complet/douleur-reliee-au-cancer#condition"}
+      ],
+      "mainEntity": {"@id": "https://www.physioactif.com/guide-complet/physiotherapie-douleur-cancer#therapy"},
+      "speakable": {"@type": "SpeakableSpecification", "cssSelector": [".header_heading", ".header_content .text-style-muted.w-richtext", ".section_article .text-rich-text h2"]},
+      "specialty": ["Physiotherapy", "Oncology", "Pain Management"],
+      "medicalAudience": [{"@type": "Patient"}, {"@type": "MedicalAudience", "audienceType": "General Public"}],
+      "provider": {"@id": "https://www.physioactif.com/#org"},
+      "inLanguage": ["fr-CA"],
+      "isPartOf": {"@id": "https://www.physioactif.com/#website"}
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://www.physioactif.com/guide-complet/physiotherapie-douleur-cancer#webpage",
+      "datePublished": "2026-01-22",
+      "url": "https://www.physioactif.com/guide-complet/physiotherapie-douleur-cancer",
+      "name": "Physiothérapie pour douleur reliée au cancer | Physioactif",
+      "description": "Guide complet sur la physiothérapie pour douleur reliée au cancer: exercices, traitements et réadaptation oncologique par les experts de Physioactif.",
+      "mainEntity": {"@id": "https://www.physioactif.com/guide-complet/physiotherapie-douleur-cancer#therapy"},
+      "breadcrumb": {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {"@type": "ListItem", "position": 1, "name": "Accueil", "item": "https://www.physioactif.com/"},
+          {"@type": "ListItem", "position": 2, "name": "Guide Complet", "item": "https://www.physioactif.com/guide-complet"},
+          {"@type": "ListItem", "position": 3, "name": "Physiothérapie douleur cancer", "item": "https://www.physioactif.com/guide-complet/physiotherapie-douleur-cancer"}
+        ]
+      },
+      "isPartOf": {"@id": "https://www.physioactif.com/#website"},
+      "inLanguage": ["fr-CA"],
+      "publisher": {"@id": "https://www.physioactif.com/#org"}
+    }
+  ]
+}

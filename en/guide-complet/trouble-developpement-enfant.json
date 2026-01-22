@@ -1,0 +1,66 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "MedicalCondition",
+      "@id": "https://www.physioactif.com/en/guide-complet/trouble-developpement-enfant#condition",
+      "name": "Developmental Disorder in Children",
+      "alternateName": ["Developmental delay", "Child development disorder", "Trouble du développement", "Retard de développement"],
+      "description": "Disorders affecting the motor, cognitive or sensory development of children, which can benefit from early intervention in pediatric physiotherapy.",
+      "sameAs": [
+        "https://en.wikipedia.org/wiki/Developmental_disability",
+        "https://fr.wikipedia.org/wiki/Trouble_du_développement",
+        "https://www.wikidata.org/wiki/Q17028969"
+      ],
+      "code": [{"@type": "MedicalCode", "code": "F84", "codingSystem": "ICD-10"}],
+      "possibleTreatment": [{"@type": "MedicalTherapy", "name": "Pediatric physiotherapy"}]
+    },
+    {
+      "@type": "MedicalWebPage",
+      "@id": "https://www.physioactif.com/en/guide-complet/trouble-developpement-enfant#article",
+      "author": {"@type": "Person", "@id": "https://www.physioactif.com/en/equipe/ariel-desjardins-charbonneau/#person"},
+      "reviewedBy": {"@type": "Person", "@id": "https://www.physioactif.com/en/equipe/claudine-farah/#person"},
+      "datePublished": "2026-01-22",
+      "name": "Developmental Disorder in Children - Complete Guide",
+      "headline": "Developmental Disorder in Children: Signs, Causes and Intervention",
+      "about": [
+        {"@id": "https://www.physioactif.com/en/guide-complet/trouble-developpement-enfant#condition"},
+        {"@type": "MedicalTherapy", "name": "Pediatric physiotherapy", "sameAs": ["https://www.wikidata.org/wiki/Q186005"]}
+      ],
+      "mainEntity": {"@id": "https://www.physioactif.com/en/guide-complet/trouble-developpement-enfant#condition"},
+      "speakable": {"@type": "SpeakableSpecification", "cssSelector": [".header_heading", ".header_content .text-style-muted.w-richtext", ".section_article .text-rich-text h2"]},
+      "specialty": ["Physiotherapy", "Pediatrics", "Developmental Medicine"],
+      "medicalAudience": [{"@type": "Patient"}, {"@type": "MedicalAudience", "audienceType": "Parents"}],
+      "provider": {"@id": "https://www.physioactif.com/en/#org"},
+      "inLanguage": ["en-CA"],
+      "isPartOf": {"@id": "https://www.physioactif.com/en/#website"},
+      "mentions": [
+        {"@type": "MedicalTherapy", "name": "Pediatric physiotherapy", "@id": "https://www.physioactif.com/en/guide-complet/physiotherapie-pediatrique#therapy"}
+      ]
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://www.physioactif.com/en/guide-complet/trouble-developpement-enfant#webpage",
+      "datePublished": "2026-01-22",
+      "url": "https://www.physioactif.com/en/guide-complet/trouble-developpement-enfant",
+      "name": "Developmental Disorder in Children - Complete Guide | Physioactif",
+      "description": "Complete guide on developmental disorders in children: signs, causes and early intervention in pediatric physiotherapy.",
+      "mainEntity": {"@id": "https://www.physioactif.com/en/guide-complet/trouble-developpement-enfant#condition"},
+      "about": {"@id": "https://www.physioactif.com/en/guide-complet/trouble-developpement-enfant#condition"},
+      "breadcrumb": {
+        "@type": "BreadcrumbList",
+        "@id": "https://www.physioactif.com/en/guide-complet/trouble-developpement-enfant#breadcrumb",
+        "itemListElement": [
+          {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.physioactif.com/en/"},
+          {"@type": "ListItem", "position": 2, "name": "Complete Guide", "item": "https://www.physioactif.com/en/guide-complet"},
+          {"@type": "ListItem", "position": 3, "name": "Developmental Disorder in Children", "item": "https://www.physioactif.com/en/guide-complet/trouble-developpement-enfant"}
+        ]
+      },
+      "isPartOf": {"@id": "https://www.physioactif.com/en/#website"},
+      "inLanguage": ["en-CA"],
+      "potentialAction": {"@type": "ReadAction", "target": {"@type": "EntryPoint", "urlTemplate": "https://www.physioactif.com/en/guide-complet/trouble-developpement-enfant", "actionPlatform": ["http://schema.org/DesktopWebPlatform", "http://schema.org/MobileWebPlatform"]}},
+      "relatedLink": ["https://physioactif.clinicmaster.com/clinic-selection?lang=en-CA"],
+      "publisher": {"@id": "https://www.physioactif.com/en/#org"}
+    }
+  ]
+}

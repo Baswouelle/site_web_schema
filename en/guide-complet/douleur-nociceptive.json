@@ -1,0 +1,67 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "MedicalCondition",
+      "@id": "https://www.physioactif.com/en/guide-complet/douleur-nociceptive#condition",
+      "name": "Nociceptive Pain",
+      "alternateName": ["Tissue pain", "Douleur nociceptive", "Douleur tissulaire"],
+      "description": "Pain resulting from the activation of nociceptors by actual or potential tissue damage, representing the most common type of pain.",
+      "sameAs": [
+        "https://en.wikipedia.org/wiki/Nociceptive_pain",
+        "https://fr.wikipedia.org/wiki/Douleur_nociceptive",
+        "https://www.wikidata.org/wiki/Q7046289",
+        "https://meshb.nlm.nih.gov/record/ui?ui=D059226"
+      ],
+      "code": [{"@type": "MedicalCode", "code": "R52", "codingSystem": "ICD-10"}],
+      "possibleTreatment": [{"@type": "MedicalTherapy", "name": "Physiotherapy"}]
+    },
+    {
+      "@type": "MedicalWebPage",
+      "@id": "https://www.physioactif.com/en/guide-complet/douleur-nociceptive#article",
+      "author": {"@type": "Person", "@id": "https://www.physioactif.com/en/equipe/ariel-desjardins-charbonneau/#person"},
+      "reviewedBy": {"@type": "Person", "@id": "https://www.physioactif.com/en/equipe/claudine-farah/#person"},
+      "datePublished": "2026-01-22",
+      "name": "Nociceptive Pain - Complete Guide",
+      "headline": "Nociceptive Pain: Understanding Tissue Pain",
+      "about": [
+        {"@id": "https://www.physioactif.com/en/guide-complet/douleur-nociceptive#condition"},
+        {"@type": "MedicalTherapy", "name": "Physiotherapy", "sameAs": ["https://www.wikidata.org/wiki/Q186005"]}
+      ],
+      "mainEntity": {"@id": "https://www.physioactif.com/en/guide-complet/douleur-nociceptive#condition"},
+      "speakable": {"@type": "SpeakableSpecification", "cssSelector": [".header_heading", ".header_content .text-style-muted.w-richtext", ".section_article .text-rich-text h2"]},
+      "specialty": ["Physiotherapy", "Pain Management", "Musculoskeletal"],
+      "medicalAudience": [{"@type": "Patient"}, {"@type": "MedicalAudience", "audienceType": "General Public"}],
+      "provider": {"@id": "https://www.physioactif.com/en/#org"},
+      "inLanguage": ["en-CA"],
+      "isPartOf": {"@id": "https://www.physioactif.com/en/#website"},
+      "mentions": [
+        {"@type": "MedicalTherapy", "name": "Physiotherapy for nociceptive pain", "@id": "https://www.physioactif.com/en/guide-complet/physiotherapie-douleur-nociceptive#therapy"}
+      ]
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://www.physioactif.com/en/guide-complet/douleur-nociceptive#webpage",
+      "datePublished": "2026-01-22",
+      "url": "https://www.physioactif.com/en/guide-complet/douleur-nociceptive",
+      "name": "Nociceptive Pain - Complete Guide | Physioactif",
+      "description": "Complete guide on nociceptive pain: mechanisms, causes and physiotherapy treatments by Physioactif experts.",
+      "mainEntity": {"@id": "https://www.physioactif.com/en/guide-complet/douleur-nociceptive#condition"},
+      "about": {"@id": "https://www.physioactif.com/en/guide-complet/douleur-nociceptive#condition"},
+      "breadcrumb": {
+        "@type": "BreadcrumbList",
+        "@id": "https://www.physioactif.com/en/guide-complet/douleur-nociceptive#breadcrumb",
+        "itemListElement": [
+          {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.physioactif.com/en/"},
+          {"@type": "ListItem", "position": 2, "name": "Complete Guide", "item": "https://www.physioactif.com/en/guide-complet"},
+          {"@type": "ListItem", "position": 3, "name": "Nociceptive Pain", "item": "https://www.physioactif.com/en/guide-complet/douleur-nociceptive"}
+        ]
+      },
+      "isPartOf": {"@id": "https://www.physioactif.com/en/#website"},
+      "inLanguage": ["en-CA"],
+      "potentialAction": {"@type": "ReadAction", "target": {"@type": "EntryPoint", "urlTemplate": "https://www.physioactif.com/en/guide-complet/douleur-nociceptive", "actionPlatform": ["http://schema.org/DesktopWebPlatform", "http://schema.org/MobileWebPlatform"]}},
+      "relatedLink": ["https://physioactif.clinicmaster.com/clinic-selection?lang=en-CA"],
+      "publisher": {"@id": "https://www.physioactif.com/en/#org"}
+    }
+  ]
+}

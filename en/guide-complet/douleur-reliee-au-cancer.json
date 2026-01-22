@@ -1,0 +1,67 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "MedicalCondition",
+      "@id": "https://www.physioactif.com/en/guide-complet/douleur-reliee-au-cancer#condition",
+      "name": "Cancer-Related Pain",
+      "alternateName": ["Oncologic pain", "Cancer pain", "Douleur reliée au cancer", "Douleur oncologique"],
+      "description": "Pain associated with cancer or its treatments, which can be nociceptive, neuropathic, or mixed, affecting the quality of life of oncology patients.",
+      "sameAs": [
+        "https://en.wikipedia.org/wiki/Cancer_pain",
+        "https://fr.wikipedia.org/wiki/Douleur_cancéreuse",
+        "https://www.wikidata.org/wiki/Q5029096",
+        "https://meshb.nlm.nih.gov/record/ui?ui=D000072716"
+      ],
+      "code": [{"@type": "MedicalCode", "code": "R52", "codingSystem": "ICD-10"}],
+      "possibleTreatment": [{"@type": "MedicalTherapy", "name": "Physiotherapy"}]
+    },
+    {
+      "@type": "MedicalWebPage",
+      "@id": "https://www.physioactif.com/en/guide-complet/douleur-reliee-au-cancer#article",
+      "author": {"@type": "Person", "@id": "https://www.physioactif.com/en/equipe/ariel-desjardins-charbonneau/#person"},
+      "reviewedBy": {"@type": "Person", "@id": "https://www.physioactif.com/en/equipe/claudine-farah/#person"},
+      "datePublished": "2026-01-22",
+      "name": "Cancer-Related Pain - Complete Guide",
+      "headline": "Cancer-Related Pain: Understanding and Relieving Oncologic Pain",
+      "about": [
+        {"@id": "https://www.physioactif.com/en/guide-complet/douleur-reliee-au-cancer#condition"},
+        {"@type": "MedicalTherapy", "name": "Physiotherapy", "sameAs": ["https://www.wikidata.org/wiki/Q186005"]}
+      ],
+      "mainEntity": {"@id": "https://www.physioactif.com/en/guide-complet/douleur-reliee-au-cancer#condition"},
+      "speakable": {"@type": "SpeakableSpecification", "cssSelector": [".header_heading", ".header_content .text-style-muted.w-richtext", ".section_article .text-rich-text h2"]},
+      "specialty": ["Physiotherapy", "Oncology", "Pain Management"],
+      "medicalAudience": [{"@type": "Patient"}, {"@type": "MedicalAudience", "audienceType": "General Public"}],
+      "provider": {"@id": "https://www.physioactif.com/en/#org"},
+      "inLanguage": ["en-CA"],
+      "isPartOf": {"@id": "https://www.physioactif.com/en/#website"},
+      "mentions": [
+        {"@type": "MedicalTherapy", "name": "Physiotherapy for cancer pain", "@id": "https://www.physioactif.com/en/guide-complet/physiotherapie-douleur-cancer#therapy"}
+      ]
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://www.physioactif.com/en/guide-complet/douleur-reliee-au-cancer#webpage",
+      "datePublished": "2026-01-22",
+      "url": "https://www.physioactif.com/en/guide-complet/douleur-reliee-au-cancer",
+      "name": "Cancer-Related Pain - Complete Guide | Physioactif",
+      "description": "Complete guide on cancer-related pain: types of oncologic pain, causes and physiotherapy treatments by Physioactif experts.",
+      "mainEntity": {"@id": "https://www.physioactif.com/en/guide-complet/douleur-reliee-au-cancer#condition"},
+      "about": {"@id": "https://www.physioactif.com/en/guide-complet/douleur-reliee-au-cancer#condition"},
+      "breadcrumb": {
+        "@type": "BreadcrumbList",
+        "@id": "https://www.physioactif.com/en/guide-complet/douleur-reliee-au-cancer#breadcrumb",
+        "itemListElement": [
+          {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.physioactif.com/en/"},
+          {"@type": "ListItem", "position": 2, "name": "Complete Guide", "item": "https://www.physioactif.com/en/guide-complet"},
+          {"@type": "ListItem", "position": 3, "name": "Cancer-Related Pain", "item": "https://www.physioactif.com/en/guide-complet/douleur-reliee-au-cancer"}
+        ]
+      },
+      "isPartOf": {"@id": "https://www.physioactif.com/en/#website"},
+      "inLanguage": ["en-CA"],
+      "potentialAction": {"@type": "ReadAction", "target": {"@type": "EntryPoint", "urlTemplate": "https://www.physioactif.com/en/guide-complet/douleur-reliee-au-cancer", "actionPlatform": ["http://schema.org/DesktopWebPlatform", "http://schema.org/MobileWebPlatform"]}},
+      "relatedLink": ["https://physioactif.clinicmaster.com/clinic-selection?lang=en-CA"],
+      "publisher": {"@id": "https://www.physioactif.com/en/#org"}
+    }
+  ]
+}
