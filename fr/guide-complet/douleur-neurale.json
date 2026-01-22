@@ -1,0 +1,251 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "MedicalCondition",
+      "@id": "https://www.physioactif.com/guide-complet/douleur-neurale#condition",
+      "name": "Douleur neuropathique",
+      "alternateName": [
+        "Neuropathic pain",
+        "douleur neurale",
+        "nerve pain",
+        "douleur d'origine nerveuse",
+        "neural pain"
+      ],
+      "description": "Douleur résultant d'une lésion ou d'une maladie du système nerveux lui-même, caractérisée par des sensations de brûlure, décharges électriques, picotements et hypersensibilité au toucher.",
+      "sameAs": [
+        "https://en.wikipedia.org/wiki/Neuropathic_pain",
+        "https://fr.wikipedia.org/wiki/Douleur_neuropathique",
+        "https://www.wikidata.org/wiki/Q7000479",
+        "https://meshb.nlm.nih.gov/record/ui?ui=D009437"
+      ],
+      "code": [
+        {
+          "@type": "MedicalCode",
+          "code": "G89.29",
+          "codingSystem": "ICD-10"
+        },
+        {
+          "@type": "MedicalCode",
+          "code": "MG30.5",
+          "codingSystem": "ICD-11"
+        }
+      ],
+      "signOrSymptom": [
+        {
+          "@type": "MedicalSymptom",
+          "name": "Sensation de brûlure"
+        },
+        {
+          "@type": "MedicalSymptom",
+          "name": "Décharges électriques"
+        },
+        {
+          "@type": "MedicalSymptom",
+          "name": "Picotements et fourmillements"
+        },
+        {
+          "@type": "MedicalSymptom",
+          "name": "Engourdissement paradoxal avec douleur"
+        },
+        {
+          "@type": "MedicalSymptom",
+          "name": "Allodynie (douleur au toucher léger)"
+        },
+        {
+          "@type": "MedicalSymptom",
+          "name": "Hyperalgésie (douleur excessive)"
+        }
+      ],
+      "possibleCause": [
+        {
+          "@type": "MedicalCause",
+          "name": "Hernie discale avec compression nerveuse"
+        },
+        {
+          "@type": "MedicalCause",
+          "name": "Neuropathie diabétique"
+        },
+        {
+          "@type": "MedicalCause",
+          "name": "Névralgie post-herpétique (zona)"
+        },
+        {
+          "@type": "MedicalCause",
+          "name": "Syndrome du tunnel carpien"
+        }
+      ],
+      "possibleTreatment": [
+        {
+          "@type": "PhysicalTherapy",
+          "name": "Physiothérapie",
+          "description": "Mobilisation nerveuse, désensibilisation progressive, exposition graduelle et exercice aérobique pour moduler la douleur neuropathique.",
+          "proprietaryName": "Physioactif"
+        }
+      ],
+      "typicalTest": [
+        {
+          "@type": "MedicalTest",
+          "name": "Questionnaire DN4"
+        },
+        {
+          "@type": "MedicalTest",
+          "name": "Électromyogramme (EMG)"
+        },
+        {
+          "@type": "MedicalTest",
+          "name": "Tests neurodynamiques"
+        }
+      ]
+    },
+    {
+      "@type": "MedicalWebPage",
+      "@id": "https://www.physioactif.com/guide-complet/douleur-neurale#article",
+      "author": {
+        "@type": "Person",
+        "@id": "https://www.physioactif.com/equipe/ariel-desjardins-charbonneau/#person"
+      },
+      "datePublished": "2026-01-21",
+      "name": "Douleur neuropathique - Guide Complet",
+      "headline": "Douleur neuropathique : Comprendre la douleur d'origine nerveuse",
+      "about": [
+        {
+          "@id": "https://www.physioactif.com/guide-complet/douleur-neurale#condition"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Physiothérapie",
+          "alternateName": [
+            "Physical therapy",
+            "Kinésithérapie"
+          ],
+          "sameAs": [
+            "https://www.wikidata.org/wiki/Q186005",
+            "https://en.wikipedia.org/wiki/Physical_therapy",
+            "https://fr.wikipedia.org/wiki/Kinésithérapie"
+          ]
+        }
+      ],
+      "mainEntity": {
+        "@id": "https://www.physioactif.com/guide-complet/douleur-neurale#condition"
+      },
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [
+          ".header_heading",
+          ".header_content .text-style-muted.w-richtext",
+          ".section_article .text-rich-text h2"
+        ]
+      },
+      "specialty": [
+        "Physiotherapy",
+        "Neurology",
+        "Pain Medicine"
+      ],
+      "medicalAudience": [
+        {
+          "@type": "Patient"
+        },
+        {
+          "@type": "MedicalAudience",
+          "audienceType": "General Public"
+        }
+      ],
+      "reviewedBy": {
+        "@id": "https://www.physioactif.com/#org"
+      },
+      "provider": {
+        "@id": "https://www.physioactif.com/#org"
+      },
+      "inLanguage": [
+        "fr-CA"
+      ],
+      "isPartOf": {
+        "@id": "https://www.physioactif.com/#website"
+      },
+      "mentions": [
+        {
+          "@type": "MedicalCondition",
+          "name": "Sciatique",
+          "sameAs": "https://www.physioactif.com/guide-complet/lombo-sciatalgie"
+        },
+        {
+          "@type": "MedicalCondition",
+          "name": "Cervico-brachialgie",
+          "sameAs": "https://www.physioactif.com/guide-complet/cervico-brachialgie-ou-radiculopathie-cervicale"
+        },
+        {
+          "@type": "MedicalCondition",
+          "name": "Hernie discale cervicale",
+          "sameAs": "https://www.physioactif.com/guide-complet/hernie-discale-cervicale"
+        },
+        {
+          "@type": "DefinedTerm",
+          "name": "Neuroplasticité",
+          "description": "Capacité du système nerveux à se réorganiser et s'adapter avec le temps"
+        }
+      ]
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://www.physioactif.com/guide-complet/douleur-neurale#webpage",
+      "datePublished": "2026-01-21",
+      "url": "https://www.physioactif.com/guide-complet/douleur-neurale",
+      "name": "Douleur neuropathique - Guide Complet | Physioactif",
+      "description": "Guide complet sur la douleur neuropathique: causes, symptômes caractéristiques, diagnostic et traitement multimodal incluant la physiothérapie.",
+      "mainEntity": {
+        "@id": "https://www.physioactif.com/guide-complet/douleur-neurale#condition"
+      },
+      "about": {
+        "@id": "https://www.physioactif.com/guide-complet/douleur-neurale#condition"
+      },
+      "breadcrumb": {
+        "@type": "BreadcrumbList",
+        "@id": "https://www.physioactif.com/guide-complet/douleur-neurale#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Accueil",
+            "item": "https://www.physioactif.com/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Guide Complet",
+            "item": "https://www.physioactif.com/guide-complet"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Douleur neuropathique",
+            "item": "https://www.physioactif.com/guide-complet/douleur-neurale"
+          }
+        ]
+      },
+      "isPartOf": {
+        "@id": "https://www.physioactif.com/#website"
+      },
+      "inLanguage": [
+        "fr-CA"
+      ],
+      "potentialAction": {
+        "@type": "ReadAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://www.physioactif.com/guide-complet/douleur-neurale",
+          "actionPlatform": [
+            "http://schema.org/DesktopWebPlatform",
+            "http://schema.org/MobileWebPlatform"
+          ]
+        }
+      },
+      "relatedLink": [
+        "https://physioactif.clinicmaster.com/clinic-selection?lang=fr-CA"
+      ],
+      "publisher": {
+        "@id": "https://www.physioactif.com/#org"
+      }
+    }
+  ]
+}

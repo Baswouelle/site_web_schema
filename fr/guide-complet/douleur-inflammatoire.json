@@ -1,0 +1,230 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "MedicalCondition",
+      "@id": "https://www.physioactif.com/guide-complet/douleur-inflammatoire#condition",
+      "name": "Douleur inflammatoire",
+      "alternateName": [
+        "Inflammatory pain",
+        "douleur liée à l'inflammation",
+        "inflammation-related pain",
+        "nociceptive inflammatory pain"
+      ],
+      "description": "Douleur associée à un processus inflammatoire dans les tissus, caractérisée par une sensibilisation du système nerveux aux stimuli plutôt qu'une génération directe de signaux de douleur.",
+      "sameAs": [
+        "https://en.wikipedia.org/wiki/Inflammatory_pain",
+        "https://www.wikidata.org/wiki/Q55851268",
+        "https://meshb.nlm.nih.gov/record/ui?ui=D007249"
+      ],
+      "code": [
+        {
+          "@type": "MedicalCode",
+          "code": "R52",
+          "codingSystem": "ICD-10"
+        }
+      ],
+      "signOrSymptom": [
+        {
+          "@type": "MedicalSymptom",
+          "name": "Rougeur (rubor)"
+        },
+        {
+          "@type": "MedicalSymptom",
+          "name": "Chaleur (calor)"
+        },
+        {
+          "@type": "MedicalSymptom",
+          "name": "Gonflement (tumor)"
+        },
+        {
+          "@type": "MedicalSymptom",
+          "name": "Douleur (dolor)"
+        },
+        {
+          "@type": "MedicalSymptom",
+          "name": "Perte de fonction (functio laesa)"
+        },
+        {
+          "@type": "MedicalSymptom",
+          "name": "Hypersensibilité au toucher"
+        }
+      ],
+      "possibleTreatment": [
+        {
+          "@type": "PhysicalTherapy",
+          "name": "Physiothérapie",
+          "description": "Exercices adaptés, thérapie manuelle et modalités physiques pour moduler l'inflammation locale et favoriser la récupération.",
+          "proprietaryName": "Physioactif"
+        }
+      ],
+      "riskFactor": [
+        {
+          "@type": "MedicalRiskFactor",
+          "name": "Blessure traumatique"
+        },
+        {
+          "@type": "MedicalRiskFactor",
+          "name": "Maladies auto-immunes"
+        },
+        {
+          "@type": "MedicalRiskFactor",
+          "name": "Arthrose"
+        },
+        {
+          "@type": "MedicalRiskFactor",
+          "name": "Tendinopathies"
+        }
+      ]
+    },
+    {
+      "@type": "MedicalWebPage",
+      "@id": "https://www.physioactif.com/guide-complet/douleur-inflammatoire#article",
+      "author": {
+        "@type": "Person",
+        "@id": "https://www.physioactif.com/equipe/ariel-desjardins-charbonneau/#person"
+      },
+      "datePublished": "2026-01-21",
+      "name": "Douleur inflammatoire - Guide Complet",
+      "headline": "Douleur inflammatoire : Le rôle de l'inflammation dans la douleur",
+      "about": [
+        {
+          "@id": "https://www.physioactif.com/guide-complet/douleur-inflammatoire#condition"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Physiothérapie",
+          "alternateName": [
+            "Physical therapy",
+            "Kinésithérapie"
+          ],
+          "sameAs": [
+            "https://www.wikidata.org/wiki/Q186005",
+            "https://en.wikipedia.org/wiki/Physical_therapy",
+            "https://fr.wikipedia.org/wiki/Kinésithérapie"
+          ]
+        }
+      ],
+      "mainEntity": {
+        "@id": "https://www.physioactif.com/guide-complet/douleur-inflammatoire#condition"
+      },
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [
+          ".header_heading",
+          ".header_content .text-style-muted.w-richtext",
+          ".section_article .text-rich-text h2"
+        ]
+      },
+      "specialty": [
+        "Physiotherapy",
+        "Musculoskeletal",
+        "Pain Medicine"
+      ],
+      "medicalAudience": [
+        {
+          "@type": "Patient"
+        },
+        {
+          "@type": "MedicalAudience",
+          "audienceType": "General Public"
+        }
+      ],
+      "reviewedBy": {
+        "@id": "https://www.physioactif.com/#org"
+      },
+      "provider": {
+        "@id": "https://www.physioactif.com/#org"
+      },
+      "inLanguage": [
+        "fr-CA"
+      ],
+      "isPartOf": {
+        "@id": "https://www.physioactif.com/#website"
+      },
+      "mentions": [
+        {
+          "@type": "DefinedTerm",
+          "name": "Inflammation aiguë",
+          "description": "Réponse protectrice temporaire du corps à une blessure, durant quelques jours à quelques semaines"
+        },
+        {
+          "@type": "DefinedTerm",
+          "name": "Inflammation chronique",
+          "description": "Inflammation persistante de bas grade qui peut contribuer à la douleur chronique"
+        },
+        {
+          "@type": "MedicalCondition",
+          "name": "Arthrose",
+          "sameAs": "https://www.physioactif.com/guide-complet/arthrose-lombaire"
+        },
+        {
+          "@type": "MedicalCondition",
+          "name": "Douleur chronique",
+          "sameAs": "https://www.physioactif.com/guide-complet/comprendre-la-douleur-chronique"
+        }
+      ]
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://www.physioactif.com/guide-complet/douleur-inflammatoire#webpage",
+      "datePublished": "2026-01-21",
+      "url": "https://www.physioactif.com/guide-complet/douleur-inflammatoire",
+      "name": "Douleur inflammatoire - Guide Complet | Physioactif",
+      "description": "Guide complet sur la douleur inflammatoire: mécanismes, inflammation aiguë vs chronique, et stratégies de gestion incluant la physiothérapie.",
+      "mainEntity": {
+        "@id": "https://www.physioactif.com/guide-complet/douleur-inflammatoire#condition"
+      },
+      "about": {
+        "@id": "https://www.physioactif.com/guide-complet/douleur-inflammatoire#condition"
+      },
+      "breadcrumb": {
+        "@type": "BreadcrumbList",
+        "@id": "https://www.physioactif.com/guide-complet/douleur-inflammatoire#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Accueil",
+            "item": "https://www.physioactif.com/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Guide Complet",
+            "item": "https://www.physioactif.com/guide-complet"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Douleur inflammatoire",
+            "item": "https://www.physioactif.com/guide-complet/douleur-inflammatoire"
+          }
+        ]
+      },
+      "isPartOf": {
+        "@id": "https://www.physioactif.com/#website"
+      },
+      "inLanguage": [
+        "fr-CA"
+      ],
+      "potentialAction": {
+        "@type": "ReadAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://www.physioactif.com/guide-complet/douleur-inflammatoire",
+          "actionPlatform": [
+            "http://schema.org/DesktopWebPlatform",
+            "http://schema.org/MobileWebPlatform"
+          ]
+        }
+      },
+      "relatedLink": [
+        "https://physioactif.clinicmaster.com/clinic-selection?lang=fr-CA"
+      ],
+      "publisher": {
+        "@id": "https://www.physioactif.com/#org"
+      }
+    }
+  ]
+}

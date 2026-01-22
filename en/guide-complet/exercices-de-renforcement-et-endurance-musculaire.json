@@ -1,0 +1,220 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "MedicalTherapy",
+      "@id": "https://www.physioactif.com/en/guide-complet/exercices-de-renforcement-et-endurance-musculaire#therapy",
+      "name": "Therapeutic Exercises",
+      "alternateName": [
+        "Exercices thérapeutiques",
+        "strengthening exercises",
+        "rehabilitation exercises",
+        "exercise therapy",
+        "corrective exercises"
+      ],
+      "description": "Movements prescribed by a physiotherapist to correct physical impairments, restore function and reduce pain, targeting specific problems identified during a clinical evaluation.",
+      "sameAs": [
+        "https://en.wikipedia.org/wiki/Therapeutic_exercise",
+        "https://www.wikidata.org/wiki/Q7783110",
+        "https://meshb.nlm.nih.gov/record/ui?ui=D005081"
+      ],
+      "medicineSystem": {
+        "@type": "MedicineSystem",
+        "name": "Evidence-based Medicine"
+      },
+      "relevantCondition": [
+        {
+          "@type": "MedicalCondition",
+          "name": "Chronic low back pain"
+        },
+        {
+          "@type": "MedicalCondition",
+          "name": "Knee osteoarthritis"
+        },
+        {
+          "@type": "MedicalCondition",
+          "name": "Shoulder pain"
+        },
+        {
+          "@type": "MedicalCondition",
+          "name": "Post-surgical recovery"
+        },
+        {
+          "@type": "MedicalCondition",
+          "name": "Tendinopathies"
+        },
+        {
+          "@type": "MedicalCondition",
+          "name": "Parkinson's disease"
+        },
+        {
+          "@type": "MedicalCondition",
+          "name": "Stroke"
+        }
+      ],
+      "procedure": {
+        "@type": "MedicalProcedure",
+        "name": "Individualized exercise program",
+        "description": "Exercise prescription based on comprehensive functional assessment, with gradual progression according to progressive overload principles"
+      }
+    },
+    {
+      "@type": "MedicalWebPage",
+      "@id": "https://www.physioactif.com/en/guide-complet/exercices-de-renforcement-et-endurance-musculaire#article",
+      "author": {
+        "@type": "Person",
+        "@id": "https://www.physioactif.com/equipe/ariel-desjardins-charbonneau/#person"
+      },
+      "datePublished": "2026-01-21",
+      "name": "Therapeutic Exercises - Complete Guide",
+      "headline": "Therapeutic Exercises: Complete Guide for Rehabilitation",
+      "about": [
+        {
+          "@id": "https://www.physioactif.com/en/guide-complet/exercices-de-renforcement-et-endurance-musculaire#therapy"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Physiotherapy",
+          "alternateName": [
+            "Physical therapy",
+            "Kinésithérapie"
+          ],
+          "sameAs": [
+            "https://www.wikidata.org/wiki/Q186005",
+            "https://en.wikipedia.org/wiki/Physical_therapy"
+          ]
+        }
+      ],
+      "mainEntity": {
+        "@id": "https://www.physioactif.com/en/guide-complet/exercices-de-renforcement-et-endurance-musculaire#therapy"
+      },
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [
+          ".header_heading",
+          ".header_content .text-style-muted.w-richtext",
+          ".section_article .text-rich-text h2"
+        ]
+      },
+      "specialty": [
+        "Physiotherapy",
+        "Sports Medicine",
+        "Rehabilitation Medicine"
+      ],
+      "medicalAudience": [
+        {
+          "@type": "Patient"
+        },
+        {
+          "@type": "MedicalAudience",
+          "audienceType": "General Public"
+        }
+      ],
+      "reviewedBy": {
+        "@id": "https://www.physioactif.com/#org"
+      },
+      "provider": {
+        "@id": "https://www.physioactif.com/#org"
+      },
+      "inLanguage": [
+        "en-CA"
+      ],
+      "isPartOf": {
+        "@id": "https://www.physioactif.com/#website"
+      },
+      "mentions": [
+        {
+          "@type": "DefinedTerm",
+          "name": "Progressive overload",
+          "description": "Principle of stimulating tissues at an intensity slightly higher than their usual tolerance to stimulate adaptation"
+        },
+        {
+          "@type": "DefinedTerm",
+          "name": "Neuroplasticity",
+          "description": "Brain's ability to strengthen neural connections through repetition of correct movements"
+        },
+        {
+          "@type": "DefinedTerm",
+          "name": "Descending inhibitory pathways",
+          "description": "Brain systems that partially block pain signals activated by movement"
+        },
+        {
+          "@type": "MedicalCondition",
+          "name": "Back pain",
+          "sameAs": "https://www.physioactif.com/guide-complet/douleur-dos-guide-complet"
+        },
+        {
+          "@type": "MedicalCondition",
+          "name": "Knee pain",
+          "sameAs": "https://www.physioactif.com/guide-complet/douleur-genou-guide-complet"
+        },
+        {
+          "@type": "MedicalCondition",
+          "name": "Shoulder pain",
+          "sameAs": "https://www.physioactif.com/guide-complet/douleur-epaule-guide-complet"
+        }
+      ]
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://www.physioactif.com/en/guide-complet/exercices-de-renforcement-et-endurance-musculaire#webpage",
+      "datePublished": "2026-01-21",
+      "url": "https://www.physioactif.com/en/guide-complet/exercices-de-renforcement-et-endurance-musculaire",
+      "name": "Therapeutic Exercises - Complete Guide | Physioactif",
+      "description": "Complete guide on therapeutic exercises: tissue adaptation principles, conditions treated, session process and FAQ for rehabilitation.",
+      "mainEntity": {
+        "@id": "https://www.physioactif.com/en/guide-complet/exercices-de-renforcement-et-endurance-musculaire#therapy"
+      },
+      "about": {
+        "@id": "https://www.physioactif.com/en/guide-complet/exercices-de-renforcement-et-endurance-musculaire#therapy"
+      },
+      "breadcrumb": {
+        "@type": "BreadcrumbList",
+        "@id": "https://www.physioactif.com/en/guide-complet/exercices-de-renforcement-et-endurance-musculaire#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://www.physioactif.com/en/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Complete Guide",
+            "item": "https://www.physioactif.com/en/guide-complet"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Therapeutic Exercises",
+            "item": "https://www.physioactif.com/en/guide-complet/exercices-de-renforcement-et-endurance-musculaire"
+          }
+        ]
+      },
+      "isPartOf": {
+        "@id": "https://www.physioactif.com/#website"
+      },
+      "inLanguage": [
+        "en-CA"
+      ],
+      "potentialAction": {
+        "@type": "ReadAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://www.physioactif.com/en/guide-complet/exercices-de-renforcement-et-endurance-musculaire",
+          "actionPlatform": [
+            "http://schema.org/DesktopWebPlatform",
+            "http://schema.org/MobileWebPlatform"
+          ]
+        }
+      },
+      "relatedLink": [
+        "https://physioactif.clinicmaster.com/clinic-selection?lang=en-CA"
+      ],
+      "publisher": {
+        "@id": "https://www.physioactif.com/#org"
+      }
+    }
+  ]
+}

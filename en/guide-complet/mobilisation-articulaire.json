@@ -1,0 +1,228 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "MedicalTherapy",
+      "@id": "https://www.physioactif.com/en/guide-complet/mobilisation-articulaire#therapy",
+      "name": "Joint Mobilization",
+      "alternateName": [
+        "Mobilisation articulaire",
+        "Maitland mobilization",
+        "passive joint mobilization",
+        "manual joint mobilization"
+      ],
+      "description": "Manual therapy technique using passive movements applied to joints to improve flexibility, restore normal joint gliding and reduce pain.",
+      "sameAs": [
+        "https://en.wikipedia.org/wiki/Joint_mobilization",
+        "https://www.wikidata.org/wiki/Q1427967",
+        "https://meshb.nlm.nih.gov/record/ui?ui=D026201"
+      ],
+      "medicineSystem": {
+        "@type": "MedicineSystem",
+        "name": "Evidence-based Medicine"
+      },
+      "procedure": {
+        "@type": "MedicalProcedure",
+        "name": "Maitland Grading System",
+        "description": "Five-grade classification system guiding mobilization application according to therapeutic objective"
+      },
+      "relevantCondition": [
+        {
+          "@type": "MedicalCondition",
+          "name": "Adhesive capsulitis (frozen shoulder)"
+        },
+        {
+          "@type": "MedicalCondition",
+          "name": "Post-surgical stiffness"
+        },
+        {
+          "@type": "MedicalCondition",
+          "name": "Knee osteoarthritis"
+        },
+        {
+          "@type": "MedicalCondition",
+          "name": "Chronic low back pain"
+        }
+      ],
+      "contraindication": [
+        {
+          "@type": "MedicalContraindication",
+          "name": "Recent unconsolidated fractures"
+        },
+        {
+          "@type": "MedicalContraindication",
+          "name": "Active joint infections"
+        },
+        {
+          "@type": "MedicalContraindication",
+          "name": "Bone tumors"
+        },
+        {
+          "@type": "MedicalContraindication",
+          "name": "Severe ligamentous instabilities"
+        }
+      ]
+    },
+    {
+      "@type": "MedicalWebPage",
+      "@id": "https://www.physioactif.com/en/guide-complet/mobilisation-articulaire#article",
+      "author": {
+        "@type": "Person",
+        "@id": "https://www.physioactif.com/equipe/ariel-desjardins-charbonneau/#person"
+      },
+      "datePublished": "2026-01-21",
+      "name": "Joint Mobilization - Complete Guide",
+      "headline": "Joint Mobilization: Techniques and Applications in Physiotherapy",
+      "about": [
+        {
+          "@id": "https://www.physioactif.com/en/guide-complet/mobilisation-articulaire#therapy"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Physiotherapy",
+          "alternateName": [
+            "Physical therapy",
+            "Kinésithérapie"
+          ],
+          "sameAs": [
+            "https://www.wikidata.org/wiki/Q186005",
+            "https://en.wikipedia.org/wiki/Physical_therapy"
+          ]
+        }
+      ],
+      "mainEntity": {
+        "@id": "https://www.physioactif.com/en/guide-complet/mobilisation-articulaire#therapy"
+      },
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [
+          ".header_heading",
+          ".header_content .text-style-muted.w-richtext",
+          ".section_article .text-rich-text h2"
+        ]
+      },
+      "specialty": [
+        "Physiotherapy",
+        "Manual Therapy",
+        "Musculoskeletal"
+      ],
+      "medicalAudience": [
+        {
+          "@type": "Patient"
+        },
+        {
+          "@type": "MedicalAudience",
+          "audienceType": "General Public"
+        }
+      ],
+      "reviewedBy": {
+        "@id": "https://www.physioactif.com/#org"
+      },
+      "provider": {
+        "@id": "https://www.physioactif.com/#org"
+      },
+      "inLanguage": [
+        "en-CA"
+      ],
+      "isPartOf": {
+        "@id": "https://www.physioactif.com/#website"
+      },
+      "mentions": [
+        {
+          "@type": "DefinedTerm",
+          "name": "Maitland System",
+          "description": "Five-grade classification system developed by Geoffrey Maitland to guide joint mobilization application",
+          "sameAs": "https://en.wikipedia.org/wiki/Maitland_concept"
+        },
+        {
+          "@type": "DefinedTerm",
+          "name": "Arthrokinematics",
+          "description": "Accessory gliding and rolling movements that allow normal joint motion"
+        },
+        {
+          "@type": "MedicalCondition",
+          "name": "Shoulder pain",
+          "sameAs": "https://www.physioactif.com/guide-complet/physiotherapie-douleur-epaule"
+        },
+        {
+          "@type": "MedicalCondition",
+          "name": "Knee pain",
+          "sameAs": "https://www.physioactif.com/guide-complet/douleur-genou-guide-complet"
+        }
+      ],
+      "citation": [
+        {
+          "@type": "CreativeWork",
+          "name": "Maitland's Mobilisations - Physiopedia",
+          "url": "https://www.physio-pedia.com/Maitland's_Mobilisations"
+        },
+        {
+          "@type": "CreativeWork",
+          "name": "Effectiveness of Manual Joint Mobilization Techniques - JOSPT",
+          "url": "https://www.jospt.org/doi/10.2519/jospt.2025.12836"
+        }
+      ]
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://www.physioactif.com/en/guide-complet/mobilisation-articulaire#webpage",
+      "datePublished": "2026-01-21",
+      "url": "https://www.physioactif.com/en/guide-complet/mobilisation-articulaire",
+      "name": "Joint Mobilization - Complete Guide | Physioactif",
+      "description": "Complete guide on joint mobilization: Maitland techniques, mechanisms of action, conditions treated and session process in physiotherapy.",
+      "mainEntity": {
+        "@id": "https://www.physioactif.com/en/guide-complet/mobilisation-articulaire#therapy"
+      },
+      "about": {
+        "@id": "https://www.physioactif.com/en/guide-complet/mobilisation-articulaire#therapy"
+      },
+      "breadcrumb": {
+        "@type": "BreadcrumbList",
+        "@id": "https://www.physioactif.com/en/guide-complet/mobilisation-articulaire#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://www.physioactif.com/en/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Complete Guide",
+            "item": "https://www.physioactif.com/en/guide-complet"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Joint Mobilization",
+            "item": "https://www.physioactif.com/en/guide-complet/mobilisation-articulaire"
+          }
+        ]
+      },
+      "isPartOf": {
+        "@id": "https://www.physioactif.com/#website"
+      },
+      "inLanguage": [
+        "en-CA"
+      ],
+      "potentialAction": {
+        "@type": "ReadAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://www.physioactif.com/en/guide-complet/mobilisation-articulaire",
+          "actionPlatform": [
+            "http://schema.org/DesktopWebPlatform",
+            "http://schema.org/MobileWebPlatform"
+          ]
+        }
+      },
+      "relatedLink": [
+        "https://physioactif.clinicmaster.com/clinic-selection?lang=en-CA"
+      ],
+      "publisher": {
+        "@id": "https://www.physioactif.com/#org"
+      }
+    }
+  ]
+}

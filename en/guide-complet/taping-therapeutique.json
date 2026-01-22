@@ -1,0 +1,233 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "MedicalTherapy",
+      "@id": "https://www.physioactif.com/en/guide-complet/taping-therapeutique#therapy",
+      "name": "Therapeutic Taping",
+      "alternateName": [
+        "Kinesio Tape",
+        "K-tape",
+        "taping thérapeutique",
+        "kinesiology taping",
+        "elastic therapeutic tape"
+      ],
+      "description": "Technique using elastic adhesive tapes applied to the skin to support muscles and joints, improve circulation and potentially reduce pain during rehabilitation.",
+      "sameAs": [
+        "https://en.wikipedia.org/wiki/Kinesiology_tape",
+        "https://www.wikidata.org/wiki/Q3195980",
+        "https://meshb.nlm.nih.gov/record/ui?ui=C000711095"
+      ],
+      "medicineSystem": {
+        "@type": "MedicineSystem",
+        "name": "Evidence-based Medicine"
+      },
+      "relevantCondition": [
+        {
+          "@type": "MedicalCondition",
+          "name": "Chronic low back pain"
+        },
+        {
+          "@type": "MedicalCondition",
+          "name": "Patellofemoral syndrome"
+        },
+        {
+          "@type": "MedicalCondition",
+          "name": "Tendinitis"
+        },
+        {
+          "@type": "MedicalCondition",
+          "name": "Joint sprains"
+        },
+        {
+          "@type": "MedicalCondition",
+          "name": "Neck pain"
+        }
+      ],
+      "contraindication": [
+        {
+          "@type": "MedicalContraindication",
+          "name": "Open wounds"
+        },
+        {
+          "@type": "MedicalContraindication",
+          "name": "Skin infections"
+        },
+        {
+          "@type": "MedicalContraindication",
+          "name": "Adhesive allergies"
+        },
+        {
+          "@type": "MedicalContraindication",
+          "name": "Fragile skin"
+        },
+        {
+          "@type": "MedicalContraindication",
+          "name": "Deep vein thrombosis"
+        }
+      ]
+    },
+    {
+      "@type": "MedicalWebPage",
+      "@id": "https://www.physioactif.com/en/guide-complet/taping-therapeutique#article",
+      "author": {
+        "@type": "Person",
+        "@id": "https://www.physioactif.com/equipe/ariel-desjardins-charbonneau/#person"
+      },
+      "datePublished": "2026-01-21",
+      "name": "Therapeutic Taping - Complete Guide",
+      "headline": "Therapeutic Taping: Complete Guide to K-tape in Physiotherapy",
+      "about": [
+        {
+          "@id": "https://www.physioactif.com/en/guide-complet/taping-therapeutique#therapy"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Physiotherapy",
+          "alternateName": [
+            "Physical therapy",
+            "Kinésithérapie"
+          ],
+          "sameAs": [
+            "https://www.wikidata.org/wiki/Q186005",
+            "https://en.wikipedia.org/wiki/Physical_therapy"
+          ]
+        }
+      ],
+      "mainEntity": {
+        "@id": "https://www.physioactif.com/en/guide-complet/taping-therapeutique#therapy"
+      },
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [
+          ".header_heading",
+          ".header_content .text-style-muted.w-richtext",
+          ".section_article .text-rich-text h2"
+        ]
+      },
+      "specialty": [
+        "Physiotherapy",
+        "Sports Medicine",
+        "Musculoskeletal"
+      ],
+      "medicalAudience": [
+        {
+          "@type": "Patient"
+        },
+        {
+          "@type": "MedicalAudience",
+          "audienceType": "General Public"
+        }
+      ],
+      "reviewedBy": {
+        "@id": "https://www.physioactif.com/#org"
+      },
+      "provider": {
+        "@id": "https://www.physioactif.com/#org"
+      },
+      "inLanguage": [
+        "en-CA"
+      ],
+      "isPartOf": {
+        "@id": "https://www.physioactif.com/#website"
+      },
+      "mentions": [
+        {
+          "@type": "Person",
+          "name": "Dr. Kenzo Kase",
+          "description": "Japanese chiropractor who developed Kinesio Tape in the 1970s"
+        },
+        {
+          "@type": "DefinedTerm",
+          "name": "Gate Control Theory",
+          "description": "Theory explaining how tactile signals can modulate pain signal transmission"
+        },
+        {
+          "@type": "DefinedTerm",
+          "name": "Proprioception",
+          "description": "Ability to perceive body position and movement in space"
+        },
+        {
+          "@type": "DefinedTerm",
+          "name": "Placebo effect",
+          "description": "Perceived improvement due to patient expectations rather than direct treatment effect"
+        }
+      ],
+      "citation": [
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Kinesio taping in treatment and prevention of sports injuries: a meta-analysis",
+          "author": "Williams S, Whatman C, Hume PA, Sheerin K",
+          "datePublished": "2012"
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "name": "Current evidence does not support the use of Kinesio Taping in clinical practice",
+          "author": "Parreira Pdo C, Costa Lda C, et al.",
+          "datePublished": "2014"
+        }
+      ]
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://www.physioactif.com/en/guide-complet/taping-therapeutique#webpage",
+      "datePublished": "2026-01-21",
+      "url": "https://www.physioactif.com/en/guide-complet/taping-therapeutique",
+      "name": "Therapeutic Taping - Complete Guide | Physioactif",
+      "description": "Complete guide on therapeutic taping (K-tape): mechanisms of action, conditions treated, scientific evidence on effectiveness and session process.",
+      "mainEntity": {
+        "@id": "https://www.physioactif.com/en/guide-complet/taping-therapeutique#therapy"
+      },
+      "about": {
+        "@id": "https://www.physioactif.com/en/guide-complet/taping-therapeutique#therapy"
+      },
+      "breadcrumb": {
+        "@type": "BreadcrumbList",
+        "@id": "https://www.physioactif.com/en/guide-complet/taping-therapeutique#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://www.physioactif.com/en/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Complete Guide",
+            "item": "https://www.physioactif.com/en/guide-complet"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Therapeutic Taping",
+            "item": "https://www.physioactif.com/en/guide-complet/taping-therapeutique"
+          }
+        ]
+      },
+      "isPartOf": {
+        "@id": "https://www.physioactif.com/#website"
+      },
+      "inLanguage": [
+        "en-CA"
+      ],
+      "potentialAction": {
+        "@type": "ReadAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://www.physioactif.com/en/guide-complet/taping-therapeutique",
+          "actionPlatform": [
+            "http://schema.org/DesktopWebPlatform",
+            "http://schema.org/MobileWebPlatform"
+          ]
+        }
+      },
+      "relatedLink": [
+        "https://physioactif.clinicmaster.com/clinic-selection?lang=en-CA"
+      ],
+      "publisher": {
+        "@id": "https://www.physioactif.com/#org"
+      }
+    }
+  ]
+}
