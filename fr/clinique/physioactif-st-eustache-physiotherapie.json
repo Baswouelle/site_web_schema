@@ -6,7 +6,7 @@
       "@id": "https://www.physioactif.com/clinique/physioactif-st-eustache-physiotherapie/#webpage",
       "datePublished": "2025-09-26",
       "url": "https://www.physioactif.com/clinique/physioactif-st-eustache-physiotherapie",
-      "name": "Physioactif St-Eustache – Physiothérapie",
+      "name": "Physioactif Saint-Eustache – Physiothérapie",
       "about": {
         "@id": "https://www.physioactif.com/clinique/physioactif-st-eustache-physiotherapie/#clinic"
       },
@@ -27,10 +27,10 @@
       "@type": "MedicalClinic",
       "@id": "https://www.physioactif.com/clinique/physioactif-st-eustache-physiotherapie/#clinic",
       "url": "https://www.physioactif.com/clinique/physioactif-st-eustache-physiotherapie",
-      "name": "Physioactif St-Eustache",
+      "name": "Physioactif Saint-Eustache",
       "alternateName": [
-        "Physioactif Saint-Eustache",
-        "Clinique Physioactif St-Eustache"
+        "Physioactif St-Eustache",
+        "Clinique Physioactif Saint-Eustache"
       ],
       "branchOf": {
         "@id": "https://www.physioactif.com/#org"
@@ -368,7 +368,7 @@
         {
           "@type": "ListItem",
           "position": 3,
-          "name": "Physioactif St-Eustache – Physiothérapie",
+          "name": "Physioactif Saint-Eustache – Physiothérapie",
           "item": "https://www.physioactif.com/clinique/physioactif-st-eustache-physiotherapie"
         }
       ]
