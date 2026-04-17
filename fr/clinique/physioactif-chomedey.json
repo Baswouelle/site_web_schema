@@ -6,7 +6,7 @@
       "@id": "https://www.physioactif.com/clinique/physioactif-chomedey/#webpage",
       "datePublished": "2025-09-26",
       "url": "https://www.physioactif.com/clinique/physioactif-chomedey",
-      "name": "Physioactif Chomedey (Laval) – Physiothérapie",
+      "name": "Physioactif Laval – Physiothérapie",
       "about": {
         "@id": "https://www.physioactif.com/clinique/physioactif-chomedey/#clinic"
       },
@@ -27,9 +27,10 @@
       "@type": "MedicalClinic",
       "@id": "https://www.physioactif.com/clinique/physioactif-chomedey/#clinic",
       "url": "https://www.physioactif.com/clinique/physioactif-chomedey",
-      "name": "Physioactif Chomedey (Laval)",
+      "name": "Physioactif Laval",
       "alternateName": [
-        "Physioactif Laval",
+        "Physioactif Chomedey (Laval)",
+        "Physioactif Chomedey",
         "Clinique Physioactif Chomedey"
       ],
       "branchOf": {
@@ -82,32 +83,32 @@
         {
           "@type": "OpeningHoursSpecification",
           "dayOfWeek": "Monday",
-          "opens": "07:00",
+          "opens": "08:00",
           "closes": "20:00"
         },
         {
           "@type": "OpeningHoursSpecification",
           "dayOfWeek": "Tuesday",
-          "opens": "07:00",
-          "closes": "20:00"
+          "opens": "08:00",
+          "closes": "17:00"
         },
         {
           "@type": "OpeningHoursSpecification",
           "dayOfWeek": "Wednesday",
-          "opens": "07:00",
+          "opens": "08:00",
           "closes": "20:00"
         },
         {
           "@type": "OpeningHoursSpecification",
           "dayOfWeek": "Thursday",
-          "opens": "07:00",
+          "opens": "07:30",
           "closes": "20:00"
         },
         {
           "@type": "OpeningHoursSpecification",
           "dayOfWeek": "Friday",
-          "opens": "07:00",
-          "closes": "18:00"
+          "opens": "08:00",
+          "closes": "16:00"
         }
       ],
       "amenityFeature": [
@@ -363,7 +364,7 @@
         {
           "@type": "ListItem",
           "position": 3,
-          "name": "Physioactif Chomedey (Laval) – Physiothérapie",
+          "name": "Physioactif Laval – Physiothérapie",
           "item": "https://www.physioactif.com/clinique/physioactif-chomedey"
         }
       ]

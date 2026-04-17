@@ -83,7 +83,7 @@
               },
               {
                 "@type": "Place",
-                "name": "Physioactif Chomedey",
+                "name": "Physioactif Laval",
                 "address": {
                   "@type": "PostalAddress",
                   "streetAddress": "3224 Avenue Jean-Béraud, Suite 220",
@@ -107,7 +107,7 @@
               },
               {
                 "@type": "Place",
-                "name": "Physioactif Vaudreuil-Dorion",
+                "name": "Physioactif Vaudreuil",
                 "address": {
                   "@type": "PostalAddress",
                   "streetAddress": "21 Bd de la Cité-des-Jeunes, Suite 240",
@@ -190,7 +190,7 @@
               },
               {
                 "@type": "Place",
-                "name": "Physioactif Chomedey",
+                "name": "Physioactif Laval",
                 "address": {
                   "@type": "PostalAddress",
                   "streetAddress": "3224 Avenue Jean-Béraud, Suite 220",
@@ -214,7 +214,7 @@
               },
               {
                 "@type": "Place",
-                "name": "Physioactif Vaudreuil-Dorion",
+                "name": "Physioactif Vaudreuil",
                 "address": {
                   "@type": "PostalAddress",
                   "streetAddress": "21 Bd de la Cité-des-Jeunes, Suite 240",
@@ -295,7 +295,7 @@
               },
               {
                 "@type": "Place",
-                "name": "Physioactif Chomedey",
+                "name": "Physioactif Laval",
                 "address": {
                   "@type": "PostalAddress",
                   "streetAddress": "3224 Avenue Jean-Béraud, Suite 220",
@@ -319,7 +319,7 @@
               },
               {
                 "@type": "Place",
-                "name": "Physioactif Vaudreuil-Dorion",
+                "name": "Physioactif Vaudreuil",
                 "address": {
                   "@type": "PostalAddress",
                   "streetAddress": "21 Bd de la Cité-des-Jeunes, Suite 240",
@@ -394,7 +394,7 @@
               },
               {
                 "@type": "Place",
-                "name": "Physioactif Chomedey",
+                "name": "Physioactif Laval",
                 "address": {
                   "@type": "PostalAddress",
                   "streetAddress": "3224 Avenue Jean-Béraud, Suite 220",
@@ -418,7 +418,7 @@
               },
               {
                 "@type": "Place",
-                "name": "Physioactif Vaudreuil-Dorion",
+                "name": "Physioactif Vaudreuil",
                 "address": {
                   "@type": "PostalAddress",
                   "streetAddress": "21 Bd de la Cité-des-Jeunes, Suite 240",

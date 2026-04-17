@@ -6,7 +6,7 @@
       "@id": "https://www.physioactif.com/en/clinique/physioactif-blainville-sud-et-rosemere/#webpage",
       "datePublished": "2025-09-26",
       "url": "https://www.physioactif.com/en/clinique/physioactif-blainville-sud-et-rosemere",
-      "name": "Physioactif Blainville Sud et Rosemère – Physiothérapie",
+      "name": "Physioactif Blainville – Physiothérapie",
       "about": {
         "@id": "https://www.physioactif.com/en/clinique/physioactif-blainville-sud-et-rosemere/#clinic"
       },
@@ -27,9 +27,9 @@
       "@type": "MedicalClinic",
       "@id": "https://www.physioactif.com/en/clinique/physioactif-blainville-sud-et-rosemere/#clinic",
       "url": "https://www.physioactif.com/en/clinique/physioactif-blainville-sud-et-rosemere",
-      "name": "Physioactif Blainville Sud et Rosemère",
+      "name": "Physioactif Blainville",
       "alternateName": [
-        "Physioactif Blainville",
+        "Physioactif Blainville Sud et Rosemère",
         "Clinique Physioactif Blainville"
       ],
       "branchOf": {
@@ -82,32 +82,32 @@
         {
           "@type": "OpeningHoursSpecification",
           "dayOfWeek": "Monday",
-          "opens": "07:00",
+          "opens": "08:00",
           "closes": "20:00"
         },
         {
           "@type": "OpeningHoursSpecification",
           "dayOfWeek": "Tuesday",
-          "opens": "07:00",
-          "closes": "20:00"
+          "opens": "08:00",
+          "closes": "17:00"
         },
         {
           "@type": "OpeningHoursSpecification",
           "dayOfWeek": "Wednesday",
-          "opens": "07:00",
+          "opens": "08:00",
           "closes": "20:00"
         },
         {
           "@type": "OpeningHoursSpecification",
           "dayOfWeek": "Thursday",
-          "opens": "07:00",
+          "opens": "08:00",
           "closes": "20:00"
         },
         {
           "@type": "OpeningHoursSpecification",
           "dayOfWeek": "Friday",
-          "opens": "07:00",
-          "closes": "18:00"
+          "opens": "08:00",
+          "closes": "16:00"
         }
       ],
       "amenityFeature": [
@@ -352,7 +352,7 @@
         {
           "@type": "ListItem",
           "position": 3,
-          "name": "Physioactif Blainville Sud et Rosemère – Physiothérapie",
+          "name": "Physioactif Blainville – Physiothérapie",
           "item": "https://www.physioactif.com/en/clinique/physioactif-blainville-sud-et-rosemere"
         }
       ]

@@ -6,7 +6,7 @@
       "@id": "https://www.physioactif.com/en/clinique/physioactif-ahuntsic-et-villeray/#webpage",
       "datePublished": "2025-09-26",
       "url": "https://www.physioactif.com/en/clinique/physioactif-ahuntsic-et-villeray",
-      "name": "Physioactif Ahuntsic et Villeray – Physiothérapie",
+      "name": "Physioactif Montréal – Physiothérapie",
       "about": {
         "@id": "https://www.physioactif.com/en/clinique/physioactif-ahuntsic-et-villeray/#clinic"
       },
@@ -27,8 +27,9 @@
       "@type": "MedicalClinic",
       "@id": "https://www.physioactif.com/en/clinique/physioactif-ahuntsic-et-villeray/#clinic",
       "url": "https://www.physioactif.com/en/clinique/physioactif-ahuntsic-et-villeray",
-      "name": "Physioactif Ahuntsic et Villeray",
+      "name": "Physioactif Montréal",
       "alternateName": [
+        "Physioactif Ahuntsic et Villeray",
         "Physioactif Ahuntsic",
         "Clinique Physioactif Ahuntsic"
       ],
@@ -84,32 +85,32 @@
         {
           "@type": "OpeningHoursSpecification",
           "dayOfWeek": "Monday",
-          "opens": "07:00",
+          "opens": "08:00",
           "closes": "20:00"
         },
         {
           "@type": "OpeningHoursSpecification",
           "dayOfWeek": "Tuesday",
-          "opens": "07:00",
-          "closes": "20:00"
+          "opens": "08:00",
+          "closes": "17:00"
         },
         {
           "@type": "OpeningHoursSpecification",
           "dayOfWeek": "Wednesday",
-          "opens": "07:00",
+          "opens": "08:00",
           "closes": "20:00"
         },
         {
           "@type": "OpeningHoursSpecification",
           "dayOfWeek": "Thursday",
-          "opens": "07:00",
+          "opens": "08:00",
           "closes": "20:00"
         },
         {
           "@type": "OpeningHoursSpecification",
           "dayOfWeek": "Friday",
-          "opens": "07:00",
-          "closes": "18:00"
+          "opens": "08:00",
+          "closes": "16:00"
         }
       ],
       "amenityFeature": [
@@ -372,7 +373,7 @@
         {
           "@type": "ListItem",
           "position": 3,
-          "name": "Physioactif Ahuntsic et Villeray – Physiothérapie",
+          "name": "Physioactif Montréal – Physiothérapie",
           "item": "https://www.physioactif.com/en/clinique/physioactif-ahuntsic-et-villeray"
         }
       ]
