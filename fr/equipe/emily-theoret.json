@@ -2,16 +2,16 @@
   "@context": "https://schema.org",
   "@graph": [
     {
-      "@id": "https://www.physioactif.com/equipe/ashley-ramirez/#person",
+      "@id": "https://www.physioactif.com/equipe/emily-theoret/#person",
       "@type": "Person",
-      "name": "Ashley Ramirez",
-      "url": "https://www.physioactif.com/equipe/ashley-ramirez/",
-      "jobTitle": "Coordonnatrice",
-      "description": "Ashley Ramirez is a coordinator at Physioactif's Saint-Eustache clinic, managing patient scheduling and administrative operations.",
+      "name": "Emily Théoret",
+      "url": "https://www.physioactif.com/equipe/emily-theoret/",
+      "jobTitle": "Coordonnatrice clinique",
+      "description": "Emily Théoret is the clinical coordinator at Physioactif's Vaudreuil-Dorion clinic, managing patient scheduling and administrative operations.",
       "image": {
         "@type": "ImageObject",
-        "contentUrl": "https://www.physioactif.com/wp-content/uploads/placeholder-ashley-ramirez.jpg",
-        "name": "Ashley Ramirez"
+        "contentUrl": "https://cdn.prod.website-files.com/6710038d098190f16121f569/69344261bfc2c9e2bdc12836_Emily_The%CC%81oret_Coordonatrice_2.jpg",
+        "name": "Emily Théoret"
       },
       "worksFor": {
         "@id": "https://www.physioactif.com/#org"
@@ -19,7 +19,7 @@
       "isPartOf": "https://www.physioactif.com/#website",
       "workLocation": {
         "@type": "MedicalClinic",
-        "@id": "https://www.physioactif.com/clinique/physioactif-st-eustache-physiotherapie/#clinic"
+        "@id": "https://www.physioactif.com/clinique/physioactif-vaudreuil-dorion/#clinic"
       },
       "knowsLanguage": [
         {
@@ -34,7 +34,7 @@
       "about": [
         {
           "@type": "Person",
-          "@id": "https://www.physioactif.com/equipe/ashley-ramirez/#person"
+          "@id": "https://www.physioactif.com/equipe/emily-theoret/#person"
         },
         {
           "@type": "MedicalTherapy",
@@ -61,7 +61,7 @@
     },
     {
       "@type": "BreadcrumbList",
-      "@id": "https://www.physioactif.com/equipe/ashley-ramirez/#breadcrumb",
+      "@id": "https://www.physioactif.com/equipe/emily-theoret/#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -78,8 +78,8 @@
         {
           "@type": "ListItem",
           "position": 3,
-          "name": "Ashley Ramirez",
-          "item": "https://www.physioactif.com/equipe/ashley-ramirez"
+          "name": "Emily Théoret",
+          "item": "https://www.physioactif.com/equipe/emily-theoret"
         }
       ]
     }

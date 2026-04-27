@@ -1,0 +1,148 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@id": "https://www.physioactif.com/en/equipe/karine-legare/#person",
+      "@type": "Person",
+      "name": "Karine Légaré",
+      "url": "https://www.physioactif.com/en/equipe/karine-legare/",
+      "description": "Karine Légaré is a physiotherapist at Physioactif Saint-Eustache specializing in musculoskeletal conditions of the lumbar and thoracic spine, with a patient-centered, relationship-driven approach.",
+      "jobTitle": "Physiothérapeute",
+      "image": {
+        "@type": "ImageObject",
+        "contentUrl": "https://cdn.prod.website-files.com/6710038d098190f16121f569/69260aaa002e11654a34c7f8_Portraits%20Physioactif_WEB-35.jpg",
+        "name": "Karine Légaré",
+        "description": "Professional portrait of Karine Légaré, physiotherapist"
+      },
+      "alumniOf": {
+        "@type": "CollegeOrUniversity",
+        "name": "Université de Montréal",
+        "sameAs": "https://www.umontreal.ca/"
+      },
+      "hasCredential": [
+        {
+          "@type": "EducationalOccupationalCredential",
+          "name": "Licensed Physiotherapist",
+          "credentialCategory": "Professional License",
+          "identifier": "P25517",
+          "url": "https://oppq.qc.ca/professionnels/58402/legare/karine/",
+          "dateCreated": "2025",
+          "recognizedBy": {
+            "@type": "Organization",
+            "name": "Ordre professionnel de la physiothérapie du Québec (OPPQ)",
+            "sameAs": "https://oppq.qc.ca/"
+          }
+        }
+      ],
+      "memberOf": [
+        {
+          "@type": "Organization",
+          "name": "Ordre professionnel de la physiothérapie du Québec (OPPQ)",
+          "sameAs": "https://oppq.qc.ca/"
+        },
+        {
+          "@type": "Organization",
+          "name": "Canadian Physiotherapy Association (ACP)",
+          "sameAs": "https://physiotherapy.ca/"
+        }
+      ],
+      "hasOccupation": {
+        "@type": "Occupation",
+        "name": "Physiotherapist",
+        "occupationLocation": {
+          "@type": "AdministrativeArea",
+          "name": "Saint-Eustache",
+          "sameAs": "https://en.wikipedia.org/wiki/Saint-Eustache,_Quebec"
+        },
+        "occupationalCategory": "3142",
+        "educationRequirements": "Master's degree in Physiotherapy",
+        "experienceRequirements": "Licensed by OPPQ since 2025",
+        "qualifications": "Licensed physiotherapist in Quebec (OPPQ #P25517)",
+        "skills": [
+          "Musculoskeletal Injuries",
+          "Lumbar Spine",
+          "Thoracic Spine",
+          "Manual Therapy"
+        ]
+      },
+      "knowsAbout": [
+        "Physiotherapy",
+        "Musculoskeletal Injuries",
+        "Lumbar Spine",
+        "Thoracic Spine"
+      ],
+      "knowsLanguage": [
+        {
+          "@type": "Language",
+          "name": "French"
+        },
+        {
+          "@type": "Language",
+          "name": "English"
+        }
+      ],
+      "worksFor": {
+        "@id": "https://www.physioactif.com/en/#org"
+      },
+      "isPartOf": "https://www.physioactif.com/en/#website",
+      "workLocation": {
+        "@type": "MedicalClinic",
+        "@id": "https://www.physioactif.com/en/clinique/physioactif-st-eustache-physiotherapie/#clinic"
+      },
+      "sameAs": [
+        "https://oppq.qc.ca/professionnels/58402/legare/karine/"
+      ],
+      "additionalType": [
+        "https://schema.org/Physician"
+      ],
+      "about": [
+        {
+          "@type": "Person",
+          "@id": "https://www.physioactif.com/en/equipe/karine-legare/#person"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Physiothérapie",
+          "alternateName": [
+            "Physical therapy",
+            "Kinésithérapie",
+            "Fisioterapia"
+          ],
+          "sameAs": [
+            "https://www.physioactif.com/en/guide-complet/physiotherapie",
+            "https://www.wikidata.org/wiki/Q186005",
+            "https://en.wikipedia.org/wiki/Physical_therapy",
+            "https://fr.wikipedia.org/wiki/Kinésithérapie",
+            "https://meshb.nlm.nih.gov/record/ui?ui=D026761",
+            "https://www.merriam-webster.com/dictionary/physiotherapy",
+            "https://www.britannica.com/topic/physical-therapy"
+          ]
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.physioactif.com/en/equipe/karine-legare/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Accueil",
+          "item": "https://www.physioactif.com/en/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Équipe",
+          "item": "https://www.physioactif.com/en/equipe/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Karine Légaré",
+          "item": "https://www.physioactif.com/en/equipe/karine-legare"
+        }
+      ]
+    }
+  ]
+}

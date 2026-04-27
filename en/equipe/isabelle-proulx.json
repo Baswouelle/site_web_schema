@@ -2,16 +2,16 @@
   "@context": "https://schema.org",
   "@graph": [
     {
-      "@id": "https://www.physioactif.com/en/equipe/annick-de-buhan/#person",
+      "@id": "https://www.physioactif.com/en/equipe/isabelle-proulx/#person",
       "@type": "Person",
-      "name": "Annick de Buhan",
-      "url": "https://www.physioactif.com/en/equipe/annick-de-buhan/",
-      "jobTitle": "Coordonnatrice",
-      "description": "Annick de Buhan is a coordinator at Physioactif's Vaudreuil-Dorion clinic, managing patient scheduling and administrative operations.",
+      "name": "Isabelle Proulx",
+      "url": "https://www.physioactif.com/en/equipe/isabelle-proulx/",
+      "jobTitle": "Coordonnatrice clinique",
+      "description": "Isabelle Proulx is the clinical coordinator at Physioactif's Chomedey (Laval) clinic, managing patient scheduling and administrative operations.",
       "image": {
         "@type": "ImageObject",
-        "contentUrl": "https://www.physioactif.com/en/wp-content/uploads/placeholder-annick-de-buhan.jpg",
-        "name": "Annick de Buhan"
+        "contentUrl": "https://cdn.prod.website-files.com/6710038d098190f16121f569/693442947b4bc35a5fde715e_Isabelle_Proulx_Coordonatrice_2.jpg",
+        "name": "Isabelle Proulx"
       },
       "worksFor": {
         "@id": "https://www.physioactif.com/en/#org"
@@ -19,7 +19,7 @@
       "isPartOf": "https://www.physioactif.com/en/#website",
       "workLocation": {
         "@type": "MedicalClinic",
-        "@id": "https://www.physioactif.com/en/clinique/physioactif-vaudreuil-dorion/#clinic"
+        "@id": "https://www.physioactif.com/en/clinique/physioactif-chomedey/#clinic"
       },
       "knowsLanguage": [
         {
@@ -34,7 +34,7 @@
       "about": [
         {
           "@type": "Person",
-          "@id": "https://www.physioactif.com/en/equipe/annick-de-buhan/#person"
+          "@id": "https://www.physioactif.com/en/equipe/isabelle-proulx/#person"
         },
         {
           "@type": "MedicalTherapy",
@@ -61,7 +61,7 @@
     },
     {
       "@type": "BreadcrumbList",
-      "@id": "https://www.physioactif.com/en/equipe/annick-de-buhan/#breadcrumb",
+      "@id": "https://www.physioactif.com/en/equipe/isabelle-proulx/#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -78,8 +78,8 @@
         {
           "@type": "ListItem",
           "position": 3,
-          "name": "Annick de Buhan",
-          "item": "https://www.physioactif.com/en/equipe/annick-de-buhan"
+          "name": "Isabelle Proulx",
+          "item": "https://www.physioactif.com/en/equipe/isabelle-proulx"
         }
       ]
     }

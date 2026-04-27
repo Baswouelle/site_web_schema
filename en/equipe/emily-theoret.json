@@ -2,24 +2,24 @@
   "@context": "https://schema.org",
   "@graph": [
     {
-      "@id": "https://www.physioactif.com/equipe/annick-de-buhan/#person",
+      "@id": "https://www.physioactif.com/en/equipe/emily-theoret/#person",
       "@type": "Person",
-      "name": "Annick de Buhan",
-      "url": "https://www.physioactif.com/equipe/annick-de-buhan/",
-      "jobTitle": "Coordonnatrice",
-      "description": "Annick de Buhan is a coordinator at Physioactif's Vaudreuil-Dorion clinic, managing patient scheduling and administrative operations.",
+      "name": "Emily Théoret",
+      "url": "https://www.physioactif.com/en/equipe/emily-theoret/",
+      "jobTitle": "Coordonnatrice clinique",
+      "description": "Emily Théoret is the clinical coordinator at Physioactif's Vaudreuil-Dorion clinic, managing patient scheduling and administrative operations.",
       "image": {
         "@type": "ImageObject",
-        "contentUrl": "https://www.physioactif.com/wp-content/uploads/placeholder-annick-de-buhan.jpg",
-        "name": "Annick de Buhan"
+        "contentUrl": "https://cdn.prod.website-files.com/6710038d098190f16121f569/69344261bfc2c9e2bdc12836_Emily_The%CC%81oret_Coordonatrice_2.jpg",
+        "name": "Emily Théoret"
       },
       "worksFor": {
-        "@id": "https://www.physioactif.com/#org"
+        "@id": "https://www.physioactif.com/en/#org"
       },
-      "isPartOf": "https://www.physioactif.com/#website",
+      "isPartOf": "https://www.physioactif.com/en/#website",
       "workLocation": {
         "@type": "MedicalClinic",
-        "@id": "https://www.physioactif.com/clinique/physioactif-vaudreuil-dorion/#clinic"
+        "@id": "https://www.physioactif.com/en/clinique/physioactif-vaudreuil-dorion/#clinic"
       },
       "knowsLanguage": [
         {
@@ -34,7 +34,7 @@
       "about": [
         {
           "@type": "Person",
-          "@id": "https://www.physioactif.com/equipe/annick-de-buhan/#person"
+          "@id": "https://www.physioactif.com/en/equipe/emily-theoret/#person"
         },
         {
           "@type": "MedicalTherapy",
@@ -45,7 +45,7 @@
             "Fisioterapia"
           ],
           "sameAs": [
-            "https://www.physioactif.com/guide-complet/physiotherapie",
+            "https://www.physioactif.com/en/guide-complet/physiotherapie",
             "https://www.wikidata.org/wiki/Q186005",
             "https://en.wikipedia.org/wiki/Physical_therapy",
             "https://fr.wikipedia.org/wiki/Kinésithérapie",
@@ -61,25 +61,25 @@
     },
     {
       "@type": "BreadcrumbList",
-      "@id": "https://www.physioactif.com/equipe/annick-de-buhan/#breadcrumb",
+      "@id": "https://www.physioactif.com/en/equipe/emily-theoret/#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
           "position": 1,
           "name": "Accueil",
-          "item": "https://www.physioactif.com/"
+          "item": "https://www.physioactif.com/en/"
         },
         {
           "@type": "ListItem",
           "position": 2,
           "name": "Équipe",
-          "item": "https://www.physioactif.com/equipe/"
+          "item": "https://www.physioactif.com/en/equipe/"
         },
         {
           "@type": "ListItem",
           "position": 3,
-          "name": "Annick de Buhan",
-          "item": "https://www.physioactif.com/equipe/annick-de-buhan"
+          "name": "Emily Théoret",
+          "item": "https://www.physioactif.com/en/equipe/emily-theoret"
         }
       ]
     }

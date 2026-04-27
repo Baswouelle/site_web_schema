@@ -2,24 +2,24 @@
   "@context": "https://schema.org",
   "@graph": [
     {
-      "@id": "https://www.physioactif.com/en/equipe/ashley-ramirez/#person",
+      "@id": "https://www.physioactif.com/equipe/isabelle-proulx/#person",
       "@type": "Person",
-      "name": "Ashley Ramirez",
-      "url": "https://www.physioactif.com/en/equipe/ashley-ramirez/",
-      "jobTitle": "Coordonnatrice",
-      "description": "Ashley Ramirez is a coordinator at Physioactif's Saint-Eustache clinic, managing patient scheduling and administrative operations.",
+      "name": "Isabelle Proulx",
+      "url": "https://www.physioactif.com/equipe/isabelle-proulx/",
+      "jobTitle": "Coordonnatrice clinique",
+      "description": "Isabelle Proulx is the clinical coordinator at Physioactif's Chomedey (Laval) clinic, managing patient scheduling and administrative operations.",
       "image": {
         "@type": "ImageObject",
-        "contentUrl": "https://www.physioactif.com/en/wp-content/uploads/placeholder-ashley-ramirez.jpg",
-        "name": "Ashley Ramirez"
+        "contentUrl": "https://cdn.prod.website-files.com/6710038d098190f16121f569/693442947b4bc35a5fde715e_Isabelle_Proulx_Coordonatrice_2.jpg",
+        "name": "Isabelle Proulx"
       },
       "worksFor": {
-        "@id": "https://www.physioactif.com/en/#org"
+        "@id": "https://www.physioactif.com/#org"
       },
-      "isPartOf": "https://www.physioactif.com/en/#website",
+      "isPartOf": "https://www.physioactif.com/#website",
       "workLocation": {
         "@type": "MedicalClinic",
-        "@id": "https://www.physioactif.com/en/clinique/physioactif-st-eustache-physiotherapie/#clinic"
+        "@id": "https://www.physioactif.com/clinique/physioactif-chomedey/#clinic"
       },
       "knowsLanguage": [
         {
@@ -34,7 +34,7 @@
       "about": [
         {
           "@type": "Person",
-          "@id": "https://www.physioactif.com/en/equipe/ashley-ramirez/#person"
+          "@id": "https://www.physioactif.com/equipe/isabelle-proulx/#person"
         },
         {
           "@type": "MedicalTherapy",
@@ -45,7 +45,7 @@
             "Fisioterapia"
           ],
           "sameAs": [
-            "https://www.physioactif.com/en/guide-complet/physiotherapie",
+            "https://www.physioactif.com/guide-complet/physiotherapie",
             "https://www.wikidata.org/wiki/Q186005",
             "https://en.wikipedia.org/wiki/Physical_therapy",
             "https://fr.wikipedia.org/wiki/Kinésithérapie",
@@ -61,25 +61,25 @@
     },
     {
       "@type": "BreadcrumbList",
-      "@id": "https://www.physioactif.com/en/equipe/ashley-ramirez/#breadcrumb",
+      "@id": "https://www.physioactif.com/equipe/isabelle-proulx/#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
           "position": 1,
           "name": "Accueil",
-          "item": "https://www.physioactif.com/en/"
+          "item": "https://www.physioactif.com/"
         },
         {
           "@type": "ListItem",
           "position": 2,
           "name": "Équipe",
-          "item": "https://www.physioactif.com/en/equipe/"
+          "item": "https://www.physioactif.com/equipe/"
         },
         {
           "@type": "ListItem",
           "position": 3,
-          "name": "Ashley Ramirez",
-          "item": "https://www.physioactif.com/en/equipe/ashley-ramirez"
+          "name": "Isabelle Proulx",
+          "item": "https://www.physioactif.com/equipe/isabelle-proulx"
         }
       ]
     }
