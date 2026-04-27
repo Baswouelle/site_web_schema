@@ -63,14 +63,18 @@
           "Sports Injuries",
           "Climbing Injuries",
           "Running Injuries",
-          "Outdoor Sports"
+          "Outdoor Sports",
+          "Sports First Response",
+          "Neuromeningeal System"
         ]
       },
       "knowsAbout": [
         "Physiotherapy",
         "Musculoskeletal Injuries",
         "Sports Injuries",
-        "Sports Medicine"
+        "Sports Medicine",
+        "Sports First Response",
+        "Neuromeningeal System"
       ],
       "knowsLanguage": [
         {

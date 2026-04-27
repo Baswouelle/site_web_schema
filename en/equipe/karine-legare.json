@@ -62,14 +62,15 @@
           "Musculoskeletal Injuries",
           "Lumbar Spine",
           "Thoracic Spine",
-          "Manual Therapy"
+          "Neuromeningeal System"
         ]
       },
       "knowsAbout": [
         "Physiotherapy",
         "Musculoskeletal Injuries",
         "Lumbar Spine",
-        "Thoracic Spine"
+        "Thoracic Spine",
+        "Neuromeningeal System"
       ],
       "knowsLanguage": [
         {
