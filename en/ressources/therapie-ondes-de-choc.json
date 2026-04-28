@@ -9,8 +9,8 @@
         "@id": "https://www.physioactif.com/en/equipe/gino-dilorenzo/#person"
       },
       "datePublished": "2026-01-19",
-      "name": "Thérapie par ondes de choc : traitement des douleurs musculosquelettiques",
-      "headline": "Comment les ondes de choc traitent vos douleurs chroniques",
+      "name": "Shockwave therapy: what the science says",
+      "headline": "Mechanisms, conditions studied, and our approach to tendinopathies at Physioactif",
       "about": [
         {
           "@type": "MedicalTherapy",
@@ -90,8 +90,8 @@
       "@id": "https://www.physioactif.com/en/ressources/therapie-ondes-de-choc#webpage",
       "datePublished": "2026-01-19",
       "url": "https://www.physioactif.com/en/ressources/therapie-ondes-de-choc",
-      "name": "Thérapie par ondes de choc : traitement des douleurs musculosquelettiques | Physioactif",
-      "description": "La thérapie par ondes de choc utilise des ondes acoustiques pour traiter les douleurs chroniques et favoriser la guérison. Découvrez comment cette technique peut vous aider.",
+      "name": "Shockwave therapy: what the science says | Physioactif",
+      "description": "Shockwave therapy is a modality studied for chronic tendinopathies. Here are its mechanisms, its limits, and Physioactif's central approach: differential diagnosis and progressive loading.",
       "about": {
         "@type": "MedicalTherapy",
         "name": "Physiotherapy",
@@ -124,7 +124,7 @@
           {
             "@type": "ListItem",
             "position": 3,
-            "name": "Thérapie par ondes de choc : traitement des douleurs musculosquelettiques",
+            "name": "Shockwave therapy: what the science says",
             "item": "https://www.physioactif.com/en/ressources/therapie-ondes-de-choc"
           }
         ]

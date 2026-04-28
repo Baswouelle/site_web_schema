@@ -9,8 +9,8 @@
         "@id": "https://www.physioactif.com/en/equipe/gino-dilorenzo/#person"
       },
       "datePublished": "2026-01-19",
-      "name": "Thérapie manuelle en physiothérapie : techniques et bienfaits",
-      "headline": "Découvrez comment la thérapie manuelle en physiothérapie soulage vos douleurs",
+      "name": "Manual therapy in physiotherapy: techniques, current science and FCAMPT training",
+      "headline": "Neurophysiological mechanisms, recent meta-analyses, FCAMPT certification and soft tissue mobilisation",
       "about": [
         {
           "@type": "MedicalTherapy",
@@ -82,6 +82,27 @@
             "https://www.merriam-webster.com/dictionary/physiotherapy",
             "https://www.britannica.com/topic/physical-therapy"
           ]
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Myofascial release",
+          "sameAs": "https://www.physioactif.com/en/ressources/relachement-myofascial"
+        },
+        {
+          "@type": "MedicalTherapy",
+          "name": "Manual therapy (overview)",
+          "sameAs": "https://www.physioactif.com/en/ressources/therapie-manuelle"
+        },
+        {
+          "@type": "EducationalOccupationalCredential",
+          "name": "FCAMPT",
+          "alternateName": "Fellowship of the Canadian Academy of Manipulative Physiotherapy",
+          "credentialCategory": "Postgraduate certification",
+          "competencyRequired": "Advanced manual therapy and clinical reasoning",
+          "recognizedBy": {
+            "@type": "Organization",
+            "name": "Canadian Academy of Manipulative Physiotherapy"
+          }
         }
       ]
     },
@@ -90,8 +111,8 @@
       "@id": "https://www.physioactif.com/en/ressources/therapie-manuelle-physiotherapie#webpage",
       "datePublished": "2026-01-19",
       "url": "https://www.physioactif.com/en/ressources/therapie-manuelle-physiotherapie",
-      "name": "Thérapie manuelle en physiothérapie : techniques et bienfaits | Physioactif",
-      "description": "La thérapie manuelle en physiothérapie utilise des techniques précises pour soulager la douleur et restaurer la mobilité. Guide complet sur les techniques, les bienfaits et les applications cliniques.",
+      "name": "Manual therapy in physiotherapy: techniques, current science and FCAMPT training | Physioactif",
+      "description": "Manual therapy works primarily through neurophysiological modulation. Here are the documented mechanisms, the state of the meta-analyses (low back pain, neck pain, shoulder), FCAMPT certification and soft tissue mobilisation.",
       "about": {
         "@type": "MedicalTherapy",
         "name": "Physiotherapy",
@@ -124,7 +145,7 @@
           {
             "@type": "ListItem",
             "position": 3,
-            "name": "Thérapie manuelle en physiothérapie : techniques et bienfaits",
+            "name": "Manual therapy in physiotherapy: techniques, current science and FCAMPT training",
             "item": "https://www.physioactif.com/en/ressources/therapie-manuelle-physiotherapie"
           }
         ]

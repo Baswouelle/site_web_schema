@@ -9,8 +9,8 @@
         "@id": "https://www.physioactif.com/en/equipe/gino-dilorenzo/#person"
       },
       "datePublished": "2026-01-19",
-      "name": "Relâchement myofascial : techniques et bienfaits",
-      "headline": "Comment le relâchement myofascial soulage vos tensions musculaires",
+      "name": "Myofascial release: what it is, its limits, and our alternative approach",
+      "headline": "Understanding myofascial release and active soft tissue mobilisation",
       "about": [
         {
           "@type": "MedicalTherapy",
@@ -90,8 +90,8 @@
       "@id": "https://www.physioactif.com/en/ressources/relachement-myofascial#webpage",
       "datePublished": "2026-01-19",
       "url": "https://www.physioactif.com/en/ressources/relachement-myofascial",
-      "name": "Relâchement myofascial : techniques et bienfaits | Physioactif",
-      "description": "Le relâchement myofascial cible les restrictions fasciales pour réduire la douleur et améliorer la mobilité. Guide complet sur les techniques et leurs applications.",
+      "name": "Myofascial release: what it is, its limits, and our alternative approach | Physioactif",
+      "description": "Myofascial release is a manual approach whose effect is primarily neurophysiological and short-term. Here is what the science says, and why we favour active soft tissue mobilisation.",
       "about": {
         "@type": "MedicalTherapy",
         "name": "Physiotherapy",
@@ -124,7 +124,7 @@
           {
             "@type": "ListItem",
             "position": 3,
-            "name": "Relâchement myofascial : techniques et bienfaits",
+            "name": "Myofascial release: what it is, its limits, and our alternative approach",
             "item": "https://www.physioactif.com/en/ressources/relachement-myofascial"
           }
         ]

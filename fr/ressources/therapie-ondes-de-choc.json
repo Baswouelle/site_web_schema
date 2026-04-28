@@ -9,8 +9,8 @@
         "@id": "https://www.physioactif.com/equipe/gino-dilorenzo/#person"
       },
       "datePublished": "2026-01-19",
-      "name": "Thérapie par ondes de choc : traitement des douleurs musculosquelettiques",
-      "headline": "Comment les ondes de choc traitent vos douleurs chroniques",
+      "name": "Thérapie par ondes de choc : ce que la science en dit",
+      "headline": "Mécanismes, conditions étudiées et notre approche des tendinopathies chez Physioactif",
       "about": [
         {
           "@type": "MedicalTherapy",
@@ -90,8 +90,8 @@
       "@id": "https://www.physioactif.com/ressources/therapie-ondes-de-choc#webpage",
       "datePublished": "2026-01-19",
       "url": "https://www.physioactif.com/ressources/therapie-ondes-de-choc",
-      "name": "Thérapie par ondes de choc : traitement des douleurs musculosquelettiques | Physioactif",
-      "description": "La thérapie par ondes de choc utilise des ondes acoustiques pour traiter les douleurs chroniques et favoriser la guérison. Découvrez comment cette technique peut vous aider.",
+      "name": "Thérapie par ondes de choc : ce que la science en dit | Physioactif",
+      "description": "La thérapie par ondes de choc est une modalité étudiée pour les tendinopathies chroniques. Voici ses mécanismes, ses limites, et l'approche centrale de Physioactif : diagnostic différentiel et charge progressive.",
       "about": {
         "@type": "MedicalTherapy",
         "name": "Physiothérapie",
@@ -124,7 +124,7 @@
           {
             "@type": "ListItem",
             "position": 3,
-            "name": "Thérapie par ondes de choc : traitement des douleurs musculosquelettiques",
+            "name": "Thérapie par ondes de choc : ce que la science en dit",
             "item": "https://www.physioactif.com/ressources/therapie-ondes-de-choc"
           }
         ]
