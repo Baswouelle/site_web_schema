@@ -5,7 +5,10 @@
       "@type": "MedicalTherapy",
       "@id": "https://www.physioactif.com/en/complete-guide/physiotherapy-for-shoulder-bursitis#therapy",
       "name": "Physiotherapy for shoulder bursitis",
-      "alternateName": ["Shoulder bursitis physiotherapy treatment", "Physical therapy for subacromial bursitis"],
+      "alternateName": [
+        "Shoulder bursitis physiotherapy treatment",
+        "Physical therapy for subacromial bursitis"
+      ],
       "description": "Physiotherapy for shoulder bursitis combines manual therapy, progressive therapeutic exercises, and patient education to reduce inflammation, relieve pain, and restore shoulder function. Recommended first-line treatment.",
       "relevantSpecialty": {
         "@type": "MedicalSpecialty",
@@ -68,7 +71,7 @@
       "mainEntity": {
         "@id": "https://www.physioactif.com/en/complete-guide/physiotherapy-for-shoulder-bursitis#therapy"
       },
-      "specialty": "Musculoskeletal Physiotherapy",
+      "specialty": "Physiotherapy",
       "citation": [
         {
           "@type": "ScholarlyArticle",

@@ -116,8 +116,7 @@
       },
       "specialty": [
         "Physiotherapy",
-        "Musculoskeletal",
-        "SportsMedicine"
+        "Musculoskeletal"
       ],
       "inLanguage": [
         "fr-CA"
@@ -132,8 +131,7 @@
       "speakable": {
         "@type": "SpeakableSpecification",
         "cssSelector": [
-          ".header_heading",
-          ".header_content .text-style-muted"
+          ".header_heading"
         ]
       }
     },

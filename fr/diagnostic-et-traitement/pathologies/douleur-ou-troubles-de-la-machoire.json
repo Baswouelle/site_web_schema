@@ -52,8 +52,7 @@
   ],
   "specialty": [
     "Physiotherapy",
-    "Musculoskeletal",
-    "Temporomandibular Disorders"
+    "Musculoskeletal"
   ],
   "provider": {
     "@id": "https://www.physioactif.com/#org"

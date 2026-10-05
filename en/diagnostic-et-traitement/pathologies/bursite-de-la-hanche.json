@@ -59,8 +59,7 @@
   ],
   "specialty": [
     "Physiotherapy",
-    "Musculoskeletal",
-    "Sports Medicine"
+    "Musculoskeletal"
   ],
   "provider": {
     "@id": "https://www.physioactif.com/en/#org"

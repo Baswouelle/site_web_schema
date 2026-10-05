@@ -133,8 +133,7 @@
       },
       "specialty": [
         "Physiotherapy",
-        "Musculoskeletal",
-        "SportsMedicine"
+        "Musculoskeletal"
       ],
       "mentions": [
         {
@@ -162,9 +161,7 @@
       "speakable": {
         "@type": "SpeakableSpecification",
         "cssSelector": [
-          ".header_heading",
-          ".header_content .text-style-muted",
-          ".section_article .text-rich-text h2"
+          ".header_heading"
         ]
       }
     },

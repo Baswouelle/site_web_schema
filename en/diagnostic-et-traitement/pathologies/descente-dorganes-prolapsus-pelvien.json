@@ -61,8 +61,7 @@
     }
   ],
   "specialty": [
-    "Physiotherapy",
-    "Pelvic Floor Rehabilitation"
+    "Physiotherapy"
   ],
   "provider": {
     "@id": "https://www.physioactif.com/en/#org"

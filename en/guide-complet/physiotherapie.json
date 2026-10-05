@@ -24,10 +24,9 @@
       "relevantSpecialty": [
         "Physiotherapy",
         "Musculoskeletal",
-        "SportsMedicine",
-        "Neurology",
-        "Cardiology",
-        "Pediatrics"
+        "Neurologic",
+        "Cardiovascular",
+        "Pediatric"
       ],
       "availableService": {
         "@id": "https://www.physioactif.com/en/#org"
@@ -124,8 +123,7 @@
       },
       "specialty": [
         "Physiotherapy",
-        "Musculoskeletal",
-        "SportsMedicine"
+        "Musculoskeletal"
       ],
       "medicalAudience": [
         {

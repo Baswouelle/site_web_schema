@@ -59,8 +59,7 @@
   ],
   "specialty": [
     "Physiotherapy",
-    "Musculoskeletal",
-    "Pain Management"
+    "Musculoskeletal"
   ],
   "provider": {
     "@id": "https://www.physioactif.com/en/#org"

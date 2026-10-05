@@ -5,7 +5,10 @@
       "@type": "MedicalTherapy",
       "@id": "https://www.physioactif.com/guide-complet/physiotherapie-pour-bursite-a-l-epaule#therapy",
       "name": "Physiothérapie pour bursite à l'épaule",
-      "alternateName": ["Traitement physiothérapie bursite épaule", "Physiotherapy for shoulder bursitis"],
+      "alternateName": [
+        "Traitement physiothérapie bursite épaule",
+        "Physiotherapy for shoulder bursitis"
+      ],
       "description": "La physiothérapie pour bursite à l'épaule combine techniques manuelles, exercices thérapeutiques progressifs et éducation du patient pour réduire l'inflammation, soulager la douleur et restaurer la fonction de l'épaule. Traitement de première ligne recommandé.",
       "relevantSpecialty": {
         "@type": "MedicalSpecialty",
@@ -68,7 +71,7 @@
       "mainEntity": {
         "@id": "https://www.physioactif.com/guide-complet/physiotherapie-pour-bursite-a-l-epaule#therapy"
       },
-      "specialty": "Physiothérapie musculosquelettique",
+      "specialty": "Physiotherapy",
       "citation": [
         {
           "@type": "ScholarlyArticle",

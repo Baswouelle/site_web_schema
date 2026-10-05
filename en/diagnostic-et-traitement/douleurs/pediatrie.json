@@ -57,7 +57,7 @@
   ],
   "specialty": [
     "Physiotherapy",
-    "Pediatrics"
+    "Pediatric"
   ],
   "provider": {
     "@id": "https://www.physioactif.com/en/#org"

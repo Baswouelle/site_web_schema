@@ -11,8 +11,7 @@
     "cssSelector": [
       ".header_heading",
       ".header_content .max-width-medium",
-      ".perks_content-right h2",
-      ".perks_content-right .w-richtext"
+      ".text-rich-text h2"
     ]
   },
   "datePublished": "2025-09-26",
@@ -62,7 +61,6 @@
   ],
   "specialty": [
     "Physiotherapy",
-    "Sports Medicine",
     "Musculoskeletal"
   ],
   "provider": {

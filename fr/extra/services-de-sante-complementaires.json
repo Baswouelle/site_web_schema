@@ -69,7 +69,6 @@
             "@type": "MedicalTherapy",
             "name": "Acupuncture",
             "description": "L'acupuncture est un type de soin thérapeutique faisant partie de la médecine traditionnelle chinoise dont l'objectif est de traiter l'intérieur du corps en stimulant des points précis, situés à différents endroits du corps, à l'aide de petites aiguilles.",
-            "relevantSpecialty": "Acupuncture",
             "image": {
               "@type": "ImageObject",
               "url": "https://cdn.prod.website-files.com/6710038d098190f16121f569/67100a2f0e2bc4c7ca02e87e_Acupuncture.webp",
@@ -105,7 +104,6 @@
             "@type": "MedicalTherapy",
             "name": "Ostéopathie",
             "description": "L'ostéopathie est un type de médecine alternative qui met l'accent sur la manipulation physique des tissus musculaires et osseux du corps. Il s'agit d'une forme de thérapie manuelle consistant à manipuler doucement les parties douloureuses ou enflammées du corps pour rétablir l'équilibre de l'organisme.",
-            "relevantSpecialty": "Osteopathy",
             "image": {
               "@type": "ImageObject",
               "url": "https://cdn.prod.website-files.com/6710038d098190f16121f569/67100a2f55b076c7df8126f9_Osth%C3%A9opathie.webp",
@@ -141,7 +139,6 @@
             "@type": "MedicalTherapy",
             "name": "Massothérapie",
             "description": "La massothérapie est une des plus anciennes thérapies contre les douleurs physiques. Il s'agit d'un traitement thérapeutique qui utilise un ensemble de manoeuvres manuelles dont le but visé est la relaxation musculaire et le soulagement de la douleur physique.",
-            "relevantSpecialty": "MassageTherapy",
             "image": {
               "@type": "ImageObject",
               "url": "https://cdn.prod.website-files.com/6710038d098190f16121f569/67100a2f28d02af64a1ab8cc_Massoth%C3%A9rapie.webp",

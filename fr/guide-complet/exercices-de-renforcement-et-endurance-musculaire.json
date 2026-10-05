@@ -94,13 +94,11 @@
         "cssSelector": [
           ".header_heading",
           ".header_content .text-style-muted.w-richtext",
-          ".section_article .text-rich-text h2"
+          ".text-rich-text h2"
         ]
       },
       "specialty": [
-        "Physiotherapy",
-        "Sports Medicine",
-        "Rehabilitation Medicine"
+        "Physiotherapy"
       ],
       "medicalAudience": [
         {

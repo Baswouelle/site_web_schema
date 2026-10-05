@@ -61,9 +61,7 @@
     }
   ],
   "specialty": [
-    "Physiotherapy",
-    "Sports Medicine",
-    "Neurological Rehabilitation"
+    "Physiotherapy"
   ],
   "provider": {
     "@id": "https://www.physioactif.com/en/#org"
